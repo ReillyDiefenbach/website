@@ -1,0 +1,37 @@
+{
+  "id": "/",
+  "name": "CarlVon",
+  "short_name": "CarlVon",
+  "description": "CarlVon Analysen und Module",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "/_assets/favs/b/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/_assets/favs/b/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/_assets/favs/b/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": [
+    "productivity"
+  ],
+  "lang": "de",
+  "dir": "ltr"
+}

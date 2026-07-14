@@ -1,0 +1,116 @@
+.navSection {
+    --nav-section-aside-width: calc(var(--fs, 16px) * 13.75);
+    --nav-section-main-width: calc(var(--fs, 16px) * 60);
+    --nav-section-gap: calc(var(--fs, 16px) * 2.5);
+    width: calc(var(--nav-section-aside-width) + var(--nav-section-gap) + var(--nav-section-main-width));
+    min-width: calc(var(--nav-section-aside-width) + var(--nav-section-gap) + var(--nav-section-main-width));
+    max-width: none;
+    margin-right: auto;
+    margin-left: auto;
+    display: grid;
+    grid-template-columns:
+        var(--nav-section-aside-width)
+        var(--nav-section-gap)
+        minmax(0, var(--nav-section-main-width));
+    align-items: start;
+    padding-top: calc(var(--header-height, 72px) + var(--section-top-space, clamp(8px, 3vw, 45px)));
+    padding-right: 0;
+    padding-left: 0;
+    background: #fff;
+}
+
+section.content.navSection,
+#middle > section.content.navSection,
+#middle > .page > section.content.navSection,
+#middle > .scrollHeroPage > section.content.navSection,
+#middle > .normalScrollPage > section.content.navSection,
+#middle > .cinematicPage > section.content.navSection {
+    width: calc(var(--nav-section-aside-width) + var(--nav-section-gap) + var(--nav-section-main-width));
+    min-width: calc(var(--nav-section-aside-width) + var(--nav-section-gap) + var(--nav-section-main-width));
+    max-width: none;
+    margin-right: auto;
+    margin-left: auto;
+    grid-template-columns:
+        var(--nav-section-aside-width)
+        var(--nav-section-gap)
+        minmax(0, var(--nav-section-main-width));
+    padding-top: calc(var(--header-height, 72px) + var(--section-top-space, clamp(8px, 3vw, 45px)));
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.navSection > * {
+    grid-column: auto;
+}
+
+.navSection > aside {
+    grid-column: 1;
+    position: sticky;
+    top: calc(var(--header-height, 72px) + clamp(14px, 4vw, 52px));
+    width: var(--nav-section-aside-width);
+    max-height: calc(100vh - var(--header-height, 72px) - 48px);
+    overflow-y: auto;
+}
+
+.navSection > main {
+    grid-column: 3;
+    min-width: 0;
+    width: var(--nav-section-main-width);
+}
+
+.navSection > aside > nav {
+    --text: #000;
+    --muted: #666;
+    --line: #d9d9d9;
+    display: flex;
+    flex-direction: column;
+    padding-left: 18px;
+    border-left: 1px solid var(--line);
+    font-size: 16px;
+    line-height: 1.35;
+}
+
+.navSection > aside > nav a {
+    position: relative;
+    display: block;
+    width: 100%;
+    padding: 8px 0 8px 16px;
+    color: var(--muted);
+    font: inherit;
+    font-weight: 600;
+    text-align: left;
+    text-decoration: none;
+}
+
+.navSection__group {
+    display: grid;
+    gap: 0;
+}
+
+.navSection__subNav {
+    display: grid;
+    gap: 0;
+    padding-left: 14px;
+}
+
+.navSection > aside > nav .navSection__link--sub {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 0;
+    font-size: 0.92em;
+}
+
+.navSection > aside > nav a.active,
+.navSection > aside > nav a:hover {
+    color: var(--text);
+}
+
+.navSection > aside > nav a.active::before {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -19px;
+    width: 2px;
+    background: var(--text);
+    content: "";
+}

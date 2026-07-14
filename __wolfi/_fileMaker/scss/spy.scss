@@ -1,0 +1,20 @@
+.spy-group {
+  display: grid;
+  gap: 10px;
+
+  .nav-menu__item {
+    border-left: 3px solid transparent;
+    color: $cv-color-muted;
+    display: block;
+    line-height: 1.35;
+    padding: 6px 0 6px 12px;
+    text-decoration: none;
+
+    &:hover,
+    &:focus-visible,
+    &.is-active {
+      border-left-color: $main-color;
+      color: $cv-color-text;
+    }
+  }
+}

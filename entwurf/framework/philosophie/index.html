@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Philosophie des Systems</title>
+<style>
+:root{--bg:#f5f1ea;--paper:#fffdf8;--ink:#1d1b18;--muted:#62584d;--line:#d8cfc1;--accent:#2f5d62;--accent-2:#93602e}
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,sans-serif;background:radial-gradient(circle at top right,#fbf7f1 0,#f5f1ea 42%,#efe6d8 100%);color:var(--ink);line-height:1.5}
+a{color:var(--accent);text-decoration:none} a:hover{text-decoration:underline}
+.wrap{max-width:1080px;margin:0 auto;padding:26px 20px 54px}
+.nav{display:flex;gap:12px;flex-wrap:wrap;font-size:.95rem;padding:6px 0 18px;border-bottom:1px solid var(--line)}
+.hero{padding:28px 0 16px}
+.eyebrow{font-size:.76rem;letter-spacing:.16em;text-transform:uppercase;color:var(--accent-2);margin-bottom:10px}
+h1{font-size:clamp(2.2rem,5vw,4rem);line-height:1.05;margin:0 0 14px}
+.lead{max-width:64ch;font-size:1.1rem;color:var(--muted)}
+.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin:22px 0}
+.card,.callout{background:rgba(255,255,255,.94);border:1px solid var(--line);border-radius:18px;padding:18px}
+.card h2,.callout h2{margin:0 0 8px;font-size:1.1rem}
+.card p,.callout p{color:var(--muted);margin:0}
+.list{margin:0;padding-left:18px;color:var(--muted)}
+.wide{margin-top:16px;padding:18px;border-radius:18px;border:1px solid var(--line);background:linear-gradient(180deg,#fff 0,#faf6ef 100%)}
+.footer{margin-top:22px;padding-top:16px;border-top:1px solid var(--line);color:var(--muted)}
+@media (max-width: 900px){.grid{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="nav"><a href="/pna/">PNA</a><a href="/analyse/">Analyse</a><a href="/framework/">Framework</a></div>
+  <section class="hero">
+    <div class="eyebrow">Haltung</div>
+    <h1>Das System will Orientierung sichtbar machen, nicht Menschen sortieren.</h1>
+    <p class="lead">Die Philosophie hinter PNA ist bewusst schlicht: Menschen sind mehr als ein Label. Die Aufgabe des Systems ist es, natürliche Orientierung, Rollen und Ergebnisse verständlich zu machen.</p>
+  </section>
+  <section class="grid">
+    <article class="card"><h2>Keine Schubladen</h2><p>Die PNA beschreibt Muster, aber sie macht daraus keine festen Identitäten.</p></article>
+    <article class="card"><h2>Orientierung statt Urteil</h2><p>Das Ziel ist Verständlichkeit. Wertungen stehen nicht im Mittelpunkt.</p></article>
+    <article class="card"><h2>Entwicklung statt Stillstand</h2><p>Ergebnisse sollen Gespräche ermöglichen und nicht schließen.</p></article>
+  </section>
+  <section class="callout">
+    <h2>Was das praktisch heißt</h2>
+    <p>Die Seiten sprechen einfach, bleiben aber präzise. Sie erklären, was ein Ergebnis zeigt, was es nicht zeigt und wie man es sinnvoll weiterverwendet.</p>
+  </section>
+  <div class="wide">
+    <h2>Leitlinien</h2>
+    <ul class="list">
+      <li>verständlich vor kompliziert</li>
+      <li>Orientierung vor Bewertung</li>
+      <li>Lesbarkeit vor Fachsprache</li>
+      <li>Kontext vor Pauschalität</li>
+    </ul>
+  </div>
+  <div class="footer"><a href="/framework/wissenschaftlicher-hintergrund/">Zur wissenschaftlichen Logik</a></div>
+</div>
+</body>
+</html>

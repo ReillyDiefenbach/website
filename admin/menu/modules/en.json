@@ -1,0 +1,402 @@
+﻿{
+    "thinking":  {
+                     "title":  "Think \u0026 Act",
+                     "subtitle":  "How ideas become decisions and actions",
+                     "keyquest":  "How do I process information, and how do I move into action?",
+                     "axis":  "Thinking vs. Action",
+                     "short":  "thinking",
+                     "badge":  "THACT"
+                 },
+    "nexus":  {
+                  "title":  "Bond \u0026 Change",
+                  "subtitle":  "Between connection, independence, and change",
+                  "keyquest":  "How do I connect closeness, autonomy, stability, and change?",
+                  "axis":  "Relationship vs. Change",
+                  "short":  "nexus",
+                  "badge":  "NEXUS"
+              },
+    "communication":  {
+                          "title":  "Connect \u0026 Influence",
+                          "subtitle":  "How resonance, clarity, and expression work together",
+                          "keyquest":  "How do I communicate, and how do I affect others?",
+                          "axis":  "Communication vs. Expression",
+                          "short":  "comm",
+                          "badge":  "COMM"
+                      },
+    "roles":  {
+                  "title":  "Role \u0026 Impact",
+                  "subtitle":  "Which role you tend to take in teams and relationships",
+                  "keyquest":  "How do I contribute to groups, tasks, and shared initiatives?",
+                  "axis":  "Role vs. Impact",
+                  "short":  "role",
+                  "badge":  "ROLE"
+              },
+    "change":  {
+                   "title":  "Change \u0026 Adapt",
+                   "subtitle":  "How change is initiated, guided, and integrated",
+                   "keyquest":  "How do I deal with change, stability, and transformation?",
+                   "axis":  "Direction vs. Change",
+                   "short":  "chng",
+                   "badge":  "CHNGE"
+               },
+    "coordination":  {
+                         "title":  "Coordinate \u0026 Align",
+                         "subtitle":  "Balancing closeness, overview, and alignment",
+                         "keyquest":  "How do I coordinate collaboration between closeness, distance, action, and reflection?",
+                         "axis":  "Involvement vs. Action",
+                         "short":  "cord",
+                         "badge":  "COORD"
+                     },
+    "motivation":  {
+                       "title":  "Meaning \u0026 Drive",
+                       "subtitle":  "What drives people and fills decisions with energy",
+                       "keyquest":  "What motivates me, and how do I evaluate opportunity and safety?",
+                       "axis":  "Motivation vs. Drive",
+                       "short":  "motv",
+                       "badge":  "MOTV"
+                   },
+    "social":  {
+                   "title":  "Status \u0026 Belonging",
+                   "subtitle":  "Finding your own position between individuality and belonging",
+                   "keyquest":  "How do I position myself within social systems?",
+                   "axis":  "Social Context vs. Interaction",
+                   "short":  "soc",
+                   "badge":  "SOCIO"
+               },
+    "contribution":  {
+                         "title":  "Contribute \u0026 Excel",
+                         "subtitle":  "How ideas, implementation, and contribution come together",
+                         "keyquest":  "How do I make my contribution, and how do I prefer to work?",
+                         "axis":  "Contribution vs. Work Style",
+                         "short":  "contr",
+                         "badge":  "CONTR"
+                     },
+    "creativity":  {
+                       "title":  "Create \u0026 Improve",
+                       "subtitle":  "Discovering new possibilities and improving what already exists",
+                       "keyquest":  "How do I develop creative solutions and new ideas?",
+                       "axis":  "Innovation vs. Creativity",
+                       "short":  "crea",
+                       "badge":  "CREAT"
+                   },
+    "leadership":  {
+                       "title":  "Lead \u0026 Develop",
+                       "subtitle":  "How direction, trust, and development emerge",
+                       "keyquest":  "How do I lead, guide, and develop people or situations?",
+                       "axis":  "Leadership vs. Influence",
+                       "short":  "lead",
+                       "badge":  "LDR"
+                   },
+    "organization":  {
+                         "title":  "Structure \u0026 Culture",
+                         "subtitle":  "Which environments enable performance, freedom, and culture",
+                         "keyquest":  "Which organizational and cultural patterns do I prefer or shape?",
+                         "axis":  "Organization vs. Culture",
+                         "short":  "org",
+                         "badge":  "ORGNX"
+                     },
+    "decision":  {
+                     "title":  "Decide \u0026 Act",
+                     "subtitle":  "How options become clear decisions",
+                     "keyquest":  "How do I prepare decisions, and how do I make them?",
+                     "axis":  "Decision vs. Evaluation",
+                     "short":  "deci",
+                     "badge":  "DECIS"
+                 },
+    "risk":  {
+                 "title":  "Risk \u0026 Secure",
+                 "subtitle":  "Using opportunities, assessing uncertainty, and creating safety",
+                 "keyquest":  "How do I handle risk, safety, spontaneity, and planning?",
+                 "axis":  "Risk vs. Action",
+                 "short":  "risk",
+                 "badge":  "RISKX"
+             },
+    "relationships":  {
+                          "title":  "Connect \u0026 Relate",
+                          "subtitle":  "Understanding closeness, autonomy, and influence in relationships",
+                          "keyquest":  "How do I shape relationships between independence, attachment, and influence?",
+                          "axis":  "Relationship vs. Influence",
+                          "short":  "relat",
+                          "badge":  "RELAT"
+                      },
+    "cognition":  {
+                      "title":  "Think \u0026 Understand",
+                      "subtitle":  "How thinking creates orientation in complex situations",
+                      "keyquest":  "How do I think, understand, and organize information?",
+                      "axis":  "Thinking vs. Approach",
+                      "short":  "cogn",
+                      "badge":  "COGNI"
+                  },
+    "self_regulation":  {
+                            "title":  "Balance \u0026 Direct",
+                            "subtitle":  "Navigating between duty, enjoyment, freedom, and control",
+                            "keyquest":  "How do I regulate myself between responsibility, needs, and freedom?",
+                            "axis":  "Motivation vs. Direction",
+                            "short":  "sreg",
+                            "badge":  "SREG"
+                        },
+    "impact":  {
+                   "title":  "Express \u0026 Connect",
+                   "subtitle":  "How authenticity, status, and social impact emerge",
+                   "keyquest":  "How do I create impact, and how do I position myself socially?",
+                   "axis":  "Positioning vs. Impact",
+                   "short":  "impa",
+                   "badge":  "IMPACT"
+               },
+    "conflict":  {
+                     "title":  "Challenge \u0026 Resolve",
+                     "subtitle":  "Making tensions visible and finding sustainable solutions",
+                     "keyquest":  "How do I deal with competition, cooperation, risk, and safety in conflict?",
+                     "axis":  "Conflict vs. Safety",
+                     "short":  "conf",
+                     "badge":  "CONFL"
+                 },
+    "leadership_style":  {
+                             "title":  "Guide \u0026 Inspire",
+                             "subtitle":  "How leadership works through reflection, practice, and orientation",
+                             "keyquest":  "How do I accompany, structure, and develop leadership situations?",
+                             "axis":  "Reflection vs. Practice",
+                             "short":  "lsty",
+                             "badge":  "LSTYLE"
+                         },
+    "personal_style":  {
+                           "title":  "Live \u0026 Express",
+                           "subtitle":  "How expression, order, closeness, and distance interact",
+                           "keyquest":  "How do I shape my personal style in presence and behavior?",
+                           "axis":  "Style vs. Expression",
+                           "short":  "psty",
+                           "badge":  "PSTYLE"
+                       },
+    "performance":  {
+                        "title":  "Perform \u0026 Balance",
+                        "subtitle":  "Developing performance without losing balance and connection",
+                        "keyquest":  "How do I connect effectiveness, performance, and balance?",
+                        "axis":  "Balance vs. Performance",
+                        "short":  "perf",
+                        "badge":  "PERF"
+                    },
+    "future":  {
+                   "title":  "Explore \u0026 Envision",
+                   "subtitle":  "Recognizing possibilities and making visions of the future tangible",
+                   "keyquest":  "How do I think about the future, safety, and new possibilities?",
+                   "axis":  "Future vs. Activation",
+                   "short":  "futr",
+                   "badge":  "FUTUR"
+               },
+    "positioning":  {
+                        "title":  "Principles \u0026 Purpose",
+                        "subtitle":  "Aligning values, purpose, and personal stance",
+                        "keyquest":  "What guides me when principles, practical matters, and control meet?",
+                        "axis":  "Values vs. Purpose",
+                        "short":  "posi",
+                        "badge":  "VALUES"
+                    },
+    "culture":  {
+                    "title":  "Culture \u0026 Identity",
+                    "subtitle":  "Connecting community, autonomy, and structure through culture",
+                    "keyquest":  "Which cultural patterns shape my behavior and my environment?",
+                    "axis":  "Culture vs. Identity",
+                    "short":  "cult",
+                    "badge":  "CULTR"
+                },
+    "communication_style":  {
+                                "title":  "Speak \u0026 Influence",
+                                "subtitle":  "Shaping speech, influence, and closeness with awareness",
+                                "keyquest":  "How do I bring content, people, and impact together in communication?",
+                                "axis":  "Language vs. Influence",
+                                "short":  "csty",
+                                "badge":  "CSTYLE"
+                            },
+    "activation":  {
+                       "title":  "Start \u0026 Sustain",
+                       "subtitle":  "Taking up impulses and turning energy into sustained action",
+                       "keyquest":  "How do I start initiatives, and how do I maintain energy?",
+                       "axis":  "Start vs. Endurance",
+                       "short":  "actv",
+                       "badge":  "ACTIV"
+                   },
+    "adaptability":  {
+                         "title":  "Adapt \u0026 Grow",
+                         "subtitle":  "Staying flexible between change, stability, and social orientation",
+                         "keyquest":  "How do I adapt to new situations and requirements?",
+                         "axis":  "Adaptation vs. Growth",
+                         "short":  "adpt",
+                         "badge":  "ADAPT"
+                     },
+    "strategy":  {
+                     "title":  "Plan \u0026 Reflect",
+                     "subtitle":  "Recognizing potential and translating it into realistic paths",
+                     "keyquest":  "How do I develop strategy between future, feasibility, and reflection?",
+                     "axis":  "Strategy vs. Reflection",
+                     "short":  "stra",
+                     "badge":  "STRTG"
+                 },
+    "identity":  {
+                     "title":  "Identity \u0026 Purpose",
+                     "subtitle":  "Clarifying self-image, recognition, freedom, and attachment",
+                     "keyquest":  "What forms my sense of self?",
+                     "axis":  "Identity vs. Purpose",
+                     "short":  "iden",
+                     "badge":  "IDNTY"
+                 },
+    "leadership_influence":  {
+                                 "title":  "Develop \u0026 Empower",
+                                 "subtitle":  "Connecting trust, control, and development in leadership",
+                                 "keyquest":  "How do I empower others, and how do I exercise influence responsibly?",
+                                 "axis":  "Development vs. Empowerment",
+                                 "short":  "linf",
+                                 "badge":  "LINFL"
+                             },
+    "organization_style":  {
+                               "title":  "Build \u0026 Organize",
+                               "subtitle":  "Aligning innovation, safety, and relationships organizationally",
+                               "keyquest":  "How do I build and organize stable, effective environments?",
+                               "axis":  "Building vs. Organization",
+                               "short":  "osty",
+                               "badge":  "OSTYL"
+                           },
+    "resilience":  {
+                       "title":  "Rise \u0026 Recover",
+                       "subtitle":  "Taking in crises, gathering strength, and becoming able to act again",
+                       "keyquest":  "How do I recover from strain, and how do I find renewed stability?",
+                       "axis":  "Resilience vs. Recovery",
+                       "short":  "resilience",
+                       "badge":  "RESIL"
+                   },
+    "learning":  {
+                     "title":  "Learn \u0026 Grow",
+                     "subtitle":  "Connecting knowledge, experience, and development",
+                     "keyquest":  "How do I learn, and how do I grow through experience and structure?",
+                     "axis":  "Learning vs. Growth",
+                     "short":  "learning",
+                     "badge":  "LEARN"
+                 },
+    "reliance":  {
+                     "title":  "Trust \u0026 Verify",
+                     "subtitle":  "Testing trust, securing relationships, and creating reliability",
+                     "keyquest":  "How does reliable trust emerge for me?",
+                     "axis":  "Trust vs. Verification",
+                     "short":  "reliance",
+                     "badge":  "TRUST"
+                 },
+    "life_balance":  {
+                         "title":  "Live \u0026 Balance",
+                         "subtitle":  "Balancing freedom, obligation, performance, and recovery",
+                         "keyquest":  "How do I keep my life balanced between ambition and recovery?",
+                         "axis":  "Life vs. Balance",
+                         "short":  "lifebalance",
+                         "badge":  "BALNC"
+                     },
+    "meaning":  {
+                    "title":  "Mean \u0026 Matter",
+                    "subtitle":  "Finding meaning between self, community, present, and future",
+                    "keyquest":  "Where do I find meaning, and what makes my actions feel coherent?",
+                    "axis":  "Meaning vs. Significance",
+                    "short":  "meaning",
+                    "badge":  "MEAN"
+                },
+    "complexity":  {
+                       "title":  "Sense \u0026 Simplify",
+                       "subtitle":  "Understanding variety and making complexity manageable",
+                       "keyquest":  "How do I handle complexity, simplification, action, and understanding?",
+                       "axis":  "Complexity vs. Simplification",
+                       "short":  "complexity",
+                       "badge":  "CMPLX"
+                   },
+    "energy":  {
+                   "title":  "Spark \u0026 Recharge",
+                   "subtitle":  "Consciously directing your own energy and the energy around you",
+                   "keyquest":  "Where do I draw energy from, and how do I regenerate?",
+                   "axis":  "Energy vs. Regeneration",
+                   "short":  "energy",
+                   "badge":  "ENRGY"
+               },
+    "trust":  {
+                  "title":  "Trust \u0026 Verify",
+                  "subtitle":  "Clearly distinguishing relational closeness from systemic trust",
+                  "keyquest":  "How do I trust: through closeness, structure, initial confidence, or verification?",
+                  "axis":  "Trust vs. Verification",
+                  "short":  "trust",
+                  "badge":  "TRUST"
+              },
+    "mobilization":  {
+                         "title":  "Influence \u0026 Impact",
+                         "subtitle":  "Moving people, providing orientation, and creating impact",
+                         "keyquest":  "How do I mobilize others for ideas, goals, and shared action?",
+                         "axis":  "Influence vs. Impact",
+                         "short":  "mobil",
+                         "badge":  "INFLU"
+                     },
+    "influence":  {
+                      "title":  "Influence \u0026 Align",
+                      "subtitle":  "Effectively connecting persuasion, alignment, and involvement",
+                      "keyquest":  "How do I influence others, and how do I align people around shared goals?",
+                      "axis":  "Influence vs. Alignment",
+                      "short":  "infl",
+                      "badge":  "INFL"
+                  },
+    "collaboration":  {
+                          "title":  "Collaborate \u0026 Align",
+                          "subtitle":  "Productively connecting independence and cooperation",
+                          "keyquest":  "How do I work together with others?",
+                          "axis":  "Collaboration vs. Alignment",
+                          "short":  "collab",
+                          "badge":  "COLLAB"
+                      },
+    "recognition":  {
+                        "title":  "Recognize \u0026 Reward",
+                        "subtitle":  "Making performance, contribution, and appreciation visible",
+                        "keyquest":  "How do I acknowledge performance and contribution in myself and others?",
+                        "axis":  "Recognition vs. Affirmation",
+                        "short":  "recog",
+                        "badge":  "RECOG"
+                    },
+    "purpose":  {
+                    "title":  "Purpose \u0026 Contribute",
+                    "subtitle":  "Aligning energy with meaning, contribution, and concrete impact",
+                    "keyquest":  "What do I invest my energy in?",
+                    "axis":  "Purpose vs. Contribution",
+                    "short":  "purpose",
+                    "badge":  "PURP"
+                },
+    "innovation":  {
+                       "title":  "Innovate \u0026 Optimize",
+                       "subtitle":  "Discovering, testing, improving, and implementing what is new",
+                       "keyquest":  "How does something new emerge?",
+                       "axis":  "Innovation vs. Implementation",
+                       "short":  "innov",
+                       "badge":  "INNOV"
+                   },
+    "delegation":  {
+                       "title":  "Delegate \u0026 Empower",
+                       "subtitle":  "Passing on responsibility, enabling trust, and securing orientation",
+                       "keyquest":  "How do I pass on responsibility?",
+                       "axis":  "Delegation vs. Empowerment",
+                       "short":  "deleg",
+                       "badge":  "DELEG"
+                   },
+    "transfer":  {
+                     "title":  "Learn \u0026 Apply",
+                     "subtitle":  "Translating learning into application and reflecting on experience",
+                     "keyquest":  "How do I transfer knowledge into effective action?",
+                     "axis":  "Learning vs. Application",
+                     "short":  "transfer",
+                     "badge":  "LEARN"
+                 },
+    "values":  {
+                   "title":  "Values \u0026 Decisions",
+                   "subtitle":  "Connecting principles, outcomes, and responsibility in decisions",
+                   "keyquest":  "Which values guide my decisions?",
+                   "axis":  "Values vs. Decision",
+                   "short":  "values",
+                   "badge":  "VALUE"
+               },
+    "legacy":  {
+                   "title":  "Legacy \u0026 Impact",
+                   "subtitle":  "Thinking about meaning and impact beyond the present",
+                   "keyquest":  "What do I want to leave behind?",
+                   "axis":  "Legacy vs. Impact",
+                   "short":  "legacy",
+                   "badge":  "LEGACY"
+               }
+}

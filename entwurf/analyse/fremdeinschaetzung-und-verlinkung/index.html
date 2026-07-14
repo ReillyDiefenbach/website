@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fremdeinschätzung und Verlinkung</title>
+<style>
+:root{--bg:#f5f1ea;--paper:#fffdf8;--ink:#1d1b18;--muted:#64584d;--line:#d8cfc1;--accent:#2f5d62;--accent-2:#a06a2f}
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,sans-serif;background:linear-gradient(180deg,#fbf8f1 0,#f5f1ea 100%);color:var(--ink);line-height:1.5}
+a{color:var(--accent);text-decoration:none} a:hover{text-decoration:underline}
+.wrap{max-width:1120px;margin:0 auto;padding:26px 20px 54px}
+.nav{display:flex;gap:12px;flex-wrap:wrap;font-size:.95rem;padding:6px 0 18px;border-bottom:1px solid var(--line)}
+.hero{display:grid;grid-template-columns:1.1fr .9fr;gap:18px;align-items:start;padding:28px 0 16px}
+.eyebrow{font-size:.76rem;letter-spacing:.16em;text-transform:uppercase;color:var(--accent-2);margin-bottom:10px}
+h1{font-size:clamp(2.2rem,5vw,4rem);line-height:1.05;margin:0 0 14px}
+.lead{max-width:64ch;font-size:1.1rem;color:var(--muted)}
+.panel,.box,.callout{background:rgba(255,255,255,.94);border:1px solid var(--line);border-radius:18px;padding:18px}
+.split{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:22px 0}
+.box h2,.callout h2,.panel h2{margin:0 0 8px;font-size:1.12rem}
+.box p,.callout p,.panel p,.box li{color:var(--muted)}
+.compare{width:100%;border-collapse:collapse;margin-top:8px}
+.compare th,.compare td{border-bottom:1px solid var(--line);padding:10px 8px;text-align:left;vertical-align:top}
+.timeline{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin-top:16px}
+.step{padding:16px;border-radius:18px;background:linear-gradient(180deg,#fff 0,#faf6ef 100%);border:1px solid var(--line)}
+.step strong{display:block;margin-bottom:6px}
+@media (max-width: 900px){.hero,.split,.timeline{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="nav"><a href="/pna/">PNA</a><a href="/analyse/">Analyse</a><a href="/framework/">Framework</a></div>
+  <section class="hero">
+    <div>
+      <div class="eyebrow">Selbst- und Fremdbild</div>
+      <h1>Ein gutes Bild entsteht nicht nur aus der eigenen Sicht.</h1>
+      <p class="lead">Die PNA kann dieselben Fragen auch als Fremdeinschätzung stellen. So wird sichtbar, wie sich Selbstbild und Fremdbild zueinander verhalten. Und ja: manchmal ist das überraschend genug für zwei Kaffeepausen.</p>
+    </div>
+    <div class="panel">
+      <strong>Worum es geht</strong>
+      <p>Die Fremdeinschätzung nutzt dasselbe Raster wie die Selbsteinschätzung. Dadurch sind die Ergebnisse direkt vergleichbar, ohne dass die Logik gewechselt wird.</p>
+    </div>
+  </section>
+  <section class="split">
+    <div class="box">
+      <h2>Fremdeinschätzung</h2>
+      <p>Andere bewerten dieselben Aussagen mit demselben Likert-Raster. Das macht Unterschiede sichtbar, ohne dass dafür eine neue Sprache nötig ist.</p>
+      <ul>
+        <li>gleiches Antwortformat</li>
+        <li>vergleichbare Daten</li>
+        <li>kein zusätzlicher Umweg</li>
+      </ul>
+    </div>
+    <div class="box">
+      <h2>Verlinkung</h2>
+      <p>Ergebnisse können unmittelbar miteinander verknüpft werden. So lassen sich zwei oder mehr Personen im selben Kontext vergleichen.</p>
+      <ul>
+        <li>Selbstbild und Fremdbild</li>
+        <li>Vergleich mehrerer Personen</li>
+        <li>gemeinsame Sicht auf Unterschiede</li>
+      </ul>
+    </div>
+  </section>
+  <section class="callout">
+    <h2>Warum das nützlich ist</h2>
+    <p>Menschen nehmen sich selbst nicht immer so wahr, wie andere sie erleben. Der Abgleich hilft dabei, blinde Flecken zu erkennen, ohne daraus ein Urteil zu machen.</p>
+  </section>
+  <table class="compare">
+    <thead><tr><th>Bereich</th><th>Selbstbild</th><th>Fremdbild</th></tr></thead>
+    <tbody>
+      <tr><td>Rolle</td><td>eigene Sicht auf Orientierung und Verhalten</td><td>Beobachtung durch andere mit demselben Raster</td></tr>
+      <tr><td>Nutzen</td><td>Selbstverständnis</td><td>Abgleich und Korrektur</td></tr>
+      <tr><td>Gemeinsamer Wert</td><td colspan="2">mehr Klarheit über Übereinstimmung und Reibung</td></tr>
+    </tbody>
+  </table>
+  <div class="timeline">
+    <div class="step"><strong>1. Einladung</strong><span>Andere Personen können zur Bewertung eingeladen werden.</span></div>
+    <div class="step"><strong>2. Vergleich</strong><span>Die Daten stehen nebeneinander und lassen sich direkt lesen.</span></div>
+    <div class="step"><strong>3. Verbindung</strong><span>Mehrere Ergebnisse können in einem Kontext zusammengeführt werden.</span></div>
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,65 @@
+[
+  {
+    "lang": "overview",
+    "children": [
+      {
+        "lang": "test",
+        "link": "overview/test"
+      },
+      {
+        "lang": "reason",
+        "link": "overview/reason"
+      },
+      {
+        "lang": "science",
+        "link": "overview/science"
+      }
+    ]
+  },
+  {
+    "lang": "modules",
+    "children": []
+  },
+  {
+    "lang": "pricing",
+    "link": "admin/ticketing"
+  },
+  {
+    "lang": "about",
+    "children": [
+      {
+        "lang": "contact",
+        "link": "about/contact"
+      },
+      {
+        "lang": "news",
+        "link": "about/news"
+      },
+      {
+        "lang": "legal",
+        "children": [
+          {
+            "lang": "privacy",
+            "link": "admin/legal/privacy"
+          },
+          {
+            "lang": "terms",
+            "link": "admin/legal/terms"
+          },
+          {
+            "lang": "disclaimer",
+            "link": "admin/legal/disclaimer"
+          },
+          {
+            "lang": "coopol",
+            "link": "admin/legal/coopol"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lang": "login",
+    "href": "https://carlvon.cloud"
+  }
+]

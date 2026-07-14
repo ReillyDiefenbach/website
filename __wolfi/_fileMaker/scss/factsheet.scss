@@ -1,0 +1,19 @@
+.factsheet {
+  color: $cv-color-text;
+  display: grid;
+  gap: 16px;
+
+  .factsheet__section {
+    border: 1px solid $cv-color-line;
+    border-radius: $cv-radius;
+    background: $cv-color-panel;
+    padding: 16px;
+  }
+
+  .factsheet__title {
+    color: $cv-color-text;
+    font-size: 1rem;
+    font-weight: 700;
+    margin: 0 0 8px;
+  }
+}

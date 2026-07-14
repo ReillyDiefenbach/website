@@ -1,0 +1,37 @@
+# Local credentials and machine-specific configuration
+/__wolfi/_params/_SERVER.php
+/__wolfi/_params/_SECRETS.php
+/.env
+/.env.*
+!/.env.example
+
+# Database exports may contain private or personal data
+/__wolfi/_fileMaker/database/backup/*.sql
+/__wolfi/_fileMaker/database/backup/*.sql.gz
+/*.sql
+/*.sql.gz
+
+# Recovery snapshots remain on disk and belong in the separate full backup
+/__recovery/
+/__recovery_before_restore_*/
+
+# Local editor and operating-system files
+/.vscode/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Runtime and temporary files
+*.log
+*.tmp
+*.temp
+*.cache
+*.swp
+*.swo
+
+# Local transfer archives
+/*.zip
+/*.7z
+/*.tar
+/*.tar.gz
+

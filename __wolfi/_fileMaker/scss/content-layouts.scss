@@ -1,0 +1,29 @@
+/*
+ * Feste, tabellenaehnliche Inhaltsraster.
+ * Im Unterschied zu columnize-* fliesst Inhalt nicht zwischen den Spalten.
+ */
+
+.fixed-cols {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: var(--fixed-cols-gap, clamp(24px, 4vw, 56px));
+    align-items: start;
+}
+
+.fixed-cols > * {
+    min-width: 0;
+    align-self: start;
+}
+
+@media (min-width: 768px) {
+    .fixed-cols--2,
+    .fixed-cols--3 {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (min-width: 1100px) {
+    .fixed-cols--3 {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+}

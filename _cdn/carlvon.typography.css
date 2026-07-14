@@ -1,0 +1,184 @@
+/* typography.scss */
+@font-face {
+  font-family: "Gotham Rounded";
+  src: url("/_assets/fonts/Gotham/GothamRounded Book.otf") format("opentype");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gotham Rounded";
+  src: url("/_assets/fonts/Gotham/GothamRounded Light.otf") format("opentype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gotham Rounded";
+  src: url("/_assets/fonts/Gotham/GothamRounded Medium.otf") format("opentype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gotham Rounded";
+  src: url("/_assets/fonts/Gotham/GothamRounded-Bold.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("/_assets/fonts/Montserrat/Montserrat-VariableFont_wght.ttf") format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("/_assets/fonts/Montserrat/Montserrat-Italic-VariableFont_wght.ttf") format("truetype");
+  font-weight: 100 900;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Garamond Medium";
+  src: url("/_assets/fonts/Garamond/EBGaramond-Medium.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Garamond Semibold";
+  src: url("/_assets/fonts/Garamond/EBGaramond-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Garamond Bold";
+  src: url("/_assets/fonts/Garamond/EBGaramond-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+:root {
+  --fs: 16px;
+  --fs-h1: calc(var(--fs) * 2.5);
+  --fs-h2: clamp(30px, calc(var(--fs) * 2), 34px);
+  --fs-h3: calc(var(--fs) * 1.5);
+  --fs-h4: calc(var(--fs) * 1.25);
+  --fs-h5: calc(var(--fs) * 1.125);
+  --fs-h6: var(--fs);
+  --font-book: "Gotham Rounded", Arial, sans-serif;
+  --font-light: "Gotham Rounded", Arial, sans-serif;
+  --font-medium: "Gotham Rounded", Arial, sans-serif;
+  --font-bold: "Gotham Rounded", Arial, sans-serif;
+  --font-deco: "Garamond Bold", "Times New Roman", sans-serif;
+  --font-decolight: "Garamond Medium", "Times New Roman", sans-serif;
+  --font-decomedium: "Garamond Semibold", "Times New Roman", sans-serif;
+  --font-weight-book: 100;
+  --font-weight-light: 300;
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
+}
+html[data-font="montserrat"], .font-montserrat {
+  --font-book: "Montserrat", Arial, sans-serif;
+  --font-light: "Montserrat", Arial, sans-serif;
+  --font-medium: "Montserrat", Arial, sans-serif;
+  --font-bold: "Montserrat", Arial, sans-serif;
+}
+body, button, input, select, textarea {
+  font-family: var(--font-book);
+  font-size: var(--fs);
+  font-weight: var(--font-weight-book);
+}
+h1, h2, h3, h4, h5, h6, strong, b {
+  font-family: var(--font-bold);
+  font-weight: var(--font-weight-bold);
+}
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.1;
+}
+h1 {
+  margin: 0 0 1em;
+  font-size: var(--fs-h1);
+  text-transform: uppercase;
+}
+h2 {
+  margin: 0 0 0.75em;
+  padding-bottom: 0.5em;
+  border-bottom: 1px solid #ccc;
+  font-size: var(--fs-h2);
+  text-transform: uppercase;
+}
+h3 {
+  margin: calc(var(--fs) * 1.375) 0 var(--fs);
+  font-size: var(--fs-h3);
+}
+h4 {
+  margin: calc(var(--fs) * 1.25) 0 calc(var(--fs) * 0.75);
+  font-size: var(--fs-h4);
+}
+h5 {
+  margin: calc(var(--fs) * 1.125) 0 calc(var(--fs) * 0.625);
+  font-size: var(--fs-h5);
+}
+h6 {
+  margin: var(--fs) 0 calc(var(--fs) * 0.5);
+  font-size: var(--fs-h6);
+}
+p, li {
+  font-family: var(--font-book);
+  font-size: var(--fs);
+  font-weight: var(--font-weight-book);
+  line-height: 1.3;
+}
+p {
+  margin: 0;
+  padding-bottom: 0.75em;
+  color: #444;
+}
+/* Universelle Text-Helfer; auf jedem HTML-Element einsetzbar. */
+.text-left {
+  text-align: left;
+}
+.text-center {
+  text-align: center;
+}
+.text-right {
+  text-align: right;
+}
+.text-block {
+  text-align: justify;
+}
+.text-nowrap {
+  white-space: nowrap;
+}
+.spySection p + p {
+  margin-top: 12px;
+}
+/* Mehrspaltiger Lesefluss; h1 bis h3 beginnen jeweils einen neuen Spaltenblock. */
+.columnize-2, .columnize-3 {
+  column-count: 1;
+  column-gap: var(--column-gap, clamp(24px, 4vw, 56px));
+  column-fill: balance;
+}
+.columnize-2 > h1, .columnize-2 > h2, .columnize-2 > h3, .columnize-3 > h1, .columnize-3 > h2, .columnize-3 > h3 {
+  column-span: all;
+  break-after: avoid-column;
+  break-inside: avoid;
+}
+.columnize-2 > :first-child, .columnize-3 > :first-child {
+  margin-top: 0;
+}
+@media (min-width: 768px) {
+  .columnize-3 {
+    column-count: 2;
+  }
+}
+@media (min-width: 1100px) {
+  .columnize-3 {
+    column-count: 3;
+  }
+}

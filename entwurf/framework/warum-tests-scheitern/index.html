@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Warum klassische Tests scheitern</title>
+<style>
+:root{--bg:#f6f2eb;--paper:#fffdf8;--ink:#1d1b18;--muted:#66594d;--line:#d8ccbf;--accent:#2f5d62;--accent-2:#a06a2f}
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,sans-serif;background:linear-gradient(180deg,#fbf8f1 0,#f6f2eb 100%);color:var(--ink);line-height:1.5}
+a{color:var(--accent);text-decoration:none} a:hover{text-decoration:underline}
+.wrap{max-width:1080px;margin:0 auto;padding:26px 20px 54px}
+.nav{display:flex;gap:12px;flex-wrap:wrap;font-size:.95rem;padding:6px 0 18px;border-bottom:1px solid var(--line)}
+.hero{display:grid;grid-template-columns:1.15fr .85fr;gap:18px;align-items:start;padding:28px 0 16px}
+.eyebrow{font-size:.76rem;letter-spacing:.16em;text-transform:uppercase;color:var(--accent-2);margin-bottom:10px}
+h1{font-size:clamp(2.2rem,5vw,4rem);line-height:1.05;margin:0 0 14px}
+.lead{max-width:64ch;font-size:1.1rem;color:var(--muted)}
+.panel,.card,.callout{background:rgba(255,255,255,.94);border:1px solid var(--line);border-radius:18px;padding:18px}
+.cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin:22px 0}
+.card h2,.callout h2,.panel h2{margin:0 0 8px;font-size:1.1rem}
+.card p,.panel p,.callout p{color:var(--muted);margin:0}
+.list{margin:0;padding-left:18px;color:var(--muted)}
+.wide{margin-top:16px;padding:18px;border-radius:18px;border:1px solid var(--line);background:linear-gradient(180deg,#fff 0,#faf6ef 100%)}
+@media (max-width: 900px){.hero,.cards{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="nav"><a href="/pna/">PNA</a><a href="/analyse/">Analyse</a><a href="/framework/">Framework</a></div>
+  <section class="hero">
+    <div>
+      <div class="eyebrow">Methodenblick</div>
+      <h1>Viele klassische Persönlichkeitstests hören zu früh auf.</h1>
+      <p class="lead">Sie liefern ein Ergebnisbild, aber sie bauen die Evidenz nicht sauber genug auf. PNA setzt deshalb auf Testlogik, Priorisierung und Micro-Mapping statt auf reine Etiketten.</p>
+    </div>
+    <div class="panel">
+      <strong>Worum es geht</strong>
+      <p>Ein Ergebnis wird nur dann brauchbar, wenn die Entstehung nachvollziehbar ist. Genau hier trennt sich ein hübsches Label von einer belastbaren Auswertung.</p>
+    </div>
+  </section>
+  <section class="cards">
+    <article class="card"><h2>Zu wenig Kontext</h2><p>Einzelne Skalen reichen oft nicht, um Orientierung sauber zu beschreiben.</p></article>
+    <article class="card"><h2>Zu wenig Vergleich</h2><p>Selbst- und Fremdbild bleiben häufig getrennt.</p></article>
+    <article class="card"><h2>Zu frühes Fazit</h2><p>Die Auswertung endet, bevor Evidenz wirklich wächst.</p></article>
+  </section>
+  <section class="callout">
+    <h2>Was PNA anders macht</h2>
+    <p>PNA sammelt Hinweise über mehrere Schritte, normiert die Daten und trennt testbezogene Auswertung von der eigentlichen Evidenzbasis. So bleibt das Ergebnis anschlussfähig und nicht bloß dekorativ.</p>
+  </section>
+  <div class="wide">
+    <h2>Der Kern des Problems</h2>
+    <ul class="list">
+      <li>Ein Testbild ist noch keine robuste Evidenzbasis.</li>
+      <li>Ein Label ersetzt kein nachvollziehbares Ergebnis.</li>
+      <li>Ohne Vergleich bleibt ein Ergebnis oft zu eng.</li>
+    </ul>
+  </div>
+</div>
+</body>
+</html>

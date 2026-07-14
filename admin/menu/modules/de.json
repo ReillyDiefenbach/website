@@ -1,0 +1,402 @@
+{
+  "thinking": {
+    "title": "Think & Act",
+    "subtitle": "Wie Ideen zu Entscheidungen und Handlungen werden",
+    "keyquest": "Wie verarbeite ich Informationen und wie komme ich ins Handeln?",
+    "axis": "Denken vs. Handeln",
+    "short": "thinking",
+    "badge": "THACT"
+  },
+  "nexus": {
+    "title": "Bond & Change",
+    "subtitle": "Zwischen Verbundenheit, Eigenständigkeit und Veränderung",
+    "keyquest": "Wie verbinde ich Nähe, Autonomie, Stabilität und Wandel?",
+    "axis": "Beziehung vs. Wandel",
+    "short": "nexus",
+    "badge": "NEXUS"
+  },
+  "communication": {
+    "title": "Connect & Influence",
+    "subtitle": "Wie Resonanz, Klarheit und Ausdruck zusammenwirken",
+    "keyquest": "Wie kommuniziere ich und wie wirke ich auf andere?",
+    "axis": "Kommunikation vs. Ausdruck",
+    "short": "comm",
+    "badge": "COMM"
+  },
+  "roles": {
+    "title": "Role & Impact",
+    "subtitle": "Welche Rolle du in Teams und Beziehungen bevorzugt einnimmst",
+    "keyquest": "Wie bringe ich mich in Gruppen, Aufgaben und gemeinsame Vorhaben ein?",
+    "axis": "Rolle vs. Wirkung",
+    "short": "role",
+    "badge": "ROLE"
+  },
+  "change": {
+    "title": "Change & Adapt",
+    "subtitle": "Wie Wandel angestoßen, gesteuert und integriert wird",
+    "keyquest": "Wie gehe ich mit Veränderung, Stabilität und Transformation um?",
+    "axis": "Steuerung vs. Wandel",
+    "short": "chng",
+    "badge": "CHNGE"
+  },
+  "coordination": {
+    "title": "Coordinate & Align",
+    "subtitle": "Nähe, Überblick und Abstimmung in Balance bringen",
+    "keyquest": "Wie koordiniere ich Zusammenarbeit zwischen Nähe, Distanz, Aktivität und Reflexion?",
+    "axis": "Einbindung vs. Handeln",
+    "short": "cord",
+    "badge": "COORD"
+  },
+  "motivation": {
+    "title": "Meaning & Drive",
+    "subtitle": "Was Menschen antreibt und Entscheidungen mit Energie füllt",
+    "keyquest": "Wodurch werde ich motiviert und wie bewerte ich Chancen und Sicherheit?",
+    "axis": "Motivation vs. Antrieb",
+    "short": "motv",
+    "badge": "MOTV"
+  },
+  "social": {
+    "title": "Status & Belonging",
+    "subtitle": "Die eigene Position zwischen Individualität und Zugehörigkeit finden",
+    "keyquest": "Wie positioniere ich mich in sozialen Systemen?",
+    "axis": "Soziales vs. Interaktion",
+    "short": "soc",
+    "badge": "SOCIO"
+  },
+  "contribution": {
+    "title": "Contribute & Excel",
+    "subtitle": "Wie Ideen, Umsetzung und Beitrag zusammenfinden",
+    "keyquest": "Wie leiste ich meinen Beitrag und wie arbeite ich bevorzugt?",
+    "axis": "Beitrag vs. Arbeitsweise",
+    "short": "contr",
+    "badge": "CONTR"
+  },
+  "creativity": {
+    "title": "Create & Improve",
+    "subtitle": "Neue Möglichkeiten entdecken und Bestehendes verbessern",
+    "keyquest": "Wie entwickle ich kreative Lösungen und neue Ideen?",
+    "axis": "Innovation vs. Kreativität",
+    "short": "crea",
+    "badge": "CREAT"
+  },
+  "leadership": {
+    "title": "Lead & Develop",
+    "subtitle": "Wie Richtung, Vertrauen und Entwicklung entstehen",
+    "keyquest": "Wie führe, steuere und entwickle ich Menschen oder Situationen?",
+    "axis": "Führung vs. Einfluss",
+    "short": "lead",
+    "badge": "LDR"
+  },
+  "organization": {
+    "title": "Structure & Culture",
+    "subtitle": "Welche Umfelder Leistung, Freiheit und Kultur ermöglichen",
+    "keyquest": "Welche Organisations- und Kulturmuster bevorzuge oder gestalte ich?",
+    "axis": "Organisation vs. Kultur",
+    "short": "org",
+    "badge": "ORGNX"
+  },
+  "decision": {
+    "title": "Decide & Act",
+    "subtitle": "Wie Optionen zu klaren Entscheidungen werden",
+    "keyquest": "Wie bereite ich Entscheidungen vor und wie treffe ich sie?",
+    "axis": "Entscheidung vs. Bewertung",
+    "short": "deci",
+    "badge": "DECIS"
+  },
+  "risk": {
+    "title": "Risk & Secure",
+    "subtitle": "Chancen nutzen, Unsicherheit einschätzen und Sicherheit schaffen",
+    "keyquest": "Wie gehe ich mit Risiko, Sicherheit, Spontanität und Planung um?",
+    "axis": "Risiko vs. Handeln",
+    "short": "risk",
+    "badge": "RISKX"
+  },
+  "relationships": {
+    "title": "Connect & Relate",
+    "subtitle": "Nähe, Autonomie und Einfluss in Beziehungen verstehen",
+    "keyquest": "Wie gestalte ich Beziehungen zwischen Eigenständigkeit, Bindung und Einfluss?",
+    "axis": "Beziehung vs. Einfluss",
+    "short": "relat",
+    "badge": "RELAT"
+  },
+  "cognition": {
+    "title": "Think & Understand",
+    "subtitle": "Wie Denken Orientierung in komplexen Situationen schafft",
+    "keyquest": "Wie denke, verstehe und ordne ich Informationen?",
+    "axis": "Denken vs. Vorgehen",
+    "short": "cogn",
+    "badge": "COGNI"
+  },
+  "self_regulation": {
+    "title": "Balance & Direct",
+    "subtitle": "Zwischen Pflicht, Genuss, Freiheit und Kontrolle navigieren",
+    "keyquest": "Wie reguliere ich mich selbst zwischen Verantwortung, Bedürfnis und Freiheit?",
+    "axis": "Motivation vs. Steuerung",
+    "short": "sreg",
+    "badge": "SREG"
+  },
+  "impact": {
+    "title": "Express & Connect",
+    "subtitle": "Wie Authentizität, Status und soziale Wirkung entstehen",
+    "keyquest": "Wie erzeuge ich Wirkung und wie positioniere ich mich sozial?",
+    "axis": "Positionierung vs. Wirkung",
+    "short": "impa",
+    "badge": "IMPACT"
+  },
+  "conflict": {
+    "title": "Challenge & Resolve",
+    "subtitle": "Spannungen sichtbar machen und tragfähige Lösungen finden",
+    "keyquest": "Wie gehe ich mit Wettbewerb, Kooperation, Risiko und Sicherheit in Konflikten um?",
+    "axis": "Konflikt vs. Sicherheit",
+    "short": "conf",
+    "badge": "CONFL"
+  },
+  "leadership_style": {
+    "title": "Guide & Inspire",
+    "subtitle": "Wie Führung durch Reflexion, Praxis und Orientierung wirkt",
+    "keyquest": "Wie begleite, strukturiere und entwickle ich Führungssituationen?",
+    "axis": "Reflexion vs. Praxis",
+    "short": "lsty",
+    "badge": "LSTYLE"
+  },
+  "personal_style": {
+    "title": "Live & Express",
+    "subtitle": "Wie Ausdruck, Ordnung, Nähe und Distanz zusammenwirken",
+    "keyquest": "Wie gestalte ich meinen persönlichen Stil im Auftreten und Verhalten?",
+    "axis": "Stil vs. Ausdruck",
+    "short": "psty",
+    "badge": "PSTYLE"
+  },
+  "performance": {
+    "title": "Perform & Balance",
+    "subtitle": "Leistung entwickeln, ohne Balance und Beziehung zu verlieren",
+    "keyquest": "Wie verbinde ich Wirksamkeit, Leistung und Ausgleich?",
+    "axis": "Balance vs. Leistung",
+    "short": "perf",
+    "badge": "PERF"
+  },
+  "future": {
+    "title": "Explore & Envision",
+    "subtitle": "Möglichkeiten erkennen und Zukunftsbilder greifbar machen",
+    "keyquest": "Wie denke ich über Zukunft, Sicherheit und neue Möglichkeiten?",
+    "axis": "Zukunft vs. Aktivierung",
+    "short": "futr",
+    "badge": "FUTUR"
+  },
+  "positioning": {
+    "title": "Principles & Purpose",
+    "subtitle": "Werte, Zweck und persönliche Haltung ausrichten",
+    "keyquest": "Woran orientiere ich mich, wenn Prinzipien, Sache und Kontrolle aufeinandertreffen?",
+    "axis": "Werte vs. Zweck",
+    "short": "posi",
+    "badge": "VALUES"
+  },
+  "culture": {
+    "title": "Culture & Identity",
+    "subtitle": "Gemeinschaft, Autonomie und Struktur kulturell verbinden",
+    "keyquest": "Welche Kulturmuster prägen mein Verhalten und mein Umfeld?",
+    "axis": "Kultur vs. Identität",
+    "short": "cult",
+    "badge": "CULTR"
+  },
+  "communication_style": {
+    "title": "Speak & Influence",
+    "subtitle": "Sprechen, Einfluss und Nähe bewusst gestalten",
+    "keyquest": "Wie bringe ich Inhalte, Menschen und Wirkung in Kommunikation zusammen?",
+    "axis": "Sprache vs. Einfluss",
+    "short": "csty",
+    "badge": "CSTYLE"
+  },
+  "activation": {
+    "title": "Start & Sustain",
+    "subtitle": "Impulse aufnehmen und Energie nachhaltig ins Handeln bringen",
+    "keyquest": "Wie starte ich Vorhaben und wie halte ich Energie aufrecht?",
+    "axis": "Start vs. Ausdauer",
+    "short": "actv",
+    "badge": "ACTIV"
+  },
+  "adaptability": {
+    "title": "Adapt & Grow",
+    "subtitle": "Zwischen Veränderung, Stabilität und sozialer Orientierung beweglich bleiben",
+    "keyquest": "Wie passe ich mich an neue Situationen und Anforderungen an?",
+    "axis": "Anpassung vs. Wachstum",
+    "short": "adpt",
+    "badge": "ADAPT"
+  },
+  "strategy": {
+    "title": "Plan & Reflect",
+    "subtitle": "Potenziale erkennen und in realistische Wege übersetzen",
+    "keyquest": "Wie entwickle ich Strategie zwischen Zukunft, Machbarkeit und Reflexion?",
+    "axis": "Strategie vs. Reflexion",
+    "short": "stra",
+    "badge": "STRTG"
+  },
+  "identity": {
+    "title": "Identity & Purpose",
+    "subtitle": "Selbstbild, Anerkennung, Freiheit und Bindung klären",
+    "keyquest": "Woraus entsteht mein Selbstverständnis?",
+    "axis": "Identität vs. Zweck",
+    "short": "iden",
+    "badge": "IDNTY"
+  },
+  "leadership_influence": {
+    "title": "Develop & Empower",
+    "subtitle": "Vertrauen, Kontrolle und Entwicklung in Führung verbinden",
+    "keyquest": "Wie befähige ich andere und wie übe ich Einfluss verantwortungsvoll aus?",
+    "axis": "Entwicklung vs. Befähigung",
+    "short": "linf",
+    "badge": "LINFL"
+  },
+  "organization_style": {
+    "title": "Build & Organize",
+    "subtitle": "Innovation, Sicherheit und Beziehung organisatorisch ausrichten",
+    "keyquest": "Wie baue und organisiere ich stabile und wirksame Umfelder?",
+    "axis": "Aufbau vs. Organisation",
+    "short": "osty",
+    "badge": "OSTYL"
+  },
+  "resilience": {
+    "title": "Rise & Recover",
+    "subtitle": "Krisen aufnehmen, Kräfte bündeln und wieder handlungsfähig werden",
+    "keyquest": "Wie erhole ich mich von Belastung und wie finde ich neue Stabilität?",
+    "axis": "Resilienz vs. Erholung",
+    "short": "resilience",
+    "badge": "RESIL"
+  },
+  "learning": {
+    "title": "Learn & Grow",
+    "subtitle": "Wissen, Erfahrung und Entwicklung miteinander verbinden",
+    "keyquest": "Wie lerne ich und wie wachse ich durch Erfahrung und Struktur?",
+    "axis": "Lernen vs. Wachstum",
+    "short": "learning",
+    "badge": "LEARN"
+  },
+  "reliance": {
+    "title": "Trust & Verify",
+    "subtitle": "Vertrauen prüfen, Beziehungen absichern und Verlässlichkeit schaffen",
+    "keyquest": "Wie entsteht für mich tragfähiges Vertrauen?",
+    "axis": "Vertrauen vs. Prüfung",
+    "short": "reliance",
+    "badge": "TRUST"
+  },
+  "life_balance": {
+    "title": "Live & Balance",
+    "subtitle": "Freiheit, Verpflichtung, Leistung und Erholung ausbalancieren",
+    "keyquest": "Wie halte ich mein Leben zwischen Anspruch und Erholung im Gleichgewicht?",
+    "axis": "Leben vs. Balance",
+    "short": "lifebalance",
+    "badge": "BALNC"
+  },
+  "meaning": {
+    "title": "Mean & Matter",
+    "subtitle": "Sinn zwischen Selbst, Gemeinschaft, Gegenwart und Zukunft finden",
+    "keyquest": "Worin finde ich Bedeutung und wofür fühlt sich mein Handeln stimmig an?",
+    "axis": "Sinn vs. Bedeutung",
+    "short": "meaning",
+    "badge": "MEAN"
+  },
+  "complexity": {
+    "title": "Sense & Simplify",
+    "subtitle": "Vielfalt verstehen und Komplexität handhabbar machen",
+    "keyquest": "Wie gehe ich mit Komplexität, Vereinfachung, Handeln und Verstehen um?",
+    "axis": "Komplexität vs. Vereinfachung",
+    "short": "complexity",
+    "badge": "CMPLX"
+  },
+  "energy": {
+    "title": "Spark & Recharge",
+    "subtitle": "Eigene Energie und Umfeldenergie bewusst steuern",
+    "keyquest": "Woraus schöpfe ich Energie und wie regeneriere ich?",
+    "axis": "Energie vs. Regeneration",
+    "short": "energy",
+    "badge": "ENRGY"
+  },
+  "trust": {
+    "title": "Trust & Verify",
+    "subtitle": "Beziehungsnähe und Systemvertrauen sauber unterscheiden",
+    "keyquest": "Wie vertraue ich – aus Nähe, Struktur, Vorschuss oder Prüfung?",
+    "axis": "Vertrauen vs. Prüfung",
+    "short": "trust",
+    "badge": "TRUST"
+  },
+  "mobilization": {
+    "title": "Influence & Impact",
+    "subtitle": "Menschen bewegen, Orientierung geben und Wirkung erzeugen",
+    "keyquest": "Wie mobilisiere ich andere für Ideen, Ziele und gemeinsames Handeln?",
+    "axis": "Einfluss vs. Wirkung",
+    "short": "mobil",
+    "badge": "INFLU"
+  },
+  "influence": {
+    "title": "Influence & Align",
+    "subtitle": "Überzeugung, Ausrichtung und Einbindung wirksam verbinden",
+    "keyquest": "Wie nehme ich Einfluss und wie richte ich Menschen auf gemeinsame Ziele aus?",
+    "axis": "Einfluss vs. Ausrichtung",
+    "short": "infl",
+    "badge": "INFL"
+  },
+  "collaboration": {
+    "title": "Collaborate & Align",
+    "subtitle": "Eigenständigkeit und Kooperation produktiv verbinden",
+    "keyquest": "Wie arbeite ich mit anderen zusammen?",
+    "axis": "Zusammenarbeit vs. Abstimmung",
+    "short": "collab",
+    "badge": "COLLAB"
+  },
+  "recognition": {
+    "title": "Recognize & Reward",
+    "subtitle": "Leistung, Beitrag und Wertschätzung sichtbar machen",
+    "keyquest": "Wie erkenne ich Leistung und Beitrag bei mir und anderen an?",
+    "axis": "Anerkennung vs. Bestätigung",
+    "short": "recog",
+    "badge": "RECOG"
+  },
+  "purpose": {
+    "title": "Purpose & Contribute",
+    "subtitle": "Energie auf Sinn, Beitrag und konkrete Wirkung ausrichten",
+    "keyquest": "Wofür setze ich meine Energie ein?",
+    "axis": "Zweck vs. Beitrag",
+    "short": "purpose",
+    "badge": "PURP"
+  },
+  "innovation": {
+    "title": "Innovate & Optimize",
+    "subtitle": "Neues entdecken, testen, verbessern und umsetzen",
+    "keyquest": "Wie entsteht Neues?",
+    "axis": "Innovation vs. Umsetzung",
+    "short": "innov",
+    "badge": "INNOV"
+  },
+  "delegation": {
+    "title": "Delegate & Empower",
+    "subtitle": "Verantwortung abgeben, Vertrauen ermöglichen und Orientierung sichern",
+    "keyquest": "Wie gebe ich Verantwortung weiter?",
+    "axis": "Delegation vs. Befähigung",
+    "short": "deleg",
+    "badge": "DELEG"
+  },
+  "transfer": {
+    "title": "Learn & Apply",
+    "subtitle": "Lernen in Anwendung übersetzen und Erfahrung reflektieren",
+    "keyquest": "Wie übertrage ich Wissen in wirksames Handeln?",
+    "axis": "Lernen vs. Anwendung",
+    "short": "transfer",
+    "badge": "LEARN"
+  },
+  "values": {
+    "title": "Values & Decisions",
+    "subtitle": "Prinzipien, Ergebnisse und Verantwortung in Entscheidungen verbinden",
+    "keyquest": "Welche Werte leiten meine Entscheidungen?",
+    "axis": "Werte vs. Entscheidung",
+    "short": "values",
+    "badge": "VALUE"
+  },
+  "legacy": {
+    "title": "Legacy & Impact",
+    "subtitle": "Bedeutung und Wirkung über die Gegenwart hinaus denken",
+    "keyquest": "Was möchte ich hinterlassen?",
+    "axis": "Vermächtnis vs. Wirkung",
+    "short": "legacy",
+    "badge": "LEGACY"
+  }
+}

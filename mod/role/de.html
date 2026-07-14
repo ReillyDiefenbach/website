@@ -1,0 +1,153 @@
+<section class="content menuSection">
+  <aside class="menuSection__nav">
+    <nav class="spyMenu">
+      <a href="#overview" class="active">Overview</a>
+      <a href="#performance">Performance</a>
+      <div class="spyGroup">
+        <button class="spyGroup__toggle" type="button">Technologie</button>
+        <div class="spyGroup__items">
+          <a href="#tech-ai">AI-Modul</a>
+          <a href="#tech-data">Datenmodell</a>
+        </div>
+      </div>
+      <a href="#interpretation">Interpretation</a>
+      <a href="#results">Results</a>
+    </nav>
+  </aside>
+
+  <main class="menuSection__content">
+
+    <section id="overview" class="contentBlock">
+      <h1>OVERVIEW</h1>
+      <hr class="contentBlock__rule">
+      <p class="contentBlock__intro">Ein kurzer Einstieg in das Modell und seine grundlegende Logik.</p>
+
+      <h2>Zweispaltiger Textfluss mit spaltenübergreifendem Bild</h2>
+
+      <div class="center_pic">
+        <div class="inner-image"
+             data-img-src="https://upload.wikimedia.org/wikipedia/commons/2/22/Da_Vinci_Vitruve_Luc_Viatour.jpg"
+             data-img-pos="top_center"
+             data-img-size="260px"></div>
+
+        <div class="center_pic__grid">
+          <div class="center_pic__col">
+            <p><span class="fake-link">Curabitur sapien</span> lorem, <span class="fake-link">ullamcorper vel lectus</span> auctor, <span class="fake-link">pulvinar rhoncus risus</span>. Vestibulum tempus dignissim erat nec vestibulum. Morbi <span class="fake-link">faucibus, odio</span> sed convallis porttitor, lorem <span class="fake-link">lacus vehicula tellus</span>, et posuere purus odio et felis. Phasellus porttitor diam at erat maximus, nec interdum nunc tristique. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Proin vestibulum risus ut tellus congue, id auctor est pretium. Morbi vitae nibh viverra, finibus lectus a, malesuada ligula. Suspendisse posuere est facilisis, sodales metus ut, auctor mi. Sed eu sollicitudin ligula.</p>
+            <p>Curabitur et feugiat mauris. Donec molestie elit, id bibendum dui. Cras at magna mauris. Sed id elit at mauris efficitur fringilla suscipit at felis. Morbi nulla velit, consectetur auctor mi fringilla, imperdiet scelerisque auctor. Sed varius justo et tincidunt finibus.</p>
+          </div>
+          <div class="center_pic__col">
+            <p>porttitor mi. Vivamus sed mauris efficitur, finibus libero sit amet, congue dui. Donec eget velit lectus. Cras lectus sapien, egestas sit amet enim id, dignissim sodales tellus. Curabitur cursus, turpis vel mollis convallis, risus leo tincidunt risus, et ultricies justo urna eu mi.</p>
+            <p>Etiam commodo placerat magna, ac ultrices velit efficitur placerat. Sed eu leo non nisl elementum viverra. Maecenas vel dolor ipsum. Nullam finibus tempor urna id finibus. Nullam pellentesque feugiat est in dignissim. Cras tempor, arcu nec interdum elementum, enim dui fringilla justo, quis dictum lorem felis et lorem.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="performance" class="contentBlock">
+      <h1>PERFORMANCE</h1>
+      <hr class="contentBlock__rule">
+      <p class="contentBlock__intro">Beschreibung der Leistungslogik, der Achsen und zentralen Dynamiken.</p>
+    </section>
+
+  </main>
+</div>
+
+<script>
+(function () {
+  function debounce(fn, wait) { var t; return function () { clearTimeout(t); t = setTimeout(fn, wait); }; }
+  function isMobile() { return window.matchMedia('(max-width: 800px)').matches; }
+
+  function initAll() { document.querySelectorAll('.center_pic').forEach(initSection); }
+  function initSection(section) { section.querySelectorAll('.inner-image').forEach(function (el) { setupInnerImage(section, el); }); }
+
+  function setupInnerImage(section, el) {
+    if (el.dataset.initialized === '1') return;
+    el.dataset.initialized = '1';
+
+    var src = el.dataset.imgSrc;
+    var pos = (el.dataset.imgPos || 'top_center').toLowerCase();
+    var size = el.dataset.imgSize || '300px';
+    var parts = pos.split('_');
+    var vertical = parts[0] || 'top';
+    var horizontal = parts[1] || 'center';
+
+    var img = new Image();
+    img.src = src;
+    el.appendChild(img);
+
+    function build() {
+      if (isMobile()) return;
+      var ratio = img.naturalHeight / img.naturalWidth;
+      var widthPx = parseInt(size, 10);
+      var heightPx = Math.round(widthPx * ratio);
+
+      if (horizontal === 'center') {
+        setupCenter(section, el, widthPx, heightPx, vertical);
+      } else {
+        setupSide(section, el, widthPx, vertical, horizontal);
+      }
+    }
+
+    if (img.complete && img.naturalWidth) { build(); }
+    else { img.addEventListener('load', build); }
+
+    window.addEventListener('resize', debounce(function () { if (img.naturalWidth) build(); }, 150));
+  }
+
+  function setupSide(section, el, widthPx, vertical, horizontal) {
+    el.classList.remove('inner-image--float-left', 'inner-image--float-right', 'inner-image--abs-center');
+    el.classList.add(horizontal === 'left' ? 'inner-image--float-left' : 'inner-image--float-right');
+    el.style.width = widthPx + 'px';
+    el.style.position = 'static';
+    var col = el.closest('.center_pic__col');
+    if (!col) return;
+    if (vertical === 'bottom') col.appendChild(el);
+    else col.insertBefore(el, col.firstChild);
+  }
+
+  function setupCenter(section, el, widthPx, heightPx, vertical) {
+    el.classList.remove('inner-image--float-left', 'inner-image--float-right');
+    el.classList.add('inner-image--abs-center');
+    el.style.width = widthPx + 'px';
+
+    var cols = section.querySelectorAll('.center_pic__col');
+    if (cols.length < 2) return;
+
+    var spacers = [];
+    cols.forEach(function (col, i) {
+      var spacer = col.querySelector('.center_pic__spacer') || document.createElement('div');
+      spacer.className = 'center_pic__spacer ' + (i === 0 ? 'center_pic__spacer--left' : 'center_pic__spacer--right');
+      spacer.style.width = (widthPx / 2) + 'px';
+      spacer.style.height = heightPx + 'px';
+      if (vertical === 'bottom') col.appendChild(spacer);
+      else col.insertBefore(spacer, col.firstChild);
+      spacers.push(spacer);
+    });
+
+    if (vertical === 'top') {
+      el.style.top = spacers[0].getBoundingClientRect().top - section.getBoundingClientRect().top + 'px';
+      el.style.bottom = '';
+    } else {
+      alignBottomSpacers(section, spacers, heightPx);
+    }
+  }
+
+  function alignBottomSpacers(section, spacers, heightPx) {
+    spacers.forEach(function (s) { s.style.marginTop = '0px'; });
+    var sectionTop = section.getBoundingClientRect().top;
+    var bottoms = spacers.map(function (s) { return s.getBoundingClientRect().bottom - sectionTop; });
+    var maxBottom = Math.max.apply(null, bottoms);
+    spacers.forEach(function (s, i) {
+      var diff = maxBottom - bottoms[i];
+      if (diff > 0) s.style.marginTop = diff + 'px';
+    });
+    var imgTop = maxBottom - heightPx;
+    var el = section.querySelector('.inner-image--abs-center');
+    if (el) { el.style.top = imgTop + 'px'; el.style.bottom = ''; }
+  }
+
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', initAll);
+  else initAll();
+})();
+</script>
+

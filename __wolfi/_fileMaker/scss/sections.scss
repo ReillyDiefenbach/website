@@ -1,0 +1,280 @@
+/*
+ * Zentrale Section-Basis
+ *
+ * In dieser Datei bleiben vorerst ausschliesslich:
+ * - section.content
+ * - section.topHead
+ * - section.modHead
+ * - section.hero
+ *
+ * Unterstrukturen fuer Navigation, Scroll-Navigation, FAQ oder Bildlayouts
+ * werden spaeter getrennt bearbeitet und gehoeren nicht hierher.
+ */
+
+:root {
+    --padd-step: 5px;
+}
+
+section.content {
+    --section-max-width: 1200px;
+    --section-gap: 10px;
+    box-sizing: border-box;
+    display: grid;
+    width: calc(100% - 3em);
+    min-height: 0;
+    max-width: var(--section-max-width);
+    margin: 0 auto var(--section-gap);
+    grid-template-columns: minmax(0, 1fr);
+    padding:
+        var(--section-top-space, var(--padd-step))
+        0
+        var(--section-bottom-space, var(--padd-step));
+    align-items: start;
+    background: #fff;
+}
+
+section.content > * {
+    grid-column: 1;
+    align-self: start;
+}
+
+#middle section.content,
+#middle > .page > section.content,
+#middle > .scrollHeroPage > section.content,
+#middle > .normalScrollPage > section.content,
+#middle > .cinematicPage > section.content {
+    box-sizing: border-box;
+    width: calc(100% - 3em);
+    max-width: var(--section-max-width);
+    margin: 0 auto var(--section-gap);
+    padding:
+        var(--section-top-space, var(--padd-step))
+        0
+        var(--section-bottom-space, var(--padd-step));
+    background: #fff;
+}
+
+section.content.section-sm {
+    --section-max-width: 960px;
+}
+
+section.content.section-lg {
+    --section-max-width: 1440px;
+}
+
+section.content.section-full,
+#middle section.content.section-full {
+    width: 100%;
+    max-width: none;
+    padding: 1.5em;
+}
+
+/* Tablet: 5px pro Schritt, seitliche Utilities ab 768px aktiv. */
+@media (min-width: 768px) {
+    section.content {
+        --section-gap: 25px;
+    }
+}
+
+/* Desktop: 20px pro Schritt und columnize-2 ab 960px. */
+@media (min-width: 960px) {
+    :root {
+        --padd-step: 20px;
+    }
+
+    section.content {
+        --section-gap: 50px;
+    }
+
+    section.content.columnize-2,
+    section.content .columnize-2 {
+        column-count: 2;
+    }
+}
+
+section.content.firstSection,
+#middle section.content.firstSection {
+    padding-top: calc(
+        var(--header-height, 72px) +
+        var(--section-top-space, var(--padd-step))
+    );
+}
+
+section.topHead,
+section.content.topHead,
+#middle section.content.topHead {
+    --section-max-width: 1200px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 250px;
+    min-height: 250px;
+    max-height: 250px;
+    max-width: none;
+    margin: 0 auto var(--section-gap);
+    padding-top: 0;
+    padding-bottom: 0;
+    align-items: center;
+    background: #ccc;
+    text-align: center;
+}
+
+section.topHead > div,
+section.content.topHead > div {
+    display: grid;
+    width: 100%;
+    grid-column: 1 / -1;
+    align-self: center;
+    justify-self: stretch;
+    justify-items: center;
+    gap: 4px;
+    transform: translateY(calc(var(--header-height, 72px) / 2));
+}
+
+section.topHead p {
+    margin: 0;
+    color: #111;
+    font-family: var(--font-bold);
+    font-size: calc(var(--fs, 16px) * .95);
+    font-weight: var(--font-weight-bold);
+    letter-spacing: .12em;
+    line-height: 1.15;
+    text-transform: uppercase;
+}
+
+section.topHead h1 {
+    margin: 0;
+    color: #050505;
+    font-size: calc(var(--fs, 16px) * 2.5);
+    line-height: 1;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+}
+
+section.topHead p:last-child {
+    margin-top: 2px;
+    font-family: var(--font-decomedium);
+    font-size: calc(var(--fs, 16px) * .85);
+    font-weight: 600;
+    letter-spacing: .18em;
+    text-transform: none;
+}
+
+section.modHead {
+    box-sizing: border-box;
+    display: grid;
+    width: 100vw;
+    max-width: none;
+    margin-right: 0;
+    margin-left: calc(50% - 50vw);
+    padding: 30px;
+    place-items: center;
+    align-content: center;
+    gap: clamp(8px, 1.2vw, 16px);
+    background: #fff;
+    color: #000;
+    text-align: center;
+}
+
+section.modHead h1 {
+    margin: 0;
+    color: #000;
+    font-family: "Garamond Semibold", "Times New Roman", serif;
+    font-size: clamp(42px, 5vw, 76px);
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 1;
+    text-transform: none;
+}
+
+section.modHead .Axis_x,
+section.modHead .Axis_y {
+    font: inherit;
+    color: inherit;
+    text-transform: none;
+}
+
+section.modHead .Axis_and {
+    color: inherit;
+    font-family: "Garamond Medium", "Times New Roman", serif;
+    font-size: .85em;
+    font-weight: 400;
+    text-transform: none;
+}
+
+section.modHead .modLogo {
+    margin: 10px 0 0;
+    color: #000;
+    font-size: clamp(12px, 1vw, 15px);
+    font-weight: var(--font-weight-medium, 500);
+    letter-spacing: .40em;
+    line-height: 1;
+    text-transform: uppercase;
+}
+
+section.modHead .modLogo:last-child {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: .8em;
+}
+
+/* Globale Padding-Utilities: Mobile seitlich 0, Tablet 5px, Desktop 20px. */
+.pl-0 { padding-left: 0 !important; }
+.pl-1 { padding-left: calc(var(--padd-step) * 1) !important; }
+.pl-2 { padding-left: calc(var(--padd-step) * 2) !important; }
+.pl-3 { padding-left: calc(var(--padd-step) * 3) !important; }
+.pl-4 { padding-left: calc(var(--padd-step) * 4) !important; }
+.pl-5 { padding-left: calc(var(--padd-step) * 5) !important; }
+.pl-6 { padding-left: calc(var(--padd-step) * 6) !important; }
+.pl-7 { padding-left: calc(var(--padd-step) * 7) !important; }
+.pl-8 { padding-left: calc(var(--padd-step) * 8) !important; }
+.pl-9 { padding-left: calc(var(--padd-step) * 9) !important; }
+.pl-10 { padding-left: calc(var(--padd-step) * 10) !important; }
+
+.pr-0 { padding-right: 0 !important; }
+.pr-1 { padding-right: calc(var(--padd-step) * 1) !important; }
+.pr-2 { padding-right: calc(var(--padd-step) * 2) !important; }
+.pr-3 { padding-right: calc(var(--padd-step) * 3) !important; }
+.pr-4 { padding-right: calc(var(--padd-step) * 4) !important; }
+.pr-5 { padding-right: calc(var(--padd-step) * 5) !important; }
+.pr-6 { padding-right: calc(var(--padd-step) * 6) !important; }
+.pr-7 { padding-right: calc(var(--padd-step) * 7) !important; }
+.pr-8 { padding-right: calc(var(--padd-step) * 8) !important; }
+.pr-9 { padding-right: calc(var(--padd-step) * 9) !important; }
+.pr-10 { padding-right: calc(var(--padd-step) * 10) !important; }
+
+.pt-0 { padding-top: 0 !important; }
+.pt-1 { padding-top: calc(var(--padd-step) * 1) !important; }
+.pt-2 { padding-top: calc(var(--padd-step) * 2) !important; }
+.pt-3 { padding-top: calc(var(--padd-step) * 3) !important; }
+.pt-4 { padding-top: calc(var(--padd-step) * 4) !important; }
+.pt-5 { padding-top: calc(var(--padd-step) * 5) !important; }
+.pt-6 { padding-top: calc(var(--padd-step) * 6) !important; }
+.pt-7 { padding-top: calc(var(--padd-step) * 7) !important; }
+.pt-8 { padding-top: calc(var(--padd-step) * 8) !important; }
+.pt-9 { padding-top: calc(var(--padd-step) * 9) !important; }
+.pt-10 { padding-top: calc(var(--padd-step) * 10) !important; }
+
+.pb-0 { padding-bottom: 0 !important; }
+.pb-1 { padding-bottom: calc(var(--padd-step) * 1) !important; }
+.pb-2 { padding-bottom: calc(var(--padd-step) * 2) !important; }
+.pb-3 { padding-bottom: calc(var(--padd-step) * 3) !important; }
+.pb-4 { padding-bottom: calc(var(--padd-step) * 4) !important; }
+.pb-5 { padding-bottom: calc(var(--padd-step) * 5) !important; }
+.pb-6 { padding-bottom: calc(var(--padd-step) * 6) !important; }
+.pb-7 { padding-bottom: calc(var(--padd-step) * 7) !important; }
+.pb-8 { padding-bottom: calc(var(--padd-step) * 8) !important; }
+.pb-9 { padding-bottom: calc(var(--padd-step) * 9) !important; }
+.pb-10 { padding-bottom: calc(var(--padd-step) * 10) !important; }
+
+@media (max-width: 767px) {
+    .pl-0, .pl-1, .pl-2, .pl-3, .pl-4, .pl-5,
+    .pl-6, .pl-7, .pl-8, .pl-9, .pl-10 {
+        padding-left: 0 !important;
+    }
+
+    .pr-0, .pr-1, .pr-2, .pr-3, .pr-4, .pr-5,
+    .pr-6, .pr-7, .pr-8, .pr-9, .pr-10 {
+        padding-right: 0 !important;
+    }
+}

@@ -1,0 +1,268 @@
+{
+  "_ui": {
+    "de": {"title": "Sprachen", "subtitle": "Sprache und Region auswählen"},
+    "en": {"title": "Languages", "subtitle": "Select language and region"},
+    "fr": {"title": "Langues", "subtitle": "Choisir la langue et la région"},
+    "es": {"title": "Idiomas", "subtitle": "Seleccionar idioma y región"},
+    "it": {"title": "Lingue", "subtitle": "Seleziona lingua e regione"},
+    "pt": {"title": "Idiomas", "subtitle": "Selecionar idioma e região"},
+    "ru": {"title": "Языки", "subtitle": "Выберите язык и регион"},
+    "pl": {"title": "Języki", "subtitle": "Wybierz język i region"},
+    "uk": {"title": "Мови", "subtitle": "Виберіть мову та регіон"},
+    "nl": {"title": "Talen", "subtitle": "Selecteer taal en regio"},
+    "tr": {"title": "Diller", "subtitle": "Dil ve bölge seçin"},
+    "hu": {"title": "Nyelvek", "subtitle": "Nyelv és régió kiválasztása"},
+    "el": {"title": "Γλώσσες", "subtitle": "Επιλέξτε γλώσσα και περιοχή"},
+    "cs": {"title": "Jazyky", "subtitle": "Vyberte jazyk a oblast"},
+    "sv": {"title": "Språk", "subtitle": "Välj språk och region"},
+    "zh": {"title": "语言", "subtitle": "选择语言和地区"},
+    "hi": {"title": "भाषाएँ", "subtitle": "भाषा और क्षेत्र चुनें"},
+    "bn": {"title": "ভাষা", "subtitle": "ভাষা এবং অঞ্চল নির্বাচন করুন"},
+    "id": {"title": "Bahasa", "subtitle": "Pilih bahasa dan wilayah"},
+    "ja": {"title": "言語", "subtitle": "言語と地域を選択"},
+    "vi": {"title": "Ngôn ngữ", "subtitle": "Chọn ngôn ngữ và khu vực"},
+    "ko": {"title": "언어", "subtitle": "언어 및 지역 선택"},
+    "th": {"title": "ภาษา", "subtitle": "เลือกภาษาและภูมิภาค"},
+    "tl": {"title": "Mga Wika", "subtitle": "Pumili ng wika at rehiyon"},
+    "ta": {"title": "மொழிகள்", "subtitle": "மொழி மற்றும் பிராந்தியத்தைத் தேர்ந்தெடுக்கவும்"},
+    "sw": {"title": "Lugha", "subtitle": "Chagua lugha na eneo"},
+    "ha": {"title": "Harsuna", "subtitle": "Zaɓi harshe da yanki"},
+    "am": {"title": "ቋንቋዎች", "subtitle": "ቋንቋ እና ክልል ይምረጡ"},
+    "pcm": {"title": "Languages", "subtitle": "Choose language and region"},
+    "fr-HT": {"title": "Lang", "subtitle": "Chwazi lang ak rejyon"},
+    "ar": {"title": "اللغات", "subtitle": "اختر اللغة والمنطقة"},
+    "fa": {"title": "زبان‌ها", "subtitle": "زبان و منطقه را انتخاب کنید"},
+    "ur": {"title": "زبانیں", "subtitle": "زبان اور خطہ منتخب کریں"}
+  },
+  "de": {
+    "eu": "Europa",
+    "as": "Asien",
+    "af": "Afrika",
+    "am": "Amerika",
+    "no": "Nahost"
+  },
+  "en": {
+    "eu": "Europe",
+    "as": "Asia",
+    "af": "Africa",
+    "am": "America",
+    "no": "Middle East"
+  },
+  "fr": {
+    "eu": "Europe",
+    "as": "Asie",
+    "af": "Afrique",
+    "am": "Amérique",
+    "no": "Proche-Orient"
+  },
+  "es": {
+    "eu": "Europa",
+    "as": "Asia",
+    "af": "África",
+    "am": "América",
+    "no": "Oriente Medio"
+  },
+  "it": {
+    "eu": "Europa",
+    "as": "Asia",
+    "af": "Africa",
+    "am": "America",
+    "no": "Medio Oriente"
+  },
+  "pt": {
+    "eu": "Europa",
+    "as": "Ásia",
+    "af": "África",
+    "am": "América",
+    "no": "Médio Oriente"
+  },
+  "ru": {
+    "eu": "Европа",
+    "as": "Азия",
+    "af": "Африка",
+    "am": "Америка",
+    "no": "Ближний Восток"
+  },
+  "pl": {
+    "eu": "Europa",
+    "as": "Azja",
+    "af": "Afryka",
+    "am": "Ameryka",
+    "no": "Bliski Wschód"
+  },
+  "uk": {
+    "eu": "Європа",
+    "as": "Азія",
+    "af": "Африка",
+    "am": "Америка",
+    "no": "Близький Схід"
+  },
+  "nl": {
+    "eu": "Europa",
+    "as": "Azië",
+    "af": "Afrika",
+    "am": "Amerika",
+    "no": "Midden-Oosten"
+  },
+  "tr": {
+    "eu": "Avrupa",
+    "as": "Asya",
+    "af": "Afrika",
+    "am": "Amerika",
+    "no": "Orta Doğu"
+  },
+  "hu": {
+    "eu": "Európa",
+    "as": "Ázsia",
+    "af": "Afrika",
+    "am": "Amerika",
+    "no": "Közel-Kelet"
+  },
+  "el": {
+    "eu": "Ευρώπη",
+    "as": "Ασία",
+    "af": "Αφρική",
+    "am": "Αμερική",
+    "no": "Μέση Ανατολή"
+  },
+  "cs": {
+    "eu": "Evropa",
+    "as": "Asie",
+    "af": "Afrika",
+    "am": "Amerika",
+    "no": "Blízký východ"
+  },
+  "sv": {
+    "eu": "Europa",
+    "as": "Asien",
+    "af": "Afrika",
+    "am": "Amerika",
+    "no": "Mellanöstern"
+  },
+  "zh": {
+    "eu": "欧洲",
+    "as": "亚洲",
+    "af": "非洲",
+    "am": "美洲",
+    "no": "中东"
+  },
+  "hi": {
+    "eu": "यूरोप",
+    "as": "एशिया",
+    "af": "अफ्रीका",
+    "am": "अमेरिका",
+    "no": "मध्य पूर्व"
+  },
+  "bn": {
+    "eu": "ইউরোপ",
+    "as": "এশিয়া",
+    "af": "আফ্রিকা",
+    "am": "আমেরিকা",
+    "no": "মধ্যপ্রাচ্য"
+  },
+  "id": {
+    "eu": "Eropa",
+    "as": "Asia",
+    "af": "Afrika",
+    "am": "Amerika",
+    "no": "Timur Tengah"
+  },
+  "ja": {
+    "eu": "ヨーロッパ",
+    "as": "アジア",
+    "af": "アフリカ",
+    "am": "アメリカ",
+    "no": "中東"
+  },
+  "vi": {
+    "eu": "Châu Âu",
+    "as": "Châu Á",
+    "af": "Châu Phi",
+    "am": "Châu Mỹ",
+    "no": "Trung Đông"
+  },
+  "ko": {
+    "eu": "유럽",
+    "as": "아시아",
+    "af": "아프리카",
+    "am": "아메리카",
+    "no": "중동"
+  },
+  "th": {
+    "eu": "ยุโรป",
+    "as": "เอเชีย",
+    "af": "แอฟริกา",
+    "am": "อเมริกา",
+    "no": "ตะวันออกกลาง"
+  },
+  "tl": {
+    "eu": "Europa",
+    "as": "Asya",
+    "af": "Aprika",
+    "am": "Amerika",
+    "no": "Gitnang Silangan"
+  },
+  "ta": {
+    "eu": "ஐரோப்பா",
+    "as": "ஆசியா",
+    "af": "ஆப்பிரிக்கா",
+    "am": "அமெரிக்கா",
+    "no": "மத்திய கிழக்கு"
+  },
+  "sw": {
+    "eu": "Ulaya",
+    "as": "Asia",
+    "af": "Afrika",
+    "am": "Amerika",
+    "no": "Mashariki ya Kati"
+  },
+  "ha": {
+    "eu": "Turai",
+    "as": "Asiya",
+    "af": "Afirka",
+    "am": "Amurka",
+    "no": "Gabas ta Tsakiya"
+  },
+  "am": {
+    "eu": "አውሮፓ",
+    "as": "እስያ",
+    "af": "አፍሪካ",
+    "am": "አሜሪካ",
+    "no": "መካከለኛው ምስራቅ"
+  },
+  "pcm": {
+    "eu": "Europe",
+    "as": "Asia",
+    "af": "Africa",
+    "am": "America",
+    "no": "Middle East"
+  },
+  "fr-HT": {
+    "eu": "Ewòp",
+    "as": "Azi",
+    "af": "Afrik",
+    "am": "Amerik",
+    "no": "Mwayen Oryan"
+  },
+  "ar": {
+    "eu": "أوروبا",
+    "as": "آسيا",
+    "af": "أفريقيا",
+    "am": "أمريكا",
+    "no": "الشرق الأوسط"
+  },
+  "fa": {
+    "eu": "اروپا",
+    "as": "آسیا",
+    "af": "آفریقا",
+    "am": "آمریکا",
+    "no": "خاورمیانه"
+  },
+  "ur": {
+    "eu": "یورپ",
+    "as": "ایشیا",
+    "af": "افریقہ",
+    "am": "امریکہ",
+    "no": "مشرق وسطیٰ"
+  }
+}

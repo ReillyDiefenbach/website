@@ -1,0 +1,243 @@
+<===> args/none/input.scss
+@function a() {@return b}
+c {d: call(get-function("a"))}
+
+<===> args/none/output.css
+c {
+  d: b;
+}
+
+<===>
+================================================================================
+<===> args/positional/input.scss
+a {b: call(get-function("rgb"), 1, 2, 3)}
+
+<===> args/positional/output.css
+a {
+  b: rgb(1, 2, 3);
+}
+
+<===> args/positional/output-libsass.css
+a {
+  b: #010203;
+}
+
+<===>
+================================================================================
+<===> args/named/input.scss
+a {b: call(get-function("rgb"), $blue: 1, $green: 2, $red: 3)}
+
+<===> args/named/output.css
+a {
+  b: rgb(3, 2, 1);
+}
+
+<===> args/named/output-libsass.css
+a {
+  b: #030201;
+}
+
+<===>
+================================================================================
+<===> args/splat/positional/input.scss
+$args: 1, 2, 3;
+a {b: call(get-function("rgb"), $args...)}
+
+<===> args/splat/positional/output.css
+a {
+  b: rgb(1, 2, 3);
+}
+
+<===> args/splat/positional/output-libsass.css
+a {
+  b: #010203;
+}
+
+<===>
+================================================================================
+<===> args/splat/named/input.scss
+$args: ("green": 1, "blue": 2, "red": 3);
+a {b: call(get-function("rgb"), $args...)}
+
+<===> args/splat/named/output.css
+a {
+  b: rgb(3, 1, 2);
+}
+
+<===> args/splat/named/output-libsass.css
+a {
+  b: #030102;
+}
+
+<===>
+================================================================================
+<===> args/splat/combined/options.yml
+---
+:todo:
+- sass/libsass#2942
+
+<===> args/splat/combined/input.scss
+$positional: 1 2;
+$named: ("blue": 3);
+a {b: call(get-function("rgb"), $positional..., $named...)}
+
+<===> args/splat/combined/output.css
+a {
+  b: rgb(1, 2, 3);
+}
+
+<===>
+================================================================================
+<===> string/local/input.scss
+@function a($arg) {@return $arg + 1}
+a {b: call("a", 1)}
+
+<===> string/local/output.css
+a {
+  b: 2;
+}
+
+<===> string/local/warning
+DEPRECATION WARNING: Passing a string to call() is deprecated and will be illegal in Dart Sass 2.0.0.
+
+Recommendation: call(get-function("a"))
+
+  ,
+2 | a {b: call("a", 1)}
+  |       ^^^^^^^^^^^^
+  '
+    input.scss 2:7  root stylesheet
+
+<===> string/local/warning-libsass
+DEPRECATION WARNING: Passing a string to call() is deprecated and will be illegal
+in Dart Sass 2.0.0. Use call(get-function("a")) instead.
+
+<===>
+================================================================================
+<===> string/built_in/input.scss
+a {b: call("rgb", 1, 2, 3)}
+
+<===> string/built_in/output.css
+a {
+  b: rgb(1, 2, 3);
+}
+
+<===> string/built_in/output-libsass.css
+a {
+  b: #010203;
+}
+
+<===> string/built_in/warning
+DEPRECATION WARNING: Passing a string to call() is deprecated and will be illegal in Dart Sass 2.0.0.
+
+Recommendation: call(get-function("rgb"))
+
+  ,
+1 | a {b: call("rgb", 1, 2, 3)}
+  |       ^^^^^^^^^^^^^^^^^^^^
+  '
+    input.scss 1:7  root stylesheet
+
+<===> string/built_in/warning-libsass
+DEPRECATION WARNING: Passing a string to call() is deprecated and will be illegal
+in Sass 4.0. Use call(get-function("rgb")) instead.
+
+<===>
+================================================================================
+<===> named/input.scss
+a {b: call($function: get-function("rgb"), $red: 1, $green: 2, $blue: 3)}
+
+<===> named/output.css
+a {
+  b: rgb(1, 2, 3);
+}
+
+<===> named/output-libsass.css
+a {
+  b: #010203;
+}
+
+<===>
+================================================================================
+<===> error/type/options.yml
+---
+:todo:
+- sass/libsass#2940
+
+<===> error/type/input.scss
+a {b: call(1)}
+
+<===> error/type/error
+Error: $function: 1 is not a function reference.
+  ,
+1 | a {b: call(1)}
+  |       ^^^^^^^
+  '
+  input.scss 1:7  root stylesheet
+
+<===>
+================================================================================
+<===> error/too_few_args/input.scss
+a {b: call()}
+
+<===> error/too_few_args/error
+Error: Missing argument $function.
+  ,--> input.scss
+1 | a {b: call()}
+  |       ^^^^^^ invocation
+  '
+  ,--> sass:meta
+1 | @function call($function, $args...) {
+  |           ========================= declaration
+  '
+  input.scss 1:7  root stylesheet
+
+<===> error/too_few_args/error-libsass
+Error: Function call is missing argument $function.
+        on line 1 of input.scss
+>> a {b: call()}
+
+   ------^
+
+<===>
+================================================================================
+<===> error/invalid_args/input.scss
+a {b: call(get-function("rgb"), 1)}
+
+<===> error/invalid_args/error
+Error: Missing element $green.
+  ,
+1 | a {b: call(get-function("rgb"), 1)}
+  |       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  '
+  input.scss 1:7  root stylesheet
+
+<===> error/invalid_args/error-libsass
+Error: Function rgb is missing argument $green.
+        on line 1:7 of input.scss
+>> a {b: call(get-function("rgb"), 1)}
+
+   ------^
+
+<===>
+================================================================================
+<===> error/if_args/input.scss
+// The if() function has a special behavior to avoid evaluating the
+// non-returned argument but that behavior does not propagate to call()
+// itself when using call() to call if().
+a {b: call(get-function("if"), true, "", $undefined)}
+
+<===> error/if_args/error
+Error: Undefined variable.
+  ,
+4 | a {b: call(get-function("if"), true, "", $undefined)}
+  |                                          ^^^^^^^^^^
+  '
+  input.scss 4:42  root stylesheet
+
+<===> error/if_args/error-libsass
+Error: Undefined variable: "$undefined".
+        on line 4:42 of input.scss
+>> a {b: call(get-function("if"), true, "", $undefined)}
+
+   -----------------------------------------^

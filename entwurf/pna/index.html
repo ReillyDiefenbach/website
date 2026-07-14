@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PNA - Einstieg</title>
+<style>
+:root{--bg:#f5f1ea;--paper:#fffdf8;--ink:#1d1b18;--muted:#61584f;--line:#d8cfc1;--accent:#2f5d62;--accent-2:#d9a441;--soft:#edf2ef}
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,sans-serif;background:radial-gradient(circle at top left,#fbf7f0 0,#f5f1ea 38%,#efe8dc 100%);color:var(--ink);line-height:1.5}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+.wrap{max-width:1180px;margin:0 auto;padding:28px 20px 56px}
+.topbar{display:flex;justify-content:space-between;gap:16px;align-items:center;padding:8px 0 22px;border-bottom:1px solid var(--line);margin-bottom:24px}
+.nav{display:flex;flex-wrap:wrap;gap:14px;font-size:.95rem}
+.brand{font-weight:700;letter-spacing:.02em}
+.hero{display:grid;grid-template-columns:minmax(0,1.4fr) minmax(280px,.9fr);gap:24px;align-items:end;padding:32px 0 18px}
+.eyebrow{text-transform:uppercase;letter-spacing:.16em;font-size:.76rem;color:var(--accent);margin-bottom:12px}
+h1{font-size:clamp(2.5rem,6vw,4.6rem);line-height:1.02;margin:0 0 14px}
+.lead{font-size:1.15rem;max-width:62ch;color:var(--muted)}
+.stack{display:grid;gap:14px}
+.panel,.card,.callout{background:rgba(255,253,248,.9);border:1px solid var(--line);border-radius:20px;box-shadow:0 12px 36px rgba(35,28,18,.06)}
+.panel{padding:20px}
+.card{padding:18px}
+.cards{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px;margin:26px 0}
+.cards h3{margin:0 0 8px;font-size:1.02rem}
+.cards p,.panel p,.callout p{margin:0;color:var(--muted)}
+.section{padding:12px 0 4px}
+.section h2{font-size:1.65rem;margin:0 0 14px}
+.grid2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+.callout{padding:22px;background:linear-gradient(135deg,#ffffff 0,#f7f4ee 60%,#eef4f2 100%)}
+.chips{display:flex;flex-wrap:wrap;gap:10px;margin-top:14px}
+.chip{display:inline-flex;padding:8px 12px;border-radius:999px;background:var(--soft);border:1px solid var(--line);font-size:.93rem}
+.foot{margin-top:32px;padding-top:18px;border-top:1px solid var(--line);color:var(--muted);font-size:.95rem}
+@media (max-width: 900px){.hero,.grid2,.cards{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="topbar">
+    <div class="brand">PNA</div>
+    <div class="nav">
+      <a href="/pna/">PNA</a>
+      <a href="/analyse/">Analyse</a>
+      <a href="/framework/">Framework</a>
+    </div>
+  </div>
+  <section class="hero">
+    <div>
+      <div class="eyebrow">Einstieg in die PNA</div>
+      <h1>Orientierung sichtbar machen, ohne Menschen in Schubladen zu stecken.</h1>
+      <p class="lead">PNA steht für <strong>Persona Natura Authentica</strong>. Die Seite erklärt die Grundidee des Systems: natürliche Orientierung, gelebtes Verhalten und die Frage, wie beides zusammenpasst. Nicht als Etikett, sondern als verständliches Bild.</p>
+    </div>
+    <div class="stack">
+      <div class="panel">
+        <strong>Was hier sichtbar wird</strong>
+        <p>Authentizität, PNA, Rollenentfaltung und der Unterschied zwischen biologischer Grundausstattung und Orientierungsarchitektur.</p>
+      </div>
+      <div class="panel">
+        <strong>Wofür die Seite gedacht ist</strong>
+        <p>Als ruhiger Startpunkt vor Analyse, Testdurchführung und Ergebnisdarstellung.</p>
+      </div>
+    </div>
+  </section>
+  <section class="cards">
+    <article class="card"><h3><a href="/pna/authentizitaet/">Authentizität</a></h3><p>Was Authentizität in der PNA bedeutet und wie sie sich im Alltag zeigt.</p></article>
+    <article class="card"><h3><a href="/pna/was-ist-die-pna/">Was ist die PNA?</a></h3><p>Die PNA als Gesamtheit der rekonstruierten Microevidenzen einer Person.</p></article>
+    <article class="card"><h3><a href="/pna/dna-und-pna/">DNA und PNA</a></h3><p>Der Unterschied zwischen biologischer Ausstattung und Orientierungsarchitektur.</p></article>
+    <article class="card"><h3><a href="/pna/rollenentfaltung/">Rollenentfaltung</a></h3><p>Wie Rollen aus einem Kontext sichtbar werden, statt festzustehen.</p></article>
+  </section>
+  <section class="grid2 section">
+    <div class="callout">
+      <h2>Wie man die PNA liest</h2>
+      <p>Zuerst geht es um die Grundidee. Danach um die Frage, wie die PNA aus Antworten, Priorisierungen und Microevidenzen rekonstruiert wird. Und schließlich um die Übersetzung in Rollen, Vergleich und Auswertung.</p>
+    </div>
+    <div class="callout">
+      <h2>Was die PNA nicht ist</h2>
+      <p>Keine starre Typologie, kein Schubladensystem und kein moralisches Urteil. Die PNA beschreibt Orientierung. Sie bewertet Menschen nicht, sie macht Muster sichtbar.</p>
+    </div>
+  </section>
+  <div class="chips">
+    <span class="chip">Authentizität</span>
+    <span class="chip">Micro-Pool</span>
+    <span class="chip">Rollen</span>
+    <span class="chip">Vergleich</span>
+    <span class="chip">Weiter zu Analyse</span>
+  </div>
+  <div class="foot">Weiterführende Seiten: <a href="/analyse/">Analyse</a> · <a href="/framework/">Framework</a></div>
+</div>
+</body>
+</html>

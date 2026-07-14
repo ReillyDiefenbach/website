@@ -1,0 +1,372 @@
+{
+  "Europa": {
+    "de": {
+      "iso": "de",
+      "name_de": "Deutsch",
+      "name_native": "Deutsch",
+      "sprecher": 133000000,
+      "sprecher_basis": "reichweite",
+      "richtung": "ltr",
+      "schrift": "Lateinisch",
+      "sprachfamilie": "Indogermanisch (Germanisch)"
+    },
+    "en": {
+      "iso": "en",
+      "name_de": "Englisch",
+      "name_native": "English",
+      "sprecher": 1500000000,
+      "sprecher_basis": "reichweite",
+      "richtung": "ltr",
+      "schrift": "Lateinisch",
+      "sprachfamilie": "Indogermanisch (Germanisch)"
+    },
+    "fr": {
+      "iso": "fr",
+      "name_de": "Französisch",
+      "name_native": "Français",
+      "sprecher": 334000000,
+      "sprecher_basis": "reichweite",
+      "richtung": "ltr",
+      "schrift": "Lateinisch",
+      "sprachfamilie": "Indogermanisch (Romanisch)"
+    },
+    "es": {
+      "iso": "es",
+      "name_de": "Spanisch",
+      "name_native": "Español",
+      "sprecher": 561000000,
+      "sprecher_basis": "reichweite",
+      "richtung": "ltr",
+      "schrift": "Lateinisch",
+      "sprachfamilie": "Indogermanisch (Romanisch)"
+    },
+    "it": {
+      "iso": "it",
+      "name_de": "Italienisch",
+      "name_native": "Italiano",
+      "sprecher": 65000000,
+      "sprecher_basis": "muttersprache",
+      "richtung": "ltr",
+      "schrift": "Lateinisch",
+      "sprachfamilie": "Indogermanisch (Romanisch)"
+    },
+    "pt": {
+      "iso": "pt",
+      "name_de": "Portugiesisch",
+      "name_native": "Português",
+      "sprecher": 269000000,
+      "sprecher_basis": "reichweite",
+      "richtung": "ltr",
+      "schrift": "Lateinisch",
+      "sprachfamilie": "Indogermanisch (Romanisch)"
+    },
+    "ru": {
+      "iso": "ru",
+      "name_de": "Russisch",
+      "name_native": "Русский",
+      "sprecher": 210000000,
+      "sprecher_basis": "reichweite",
+      "richtung": "ltr",
+      "schrift": "Kyrillisch",
+      "sprachfamilie": "Indogermanisch (Slawisch)"
+    },
+    "pl": {
+      "iso": "pl",
+      "name_de": "Polnisch",
+      "name_native": "Polski",
+      "sprecher": 38000000,
+      "sprecher_basis": "muttersprache",
+      "richtung": "ltr",
+      "schrift": "Lateinisch",
+      "sprachfamilie": "Indogermanisch (Slawisch)"
+    },
+    "uk": {
+      "iso": "uk",
+      "name_de": "Ukrainisch",
+      "name_native": "Українська",
+      "sprecher": 32000000,
+      "sprecher_basis": "muttersprache",
+      "richtung": "ltr",
+      "schrift": "Kyrillisch",
+      "sprachfamilie": "Indogermanisch (Slawisch)"
+    },
+    "nl": {
+      "iso": "nl",
+      "name_de": "Niederländisch",
+      "name_native": "Nederlands",
+      "sprecher": 16500000,
+      "sprecher_basis": "muttersprache",
+      "richtung": "ltr",
+      "schrift": "Lateinisch",
+      "sprachfamilie": "Indogermanisch (Germanisch)"
+    },
+    "tr": {
+      "iso": "tr",
+      "name_de": "Türkisch",
+      "name_native": "Türkçe",
+      "sprecher": 94000000,
+      "sprecher_basis": "reichweite",
+      "richtung": "ltr",
+      "schrift": "Lateinisch",
+      "sprachfamilie": "Turksprachen"
+    },
+    "hu": {
+      "iso": "hu",
+      "name_de": "Ungarisch",
+      "name_native": "Magyar",
+      "sprecher": 10000000,
+      "sprecher_basis": "muttersprache",
+      "richtung": "ltr",
+      "schrift": "Lateinisch",
+      "sprachfamilie": "Uralisch (Finno-ugrisch)"
+    },
+    "el": {
+      "iso": "el",
+      "name_de": "Griechisch",
+      "name_native": "Ελληνικά",
+      "sprecher": 10000000,
+      "sprecher_basis": "muttersprache",
+      "richtung": "ltr",
+      "schrift": "Griechisch",
+      "sprachfamilie": "Indogermanisch (Griechisch)"
+    },
+    "cs": {
+      "iso": "cs",
+      "name_de": "Tschechisch",
+      "name_native": "Čeština",
+      "sprecher": 10500000,
+      "sprecher_basis": "muttersprache",
+      "richtung": "ltr",
+      "schrift": "Lateinisch",
+      "sprachfamilie": "Indogermanisch (Slawisch)"
+    },
+    "sv": {
+      "iso": "sv",
+      "name_de": "Schwedisch",
+      "name_native": "Svenska",
+      "sprecher": 9000000,
+      "sprecher_basis": "muttersprache",
+      "richtung": "ltr",
+      "schrift": "Lateinisch",
+      "sprachfamilie": "Indogermanisch (Germanisch)"
+    }
+  },
+  "Asien": {
+    "zh": {
+      "iso": "zh",
+      "name_de": "Mandarin-Chinesisch",
+      "name_native": "中文",
+      "sprecher": 1180000000,
+      "sprecher_basis": "reichweite",
+      "richtung": "ltr",
+      "schrift": "Chinesische Schrift (Hanzi)",
+      "sprachfamilie": "Sinotibetisch (Sinitisch)"
+    },
+    "hi": {
+      "iso": "hi",
+      "name_de": "Hindi",
+      "name_native": "हिन्दी",
+      "sprecher": 611000000,
+      "sprecher_basis": "reichweite",
+      "richtung": "ltr",
+      "schrift": "Devanagari",
+      "sprachfamilie": "Indogermanisch (Indoarisch)"
+    },
+    "bn": {
+      "iso": "bn",
+      "name_de": "Bengali",
+      "name_native": "বাংলা",
+      "sprecher": 274000000,
+      "sprecher_basis": "reichweite",
+      "richtung": "ltr",
+      "schrift": "Bengalisch",
+      "sprachfamilie": "Indogermanisch (Indoarisch)"
+    },
+    "id": {
+      "iso": "id",
+      "name_de": "Indonesisch",
+      "name_native": "Bahasa Indonesia",
+      "sprecher": 255000000,
+      "sprecher_basis": "reichweite",
+      "richtung": "ltr",
+      "schrift": "Lateinisch",
+      "sprachfamilie": "Austronesisch (Malayo-polynesisch)"
+    },
+    "ja": {
+      "iso": "ja",
+      "name_de": "Japanisch",
+      "name_native": "日本語",
+      "sprecher": 126000000,
+      "sprecher_basis": "reichweite",
+      "richtung": "ltr",
+      "schrift": "Kanji / Kana",
+      "sprachfamilie": "Japonisch"
+    },
+    "vi": {
+      "iso": "vi",
+      "name_de": "Vietnamesisch",
+      "name_native": "Tiếng Việt",
+      "sprecher": 97000000,
+      "sprecher_basis": "reichweite",
+      "richtung": "ltr",
+      "schrift": "Lateinisch",
+      "sprachfamilie": "Austroasiatisch (Vietisch)"
+    },
+    "ko": {
+      "iso": "ko",
+      "name_de": "Koreanisch",
+      "name_native": "한국어",
+      "sprecher": 82000000,
+      "sprecher_basis": "reichweite",
+      "richtung": "ltr",
+      "schrift": "Hangul",
+      "sprachfamilie": "Koreanisch"
+    },
+    "th": {
+      "iso": "th",
+      "name_de": "Thai",
+      "name_native": "ไทย",
+      "sprecher": 71000000,
+      "sprecher_basis": "reichweite",
+      "richtung": "ltr",
+      "schrift": "Thailändisch",
+      "sprachfamilie": "Tai-Kadai"
+    },
+    "tl": {
+      "iso": "tl",
+      "name_de": "Tagalog",
+      "name_native": "Tagalog",
+      "sprecher": 87000000,
+      "sprecher_basis": "reichweite",
+      "richtung": "ltr",
+      "schrift": "Lateinisch",
+      "sprachfamilie": "Austronesisch (Malayo-polynesisch)"
+    },
+    "ta": {
+      "iso": "ta",
+      "name_de": "Tamil",
+      "name_native": "தமிழ்",
+      "sprecher": 86000000,
+      "sprecher_basis": "reichweite",
+      "richtung": "ltr",
+      "schrift": "Tamilisch",
+      "sprachfamilie": "Dravidisch"
+    }
+  },
+  "Afrika": {
+    "sw": {
+      "iso": "sw",
+      "name_de": "Kiswahili / Swahili",
+      "name_native": "Kiswahili",
+      "sprecher": 95000000,
+      "sprecher_basis": "reichweite",
+      "richtung": "ltr",
+      "schrift": "Lateinisch",
+      "sprachfamilie": "Niger-Kongo (Bantu)"
+    },
+    "ha": {
+      "iso": "ha",
+      "name_de": "Hausa",
+      "name_native": "Hausa",
+      "sprecher": 94000000,
+      "sprecher_basis": "reichweite",
+      "richtung": "ltr",
+      "schrift": "Lateinisch (Boko)",
+      "sprachfamilie": "Afroasiatisch (Tschadisch)"
+    },
+    "am": {
+      "iso": "am",
+      "name_de": "Amharisch",
+      "name_native": "አማርኛ",
+      "sprecher": 78000000,
+      "sprecher_basis": "reichweite",
+      "richtung": "ltr",
+      "schrift": "Ge'ez-Schrift",
+      "sprachfamilie": "Afroasiatisch (Semitisch)"
+    },
+    "pcm": {
+      "iso": "pcm",
+      "name_de": "Nigerian Pidgin",
+      "name_native": "Nigerian Pidgin",
+      "sprecher": 121000000,
+      "sprecher_basis": "reichweite",
+      "richtung": "ltr",
+      "schrift": "Lateinisch",
+      "sprachfamilie": "Englischbasiertes Kreol / Pidgin"
+    }
+  },
+  "Amerika": {
+    "en": {
+      "iso": "en",
+      "name_de": "Englisch",
+      "name_native": "English",
+      "sprecher": 1500000000,
+      "sprecher_basis": "reichweite",
+      "richtung": "ltr",
+      "schrift": "Lateinisch",
+      "sprachfamilie": "Indogermanisch (Germanisch)"
+    },
+    "es": {
+      "iso": "es",
+      "name_de": "Spanisch",
+      "name_native": "Español",
+      "sprecher": 561000000,
+      "sprecher_basis": "reichweite",
+      "richtung": "ltr",
+      "schrift": "Lateinisch",
+      "sprachfamilie": "Indogermanisch (Romanisch)"
+    },
+    "pt": {
+      "iso": "pt",
+      "name_de": "Portugiesisch",
+      "name_native": "Português",
+      "sprecher": 269000000,
+      "sprecher_basis": "reichweite",
+      "richtung": "ltr",
+      "schrift": "Lateinisch",
+      "sprachfamilie": "Indogermanisch (Romanisch)"
+    },
+    "fr-HT": {
+      "iso": "fr-HT",
+      "name_de": "Haitianisches Kreol",
+      "name_native": "Kreyòl ayisyen",
+      "sprecher": 54000000,
+      "sprecher_basis": "reichweite",
+      "richtung": "ltr",
+      "schrift": "Lateinisch",
+      "sprachfamilie": "Französischbasiertes Kreol"
+    }
+  },
+  "Nahost": {
+    "ar": {
+      "iso": "ar",
+      "name_de": "Arabisch",
+      "name_native": "العربية",
+      "sprecher": 420000000,
+      "sprecher_basis": "reichweite",
+      "richtung": "rtl",
+      "schrift": "Arabisch",
+      "sprachfamilie": "Afroasiatisch (Semitisch)"
+    },
+    "fa": {
+      "iso": "fa",
+      "name_de": "Persisch / Farsi",
+      "name_native": "فارسی",
+      "sprecher": 65000000,
+      "sprecher_basis": "reichweite",
+      "richtung": "rtl",
+      "schrift": "Arabisch-Persisch",
+      "sprachfamilie": "Indogermanisch (Iranisch)"
+    },
+    "ur": {
+      "iso": "ur",
+      "name_de": "Urdu",
+      "name_native": "اردو",
+      "sprecher": 78000000,
+      "sprecher_basis": "reichweite",
+      "richtung": "rtl",
+      "schrift": "Arabisch-Persisch",
+      "sprachfamilie": "Indogermanisch (Indoarisch)"
+    }
+  }
+}

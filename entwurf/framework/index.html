@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dynamics Framework</title>
+<style>
+:root{--bg:#f4efe7;--paper:#fffdf8;--ink:#1d1b18;--muted:#62584d;--line:#d8cdbf;--accent:#2f5d62;--accent-2:#995f2d}
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,sans-serif;background:linear-gradient(180deg,#faf7f1 0,#f4efe7 100%);color:var(--ink);line-height:1.5}
+a{color:var(--accent);text-decoration:none} a:hover{text-decoration:underline}
+.wrap{max-width:1160px;margin:0 auto;padding:26px 20px 54px}
+.nav{display:flex;gap:12px;flex-wrap:wrap;font-size:.95rem;padding:6px 0 18px;border-bottom:1px solid var(--line)}
+.hero{display:grid;grid-template-columns:1.2fr .8fr;gap:18px;align-items:end;padding:30px 0 16px}
+.eyebrow{font-size:.76rem;letter-spacing:.16em;text-transform:uppercase;color:var(--accent-2);margin-bottom:10px}
+h1{font-size:clamp(2.4rem,5vw,4.2rem);line-height:1.05;margin:0 0 14px}
+.lead{max-width:62ch;font-size:1.1rem;color:var(--muted)}
+.panel,.card,.callout{background:rgba(255,255,255,.94);border:1px solid var(--line);border-radius:18px;padding:18px}
+.cards{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px;margin:22px 0}
+.card h2,.callout h2,.panel h2{margin:0 0 8px;font-size:1.1rem}
+.card p,.panel p,.callout p{color:var(--muted);margin:0}
+.stack{display:grid;gap:14px}
+.diagram{display:grid;gap:10px;margin-top:16px}
+.layer{padding:14px 16px;border-radius:16px;border:1px solid var(--line);background:linear-gradient(180deg,#fff 0,#faf6ef 100%)}
+.footer{margin-top:24px;padding-top:16px;border-top:1px solid var(--line);color:var(--muted)}
+@media (max-width: 900px){.hero,.cards{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="nav"><a href="/pna/">PNA</a><a href="/analyse/">Analyse</a><a href="/framework/">Framework</a></div>
+  <section class="hero">
+    <div>
+      <div class="eyebrow">Systemlogik</div>
+      <h1>Das Framework ist die Bauanleitung hinter der Oberfläche.</h1>
+      <p class="lead">Es legt fest, wie Modelle geordnet werden, wie Tests aufgebaut sind und wie Ergebnisse lesbar bleiben. Damit die Oberfläche nicht rätselt, sondern erklärt.</p>
+    </div>
+    <div class="panel">
+      <strong>Die vier Ebenen, die man hier verstehen sollte</strong>
+      <p>PNA Navigator, PNA Core, PNA Lab und PNA Insights - plus die Regeln, die alles zusammenhalten.</p>
+    </div>
+  </section>
+  <section class="cards">
+    <article class="card"><h2><a href="/framework/module-und-modelle/">Module und Modelle</a></h2><p>Wie Families, Module und Modelle zusammenhängen.</p></article>
+    <article class="card"><h2><a href="/framework/philosophie/">Philosophie</a></h2><p>Warum das System Orientierung zeigt statt Schubladen zu verteilen.</p></article>
+    <article class="card"><h2><a href="/framework/wissenschaftlicher-hintergrund/">Wissenschaftlicher Hintergrund</a></h2><p>Wie Daten, Evidenzen und Auswertung zusammenkommen.</p></article>
+    <article class="card"><h2><a href="/framework/warum-tests-scheitern/">Warum Tests scheitern</a></h2><p>Warum klassische Persönlichkeitstests oft zu früh Schluss machen.</p></article>
+  </section>
+  <section class="callout">
+    <h2>Die Architektur in einer Linie</h2>
+    <p>PNA ist die Dachmarke. Der Navigator ist die Plattform. Der Core enthält die Modelle. Das Lab entwickelt und prüft. Insights verdichtet das Ergebnis für Darstellung und Vergleich.</p>
+  </section>
+  <div class="diagram">
+    <div class="layer"><strong>PNA Navigator</strong> - Tests, Reports, Profile und Vergleiche.</div>
+    <div class="layer"><strong>PNA Core</strong> - die Modelle und ihre diagnostische Basis.</div>
+    <div class="layer"><strong>PNA Lab</strong> - Entwicklung, Validierung und Qualitätskontrolle.</div>
+    <div class="layer"><strong>PNA Insights</strong> - Auswertung, Bericht und Vergleich.</div>
+  </div>
+  <div class="footer"><a href="/framework/module-und-modelle/">Weiter zur Struktur</a> · <a href="/framework/wissenschaftlicher-hintergrund/">Weiter zur Messlogik</a></div>
+</div>
+</body>
+</html>

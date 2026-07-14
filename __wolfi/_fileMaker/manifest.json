@@ -1,0 +1,28 @@
+{
+    "hash": "d6f8502562ce82fcbca724aaa3d5a214bd6596807efbbea0c3ecf5d8a62df90c",
+    "built_at": "2026-07-14T11:29:10+00:00",
+    "sources": [
+        "__wolfi/_fileMaker/scss/typography.scss",
+        "__wolfi/_fileMaker/css/essential.css",
+        "__wolfi/_fileMaker/scss/sections.scss",
+        "__wolfi/_fileMaker/scss/content-layouts.scss",
+        "__wolfi/_fileMaker/scss/boxes.scss",
+        "__wolfi/_fileMaker/scss/main.scss",
+        "__wolfi/_fileMaker/scss/_variables.scss",
+        "__wolfi/_fileMaker/scss/headermenu.scss",
+        "__wolfi/_fileMaker/scss/knowledge.scss",
+        "__wolfi/_fileMaker/js/main.js",
+        "__wolfi/_fileMaker/js/site.js",
+        "__wolfi/_fileMaker/js/nav_menu.js",
+        "__wolfi/_fileMaker/js/sections.js",
+        "__wolfi/_fileMaker/js/factsheet.js"
+    ],
+    "outputs": [
+        "_cdn/carlvon.css",
+        "_cdn/carlvon.min.css",
+        "_cdn/carlvon.typography.css",
+        "_cdn/carlvon.typography.min.css",
+        "_cdn/carlvon.js",
+        "_cdn/carlvon.min.js"
+    ]
+}

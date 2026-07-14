@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Testergebnisse</title>
+<style>
+:root{--bg:#f6f1e8;--paper:#fffdf8;--ink:#1d1b18;--muted:#64584d;--line:#d9cdbf;--accent:#2f5d62;--accent-2:#9c672d}
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,sans-serif;background:linear-gradient(180deg,#fbf8f2 0,#f6f1e8 100%);color:var(--ink);line-height:1.5}
+a{color:var(--accent);text-decoration:none} a:hover{text-decoration:underline}
+.wrap{max-width:1120px;margin:0 auto;padding:26px 20px 54px}
+.nav{display:flex;gap:12px;flex-wrap:wrap;font-size:.95rem;padding:6px 0 18px;border-bottom:1px solid var(--line)}
+.hero{display:grid;grid-template-columns:1.2fr .8fr;gap:18px;align-items:start;padding:28px 0 16px}
+.eyebrow{font-size:.76rem;letter-spacing:.16em;text-transform:uppercase;color:var(--accent-2);margin-bottom:10px}
+h1{font-size:clamp(2.2rem,5vw,4rem);line-height:1.05;margin:0 0 14px}
+.lead{max-width:64ch;font-size:1.1rem;color:var(--muted)}
+.panel,.card,.callout{background:rgba(255,255,255,.94);border:1px solid var(--line);border-radius:18px;padding:18px}
+.cards{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px;margin:22px 0}
+.card h2,.callout h2,.panel h2{margin:0 0 8px;font-size:1.1rem}
+.card p,.panel p,.callout p{color:var(--muted);margin:0}
+.matrix{width:100%;border-collapse:collapse;margin-top:10px}
+.matrix th,.matrix td{border-bottom:1px solid var(--line);padding:10px 8px;text-align:left;vertical-align:top}
+.matrix th{font-size:.92rem}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:16px}
+.badge{display:inline-block;padding:7px 11px;border-radius:999px;border:1px solid var(--line);background:#eef4f2;margin:6px 8px 0 0}
+@media (max-width: 900px){.hero,.cards,.grid2{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="nav"><a href="/pna/">PNA</a><a href="/analyse/">Analyse</a><a href="/framework/">Framework</a></div>
+  <section class="hero">
+    <div>
+      <div class="eyebrow">Ergebnisdarstellung</div>
+      <h1>Das Ergebnis zeigt mehr als nur einen Punkt auf einer Skala.</h1>
+      <p class="lead">Die Analyse macht vier Ergebnisbereiche sichtbar: Orientierung, Prioritäten, Wirkungsraum und Rollenprofil. Zusätzlich können Vergleiche und Einladungen zur Fremdbewertung folgen.</p>
+    </div>
+    <div class="panel">
+      <strong>Was du bekommst</strong>
+      <p>Ein Ergebnisbild, das für Selbstverständnis, Vergleich und weitere Auswertung nutzbar ist. Nicht als Label, sondern als lesbarer Zusammenhang.</p>
+    </div>
+  </section>
+  <section class="cards">
+    <article class="card"><h2>Orientierung</h2><p>Zeigt, welche Ausrichtung im Test stärker sichtbar ist.</p></article>
+    <article class="card"><h2>Prioritäten</h2><p>Zeigt, was im Themenraum wirklich Gewicht bekommt.</p></article>
+    <article class="card"><h2>Wirkungsraum</h2><p>Zeigt, in welchem Ausdrucksraum sich das Ergebnis bündelt.</p></article>
+    <article class="card"><h2>Rollenprofil</h2><p>Zeigt, wie der Kontext die Rolle formt.</p></article>
+  </section>
+  <section class="callout">
+    <h2>Das Ergebnis in der Praxis</h2>
+    <p>Ein Ergebnis ist dann nützlich, wenn es verständlich bleibt und sich mit anderen Ergebnissen vergleichen lässt. Deshalb verbindet die PNA Ergebnisdarstellung mit Verlinkung, Fremdbild und späterer Microevidenz.</p>
+  </section>
+  <table class="matrix">
+    <thead><tr><th>Bereich</th><th>Was sichtbar wird</th><th>Wofür es taugt</th></tr></thead>
+    <tbody>
+      <tr><td>Orientierung</td><td>erste Lesart der Ausrichtung</td><td>Einordnung des Themenraums</td></tr>
+      <tr><td>Prioritäten</td><td>Gewichtung innerhalb der Antworten</td><td>Abgleich von Wichtigem und Nebensächlichem</td></tr>
+      <tr><td>Wirkungsraum</td><td>gebündelte Ausprägung der Orientierung</td><td>lesbare Ergebnisform</td></tr>
+      <tr><td>Rollenprofil</td><td>funktionale Ausprägung im Kontext</td><td>Vergleich und Kommunikation</td></tr>
+    </tbody>
+  </table>
+  <div class="grid2">
+    <div class="panel">
+      <strong>Vergleiche mit anderen</strong>
+      <p>Ergebnisse können verlinkt werden. So sieht man nicht nur ein Einzelbild, sondern auch Gemeinsamkeiten und Unterschiede zwischen Personen.</p>
+      <span class="badge">Vergleich</span><span class="badge">Verlinkung</span><span class="badge">Fremdbewertung</span>
+    </div>
+    <div class="panel">
+      <strong>Für Geld bekommst du also ...</strong>
+      <p>keine hübsche Zahl um der Zahl willen, sondern eine strukturierte Auswertung, die sich weiterverwenden lässt.</p>
+    </div>
+  </div>
+</div>
+</body>
+</html>

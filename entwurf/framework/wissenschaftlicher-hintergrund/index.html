@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Wissenschaftlicher Hintergrund</title>
+<style>
+:root{--bg:#f4efe7;--paper:#fffdf8;--ink:#1d1b18;--muted:#62584d;--line:#d8cdbf;--accent:#2f5d62;--accent-2:#8d5f28}
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,sans-serif;background:linear-gradient(180deg,#faf7f1 0,#f4efe7 100%);color:var(--ink);line-height:1.5}
+a{color:var(--accent);text-decoration:none} a:hover{text-decoration:underline}
+.wrap{max-width:1120px;margin:0 auto;padding:26px 20px 54px}
+.nav{display:flex;gap:12px;flex-wrap:wrap;font-size:.95rem;padding:6px 0 18px;border-bottom:1px solid var(--line)}
+.hero{display:grid;grid-template-columns:1.2fr .8fr;gap:18px;align-items:start;padding:28px 0 16px}
+.eyebrow{font-size:.76rem;letter-spacing:.16em;text-transform:uppercase;color:var(--accent-2);margin-bottom:10px}
+h1{font-size:clamp(2.2rem,5vw,4rem);line-height:1.05;margin:0 0 14px}
+.lead{max-width:64ch;font-size:1.1rem;color:var(--muted)}
+.panel,.card,.callout{background:rgba(255,255,255,.94);border:1px solid var(--line);border-radius:18px;padding:18px}
+.cards{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px;margin:22px 0}
+.card h2,.callout h2,.panel h2{margin:0 0 8px;font-size:1.08rem}
+.card p,.panel p,.callout p{color:var(--muted);margin:0}
+.flow{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin-top:18px}
+.step{padding:16px;border-radius:18px;border:1px solid var(--line);background:linear-gradient(180deg,#fff 0,#faf6ef 100%)}
+.step strong{display:block;margin-bottom:6px}
+table{width:100%;border-collapse:collapse;margin-top:10px}
+th,td{border-bottom:1px solid var(--line);padding:10px 8px;text-align:left;vertical-align:top}
+th{font-size:.92rem}
+@media (max-width: 900px){.hero,.cards,.flow{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="nav"><a href="/pna/">PNA</a><a href="/analyse/">Analyse</a><a href="/framework/">Framework</a></div>
+  <section class="hero">
+    <div>
+      <div class="eyebrow">Messlogik</div>
+      <h1>Aus Rohdaten wird nicht direkt eine Wahrheit. Erst die Auswertung macht daraus Evidenz.</h1>
+      <p class="lead">Der wissenschaftliche Hintergrund trennt Rohdaten, Normierung, Dynamics-Auswertung und Micro-Mapping. So bleibt nachvollziehbar, wie die PNA aus Tests rekonstruiert wird.</p>
+    </div>
+    <div class="panel">
+      <strong>Die Grundidee</strong>
+      <p>24 Frageblöcke, Priorisierungen und Forced-Choice-Entscheidungen bilden die Rohdaten. Daraus entstehen standardisierte Scores und zwei Auswertungspfade.</p>
+    </div>
+  </section>
+  <section class="cards">
+    <article class="card"><h2>Rohdaten</h2><p>Antworten, Priorisierungen und Forced-Choice-Entscheidungen.</p></article>
+    <article class="card"><h2>Normierung</h2><p>Die Rohdaten werden in standardisierte Scores überführt.</p></article>
+    <article class="card"><h2>Dynamics</h2><p>Ein Test wird in seinem Themenraum ausgelesen.</p></article>
+    <article class="card"><h2>Micro-Mapping</h2><p>Microevidenzen fließen in den Micro-Pool ein.</p></article>
+  </section>
+  <table>
+    <thead><tr><th>Pfad</th><th>Funktion</th><th>Bezug zur PNA</th></tr></thead>
+    <tbody>
+      <tr><td>Dynamics-Auswertung</td><td>testbezogene Ergebnisdarstellung</td><td>zeigt Orientierung, Prioritäten, Wirkungsraum und Rollenprofil</td></tr>
+      <tr><td>Micro-Mapping</td><td>Rekonstruktion von Microevidenzen</td><td>bildet den Micro-Pool</td></tr>
+      <tr><td>Macro- und Meta-Views</td><td>Reporting- und Organisationssicht</td><td>erzeugen keine neue Evidenz</td></tr>
+    </tbody>
+  </table>
+  <div class="flow">
+    <div class="step"><strong>1. Beobachtung</strong><span>Frageblöcke und Priorisierungen erzeugen Rohdaten.</span></div>
+    <div class="step"><strong>2. Normierung</strong><span>Die Daten werden in vergleichbare Einheiten gebracht.</span></div>
+    <div class="step"><strong>3. Auswertung</strong><span>Dynamics und Micro-Mapping laufen parallel.</span></div>
+    <div class="step"><strong>4. Evidenzbasis</strong><span>Der Micro-Pool wächst mit jedem Test.</span></div>
+  </div>
+</div>
+</body>
+</html>
