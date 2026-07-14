@@ -513,14 +513,17 @@
 
                 const subItems = Array.from(mainItem.querySelectorAll(':scope > .subNav'));
                 const group = document.createElement('div');
+                const groupHead = document.createElement('div');
                 const link = document.createElement('a');
 
                 group.className = subItems.length ? 'navSection__group open' : 'navSection__group';
+                groupHead.className = 'navSection__groupHead';
                 link.className = 'navSection__link navSection__link--main';
                 link.href = `#${mainItem.id}`;
                 link.textContent = label;
 
-                group.appendChild(link);
+                groupHead.appendChild(link);
+                group.appendChild(groupHead);
 
                 nav.appendChild(group);
                 targets.push({element: mainItem, heading, link, group});
@@ -528,7 +531,19 @@
 
                 if(subItems.length){
                     const subList = document.createElement('div');
+                    const toggle = document.createElement('button');
                     subList.className = 'navSection__subNav';
+                    subList.id = `${mainItem.id}-subnav`;
+                    toggle.className = 'navSection__toggle';
+                    toggle.type = 'button';
+                    toggle.setAttribute('aria-label', `${label}: Unterbereiche ein- oder ausblenden`);
+                    toggle.setAttribute('aria-controls', subList.id);
+                    toggle.setAttribute('aria-expanded', 'true');
+                    toggle.addEventListener('click', () => {
+                        const open = group.classList.toggle('open');
+                        toggle.setAttribute('aria-expanded', String(open));
+                    });
+                    groupHead.appendChild(toggle);
                     group.appendChild(subList);
 
                     subItems.forEach(subItem => {
@@ -552,6 +567,34 @@
 
             if(!targets.length) return;
 
+            targets.forEach((target, index) => {
+                target.heading.querySelector(':scope > .navSection__steps')?.remove();
+
+                const steps = document.createElement('span');
+                steps.className = 'navSection__steps';
+
+                const addStep = (direction, destination) => {
+                    if(!destination) return;
+
+                    const step = document.createElement('a');
+                    const isUp = direction === 'up';
+                    step.className = `navSection__step navSection__step--${direction}`;
+                    step.href = `#${destination.element.id}`;
+                    step.textContent = isUp ? '↑' : '↓';
+                    step.setAttribute('aria-label', isUp ? 'Zum vorherigen Abschnitt' : 'Zum nächsten Abschnitt');
+                    step.addEventListener('click', event => {
+                        event.preventDefault();
+                        activateTarget(destination);
+                        updateActive();
+                    });
+                    steps.appendChild(step);
+                };
+
+                addStep('up', targets[index - 1]);
+                addStep('down', targets[index + 1]);
+                target.heading.appendChild(steps);
+            });
+
             targets.forEach(({element, link}) => {
                 link.addEventListener('click', event => {
                     event.preventDefault();
@@ -560,15 +603,41 @@
                 });
             });
 
+            let previousActive = null;
+
             const updateActive = () => {
-                const offset = getHeaderOffset() + 36;
-                let active = targets[0];
+                const viewportTop = getHeaderOffset();
+                const viewportBottom = window.innerHeight;
+                const readingLine = viewportTop + Math.max(0, viewportBottom - viewportTop) * .35;
+                let active = null;
+                let largestVisibleArea = -1;
 
                 targets.forEach(target => {
-                    if(target.element.getBoundingClientRect().top <= offset){
+                    const rect = target.element.getBoundingClientRect();
+                    const visibleArea = Math.max(
+                        0,
+                        Math.min(rect.bottom, viewportBottom) - Math.max(rect.top, viewportTop)
+                    );
+
+                    if(visibleArea > largestVisibleArea){
+                        largestVisibleArea = visibleArea;
                         active = target;
                     }
+
                 });
+
+                const mainRect = main.getBoundingClientRect();
+                const probeX = Math.max(0, Math.min(window.innerWidth - 1, mainRect.left + mainRect.width * .5));
+                const elementAtReadingLine = document.elementFromPoint(probeX, readingLine);
+                const targetAtReadingLine = [...targets]
+                    .reverse()
+                    .find(target => target.element === elementAtReadingLine || target.element.contains(elementAtReadingLine));
+
+                if(targetAtReadingLine){
+                    active = targetAtReadingLine;
+                }
+
+                active = active || targets[0];
 
                 targets.forEach(target => {
                     target.link.classList.toggle('active', target === active);
@@ -577,6 +646,14 @@
                 groups.forEach(group => {
                     group.classList.toggle('active', group === active.group);
                 });
+
+                if(active !== previousActive && active.element.classList.contains('subNav')){
+                    active.group.classList.add('open');
+                    active.group.querySelector(':scope > .navSection__groupHead > .navSection__toggle')
+                        ?.setAttribute('aria-expanded', 'true');
+                }
+
+                previousActive = active;
             };
 
             states.push(updateActive);
@@ -1393,6 +1470,8 @@
             initNavSections(scope);
             initCenterPics(scope);
             initInnerImages(scope);
+            window.CarlVon?.superSpy?.init(scope);
+            window.CarlVon?.switcher?.init(scope);
             this.initLegalDocs(scope);
             this.initTicketing(scope);
             initScrollBehaviour(scope);
@@ -2122,6 +2201,347 @@
     } else {
         initSections(document);
     }
+})();
+
+/* super_spy.js */
+(function () {
+    'use strict';
+
+    window.CarlVon = window.CarlVon || {};
+
+    let cleanup = null;
+
+    function getHeaderOffset() {
+        const header = document.querySelector('header, #header');
+        return (header?.getBoundingClientRect().height || 72) + 20;
+    }
+
+    function getPageRoot(root) {
+        if (root instanceof Element && root.matches('#middle')) return root;
+        return root.querySelector?.('#middle') || root;
+    }
+
+    function getSections(root) {
+        const pageRoot = getPageRoot(root);
+        const directSections = pageRoot.querySelectorAll?.(':scope > section.content') || [];
+        const sections = directSections.length
+            ? Array.from(directSections)
+            : Array.from(pageRoot.querySelectorAll?.('section.content') || []);
+
+        return sections.filter(section => !section.parentElement?.closest('section.content'));
+    }
+
+    function getLabel(section, index) {
+        const heading = section.querySelector('h1, h2, h3, h4');
+        return section.dataset.superSpyLabel
+            || section.getAttribute('aria-label')
+            || heading?.textContent?.trim()
+            || `Abschnitt ${index + 1}`;
+    }
+
+    function destroy() {
+        if (cleanup) cleanup();
+        cleanup = null;
+        document.querySelectorAll('.super_spy[data-generated="super-spy"]').forEach(nav => nav.remove());
+    }
+
+    function init(root = document) {
+        const scope = root instanceof Element || root instanceof Document ? root : document;
+        const sections = getSections(scope);
+
+        destroy();
+        if (sections.length < 2) return;
+
+        const nav = document.createElement('nav');
+        nav.className = 'super_spy';
+        nav.dataset.generated = 'super-spy';
+        nav.setAttribute('aria-label', 'Seitennavigation');
+
+        const items = sections.map((section, index) => {
+            const label = getLabel(section, index);
+            const button = document.createElement('button');
+            const track = document.createElement('span');
+            const fill = document.createElement('span');
+
+            button.className = 'super_spy__item';
+            button.type = 'button';
+            button.dataset.label = label;
+            button.setAttribute('aria-label', label);
+            track.className = 'super_spy__track';
+            track.setAttribute('aria-hidden', 'true');
+            fill.className = 'super_spy__fill';
+            track.appendChild(fill);
+            button.appendChild(track);
+            nav.appendChild(button);
+
+            button.addEventListener('click', () => {
+                const top = section.getBoundingClientRect().top + window.scrollY - getHeaderOffset();
+                window.scrollTo({
+                    top: Math.max(0, top),
+                    behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth'
+                });
+            });
+
+            return { section, button };
+        });
+
+        document.body.appendChild(nav);
+
+        let frame = 0;
+
+        const measure = () => {
+            items.forEach(({ section, button }) => {
+                button.style.setProperty('--super-spy-size', Math.max(1, section.getBoundingClientRect().height));
+            });
+        };
+
+        const update = () => {
+            frame = 0;
+            const viewportTop = window.scrollY + getHeaderOffset();
+            const viewportBottom = window.scrollY + window.innerHeight;
+            const readingLine = viewportTop + Math.max(0, viewportBottom - viewportTop) * .35;
+            let activeIndex = 0;
+            let largestVisibleArea = -1;
+
+            items.forEach(({ section }, index) => {
+                const sectionTop = section.getBoundingClientRect().top + window.scrollY;
+                const sectionBottom = sectionTop + section.offsetHeight;
+                const visibleArea = Math.max(
+                    0,
+                    Math.min(sectionBottom, viewportBottom) - Math.max(sectionTop, viewportTop)
+                );
+
+                if (visibleArea > largestVisibleArea) {
+                    largestVisibleArea = visibleArea;
+                    activeIndex = index;
+                }
+
+                if (sectionTop <= readingLine && sectionBottom > readingLine) {
+                    activeIndex = index;
+                }
+            });
+
+            items.forEach(({ section, button }, index) => {
+                const sectionTop = section.getBoundingClientRect().top + window.scrollY;
+                const sectionHeight = Math.max(1, section.offsetHeight);
+                const sectionBottom = sectionTop + sectionHeight;
+                const visibleTop = Math.max(sectionTop, viewportTop);
+                const visibleBottom = Math.min(sectionBottom, viewportBottom);
+                const visibleArea = Math.max(0, visibleBottom - visibleTop);
+                const fillTop = visibleArea > 0 ? (visibleTop - sectionTop) / sectionHeight : 0;
+                const fillHeight = visibleArea / sectionHeight;
+
+                button.classList.toggle('is-active', index === activeIndex);
+                button.classList.toggle('is-visible', visibleArea > 0);
+                button.setAttribute('aria-current', index === activeIndex ? 'location' : 'false');
+                button.style.setProperty('--super-spy-fill-top', `${(fillTop * 100).toFixed(4)}%`);
+                button.style.setProperty('--super-spy-fill-height', `${(fillHeight * 100).toFixed(4)}%`);
+            });
+        };
+
+        const requestUpdate = () => {
+            if (frame) return;
+            frame = window.requestAnimationFrame(update);
+        };
+
+        const onResize = () => {
+            measure();
+            requestUpdate();
+        };
+
+        const resizeObserver = 'ResizeObserver' in window
+            ? new ResizeObserver(onResize)
+            : null;
+
+        items.forEach(({ section }) => resizeObserver?.observe(section));
+        window.addEventListener('scroll', requestUpdate, { passive: true });
+        window.addEventListener('resize', onResize);
+        measure();
+        update();
+
+        cleanup = () => {
+            window.removeEventListener('scroll', requestUpdate);
+            window.removeEventListener('resize', onResize);
+            resizeObserver?.disconnect();
+            if (frame) window.cancelAnimationFrame(frame);
+            nav.remove();
+        };
+    }
+
+    window.CarlVon.superSpy = { init, destroy };
+})();
+
+/* switcher.js */
+(function () {
+    'use strict';
+
+    window.CarlVon = window.CarlVon || {};
+
+    const storageKey = 'carlvon-switched';
+    const allowedValues = new Set(['personal', 'business']);
+    let resizeFrame = 0;
+    let resizeObserver = null;
+
+    function normalize(value) {
+        return allowedValues.has(value) ? value : null;
+    }
+
+    function getSwitchers(root = document) {
+        const scope = root instanceof Element || root instanceof Document ? root : document;
+        return [
+            ...(scope.matches?.('.switcher') ? [scope] : []),
+            ...Array.from(scope.querySelectorAll('.switcher'))
+        ];
+    }
+
+    function getStateRoots() {
+        const roots = Array.from(document.querySelectorAll('[data-switcher]'))
+            .filter(root => !root.parentElement?.closest('[data-switcher]'));
+
+        return roots.length ? roots : [document.documentElement];
+    }
+
+    function ensureSlider(switcher) {
+        let slider = switcher.querySelector(':scope > .switcher__slider');
+
+        if (!slider) {
+            slider = document.createElement('span');
+            slider.className = 'switcher__slider';
+            slider.setAttribute('aria-hidden', 'true');
+            switcher.prepend(slider);
+        }
+
+        return slider;
+    }
+
+    function position(switcher) {
+        const active = switcher.querySelector(':scope > [data-switch].active');
+        if (!active) return;
+
+        switcher.style.setProperty('--switcher-x', `${active.offsetLeft}px`);
+        switcher.style.setProperty('--switcher-width', `${active.offsetWidth}px`);
+        switcher.dataset.switcherReady = 'true';
+    }
+
+    function positionAll() {
+        resizeFrame = 0;
+        getSwitchers(document).forEach(position);
+    }
+
+    function requestPosition() {
+        if (resizeFrame) return;
+        resizeFrame = window.requestAnimationFrame(positionAll);
+    }
+
+    function setValue(value, options = {}) {
+        const nextValue = normalize(value);
+        if (!nextValue) return false;
+
+        const stateRoots = getStateRoots();
+        const previousValue = normalize(stateRoots[0]?.dataset.switched);
+
+        if (!stateRoots.includes(document.documentElement)) {
+            delete document.documentElement.dataset.switched;
+        }
+
+        stateRoots.forEach(root => {
+            root.dataset.switched = nextValue;
+        });
+
+        getSwitchers(document).forEach(switcher => {
+            switcher.querySelectorAll(':scope > [data-switch]').forEach(option => {
+                const active = option.dataset.switch === nextValue;
+                option.classList.toggle('active', active);
+                option.setAttribute('aria-pressed', String(active));
+            });
+        });
+
+        if (options.persist !== false) {
+            try {
+                window.localStorage.setItem(storageKey, nextValue);
+            } catch (error) {
+                // Der globale data-Zustand funktioniert auch ohne Storage.
+            }
+        }
+
+        requestPosition();
+
+        if (options.emit !== false && previousValue !== nextValue) {
+            document.dispatchEvent(new CustomEvent('carlvonswitchchange', {
+                detail: { value: nextValue, previousValue }
+            }));
+        }
+
+        return true;
+    }
+
+    function getInitialValue(switchers) {
+        for (const root of getStateRoots()) {
+            const rootValue = normalize(root.dataset.switched);
+            if (rootValue) return rootValue;
+        }
+
+        try {
+            const storedValue = normalize(window.localStorage.getItem(storageKey));
+            if (storedValue) return storedValue;
+        } catch (error) {
+            // Fallback auf Markup oder personal.
+        }
+
+        for (const switcher of switchers) {
+            const defaultValue = normalize(switcher.dataset.switchDefault);
+            const activeValue = normalize(switcher.querySelector(':scope > [data-switch].active')?.dataset.switch);
+            const firstValue = normalize(switcher.querySelector(':scope > [data-switch]')?.dataset.switch);
+            if (defaultValue || activeValue || firstValue) return defaultValue || activeValue || firstValue;
+        }
+
+        return 'personal';
+    }
+
+    function bindOption(option) {
+        if (option.dataset.switchBound === 'true') return;
+        option.dataset.switchBound = 'true';
+
+        if (option.tagName !== 'BUTTON') {
+            option.setAttribute('role', 'button');
+            option.setAttribute('tabindex', option.getAttribute('tabindex') || '0');
+        }
+
+        const activate = () => setValue(option.dataset.switch);
+        option.addEventListener('click', activate);
+        option.addEventListener('keydown', event => {
+            if (option.tagName === 'BUTTON') return;
+            if (event.key !== 'Enter' && event.key !== ' ') return;
+            event.preventDefault();
+            activate();
+        });
+    }
+
+    function init(root = document) {
+        const switchers = getSwitchers(root);
+        if (!switchers.length) return;
+
+        if (!resizeObserver && 'ResizeObserver' in window) {
+            resizeObserver = new ResizeObserver(requestPosition);
+        }
+
+        switchers.forEach(switcher => {
+            ensureSlider(switcher);
+            switcher.setAttribute('role', 'group');
+            switcher.setAttribute('aria-label', switcher.getAttribute('aria-label') || 'Ansicht wählen');
+            switcher.querySelectorAll(':scope > [data-switch]').forEach(option => {
+                bindOption(option);
+                resizeObserver?.observe(option);
+            });
+            resizeObserver?.observe(switcher);
+        });
+
+        setValue(getInitialValue(switchers), { persist: false, emit: false });
+        document.fonts?.ready.then(requestPosition);
+    }
+
+    window.addEventListener('resize', requestPosition);
+    window.CarlVon.switcher = { init, set: setValue };
 })();
 
 /* factsheet.js */

@@ -38,6 +38,8 @@ function makeCDN_ifChanged(bool $force = false): array
         $base . DIRECTORY_SEPARATOR . 'js' . DIRECTORY_SEPARATOR . 'site.js',
         $base . DIRECTORY_SEPARATOR . 'js' . DIRECTORY_SEPARATOR . 'nav_menu.js',
         $base . DIRECTORY_SEPARATOR . 'js' . DIRECTORY_SEPARATOR . 'sections.js',
+        $base . DIRECTORY_SEPARATOR . 'js' . DIRECTORY_SEPARATOR . 'super_spy.js',
+        $base . DIRECTORY_SEPARATOR . 'js' . DIRECTORY_SEPARATOR . 'switcher.js',
         $base . DIRECTORY_SEPARATOR . 'js' . DIRECTORY_SEPARATOR . 'factsheet.js',
     ];
 

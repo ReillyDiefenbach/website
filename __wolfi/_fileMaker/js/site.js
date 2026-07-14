@@ -494,14 +494,17 @@
 
                 const subItems = Array.from(mainItem.querySelectorAll(':scope > .subNav'));
                 const group = document.createElement('div');
+                const groupHead = document.createElement('div');
                 const link = document.createElement('a');
 
                 group.className = subItems.length ? 'navSection__group open' : 'navSection__group';
+                groupHead.className = 'navSection__groupHead';
                 link.className = 'navSection__link navSection__link--main';
                 link.href = `#${mainItem.id}`;
                 link.textContent = label;
 
-                group.appendChild(link);
+                groupHead.appendChild(link);
+                group.appendChild(groupHead);
 
                 nav.appendChild(group);
                 targets.push({element: mainItem, heading, link, group});
@@ -509,7 +512,19 @@
 
                 if(subItems.length){
                     const subList = document.createElement('div');
+                    const toggle = document.createElement('button');
                     subList.className = 'navSection__subNav';
+                    subList.id = `${mainItem.id}-subnav`;
+                    toggle.className = 'navSection__toggle';
+                    toggle.type = 'button';
+                    toggle.setAttribute('aria-label', `${label}: Unterbereiche ein- oder ausblenden`);
+                    toggle.setAttribute('aria-controls', subList.id);
+                    toggle.setAttribute('aria-expanded', 'true');
+                    toggle.addEventListener('click', () => {
+                        const open = group.classList.toggle('open');
+                        toggle.setAttribute('aria-expanded', String(open));
+                    });
+                    groupHead.appendChild(toggle);
                     group.appendChild(subList);
 
                     subItems.forEach(subItem => {
@@ -533,6 +548,34 @@
 
             if(!targets.length) return;
 
+            targets.forEach((target, index) => {
+                target.heading.querySelector(':scope > .navSection__steps')?.remove();
+
+                const steps = document.createElement('span');
+                steps.className = 'navSection__steps';
+
+                const addStep = (direction, destination) => {
+                    if(!destination) return;
+
+                    const step = document.createElement('a');
+                    const isUp = direction === 'up';
+                    step.className = `navSection__step navSection__step--${direction}`;
+                    step.href = `#${destination.element.id}`;
+                    step.textContent = isUp ? '↑' : '↓';
+                    step.setAttribute('aria-label', isUp ? 'Zum vorherigen Abschnitt' : 'Zum nächsten Abschnitt');
+                    step.addEventListener('click', event => {
+                        event.preventDefault();
+                        activateTarget(destination);
+                        updateActive();
+                    });
+                    steps.appendChild(step);
+                };
+
+                addStep('up', targets[index - 1]);
+                addStep('down', targets[index + 1]);
+                target.heading.appendChild(steps);
+            });
+
             targets.forEach(({element, link}) => {
                 link.addEventListener('click', event => {
                     event.preventDefault();
@@ -541,15 +584,41 @@
                 });
             });
 
+            let previousActive = null;
+
             const updateActive = () => {
-                const offset = getHeaderOffset() + 36;
-                let active = targets[0];
+                const viewportTop = getHeaderOffset();
+                const viewportBottom = window.innerHeight;
+                const readingLine = viewportTop + Math.max(0, viewportBottom - viewportTop) * .35;
+                let active = null;
+                let largestVisibleArea = -1;
 
                 targets.forEach(target => {
-                    if(target.element.getBoundingClientRect().top <= offset){
+                    const rect = target.element.getBoundingClientRect();
+                    const visibleArea = Math.max(
+                        0,
+                        Math.min(rect.bottom, viewportBottom) - Math.max(rect.top, viewportTop)
+                    );
+
+                    if(visibleArea > largestVisibleArea){
+                        largestVisibleArea = visibleArea;
                         active = target;
                     }
+
                 });
+
+                const mainRect = main.getBoundingClientRect();
+                const probeX = Math.max(0, Math.min(window.innerWidth - 1, mainRect.left + mainRect.width * .5));
+                const elementAtReadingLine = document.elementFromPoint(probeX, readingLine);
+                const targetAtReadingLine = [...targets]
+                    .reverse()
+                    .find(target => target.element === elementAtReadingLine || target.element.contains(elementAtReadingLine));
+
+                if(targetAtReadingLine){
+                    active = targetAtReadingLine;
+                }
+
+                active = active || targets[0];
 
                 targets.forEach(target => {
                     target.link.classList.toggle('active', target === active);
@@ -558,6 +627,14 @@
                 groups.forEach(group => {
                     group.classList.toggle('active', group === active.group);
                 });
+
+                if(active !== previousActive && active.element.classList.contains('subNav')){
+                    active.group.classList.add('open');
+                    active.group.querySelector(':scope > .navSection__groupHead > .navSection__toggle')
+                        ?.setAttribute('aria-expanded', 'true');
+                }
+
+                previousActive = active;
             };
 
             states.push(updateActive);
@@ -1374,6 +1451,8 @@
             initNavSections(scope);
             initCenterPics(scope);
             initInnerImages(scope);
+            window.CarlVon?.superSpy?.init(scope);
+            window.CarlVon?.switcher?.init(scope);
             this.initLegalDocs(scope);
             this.initTicketing(scope);
             initScrollBehaviour(scope);

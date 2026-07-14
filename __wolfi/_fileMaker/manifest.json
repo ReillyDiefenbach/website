@@ -1,6 +1,6 @@
 {
-    "hash": "d6f8502562ce82fcbca724aaa3d5a214bd6596807efbbea0c3ecf5d8a62df90c",
-    "built_at": "2026-07-14T11:29:10+00:00",
+    "hash": "44364c5652fc8e18fce5e9568cd6a2965271d56c1899fd0af9fce060a19818e2",
+    "built_at": "2026-07-14T17:00:56+00:00",
     "sources": [
         "__wolfi/_fileMaker/scss/typography.scss",
         "__wolfi/_fileMaker/css/essential.css",
@@ -11,10 +11,15 @@
         "__wolfi/_fileMaker/scss/_variables.scss",
         "__wolfi/_fileMaker/scss/headermenu.scss",
         "__wolfi/_fileMaker/scss/knowledge.scss",
+        "__wolfi/_fileMaker/scss/super_spy.scss",
+        "__wolfi/_fileMaker/scss/switcher.scss",
+        "__wolfi/_fileMaker/scss/navsection.scss",
         "__wolfi/_fileMaker/js/main.js",
         "__wolfi/_fileMaker/js/site.js",
         "__wolfi/_fileMaker/js/nav_menu.js",
         "__wolfi/_fileMaker/js/sections.js",
+        "__wolfi/_fileMaker/js/super_spy.js",
+        "__wolfi/_fileMaker/js/switcher.js",
         "__wolfi/_fileMaker/js/factsheet.js"
     ],
     "outputs": [

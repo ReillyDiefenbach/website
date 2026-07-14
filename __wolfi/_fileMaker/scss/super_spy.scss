@@ -1,0 +1,105 @@
+/*
+ * Super Spy
+ * Proportionale Section-Navigation am linken Fensterrand.
+ */
+
+.super_spy {
+    --super-spy-width: 22px;
+    position: fixed;
+    z-index: 80;
+    top: 50%;
+    left: 12px;
+    display: flex;
+    width: var(--super-spy-width);
+    height: min(60vh, 520px);
+    flex-direction: column;
+    gap: 3px;
+    transform: translateY(-50%);
+}
+
+.super_spy__item {
+    position: relative;
+    display: flex;
+    min-height: 8px;
+    flex: var(--super-spy-size, 1) 1 0;
+    margin: 0;
+    padding: 0;
+    align-items: stretch;
+    justify-content: flex-start;
+    border: 0;
+    background: transparent;
+    cursor: pointer;
+}
+
+.super_spy__track {
+    position: relative;
+    display: block;
+    width: 2px;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 2px;
+    background: rgba($cv-color-text, .22);
+    transition: width $cv-speed ease, background-color $cv-speed ease;
+}
+
+.super_spy__fill {
+    position: absolute;
+    top: var(--super-spy-fill-top, 0%);
+    right: 0;
+    left: 0;
+    display: block;
+    height: var(--super-spy-fill-height, 0%);
+    border-radius: inherit;
+    background: $main-color;
+    transition: top 90ms linear, height 90ms linear;
+}
+
+.super_spy__item:hover .super_spy__track,
+.super_spy__item:focus-visible .super_spy__track,
+.super_spy__item.is-active .super_spy__track {
+    width: 5px;
+}
+
+.super_spy__item:focus-visible {
+    outline: 2px solid $main-color;
+    outline-offset: 3px;
+}
+
+.super_spy__item::after {
+    content: attr(data-label);
+    position: absolute;
+    top: 50%;
+    left: 14px;
+    max-width: 240px;
+    padding: 5px 8px;
+    border-radius: 3px;
+    background: $cv-color-text;
+    color: #fff;
+    font-size: 12px;
+    line-height: 1.2;
+    opacity: 0;
+    pointer-events: none;
+    transform: translate(5px, -50%);
+    transition: opacity $cv-speed ease, transform $cv-speed ease;
+    white-space: nowrap;
+}
+
+.super_spy__item:hover::after,
+.super_spy__item:focus-visible::after {
+    opacity: 1;
+    transform: translate(0, -50%);
+}
+
+@media (max-width: 767px) {
+    .super_spy {
+        display: none;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .super_spy__track,
+    .super_spy__fill,
+    .super_spy__item::after {
+        transition: none;
+    }
+}

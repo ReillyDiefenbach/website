@@ -1,0 +1,92 @@
+/*
+ * Globaler Personal-/Business-Switcher.
+ * Die Breite und Position des Sliders werden aus der aktiven Option gemessen.
+ */
+
+.switcher {
+    --switcher-x: 0px;
+    --switcher-width: 0px;
+    position: relative;
+    display: inline-flex;
+    width: max-content;
+    max-width: 100%;
+    margin: 10px auto 20px;
+    overflow: hidden;
+    box-sizing: border-box;
+    padding: 0;
+    justify-self: center;
+    border: 2px solid #000;
+    border-radius: 999px;
+    background: #000;
+    font-size: var(--fs);
+    vertical-align: middle;
+}
+
+.switcher__slider {
+    position: absolute;
+    z-index: 0;
+    top: 2px;
+    bottom: 2px;
+    left: 0;
+    width: var(--switcher-width);
+    border-radius: 999px;
+    background: #fff;
+    opacity: 0;
+    transform: translateX(var(--switcher-x));
+    transition:
+        width 320ms cubic-bezier(.22, 1, .36, 1),
+        transform 320ms cubic-bezier(.22, 1, .36, 1),
+        opacity $cv-speed ease;
+}
+
+.switcher[data-switcher-ready="true"] .switcher__slider {
+    opacity: 1;
+}
+
+.switcher [data-switch] {
+    position: relative;
+    z-index: 1;
+    display: inline-flex;
+    width: auto !important;
+    min-width: max-content;
+    flex: 0 0 auto;
+    margin: 0;
+    padding: 10px 18px;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+    border-radius: 999px;
+    background: transparent;
+    color: #888;
+    font: inherit;
+    font-size: var(--fs);
+    font-weight: var(--font-weight-book);
+    line-height: 1.2;
+    text-decoration: none;
+    cursor: pointer;
+    transition: color 180ms ease;
+    white-space: nowrap;
+}
+
+.switcher [data-switch].active {
+    color: #000;
+}
+
+.switcher [data-switch]:focus-visible {
+    outline: 2px solid $main-color;
+    outline-offset: -2px;
+}
+
+[data-switcher][data-switched="personal"] [data-switch-content="business"],
+[data-switcher][data-switched="business"] [data-switch-content="personal"],
+:root[data-switched="personal"] [data-switch-content="business"],
+:root[data-switched="business"] [data-switch-content="personal"] {
+    display: none !important;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .switcher__slider,
+    .switcher [data-switch] {
+        transition: none;
+    }
+}

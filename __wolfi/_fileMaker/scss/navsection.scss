@@ -1,19 +1,16 @@
 .navSection {
     --nav-section-aside-width: calc(var(--fs, 16px) * 13.75);
-    --nav-section-main-width: calc(var(--fs, 16px) * 60);
     --nav-section-gap: calc(var(--fs, 16px) * 2.5);
-    width: calc(var(--nav-section-aside-width) + var(--nav-section-gap) + var(--nav-section-main-width));
-    min-width: calc(var(--nav-section-aside-width) + var(--nav-section-gap) + var(--nav-section-main-width));
-    max-width: none;
-    margin-right: auto;
-    margin-left: auto;
+    box-sizing: border-box;
     display: grid;
-    grid-template-columns:
-        var(--nav-section-aside-width)
-        var(--nav-section-gap)
-        minmax(0, var(--nav-section-main-width));
+    width: calc(100% - 3em);
+    min-width: 0;
+    max-width: 1200px;
+    margin: 0 auto var(--section-gap, 50px);
+    grid-template-columns: minmax(180px, var(--nav-section-aside-width)) minmax(0, 1fr);
+    column-gap: var(--nav-section-gap);
     align-items: start;
-    padding-top: calc(var(--header-height, 72px) + var(--section-top-space, clamp(8px, 3vw, 45px)));
+    padding-top: var(--section-top-space, var(--padd-step));
     padding-right: 0;
     padding-left: 0;
     background: #fff;
@@ -25,16 +22,13 @@ section.content.navSection,
 #middle > .scrollHeroPage > section.content.navSection,
 #middle > .normalScrollPage > section.content.navSection,
 #middle > .cinematicPage > section.content.navSection {
-    width: calc(var(--nav-section-aside-width) + var(--nav-section-gap) + var(--nav-section-main-width));
-    min-width: calc(var(--nav-section-aside-width) + var(--nav-section-gap) + var(--nav-section-main-width));
-    max-width: none;
-    margin-right: auto;
-    margin-left: auto;
-    grid-template-columns:
-        var(--nav-section-aside-width)
-        var(--nav-section-gap)
-        minmax(0, var(--nav-section-main-width));
-    padding-top: calc(var(--header-height, 72px) + var(--section-top-space, clamp(8px, 3vw, 45px)));
+    width: calc(100% - 3em);
+    min-width: 0;
+    max-width: 1200px;
+    margin: 0 auto var(--section-gap, 50px);
+    grid-template-columns: minmax(180px, var(--nav-section-aside-width)) minmax(0, 1fr);
+    column-gap: var(--nav-section-gap);
+    padding-top: var(--section-top-space, var(--padd-step));
     padding-right: 0;
     padding-left: 0;
 }
@@ -53,9 +47,60 @@ section.content.navSection,
 }
 
 .navSection > main {
-    grid-column: 3;
+    grid-column: 2;
     min-width: 0;
-    width: var(--nav-section-main-width);
+    width: 100%;
+}
+
+.navSection .mainNav > h2,
+.navSection .subNav > h2 {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.navSection > main > .mainNav:not(:first-child) > h2,
+.navSection .subNav > h2 {
+    margin-top: calc(var(--padd-step) * 2);
+}
+
+.navSection__steps {
+    display: inline-flex;
+    height: 25px;
+    margin-left: auto;
+    flex: 0 0 auto;
+    align-items: center;
+    gap: 5px;
+}
+
+.navSection__step {
+    display: inline-flex;
+    width: 12px;
+    height: 20px;
+    align-items: center;
+    justify-content: center;
+    color: rgba($cv-color-text, .55);
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    text-decoration: none;
+    transition: color $cv-speed ease, transform $cv-speed ease;
+}
+
+.navSection__step:hover,
+.navSection__step:focus-visible {
+    color: $cv-color-text;
+}
+
+.navSection__step--up:hover,
+.navSection__step--up:focus-visible {
+    transform: translateY(-2px);
+}
+
+.navSection__step--down:hover,
+.navSection__step--down:focus-visible {
+    transform: translateY(2px);
 }
 
 .navSection > aside > nav {
@@ -87,17 +132,64 @@ section.content.navSection,
     gap: 0;
 }
 
+.navSection__groupHead {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 28px;
+    align-items: center;
+}
+
+.navSection__toggle {
+    position: relative;
+    width: 28px;
+    min-width: 28px;
+    height: 28px;
+    min-height: 28px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    color: var(--muted);
+    cursor: pointer;
+}
+
+.navSection__toggle::before {
+    content: "+";
+    font-family: Arial, sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1;
+}
+
+.navSection__group.open > .navSection__groupHead > .navSection__toggle::before {
+    content: "−";
+}
+
+.navSection__toggle:hover,
+.navSection__toggle:focus-visible {
+    color: var(--text);
+}
+
 .navSection__subNav {
     display: grid;
     gap: 0;
     padding-left: 14px;
+    overflow: hidden;
+    max-height: 0;
+    opacity: 0;
+    transition: max-height 260ms ease, opacity 180ms ease;
+}
+
+.navSection__group.open > .navSection__subNav {
+    max-height: 600px;
+    opacity: 1;
 }
 
 .navSection > aside > nav .navSection__link--sub {
     padding-top: 6px;
     padding-bottom: 6px;
-    padding-left: 0;
+    padding-left: calc(var(--padd-step) * .5);
     font-size: 0.92em;
+    font-weight: 400;
 }
 
 .navSection > aside > nav a.active,
@@ -113,4 +205,30 @@ section.content.navSection,
     width: 2px;
     background: var(--text);
     content: "";
+}
+
+@media (max-width: 767px) {
+    .navSection,
+    section.content.navSection {
+        grid-template-columns: minmax(0, 1fr);
+        row-gap: 24px;
+    }
+
+    .navSection > aside,
+    .navSection > main {
+        grid-column: 1;
+        width: 100%;
+    }
+
+    .navSection > aside {
+        position: static;
+        max-height: none;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .navSection__subNav,
+    .navSection__step {
+        transition: none;
+    }
 }
