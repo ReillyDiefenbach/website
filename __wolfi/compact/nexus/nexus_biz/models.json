@@ -1,0 +1,107 @@
+{
+  "name": "Nexus Business",
+  "family": "Nexus",
+  "title": "Bond & Change",
+  "short": "nexus_biz",
+  "typ": "biz",
+  "key": "Beschreibt im Business-Kontext die Balance zwischen autonomer Selbststeuerung und verbindender Zusammenarbeit sowie zwischen Veränderung und Stabilität.",
+  "desc": "Das Nexus Business Modell beschreibt, wie Menschen, Rollen oder Teams im organisationalen Kontext zwischen Eigenständigkeit, Verbindung, Wandel und Stabilisierung navigieren. Die horizontale Achse unterscheidet Autonomie und Verbundenheit: Autonomie steht für selbstständige Steuerung, klare Eigenverantwortung und unabhängige Positionierung; Verbundenheit steht für Anschlussfähigkeit, Kooperation, Resonanz und gemeinsames Tragen von Verantwortung. Die vertikale Achse unterscheidet Veränderung und Stabilität: Veränderung steht für Entwicklung, Anpassung, Erneuerung und Bewegung; Stabilität steht für Verlässlichkeit, Kontinuität, Qualität und tragfähige Strukturen. Aus der Kombination entstehen vier arbeitsbezogene Orientierungen: Innovator, Ermöglicher, Stabilisierer und Experte. Das Modell dient der Reflexion von Zusammenarbeit, Change-Verhalten, Rollenklärung und Teamdynamik; es ist keine Eignungsdiagnose und keine starre Typologie.",
+  "answer": "Das Modell beantwortet, wie eine Person, Rolle oder ein Team im Arbeitskontext Eigenständigkeit und Verbindung sowie Veränderung und Stabilisierung ausbalanciert. Es zeigt, ob Orientierung eher aus unabhängigem Vorangehen, verbindender Veränderungsgestaltung, verlässlicher Zusammenarbeit oder eigenständiger fachlicher Einordnung entsteht. Dadurch werden typische Spannungen in Teamarbeit, Führung, Change-Prozessen und Rollenklärung verständlicher.",
+  "axis": {
+    "X": {
+      "label": "Beziehungsachse",
+      "name": "Beziehung",
+      "aka": "Bond",
+      "range": "Autonomie vs. Verbundenheit",
+      "span": "autonom vs. verbunden",
+      "key": "AX_AUTONOMIE_VS_VERBUNDENHEIT",
+      "keyquest": "Wie verbinde ich Eigenständigkeit und Zugehörigkeit?",
+      "quest": "Orientierst du dich eher autonom oder verbunden?",
+      "fact": "Autonomie versus Verbundenheit.",
+      "desc": "Diese Achse beschreibt die bevorzugte Orientierung zwischen eigenständiger Selbststeuerung und sozialer Einbindung.",
+      "info": "Die Achse macht sichtbar, ob Orientierung stärker aus unabhängiger Selbstbestimmung oder aus Verbindung, Resonanz und Zugehörigkeit entsteht. Sie ist eine Interpretationsachse und keine isolierte Primärskala.",
+      "tags": "Autonomie, Verbundenheit, Beziehung, Selbststeuerung, soziale Einbindung",
+      "science": "Beziehungspsychologie"
+    },
+    "Y": {
+      "label": "Entwicklungsachse",
+      "name": "Entwicklung",
+      "aka": "Change",
+      "range": "Veränderung vs. Stabilität",
+      "span": "verändernd vs. stabilisierend",
+      "key": "AX_VERAENDERUNG_VS_STABILITAET",
+      "keyquest": "Wie bewege ich mich zwischen Wandel und Verlässlichkeit?",
+      "quest": "Orientierst du dich eher verändernd oder stabilisierend?",
+      "fact": "Veränderung versus Stabilität.",
+      "desc": "Diese Achse beschreibt die bevorzugte Orientierung zwischen Entwicklung, Anpassung und Erneuerung einerseits sowie Kontinuität, Sicherheit und Verlässlichkeit andererseits.",
+      "info": "Die Achse macht sichtbar, wie stark Orientierung aus Wandel oder Stabilisierung entsteht. Sie beschreibt eine sekundäre Modellprojektion und muss später über Facetten und Microevidenzen validiert werden.",
+      "tags": "Veränderung, Stabilität, Entwicklung, Anpassung, Kontinuität",
+      "science": "Entwicklungspsychologie"
+    }
+  },
+  "orientation": {
+    "W": {
+      "label": "Autonomie",
+      "style": "autonom"
+    },
+    "E": {
+      "label": "Verbundenheit",
+      "style": "verbunden"
+    },
+    "N": {
+      "label": "Veränderung",
+      "style": "verändernd"
+    },
+    "S": {
+      "label": "Stabilität",
+      "style": "stabilisierend"
+    }
+  },
+  "quadrants": {
+    "Q1": {
+      "xy": "WN",
+      "style": "explorativ",
+      "desc": "Autonom und verändernd; erkennt neue Möglichkeiten, geht eigenständig voran und entwickelt unabhängige Lösungsimpulse.",
+      "strength": "Eigenständig, ideenreich, erneuernd",
+      "deficit": "Kann in bestimmten Situationen zu wenig Anschluss an bestehende Abstimmungen, Ressourcen oder Umsetzungsbedingungen suchen.",
+      "aka": "Innovator",
+      "short": "Der Innovator",
+      "role": "Innovator"
+    },
+    "Q2": {
+      "xy": "EN",
+      "style": "gestaltend",
+      "desc": "Verbunden und verändernd; bringt Menschen in Bewegung, gestaltet Wandel gemeinsam und macht Entwicklung sozial anschlussfähig.",
+      "strength": "Vernetzend, aktivierend, entwicklungsfördernd",
+      "deficit": "Kann in bestimmten Situationen zu viele Abstimmungen, Impulse oder Veränderungserwartungen gleichzeitig öffnen.",
+      "aka": "Catalyst",
+      "short": "Der Ermöglicher",
+      "role": "Ermöglicher"
+    },
+    "Q3": {
+      "xy": "ES",
+      "style": "bewahrend",
+      "desc": "Verbunden und stabilisierend; trägt Zusammenarbeit, sichert Verlässlichkeit und hält gemeinsame Strukturen funktionsfähig.",
+      "strength": "Verlässlich, kooperativ, qualitätssichernd",
+      "deficit": "Kann in bestimmten Situationen bestehende Abstimmungen zu stark schützen und notwendige Veränderung verzögern.",
+      "aka": "Stabilizer",
+      "short": "Der Stabilisierer",
+      "role": "Stabilisierer"
+    },
+    "Q4": {
+      "xy": "WS",
+      "style": "verstehend",
+      "desc": "Autonom und stabilisierend; ordnet Anforderungen eigenständig ein, schützt fachliche Standards und bewahrt tragfähige Substanz.",
+      "strength": "Fachlich, sorgfältig, unabhängig prüfend",
+      "deficit": "Kann in bestimmten Situationen zu lange aus fachlicher Distanz prüfen und Anschluss oder Veränderung zu spät aufnehmen.",
+      "aka": "Specialist",
+      "short": "Der Experte",
+      "role": "Experte"
+    }
+  },
+  "badge": "NEXUS",
+  "brand": "BondShift",
+  "canon_status": "freezed",
+  "freezed_at": "2026-07-01T10:40:11Z",
+  "source_candidate": "/var/www/openclaw/candidate/nexus/nexus_rebuild.json"
+}

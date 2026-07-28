@@ -1,0 +1,1170 @@
+{
+  "schema": "pna.test_facets.v2",
+  "model_id": "nexus_pers",
+  "model_name": "Nexus Personal",
+  "generated_at": "2026-07-01T12:53:40Z",
+  "scope": "test_context_only",
+  "facet_rule": "4_to_7_facets_per_quadrant_distinct_question_basis",
+  "items": [
+    {
+      "id": "Q1_1",
+      "name": "Freie Exploration",
+      "meaning": "Frei erkunden",
+      "quadrant": "Q1",
+      "type": "facet",
+      "short_description": "Testnahe Facet: sucht neue Erfahrungen aus eigenem Antrieb.",
+      "model_rationale": "Freie Exploration ist aus Nexus-Personal-Antworten ableitbar, die WN verbinden. Die Fragebasis 1_1, 5_1, 9_1, 13_1 zeigt nicht nur eine Richtung, sondern die Nähe zum Quadranten Q1 (Freigeist).",
+      "question_basis": [
+        "1_1",
+        "5_1",
+        "9_1",
+        "13_1"
+      ],
+      "expected_micro_evidence": [
+        "P_A_3_3p",
+        "P_B_1_10p",
+        "P_B_3_10p",
+        "P_B_3_8p",
+        "P_C_1_10p",
+        "P_C_1_11p",
+        "P_C_1_9p",
+        "R_A_1_3p"
+      ],
+      "derivation_basis": "questions_answers_quicks",
+      "quadrant_xy": "WN"
+    },
+    {
+      "id": "Q1_2",
+      "name": "Selbstbestimmte Öffnung",
+      "meaning": "Sich selbst öffnen",
+      "quadrant": "Q1",
+      "type": "facet",
+      "short_description": "Testnahe Facet: öffnet neue Wege ohne vorschnelle Anpassung.",
+      "model_rationale": "Selbstbestimmte Öffnung ist aus Nexus-Personal-Antworten ableitbar, die WN verbinden. Die Fragebasis 5_1, 9_1, 13_1, 17_1 zeigt nicht nur eine Richtung, sondern die Nähe zum Quadranten Q1 (Freigeist).",
+      "question_basis": [
+        "5_1",
+        "9_1",
+        "13_1",
+        "17_1"
+      ],
+      "expected_micro_evidence": [
+        "M_A_3p",
+        "M_A_4p",
+        "M_A_7p",
+        "M_B_1p",
+        "M_B_8p",
+        "P_A_3_3p",
+        "P_B_1_10p",
+        "P_B_3_10p"
+      ],
+      "derivation_basis": "questions_answers_quicks",
+      "quadrant_xy": "WN"
+    },
+    {
+      "id": "Q1_3",
+      "name": "Eigenständiger Neubeginn",
+      "meaning": "Neu anfangen",
+      "quadrant": "Q1",
+      "type": "facet",
+      "short_description": "Testnahe Facet: beginnt Veränderung aus eigener Entscheidung.",
+      "model_rationale": "Eigenständiger Neubeginn ist aus Nexus-Personal-Antworten ableitbar, die WN verbinden. Die Fragebasis 9_1, 13_1, 17_1, 21_1 zeigt nicht nur eine Richtung, sondern die Nähe zum Quadranten Q1 (Freigeist).",
+      "question_basis": [
+        "9_1",
+        "13_1",
+        "17_1",
+        "21_1"
+      ],
+      "expected_micro_evidence": [
+        "V_C_1p",
+        "W_A_3p",
+        "X_A_4p",
+        "Y_3_2p",
+        "Z_3_5p",
+        "B_C_5_3p",
+        "D_E_3p",
+        "D_E_6p"
+      ],
+      "derivation_basis": "questions_answers_quicks",
+      "quadrant_xy": "WN"
+    },
+    {
+      "id": "Q1_4",
+      "name": "Unabhängige Neugier",
+      "meaning": "Eigener Neugier folgen",
+      "quadrant": "Q1",
+      "type": "facet",
+      "short_description": "Testnahe Facet: folgt Interesse und innerem Bewegungsimpuls.",
+      "model_rationale": "Unabhängige Neugier ist aus Nexus-Personal-Antworten ableitbar, die WN verbinden. Die Fragebasis 13_1, 17_1, 21_1, 1_1 zeigt nicht nur eine Richtung, sondern die Nähe zum Quadranten Q1 (Freigeist).",
+      "question_basis": [
+        "13_1",
+        "17_1",
+        "21_1",
+        "1_1"
+      ],
+      "expected_micro_evidence": [
+        "V_A_5p",
+        "V_B_2p",
+        "V_F_1p",
+        "W_B_1p",
+        "W_D_4p",
+        "X_A_5p",
+        "X_C_3p",
+        "Z_2_1p"
+      ],
+      "derivation_basis": "questions_answers_quicks",
+      "quadrant_xy": "WN"
+    },
+    {
+      "id": "Q1_5",
+      "name": "Persönliche Grenzerweiterung",
+      "meaning": "Grenzen erweitern",
+      "quadrant": "Q1",
+      "type": "facet",
+      "short_description": "Testnahe Facet: erweitert den eigenen Erfahrungsraum.",
+      "model_rationale": "Persönliche Grenzerweiterung ist aus Nexus-Personal-Antworten ableitbar, die WN verbinden. Die Fragebasis 17_1, 21_1, 1_1, 5_1 zeigt nicht nur eine Richtung, sondern die Nähe zum Quadranten Q1 (Freigeist).",
+      "question_basis": [
+        "17_1",
+        "21_1",
+        "1_1",
+        "5_1"
+      ],
+      "expected_micro_evidence": [
+        "T_M_7p",
+        "T_Q_1p",
+        "V_A_2p",
+        "V_A_3p",
+        "V_A_4p",
+        "V_A_5p",
+        "V_B_2p",
+        "V_F_1p"
+      ],
+      "derivation_basis": "questions_answers_quicks",
+      "quadrant_xy": "WN"
+    },
+    {
+      "id": "Q1_6",
+      "name": "Autonomer Entwicklungsimpuls",
+      "meaning": "Eigene Entwicklung anstoßen",
+      "quadrant": "Q1",
+      "type": "facet",
+      "short_description": "Testnahe Facet: setzt Entwicklung in Bewegung, ohne auf Erlaubnis zu warten.",
+      "model_rationale": "Autonomer Entwicklungsimpuls ist aus Nexus-Personal-Antworten ableitbar, die WN verbinden. Die Fragebasis 21_1, 1_1, 5_1, 9_1 zeigt nicht nur eine Richtung, sondern die Nähe zum Quadranten Q1 (Freigeist).",
+      "question_basis": [
+        "21_1",
+        "1_1",
+        "5_1",
+        "9_1"
+      ],
+      "expected_micro_evidence": [
+        "T_A_5p",
+        "T_C_2p",
+        "T_E_12p",
+        "T_G_1p",
+        "T_H_9p",
+        "T_I_2p",
+        "T_I_6p",
+        "T_K_5p"
+      ],
+      "derivation_basis": "questions_answers_quicks",
+      "quadrant_xy": "WN"
+    },
+    {
+      "id": "DQ1_1",
+      "name": "Bindungsabbruch (Personal)",
+      "meaning": "Verbindung zu früh lösen",
+      "quadrant": "DQ1",
+      "type": "darkfacet",
+      "short_description": "Autonome Veränderung löst Anschluss oder Verbindlichkeit zu früh auf.",
+      "model_rationale": "Bindungsabbruch beschreibt eine testnahe Risiko- oder Spannungslesart bei einseitiger Freigeist-Nähe. Die Gegenbalance liegt in Q3, nicht in moralischer Abwertung.",
+      "question_basis": [
+        "1_1",
+        "5_1",
+        "9_1",
+        "3_3",
+        "7_3",
+        "11_3"
+      ],
+      "expected_micro_evidence": [
+        "M_B_8n",
+        "P_B_2_6n",
+        "R_B_1_1n",
+        "R_C_2_5n",
+        "T_B_1n",
+        "T_E_7n"
+      ],
+      "risk_pattern": "Autonome Veränderung löst Anschluss oder Verbindlichkeit zu früh auf.",
+      "related_facet_ids": [
+        "Q1_1",
+        "Q1_2"
+      ],
+      "counterbalance_quadrant": "Q3",
+      "derivation_basis": "questions_answers_quicks"
+    },
+    {
+      "id": "DQ1_2",
+      "name": "Impulsüberhang (Personal)",
+      "meaning": "Zu viele Impulse",
+      "quadrant": "DQ1",
+      "type": "darkfacet",
+      "short_description": "Neue Bewegung überlagert Prüfung, Rhythmus oder Abstimmung.",
+      "model_rationale": "Impulsüberhang beschreibt eine testnahe Risiko- oder Spannungslesart bei einseitiger Freigeist-Nähe. Die Gegenbalance liegt in Q4, nicht in moralischer Abwertung.",
+      "question_basis": [
+        "5_1",
+        "9_1",
+        "13_1",
+        "7_3",
+        "11_3",
+        "15_3"
+      ],
+      "expected_micro_evidence": [
+        "K_D_1n",
+        "K_F_2n",
+        "M_B_12n",
+        "M_B_8n",
+        "P_B_2_6n",
+        "R_B_1_1n"
+      ],
+      "risk_pattern": "Neue Bewegung überlagert Prüfung, Rhythmus oder Abstimmung.",
+      "related_facet_ids": [
+        "Q1_1",
+        "Q1_2"
+      ],
+      "counterbalance_quadrant": "Q4",
+      "derivation_basis": "questions_answers_quicks"
+    },
+    {
+      "id": "DQ1_3",
+      "name": "Verzettelung im Neuen (Personal)",
+      "meaning": "Sich im Neuen verlieren",
+      "quadrant": "DQ1",
+      "type": "darkfacet",
+      "short_description": "Viele Optionen erschweren Fokus und tragfähige Fortsetzung.",
+      "model_rationale": "Verzettelung im Neuen beschreibt eine testnahe Risiko- oder Spannungslesart bei einseitiger Freigeist-Nähe. Die Gegenbalance liegt in Q3, nicht in moralischer Abwertung.",
+      "question_basis": [
+        "9_1",
+        "13_1",
+        "17_1",
+        "11_3",
+        "15_3",
+        "19_3"
+      ],
+      "expected_micro_evidence": [
+        "T_E_9n",
+        "T_J_3n",
+        "T_M_1n",
+        "T_M_9n",
+        "T_O_3n",
+        "T_Q_9n"
+      ],
+      "risk_pattern": "Viele Optionen erschweren Fokus und tragfähige Fortsetzung.",
+      "related_facet_ids": [
+        "Q1_1",
+        "Q1_2"
+      ],
+      "counterbalance_quadrant": "Q3",
+      "derivation_basis": "questions_answers_quicks"
+    },
+    {
+      "id": "DQ1_4",
+      "name": "Reifegradübersprung (Personal)",
+      "meaning": "Zu früh als reif sehen",
+      "quadrant": "DQ1",
+      "type": "darkfacet",
+      "short_description": "Ideen wirken belastbar, bevor Substanz und Folgen ausreichend geprüft sind.",
+      "model_rationale": "Reifegradübersprung beschreibt eine testnahe Risiko- oder Spannungslesart bei einseitiger Freigeist-Nähe. Die Gegenbalance liegt in Q4, nicht in moralischer Abwertung.",
+      "question_basis": [
+        "13_1",
+        "17_1",
+        "21_1",
+        "15_3",
+        "19_3",
+        "23_3"
+      ],
+      "expected_micro_evidence": [
+        "X_C_1n",
+        "Y_4_1n",
+        "Z_3_1n",
+        "B_A_5_1n",
+        "B_B_1_1n",
+        "D_B_10n"
+      ],
+      "risk_pattern": "Ideen wirken belastbar, bevor Substanz und Folgen ausreichend geprüft sind.",
+      "related_facet_ids": [
+        "Q1_1",
+        "Q1_2"
+      ],
+      "counterbalance_quadrant": "Q4",
+      "derivation_basis": "questions_answers_quicks"
+    },
+    {
+      "id": "Q2_1",
+      "name": "Gemeinsame Entwicklung",
+      "meaning": "Gemeinsam wachsen",
+      "quadrant": "Q2",
+      "type": "facet",
+      "short_description": "Testnahe Facet: sucht Entwicklung im Austausch mit anderen.",
+      "model_rationale": "Gemeinsame Entwicklung ist aus Nexus-Personal-Antworten ableitbar, die EN verbinden. Die Fragebasis 2_2, 6_2, 10_2, 14_2 zeigt nicht nur eine Richtung, sondern die Nähe zum Quadranten Q2 (Inspirator).",
+      "question_basis": [
+        "2_2",
+        "6_2",
+        "10_2",
+        "14_2"
+      ],
+      "expected_micro_evidence": [
+        "D_D_10p",
+        "D_D_1p",
+        "D_E_10p",
+        "M_A_9p",
+        "M_B_10p",
+        "M_B_11p",
+        "M_B_2p",
+        "M_B_3p"
+      ],
+      "derivation_basis": "questions_answers_quicks",
+      "quadrant_xy": "EN"
+    },
+    {
+      "id": "Q2_2",
+      "name": "Beziehungsaktive Öffnung",
+      "meaning": "Nähe bewegen",
+      "quadrant": "Q2",
+      "type": "facet",
+      "short_description": "Testnahe Facet: öffnet Veränderung über Resonanz und Kontakt.",
+      "model_rationale": "Beziehungsaktive Öffnung ist aus Nexus-Personal-Antworten ableitbar, die EN verbinden. Die Fragebasis 6_2, 10_2, 14_2, 18_2 zeigt nicht nur eine Richtung, sondern die Nähe zum Quadranten Q2 (Inspirator).",
+      "question_basis": [
+        "6_2",
+        "10_2",
+        "14_2",
+        "18_2"
+      ],
+      "expected_micro_evidence": [
+        "M_B_11p",
+        "M_B_2p",
+        "M_B_3p",
+        "P_B_1_7p",
+        "P_B_3_2p",
+        "P_B_3_3p",
+        "P_B_3_6p",
+        "P_C_2_1p"
+      ],
+      "derivation_basis": "questions_answers_quicks",
+      "quadrant_xy": "EN"
+    },
+    {
+      "id": "Q2_3",
+      "name": "Geteilte Begeisterung",
+      "meaning": "Andere begeistern",
+      "quadrant": "Q2",
+      "type": "facet",
+      "short_description": "Testnahe Facet: bringt neue Impulse in Beziehungen ein.",
+      "model_rationale": "Geteilte Begeisterung ist aus Nexus-Personal-Antworten ableitbar, die EN verbinden. Die Fragebasis 10_2, 14_2, 18_2, 22_2 zeigt nicht nur eine Richtung, sondern die Nähe zum Quadranten Q2 (Inspirator).",
+      "question_basis": [
+        "10_2",
+        "14_2",
+        "18_2",
+        "22_2"
+      ],
+      "expected_micro_evidence": [
+        "T_R_5p",
+        "V_C_1p",
+        "V_C_2p",
+        "X_A_1p",
+        "X_B_2p",
+        "Y_3_2p",
+        "B_A_2_3p",
+        "D_B_11p"
+      ],
+      "derivation_basis": "questions_answers_quicks",
+      "quadrant_xy": "EN"
+    },
+    {
+      "id": "Q2_4",
+      "name": "Resonanz im Wandel",
+      "meaning": "Wandel spüren",
+      "quadrant": "Q2",
+      "type": "facet",
+      "short_description": "Testnahe Facet: nimmt emotionale Reaktionen auf Veränderung mit.",
+      "model_rationale": "Resonanz im Wandel ist aus Nexus-Personal-Antworten ableitbar, die EN verbinden. Die Fragebasis 14_2, 18_2, 22_2, 2_2 zeigt nicht nur eine Richtung, sondern die Nähe zum Quadranten Q2 (Inspirator).",
+      "question_basis": [
+        "14_2",
+        "18_2",
+        "22_2",
+        "2_2"
+      ],
+      "expected_micro_evidence": [
+        "W_A_3p",
+        "X_C_3p",
+        "Y_3_5p",
+        "Z_3_3p",
+        "B_B_4_1p",
+        "D_A_1p",
+        "D_A_4p",
+        "D_D_10p"
+      ],
+      "derivation_basis": "questions_answers_quicks",
+      "quadrant_xy": "EN"
+    },
+    {
+      "id": "Q2_5",
+      "name": "Kontaktorientierter Neubeginn",
+      "meaning": "Kontakt neu gestalten",
+      "quadrant": "Q2",
+      "type": "facet",
+      "short_description": "Testnahe Facet: beginnt neue Schritte nicht allein, sondern verbunden.",
+      "model_rationale": "Kontaktorientierter Neubeginn ist aus Nexus-Personal-Antworten ableitbar, die EN verbinden. Die Fragebasis 18_2, 22_2, 2_2, 6_2 zeigt nicht nur eine Richtung, sondern die Nähe zum Quadranten Q2 (Inspirator).",
+      "question_basis": [
+        "18_2",
+        "22_2",
+        "2_2",
+        "6_2"
+      ],
+      "expected_micro_evidence": [
+        "M_B_2p",
+        "M_B_3p",
+        "P_B_1_7p",
+        "P_B_3_2p",
+        "P_B_3_3p",
+        "P_B_3_6p",
+        "P_C_2_1p",
+        "P_C_3_1p"
+      ],
+      "derivation_basis": "questions_answers_quicks",
+      "quadrant_xy": "EN"
+    },
+    {
+      "id": "Q2_6",
+      "name": "Lebendige Zugehörigkeit",
+      "meaning": "Zugehörigkeit bewegen",
+      "quadrant": "Q2",
+      "type": "facet",
+      "short_description": "Testnahe Facet: hält Nähe und Entwicklung gleichzeitig offen.",
+      "model_rationale": "Lebendige Zugehörigkeit ist aus Nexus-Personal-Antworten ableitbar, die EN verbinden. Die Fragebasis 22_2, 2_2, 6_2, 10_2 zeigt nicht nur eine Richtung, sondern die Nähe zum Quadranten Q2 (Inspirator).",
+      "question_basis": [
+        "22_2",
+        "2_2",
+        "6_2",
+        "10_2"
+      ],
+      "expected_micro_evidence": [
+        "X_C_1p",
+        "Y_3_2p",
+        "Z_6_4p",
+        "B_B_4_1p",
+        "D_A_1p",
+        "D_A_4p",
+        "D_D_10p",
+        "D_D_1p"
+      ],
+      "derivation_basis": "questions_answers_quicks",
+      "quadrant_xy": "EN"
+    },
+    {
+      "id": "DQ2_1",
+      "name": "Resonanzdruck (Personal)",
+      "meaning": "Zu viel Resonanz suchen",
+      "quadrant": "DQ2",
+      "type": "darkfacet",
+      "short_description": "Veränderung wird zu stark über Zustimmung und soziale Reaktion gesteuert.",
+      "model_rationale": "Resonanzdruck beschreibt eine testnahe Risiko- oder Spannungslesart bei einseitiger Inspirator-Nähe. Die Gegenbalance liegt in Q4, nicht in moralischer Abwertung.",
+      "question_basis": [
+        "2_2",
+        "6_2",
+        "10_2",
+        "4_4",
+        "8_4",
+        "12_4"
+      ],
+      "expected_micro_evidence": [
+        "R_C_3_1n",
+        "R_C_3_6n",
+        "R_E_3_4n",
+        "S_D_3n",
+        "T_B_7n",
+        "T_D_3n"
+      ],
+      "risk_pattern": "Veränderung wird zu stark über Zustimmung und soziale Reaktion gesteuert.",
+      "related_facet_ids": [
+        "Q2_1",
+        "Q2_2"
+      ],
+      "counterbalance_quadrant": "Q4",
+      "derivation_basis": "questions_answers_quicks"
+    },
+    {
+      "id": "DQ2_2",
+      "name": "Kontaktgetriebene Unruhe (Personal)",
+      "meaning": "Unruhe durch Kontakt",
+      "quadrant": "DQ2",
+      "type": "darkfacet",
+      "short_description": "Viele Abstimmungen halten Veränderung offen, ohne Stabilität zu sichern.",
+      "model_rationale": "Kontaktgetriebene Unruhe beschreibt eine testnahe Risiko- oder Spannungslesart bei einseitiger Inspirator-Nähe. Die Gegenbalance liegt in Q3, nicht in moralischer Abwertung.",
+      "question_basis": [
+        "6_2",
+        "10_2",
+        "14_2",
+        "8_4",
+        "12_4",
+        "16_4"
+      ],
+      "expected_micro_evidence": [
+        "B_A_4_3n",
+        "D_B_1n",
+        "K_E_1n",
+        "M_B_12n",
+        "P_C_1_10n",
+        "R_E_1_1n"
+      ],
+      "risk_pattern": "Viele Abstimmungen halten Veränderung offen, ohne Stabilität zu sichern.",
+      "related_facet_ids": [
+        "Q2_1",
+        "Q2_2"
+      ],
+      "counterbalance_quadrant": "Q3",
+      "derivation_basis": "questions_answers_quicks"
+    },
+    {
+      "id": "DQ2_3",
+      "name": "Gemeinschaftlicher Aktionismus (Personal)",
+      "meaning": "Gemeinsam zu schnell werden",
+      "quadrant": "DQ2",
+      "type": "darkfacet",
+      "short_description": "Gemeinsame Bewegung ersetzt klare Prüfung oder Priorisierung.",
+      "model_rationale": "Gemeinschaftlicher Aktionismus beschreibt eine testnahe Risiko- oder Spannungslesart bei einseitiger Inspirator-Nähe. Die Gegenbalance liegt in Q4, nicht in moralischer Abwertung.",
+      "question_basis": [
+        "10_2",
+        "14_2",
+        "18_2",
+        "12_4",
+        "16_4",
+        "20_4"
+      ],
+      "expected_micro_evidence": [
+        "R_A_5_7n",
+        "S_D_4n",
+        "T_R_5n",
+        "V_C_2n",
+        "W_B_4n",
+        "X_A_3n"
+      ],
+      "risk_pattern": "Gemeinsame Bewegung ersetzt klare Prüfung oder Priorisierung.",
+      "related_facet_ids": [
+        "Q2_1",
+        "Q2_2"
+      ],
+      "counterbalance_quadrant": "Q4",
+      "derivation_basis": "questions_answers_quicks"
+    },
+    {
+      "id": "DQ2_4",
+      "name": "Entwicklungsüberladung (Personal)",
+      "meaning": "Zu viel Entwicklung öffnen",
+      "quadrant": "DQ2",
+      "type": "darkfacet",
+      "short_description": "Zu viele Entwicklungsimpulse überfordern Anschluss und Kontinuität.",
+      "model_rationale": "Entwicklungsüberladung beschreibt eine testnahe Risiko- oder Spannungslesart bei einseitiger Inspirator-Nähe. Die Gegenbalance liegt in Q3, nicht in moralischer Abwertung.",
+      "question_basis": [
+        "14_2",
+        "18_2",
+        "22_2",
+        "16_4",
+        "20_4",
+        "24_4"
+      ],
+      "expected_micro_evidence": [
+        "R_C_1_11n",
+        "R_C_3_1n",
+        "R_C_3_6n",
+        "R_E_3_4n",
+        "S_D_3n",
+        "T_B_7n"
+      ],
+      "risk_pattern": "Zu viele Entwicklungsimpulse überfordern Anschluss und Kontinuität.",
+      "related_facet_ids": [
+        "Q2_1",
+        "Q2_2"
+      ],
+      "counterbalance_quadrant": "Q3",
+      "derivation_basis": "questions_answers_quicks"
+    },
+    {
+      "id": "Q3_1",
+      "name": "Verlässliche Nähe",
+      "meaning": "Nähe verlässlich halten",
+      "quadrant": "Q3",
+      "type": "facet",
+      "short_description": "Testnahe Facet: stärkt Bindung durch Kontinuität.",
+      "model_rationale": "Verlässliche Nähe ist aus Nexus-Personal-Antworten ableitbar, die ES verbinden. Die Fragebasis 3_3, 7_3, 11_3, 15_3 zeigt nicht nur eine Richtung, sondern die Nähe zum Quadranten Q3 (Bewahrer).",
+      "question_basis": [
+        "3_3",
+        "7_3",
+        "11_3",
+        "15_3"
+      ],
+      "expected_micro_evidence": [
+        "D_C_3p",
+        "K_D_1p",
+        "M_B_12p",
+        "M_C_2p",
+        "M_C_5p",
+        "M_C_9p",
+        "P_B_2_2p",
+        "P_B_2_3p"
+      ],
+      "derivation_basis": "questions_answers_quicks",
+      "quadrant_xy": "ES"
+    },
+    {
+      "id": "Q3_2",
+      "name": "Fürsorgliche Stabilität",
+      "meaning": "Sicherheit geben",
+      "quadrant": "Q3",
+      "type": "facet",
+      "short_description": "Testnahe Facet: schafft Sicherheit und emotionale Haltbarkeit.",
+      "model_rationale": "Fürsorgliche Stabilität ist aus Nexus-Personal-Antworten ableitbar, die ES verbinden. Die Fragebasis 7_3, 11_3, 15_3, 19_3 zeigt nicht nur eine Richtung, sondern die Nähe zum Quadranten Q3 (Bewahrer).",
+      "question_basis": [
+        "7_3",
+        "11_3",
+        "15_3",
+        "19_3"
+      ],
+      "expected_micro_evidence": [
+        "R_E_3_1p",
+        "R_F_1_12p",
+        "R_F_1_18p",
+        "T_B_1p",
+        "T_B_4p",
+        "T_B_5p",
+        "T_B_6p",
+        "T_D_8p"
+      ],
+      "derivation_basis": "questions_answers_quicks",
+      "quadrant_xy": "ES"
+    },
+    {
+      "id": "Q3_3",
+      "name": "Beziehungspflege",
+      "meaning": "Bindungen pflegen",
+      "quadrant": "Q3",
+      "type": "facet",
+      "short_description": "Testnahe Facet: trägt Beziehungen aktiv und langfristig.",
+      "model_rationale": "Beziehungspflege ist aus Nexus-Personal-Antworten ableitbar, die ES verbinden. Die Fragebasis 11_3, 15_3, 19_3, 23_3 zeigt nicht nur eine Richtung, sondern die Nähe zum Quadranten Q3 (Bewahrer).",
+      "question_basis": [
+        "11_3",
+        "15_3",
+        "19_3",
+        "23_3"
+      ],
+      "expected_micro_evidence": [
+        "T_O_5p",
+        "T_O_7p",
+        "T_P_2p",
+        "T_P_3p",
+        "T_R_4p",
+        "V_C_3p",
+        "W_C_1p",
+        "W_C_4p"
+      ],
+      "derivation_basis": "questions_answers_quicks",
+      "quadrant_xy": "ES"
+    },
+    {
+      "id": "Q3_4",
+      "name": "Harmonische Kontinuität",
+      "meaning": "Harmonie halten",
+      "quadrant": "Q3",
+      "type": "facet",
+      "short_description": "Testnahe Facet: bewahrt soziale Ruhe und Zugehörigkeit.",
+      "model_rationale": "Harmonische Kontinuität ist aus Nexus-Personal-Antworten ableitbar, die ES verbinden. Die Fragebasis 15_3, 19_3, 23_3, 3_3 zeigt nicht nur eine Richtung, sondern die Nähe zum Quadranten Q3 (Bewahrer).",
+      "question_basis": [
+        "15_3",
+        "19_3",
+        "23_3",
+        "3_3"
+      ],
+      "expected_micro_evidence": [
+        "R_A_5_3p",
+        "S_A_1p",
+        "T_P_2p",
+        "V_A_1p",
+        "W_A_3p",
+        "X_A_1p",
+        "Y_4_3p",
+        "Z_1_1p"
+      ],
+      "derivation_basis": "questions_answers_quicks",
+      "quadrant_xy": "ES"
+    },
+    {
+      "id": "Q3_5",
+      "name": "Alltagsverbindlichkeit",
+      "meaning": "Verlässlich bleiben",
+      "quadrant": "Q3",
+      "type": "facet",
+      "short_description": "Testnahe Facet: macht Alltag und Beziehung berechenbar.",
+      "model_rationale": "Alltagsverbindlichkeit ist aus Nexus-Personal-Antworten ableitbar, die ES verbinden. Die Fragebasis 19_3, 23_3, 3_3, 7_3 zeigt nicht nur eine Richtung, sondern die Nähe zum Quadranten Q3 (Bewahrer).",
+      "question_basis": [
+        "19_3",
+        "23_3",
+        "3_3",
+        "7_3"
+      ],
+      "expected_micro_evidence": [
+        "B_A_4_3p",
+        "B_C_2_3p",
+        "D_A_3p",
+        "D_A_5p",
+        "D_A_9p",
+        "D_B_10p",
+        "D_C_3p",
+        "K_D_1p"
+      ],
+      "derivation_basis": "questions_answers_quicks",
+      "quadrant_xy": "ES"
+    },
+    {
+      "id": "Q3_6",
+      "name": "Gemeinsamer Halt",
+      "meaning": "Halt geben",
+      "quadrant": "Q3",
+      "type": "facet",
+      "short_description": "Testnahe Facet: sichert Nähe in belastenden Situationen.",
+      "model_rationale": "Gemeinsamer Halt ist aus Nexus-Personal-Antworten ableitbar, die ES verbinden. Die Fragebasis 23_3, 3_3, 7_3, 11_3 zeigt nicht nur eine Richtung, sondern die Nähe zum Quadranten Q3 (Bewahrer).",
+      "question_basis": [
+        "23_3",
+        "3_3",
+        "7_3",
+        "11_3"
+      ],
+      "expected_micro_evidence": [
+        "B_C_2_3p",
+        "D_A_3p",
+        "D_A_5p",
+        "D_A_9p",
+        "D_B_10p",
+        "D_C_3p",
+        "K_D_1p",
+        "M_B_12p"
+      ],
+      "derivation_basis": "questions_answers_quicks",
+      "quadrant_xy": "ES"
+    },
+    {
+      "id": "DQ3_1",
+      "name": "Harmoniebindung (Personal)",
+      "meaning": "Harmonie zu stark schützen",
+      "quadrant": "DQ3",
+      "type": "darkfacet",
+      "short_description": "Verlässlichkeit schützt bestehende Verbindung stärker als nötige Veränderung.",
+      "model_rationale": "Harmoniebindung beschreibt eine testnahe Risiko- oder Spannungslesart bei einseitiger Bewahrer-Nähe. Die Gegenbalance liegt in Q1, nicht in moralischer Abwertung.",
+      "question_basis": [
+        "3_3",
+        "7_3",
+        "11_3",
+        "1_1",
+        "5_1",
+        "9_1"
+      ],
+      "expected_micro_evidence": [
+        "M_A_12n",
+        "P_B_1_4n",
+        "R_B_1_4n",
+        "S_A_3n",
+        "T_Q_7n",
+        "V_C_3n"
+      ],
+      "risk_pattern": "Verlässlichkeit schützt bestehende Verbindung stärker als nötige Veränderung.",
+      "related_facet_ids": [
+        "Q3_1",
+        "Q3_2"
+      ],
+      "counterbalance_quadrant": "Q1",
+      "derivation_basis": "questions_answers_quicks"
+    },
+    {
+      "id": "DQ3_2",
+      "name": "Anpassungsträgheit (Personal)",
+      "meaning": "Zu langsam anpassen",
+      "quadrant": "DQ3",
+      "type": "darkfacet",
+      "short_description": "Stabile Abstimmung nimmt neue Impulse zu spät auf.",
+      "model_rationale": "Anpassungsträgheit beschreibt eine testnahe Risiko- oder Spannungslesart bei einseitiger Bewahrer-Nähe. Die Gegenbalance liegt in Q2, nicht in moralischer Abwertung.",
+      "question_basis": [
+        "7_3",
+        "11_3",
+        "15_3",
+        "5_1",
+        "9_1",
+        "13_1"
+      ],
+      "expected_micro_evidence": [
+        "P_B_1_8n",
+        "R_B_3_6n",
+        "S_D_5n",
+        "T_F_5n",
+        "V_B_3n",
+        "W_E_5n"
+      ],
+      "risk_pattern": "Stabile Abstimmung nimmt neue Impulse zu spät auf.",
+      "related_facet_ids": [
+        "Q3_1",
+        "Q3_2"
+      ],
+      "counterbalance_quadrant": "Q2",
+      "derivation_basis": "questions_answers_quicks"
+    },
+    {
+      "id": "DQ3_3",
+      "name": "Abhängigkeitsnähe (Personal)",
+      "meaning": "Zu abhängig von Verbindung",
+      "quadrant": "DQ3",
+      "type": "darkfacet",
+      "short_description": "Zugehörigkeit erschwert eigenständige Positionierung.",
+      "model_rationale": "Abhängigkeitsnähe beschreibt eine testnahe Risiko- oder Spannungslesart bei einseitiger Bewahrer-Nähe. Die Gegenbalance liegt in Q4, nicht in moralischer Abwertung.",
+      "question_basis": [
+        "11_3",
+        "15_3",
+        "19_3",
+        "9_1",
+        "13_1",
+        "17_1"
+      ],
+      "expected_micro_evidence": [
+        "D_E_4n",
+        "K_B_2n",
+        "M_A_3n",
+        "M_B_4n",
+        "S_B_5n",
+        "T_C_4n"
+      ],
+      "risk_pattern": "Zugehörigkeit erschwert eigenständige Positionierung.",
+      "related_facet_ids": [
+        "Q3_1",
+        "Q3_2"
+      ],
+      "counterbalance_quadrant": "Q4",
+      "derivation_basis": "questions_answers_quicks"
+    },
+    {
+      "id": "DQ3_4",
+      "name": "Kontinuitätsüberhang (Personal)",
+      "meaning": "Zu sehr am Bestehenden bleiben",
+      "quadrant": "DQ3",
+      "type": "darkfacet",
+      "short_description": "Sicherheit und Routine begrenzen Entwicklungsspielräume.",
+      "model_rationale": "Kontinuitätsüberhang beschreibt eine testnahe Risiko- oder Spannungslesart bei einseitiger Bewahrer-Nähe. Die Gegenbalance liegt in Q1, nicht in moralischer Abwertung.",
+      "question_basis": [
+        "15_3",
+        "19_3",
+        "23_3",
+        "13_1",
+        "17_1",
+        "21_1"
+      ],
+      "expected_micro_evidence": [
+        "M_A_3n",
+        "M_B_4n",
+        "S_B_5n",
+        "T_C_4n",
+        "T_D_3n",
+        "T_H_9n"
+      ],
+      "risk_pattern": "Sicherheit und Routine begrenzen Entwicklungsspielräume.",
+      "related_facet_ids": [
+        "Q3_1",
+        "Q3_2"
+      ],
+      "counterbalance_quadrant": "Q1",
+      "derivation_basis": "questions_answers_quicks"
+    },
+    {
+      "id": "Q4_1",
+      "name": "Innere Eigenordnung",
+      "meaning": "Sich selbst ordnen",
+      "quadrant": "Q4",
+      "type": "facet",
+      "short_description": "Testnahe Facet: ordnet Erleben nach eigenen Maßstäben.",
+      "model_rationale": "Innere Eigenordnung ist aus Nexus-Personal-Antworten ableitbar, die WS verbinden. Die Fragebasis 4_4, 8_4, 12_4, 16_4 zeigt nicht nur eine Richtung, sondern die Nähe zum Quadranten Q4 (Eigenständiger).",
+      "question_basis": [
+        "4_4",
+        "8_4",
+        "12_4",
+        "16_4"
+      ],
+      "expected_micro_evidence": [
+        "D_B_11p",
+        "K_E_1p",
+        "M_A_1p",
+        "P_A_2_2p",
+        "R_C_1_14p",
+        "S_B_1p",
+        "T_I_6p",
+        "V_C_2p"
+      ],
+      "derivation_basis": "questions_answers_quicks",
+      "quadrant_xy": "WS"
+    },
+    {
+      "id": "Q4_2",
+      "name": "Integrer Abstand",
+      "meaning": "Abstand halten",
+      "quadrant": "Q4",
+      "type": "facet",
+      "short_description": "Testnahe Facet: schützt innere Klarheit und Integrität.",
+      "model_rationale": "Integrer Abstand ist aus Nexus-Personal-Antworten ableitbar, die WS verbinden. Die Fragebasis 8_4, 12_4, 16_4, 20_4 zeigt nicht nur eine Richtung, sondern die Nähe zum Quadranten Q4 (Eigenständiger).",
+      "question_basis": [
+        "8_4",
+        "12_4",
+        "16_4",
+        "20_4"
+      ],
+      "expected_micro_evidence": [
+        "M_B_8p",
+        "M_B_9p",
+        "M_C_6p",
+        "P_A_2_1p",
+        "P_A_2_3p",
+        "P_A_2_5p",
+        "P_B_3_8p",
+        "P_C_1_10p"
+      ],
+      "derivation_basis": "questions_answers_quicks",
+      "quadrant_xy": "WS"
+    },
+    {
+      "id": "Q4_3",
+      "name": "Sorgfältige Selbstklärung",
+      "meaning": "Sich sorgfältig klären",
+      "quadrant": "Q4",
+      "type": "facet",
+      "short_description": "Testnahe Facet: prüft Gefühle, Grenzen und Folgen.",
+      "model_rationale": "Sorgfältige Selbstklärung ist aus Nexus-Personal-Antworten ableitbar, die WS verbinden. Die Fragebasis 12_4, 16_4, 20_4, 24_4 zeigt nicht nur eine Richtung, sondern die Nähe zum Quadranten Q4 (Eigenständiger).",
+      "question_basis": [
+        "12_4",
+        "16_4",
+        "20_4",
+        "24_4"
+      ],
+      "expected_micro_evidence": [
+        "T_M_1p",
+        "T_M_7p",
+        "T_O_6p",
+        "T_P_6p",
+        "T_Q_10p",
+        "T_Q_8p",
+        "T_Q_9p",
+        "V_A_2p"
+      ],
+      "derivation_basis": "questions_answers_quicks",
+      "quadrant_xy": "WS"
+    },
+    {
+      "id": "Q4_4",
+      "name": "Stabile Selbstbestimmung",
+      "meaning": "Selbstbestimmt stabil bleiben",
+      "quadrant": "Q4",
+      "type": "facet",
+      "short_description": "Testnahe Facet: bewahrt Eigenständigkeit in ruhiger Form.",
+      "model_rationale": "Stabile Selbstbestimmung ist aus Nexus-Personal-Antworten ableitbar, die WS verbinden. Die Fragebasis 16_4, 20_4, 24_4, 4_4 zeigt nicht nur eine Richtung, sondern die Nähe zum Quadranten Q4 (Eigenständiger).",
+      "question_basis": [
+        "16_4",
+        "20_4",
+        "24_4",
+        "4_4"
+      ],
+      "expected_micro_evidence": [
+        "T_Q_8p",
+        "T_Q_9p",
+        "V_A_2p",
+        "V_A_4p",
+        "V_A_5p",
+        "V_B_2p",
+        "W_B_1p",
+        "X_A_5p"
+      ],
+      "derivation_basis": "questions_answers_quicks",
+      "quadrant_xy": "WS"
+    },
+    {
+      "id": "Q4_5",
+      "name": "Reflektierte Grenze",
+      "meaning": "Grenzen prüfen",
+      "quadrant": "Q4",
+      "type": "facet",
+      "short_description": "Testnahe Facet: setzt Grenzen nach innerer Prüfung.",
+      "model_rationale": "Reflektierte Grenze ist aus Nexus-Personal-Antworten ableitbar, die WS verbinden. Die Fragebasis 20_4, 24_4, 4_4, 8_4 zeigt nicht nur eine Richtung, sondern die Nähe zum Quadranten Q4 (Eigenständiger).",
+      "question_basis": [
+        "20_4",
+        "24_4",
+        "4_4",
+        "8_4"
+      ],
+      "expected_micro_evidence": [
+        "X_B_4p",
+        "X_C_3p",
+        "Y_3_5p",
+        "Z_2_2p",
+        "B_C_2_3p",
+        "D_A_2p",
+        "K_D_3p",
+        "M_A_13p"
+      ],
+      "derivation_basis": "questions_answers_quicks",
+      "quadrant_xy": "WS"
+    },
+    {
+      "id": "Q4_6",
+      "name": "Eigenständiger Halt",
+      "meaning": "Eigenen Halt finden",
+      "quadrant": "Q4",
+      "type": "facet",
+      "short_description": "Testnahe Facet: findet Stabilität unabhängig von unmittelbarer Zustimmung.",
+      "model_rationale": "Eigenständiger Halt ist aus Nexus-Personal-Antworten ableitbar, die WS verbinden. Die Fragebasis 24_4, 4_4, 8_4, 12_4 zeigt nicht nur eine Richtung, sondern die Nähe zum Quadranten Q4 (Eigenständiger).",
+      "question_basis": [
+        "24_4",
+        "4_4",
+        "8_4",
+        "12_4"
+      ],
+      "expected_micro_evidence": [
+        "S_A_1p",
+        "S_B_1p",
+        "S_B_2p",
+        "S_B_6p",
+        "S_D_1p",
+        "T_C_2p",
+        "T_E_11p",
+        "T_E_13p"
+      ],
+      "derivation_basis": "questions_answers_quicks",
+      "quadrant_xy": "WS"
+    },
+    {
+      "id": "DQ4_1",
+      "name": "Distanzverfestigung (Personal)",
+      "meaning": "Zu lange auf Abstand bleiben",
+      "quadrant": "DQ4",
+      "type": "darkfacet",
+      "short_description": "Eigenständige Prüfung verzögert Anschluss und gemeinsame Bewegung.",
+      "model_rationale": "Distanzverfestigung beschreibt eine testnahe Risiko- oder Spannungslesart bei einseitiger Eigenständiger-Nähe. Die Gegenbalance liegt in Q2, nicht in moralischer Abwertung.",
+      "question_basis": [
+        "4_4",
+        "8_4",
+        "12_4",
+        "2_2",
+        "6_2",
+        "10_2"
+      ],
+      "expected_micro_evidence": [
+        "T_B_2n",
+        "T_B_3n",
+        "T_C_4n",
+        "W_A_5n",
+        "W_C_2n",
+        "X_A_2n"
+      ],
+      "risk_pattern": "Eigenständige Prüfung verzögert Anschluss und gemeinsame Bewegung.",
+      "related_facet_ids": [
+        "Q4_1",
+        "Q4_2"
+      ],
+      "counterbalance_quadrant": "Q2",
+      "derivation_basis": "questions_answers_quicks"
+    },
+    {
+      "id": "DQ4_2",
+      "name": "Sicherheitsvorbehalt (Personal)",
+      "meaning": "Zu vorsichtig bleiben",
+      "quadrant": "DQ4",
+      "type": "darkfacet",
+      "short_description": "Stabilitätsprüfung behandelt Veränderung zu lange als Risiko.",
+      "model_rationale": "Sicherheitsvorbehalt beschreibt eine testnahe Risiko- oder Spannungslesart bei einseitiger Eigenständiger-Nähe. Die Gegenbalance liegt in Q1, nicht in moralischer Abwertung.",
+      "question_basis": [
+        "8_4",
+        "12_4",
+        "16_4",
+        "6_2",
+        "10_2",
+        "14_2"
+      ],
+      "expected_micro_evidence": [
+        "Z_3_3n",
+        "B_C_2_2n",
+        "D_C_7n",
+        "K_D_1n",
+        "M_A_14n",
+        "P_B_3_11n"
+      ],
+      "risk_pattern": "Stabilitätsprüfung behandelt Veränderung zu lange als Risiko.",
+      "related_facet_ids": [
+        "Q4_1",
+        "Q4_2"
+      ],
+      "counterbalance_quadrant": "Q1",
+      "derivation_basis": "questions_answers_quicks"
+    },
+    {
+      "id": "DQ4_3",
+      "name": "Kontrollierte Abgrenzung (Personal)",
+      "meaning": "Zu kontrolliert abgrenzen",
+      "quadrant": "DQ4",
+      "type": "darkfacet",
+      "short_description": "Eigene Maßstäbe verhindern Resonanz oder Beziehungsklärung.",
+      "model_rationale": "Kontrollierte Abgrenzung beschreibt eine testnahe Risiko- oder Spannungslesart bei einseitiger Eigenständiger-Nähe. Die Gegenbalance liegt in Q2, nicht in moralischer Abwertung.",
+      "question_basis": [
+        "12_4",
+        "16_4",
+        "20_4",
+        "10_2",
+        "14_2",
+        "18_2"
+      ],
+      "expected_micro_evidence": [
+        "R_B_2_5n",
+        "S_B_1n",
+        "T_Q_5n",
+        "V_F_2n",
+        "W_E_4n",
+        "X_B_5n"
+      ],
+      "risk_pattern": "Eigene Maßstäbe verhindern Resonanz oder Beziehungsklärung.",
+      "related_facet_ids": [
+        "Q4_1",
+        "Q4_2"
+      ],
+      "counterbalance_quadrant": "Q2",
+      "derivation_basis": "questions_answers_quicks"
+    },
+    {
+      "id": "DQ4_4",
+      "name": "Analysebindung (Personal)",
+      "meaning": "In Prüfung stecken bleiben",
+      "quadrant": "DQ4",
+      "type": "darkfacet",
+      "short_description": "Sorgfältige Einordnung verzögert nächsten Schritt und Kontakt.",
+      "model_rationale": "Analysebindung beschreibt eine testnahe Risiko- oder Spannungslesart bei einseitiger Eigenständiger-Nähe. Die Gegenbalance liegt in Q2, nicht in moralischer Abwertung.",
+      "question_basis": [
+        "16_4",
+        "20_4",
+        "24_4",
+        "14_2",
+        "18_2",
+        "22_2"
+      ],
+      "expected_micro_evidence": [
+        "R_A_2_8n",
+        "R_A_5_3n",
+        "R_E_1_5n",
+        "R_E_3_3n",
+        "T_A_3n",
+        "T_A_5n"
+      ],
+      "risk_pattern": "Sorgfältige Einordnung verzögert nächsten Schritt und Kontakt.",
+      "related_facet_ids": [
+        "Q4_1",
+        "Q4_2"
+      ],
+      "counterbalance_quadrant": "Q2",
+      "derivation_basis": "questions_answers_quicks"
+    }
+  ]
+}

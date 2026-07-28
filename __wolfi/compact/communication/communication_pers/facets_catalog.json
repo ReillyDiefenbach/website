@@ -1,0 +1,1018 @@
+{
+  "schema": "pna.test_facets.v2",
+  "model_id": "communication_pers",
+  "model_name": "Communication Personal",
+  "generated_at": "2026-07-02T00:35:00Z",
+  "scope": "test_near_question_facet_revision",
+  "facet_rule": "Facets and darkfacets are derived from revised block contexts, answer patterns and quick logic; no sliding-window basis and no one-pole quadrant shortcut.",
+  "items": [
+    {
+      "id": "Q1_1",
+      "name": "Warme Kontaktinitiative",
+      "meaning": "Kontakt öffnen",
+      "quadrant": "Q1",
+      "type": "facet",
+      "short_description": "Testnahe Facet: kontakt öffnen in konkreten Kommunikationssituationen.",
+      "model_rationale": "WN-Nähe entsteht aus emotionalem Anschluss und sichtbarer erster Kontaktbewegung. Die erwartete Microevidence wurde facetspezifisch auf diesen Fragekern nachgezogen und nicht aus einem Gegenquadranten-Bündel recycelt.",
+      "question_basis": [
+        "1_1",
+        "1_2",
+        "11_1",
+        "11_2"
+      ],
+      "quick_basis": [
+        "1",
+        "11"
+      ],
+      "expected_micro_evidence": [
+        "T_A_3p",
+        "T_A_4p",
+        "M_A_6p",
+        "K_B_2p",
+        "D_A_2p",
+        "W_A_1p"
+      ],
+      "derivation_basis": "blocks_answers_quicks_semantic_pattern",
+      "quadrant_xy": "WN"
+    },
+    {
+      "id": "Q1_2",
+      "name": "Lebendige Nähegestaltung",
+      "meaning": "Nähe aktiv gestalten",
+      "quadrant": "Q1",
+      "type": "facet",
+      "short_description": "Testnahe Facet: nähe aktiv gestalten in konkreten Kommunikationssituationen.",
+      "model_rationale": "Die Facet verbindet Resonanz mit Annäherung, ohne Nähe rein als Stimmung oder reine Initiative zu lesen. Die erwartete Microevidence wurde facetspezifisch auf diesen Fragekern nachgezogen und nicht aus einem Gegenquadranten-Bündel recycelt.",
+      "question_basis": [
+        "2_1",
+        "2_2",
+        "6_1",
+        "6_2"
+      ],
+      "quick_basis": [
+        "2",
+        "6"
+      ],
+      "expected_micro_evidence": [
+        "T_A_6p",
+        "T_A_9p",
+        "M_A_6p",
+        "K_B_4p",
+        "D_A_12p",
+        "W_A_5p"
+      ],
+      "derivation_basis": "blocks_answers_quicks_semantic_pattern",
+      "quadrant_xy": "WN"
+    },
+    {
+      "id": "Q1_3",
+      "name": "Verbindende Versöhnung",
+      "meaning": "Wieder zueinander finden",
+      "quadrant": "Q1",
+      "type": "facet",
+      "short_description": "Testnahe Facet: wieder zueinander finden in konkreten Kommunikationssituationen.",
+      "model_rationale": "WN ist begründet durch Beziehungswärme plus aktiven Klärungsschritt nach Vertrauensbruch oder Streit. Die erwartete Microevidence wurde facetspezifisch auf diesen Fragekern nachgezogen und nicht aus einem Gegenquadranten-Bündel recycelt.",
+      "question_basis": [
+        "5_1",
+        "5_2",
+        "16_1",
+        "16_2"
+      ],
+      "quick_basis": [
+        "5",
+        "16"
+      ],
+      "expected_micro_evidence": [
+        "T_B_7p",
+        "T_A_8p",
+        "M_B_3p",
+        "K_D_2p",
+        "D_A_4p",
+        "W_A_4p"
+      ],
+      "derivation_basis": "blocks_answers_quicks_semantic_pattern",
+      "quadrant_xy": "WN"
+    },
+    {
+      "id": "Q1_4",
+      "name": "Geteilte Freude",
+      "meaning": "Gemeinsames beleben",
+      "quadrant": "Q1",
+      "type": "facet",
+      "short_description": "Testnahe Facet: gemeinsames beleben in konkreten Kommunikationssituationen.",
+      "model_rationale": "Diese Facet verbindet Resonanz für gemeinsame Momente mit Initiative, damit Kontakt lebendig bleibt. Die erwartete Microevidence wurde facetspezifisch auf diesen Fragekern nachgezogen und nicht aus einem Gegenquadranten-Bündel recycelt.",
+      "question_basis": [
+        "18_1",
+        "18_2",
+        "22_1",
+        "22_2"
+      ],
+      "quick_basis": [
+        "18",
+        "22"
+      ],
+      "expected_micro_evidence": [
+        "T_H_5p",
+        "T_B_3p",
+        "M_A_9p",
+        "K_F_3p",
+        "D_D_10p",
+        "W_B_4p"
+      ],
+      "derivation_basis": "blocks_answers_quicks_semantic_pattern",
+      "quadrant_xy": "WN"
+    },
+    {
+      "id": "Q2_1",
+      "name": "Aktive Grenzklärung",
+      "meaning": "Grenzen setzen",
+      "quadrant": "Q2",
+      "type": "facet",
+      "short_description": "Testnahe Facet: grenzen setzen in konkreten Kommunikationssituationen.",
+      "model_rationale": "EN-Nähe entsteht aus aktiver Ansprache und ordnender Vereinbarung von Nähe, Distanz und Grenzen. Die erwartete Microevidence wurde facetspezifisch auf diesen Fragekern nachgezogen und nicht aus einem Gegenquadranten-Bündel recycelt.",
+      "question_basis": [
+        "9_2",
+        "9_3",
+        "10_2",
+        "10_3"
+      ],
+      "quick_basis": [
+        "9",
+        "10"
+      ],
+      "expected_micro_evidence": [
+        "T_D_3p",
+        "T_C_2p",
+        "M_C_7p",
+        "K_E_2p",
+        "D_B_5p",
+        "W_C_5p"
+      ],
+      "derivation_basis": "blocks_answers_quicks_semantic_pattern",
+      "quadrant_xy": "EN"
+    },
+    {
+      "id": "Q2_2",
+      "name": "Orientierende Konfliktansprache",
+      "meaning": "Konflikte klären",
+      "quadrant": "Q2",
+      "type": "facet",
+      "short_description": "Testnahe Facet: konflikte klären in konkreten Kommunikationssituationen.",
+      "model_rationale": "Die Facet verbindet Annäherung an Konflikt mit strukturierender Sortierung von Auslösern und Vereinbarungen. Die erwartete Microevidence wurde facetspezifisch auf diesen Fragekern nachgezogen und nicht aus einem Gegenquadranten-Bündel recycelt.",
+      "question_basis": [
+        "3_2",
+        "3_3",
+        "7_2",
+        "7_3"
+      ],
+      "quick_basis": [
+        "3",
+        "7"
+      ],
+      "expected_micro_evidence": [
+        "T_B_7p",
+        "T_F_5p",
+        "M_B_7p",
+        "K_D_4p",
+        "D_D_3p",
+        "W_C_1p"
+      ],
+      "derivation_basis": "blocks_answers_quicks_semantic_pattern",
+      "quadrant_xy": "EN"
+    },
+    {
+      "id": "Q2_3",
+      "name": "Selbstsichere Raumannahme",
+      "meaning": "Den eigenen Platz nehmen",
+      "quadrant": "Q2",
+      "type": "facet",
+      "short_description": "Testnahe Facet: den eigenen platz nehmen in konkreten Kommunikationssituationen.",
+      "model_rationale": "EN zeigt sich, wenn verletzende oder dominante Situationen aktiv angesprochen und zugleich geordnet begrenzt werden. Die erwartete Microevidence wurde facetspezifisch auf diesen Fragekern nachgezogen und nicht aus einem Gegenquadranten-Bündel recycelt.",
+      "question_basis": [
+        "14_2",
+        "14_3",
+        "21_2",
+        "21_3"
+      ],
+      "quick_basis": [
+        "14",
+        "21"
+      ],
+      "expected_micro_evidence": [
+        "T_C_2p",
+        "T_F_1p",
+        "M_A_11p",
+        "K_E_1p",
+        "D_D_5p",
+        "W_B_1p"
+      ],
+      "derivation_basis": "blocks_answers_quicks_semantic_pattern",
+      "quadrant_xy": "EN"
+    },
+    {
+      "id": "Q2_4",
+      "name": "Verlässliche Kontaktplanung",
+      "meaning": "Kontakt verbindlich machen",
+      "quadrant": "Q2",
+      "type": "facet",
+      "short_description": "Testnahe Facet: kontakt verbindlich machen in konkreten Kommunikationssituationen.",
+      "model_rationale": "Diese Facet verbindet soziale Initiative mit Ordnung durch Rhythmus, Rahmen und Verbindlichkeit. Die erwartete Microevidence wurde facetspezifisch auf diesen Fragekern nachgezogen und nicht aus einem Gegenquadranten-Bündel recycelt.",
+      "question_basis": [
+        "4_2",
+        "4_3",
+        "23_2",
+        "23_3"
+      ],
+      "quick_basis": [
+        "4",
+        "23"
+      ],
+      "expected_micro_evidence": [
+        "T_B_1p",
+        "T_J_6p",
+        "M_B_12p",
+        "K_F_2p",
+        "D_B_11p",
+        "W_C_1p"
+      ],
+      "derivation_basis": "blocks_answers_quicks_semantic_pattern",
+      "quadrant_xy": "EN"
+    },
+    {
+      "id": "Q3_1",
+      "name": "Besonnene Vertrauensprüfung",
+      "meaning": "Vertrauen prüfen",
+      "quadrant": "Q3",
+      "type": "facet",
+      "short_description": "Testnahe Facet: vertrauen prüfen in konkreten Kommunikationssituationen.",
+      "model_rationale": "ES-Nähe entsteht aus ordnender Prüfung und zurückhaltendem Öffnen bei sensiblen persönlichen Themen. Die erwartete Microevidence wurde facetspezifisch auf diesen Fragekern nachgezogen und nicht aus einem Gegenquadranten-Bündel recycelt.",
+      "question_basis": [
+        "5_3",
+        "5_4",
+        "17_3",
+        "17_4"
+      ],
+      "quick_basis": [
+        "5",
+        "17"
+      ],
+      "expected_micro_evidence": [
+        "T_E_10p",
+        "T_A_7p",
+        "M_C_12p",
+        "K_E_3p",
+        "D_C_6p",
+        "W_C_2p"
+      ],
+      "derivation_basis": "blocks_answers_quicks_semantic_pattern",
+      "quadrant_xy": "ES"
+    },
+    {
+      "id": "Q3_2",
+      "name": "Sichere Distanzregulation",
+      "meaning": "Tempo schützen",
+      "quadrant": "Q3",
+      "type": "facet",
+      "short_description": "Testnahe Facet: tempo schützen in konkreten Kommunikationssituationen.",
+      "model_rationale": "Die Facet verbindet Grenzen und Beobachtung, wenn Nähe oder Gruppenkontakt vorsichtig dosiert wird. Die erwartete Microevidence wurde facetspezifisch auf diesen Fragekern nachgezogen und nicht aus einem Gegenquadranten-Bündel recycelt.",
+      "question_basis": [
+        "2_3",
+        "2_4",
+        "8_3",
+        "8_4"
+      ],
+      "quick_basis": [
+        "2",
+        "8"
+      ],
+      "expected_micro_evidence": [
+        "T_M_4p",
+        "T_K_2p",
+        "M_C_6p",
+        "K_D_3p",
+        "D_A_8p",
+        "W_C_5p"
+      ],
+      "derivation_basis": "blocks_answers_quicks_semantic_pattern",
+      "quadrant_xy": "ES"
+    },
+    {
+      "id": "Q3_3",
+      "name": "Reflektierte Emotionsantwort",
+      "meaning": "Nicht vorschnell reagieren",
+      "quadrant": "Q3",
+      "type": "facet",
+      "short_description": "Testnahe Facet: nicht vorschnell reagieren in konkreten Kommunikationssituationen.",
+      "model_rationale": "ES zeigt sich in der Kombination aus Klärung von Bedeutung und zurückhaltender Selbstregulation. Die erwartete Microevidence wurde facetspezifisch auf diesen Fragekern nachgezogen und nicht aus einem Gegenquadranten-Bündel recycelt.",
+      "question_basis": [
+        "12_3",
+        "12_4",
+        "20_3",
+        "20_4"
+      ],
+      "quick_basis": [
+        "12",
+        "20"
+      ],
+      "expected_micro_evidence": [
+        "T_E_11p",
+        "T_M_7p",
+        "M_B_8p",
+        "K_D_2p",
+        "D_E_12p",
+        "S_B_1p"
+      ],
+      "derivation_basis": "blocks_answers_quicks_semantic_pattern",
+      "quadrant_xy": "ES"
+    },
+    {
+      "id": "Q3_4",
+      "name": "Berechenbare Beziehungssicherheit",
+      "meaning": "Verlässlichkeit sichern",
+      "quadrant": "Q3",
+      "type": "facet",
+      "short_description": "Testnahe Facet: verlässlichkeit sichern in konkreten Kommunikationssituationen.",
+      "model_rationale": "Diese Facet verbindet ordnende Vereinbarungen mit vorsichtigem Abschluss schwerer Beziehungsgespräche. Die erwartete Microevidence wurde facetspezifisch auf diesen Fragekern nachgezogen und nicht aus einem Gegenquadranten-Bündel recycelt.",
+      "question_basis": [
+        "15_3",
+        "15_4",
+        "24_3",
+        "24_4"
+      ],
+      "quick_basis": [
+        "15",
+        "24"
+      ],
+      "expected_micro_evidence": [
+        "T_B_5p",
+        "T_O_3p",
+        "M_C_9p",
+        "K_B_4p",
+        "D_B_10p",
+        "W_C_4p"
+      ],
+      "derivation_basis": "blocks_answers_quicks_semantic_pattern",
+      "quadrant_xy": "ES"
+    },
+    {
+      "id": "Q4_1",
+      "name": "Aufmerksame Zuwendung",
+      "meaning": "Leise da sein",
+      "quadrant": "Q4",
+      "type": "facet",
+      "short_description": "Testnahe Facet: leise da sein in konkreten Kommunikationssituationen.",
+      "model_rationale": "WS-Nähe entsteht aus warmer Anteilnahme und zurückhaltendem Unterstützen ohne Vereinnahmung. Die erwartete Microevidence wurde facetspezifisch auf diesen Fragekern nachgezogen und nicht aus einem Gegenquadranten-Bündel recycelt.",
+      "question_basis": [
+        "13_1",
+        "13_4",
+        "19_1",
+        "19_4"
+      ],
+      "quick_basis": [
+        "13",
+        "19"
+      ],
+      "expected_micro_evidence": [
+        "T_F_3p",
+        "T_A_1p",
+        "M_B_2p",
+        "K_B_4p",
+        "D_D_4p",
+        "W_A_5p"
+      ],
+      "derivation_basis": "blocks_answers_quicks_semantic_pattern",
+      "quadrant_xy": "WS"
+    },
+    {
+      "id": "Q4_2",
+      "name": "Schonende Spannungsklärung",
+      "meaning": "Stimmungen aufnehmen",
+      "quadrant": "Q4",
+      "type": "facet",
+      "short_description": "Testnahe Facet: stimmungen aufnehmen in konkreten Kommunikationssituationen.",
+      "model_rationale": "Die Facet verbindet Beziehungssinn mit vorsichtiger Gesprächsführung bei schweren oder unklaren Situationen. Die erwartete Microevidence wurde facetspezifisch auf diesen Fragekern nachgezogen und nicht aus einem Gegenquadranten-Bündel recycelt.",
+      "question_basis": [
+        "3_1",
+        "3_4",
+        "24_1",
+        "24_4"
+      ],
+      "quick_basis": [
+        "3",
+        "24"
+      ],
+      "expected_micro_evidence": [
+        "T_A_2p",
+        "T_R_4p",
+        "M_C_2p",
+        "K_D_2p",
+        "D_A_3p",
+        "W_A_4p"
+      ],
+      "derivation_basis": "blocks_answers_quicks_semantic_pattern",
+      "quadrant_xy": "WS"
+    },
+    {
+      "id": "Q4_3",
+      "name": "Harmonische Grenzachtsamkeit",
+      "meaning": "Nähe behutsam dosieren",
+      "quadrant": "Q4",
+      "type": "facet",
+      "short_description": "Testnahe Facet: nähe behutsam dosieren in konkreten Kommunikationssituationen.",
+      "model_rationale": "WS ist begründet, weil Resonanz und Schutz der eigenen oder fremden Grenze zugleich sichtbar werden. Die erwartete Microevidence wurde facetspezifisch auf diesen Fragekern nachgezogen und nicht aus einem Gegenquadranten-Bündel recycelt.",
+      "question_basis": [
+        "9_1",
+        "9_4",
+        "10_1",
+        "10_4"
+      ],
+      "quick_basis": [
+        "9",
+        "10"
+      ],
+      "expected_micro_evidence": [
+        "T_N_3p",
+        "T_M_4p",
+        "M_C_6p",
+        "K_E_3p",
+        "D_A_5p",
+        "W_C_5p"
+      ],
+      "derivation_basis": "blocks_answers_quicks_semantic_pattern",
+      "quadrant_xy": "WS"
+    },
+    {
+      "id": "Q4_4",
+      "name": "Geduldige Vertrauensreparatur",
+      "meaning": "Vertrauen langsam öffnen",
+      "quadrant": "Q4",
+      "type": "facet",
+      "short_description": "Testnahe Facet: vertrauen langsam öffnen in konkreten Kommunikationssituationen.",
+      "model_rationale": "Diese Facet verbindet den Wunsch nach Beziehung mit zurückhaltender Geduld nach Kränkung oder Streit. Die erwartete Microevidence wurde facetspezifisch auf diesen Fragekern nachgezogen und nicht aus einem Gegenquadranten-Bündel recycelt.",
+      "question_basis": [
+        "5_1",
+        "5_4",
+        "16_1",
+        "16_4"
+      ],
+      "quick_basis": [
+        "5",
+        "16"
+      ],
+      "expected_micro_evidence": [
+        "T_B_3p",
+        "T_B_7p",
+        "M_B_7p",
+        "K_D_4p",
+        "D_A_7p",
+        "W_C_2p"
+      ],
+      "derivation_basis": "blocks_answers_quicks_semantic_pattern",
+      "quadrant_xy": "WS"
+    },
+    {
+      "id": "DQ1_1",
+      "name": "Näheüberhang",
+      "meaning": "Zu viel Nähe",
+      "quadrant": "DQ1",
+      "type": "darkfacet",
+      "short_description": "Testnahe Risikolesart: Nähe überlagert Tempo und Grenzen.",
+      "model_rationale": "Näheüberhang ist im Personal-Kontext als Risiko lesbar, wenn DQ1 ohne ausreichend tragende Gegenbalance zu Q3 wirkt. Die Lesart bleibt auf Nähe, Vertrauen, Grenzen und Beziehungstempo bezogen und vermeidet eine Business-Übertragung.",
+      "question_basis": [
+        "1_1",
+        "1_2",
+        "17_3",
+        "17_4"
+      ],
+      "quick_basis": [
+        "1",
+        "2"
+      ],
+      "expected_micro_evidence": [
+        "T_A_10n",
+        "T_A_3n",
+        "M_A_6n",
+        "K_D_3n",
+        "D_A_5n",
+        "W_C_5n"
+      ],
+      "derivation_basis": "risk_specific_blocks_quicks_counterbalance",
+      "risk_pattern": "Wärme, Nähe oder lebendige Kontaktbewegung werden so stark, dass Tempo, Grenzen oder leise Signale der anderen Person zu kurz kommen.",
+      "related_facet_ids": [
+        "Q1_1",
+        "Q1_2"
+      ],
+      "counterbalance_quadrant": "Q3"
+    },
+    {
+      "id": "DQ1_2",
+      "name": "Kontaktbeschleunigung",
+      "meaning": "Zu schnell nah",
+      "quadrant": "DQ1",
+      "type": "darkfacet",
+      "short_description": "Testnahe Risikolesart: Kontakt wird schneller gemacht, als die Situation trägt.",
+      "model_rationale": "Kontaktbeschleunigung ist im Personal-Kontext als Risiko lesbar, wenn DQ1 ohne ausreichend tragende Gegenbalance zu Q3 wirkt. Die Lesart bleibt auf Nähe, Vertrauen, Grenzen und Beziehungstempo bezogen und vermeidet eine Business-Übertragung.",
+      "question_basis": [
+        "2_1",
+        "6_2",
+        "10_3",
+        "10_4"
+      ],
+      "quick_basis": [
+        "2",
+        "3"
+      ],
+      "expected_micro_evidence": [
+        "T_M_4n",
+        "T_H_5n",
+        "M_A_5n",
+        "K_B_6n",
+        "D_A_8n",
+        "W_C_5n"
+      ],
+      "derivation_basis": "risk_specific_blocks_quicks_counterbalance",
+      "risk_pattern": "Anschluss wird forciert, bevor Einverständnis, Tempo oder sichere Distanz ausreichend gespürt und geklärt sind.",
+      "related_facet_ids": [
+        "Q1_1",
+        "Q1_3"
+      ],
+      "counterbalance_quadrant": "Q3"
+    },
+    {
+      "id": "DQ1_3",
+      "name": "Stimmungsüberlauf",
+      "meaning": "Gefühl vor Klärung",
+      "quadrant": "DQ1",
+      "type": "darkfacet",
+      "short_description": "Testnahe Risikolesart: Stimmung ersetzt notwendige Beziehungsklärung.",
+      "model_rationale": "Stimmungsüberlauf ist im Personal-Kontext als Risiko lesbar, wenn DQ1 ohne ausreichend tragende Gegenbalance zu Q2 wirkt. Die Lesart bleibt auf Nähe, Vertrauen, Grenzen und Beziehungstempo bezogen und vermeidet eine Business-Übertragung.",
+      "question_basis": [
+        "18_1",
+        "22_2",
+        "4_3",
+        "4_4"
+      ],
+      "quick_basis": [
+        "3",
+        "4"
+      ],
+      "expected_micro_evidence": [
+        "T_E_11n",
+        "T_A_9n",
+        "M_C_2n",
+        "K_E_3n",
+        "D_A_3n",
+        "S_B_1n"
+      ],
+      "derivation_basis": "risk_specific_blocks_quicks_counterbalance",
+      "risk_pattern": "Positive Stimmung oder Versöhnungswunsch überlagert Grenzen, belastende Fakten oder unausgesprochene Spannung.",
+      "related_facet_ids": [
+        "Q1_2",
+        "Q1_4"
+      ],
+      "counterbalance_quadrant": "Q2"
+    },
+    {
+      "id": "DQ1_4",
+      "name": "Bestätigungsbindung",
+      "meaning": "Resonanz suchen",
+      "quadrant": "DQ1",
+      "type": "darkfacet",
+      "short_description": "Testnahe Risikolesart: Kontaktenergie wird zu stark von sichtbarer Zustimmung abhängig.",
+      "model_rationale": "Bestätigungsbindung ist im Personal-Kontext als Risiko lesbar, wenn DQ1 ohne ausreichend tragende Gegenbalance zu Q4 wirkt. Die Lesart bleibt auf Nähe, Vertrauen, Grenzen und Beziehungstempo bezogen und vermeidet eine Business-Übertragung.",
+      "question_basis": [
+        "11_1",
+        "11_2",
+        "15_3",
+        "15_4"
+      ],
+      "quick_basis": [
+        "4",
+        "5"
+      ],
+      "expected_micro_evidence": [
+        "T_A_7n",
+        "T_C_3n",
+        "M_A_15n",
+        "K_E_3n",
+        "D_A_7n",
+        "W_B_2n"
+      ],
+      "derivation_basis": "risk_specific_blocks_quicks_counterbalance",
+      "risk_pattern": "Lebendige Beziehungsgestaltung verliert Stabilität, wenn Zustimmung, Freude oder erkennbare Resonanz ausbleiben.",
+      "related_facet_ids": [
+        "Q1_3",
+        "Q1_4"
+      ],
+      "counterbalance_quadrant": "Q4"
+    },
+    {
+      "id": "DQ2_1",
+      "name": "Grenzdruck",
+      "meaning": "Zu stark begrenzen",
+      "quadrant": "DQ2",
+      "type": "darkfacet",
+      "short_description": "Testnahe Risikolesart: Grenzen werden aktiver gesetzt, als Beziehung und Situation tragen.",
+      "model_rationale": "Grenzdruck ist im Personal-Kontext als Risiko lesbar, wenn DQ2 ohne ausreichend tragende Gegenbalance zu Q4 wirkt. Die Lesart bleibt auf Nähe, Vertrauen, Grenzen und Beziehungstempo bezogen und vermeidet eine Business-Übertragung.",
+      "question_basis": [
+        "7_2",
+        "10_2",
+        "13_1",
+        "13_4"
+      ],
+      "quick_basis": [
+        "2",
+        "3"
+      ],
+      "expected_micro_evidence": [
+        "T_N_3n",
+        "T_F_5n",
+        "M_A_14n",
+        "K_B_6n",
+        "D_B_2n",
+        "W_A_1n"
+      ],
+      "derivation_basis": "risk_specific_blocks_quicks_counterbalance",
+      "risk_pattern": "Klärung und Grenzsetzung werden so verdichtet, dass Wärme, Beteiligung oder verletzliche Signale untergehen.",
+      "related_facet_ids": [
+        "Q2_1",
+        "Q2_2"
+      ],
+      "counterbalance_quadrant": "Q4"
+    },
+    {
+      "id": "DQ2_2",
+      "name": "Ordnungsrigidität",
+      "meaning": "Zu hart ordnen",
+      "quadrant": "DQ2",
+      "type": "darkfacet",
+      "short_description": "Testnahe Risikolesart: Ordnung wird wichtiger als Beziehungstempo.",
+      "model_rationale": "Ordnungsrigidität ist im Personal-Kontext als Risiko lesbar, wenn DQ2 ohne ausreichend tragende Gegenbalance zu Q1 wirkt. Die Lesart bleibt auf Nähe, Vertrauen, Grenzen und Beziehungstempo bezogen und vermeidet eine Business-Übertragung.",
+      "question_basis": [
+        "10_2",
+        "10_3",
+        "2_1",
+        "2_4"
+      ],
+      "quick_basis": [
+        "3",
+        "4"
+      ],
+      "expected_micro_evidence": [
+        "T_A_2n",
+        "T_C_2n",
+        "M_C_7n",
+        "K_E_2n",
+        "D_A_5n",
+        "W_C_5n"
+      ],
+      "derivation_basis": "risk_specific_blocks_quicks_counterbalance",
+      "risk_pattern": "Regeln, Grenzen oder Erwartungen werden früh festgelegt, bevor Nähe, Kontext und Beweglichkeit ausreichend verstanden sind.",
+      "related_facet_ids": [
+        "Q2_1",
+        "Q2_4"
+      ],
+      "counterbalance_quadrant": "Q1"
+    },
+    {
+      "id": "DQ2_3",
+      "name": "Vorschnelle Festlegung",
+      "meaning": "Zu schnell festlegen",
+      "quadrant": "DQ2",
+      "type": "darkfacet",
+      "short_description": "Testnahe Risikolesart: schnelle Klärung ersetzt vorsichtige Beziehungssichtung.",
+      "model_rationale": "Vorschnelle Festlegung ist im Personal-Kontext als Risiko lesbar, wenn DQ2 ohne ausreichend tragende Gegenbalance zu Q3 wirkt. Die Lesart bleibt auf Nähe, Vertrauen, Grenzen und Beziehungstempo bezogen und vermeidet eine Business-Übertragung.",
+      "question_basis": [
+        "3_2",
+        "14_2",
+        "12_3",
+        "12_4"
+      ],
+      "quick_basis": [
+        "4",
+        "5"
+      ],
+      "expected_micro_evidence": [
+        "T_M_4n",
+        "T_D_1n",
+        "M_A_8n",
+        "K_D_4n",
+        "D_B_3n",
+        "S_B_2n"
+      ],
+      "derivation_basis": "risk_specific_blocks_quicks_counterbalance",
+      "risk_pattern": "Aktive Festlegung oder Raumannahme ersetzt sorgfältiges Prüfen, emotionale Mitnahme oder gemeinsames Tempo.",
+      "related_facet_ids": [
+        "Q2_2",
+        "Q2_3"
+      ],
+      "counterbalance_quadrant": "Q3"
+    },
+    {
+      "id": "DQ2_4",
+      "name": "Positionsübergewicht",
+      "meaning": "Eigene Linie vor Nähe",
+      "quadrant": "DQ2",
+      "type": "darkfacet",
+      "short_description": "Testnahe Risikolesart: die eigene Linie bleibt klar, verliert aber Anschluss.",
+      "model_rationale": "Positionsübergewicht ist im Personal-Kontext als Risiko lesbar, wenn DQ2 ohne ausreichend tragende Gegenbalance zu Q4 wirkt. Die Lesart bleibt auf Nähe, Vertrauen, Grenzen und Beziehungstempo bezogen und vermeidet eine Business-Übertragung.",
+      "question_basis": [
+        "21_2",
+        "21_3",
+        "9_1",
+        "9_4"
+      ],
+      "quick_basis": [
+        "5",
+        "6"
+      ],
+      "expected_micro_evidence": [
+        "T_A_1n",
+        "T_A_3n",
+        "M_B_3n",
+        "K_E_3n",
+        "D_A_4n",
+        "W_A_2n"
+      ],
+      "derivation_basis": "risk_specific_blocks_quicks_counterbalance",
+      "risk_pattern": "Die eigene Position oder Planung bleibt stabil, nimmt aber berechtigte Resonanz- und Nähebedürfnisse zu wenig auf.",
+      "related_facet_ids": [
+        "Q2_3",
+        "Q2_4"
+      ],
+      "counterbalance_quadrant": "Q4"
+    },
+    {
+      "id": "DQ3_1",
+      "name": "Vertrauensprüfungsschleife",
+      "meaning": "Zu lange prüfen",
+      "quadrant": "DQ3",
+      "type": "darkfacet",
+      "short_description": "Testnahe Risikolesart: Vertrauen wird so lange geprüft, dass Kontaktbewegung ausbleibt.",
+      "model_rationale": "Vertrauensprüfungsschleife ist im Personal-Kontext als Risiko lesbar, wenn DQ3 ohne ausreichend tragende Gegenbalance zu Q1 wirkt. Die Lesart bleibt auf Nähe, Vertrauen, Grenzen und Beziehungstempo bezogen und vermeidet eine Business-Übertragung.",
+      "question_basis": [
+        "17_3",
+        "20_3",
+        "1_1",
+        "1_2"
+      ],
+      "quick_basis": [
+        "3",
+        "4"
+      ],
+      "expected_micro_evidence": [
+        "T_A_7n",
+        "T_M_4n",
+        "M_C_12n",
+        "K_E_1n",
+        "D_C_6n",
+        "W_B_5n"
+      ],
+      "derivation_basis": "risk_specific_blocks_quicks_counterbalance",
+      "risk_pattern": "Absicherung wird so stark, dass offene Annäherung, Versöhnung oder lebendige Klärung verzögert wird.",
+      "related_facet_ids": [
+        "Q3_1",
+        "Q3_2"
+      ],
+      "counterbalance_quadrant": "Q1"
+    },
+    {
+      "id": "DQ3_2",
+      "name": "Distanzschutz",
+      "meaning": "Zu weit zurück",
+      "quadrant": "DQ3",
+      "type": "darkfacet",
+      "short_description": "Testnahe Risikolesart: Distanz schützt, schwächt aber erreichbare Nähe.",
+      "model_rationale": "Distanzschutz ist im Personal-Kontext als Risiko lesbar, wenn DQ3 ohne ausreichend tragende Gegenbalance zu Q1 wirkt. Die Lesart bleibt auf Nähe, Vertrauen, Grenzen und Beziehungstempo bezogen und vermeidet eine Business-Übertragung.",
+      "question_basis": [
+        "8_3",
+        "8_4",
+        "18_1",
+        "18_2"
+      ],
+      "quick_basis": [
+        "4",
+        "5"
+      ],
+      "expected_micro_evidence": [
+        "T_A_3n",
+        "T_F_1n",
+        "M_C_8n",
+        "K_B_2n",
+        "D_D_1n",
+        "W_A_5n"
+      ],
+      "derivation_basis": "risk_specific_blocks_quicks_counterbalance",
+      "risk_pattern": "Zurückhaltung schützt vor Überforderung, kann aber Nähe, Vertrauen oder sichtbare Beteiligung in persönlichen Situationen schwächen.",
+      "related_facet_ids": [
+        "Q3_2",
+        "Q3_3"
+      ],
+      "counterbalance_quadrant": "Q1"
+    },
+    {
+      "id": "DQ3_3",
+      "name": "Distanzierte Selbstsicherung",
+      "meaning": "Zu nüchtern schützen",
+      "quadrant": "DQ3",
+      "type": "darkfacet",
+      "short_description": "Testnahe Risikolesart: Selbstschutz nimmt emotionale Bedeutung zu wenig auf.",
+      "model_rationale": "Distanzierte Selbstsicherung ist im Personal-Kontext als Risiko lesbar, wenn DQ3 ohne ausreichend tragende Gegenbalance zu Q4 wirkt. Die Lesart bleibt auf Nähe, Vertrauen, Grenzen und Beziehungstempo bezogen und vermeidet eine Business-Übertragung.",
+      "question_basis": [
+        "12_3",
+        "20_4",
+        "13_1",
+        "13_4"
+      ],
+      "quick_basis": [
+        "5",
+        "6"
+      ],
+      "expected_micro_evidence": [
+        "T_A_1n",
+        "T_B_3n",
+        "M_B_2n",
+        "K_D_2n",
+        "D_A_1n",
+        "W_A_1n"
+      ],
+      "derivation_basis": "risk_specific_blocks_quicks_counterbalance",
+      "risk_pattern": "Reflexion und Selbstkontrolle bleiben erhalten, doch Beziehungston, Verletzlichkeit oder emotionale Bedeutung werden zu wenig aufgenommen.",
+      "related_facet_ids": [
+        "Q3_1",
+        "Q3_3"
+      ],
+      "counterbalance_quadrant": "Q4"
+    },
+    {
+      "id": "DQ3_4",
+      "name": "Sicherheitsbindung",
+      "meaning": "Nur Sicheres zulassen",
+      "quadrant": "DQ3",
+      "type": "darkfacet",
+      "short_description": "Testnahe Risikolesart: Verlässlichkeit wird enger als die Beziehungssituation braucht.",
+      "model_rationale": "Sicherheitsbindung ist im Personal-Kontext als Risiko lesbar, wenn DQ3 ohne ausreichend tragende Gegenbalance zu Q2 wirkt. Die Lesart bleibt auf Nähe, Vertrauen, Grenzen und Beziehungstempo bezogen und vermeidet eine Business-Übertragung.",
+      "question_basis": [
+        "15_3",
+        "24_4",
+        "6_1",
+        "6_2"
+      ],
+      "quick_basis": [
+        "6",
+        "7"
+      ],
+      "expected_micro_evidence": [
+        "T_A_6n",
+        "T_I_3n",
+        "M_C_9n",
+        "K_F_3n",
+        "D_E_4n",
+        "W_D_4n"
+      ],
+      "derivation_basis": "risk_specific_blocks_quicks_counterbalance",
+      "risk_pattern": "Kontakt bleibt an Berechenbarkeit gebunden und übersieht Chancen für neue Nähe, Freude oder mutige Beziehungsklärung.",
+      "related_facet_ids": [
+        "Q3_2",
+        "Q3_4"
+      ],
+      "counterbalance_quadrant": "Q2"
+    },
+    {
+      "id": "DQ4_1",
+      "name": "Harmoniebindung",
+      "meaning": "Konflikt vermeiden",
+      "quadrant": "DQ4",
+      "type": "darkfacet",
+      "short_description": "Testnahe Risikolesart: Schonung ersetzt klare Grenze.",
+      "model_rationale": "Harmoniebindung ist im Personal-Kontext als Risiko lesbar, wenn DQ4 ohne ausreichend tragende Gegenbalance zu Q2 wirkt. Die Lesart bleibt auf Nähe, Vertrauen, Grenzen und Beziehungstempo bezogen und vermeidet eine Business-Übertragung.",
+      "question_basis": [
+        "7_1",
+        "16_4",
+        "10_2",
+        "10_3"
+      ],
+      "quick_basis": [
+        "4",
+        "5"
+      ],
+      "expected_micro_evidence": [
+        "T_B_7n",
+        "T_F_5n",
+        "M_C_2p",
+        "K_E_2n",
+        "D_A_3p",
+        "W_C_5n"
+      ],
+      "derivation_basis": "risk_specific_blocks_quicks_counterbalance",
+      "risk_pattern": "Verbindung und Schonung werden so wichtig, dass klare Positionen, Bedürfnisse oder notwendige Grenzen ausbleiben.",
+      "related_facet_ids": [
+        "Q4_1",
+        "Q4_2"
+      ],
+      "counterbalance_quadrant": "Q2"
+    },
+    {
+      "id": "DQ4_2",
+      "name": "Leise Selbstzurücknahme",
+      "meaning": "Zu wenig sichtbar sein",
+      "quadrant": "DQ4",
+      "type": "darkfacet",
+      "short_description": "Testnahe Risikolesart: Rücksicht macht eigene Bedürfnisse schwer erkennbar.",
+      "model_rationale": "Leise Selbstzurücknahme ist im Personal-Kontext als Risiko lesbar, wenn DQ4 ohne ausreichend tragende Gegenbalance zu Q2 wirkt. Die Lesart bleibt auf Nähe, Vertrauen, Grenzen und Beziehungstempo bezogen und vermeidet eine Business-Übertragung.",
+      "question_basis": [
+        "13_4",
+        "19_4",
+        "1_2",
+        "11_2"
+      ],
+      "quick_basis": [
+        "5",
+        "6"
+      ],
+      "expected_micro_evidence": [
+        "T_F_1n",
+        "T_C_2n",
+        "M_A_5n",
+        "K_B_6n",
+        "D_D_5n",
+        "W_B_1n"
+      ],
+      "derivation_basis": "risk_specific_blocks_quicks_counterbalance",
+      "risk_pattern": "Zuhören und Schutz führen dazu, dass eigene Wünsche, Grenzen oder Beiträge kaum sichtbar werden.",
+      "related_facet_ids": [
+        "Q4_2",
+        "Q4_3"
+      ],
+      "counterbalance_quadrant": "Q2"
+    },
+    {
+      "id": "DQ4_3",
+      "name": "Beziehungsübernahme",
+      "meaning": "Zu viel ausgleichen",
+      "quadrant": "DQ4",
+      "type": "darkfacet",
+      "short_description": "Testnahe Risikolesart: Spannung wird für andere mitgetragen.",
+      "model_rationale": "Beziehungsübernahme ist im Personal-Kontext als Risiko lesbar, wenn DQ4 ohne ausreichend tragende Gegenbalance zu Q3 wirkt. Die Lesart bleibt auf Nähe, Vertrauen, Grenzen und Beziehungstempo bezogen und vermeidet eine Business-Übertragung.",
+      "question_basis": [
+        "23_1",
+        "23_4",
+        "7_2",
+        "7_3"
+      ],
+      "quick_basis": [
+        "6",
+        "7"
+      ],
+      "expected_micro_evidence": [
+        "T_D_1n",
+        "T_N_3p",
+        "M_B_8n",
+        "K_E_1n",
+        "D_B_3n",
+        "S_C_3n"
+      ],
+      "derivation_basis": "risk_specific_blocks_quicks_counterbalance",
+      "risk_pattern": "Stimmungen oder Konflikte anderer werden aufgenommen und geglättet, ohne Verantwortung oder Entscheidung klar zu platzieren.",
+      "related_facet_ids": [
+        "Q4_1",
+        "Q4_3"
+      ],
+      "counterbalance_quadrant": "Q3"
+    },
+    {
+      "id": "DQ4_4",
+      "name": "Vertrauensaufschub",
+      "meaning": "Zu lange warten",
+      "quadrant": "DQ4",
+      "type": "darkfacet",
+      "short_description": "Testnahe Risikolesart: vorsichtige Vertrauenspflege verzögert offene Klärung.",
+      "model_rationale": "Vertrauensaufschub ist im Personal-Kontext als Risiko lesbar, wenn DQ4 ohne ausreichend tragende Gegenbalance zu Q1 wirkt. Die Lesart bleibt auf Nähe, Vertrauen, Grenzen und Beziehungstempo bezogen und vermeidet eine Business-Übertragung.",
+      "question_basis": [
+        "5_4",
+        "16_4",
+        "2_1",
+        "2_2"
+      ],
+      "quick_basis": [
+        "7",
+        "8"
+      ],
+      "expected_micro_evidence": [
+        "T_A_7n",
+        "T_B_2n",
+        "M_C_6p",
+        "K_D_3n",
+        "D_A_7n",
+        "W_C_2n"
+      ],
+      "derivation_basis": "risk_specific_blocks_quicks_counterbalance",
+      "risk_pattern": "Vorsichtige Stabilisierung verzögert direkte Ansprache, obwohl behutsame Offenheit der Beziehung helfen könnte.",
+      "related_facet_ids": [
+        "Q4_3",
+        "Q4_4"
+      ],
+      "counterbalance_quadrant": "Q1"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 16" width="26" height="16" preserveAspectRatio="xMidYMid meet" role="img" aria-labelledby="priority-title priority-description">
+  <title id="priority-title">Prioritätenkombination NE_c</title>
+  <desc id="priority-description">N gewinnt; E ist mit 90 Prozent der Runner-up.</desc>
+  <g id="priority-winner-n" transform="translate(0.467 0)" fill="#000000">
+    <path xmlns="http://www.w3.org/2000/svg" d="M7.184 11.246A3.5 3.5 0 0 1 1 9c0-1.602 1.14-2.633 2.66-4.008C4.986 3.792 6.602 2.33 8 0c1.398 2.33 3.014 3.792 4.34 4.992C13.86 6.367 15 7.398 15 9a3.5 3.5 0 0 1-6.184 2.246 20 20 0 0 0 1.582 2.907c.231.35-.02.847-.438.847H6.04c-.419 0-.67-.497-.438-.847a20 20 0 0 0 1.582-2.907"/>
+  </g>
+  <g id="priority-runner-fill-e" transform="translate(11.133 1.600) scale(0.900)" fill="#AA0000" opacity="0.4">
+    <path xmlns="http://www.w3.org/2000/svg" d="M2.45 7.4 7.2 1.067a1 1 0 0 1 1.6 0L13.55 7.4a1 1 0 0 1 0 1.2L8.8 14.933a1 1 0 0 1-1.6 0L2.45 8.6a1 1 0 0 1 0-1.2"/>
+  </g>
+  <g id="priority-runner-outline-e" transform="translate(11.133 1.600) scale(0.900)" fill="#AA0000">
+    <path xmlns="http://www.w3.org/2000/svg" d="M8.384 1.226a.463.463 0 0 0-.768 0l-4.56 6.468a.54.54 0 0 0 0 .612l4.56 6.469a.463.463 0 0 0 .768 0l4.56-6.469a.54.54 0 0 0 0-.612zM6.848.613a1.39 1.39 0 0 1 2.304 0l4.56 6.468a1.61 1.61 0 0 1 0 1.838l-4.56 6.468a1.39 1.39 0 0 1-2.304 0L2.288 8.92a1.61 1.61 0 0 1 0-1.838z"/>
+  </g>
+</svg>

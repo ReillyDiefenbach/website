@@ -105,12 +105,12 @@ section.content.topHead,
 #middle section.content.topHead {
     --section-max-width: 1200px;
     box-sizing: border-box;
-    width: 100%;
+    width: 100vw;
     height: 250px;
     min-height: 250px;
     max-height: 250px;
     max-width: none;
-    margin: 0 auto var(--section-gap);
+    margin: 0 0 var(--section-gap) calc(50% - 50vw);
     padding-top: 0;
     padding-bottom: 0;
     align-items: center;
@@ -141,15 +141,6 @@ section.topHead p {
     text-transform: uppercase;
 }
 
-section.topHead h1 {
-    margin: 0;
-    color: #050505;
-    font-size: calc(var(--fs, 16px) * 2.5);
-    line-height: 1;
-    letter-spacing: .12em;
-    text-transform: uppercase;
-}
-
 section.topHead p:last-child {
     margin-top: 2px;
     font-family: var(--font-decomedium);
@@ -175,10 +166,32 @@ section.modHead {
     text-align: center;
 }
 
+#factsheet-intro-title {
+    margin: 0;
+    color: #000;
+    font-family: var(--font-decomedium);
+    font-size: clamp(42px, 5vw, 76px);
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 1;
+    text-transform: none;
+}
+
+section.topHead h1 {
+    margin: 0;
+    color: #000;
+    font-family: var(--font-bold);
+    font-weight: 900;
+    font-size: 48px;
+    letter-spacing: 6px;
+    line-height: 1;
+    text-transform: none;
+}
+
 section.modHead h1 {
     margin: 0;
     color: #000;
-    font-family: "Garamond Semibold", "Times New Roman", serif;
+    font-family: var(--font-decomedium);
     font-size: clamp(42px, 5vw, 76px);
     font-weight: 600;
     letter-spacing: 0;
@@ -187,13 +200,16 @@ section.modHead h1 {
 }
 
 section.modHead .Axis_x,
-section.modHead .Axis_y {
+section.modHead .Axis_y,
+#factsheet-intro-title .Axis_x,
+#factsheet-intro-title .Axis_y {
     font: inherit;
     color: inherit;
     text-transform: none;
 }
 
-section.modHead .Axis_and {
+section.modHead .Axis_and,
+#factsheet-intro-title .Axis_and {
     color: inherit;
     font-family: "Garamond Medium", "Times New Roman", serif;
     font-size: .85em;
@@ -211,11 +227,61 @@ section.modHead .modLogo {
     text-transform: uppercase;
 }
 
-section.modHead .modLogo:last-child {
+section.modHead .modTypes {
+    margin: 10px 0 0;
+    color: #000;
+    font-size: clamp(12px, 1vw, 15px);
+    font-weight: var(--font-weight-medium, 500);
+    letter-spacing: .40em;
+    line-height: 1;
+    text-transform: uppercase;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: .8em;
+}
+
+.moduleStickyLabel {
+    position: fixed;
+    z-index: 1001;
+    top: calc(var(--header-height, 72px) + 1px);
+    left: 50%;
+    box-sizing: border-box;
+    width: max-content;
+    max-width: calc(100vw - 20px);
+    padding: 5px 10px;
+    border-radius: 7px;
+    background: rgba(var(--m, 184, 175, 108), .85);
+    color: #000;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.2;
+    text-align: center;
+    opacity: 0;
+    transform: translate(-50%, calc(-50% - var(--header-height, 72px) - 20px));
+    transition: opacity 180ms ease, transform 180ms ease;
+    visibility: hidden;
+    pointer-events: none;
+    backdrop-filter: blur(5px);
+}
+
+.moduleStickyLabel.is-stucked {
+    opacity: .85;
+    transform: translate(-50%, -50%);
+    visibility: visible;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .moduleStickyLabel {
+        transition: none;
+    }
+}
+
+@media (max-width: 800px) {
+    .moduleStickyLabel {
+        display: none;
+    }
 }
 
 /* Globale Padding-Utilities: Mobile seitlich 0, Tablet 5px, Desktop 20px. */

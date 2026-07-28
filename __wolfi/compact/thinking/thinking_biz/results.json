@@ -1,0 +1,612 @@
+{
+  "schema": "pna.model_results_basics.v1",
+  "task": "model_results",
+  "model_key": "thinking_biz",
+  "family": "thinking",
+  "language": "de",
+  "wording_source": "canon/results/framework_result_wording.json",
+  "result_contract": "canon/results/model_results_contract.json",
+  "generated_at": "2026-06-30T00:00:00Z",
+  "result_status": "generated_pending_review",
+  "results": {
+    "orientation": {
+      "X": {
+        "short": "Denkachse überwiegt",
+        "aka": "X axis dominance",
+        "headline": "Denkachse im Vordergrund",
+        "personal_text": "Bei dir steht informationsverarbeitung stärker im Vordergrund als handlungsregulation. Das deutet darauf hin, dass du im Arbeits- und Organisationskontext zuerst über Denken, Einordnung und Informationsverarbeitung Orientierung gewinnst, bevor der Übergang ins Handeln prägend wird.",
+        "external_text": "Die Person zeigt eine stärkere Orientierung auf informationsverarbeitung als auf handlungsregulation. Das Ergebnis beschreibt einen Schwerpunkt in der gedanklichen Verarbeitung, nicht eine höhere Kompetenz.",
+        "description": "X beschreibt eine Dominanz der Denkachse gegenüber der Handlungsachse.",
+        "strength": "Kann helfen, Themen gründlich über Denk- und Ordnungsprozesse zu erschließen.",
+        "risk": "Kann in bestimmten Situationen dazu führen, dass Handlungserfordernisse später sichtbar werden.",
+        "keywords": [
+          "Denkachse",
+          "Informationsverarbeitung",
+          "Orientierung",
+          "Denken"
+        ],
+        "interpretation_rule": "Als relative Achsendominanz innerhalb dieses Modells interpretieren.",
+        "not_to_use_for": [
+          "Kompetenzbewertung",
+          "Intelligenzdiagnose",
+          "Persönlichkeitstyp"
+        ]
+      },
+      "Y": {
+        "short": "Handlungsachse überwiegt",
+        "aka": "Y axis dominance",
+        "headline": "Handlungsachse im Vordergrund",
+        "personal_text": "Bei dir steht handlungsregulation stärker im Vordergrund als informationsverarbeitung. Das deutet darauf hin, dass du im Arbeits- und Organisationskontext besonders über den Übergang in Handlung, Prüfung von Handlung oder praktisches Beginnen Orientierung gewinnst.",
+        "external_text": "Die Person zeigt eine stärkere Orientierung auf handlungsregulation als auf informationsverarbeitung. Das Ergebnis beschreibt einen Handlungsschwerpunkt, nicht eine höhere Leistungsfähigkeit.",
+        "description": "Y beschreibt eine Dominanz der Handlungsachse gegenüber der Denkachse.",
+        "strength": "Kann helfen, Themen konsequent in Handlung, Prüfung oder praktische Bewegung zu übersetzen.",
+        "risk": "Kann in bestimmten Situationen dazu führen, dass gedankliche Differenzierung weniger Raum bekommt.",
+        "keywords": [
+          "Handlungsachse",
+          "Handlungsregulation",
+          "Orientierung",
+          "Handeln"
+        ],
+        "interpretation_rule": "Als relative Achsendominanz innerhalb dieses Modells interpretieren.",
+        "not_to_use_for": [
+          "Kompetenzbewertung",
+          "Impulsivitätsdiagnose",
+          "Persönlichkeitstyp"
+        ]
+      },
+      "XY": {
+        "short": "Denkachse und Handlungsachse in Balance",
+        "aka": "X/Y balance",
+        "headline": "Denken und Handeln ausbalanciert",
+        "personal_text": "Bei dir halten sich informationsverarbeitung und handlungsregulation annähernd die Balance. Das deutet darauf hin, dass du im Arbeits- und Organisationskontext sowohl über Informationsverarbeitung als auch über den Übergang in Handlung Orientierung herstellst.",
+        "external_text": "Die Person zeigt eine annähernd ausgeglichene Orientierung zwischen informationsverarbeitung und handlungsregulation. Es wird keine Achsendominanz behauptet.",
+        "description": "XY beschreibt eine Balance der beiden Achsenbereiche.",
+        "strength": "Kann helfen, Denk- und Handlungsanforderungen flexibel miteinander zu verbinden.",
+        "risk": "Kann in bestimmten Situationen weniger eindeutige Priorisierung zwischen Analyse und Handlung zeigen.",
+        "keywords": [
+          "Denkachse",
+          "Handlungsachse",
+          "Balance",
+          "Orientierung"
+        ],
+        "interpretation_rule": "Als Balancefall interpretieren; keine Dominanz formulieren.",
+        "not_to_use_for": [
+          "Unentschiedenheit",
+          "fehlende Ausprägung",
+          "Schwäche"
+        ]
+      }
+    },
+    "priorities": {
+      "W": {
+        "short": "Konzeption priorisiert",
+        "aka": "Concept orientation",
+        "headline": "Möglichkeiten und Zusammenhänge",
+        "personal_text": "Bei dir ist Konzeption stärker sichtbar als Struktur. Du richtest Aufmerksamkeit eher auf Möglichkeiten, Zusammenhänge und konzeptionelle Perspektiven.",
+        "external_text": "Die Person priorisiert Konzeption gegenüber Struktur.",
+        "description": "West beschreibt eine stärkere Priorität für Konzeption gegenüber Struktur.",
+        "strength": "Öffnet Perspektiven, erkennt Zusammenhänge und macht neue Denkwege sichtbar.",
+        "risk": "Kann Strukturierung oder Festlegung zeitweise nach hinten schieben.",
+        "keywords": [
+          "Konzeption",
+          "Möglichkeiten",
+          "Zusammenhänge"
+        ],
+        "interpretation_rule": "Als relative Richtung innerhalb W/E interpretieren.",
+        "not_to_use_for": [
+          "Quadrant",
+          "Rolle",
+          "PNA-Microevidenz"
+        ]
+      },
+      "E": {
+        "short": "Struktur priorisiert",
+        "aka": "Structure orientation",
+        "headline": "Ordnung und Klarheit",
+        "personal_text": "Bei dir ist Struktur stärker sichtbar als Konzeption. Du richtest Aufmerksamkeit eher auf Ordnung, Klarheit und nachvollziehbare Formen.",
+        "external_text": "Die Person priorisiert Struktur gegenüber Konzeption.",
+        "description": "Ost beschreibt eine stärkere Priorität für Struktur gegenüber Konzeption.",
+        "strength": "Schafft Orientierung, Reihenfolge und bearbeitbare Klarheit.",
+        "risk": "Kann Möglichkeiten oder offene Perspektiven zeitweise verengen.",
+        "keywords": [
+          "Struktur",
+          "Ordnung",
+          "Klarheit"
+        ],
+        "interpretation_rule": "Als relative Richtung innerhalb W/E interpretieren.",
+        "not_to_use_for": [
+          "Quadrant",
+          "Rolle",
+          "PNA-Microevidenz"
+        ]
+      },
+      "WE": {
+        "short": "Konzeption und Struktur in Balance",
+        "aka": "Concept/structure balance",
+        "headline": "Möglichkeiten mit Klarheit",
+        "personal_text": "Bei dir halten sich Konzeption und Struktur annähernd die Balance. Du kannst Möglichkeiten öffnen und zugleich auf Ordnung und Klarheit achten.",
+        "external_text": "Die Person zeigt eine Balance zwischen Konzeption und Struktur.",
+        "description": "WE beschreibt eine Balance zwischen Konzeption und Struktur.",
+        "strength": "Verbindet Offenheit mit Strukturierungsfähigkeit.",
+        "risk": "Kann in bestimmten Situationen zwischen Öffnung und Festlegung länger abwägen.",
+        "keywords": [
+          "Konzeption",
+          "Struktur",
+          "Balance"
+        ],
+        "interpretation_rule": "Als Balancefall interpretieren; keine Richtung dominiert.",
+        "not_to_use_for": [
+          "Unentschiedenheit",
+          "fehlende Priorität",
+          "Quadrantenbefund"
+        ]
+      },
+      "N": {
+        "short": "Spontanität priorisiert",
+        "aka": "Spontaneity orientation",
+        "headline": "Früher Handlungsbeginn",
+        "personal_text": "Bei dir ist Spontanität stärker sichtbar als Reflexion. Du greifst Impulse eher früh auf und bringst Themen schneller in Bewegung.",
+        "external_text": "Die Person priorisiert Spontanität gegenüber Reflexion.",
+        "description": "Nord beschreibt eine stärkere Priorität für Spontanität gegenüber Reflexion.",
+        "strength": "Erzeugt Bewegung, Startenergie und praktische Erprobung.",
+        "risk": "Kann Prüfung, Folgenbewusstsein oder Einordnung zeitweise verkürzen.",
+        "keywords": [
+          "Spontanität",
+          "Start",
+          "Handlung"
+        ],
+        "interpretation_rule": "Als relative Richtung innerhalb N/S interpretieren.",
+        "not_to_use_for": [
+          "Quadrant",
+          "Rolle",
+          "Impulsivitätsdiagnose"
+        ]
+      },
+      "S": {
+        "short": "Reflexion priorisiert",
+        "aka": "Reflection orientation",
+        "headline": "Prüfung und Einordnung",
+        "personal_text": "Bei dir ist Reflexion stärker sichtbar als Spontanität. Du prüfst, ordnest und wägt eher ab, bevor Handlung verbindlich wird.",
+        "external_text": "Die Person priorisiert Reflexion gegenüber Spontanität.",
+        "description": "Süd beschreibt eine stärkere Priorität für Reflexion gegenüber Spontanität.",
+        "strength": "Sichert Einordnung, Folgebewusstsein und bewusstere Entscheidungen.",
+        "risk": "Kann den Übergang in Handlung zeitweise verzögern.",
+        "keywords": [
+          "Reflexion",
+          "Prüfung",
+          "Einordnung"
+        ],
+        "interpretation_rule": "Als relative Richtung innerhalb N/S interpretieren.",
+        "not_to_use_for": [
+          "Quadrant",
+          "Rolle",
+          "Zögerlichkeitsdiagnose"
+        ]
+      },
+      "NS": {
+        "short": "Spontanität und Reflexion in Balance",
+        "aka": "Spontaneity/reflection balance",
+        "headline": "Startimpuls mit Prüfung",
+        "personal_text": "Bei dir halten sich Spontanität und Reflexion annähernd die Balance. Du kannst Impulse aufnehmen und zugleich reflektierend einordnen.",
+        "external_text": "Die Person zeigt eine Balance zwischen Spontanität und Reflexion.",
+        "description": "NS beschreibt eine Balance zwischen Spontanität und Reflexion.",
+        "strength": "Verbindet Bewegung mit Prüfung und Folgebewusstsein.",
+        "risk": "Kann in bestimmten Situationen zwischen Start und Prüfung pendeln.",
+        "keywords": [
+          "Spontanität",
+          "Reflexion",
+          "Balance"
+        ],
+        "interpretation_rule": "Als Balancefall interpretieren; keine Richtung dominiert.",
+        "not_to_use_for": [
+          "Unentschiedenheit",
+          "fehlende Priorität",
+          "Quadrantenbefund"
+        ]
+      }
+    },
+    "impact_space": {
+      "Q1": {
+        "short": "Ideengeber",
+        "aka": "Visionary",
+        "headline": "Der Ideengeber",
+        "personal_text": "Bei dir bündelt sich die Ausrichtung besonders im Wirkungsraum Ideengeber. Konzeptionell und spontan; erkennt Möglichkeiten früh, entwickelt neue Denkimpulse und stößt Ideen unmittelbar an.",
+        "external_text": "Die Person zeigt den Wirkungsraum Ideengeber. Konzeptionell und spontan; erkennt Möglichkeiten früh, entwickelt neue Denkimpulse und stößt Ideen unmittelbar an.",
+        "description": "Q1 beschreibt den dominanten Wirkungsraum Ideengeber (WN).",
+        "strength": "Erkennt Möglichkeiten und initiiert frühe Denk- und Handlungsimpulse.",
+        "risk": "Kann in bestimmten Situationen frühe Einfälle zu schnell verfolgen und strukturierende Prüfung zu wenig einbeziehen.",
+        "keywords": [
+          "Q1",
+          "Ideengeber",
+          "entdeckend"
+        ],
+        "interpretation_rule": "Als dominanten Wirkungsraum interpretieren, nicht als Rolle im Sinne eines festen Typs.",
+        "not_to_use_for": [
+          "Persönlichkeitstyp",
+          "Kompetenznachweis",
+          "Erfolgsvorhersage"
+        ]
+      },
+      "Q2": {
+        "short": "Formgeber",
+        "aka": "Shaper",
+        "headline": "Der Formgeber",
+        "personal_text": "Bei dir bündelt sich die Ausrichtung besonders im Wirkungsraum Formgeber. Strukturiert und spontan; gibt frühen Impulsen eine klare, unmittelbar bearbeitbare Form.",
+        "external_text": "Die Person zeigt den Wirkungsraum Formgeber. Strukturiert und spontan; gibt frühen Impulsen eine klare, unmittelbar bearbeitbare Form.",
+        "description": "Q2 beschreibt den dominanten Wirkungsraum Formgeber (EN).",
+        "strength": "Schafft früh Struktur und macht nächste Schritte bearbeitbar.",
+        "risk": "Kann in bestimmten Situationen zu früh ordnen oder handeln und zusätzliche Perspektiven zu wenig prüfen.",
+        "keywords": [
+          "Q2",
+          "Formgeber",
+          "gestaltend"
+        ],
+        "interpretation_rule": "Als dominanten Wirkungsraum interpretieren, nicht als Rolle im Sinne eines festen Typs.",
+        "not_to_use_for": [
+          "Persönlichkeitstyp",
+          "Kompetenznachweis",
+          "Erfolgsvorhersage"
+        ]
+      },
+      "Q3": {
+        "short": "Planer",
+        "aka": "Planner",
+        "headline": "Der Planer",
+        "personal_text": "Bei dir bündelt sich die Ausrichtung besonders im Wirkungsraum Planer. Strukturiert und reflektiert; ordnet Informationen, prüft Vorgehensweisen und bereitet nachvollziehbare Umsetzungsschritte vor.",
+        "external_text": "Die Person zeigt den Wirkungsraum Planer. Strukturiert und reflektiert; ordnet Informationen, prüft Vorgehensweisen und bereitet nachvollziehbare Umsetzungsschritte vor.",
+        "description": "Q3 beschreibt den dominanten Wirkungsraum Planer (ES).",
+        "strength": "Sichert nachvollziehbare Planung und geprüfte Vorgehensweisen.",
+        "risk": "Kann in bestimmten Situationen Planung und Prüfung ausdehnen und den rechtzeitigen Handlungsbeginn erschweren.",
+        "keywords": [
+          "Q3",
+          "Planer",
+          "bewahrend"
+        ],
+        "interpretation_rule": "Als dominanten Wirkungsraum interpretieren, nicht als Rolle im Sinne eines festen Typs.",
+        "not_to_use_for": [
+          "Persönlichkeitstyp",
+          "Kompetenznachweis",
+          "Erfolgsvorhersage"
+        ]
+      },
+      "Q4": {
+        "short": "Konzeptprüfer",
+        "aka": "Reviewer",
+        "headline": "Der Konzeptprüfer",
+        "personal_text": "Bei dir bündelt sich die Ausrichtung besonders im Wirkungsraum Konzeptprüfer. Konzeptionell und reflektiert; prüft Zusammenhänge und ordnet ihre Bedeutung für Ideen oder Konzepte ein.",
+        "external_text": "Die Person zeigt den Wirkungsraum Konzeptprüfer. Konzeptionell und reflektiert; prüft Zusammenhänge und ordnet ihre Bedeutung für Ideen oder Konzepte ein.",
+        "description": "Q4 beschreibt den dominanten Wirkungsraum Konzeptprüfer (WS).",
+        "strength": "Prüft Zusammenhänge und differenziert konzeptionelle Bedeutungen.",
+        "risk": "Kann in bestimmten Situationen Zusammenhänge lange weiterdenken und konkrete Strukturierung oder Entscheidung aufschieben.",
+        "keywords": [
+          "Q4",
+          "Konzeptprüfer",
+          "verstehend"
+        ],
+        "interpretation_rule": "Als dominanten Wirkungsraum interpretieren, nicht als Rolle im Sinne eines festen Typs.",
+        "not_to_use_for": [
+          "Persönlichkeitstyp",
+          "Kompetenznachweis",
+          "Erfolgsvorhersage"
+        ]
+      },
+      "Q12": {
+        "short": "Ideengeber und Formgeber in Balance",
+        "aka": "Visionary-Shaper Balance",
+        "headline": "Ideengeber und Formgeber ausbalanciert",
+        "personal_text": "Bei dir tragen die Wirkungsräume Ideengeber und Formgeber gemeinsam. Keine der beiden Perspektiven wird als führend formuliert.",
+        "external_text": "Die Person zeigt eine Balance zwischen den Wirkungsräume Ideengeber und Formgeber. Es wird keine Primärdominanz behauptet.",
+        "description": "Q12 beschreibt eine ungeordnete Balance der benachbarten Wirkungsräume Q1 und Q2.",
+        "strength": "Verbindet Erkennt Möglichkeiten und initiiert frühe Denk- und Handlungsimpulse mit Schafft früh Struktur und macht nächste Schritte bearbeitbar.",
+        "risk": "Kann weniger eindeutig wirken, ist aber fachlich sauberer als eine erzwungene Quadrantendominanz.",
+        "keywords": [
+          "Q12",
+          "Ideengeber",
+          "Formgeber",
+          "Balance"
+        ],
+        "interpretation_rule": "Als Balance zwischen Q1 und Q2 interpretieren; keine Primärdominanz und kein Rollenprofil daraus ableiten.",
+        "not_to_use_for": [
+          "Schwäche",
+          "kein Ergebnis",
+          "Beliebigkeit"
+        ]
+      },
+      "Q14": {
+        "short": "Ideengeber und Konzeptprüfer in Balance",
+        "aka": "Visionary-Reviewer Balance",
+        "headline": "Ideengeber und Konzeptprüfer ausbalanciert",
+        "personal_text": "Bei dir tragen die Wirkungsräume Ideengeber und Konzeptprüfer gemeinsam. Keine der beiden Perspektiven wird als führend formuliert.",
+        "external_text": "Die Person zeigt eine Balance zwischen den Wirkungsräume Ideengeber und Konzeptprüfer. Es wird keine Primärdominanz behauptet.",
+        "description": "Q14 beschreibt eine ungeordnete Balance der benachbarten Wirkungsräume Q1 und Q4.",
+        "strength": "Verbindet Erkennt Möglichkeiten und initiiert frühe Denk- und Handlungsimpulse mit Prüft Zusammenhänge und differenziert konzeptionelle Bedeutungen.",
+        "risk": "Kann weniger eindeutig wirken, ist aber fachlich sauberer als eine erzwungene Quadrantendominanz.",
+        "keywords": [
+          "Q14",
+          "Ideengeber",
+          "Konzeptprüfer",
+          "Balance"
+        ],
+        "interpretation_rule": "Als Balance zwischen Q1 und Q4 interpretieren; keine Primärdominanz und kein Rollenprofil daraus ableiten.",
+        "not_to_use_for": [
+          "Schwäche",
+          "kein Ergebnis",
+          "Beliebigkeit"
+        ]
+      },
+      "Q23": {
+        "short": "Formgeber und Planer in Balance",
+        "aka": "Shaper-Planner Balance",
+        "headline": "Formgeber und Planer ausbalanciert",
+        "personal_text": "Bei dir tragen die Wirkungsräume Formgeber und Planer gemeinsam. Keine der beiden Perspektiven wird als führend formuliert.",
+        "external_text": "Die Person zeigt eine Balance zwischen den Wirkungsräume Formgeber und Planer. Es wird keine Primärdominanz behauptet.",
+        "description": "Q23 beschreibt eine ungeordnete Balance der benachbarten Wirkungsräume Q2 und Q3.",
+        "strength": "Verbindet Schafft früh Struktur und macht nächste Schritte bearbeitbar mit Sichert nachvollziehbare Planung und geprüfte Vorgehensweisen.",
+        "risk": "Kann weniger eindeutig wirken, ist aber fachlich sauberer als eine erzwungene Quadrantendominanz.",
+        "keywords": [
+          "Q23",
+          "Formgeber",
+          "Planer",
+          "Balance"
+        ],
+        "interpretation_rule": "Als Balance zwischen Q2 und Q3 interpretieren; keine Primärdominanz und kein Rollenprofil daraus ableiten.",
+        "not_to_use_for": [
+          "Schwäche",
+          "kein Ergebnis",
+          "Beliebigkeit"
+        ]
+      },
+      "Q34": {
+        "short": "Planer und Konzeptprüfer in Balance",
+        "aka": "Planner-Reviewer Balance",
+        "headline": "Planer und Konzeptprüfer ausbalanciert",
+        "personal_text": "Bei dir tragen die Wirkungsräume Planer und Konzeptprüfer gemeinsam. Keine der beiden Perspektiven wird als führend formuliert.",
+        "external_text": "Die Person zeigt eine Balance zwischen den Wirkungsräume Planer und Konzeptprüfer. Es wird keine Primärdominanz behauptet.",
+        "description": "Q34 beschreibt eine ungeordnete Balance der benachbarten Wirkungsräume Q3 und Q4.",
+        "strength": "Verbindet Sichert nachvollziehbare Planung und geprüfte Vorgehensweisen mit Prüft Zusammenhänge und differenziert konzeptionelle Bedeutungen.",
+        "risk": "Kann weniger eindeutig wirken, ist aber fachlich sauberer als eine erzwungene Quadrantendominanz.",
+        "keywords": [
+          "Q34",
+          "Planer",
+          "Konzeptprüfer",
+          "Balance"
+        ],
+        "interpretation_rule": "Als Balance zwischen Q3 und Q4 interpretieren; keine Primärdominanz und kein Rollenprofil daraus ableiten.",
+        "not_to_use_for": [
+          "Schwäche",
+          "kein Ergebnis",
+          "Beliebigkeit"
+        ]
+      },
+      "Q0": {
+        "short": "Ausgewogener Wirkungsraum",
+        "aka": "Balanced impact space",
+        "headline": "Mehrere Wirkungsräume aktiv",
+        "personal_text": "Bei dir verteilt sich die Ausrichtung im Arbeits- und Organisationskontext auf mehrere Wirkungsräume. Es gibt dann keinen einzelnen Quadranten, der als eindeutiger Schwerpunkt formuliert wird.",
+        "external_text": "Die Person zeigt eine ausgewogene Nutzung mehrerer Wirkungsräume ohne eindeutige Quadrantendominanz.",
+        "description": "Q0 beschreibt eine annähernd ausgewogene Nutzung mehrerer Wirkungsräume; bei vollständigem Gleichstand aller vier Halbachsen greift stattdessen XY_BALANCED.",
+        "strength": "Erlaubt flexible Nutzung mehrerer Denk- und Handlungsräume.",
+        "risk": "Kann weniger eindeutige Schwerpunktkommunikation erfordern.",
+        "keywords": [
+          "Q0",
+          "Balance",
+          "Wirkungsraum"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn kein einzelner oder paarweiser Wirkungsraum dominant ist und kein vollständiger Halbachsen-Gleichstand W=E=N=S vorliegt.",
+        "not_to_use_for": [
+          "Schwäche",
+          "kein Ergebnis",
+          "Beliebigkeit",
+          "vollständige Halbachsen-Balance W=E=N=S"
+        ]
+      }
+    },
+    "role_profile": {
+      "R0": {
+        "short": "Kein geordnetes Rollenprofil",
+        "aka": "Role Layer Null Case",
+        "headline": "Keine tragfähige Rollenordnung",
+        "personal_text": "Bei dir lässt sich aus der Denk- und Entscheidungslogik kein tragfähiges primäres und sekundäres Rollenprofil ableiten. Die Auswertung bleibt deshalb beim Wirkungsraum und erzeugt kein Facettenspektrum.",
+        "external_text": "Die Rollenebene zeigt R0 als sichtbaren Balance- oder Nullfall. Das ist kein Rollenprofil und keine Schwäche.",
+        "description": "R0 wird verwendet, wenn keine geordnete Primär-/Sekundärdominanz tragfähig ableitbar ist.",
+        "strength": "Verhindert eine Scheingenauigkeit bei echter Balance oder breiter Verteilung.",
+        "risk": "Kann weniger eindeutig wirken, ist aber fachlich sauberer als ein erzwungener Rollenkey.",
+        "keywords": [
+          "R0",
+          "Balance",
+          "Rollenebene"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn keine tragfähige geordnete Primär-/Sekundärdominanz ableitbar ist; bei R0 kein Facettenspektrum erzeugen.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "R12": {
+        "short": "Ideengeber mit Formgeber",
+        "aka": "Visionary-Shaper",
+        "headline": "Ideengeber zuerst, Formgeber ergänzend",
+        "personal_text": "Bei dir steht der Wirkungsraum Ideengeber im Vordergrund, ergänzt durch Formgeber. Typischerweise zeigt sich das als konzeptionell und spontan; erkennt möglichkeiten früh, entwickelt neue denkimpulse und stößt ideen unmittelbar an. Ergänzend wirkt Formgeber als zweite Ausdrucksform.",
+        "external_text": "Die Person zeigt primär Ideengeber und sekundär Formgeber. Die Reihenfolge ist fachlich relevant.",
+        "description": "R12 beschreibt eine geordnete Rollenlogik aus primärem Ideengeber und sekundärem Formgeber.",
+        "strength": "Verbindet erkennt möglichkeiten und initiiert frühe denk- und handlungsimpulse. mit ergänzenden Anteilen von Formgeber.",
+        "risk": "Kann einseitig werden, wenn Ideengeber den ergänzenden Wirkungsraum Formgeber überdeckt.",
+        "keywords": [
+          "R12",
+          "Ideengeber",
+          "Formgeber"
+        ],
+        "interpretation_rule": "Nur bei geordneter Primär- und Sekundärdominanz verwenden; bei echter Balance kein Rollenprofil erzeugen.",
+        "not_to_use_for": [
+          "Fixe Typenzuordnung",
+          "Gesamtpersönlichkeit",
+          "Kompetenznachweis"
+        ]
+      },
+      "R14": {
+        "short": "Ideengeber mit Konzeptprüfer",
+        "aka": "Visionary-Reviewer",
+        "headline": "Ideengeber zuerst, Konzeptprüfer ergänzend",
+        "personal_text": "Bei dir steht der Wirkungsraum Ideengeber im Vordergrund, ergänzt durch Konzeptprüfer. Typischerweise zeigt sich das als konzeptionell und spontan; erkennt möglichkeiten früh, entwickelt neue denkimpulse und stößt ideen unmittelbar an. Ergänzend wirkt Konzeptprüfer als zweite Ausdrucksform.",
+        "external_text": "Die Person zeigt primär Ideengeber und sekundär Konzeptprüfer. Die Reihenfolge ist fachlich relevant.",
+        "description": "R14 beschreibt eine geordnete Rollenlogik aus primärem Ideengeber und sekundärem Konzeptprüfer.",
+        "strength": "Verbindet erkennt möglichkeiten und initiiert frühe denk- und handlungsimpulse. mit ergänzenden Anteilen von Konzeptprüfer.",
+        "risk": "Kann einseitig werden, wenn Ideengeber den ergänzenden Wirkungsraum Konzeptprüfer überdeckt.",
+        "keywords": [
+          "R14",
+          "Ideengeber",
+          "Konzeptprüfer"
+        ],
+        "interpretation_rule": "Nur bei geordneter Primär- und Sekundärdominanz verwenden; bei echter Balance kein Rollenprofil erzeugen.",
+        "not_to_use_for": [
+          "Fixe Typenzuordnung",
+          "Gesamtpersönlichkeit",
+          "Kompetenznachweis"
+        ]
+      },
+      "R21": {
+        "short": "Formgeber mit Ideengeber",
+        "aka": "Shaper-Visionary",
+        "headline": "Formgeber zuerst, Ideengeber ergänzend",
+        "personal_text": "Bei dir steht der Wirkungsraum Formgeber im Vordergrund, ergänzt durch Ideengeber. Typischerweise zeigt sich das als strukturiert und spontan; gibt frühen impulsen eine klare, unmittelbar bearbeitbare form. Ergänzend wirkt Ideengeber als zweite Ausdrucksform.",
+        "external_text": "Die Person zeigt primär Formgeber und sekundär Ideengeber. Die Reihenfolge ist fachlich relevant.",
+        "description": "R21 beschreibt eine geordnete Rollenlogik aus primärem Formgeber und sekundärem Ideengeber.",
+        "strength": "Verbindet schafft früh struktur und macht nächste schritte bearbeitbar. mit ergänzenden Anteilen von Ideengeber.",
+        "risk": "Kann einseitig werden, wenn Formgeber den ergänzenden Wirkungsraum Ideengeber überdeckt.",
+        "keywords": [
+          "R21",
+          "Formgeber",
+          "Ideengeber"
+        ],
+        "interpretation_rule": "Nur bei geordneter Primär- und Sekundärdominanz verwenden; bei echter Balance kein Rollenprofil erzeugen.",
+        "not_to_use_for": [
+          "Fixe Typenzuordnung",
+          "Gesamtpersönlichkeit",
+          "Kompetenznachweis"
+        ]
+      },
+      "R23": {
+        "short": "Formgeber mit Planer",
+        "aka": "Shaper-Planner",
+        "headline": "Formgeber zuerst, Planer ergänzend",
+        "personal_text": "Bei dir steht der Wirkungsraum Formgeber im Vordergrund, ergänzt durch Planer. Typischerweise zeigt sich das als strukturiert und spontan; gibt frühen impulsen eine klare, unmittelbar bearbeitbare form. Ergänzend wirkt Planer als zweite Ausdrucksform.",
+        "external_text": "Die Person zeigt primär Formgeber und sekundär Planer. Die Reihenfolge ist fachlich relevant.",
+        "description": "R23 beschreibt eine geordnete Rollenlogik aus primärem Formgeber und sekundärem Planer.",
+        "strength": "Verbindet schafft früh struktur und macht nächste schritte bearbeitbar. mit ergänzenden Anteilen von Planer.",
+        "risk": "Kann einseitig werden, wenn Formgeber den ergänzenden Wirkungsraum Planer überdeckt.",
+        "keywords": [
+          "R23",
+          "Formgeber",
+          "Planer"
+        ],
+        "interpretation_rule": "Nur bei geordneter Primär- und Sekundärdominanz verwenden; bei echter Balance kein Rollenprofil erzeugen.",
+        "not_to_use_for": [
+          "Fixe Typenzuordnung",
+          "Gesamtpersönlichkeit",
+          "Kompetenznachweis"
+        ]
+      },
+      "R32": {
+        "short": "Planer mit Formgeber",
+        "aka": "Planner-Shaper",
+        "headline": "Planer zuerst, Formgeber ergänzend",
+        "personal_text": "Bei dir steht der Wirkungsraum Planer im Vordergrund, ergänzt durch Formgeber. Typischerweise zeigt sich das als strukturiert und reflektiert; ordnet informationen, prüft vorgehensweisen und bereitet nachvollziehbare umsetzungsschritte vor. Ergänzend wirkt Formgeber als zweite Ausdrucksform.",
+        "external_text": "Die Person zeigt primär Planer und sekundär Formgeber. Die Reihenfolge ist fachlich relevant.",
+        "description": "R32 beschreibt eine geordnete Rollenlogik aus primärem Planer und sekundärem Formgeber.",
+        "strength": "Verbindet sichert nachvollziehbare planung und geprüfte vorgehensweisen. mit ergänzenden Anteilen von Formgeber.",
+        "risk": "Kann einseitig werden, wenn Planer den ergänzenden Wirkungsraum Formgeber überdeckt.",
+        "keywords": [
+          "R32",
+          "Planer",
+          "Formgeber"
+        ],
+        "interpretation_rule": "Nur bei geordneter Primär- und Sekundärdominanz verwenden; bei echter Balance kein Rollenprofil erzeugen.",
+        "not_to_use_for": [
+          "Fixe Typenzuordnung",
+          "Gesamtpersönlichkeit",
+          "Kompetenznachweis"
+        ]
+      },
+      "R34": {
+        "short": "Planer mit Konzeptprüfer",
+        "aka": "Planner-Reviewer",
+        "headline": "Planer zuerst, Konzeptprüfer ergänzend",
+        "personal_text": "Bei dir steht der Wirkungsraum Planer im Vordergrund, ergänzt durch Konzeptprüfer. Typischerweise zeigt sich das als strukturiert und reflektiert; ordnet informationen, prüft vorgehensweisen und bereitet nachvollziehbare umsetzungsschritte vor. Ergänzend wirkt Konzeptprüfer als zweite Ausdrucksform.",
+        "external_text": "Die Person zeigt primär Planer und sekundär Konzeptprüfer. Die Reihenfolge ist fachlich relevant.",
+        "description": "R34 beschreibt eine geordnete Rollenlogik aus primärem Planer und sekundärem Konzeptprüfer.",
+        "strength": "Verbindet sichert nachvollziehbare planung und geprüfte vorgehensweisen. mit ergänzenden Anteilen von Konzeptprüfer.",
+        "risk": "Kann einseitig werden, wenn Planer den ergänzenden Wirkungsraum Konzeptprüfer überdeckt.",
+        "keywords": [
+          "R34",
+          "Planer",
+          "Konzeptprüfer"
+        ],
+        "interpretation_rule": "Nur bei geordneter Primär- und Sekundärdominanz verwenden; bei echter Balance kein Rollenprofil erzeugen.",
+        "not_to_use_for": [
+          "Fixe Typenzuordnung",
+          "Gesamtpersönlichkeit",
+          "Kompetenznachweis"
+        ]
+      },
+      "R41": {
+        "short": "Konzeptprüfer mit Ideengeber",
+        "aka": "Reviewer-Visionary",
+        "headline": "Konzeptprüfer zuerst, Ideengeber ergänzend",
+        "personal_text": "Bei dir steht der Wirkungsraum Konzeptprüfer im Vordergrund, ergänzt durch Ideengeber. Typischerweise zeigt sich das als konzeptionell und reflektiert; prüft zusammenhänge und ordnet ihre bedeutung für ideen oder konzepte ein. Ergänzend wirkt Ideengeber als zweite Ausdrucksform.",
+        "external_text": "Die Person zeigt primär Konzeptprüfer und sekundär Ideengeber. Die Reihenfolge ist fachlich relevant.",
+        "description": "R41 beschreibt eine geordnete Rollenlogik aus primärem Konzeptprüfer und sekundärem Ideengeber.",
+        "strength": "Verbindet prüft zusammenhänge und differenziert konzeptionelle bedeutungen. mit ergänzenden Anteilen von Ideengeber.",
+        "risk": "Kann einseitig werden, wenn Konzeptprüfer den ergänzenden Wirkungsraum Ideengeber überdeckt.",
+        "keywords": [
+          "R41",
+          "Konzeptprüfer",
+          "Ideengeber"
+        ],
+        "interpretation_rule": "Nur bei geordneter Primär- und Sekundärdominanz verwenden; bei echter Balance kein Rollenprofil erzeugen.",
+        "not_to_use_for": [
+          "Fixe Typenzuordnung",
+          "Gesamtpersönlichkeit",
+          "Kompetenznachweis"
+        ]
+      },
+      "R43": {
+        "short": "Konzeptprüfer mit Planer",
+        "aka": "Reviewer-Planner",
+        "headline": "Konzeptprüfer zuerst, Planer ergänzend",
+        "personal_text": "Bei dir steht der Wirkungsraum Konzeptprüfer im Vordergrund, ergänzt durch Planer. Typischerweise zeigt sich das als konzeptionell und reflektiert; prüft zusammenhänge und ordnet ihre bedeutung für ideen oder konzepte ein. Ergänzend wirkt Planer als zweite Ausdrucksform.",
+        "external_text": "Die Person zeigt primär Konzeptprüfer und sekundär Planer. Die Reihenfolge ist fachlich relevant.",
+        "description": "R43 beschreibt eine geordnete Rollenlogik aus primärem Konzeptprüfer und sekundärem Planer.",
+        "strength": "Verbindet prüft zusammenhänge und differenziert konzeptionelle bedeutungen. mit ergänzenden Anteilen von Planer.",
+        "risk": "Kann einseitig werden, wenn Konzeptprüfer den ergänzenden Wirkungsraum Planer überdeckt.",
+        "keywords": [
+          "R43",
+          "Konzeptprüfer",
+          "Planer"
+        ],
+        "interpretation_rule": "Nur bei geordneter Primär- und Sekundärdominanz verwenden; bei echter Balance kein Rollenprofil erzeugen.",
+        "not_to_use_for": [
+          "Fixe Typenzuordnung",
+          "Gesamtpersönlichkeit",
+          "Kompetenznachweis"
+        ]
+      }
+    }
+  },
+  "runtime_resolution": {
+    "source": "canon/results/model_results_contract.json",
+    "base_result_key_count": 27,
+    "resolved_result_key_policy": "deterministic_runtime_resolution",
+    "note": "Konkrete Personenwerte werden später deterministisch auf resolved_result_key-Varianten wie X_CLOSE_Y oder Q12_BALANCED abgebildet.",
+    "role_policy": "Rollenprofile nur bei geordneter Primär- und Sekundärdominanz benachbarter Quadranten erzeugen; bei echter Balance oder gegenüberliegender Scheinordnung R0 verwenden."
+  },
+  "boundaries": {
+    "pna_micro_only": true,
+    "macro_meta_reporting_only": true,
+    "no_clinical_diagnosis": true,
+    "no_competence_claim": true,
+    "no_fixed_typology": true
+  },
+  "contract_source": "canon/results/model_results_contract.json"
+}

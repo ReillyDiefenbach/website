@@ -1,0 +1,24 @@
+{
+	"selTick": "Suche dir das passende Ticket aus",
+	"selOver": "Übersicht über unsere Tickets",
+	"selProd": "Deine Buchung",
+	"selInfo": "Bitte überprüfe zunächst deine Produktauswahl.",
+	"selInfoSum": "Rechnungsbetrag",
+	"selPay": "Wähle zur Bezahlung einen der sicheren Zahlungsabwickler aus.",
+	"selBack": "Zurück zur Ticketauswahl",
+	"preis": "Preis",
+	"preis_s": "Summe",
+	"produkt": "Produkt",
+	"anzahl": "Anzahl",
+	
+	"plan_t": "Einzelticket",
+	"plan_t2": "Ein Modul zur freien Auswahl",
+	"plan_tb": "Einzelticket buchen",
+	"plan_m": "Monatsticket",
+	"plan_m2": "Ein Monat lang voller Zugriff auf alle Module",
+	"plan_mb": "Monatsticket buchen",
+	"plan_y": "Jahresticket",
+	"plan_y2": "Ein Jahr lang voller Zugriff auf alle Module",
+	"plan_yb": "Jahresticket buchen",
+	"plan_x": "Unbekannter Artikel"
+}

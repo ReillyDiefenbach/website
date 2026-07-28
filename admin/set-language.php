@@ -2,6 +2,7 @@
 
 $language = str_replace('_', '-', trim((string) ($_POST['lang'] ?? $_GET['lang'] ?? 'de')));
 $direction = strtolower(trim((string) ($_POST['dir'] ?? $_GET['dir'] ?? 'ltr')));
+$returnSite = trim((string) ($_POST['site'] ?? $_GET['site'] ?? 'home'));
 
 if (!preg_match('/^[a-z]{2,3}(?:-[a-z]{2})?$/i', $language)) {
     $language = 'de';
@@ -9,6 +10,14 @@ if (!preg_match('/^[a-z]{2,3}(?:-[a-z]{2})?$/i', $language)) {
 
 if (!in_array($direction, ['ltr', 'rtl'], true)) {
     $direction = 'ltr';
+}
+
+if (
+    !preg_match('/^[a-z0-9][a-z0-9_\/-]*$/i', $returnSite)
+    || str_contains($returnSite, '..')
+    || $returnSite === 'admin/languages'
+) {
+    $returnSite = 'home';
 }
 
 $expires = time() + 60 * 60 * 24 * 365;
@@ -54,7 +63,7 @@ header('Content-Type: text/html; charset=UTF-8');
 </head>
 <body>
     <script>
-        sessionStorage.setItem('initialSite', 'admin/languages');
+        sessionStorage.setItem('initialSite', <?= json_encode($returnSite, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) ?>);
         location.replace('/');
     </script>
     <noscript>

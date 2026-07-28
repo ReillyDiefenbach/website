@@ -1,0 +1,37 @@
+{
+  "lang": "de",
+  "scope": "family",
+  "family": "nexus",
+  "title": "Bond & Change",
+  "variant": "",
+  "items": {
+    "f1": {
+      "q": "Was beschreibt dieses Modul?",
+      "a": "Bond & Change beschreibt, wie Menschen und Rollen zwischen Eigenständigkeit, Verbindung, Veränderung und Stabilität Orientierung finden. Es zeigt Schwerpunkte, keine festen Typen."
+    },
+    "f2": {
+      "q": "Welche Spannungen werden unterschieden?",
+      "a": "Das Modul unterscheidet Autonomie gegen Verbundenheit und Veränderung gegen Stabilität. Damit werden zwei Achsen sichtbar, die im Alltag oft gleichzeitig wirken."
+    },
+    "f3": {
+      "q": "Was zeigen die vier Richtungen?",
+      "a": "Die vier Richtungen zeigen typische Kombinationen aus selbstständigem Vorangehen, verbindender Entwicklung, tragender Stabilisierung und eigenständiger Einordnung. Sie helfen beim Verstehen von Rollen und Reaktionen."
+    },
+    "f4": {
+      "q": "Worin liegt der praktische Nutzen?",
+      "a": "Das Modul hilft, Bedürfnisse nach Freiraum, Nähe, Bewegung und Verlässlichkeit besser zu besprechen. Das ist besonders nützlich in Teams, Beziehungen und Veränderungsprozessen."
+    },
+    "f5": {
+      "q": "Wie sicher darf ich die Lesart nehmen?",
+      "a": "Als Orientierung ist sie brauchbar. Als fertige Messung ist sie noch offen. Die spätere Belastbarkeit muss über Fragen, Microevidenzen und Validierung entstehen."
+    },
+    "f6": {
+      "q": "Worin unterscheidet es sich von einem Persönlichkeitstest?",
+      "a": "Bond & Change will nicht Persönlichkeit festschreiben. Es beschreibt eine Kontextlogik und fragt, welche Orientierung gerade sichtbar wird."
+    },
+    "f7": {
+      "q": "Wo liegen die Grenzen?",
+      "a": "Die Grenzen liegen dort, wo Autonomie zu Bindungsvermeidung, Verbundenheit zu Abhängigkeit oder Stabilität zu Starrheit umgedeutet wird. So etwas wäre zu grob und würde dem Modul nicht gerecht."
+    }
+  }
+}

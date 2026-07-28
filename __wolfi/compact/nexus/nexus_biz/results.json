@@ -1,0 +1,626 @@
+{
+  "schema": "pna.model_results_basics.v1",
+  "task": "model_results",
+  "model_key": "nexus_biz",
+  "family": "nexus",
+  "language": "de",
+  "generated_at": "2026-07-01T15:58:29Z",
+  "wording_source": "canon/results/framework_result_wording.json",
+  "contract_source": "canon/results/model_results_contract.json",
+  "result_status": "generated_pending_review",
+  "runtime_resolution": {
+    "principle": "Basisbausteine liefern die Textquellen; konkrete resolved_result_keys werden deterministisch in der Auswertungsschicht berechnet.",
+    "balance_policy": "Keine Dominanz behaupten, wenn Werte innerhalb der Balance-Toleranz liegen.",
+    "role_policy": "Rollenprofile nur bei geordneter Primär- und Sekundärdominanz benachbarter Quadranten erzeugen; bei echter Balance oder gegenüberliegender Scheinordnung R0 verwenden.",
+    "base_result_key_count": 27
+  },
+  "results": {
+    "orientation": {
+      "X": {
+        "short": "Beziehung",
+        "aka": "Bond",
+        "headline": "Orientierung über Beziehung",
+        "personal_text": "Bei dir steht Beziehung stärker im Vordergrund. Du erschließt Bond & Change im Arbeitskontext vor allem über autonomie vs. verbundenheit und suchst darin Orientierung.",
+        "external_text": "Die Ausrichtung zeigt eine stärkere Verdichtung auf Beziehung. Dieses Ergebnis beschreibt eine modellbezogene Orientierung, keine feste Eigenschaft.",
+        "description": "Diese Achse beschreibt die bevorzugte Orientierung zwischen eigenständiger Selbststeuerung und sozialer Einbindung.",
+        "strength": "Macht Beziehungs- und Anschlussfragen früh sichtbar.",
+        "risk": "Kann andere Entwicklungs- oder Stabilitätsaspekte zeitweise überlagern.",
+        "keywords": [
+          "Beziehung",
+          "Bond",
+          "Orientierung"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn die X-Achse gegenüber der Y-Achse dominiert.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "Y": {
+        "short": "Entwicklung",
+        "aka": "Change",
+        "headline": "Orientierung über Entwicklung",
+        "personal_text": "Bei dir steht Entwicklung stärker im Vordergrund. Du erschließt Bond & Change im Arbeitskontext vor allem über veränderung vs. stabilität und suchst darin Orientierung.",
+        "external_text": "Die Ausrichtung zeigt eine stärkere Verdichtung auf Entwicklung. Dieses Ergebnis beschreibt eine modellbezogene Orientierung, keine feste Eigenschaft.",
+        "description": "Diese Achse beschreibt die bevorzugte Orientierung zwischen Entwicklung, Anpassung und Erneuerung einerseits sowie Kontinuität, Sicherheit und Verlässlichkeit andererseits.",
+        "strength": "Macht Entwicklungs- und Stabilitätsfragen früh sichtbar.",
+        "risk": "Kann Beziehungs- oder Zugehörigkeitsaspekte zeitweise überlagern.",
+        "keywords": [
+          "Entwicklung",
+          "Change",
+          "Orientierung"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn die Y-Achse gegenüber der X-Achse dominiert.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "XY": {
+        "short": "Balance der Achsen",
+        "aka": "Bond-Change Balance",
+        "headline": "Beziehung und Entwicklung im Gleichgewicht",
+        "personal_text": "Bei dir liegen Beziehung und Entwicklung nah beieinander. Du brauchst keine eindeutige Achsendominanz, sondern verbindest beide Perspektiven.",
+        "external_text": "Die Ausrichtung zeigt eine Balance zwischen Beziehung und Entwicklung. Es wird keine Dominanz behauptet.",
+        "description": "Beschreibt eine annähernd ausgeglichene Achsenauswertung.",
+        "strength": "Kann zwischen Beziehungs- und Entwicklungslogik vermitteln.",
+        "risk": "Kann weniger eindeutig wirken, wenn eine klare Priorisierung erwartet wird.",
+        "keywords": [
+          "Balance",
+          "Beziehung",
+          "Entwicklung"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn X und Y innerhalb der Balance-Toleranz liegen.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      }
+    },
+    "priorities": {
+      "W": {
+        "short": "Autonomie",
+        "aka": "autonom",
+        "headline": "Priorität Autonomie",
+        "personal_text": "Bei dir wird Autonomie im Arbeitskontext besonders sichtbar. Verbundenheit bleibt anschlussfähig, steht aber nicht im Vordergrund dieses Ergebnisfalls.",
+        "external_text": "Die Person zeigt eine stärkere Priorität für Autonomie. Das beschreibt eine relative Gewichtung innerhalb des Modells.",
+        "description": "Autonomie dominiert in der entsprechenden Richtungspaarung gegenüber Verbundenheit.",
+        "strength": "Autonomie kann Orientierung und Entscheidungskraft geben.",
+        "risk": "Eine einseitige Betonung von Autonomie kann die Gegenrichtung Verbundenheit zu wenig berücksichtigen.",
+        "keywords": [
+          "Autonomie",
+          "Verbundenheit",
+          "Priorität"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn Autonomie gegenüber Verbundenheit dominiert.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "E": {
+        "short": "Verbundenheit",
+        "aka": "verbunden",
+        "headline": "Priorität Verbundenheit",
+        "personal_text": "Bei dir wird Verbundenheit im Arbeitskontext besonders sichtbar. Autonomie bleibt anschlussfähig, steht aber nicht im Vordergrund dieses Ergebnisfalls.",
+        "external_text": "Die Person zeigt eine stärkere Priorität für Verbundenheit. Das beschreibt eine relative Gewichtung innerhalb des Modells.",
+        "description": "Verbundenheit dominiert in der entsprechenden Richtungspaarung gegenüber Autonomie.",
+        "strength": "Verbundenheit kann Orientierung und Entscheidungskraft geben.",
+        "risk": "Eine einseitige Betonung von Verbundenheit kann die Gegenrichtung Autonomie zu wenig berücksichtigen.",
+        "keywords": [
+          "Verbundenheit",
+          "Autonomie",
+          "Priorität"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn Verbundenheit gegenüber Autonomie dominiert.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "N": {
+        "short": "Veränderung",
+        "aka": "verändernd",
+        "headline": "Priorität Veränderung",
+        "personal_text": "Bei dir wird Veränderung im Arbeitskontext besonders sichtbar. Stabilität bleibt anschlussfähig, steht aber nicht im Vordergrund dieses Ergebnisfalls.",
+        "external_text": "Die Person zeigt eine stärkere Priorität für Veränderung. Das beschreibt eine relative Gewichtung innerhalb des Modells.",
+        "description": "Veränderung dominiert in der entsprechenden Richtungspaarung gegenüber Stabilität.",
+        "strength": "Veränderung kann Orientierung und Entscheidungskraft geben.",
+        "risk": "Eine einseitige Betonung von Veränderung kann die Gegenrichtung Stabilität zu wenig berücksichtigen.",
+        "keywords": [
+          "Veränderung",
+          "Stabilität",
+          "Priorität"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn Veränderung gegenüber Stabilität dominiert.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "S": {
+        "short": "Stabilität",
+        "aka": "stabilisierend",
+        "headline": "Priorität Stabilität",
+        "personal_text": "Bei dir wird Stabilität im Arbeitskontext besonders sichtbar. Veränderung bleibt anschlussfähig, steht aber nicht im Vordergrund dieses Ergebnisfalls.",
+        "external_text": "Die Person zeigt eine stärkere Priorität für Stabilität. Das beschreibt eine relative Gewichtung innerhalb des Modells.",
+        "description": "Stabilität dominiert in der entsprechenden Richtungspaarung gegenüber Veränderung.",
+        "strength": "Stabilität kann Orientierung und Entscheidungskraft geben.",
+        "risk": "Eine einseitige Betonung von Stabilität kann die Gegenrichtung Veränderung zu wenig berücksichtigen.",
+        "keywords": [
+          "Stabilität",
+          "Veränderung",
+          "Priorität"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn Stabilität gegenüber Veränderung dominiert.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "WE": {
+        "short": "Balance Autonomie und Verbundenheit",
+        "aka": "Autonomy-Bond Balance",
+        "headline": "Eigenständigkeit und Verbindung ausbalancieren",
+        "personal_text": "Bei dir liegen Autonomie und Verbundenheit nah beieinander. Du kannst Eigenständigkeit und Anschluss gleichzeitig berücksichtigen.",
+        "external_text": "Dieses Ergebnis beschreibt eine Balance zwischen Autonomie und Verbundenheit ohne Richtungsdominanz.",
+        "description": "Annähernd ausgeglichene Richtungsauswertung im W/E-Paar.",
+        "strength": "Ermöglicht Vermittlung zwischen Selbststeuerung und Anschlussfähigkeit.",
+        "risk": "Kann bei Entscheidungsdruck weniger eindeutig erscheinen.",
+        "keywords": [
+          "Autonomie",
+          "Verbundenheit",
+          "Balance"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn W und E innerhalb der Balance-Toleranz liegen.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "NS": {
+        "short": "Balance Veränderung und Stabilität",
+        "aka": "Change-Stability Balance",
+        "headline": "Bewegung und Verlässlichkeit ausbalancieren",
+        "personal_text": "Bei dir liegen Veränderung und Stabilität nah beieinander. Du kannst Entwicklung und Kontinuität gleichzeitig berücksichtigen.",
+        "external_text": "Dieses Ergebnis beschreibt eine Balance zwischen Veränderung und Stabilität ohne Richtungsdominanz.",
+        "description": "Annähernd ausgeglichene Richtungsauswertung im N/S-Paar.",
+        "strength": "Ermöglicht Vermittlung zwischen Erneuerung und tragfähiger Struktur.",
+        "risk": "Kann bei starkem Tempo- oder Sicherheitsdruck weniger eindeutig erscheinen.",
+        "keywords": [
+          "Veränderung",
+          "Stabilität",
+          "Balance"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn N und S innerhalb der Balance-Toleranz liegen.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      }
+    },
+    "impact_space": {
+      "Q1": {
+        "short": "Innovator",
+        "aka": "Innovator",
+        "headline": "Der Innovator",
+        "personal_text": "Bei dir bündelt sich die Ausrichtung im Arbeitskontext im Wirkungsraum Innovator. Autonom und verändernd; erkennt neue Möglichkeiten, geht eigenständig voran und entwickelt unabhängige Lösungsimpulse.",
+        "external_text": "Die Ausrichtung verdichtet sich im Wirkungsraum Innovator. Das beschreibt eine Modellperspektive, keinen Typ.",
+        "description": "Autonom und verändernd; erkennt neue Möglichkeiten, geht eigenständig voran und entwickelt unabhängige Lösungsimpulse.",
+        "strength": "Eigenständig, ideenreich, erneuernd",
+        "risk": "Kann in bestimmten Situationen zu wenig Anschluss an bestehende Abstimmungen, Ressourcen oder Umsetzungsbedingungen suchen.",
+        "keywords": [
+          "Innovator",
+          "Innovator",
+          "Q1"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn Q1 der stärkste Wirkungsraum ist.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "Q2": {
+        "short": "Ermöglicher",
+        "aka": "Catalyst",
+        "headline": "Der Ermöglicher",
+        "personal_text": "Bei dir bündelt sich die Ausrichtung im Arbeitskontext im Wirkungsraum Ermöglicher. Verbunden und verändernd; bringt Menschen in Bewegung, gestaltet Wandel gemeinsam und macht Entwicklung sozial anschlussfähig.",
+        "external_text": "Die Ausrichtung verdichtet sich im Wirkungsraum Ermöglicher. Das beschreibt eine Modellperspektive, keinen Typ.",
+        "description": "Verbunden und verändernd; bringt Menschen in Bewegung, gestaltet Wandel gemeinsam und macht Entwicklung sozial anschlussfähig.",
+        "strength": "Vernetzend, aktivierend, entwicklungsfördernd",
+        "risk": "Kann in bestimmten Situationen zu viele Abstimmungen, Impulse oder Veränderungserwartungen gleichzeitig öffnen.",
+        "keywords": [
+          "Ermöglicher",
+          "Catalyst",
+          "Q2"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn Q2 der stärkste Wirkungsraum ist.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "Q3": {
+        "short": "Stabilisierer",
+        "aka": "Stabilizer",
+        "headline": "Der Stabilisierer",
+        "personal_text": "Bei dir bündelt sich die Ausrichtung im Arbeitskontext im Wirkungsraum Stabilisierer. Verbunden und stabilisierend; trägt Zusammenarbeit, sichert Verlässlichkeit und hält gemeinsame Strukturen funktionsfähig.",
+        "external_text": "Die Ausrichtung verdichtet sich im Wirkungsraum Stabilisierer. Das beschreibt eine Modellperspektive, keinen Typ.",
+        "description": "Verbunden und stabilisierend; trägt Zusammenarbeit, sichert Verlässlichkeit und hält gemeinsame Strukturen funktionsfähig.",
+        "strength": "Verlässlich, kooperativ, qualitätssichernd",
+        "risk": "Kann in bestimmten Situationen bestehende Abstimmungen zu stark schützen und notwendige Veränderung verzögern.",
+        "keywords": [
+          "Stabilisierer",
+          "Stabilizer",
+          "Q3"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn Q3 der stärkste Wirkungsraum ist.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "Q4": {
+        "short": "Experte",
+        "aka": "Specialist",
+        "headline": "Der Experte",
+        "personal_text": "Bei dir bündelt sich die Ausrichtung im Arbeitskontext im Wirkungsraum Experte. Autonom und stabilisierend; ordnet Anforderungen eigenständig ein, schützt fachliche Standards und bewahrt tragfähige Substanz.",
+        "external_text": "Die Ausrichtung verdichtet sich im Wirkungsraum Experte. Das beschreibt eine Modellperspektive, keinen Typ.",
+        "description": "Autonom und stabilisierend; ordnet Anforderungen eigenständig ein, schützt fachliche Standards und bewahrt tragfähige Substanz.",
+        "strength": "Fachlich, sorgfältig, unabhängig prüfend",
+        "risk": "Kann in bestimmten Situationen zu lange aus fachlicher Distanz prüfen und Anschluss oder Veränderung zu spät aufnehmen.",
+        "keywords": [
+          "Experte",
+          "Specialist",
+          "Q4"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn Q4 der stärkste Wirkungsraum ist.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "Q12": {
+        "short": "Innovator und Ermöglicher in Balance",
+        "aka": "Innovator-Catalyst Balance",
+        "headline": "Innovator und Ermöglicher ausbalanciert",
+        "personal_text": "Bei dir tragen die Wirkungsräume Innovator und Ermöglicher gemeinsam. Keine der beiden Perspektiven wird als führend formuliert.",
+        "external_text": "Die Person zeigt eine Balance zwischen den Wirkungsräume Innovator und Ermöglicher. Es wird keine Primärdominanz behauptet.",
+        "description": "Q12 beschreibt eine ungeordnete Balance der benachbarten Wirkungsräume Q1 und Q2.",
+        "strength": "Verbindet Eigenständig, ideenreich, erneuernd mit Vernetzend, aktivierend, entwicklungsfördernd.",
+        "risk": "Kann weniger eindeutig wirken, ist aber fachlich sauberer als eine erzwungene Quadrantendominanz.",
+        "keywords": [
+          "Q12",
+          "Innovator",
+          "Ermöglicher",
+          "Balance"
+        ],
+        "interpretation_rule": "Als Balance zwischen Q1 und Q2 interpretieren; keine Primärdominanz und kein Rollenprofil daraus ableiten.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "Q14": {
+        "short": "Innovator und Experte in Balance",
+        "aka": "Innovator-Specialist Balance",
+        "headline": "Innovator und Experte ausbalanciert",
+        "personal_text": "Bei dir tragen die Wirkungsräume Innovator und Experte gemeinsam. Keine der beiden Perspektiven wird als führend formuliert.",
+        "external_text": "Die Person zeigt eine Balance zwischen den Wirkungsräume Innovator und Experte. Es wird keine Primärdominanz behauptet.",
+        "description": "Q14 beschreibt eine ungeordnete Balance der benachbarten Wirkungsräume Q1 und Q4.",
+        "strength": "Verbindet Eigenständig, ideenreich, erneuernd mit Fachlich, sorgfältig, unabhängig prüfend.",
+        "risk": "Kann weniger eindeutig wirken, ist aber fachlich sauberer als eine erzwungene Quadrantendominanz.",
+        "keywords": [
+          "Q14",
+          "Innovator",
+          "Experte",
+          "Balance"
+        ],
+        "interpretation_rule": "Als Balance zwischen Q1 und Q4 interpretieren; keine Primärdominanz und kein Rollenprofil daraus ableiten.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "Q23": {
+        "short": "Ermöglicher und Stabilisierer in Balance",
+        "aka": "Catalyst-Stabilizer Balance",
+        "headline": "Ermöglicher und Stabilisierer ausbalanciert",
+        "personal_text": "Bei dir tragen die Wirkungsräume Ermöglicher und Stabilisierer gemeinsam. Keine der beiden Perspektiven wird als führend formuliert.",
+        "external_text": "Die Person zeigt eine Balance zwischen den Wirkungsräume Ermöglicher und Stabilisierer. Es wird keine Primärdominanz behauptet.",
+        "description": "Q23 beschreibt eine ungeordnete Balance der benachbarten Wirkungsräume Q2 und Q3.",
+        "strength": "Verbindet Vernetzend, aktivierend, entwicklungsfördernd mit Verlässlich, kooperativ, qualitätssichernd.",
+        "risk": "Kann weniger eindeutig wirken, ist aber fachlich sauberer als eine erzwungene Quadrantendominanz.",
+        "keywords": [
+          "Q23",
+          "Ermöglicher",
+          "Stabilisierer",
+          "Balance"
+        ],
+        "interpretation_rule": "Als Balance zwischen Q2 und Q3 interpretieren; keine Primärdominanz und kein Rollenprofil daraus ableiten.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "Q34": {
+        "short": "Stabilisierer und Experte in Balance",
+        "aka": "Stabilizer-Specialist Balance",
+        "headline": "Stabilisierer und Experte ausbalanciert",
+        "personal_text": "Bei dir tragen die Wirkungsräume Stabilisierer und Experte gemeinsam. Keine der beiden Perspektiven wird als führend formuliert.",
+        "external_text": "Die Person zeigt eine Balance zwischen den Wirkungsräume Stabilisierer und Experte. Es wird keine Primärdominanz behauptet.",
+        "description": "Q34 beschreibt eine ungeordnete Balance der benachbarten Wirkungsräume Q3 und Q4.",
+        "strength": "Verbindet Verlässlich, kooperativ, qualitätssichernd mit Fachlich, sorgfältig, unabhängig prüfend.",
+        "risk": "Kann weniger eindeutig wirken, ist aber fachlich sauberer als eine erzwungene Quadrantendominanz.",
+        "keywords": [
+          "Q34",
+          "Stabilisierer",
+          "Experte",
+          "Balance"
+        ],
+        "interpretation_rule": "Als Balance zwischen Q3 und Q4 interpretieren; keine Primärdominanz und kein Rollenprofil daraus ableiten.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "Q0": {
+        "short": "Ausgewogener Wirkungsraum",
+        "aka": "Balanced Impact Space",
+        "headline": "Mehrere Wirkungsräume sind aktiv",
+        "personal_text": "Bei dir verteilt sich die Ausrichtung auf mehrere Wirkungsräume. Das ist kein schwaches Ergebnis, sondern eine breite Nutzung verschiedener Perspektiven.",
+        "external_text": "Dieses Ergebnis beschreibt eine ausgewogene Nutzung mehrerer Quadranten ohne eindeutige Dominanz.",
+        "description": "Q0 beschreibt eine annähernd ausgewogene Nutzung mehrerer Wirkungsräume; bei vollständigem Gleichstand aller vier Halbachsen greift stattdessen XY_BALANCED.",
+        "strength": "Kann mehrere Anforderungen gleichzeitig integrieren.",
+        "risk": "Kann weniger schnell auf einen einzelnen Handlungsmodus verdichten.",
+        "keywords": [
+          "Wirkungsraum",
+          "Balance",
+          "Q0"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn kein einzelner oder paarweiser Wirkungsraum dominant ist und kein vollständiger Halbachsen-Gleichstand W=E=N=S vorliegt.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis",
+          "vollständige Halbachsen-Balance W=E=N=S"
+        ]
+      }
+    },
+    "role_profile": {
+      "R0": {
+        "short": "Kein geordnetes Rollenprofil",
+        "aka": "Role Layer Null Case",
+        "headline": "Keine tragfähige Rollenordnung",
+        "personal_text": "Bei dir lässt sich aus der Quadrantenauswertung kein tragfähiges primäres und sekundäres Rollenprofil ableiten. Die Auswertung bleibt deshalb beim Wirkungsraum und erzeugt kein Facettenspektrum.",
+        "external_text": "Die Rollenebene zeigt R0 als sichtbaren Balance- oder Nullfall. Das ist kein Rollenprofil und keine Schwäche.",
+        "description": "R0 wird verwendet, wenn keine geordnete Primär-/Sekundärdominanz tragfähig ableitbar ist.",
+        "strength": "Verhindert eine Scheingenauigkeit bei echter Balance oder breiter Verteilung.",
+        "risk": "Kann weniger eindeutig wirken, ist aber fachlich sauberer als ein erzwungener Rollenkey.",
+        "keywords": [
+          "R0",
+          "Balance",
+          "Rollenebene"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn keine tragfähige geordnete Primär-/Sekundärdominanz ableitbar ist; bei R0 kein Facettenspektrum erzeugen.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "R12": {
+        "short": "Innovator mit Ermöglicher-Anteil",
+        "aka": "Innovator-Ermöglicher",
+        "headline": "Innovator führt, Ermöglicher ergänzt",
+        "personal_text": "Bei dir führt im Rollenprofil Innovator. Ermöglicher ergänzt diese Ausrichtung als zweite Kraft. Dadurch entsteht kein fixer Typ, sondern eine funktionale Handlungslogik im Arbeitskontext.",
+        "external_text": "Das Rollenprofil zeigt Innovator als primäre und Ermöglicher als sekundäre Verdichtung.",
+        "description": "Geordnete Rollenlogik aus primärem Quadranten Q1 und sekundärem Quadranten Q2.",
+        "strength": "Verbindet die Stärke von Innovator mit einer ergänzenden Perspektive aus Ermöglicher.",
+        "risk": "Kann unausgewogen wirken, wenn die sekundäre Perspektive zu wenig bewusst integriert wird.",
+        "keywords": [
+          "R12",
+          "Innovator",
+          "Ermöglicher"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn Primär- und Sekundärquadrant eindeutig geordnet sind; bei echter Balance Rolle unterdrücken.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "R14": {
+        "short": "Innovator mit Experte-Anteil",
+        "aka": "Innovator-Experte",
+        "headline": "Innovator führt, Experte ergänzt",
+        "personal_text": "Bei dir führt im Rollenprofil Innovator. Experte ergänzt diese Ausrichtung als zweite Kraft. Dadurch entsteht kein fixer Typ, sondern eine funktionale Handlungslogik im Arbeitskontext.",
+        "external_text": "Das Rollenprofil zeigt Innovator als primäre und Experte als sekundäre Verdichtung.",
+        "description": "Geordnete Rollenlogik aus primärem Quadranten Q1 und sekundärem Quadranten Q4.",
+        "strength": "Verbindet die Stärke von Innovator mit einer ergänzenden Perspektive aus Experte.",
+        "risk": "Kann unausgewogen wirken, wenn die sekundäre Perspektive zu wenig bewusst integriert wird.",
+        "keywords": [
+          "R14",
+          "Innovator",
+          "Experte"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn Primär- und Sekundärquadrant eindeutig geordnet sind; bei echter Balance Rolle unterdrücken.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "R21": {
+        "short": "Ermöglicher mit Innovator-Anteil",
+        "aka": "Ermöglicher-Innovator",
+        "headline": "Ermöglicher führt, Innovator ergänzt",
+        "personal_text": "Bei dir führt im Rollenprofil Ermöglicher. Innovator ergänzt diese Ausrichtung als zweite Kraft. Dadurch entsteht kein fixer Typ, sondern eine funktionale Handlungslogik im Arbeitskontext.",
+        "external_text": "Das Rollenprofil zeigt Ermöglicher als primäre und Innovator als sekundäre Verdichtung.",
+        "description": "Geordnete Rollenlogik aus primärem Quadranten Q2 und sekundärem Quadranten Q1.",
+        "strength": "Verbindet die Stärke von Ermöglicher mit einer ergänzenden Perspektive aus Innovator.",
+        "risk": "Kann unausgewogen wirken, wenn die sekundäre Perspektive zu wenig bewusst integriert wird.",
+        "keywords": [
+          "R21",
+          "Ermöglicher",
+          "Innovator"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn Primär- und Sekundärquadrant eindeutig geordnet sind; bei echter Balance Rolle unterdrücken.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "R23": {
+        "short": "Ermöglicher mit Stabilisierer-Anteil",
+        "aka": "Ermöglicher-Stabilisierer",
+        "headline": "Ermöglicher führt, Stabilisierer ergänzt",
+        "personal_text": "Bei dir führt im Rollenprofil Ermöglicher. Stabilisierer ergänzt diese Ausrichtung als zweite Kraft. Dadurch entsteht kein fixer Typ, sondern eine funktionale Handlungslogik im Arbeitskontext.",
+        "external_text": "Das Rollenprofil zeigt Ermöglicher als primäre und Stabilisierer als sekundäre Verdichtung.",
+        "description": "Geordnete Rollenlogik aus primärem Quadranten Q2 und sekundärem Quadranten Q3.",
+        "strength": "Verbindet die Stärke von Ermöglicher mit einer ergänzenden Perspektive aus Stabilisierer.",
+        "risk": "Kann unausgewogen wirken, wenn die sekundäre Perspektive zu wenig bewusst integriert wird.",
+        "keywords": [
+          "R23",
+          "Ermöglicher",
+          "Stabilisierer"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn Primär- und Sekundärquadrant eindeutig geordnet sind; bei echter Balance Rolle unterdrücken.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "R32": {
+        "short": "Stabilisierer mit Ermöglicher-Anteil",
+        "aka": "Stabilisierer-Ermöglicher",
+        "headline": "Stabilisierer führt, Ermöglicher ergänzt",
+        "personal_text": "Bei dir führt im Rollenprofil Stabilisierer. Ermöglicher ergänzt diese Ausrichtung als zweite Kraft. Dadurch entsteht kein fixer Typ, sondern eine funktionale Handlungslogik im Arbeitskontext.",
+        "external_text": "Das Rollenprofil zeigt Stabilisierer als primäre und Ermöglicher als sekundäre Verdichtung.",
+        "description": "Geordnete Rollenlogik aus primärem Quadranten Q3 und sekundärem Quadranten Q2.",
+        "strength": "Verbindet die Stärke von Stabilisierer mit einer ergänzenden Perspektive aus Ermöglicher.",
+        "risk": "Kann unausgewogen wirken, wenn die sekundäre Perspektive zu wenig bewusst integriert wird.",
+        "keywords": [
+          "R32",
+          "Stabilisierer",
+          "Ermöglicher"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn Primär- und Sekundärquadrant eindeutig geordnet sind; bei echter Balance Rolle unterdrücken.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "R34": {
+        "short": "Stabilisierer mit Experte-Anteil",
+        "aka": "Stabilisierer-Experte",
+        "headline": "Stabilisierer führt, Experte ergänzt",
+        "personal_text": "Bei dir führt im Rollenprofil Stabilisierer. Experte ergänzt diese Ausrichtung als zweite Kraft. Dadurch entsteht kein fixer Typ, sondern eine funktionale Handlungslogik im Arbeitskontext.",
+        "external_text": "Das Rollenprofil zeigt Stabilisierer als primäre und Experte als sekundäre Verdichtung.",
+        "description": "Geordnete Rollenlogik aus primärem Quadranten Q3 und sekundärem Quadranten Q4.",
+        "strength": "Verbindet die Stärke von Stabilisierer mit einer ergänzenden Perspektive aus Experte.",
+        "risk": "Kann unausgewogen wirken, wenn die sekundäre Perspektive zu wenig bewusst integriert wird.",
+        "keywords": [
+          "R34",
+          "Stabilisierer",
+          "Experte"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn Primär- und Sekundärquadrant eindeutig geordnet sind; bei echter Balance Rolle unterdrücken.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "R41": {
+        "short": "Experte mit Innovator-Anteil",
+        "aka": "Experte-Innovator",
+        "headline": "Experte führt, Innovator ergänzt",
+        "personal_text": "Bei dir führt im Rollenprofil Experte. Innovator ergänzt diese Ausrichtung als zweite Kraft. Dadurch entsteht kein fixer Typ, sondern eine funktionale Handlungslogik im Arbeitskontext.",
+        "external_text": "Das Rollenprofil zeigt Experte als primäre und Innovator als sekundäre Verdichtung.",
+        "description": "Geordnete Rollenlogik aus primärem Quadranten Q4 und sekundärem Quadranten Q1.",
+        "strength": "Verbindet die Stärke von Experte mit einer ergänzenden Perspektive aus Innovator.",
+        "risk": "Kann unausgewogen wirken, wenn die sekundäre Perspektive zu wenig bewusst integriert wird.",
+        "keywords": [
+          "R41",
+          "Experte",
+          "Innovator"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn Primär- und Sekundärquadrant eindeutig geordnet sind; bei echter Balance Rolle unterdrücken.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "R43": {
+        "short": "Experte mit Stabilisierer-Anteil",
+        "aka": "Experte-Stabilisierer",
+        "headline": "Experte führt, Stabilisierer ergänzt",
+        "personal_text": "Bei dir führt im Rollenprofil Experte. Stabilisierer ergänzt diese Ausrichtung als zweite Kraft. Dadurch entsteht kein fixer Typ, sondern eine funktionale Handlungslogik im Arbeitskontext.",
+        "external_text": "Das Rollenprofil zeigt Experte als primäre und Stabilisierer als sekundäre Verdichtung.",
+        "description": "Geordnete Rollenlogik aus primärem Quadranten Q4 und sekundärem Quadranten Q3.",
+        "strength": "Verbindet die Stärke von Experte mit einer ergänzenden Perspektive aus Stabilisierer.",
+        "risk": "Kann unausgewogen wirken, wenn die sekundäre Perspektive zu wenig bewusst integriert wird.",
+        "keywords": [
+          "R43",
+          "Experte",
+          "Stabilisierer"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn Primär- und Sekundärquadrant eindeutig geordnet sind; bei echter Balance Rolle unterdrücken.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      }
+    }
+  }
+}

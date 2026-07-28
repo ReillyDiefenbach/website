@@ -1,0 +1,107 @@
+{
+  "name": "Roles Business",
+  "family": "Roles",
+  "title": "Role & Impact",
+  "short": "role_biz",
+  "typ": "biz",
+  "key": "Beschreibt bevorzugte Rollenbeiträge in Teams und Organisationen - zwischen Menschen- und Aufgabenorientierung sowie zwischen flexibler Anpassung und strukturierter Verlässlichkeit.",
+  "desc": "Das Roles Business Modell beschreibt arbeitsbezogene Rollenorientierungen als PNA-Projektion. Die horizontale Achse unterscheidet Mensch, also Beziehung, Motivation, Zusammenarbeit und soziale Dynamik, von Aufgabe, also Ziel, Ergebnis, Prozess und Problemlösung. Die vertikale Achse unterscheidet Flexibilität, also Offenheit, Anpassung und Bewegung, von Struktur, also Planung, Verlässlichkeit und Qualitätssicherung. Aus der Kombination entstehen vier Rollenbeiträge, die Teamarbeit, Rollenklärung, Führung, Projektarbeit und Zusammenarbeit verständlicher machen.",
+  "answer": "Das Modell beantwortet, welchen Beitrag eine Person in Teams und Organisationen bevorzugt leistet: eher über Menschen, Beziehung und Zusammenarbeit oder über Aufgaben, Ziele und Sachlogik; eher flexibel, öffnend und beweglich oder eher strukturiert, sichernd und verlässlich. Es beschreibt Rollenorientierungen, keine festen Persönlichkeitstypen.",
+  "axis": {
+    "X": {
+      "label": "Orientierungsachse",
+      "name": "Orientierung",
+      "aka": "Role",
+      "range": "Mensch vs. Aufgabe",
+      "span": "menschennah vs. aufgabenbezogen",
+      "key": "AX_MENSCH_VS_AUFGABE",
+      "keyquest": "Wie ordne ich mich ein?",
+      "quest": "Orientierst du dich eher menschennah oder aufgabenbezogen?",
+      "fact": "Mensch versus Aufgabe.",
+      "desc": "Diese Achse beschreibt, ob ein Rollenbeitrag im Arbeitskontext stärker über Menschen, Beziehung und soziale Dynamik oder über Aufgaben, Ziele und sachliche Problemlösung entsteht.",
+      "info": "Menschennähe unterstützt Zusammenarbeit, Motivation und Beziehungsklärung. Aufgabenbezug unterstützt Zielorientierung, Problemlösung und Ergebnisfokus. Beide Pole sind funktional; Risiken entstehen vor allem durch einseitige Überbetonung.",
+      "tags": "Rollen, Teamarbeit, Mensch, Aufgabe, Zusammenarbeit",
+      "science": "Organisationspsychologie, Teamrollenforschung"
+    },
+    "Y": {
+      "label": "Arbeitsstilachse",
+      "name": "Arbeitsstil",
+      "aka": "Impact",
+      "range": "Flexibilität vs. Struktur",
+      "span": "flexibel vs. strukturiert",
+      "key": "AX_FLEXIBILITAET_VS_STRUKTUR",
+      "keyquest": "Wie handle ich?",
+      "quest": "Orientierst du dich eher flexibel oder strukturiert?",
+      "fact": "Flexibilität versus Struktur.",
+      "desc": "Diese Achse beschreibt, ob ein Rollenbeitrag eher über Offenheit, Anpassung und Bewegung oder über Planung, Ordnung und Verlässlichkeit wirksam wird.",
+      "info": "Flexibilität unterstützt Innovation, Reaktion auf Veränderungen und neue Möglichkeiten. Struktur unterstützt Qualität, Verbindlichkeit und Umsetzungssicherheit. Die Achse beschreibt eine Rollenpräferenz, keine allgemeine Leistungsfähigkeit.",
+      "tags": "Rollen, Arbeitsstil, Flexibilität, Struktur, Wirkung",
+      "science": "Organisationspsychologie, Arbeitspsychologie"
+    }
+  },
+  "orientation": {
+    "W": {
+      "label": "Mensch",
+      "style": "menschennah"
+    },
+    "E": {
+      "label": "Aufgabe",
+      "style": "aufgabenbezogen"
+    },
+    "N": {
+      "label": "Flexibilität",
+      "style": "flexibel"
+    },
+    "S": {
+      "label": "Struktur",
+      "style": "strukturiert"
+    }
+  },
+  "quadrants": {
+    "Q1": {
+      "xy": "WN",
+      "style": "innovativ",
+      "desc": "Menschennah und flexibel; erkennt neue Möglichkeiten in der Zusammenarbeit, verbindet Perspektiven und öffnet Teams für kreative Impulse.",
+      "strength": "Kreativ, vernetzend, initiativ",
+      "deficit": "Kann in bestimmten Situationen Offenheit, Wechsel und neue Impulse stärker betonen als Verbindlichkeit oder Abschluss.",
+      "aka": "Innovator",
+      "short": "Der Pionier",
+      "role": "Pionier"
+    },
+    "Q2": {
+      "xy": "EN",
+      "style": "aktivierend",
+      "desc": "Aufgabenbezogen und flexibel; bringt Vorhaben in Bewegung, aktiviert Fortschritt und passt Wege pragmatisch an neue Anforderungen an.",
+      "strength": "Zielorientiert, beweglich, aktivierend",
+      "deficit": "Kann in bestimmten Situationen Tempo und Aktivierung stärker gewichten als Konsistenz, Nachhalten oder ruhige Abstimmung.",
+      "aka": "Catalyst",
+      "short": "Der Aktivator",
+      "role": "Aktivator"
+    },
+    "Q3": {
+      "xy": "ES",
+      "style": "umsetzend",
+      "desc": "Aufgabenbezogen und strukturiert; schafft Ordnung, sichert Qualität und bringt Vorhaben zuverlässig in die Umsetzung.",
+      "strength": "Präzise, effizient, verlässlich",
+      "deficit": "Kann in bestimmten Situationen Standards, Kontrolle oder Perfektion so stark gewichten, dass Anpassung und Beteiligung leiden.",
+      "aka": "Implementer",
+      "short": "Der Umsetzer",
+      "role": "Umsetzer"
+    },
+    "Q4": {
+      "xy": "WS",
+      "style": "koordinierend",
+      "desc": "Menschennah und strukturiert; sorgt für Abstimmung, integriert unterschiedliche Perspektiven und schafft tragfähige Zusammenarbeit.",
+      "strength": "Verbindlich, integrierend, stabilisierend",
+      "deficit": "Kann in bestimmten Situationen Harmonie, Rücksichtnahme oder Konsens so stark gewichten, dass klare Konfliktklärung zu spät erfolgt.",
+      "aka": "Coordinator",
+      "short": "Der Koordinator",
+      "role": "Koordinator"
+    }
+  },
+  "badge": "ROLE",
+  "brand": "RoleLab",
+  "canon_status": "freezed",
+  "freezed_at": "2026-07-02T11:58:10Z",
+  "source_candidate": "/var/www/openclaw/candidate/roles/roles_rebuild.json"
+}

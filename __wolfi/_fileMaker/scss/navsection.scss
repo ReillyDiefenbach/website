@@ -46,6 +46,11 @@ section.content.navSection,
     overflow-y: auto;
 }
 
+.navSection > aside .navSection__steps,
+.navSection > aside .navSection__step {
+    display: none;
+}
+
 .navSection > main {
     grid-column: 2;
     min-width: 0;

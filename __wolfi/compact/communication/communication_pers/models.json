@@ -1,0 +1,107 @@
+{
+  "name": "Communication Personal",
+  "family": "Communication",
+  "title": "Connect & Influence",
+  "short": "communication_pers",
+  "typ": "pers",
+  "key": "Beschreibt, wie Menschen private soziale Situationen gestalten, Nähe regulieren und Vertrauen herstellen - zwischen Resonanz und Ordnung sowie zwischen aktiver Annäherung und prüfender Zurückhaltung.",
+  "desc": "Das Communication Personal Modell beschreibt persönliche Interaktionsmuster als PNA-Projektion. Die horizontale Achse unterscheidet Resonanz, also emotionale und soziale Anschlussfähigkeit, von Ordnung, also Struktur, Grenzen und sozialer Berechenbarkeit. Die vertikale Achse unterscheidet Annäherung, also aktive Kontaktbewegung und sichtbare Beziehungsgestaltung, von Zurückhaltung, also vorsichtiger, prüfender und distanzregulierender Interaktion. Das Modell dient der Reflexion von Kontaktaufnahme, Nähe, Konfliktverhalten, Vertrauen und sozialer Sicherheit.",
+  "answer": "Das Modell beantwortet, wie eine Person in sozialen Situationen Verbindung herstellt, Nähe dosiert und Beziehungssicherheit reguliert: eher über Resonanz und emotionale Anschlussfähigkeit oder über Ordnung, Grenzen und Berechenbarkeit; eher annähernd und aktiv oder eher zurückhaltend und prüfend. Es zeigt typische Stärken, Bedürfnisse und Missverständnisse im zwischenmenschlichen Verhalten, ohne daraus starre Persönlichkeitstypen abzuleiten.",
+  "axis": {
+    "X": {
+      "label": "Sozialachse",
+      "name": "Soziales",
+      "aka": "Connect",
+      "range": "Resonanz vs. Ordnung",
+      "span": "resonant vs. ordnend",
+      "key": "AX_RESONANZ_VS_ORDNUNG",
+      "keyquest": "Wie verbinde ich mich mit anderen?",
+      "quest": "Orientierst du dich eher resonant oder ordnend?",
+      "fact": "Resonanz versus Ordnung.",
+      "desc": "Diese Achse beschreibt, ob persönliche Interaktion primär über emotionale Anschlussfähigkeit und Beziehungssinn oder über Struktur, Grenzen und soziale Berechenbarkeit organisiert wird.",
+      "info": "Resonanz unterstützt Nähe, Vertrauen und Kontakt. Ordnung unterstützt Klarheit, Grenzen und Verlässlichkeit. Beide Pole sind funktional; Risiken entstehen vor allem durch einseitige Überbetonung.",
+      "tags": "Interaktion, Resonanz, Ordnung, Beziehung, Grenzen",
+      "science": "Beziehungspsychologie, Sozialpsychologie"
+    },
+    "Y": {
+      "label": "Ausdrucksachse",
+      "name": "Ausdruck",
+      "aka": "Influence",
+      "range": "Annäherung vs. Zurückhaltung",
+      "span": "annähernd vs. zurückhaltend",
+      "key": "AX_ANNAEHERUNG_VS_ZURUECKHALTUNG",
+      "keyquest": "Wie verbinde ich mich mit anderen?",
+      "quest": "Orientierst du dich eher annähernd oder zurückhaltend?",
+      "fact": "Annäherung versus Zurückhaltung.",
+      "desc": "Diese Achse beschreibt, ob soziale Interaktion eher durch aktive Kontaktbewegung und sichtbare Beziehungsgestaltung oder durch vorsichtige, prüfende Zurückhaltung geprägt ist.",
+      "info": "Annäherung erleichtert Kontakt, Austausch und soziale Initiative. Zurückhaltung erleichtert Beobachtung, Schutz und Abwägung. Die Achse beschreibt eine Interaktionspräferenz, keine allgemeine soziale Kompetenz.",
+      "tags": "Interaktion, Annäherung, Zurückhaltung, Nähe, Distanz",
+      "science": "Beziehungspsychologie, Sozialpsychologie"
+    }
+  },
+  "orientation": {
+    "W": {
+      "label": "Resonanz",
+      "style": "resonant"
+    },
+    "E": {
+      "label": "Ordnung",
+      "style": "ordnend"
+    },
+    "N": {
+      "label": "Annäherung",
+      "style": "annähernd"
+    },
+    "S": {
+      "label": "Zurückhaltung",
+      "style": "zurückhaltend"
+    }
+  },
+  "quadrants": {
+    "Q1": {
+      "xy": "WN",
+      "style": "verbindend",
+      "desc": "Resonant und annähernd; sucht lebendigen Austausch, öffnet soziale Situationen und stellt schnell emotionale Verbindung her.",
+      "strength": "Offen, warm, kontaktstiftend",
+      "deficit": "Kann in bestimmten Situationen Nähe, Lebendigkeit oder Wirkung überbetonen und Grenzen oder Tempo anderer zu wenig beachten.",
+      "aka": "Connector",
+      "short": "Der Kontaktgeber",
+      "role": "Verbinder"
+    },
+    "Q2": {
+      "xy": "EN",
+      "style": "gestaltend",
+      "desc": "Ordnend und annähernd; übernimmt aktiv soziale Führung, setzt Grenzen, gibt Richtung und schafft Orientierung in Interaktionen.",
+      "strength": "Klar, selbstsicher, orientierend",
+      "deficit": "Kann in bestimmten Situationen Richtung, Kontrolle oder Grenzsetzung überbetonen und Resonanzbedarf zu wenig einbeziehen.",
+      "aka": "Shaper",
+      "short": "Der Gestalter",
+      "role": "Gestalter"
+    },
+    "Q3": {
+      "xy": "ES",
+      "style": "bewahrend",
+      "desc": "Ordnend und zurückhaltend; sucht soziale Sicherheit, prüft Vertrauen, achtet auf Berechenbarkeit und klare Grenzen.",
+      "strength": "Besonnen, verlässlich, reflektiert",
+      "deficit": "Kann in bestimmten Situationen Absicherung, Distanz oder Kontrolle so stark betonen, dass neue soziale Möglichkeiten zu wenig geprüft werden.",
+      "aka": "Guardian",
+      "short": "Der Absicherer",
+      "role": "Bewahrer"
+    },
+    "Q4": {
+      "xy": "WS",
+      "style": "zugewandt",
+      "desc": "Resonant und zurückhaltend; hört aufmerksam zu, schafft Vertrauen, nimmt emotionale Signale auf und stabilisiert Beziehungen ohne starke Selbstdarstellung.",
+      "strength": "Empathisch, vertrauensbildend, ausgleichend",
+      "deficit": "Kann in bestimmten Situationen Zustimmung und Harmonie zu stark gewichten und eigene Positionen oder Grenzen zu wenig markieren.",
+      "aka": "Companion",
+      "short": "Der Zugewandte",
+      "role": "Zugewandter"
+    }
+  },
+  "badge": "COMM",
+  "brand": "ConnectFlow",
+  "canon_status": "freezed",
+  "freezed_at": "2026-07-01T18:11:40Z",
+  "source_candidate": "/var/www/openclaw/candidate/communication/communication_rebuild.json"
+}

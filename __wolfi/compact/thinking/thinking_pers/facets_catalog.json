@@ -1,0 +1,1224 @@
+{
+  "schema": "pna.test_facets.v2",
+  "model_id": "thinking_pers",
+  "model_name": "Thinking Personal",
+  "generated_at": "2026-06-25T09:19:35Z",
+  "scope": "test_context_only",
+  "facet_rule": "4_to_7_facets_per_quadrant_distinct_question_basis",
+  "items": [
+    {
+      "id": "Q1_1",
+      "name": "Alltagsmoeglichkeit",
+      "meaning": "Neue Möglichkeiten sehen",
+      "quadrant": "Q1",
+      "type": "facet",
+      "short_description": "Erkennt im Alltag neue Moeglichkeiten und Entwicklungswege.",
+      "model_rationale": "Alltagsmoeglichkeit beschreibt das Wahrnehmen neuer Entwicklungswege im persoenlichen Alltag. Die Fragebasis zeigt offene Wahrnehmung plus fruehen inneren Start, ohne Business-Opportunity-Sprache.",
+      "question_basis": [
+        "1_1",
+        "5_1",
+        "13_1",
+        "21_1"
+      ],
+      "expected_micro_evidence": [
+        "T_G_4p",
+        "T_G_1p",
+        "T_I_2p",
+        "T_E_15p",
+        "T_H_4p",
+        "T_Q_6p",
+        "T_L_2p",
+        "V_F_2p"
+      ],
+      "derivation_basis": "questions_answers_quicks",
+      "quadrant_xy": "WN",
+      "revision_note": "Revised after Gate-A Round-2 examiner: positive micro-evidence diversified and rationale made facet-specific."
+    },
+    {
+      "id": "Q1_2",
+      "name": "Erfahrungsimpuls",
+      "meaning": "Erfahrungen sammeln",
+      "quadrant": "Q1",
+      "type": "facet",
+      "short_description": "Folgt neuen Impulsen frueh und sammelt Erfahrung.",
+      "model_rationale": "Erfahrungsimpuls misst die Bereitschaft, Neues durch eigenes Ausprobieren zu erschliessen. Der Schwerpunkt liegt auf Erfahrungssammlung, nicht auf abstrakter Ideenbildung.",
+      "question_basis": [
+        "1_2",
+        "5_2",
+        "14_2",
+        "18_2"
+      ],
+      "expected_micro_evidence": [
+        "T_G_5p",
+        "T_H_4p",
+        "T_H_8p",
+        "T_D_7p",
+        "T_I_5p",
+        "D_E_3p",
+        "P_A_2_8p",
+        "T_Q_6p"
+      ],
+      "derivation_basis": "questions_answers_quicks",
+      "quadrant_xy": "WN",
+      "revision_note": "Revised after Gate-A Round-2 examiner: positive micro-evidence diversified and rationale made facet-specific."
+    },
+    {
+      "id": "Q1_3",
+      "name": "Innere Ideenbildung",
+      "meaning": "Eigene Ideen entwickeln",
+      "quadrant": "Q1",
+      "type": "facet",
+      "short_description": "Entwickelt aus Eindruecken persoenliche Ideen und Varianten.",
+      "model_rationale": "Innere Ideenbildung erfasst, wie Eindruecke zu persoenlichen Varianten und Deutungen werden. Die Facet ist innenorientierter als Perspektivwechsel oder Selbstbewegung.",
+      "question_basis": [
+        "2_1",
+        "12_1",
+        "17_1",
+        "22_1"
+      ],
+      "expected_micro_evidence": [
+        "T_I_6p",
+        "T_G_2p",
+        "T_G_3p",
+        "T_I_4p",
+        "T_E_4p",
+        "T_L_1p",
+        "T_E_15p",
+        "T_Q_8p"
+      ],
+      "derivation_basis": "questions_answers_quicks",
+      "quadrant_xy": "WN",
+      "revision_note": "Revised after Gate-A Round-2 examiner: positive micro-evidence diversified and rationale made facet-specific."
+    },
+    {
+      "id": "Q1_4",
+      "name": "Perspektivwechsel",
+      "meaning": "Die Sichtweise wechseln",
+      "quadrant": "Q1",
+      "type": "facet",
+      "short_description": "Oeffnet neue Sichtweisen, wenn Alltag oder Entscheidung feststecken.",
+      "model_rationale": "Perspektivwechsel beschreibt das bewusste Einnehmen anderer Sichtweisen im eigenen Leben. Die Evidenz betont Deutungswechsel statt Startimpuls.",
+      "question_basis": [
+        "3_1",
+        "9_1",
+        "10_1",
+        "13_1"
+      ],
+      "expected_micro_evidence": [
+        "T_Q_1p",
+        "T_E_15p",
+        "T_E_4p",
+        "T_Q_8p",
+        "T_E_3p",
+        "T_L_1p",
+        "K_F_3p",
+        "T_I_3p"
+      ],
+      "derivation_basis": "questions_answers_quicks",
+      "quadrant_xy": "WN",
+      "revision_note": "Revised after Gate-A Round-2 examiner: positive micro-evidence diversified and rationale made facet-specific."
+    },
+    {
+      "id": "Q1_5",
+      "name": "Explorative Selbstbewegung",
+      "meaning": "Erste Schritte wagen",
+      "quadrant": "Q1",
+      "type": "facet",
+      "short_description": "Bringt private Themen durch fruehe Schritte in Bewegung.",
+      "model_rationale": "Explorative Selbstbewegung misst, ob persoenliche Veraenderung aktiv begonnen wird. Sie ist handlungsnaeher als Alltagsmoeglichkeit.",
+      "question_basis": [
+        "6_2",
+        "10_2",
+        "12_2",
+        "24_2"
+      ],
+      "expected_micro_evidence": [
+        "V_F_2p",
+        "T_H_8p",
+        "T_D_7p",
+        "T_I_5p",
+        "D_E_3p",
+        "P_A_2_8p",
+        "T_E_15p",
+        "X_A_5p"
+      ],
+      "derivation_basis": "questions_answers_quicks",
+      "quadrant_xy": "WN",
+      "revision_note": "Revised after Gate-A Round-2 examiner: positive micro-evidence diversified and rationale made facet-specific."
+    },
+    {
+      "id": "Q1_6",
+      "name": "Flexible Neuorientierung",
+      "meaning": "Neue Wege finden",
+      "quadrant": "Q1",
+      "type": "facet",
+      "short_description": "Findet neue Wege, wenn alte Loesungen nicht mehr passen.",
+      "model_rationale": "Flexible Neuorientierung beschreibt das Loslassen alter Deutungen zugunsten neuer Wege. Der Schwerpunkt liegt auf Anpassungsfaehigkeit im Selbstbezug.",
+      "question_basis": [
+        "5_1",
+        "18_1",
+        "21_1",
+        "20_1"
+      ],
+      "expected_micro_evidence": [
+        "X_A_5p",
+        "T_G_1p",
+        "T_G_3p",
+        "T_I_2p",
+        "T_I_4p",
+        "T_E_15p",
+        "T_H_4p",
+        "T_L_2p"
+      ],
+      "derivation_basis": "questions_answers_quicks",
+      "quadrant_xy": "WN",
+      "revision_note": "Revised after Gate-A Round-2 examiner: positive micro-evidence diversified and rationale made facet-specific."
+    },
+    {
+      "id": "Q2_1",
+      "name": "Konkrete Formgebung",
+      "meaning": "Vorhaben greifbar machen",
+      "quadrant": "Q2",
+      "type": "facet",
+      "short_description": "Bringt persoenliche Vorhaben schnell in eine machbare Form.",
+      "model_rationale": "Konkrete Formgebung erfasst, wie persoenliche Vorhaben in klare Formen gebracht werden. Es geht um alltagsnahe Struktur, nicht um Business-Koordination.",
+      "question_basis": [
+        "1_3",
+        "2_3",
+        "9_3",
+        "17_3"
+      ],
+      "expected_micro_evidence": [
+        "T_D_1p",
+        "T_D_4p",
+        "T_F_2p",
+        "T_J_1p",
+        "T_E_14p",
+        "T_Q_9p",
+        "P_B_1_10p",
+        "T_H_5p"
+      ],
+      "derivation_basis": "questions_answers_quicks",
+      "quadrant_xy": "EN",
+      "revision_note": "Revised after Gate-A Round-2 examiner: positive micro-evidence diversified and rationale made facet-specific."
+    },
+    {
+      "id": "Q2_2",
+      "name": "Praktischer Start",
+      "meaning": "Praktisch anfangen",
+      "quadrant": "Q2",
+      "type": "facet",
+      "short_description": "Beginnt mit ersten Schritten statt im Kopf zu bleiben.",
+      "model_rationale": "Praktischer Start misst das Beginnen mit machbaren Schritten im eigenen Leben. Die Facet ist startorientiert und weniger ordnungsnah als Q2_1.",
+      "question_basis": [
+        "2_2",
+        "6_2",
+        "10_2",
+        "17_2"
+      ],
+      "expected_micro_evidence": [
+        "T_J_5p",
+        "T_H_4p",
+        "T_H_8p",
+        "T_D_7p",
+        "T_I_5p",
+        "D_E_3p",
+        "P_A_2_8p",
+        "T_D_4p"
+      ],
+      "derivation_basis": "questions_answers_quicks",
+      "quadrant_xy": "EN",
+      "revision_note": "Revised after Gate-A Round-2 examiner: positive micro-evidence diversified and rationale made facet-specific."
+    },
+    {
+      "id": "Q2_3",
+      "name": "Alltagsklaerung",
+      "meaning": "Alltag klären",
+      "quadrant": "Q2",
+      "type": "facet",
+      "short_description": "Macht unuebersichtliche Alltagsthemen klarer und handhabbar.",
+      "model_rationale": "Alltagsklaerung beschreibt das Herstellen von persoenlicher Klarheit in Situationen. Sie ist klaerender als Q2_2 und weniger sozial als Q2_4.",
+      "question_basis": [
+        "3_3",
+        "7_3",
+        "11_3",
+        "15_3"
+      ],
+      "expected_micro_evidence": [
+        "T_H_5p",
+        "T_D_4p",
+        "T_F_2p",
+        "T_J_1p",
+        "T_E_14p",
+        "T_Q_9p",
+        "T_J_3p",
+        "T_Q_6p"
+      ],
+      "derivation_basis": "questions_answers_quicks",
+      "quadrant_xy": "EN",
+      "revision_note": "Revised after Gate-A Round-2 examiner: positive micro-evidence diversified and rationale made facet-specific."
+    },
+    {
+      "id": "Q2_4",
+      "name": "Absprachengestaltung",
+      "meaning": "Klare Absprachen treffen",
+      "quadrant": "Q2",
+      "type": "facet",
+      "short_description": "Formt Entscheidungen mit anderen in klare Absprachen.",
+      "model_rationale": "Absprachengestaltung erfasst konkrete Abstimmung im privaten Umfeld. Die Facet ist beziehungs- und vereinbarungsnaeher als reine Selbststeuerung.",
+      "question_basis": [
+        "8_3",
+        "14_2",
+        "14_3",
+        "23_3"
+      ],
+      "expected_micro_evidence": [
+        "T_F_2p",
+        "T_D_4p",
+        "T_J_1p",
+        "T_E_14p",
+        "T_Q_9p",
+        "T_H_4p",
+        "T_H_8p",
+        "T_N_4p"
+      ],
+      "derivation_basis": "questions_answers_quicks",
+      "quadrant_xy": "EN",
+      "revision_note": "Revised after Gate-A Round-2 examiner: positive micro-evidence diversified and rationale made facet-specific."
+    },
+    {
+      "id": "Q2_5",
+      "name": "Umsetzbare Selbststeuerung",
+      "meaning": "Sich selbst steuern",
+      "quadrant": "Q2",
+      "type": "facet",
+      "short_description": "Uebersetzt Ziele und Feedback in konkrete Selbststeuerung.",
+      "model_rationale": "Umsetzbare Selbststeuerung beschreibt eigene Taktung, Start und Dranbleiben. Der Fokus liegt auf Selbstfuehrung statt externer Koordination.",
+      "question_basis": [
+        "9_2",
+        "9_3",
+        "23_2",
+        "24_2"
+      ],
+      "expected_micro_evidence": [
+        "D_E_2p",
+        "T_H_4p",
+        "T_H_8p",
+        "T_D_7p",
+        "T_I_5p",
+        "D_E_3p",
+        "T_J_1p",
+        "T_H_9p"
+      ],
+      "derivation_basis": "questions_answers_quicks",
+      "quadrant_xy": "EN",
+      "revision_note": "Revised after Gate-A Round-2 examiner: positive micro-evidence diversified and rationale made facet-specific."
+    },
+    {
+      "id": "Q2_6",
+      "name": "Situative Handlungskraft",
+      "meaning": "Handlungsfähig bleiben",
+      "quadrant": "Q2",
+      "type": "facet",
+      "short_description": "Handelt flexibel, wenn eine Situation fruehe Bewegung verlangt.",
+      "model_rationale": "Situative Handlungskraft misst unmittelbare Handlungsfaehigkeit in persoenlichen Lagen. Sie ist dynamischer und weniger planorientiert als Q2_1.",
+      "question_basis": [
+        "13_2",
+        "16_2",
+        "21_2",
+        "22_2"
+      ],
+      "expected_micro_evidence": [
+        "V_A_3p",
+        "T_H_4p",
+        "T_H_8p",
+        "T_D_7p",
+        "T_I_5p",
+        "D_E_3p",
+        "T_D_4p",
+        "T_R_5p"
+      ],
+      "derivation_basis": "questions_answers_quicks",
+      "quadrant_xy": "EN",
+      "revision_note": "Revised after Gate-A Round-2 examiner: positive micro-evidence diversified and rationale made facet-specific."
+    },
+    {
+      "id": "Q3_1",
+      "name": "Alltagsordnung",
+      "meaning": "Alltag ordnen",
+      "quadrant": "Q3",
+      "type": "facet",
+      "short_description": "Schafft Ordnung, Routinen und verlaessliche Orientierung.",
+      "model_rationale": "Alltagsordnung erfasst stabile Ordnung in wiederkehrenden persoenlichen Ablaeufen. Der Akzent liegt auf Routineklarheit.",
+      "question_basis": [
+        "3_3",
+        "7_3",
+        "11_3",
+        "4_4",
+        "20_3"
+      ],
+      "expected_micro_evidence": [
+        "T_O_4p",
+        "T_J_1p",
+        "T_J_3p",
+        "T_J_4p",
+        "T_O_6p",
+        "T_M_2p",
+        "T_Q_9p",
+        "T_J_6p"
+      ],
+      "derivation_basis": "questions_answers_quicks",
+      "quadrant_xy": "ES",
+      "revision_note": "Revised after Gate-A Round-2 examiner: positive micro-evidence diversified and rationale made facet-specific."
+    },
+    {
+      "id": "Q3_2",
+      "name": "Verlaessliche Planung",
+      "meaning": "Verlässlich planen",
+      "quadrant": "Q3",
+      "type": "facet",
+      "short_description": "Plant Zeit, Aufgaben und private Projekte nachvollziehbar.",
+      "model_rationale": "Verlaessliche Planung beschreibt planbares Vorgehen in privaten Vorhaben. Sie ist zeit- und vorausblickender als Alltagsordnung.",
+      "question_basis": [
+        "2_3",
+        "16_3",
+        "17_3",
+        "10_4",
+        "19_3"
+      ],
+      "expected_micro_evidence": [
+        "T_O_7p",
+        "T_J_1p",
+        "T_J_3p",
+        "T_O_6p",
+        "T_M_2p",
+        "T_Q_9p",
+        "T_J_6p",
+        "T_M_4p"
+      ],
+      "derivation_basis": "questions_answers_quicks",
+      "quadrant_xy": "ES",
+      "revision_note": "Revised after Gate-A Round-2 examiner: positive micro-evidence diversified and rationale made facet-specific."
+    },
+    {
+      "id": "Q3_3",
+      "name": "Stabile Routinen",
+      "meaning": "Routinen halten",
+      "quadrant": "Q3",
+      "type": "facet",
+      "short_description": "Haelt Formen ein, die Stabilitaet und Selbstverlaesslichkeit erzeugen.",
+      "model_rationale": "Stabile Routinen misst tragende Gewohnheiten und wiederholbare Muster. Die Facet ist routinenaher als Planung oder Ergebnissicherung.",
+      "question_basis": [
+        "11_3",
+        "19_3",
+        "20_3",
+        "15_4",
+        "23_3"
+      ],
+      "expected_micro_evidence": [
+        "T_M_7p",
+        "T_J_6p",
+        "T_O_1p",
+        "T_O_2p",
+        "T_O_5p",
+        "T_M_8p",
+        "T_M_3p",
+        "T_B_5p"
+      ],
+      "derivation_basis": "questions_answers_quicks",
+      "quadrant_xy": "ES",
+      "revision_note": "Revised after Gate-A Round-2 examiner: positive micro-evidence diversified and rationale made facet-specific."
+    },
+    {
+      "id": "Q3_4",
+      "name": "Pflichtenklarheit",
+      "meaning": "Pflichten klären",
+      "quadrant": "Q3",
+      "type": "facet",
+      "short_description": "Bringt Klarheit in Verpflichtungen, Aufgaben und Grenzen.",
+      "model_rationale": "Pflichtenklarheit beschreibt klares Erkennen und Einhalten eigener Verpflichtungen. Sie ist norm- und verantwortungsnaeher als Q3_1.",
+      "question_basis": [
+        "7_3",
+        "15_3",
+        "16_3",
+        "19_4",
+        "23_3"
+      ],
+      "expected_micro_evidence": [
+        "T_Q_10p",
+        "T_D_4p",
+        "T_F_2p",
+        "T_J_1p",
+        "T_E_14p",
+        "T_Q_9p",
+        "P_B_1_10p",
+        "T_M_8p"
+      ],
+      "derivation_basis": "questions_answers_quicks",
+      "quadrant_xy": "ES",
+      "revision_note": "Revised after Gate-A Round-2 examiner: positive micro-evidence diversified and rationale made facet-specific."
+    },
+    {
+      "id": "Q3_5",
+      "name": "Schrittweise Problemloesung",
+      "meaning": "Probleme Schritt für Schritt lösen",
+      "quadrant": "Q3",
+      "type": "facet",
+      "short_description": "Zerlegt persoenliche Probleme in klare, bearbeitbare Schritte.",
+      "model_rationale": "Schrittweise Problemloesung erfasst geordnetes Vorgehen bei persoenlichen Schwierigkeiten. Die Facet ist loesungsorientierter als stabile Routine.",
+      "question_basis": [
+        "4_3",
+        "10_3",
+        "21_3",
+        "20_4",
+        "22_3"
+      ],
+      "expected_micro_evidence": [
+        "T_D_8p",
+        "T_J_1p",
+        "T_J_3p",
+        "T_J_4p",
+        "T_O_6p",
+        "T_M_2p",
+        "T_D_4p",
+        "T_E_5p"
+      ],
+      "derivation_basis": "questions_answers_quicks",
+      "quadrant_xy": "ES",
+      "revision_note": "Revised after Gate-A Round-2 examiner: positive micro-evidence diversified and rationale made facet-specific."
+    },
+    {
+      "id": "Q3_6",
+      "name": "Ergebnissicherung",
+      "meaning": "Ergebnisse festhalten",
+      "quadrant": "Q3",
+      "type": "facet",
+      "short_description": "Haelt Ergebnisse und praktische Konsequenzen fest.",
+      "model_rationale": "Ergebnissicherung misst, ob Ergebnisse im Alltag festgehalten und verlaesslich gemacht werden. Sie ist abschlussspezifischer als Planung.",
+      "question_basis": [
+        "17_3",
+        "21_3",
+        "24_3",
+        "24_4",
+        "19_3"
+      ],
+      "expected_micro_evidence": [
+        "T_J_2p",
+        "T_J_6p",
+        "T_O_1p",
+        "T_O_5p",
+        "T_M_8p",
+        "T_M_3p",
+        "T_J_1p",
+        "T_B_5p"
+      ],
+      "derivation_basis": "questions_answers_quicks",
+      "quadrant_xy": "ES",
+      "revision_note": "Revised after Gate-A Round-2 examiner: positive micro-evidence diversified and rationale made facet-specific."
+    },
+    {
+      "id": "Q4_1",
+      "name": "Entscheidungsreflexion",
+      "meaning": "Entscheidungen überdenken",
+      "quadrant": "Q4",
+      "type": "facet",
+      "short_description": "Prueft persoenliche Entscheidungen, Folgen und Stimmigkeit.",
+      "model_rationale": "Entscheidungsreflexion beschreibt persoenliches Pruefen vor Festlegung. Der Schwerpunkt liegt auf Selbstbezug und Folgen der eigenen Wahl.",
+      "question_basis": [
+        "4_4",
+        "5_4",
+        "9_4",
+        "1_1",
+        "16_4"
+      ],
+      "expected_micro_evidence": [
+        "T_E_10p",
+        "T_E_11p",
+        "T_L_1p",
+        "T_L_4p",
+        "T_E_13p",
+        "S_A_3p",
+        "V_D_2p",
+        "T_M_4p"
+      ],
+      "derivation_basis": "questions_answers_quicks",
+      "quadrant_xy": "WS",
+      "revision_note": "Revised after Gate-A Round-2 examiner: positive micro-evidence diversified and rationale made facet-specific."
+    },
+    {
+      "id": "Q4_2",
+      "name": "Bedeutungsverstehen",
+      "meaning": "Bedeutung verstehen",
+      "quadrant": "Q4",
+      "type": "facet",
+      "short_description": "Denkt ueber Motive, Bedeutung und innere Zusammenhaenge nach.",
+      "model_rationale": "Bedeutungsverstehen misst das Erfassen innerer und zwischenmenschlicher Bedeutung. Die Facet ist sinnorientierter als Q4_1.",
+      "question_basis": [
+        "8_4",
+        "12_4",
+        "15_4",
+        "5_1",
+        "22_4"
+      ],
+      "expected_micro_evidence": [
+        "T_E_16p",
+        "T_E_11p",
+        "T_L_1p",
+        "T_L_4p",
+        "T_E_13p",
+        "S_A_3p",
+        "V_D_2p",
+        "T_E_15p"
+      ],
+      "derivation_basis": "questions_answers_quicks",
+      "quadrant_xy": "WS",
+      "revision_note": "Revised after Gate-A Round-2 examiner: positive micro-evidence diversified and rationale made facet-specific."
+    },
+    {
+      "id": "Q4_3",
+      "name": "Selbstannahmenpruefung",
+      "meaning": "Eigene Annahmen prüfen",
+      "quadrant": "Q4",
+      "type": "facet",
+      "short_description": "Hinterfragt eigene Annahmen und Feedback differenziert.",
+      "model_rationale": "Selbstannahmenpruefung erfasst das Hinterfragen eigener Deutungen und Glaubenssaetze. Sie ist praemissenbezogener als allgemeine Reflexion.",
+      "question_basis": [
+        "15_4",
+        "23_4",
+        "24_4",
+        "9_1",
+        "13_4"
+      ],
+      "expected_micro_evidence": [
+        "T_L_5p",
+        "T_E_11p",
+        "T_L_1p",
+        "T_L_4p",
+        "T_E_13p",
+        "S_A_3p",
+        "V_D_2p",
+        "T_Q_8p"
+      ],
+      "derivation_basis": "questions_answers_quicks",
+      "quadrant_xy": "WS",
+      "revision_note": "Revised after Gate-A Round-2 examiner: positive micro-evidence diversified and rationale made facet-specific."
+    },
+    {
+      "id": "Q4_4",
+      "name": "Wertbezogene Passung",
+      "meaning": "Innere Passung prüfen",
+      "quadrant": "Q4",
+      "type": "facet",
+      "short_description": "Prueft, ob Ziele und Entscheidungen innerlich passen.",
+      "model_rationale": "Wertbezogene Passung beschreibt die Pruefung, ob Entscheidungen zu eigenen Werten passen. Die Facet ist wertnaeher als Folgen- oder Quellenpruefung.",
+      "question_basis": [
+        "9_4",
+        "16_4",
+        "20_4",
+        "13_1",
+        "22_4"
+      ],
+      "expected_micro_evidence": [
+        "T_L_6p",
+        "T_E_6p",
+        "T_E_10p",
+        "T_E_13p",
+        "T_M_4p",
+        "T_K_2p",
+        "T_Q_8p",
+        "T_E_11p"
+      ],
+      "derivation_basis": "questions_answers_quicks",
+      "quadrant_xy": "WS",
+      "revision_note": "Revised after Gate-A Round-2 examiner: positive micro-evidence diversified and rationale made facet-specific."
+    },
+    {
+      "id": "Q4_5",
+      "name": "Erfahrungsintegration",
+      "meaning": "Erfahrungen einordnen",
+      "quadrant": "Q4",
+      "type": "facet",
+      "short_description": "Ordnet Erfahrungen so ein, dass Lernen moeglich wird.",
+      "model_rationale": "Erfahrungsintegration misst Lernen aus persoenlicher Erfahrung. Der Fokus liegt auf Rueckblick und Integration.",
+      "question_basis": [
+        "18_4",
+        "20_4",
+        "24_4",
+        "18_1",
+        "6_4"
+      ],
+      "expected_micro_evidence": [
+        "T_Q_8p",
+        "T_E_11p",
+        "T_L_1p",
+        "T_L_4p",
+        "T_E_13p",
+        "S_A_3p",
+        "T_E_15p",
+        "T_L_2p"
+      ],
+      "derivation_basis": "questions_answers_quicks",
+      "quadrant_xy": "WS",
+      "revision_note": "Revised after Gate-A Round-2 examiner: positive micro-evidence diversified and rationale made facet-specific."
+    },
+    {
+      "id": "Q4_6",
+      "name": "Quellen- und Folgenpruefung",
+      "meaning": "Informationen und Folgen prüfen",
+      "quadrant": "Q4",
+      "type": "facet",
+      "short_description": "Prueft Informationen, Verzerrungen und moegliche Folgen.",
+      "model_rationale": "Quellen- und Folgenpruefung erfasst, woher Einschaetzungen kommen und wohin sie fuehren. Sie ist analytischer als Bedeutungsverstehen.",
+      "question_basis": [
+        "19_4",
+        "21_4",
+        "23_4",
+        "21_1",
+        "4_4"
+      ],
+      "expected_micro_evidence": [
+        "T_E_6p",
+        "T_L_1p",
+        "T_L_5p",
+        "T_E_3p",
+        "T_E_16p",
+        "T_Q_8p",
+        "T_L_2p",
+        "T_E_4p"
+      ],
+      "derivation_basis": "questions_answers_quicks",
+      "quadrant_xy": "WS",
+      "revision_note": "Revised after Gate-A Round-2 examiner: positive micro-evidence diversified and rationale made facet-specific."
+    },
+    {
+      "id": "DQ1_1",
+      "name": "Alltagsstrukturuntergewicht",
+      "meaning": "Zu wenig Alltagsstruktur",
+      "quadrant": "DQ1",
+      "type": "darkfacet",
+      "short_description": "Neue persoenliche Moeglichkeiten werden verfolgt, bevor Alltag, Verbindlichkeit und Anschluss geklaert sind.",
+      "model_rationale": "DQ1_1 ist aus der persoenlichen Fragebasis (1_1, 13_1, 1_3, 3_3, 11_3, 20_3) abgeleitet und beschreibt eine alltags- bzw. selbstbezogene Spannungslesart: Neue persoenliche Moeglichkeiten werden verfolgt, bevor Alltag, Verbindlichkeit und Anschluss geklaert sind. Gegenbalance: Q3.",
+      "question_basis": [
+        "1_1",
+        "13_1",
+        "1_3",
+        "3_3",
+        "11_3",
+        "20_3"
+      ],
+      "expected_micro_evidence": [
+        "T_D_8n",
+        "T_J_1n",
+        "T_O_3n",
+        "T_M_9n",
+        "T_B_5n",
+        "T_Q_9n"
+      ],
+      "risk_pattern": "Neue persoenliche Moeglichkeiten werden verfolgt, bevor Alltag, Verbindlichkeit und Anschluss geklaert sind.",
+      "related_facet_ids": [
+        "Q1_1",
+        "Q1_2"
+      ],
+      "counterbalance_quadrant": "Q3",
+      "derivation_basis": "questions_answers_quicks",
+      "revision_note": "Revised after Gate-A Round-2 examiner: darkfacet content checked for within-model and cross-model specificity."
+    },
+    {
+      "id": "DQ1_2",
+      "name": "Impulsgetriebene Selbstbewegung",
+      "meaning": "Von Impulsen treiben lassen",
+      "quadrant": "DQ1",
+      "type": "darkfacet",
+      "short_description": "Spontane persoenliche Impulse ueberlagern Selbstpruefung, Prioritaeten und Grenzen.",
+      "model_rationale": "DQ1_2 ist aus der persoenlichen Fragebasis (1_2, 5_2, 4_4, 5_4, 15_4, 23_4) abgeleitet und beschreibt eine alltags- bzw. selbstbezogene Spannungslesart: Spontane persoenliche Impulse ueberlagern Selbstpruefung, Prioritaeten und Grenzen. Gegenbalance: Q4.",
+      "question_basis": [
+        "1_2",
+        "5_2",
+        "4_4",
+        "5_4",
+        "15_4",
+        "23_4"
+      ],
+      "expected_micro_evidence": [
+        "T_M_1n",
+        "T_E_11n",
+        "T_L_4n",
+        "T_D_1n",
+        "T_H_8p",
+        "T_K_2n"
+      ],
+      "risk_pattern": "Spontane persoenliche Impulse ueberlagern Selbstpruefung, Prioritaeten und Grenzen.",
+      "related_facet_ids": [
+        "Q1_1",
+        "Q1_2"
+      ],
+      "counterbalance_quadrant": "Q4",
+      "derivation_basis": "questions_answers_quicks",
+      "revision_note": "Revised after Gate-A Round-2 examiner: darkfacet content checked for within-model and cross-model specificity."
+    },
+    {
+      "id": "DQ1_3",
+      "name": "Persoenliches Verzettelungsrisiko",
+      "meaning": "Sich verzetteln",
+      "quadrant": "DQ1",
+      "type": "darkfacet",
+      "short_description": "Viele private Optionen erschweren Fokus, Abschluss und verlässliche Selbststeuerung.",
+      "model_rationale": "DQ1_3 ist aus der persoenlichen Fragebasis (12_1, 21_1, 7_3, 16_3, 19_3, 24_3) abgeleitet und beschreibt eine alltags- bzw. selbstbezogene Spannungslesart: Viele private Optionen erschweren Fokus, Abschluss und verlässliche Selbststeuerung. Gegenbalance: Q3.",
+      "question_basis": [
+        "12_1",
+        "21_1",
+        "7_3",
+        "16_3",
+        "19_3",
+        "24_3"
+      ],
+      "expected_micro_evidence": [
+        "T_E_9n",
+        "T_J_4n",
+        "T_D_5n",
+        "T_M_2n",
+        "T_H_6n",
+        "T_O_6n"
+      ],
+      "risk_pattern": "Viele private Optionen erschweren Fokus, Abschluss und verlässliche Selbststeuerung.",
+      "related_facet_ids": [
+        "Q1_1",
+        "Q1_2"
+      ],
+      "counterbalance_quadrant": "Q3",
+      "derivation_basis": "questions_answers_quicks",
+      "revision_note": "Revised after Gate-A Round-2 examiner: darkfacet content checked for within-model and cross-model specificity."
+    },
+    {
+      "id": "DQ1_4",
+      "name": "Erlebnisreifeuebersprung",
+      "meaning": "Erlebnisse zu früh als stimmig sehen",
+      "quadrant": "DQ1",
+      "type": "darkfacet",
+      "short_description": "Eine neue Erfahrung wirkt bereits stimmig, bevor Bedeutung, Grenzen und Folgen ausreichend geprueft sind.",
+      "model_rationale": "DQ1_4 ist aus der persoenlichen Fragebasis (18_1, 20_1, 19_4, 21_4, 23_4, 24_4) abgeleitet und beschreibt eine alltags- bzw. selbstbezogene Spannungslesart: Eine neue Erfahrung wirkt bereits stimmig, bevor Bedeutung, Grenzen und Folgen ausreichend geprueft sind. Gegenbalance: Q4.",
+      "question_basis": [
+        "18_1",
+        "20_1",
+        "19_4",
+        "21_4",
+        "23_4",
+        "24_4"
+      ],
+      "expected_micro_evidence": [
+        "T_E_13n",
+        "T_L_1n",
+        "T_E_6n",
+        "T_M_1n",
+        "T_Q_8n",
+        "T_L_4n"
+      ],
+      "risk_pattern": "Eine neue Erfahrung wirkt bereits stimmig, bevor Bedeutung, Grenzen und Folgen ausreichend geprueft sind.",
+      "related_facet_ids": [
+        "Q1_1",
+        "Q1_2"
+      ],
+      "counterbalance_quadrant": "Q4",
+      "derivation_basis": "questions_answers_quicks",
+      "revision_note": "Revised after Gate-A Round-2 examiner: darkfacet content checked for within-model and cross-model specificity."
+    },
+    {
+      "id": "DQ2_1",
+      "name": "Vorschnelle Selbstfestlegung",
+      "meaning": "Sich zu schnell festlegen",
+      "quadrant": "DQ2",
+      "type": "darkfacet",
+      "short_description": "Persoenliche Klaerung schliesst innere Alternativen zu frueh.",
+      "model_rationale": "DQ2_1 ist aus der persoenlichen Fragebasis (1_3, 9_3, 3_1, 9_1, 13_1, 21_1) abgeleitet und beschreibt eine alltags- bzw. selbstbezogene Spannungslesart: Persoenliche Klaerung schliesst innere Alternativen zu frueh. Gegenbalance: Q1.",
+      "question_basis": [
+        "1_3",
+        "9_3",
+        "3_1",
+        "9_1",
+        "13_1",
+        "21_1"
+      ],
+      "expected_micro_evidence": [
+        "T_I_3n",
+        "T_I_6n",
+        "T_G_5n",
+        "T_E_15n",
+        "T_Q_1n",
+        "T_L_2n"
+      ],
+      "risk_pattern": "Persoenliche Klaerung schliesst innere Alternativen zu frueh.",
+      "related_facet_ids": [
+        "Q2_1",
+        "Q2_2"
+      ],
+      "counterbalance_quadrant": "Q1",
+      "derivation_basis": "questions_answers_quicks",
+      "revision_note": "Revised after Gate-A Round-2 examiner: darkfacet content checked for within-model and cross-model specificity."
+    },
+    {
+      "id": "DQ2_2",
+      "name": "Alltaegliche Tempoverengung",
+      "meaning": "Vom Alltagstempo verengt werden",
+      "quadrant": "DQ2",
+      "type": "darkfacet",
+      "short_description": "Handlungsdruck im Alltag reduziert Perspektiven- und Folgenpruefung.",
+      "model_rationale": "DQ2_2 ist aus der persoenlichen Fragebasis (2_2, 6_2, 4_4, 10_4, 16_4, 20_4) abgeleitet und beschreibt eine alltags- bzw. selbstbezogene Spannungslesart: Handlungsdruck im Alltag reduziert Perspektiven- und Folgenpruefung. Gegenbalance: Q4.",
+      "question_basis": [
+        "2_2",
+        "6_2",
+        "4_4",
+        "10_4",
+        "16_4",
+        "20_4"
+      ],
+      "expected_micro_evidence": [
+        "T_D_1p",
+        "T_H_8p",
+        "T_M_1n",
+        "T_E_10n",
+        "T_L_4n",
+        "T_K_2n"
+      ],
+      "risk_pattern": "Handlungsdruck im Alltag reduziert Perspektiven- und Folgenpruefung.",
+      "related_facet_ids": [
+        "Q2_1",
+        "Q2_2"
+      ],
+      "counterbalance_quadrant": "Q4",
+      "derivation_basis": "questions_answers_quicks",
+      "revision_note": "Revised after Gate-A Round-2 examiner: darkfacet content checked for within-model and cross-model specificity."
+    },
+    {
+      "id": "DQ2_3",
+      "name": "Private Machbarkeitsverkuerzung",
+      "meaning": "Nur auf Machbarkeit schauen",
+      "quadrant": "DQ2",
+      "type": "darkfacet",
+      "short_description": "Das Naheliegende wirkt ausreichend, obwohl persoenliche Bedeutung und Entwicklungstiefe fehlen.",
+      "model_rationale": "DQ2_3 ist aus der persoenlichen Fragebasis (2_3, 17_3, 1_1, 12_1, 18_1, 21_1) abgeleitet und beschreibt eine alltags- bzw. selbstbezogene Spannungslesart: Das Naheliegende wirkt ausreichend, obwohl persoenliche Bedeutung und Entwicklungstiefe fehlen. Gegenbalance: Q1.",
+      "question_basis": [
+        "2_3",
+        "17_3",
+        "1_1",
+        "12_1",
+        "18_1",
+        "21_1"
+      ],
+      "expected_micro_evidence": [
+        "T_E_14p",
+        "T_G_3n",
+        "T_E_4n",
+        "T_I_4n",
+        "T_E_15n",
+        "T_L_1n"
+      ],
+      "risk_pattern": "Das Naheliegende wirkt ausreichend, obwohl persoenliche Bedeutung und Entwicklungstiefe fehlen.",
+      "related_facet_ids": [
+        "Q2_1",
+        "Q2_2"
+      ],
+      "counterbalance_quadrant": "Q1",
+      "derivation_basis": "questions_answers_quicks",
+      "revision_note": "Revised after Gate-A Round-2 examiner: darkfacet content checked for within-model and cross-model specificity."
+    },
+    {
+      "id": "DQ2_4",
+      "name": "Klarheitsdruck im Selbstbezug",
+      "meaning": "Klarheit zu schnell erzwingen",
+      "quadrant": "DQ2",
+      "type": "darkfacet",
+      "short_description": "Der Wunsch nach eindeutiger Orientierung schliesst offene innere Fragen zu schnell.",
+      "model_rationale": "DQ2_4 ist aus der persoenlichen Fragebasis (14_3, 23_3, 8_4, 12_4, 15_4, 23_4) abgeleitet und beschreibt eine alltags- bzw. selbstbezogene Spannungslesart: Der Wunsch nach eindeutiger Orientierung schliesst offene innere Fragen zu schnell. Gegenbalance: Q4.",
+      "question_basis": [
+        "14_3",
+        "23_3",
+        "8_4",
+        "12_4",
+        "15_4",
+        "23_4"
+      ],
+      "expected_micro_evidence": [
+        "T_F_2p",
+        "T_D_1p",
+        "T_H_8p",
+        "T_M_1n",
+        "T_E_10n",
+        "T_L_2n"
+      ],
+      "risk_pattern": "Der Wunsch nach eindeutiger Orientierung schliesst offene innere Fragen zu schnell.",
+      "related_facet_ids": [
+        "Q2_1",
+        "Q2_2"
+      ],
+      "counterbalance_quadrant": "Q4",
+      "derivation_basis": "questions_answers_quicks",
+      "revision_note": "Revised after Gate-A Round-2 examiner: darkfacet content checked for within-model and cross-model specificity."
+    },
+    {
+      "id": "DQ3_1",
+      "name": "Routinedominanz",
+      "meaning": "In Routinen festhängen",
+      "quadrant": "DQ3",
+      "type": "darkfacet",
+      "short_description": "Gewohnte Ordnung laesst persoenliche Moeglichkeiten zu spaet zu.",
+      "model_rationale": "DQ3_1 ist aus der persoenlichen Fragebasis (11_3, 20_3, 1_1, 5_1, 13_1, 21_1) abgeleitet und beschreibt eine alltags- bzw. selbstbezogene Spannungslesart: Gewohnte Ordnung laesst persoenliche Moeglichkeiten zu spaet zu. Gegenbalance: Q1.",
+      "question_basis": [
+        "11_3",
+        "20_3",
+        "1_1",
+        "5_1",
+        "13_1",
+        "21_1"
+      ],
+      "expected_micro_evidence": [
+        "T_G_1n",
+        "T_G_2n",
+        "T_I_2n",
+        "T_I_4n",
+        "T_E_15n",
+        "T_O_7p"
+      ],
+      "risk_pattern": "Gewohnte Ordnung laesst persoenliche Moeglichkeiten zu spaet zu.",
+      "related_facet_ids": [
+        "Q3_1",
+        "Q3_2"
+      ],
+      "counterbalance_quadrant": "Q1",
+      "derivation_basis": "questions_answers_quicks",
+      "revision_note": "Revised after Gate-A Round-2 examiner: darkfacet content checked for within-model and cross-model specificity."
+    },
+    {
+      "id": "DQ3_2",
+      "name": "Startverzoegerung durch Absicherung",
+      "meaning": "Durch Absicherung zu spät starten",
+      "quadrant": "DQ3",
+      "type": "darkfacet",
+      "short_description": "Planung und Selbstabsicherung bremsen notwendige persoenliche Bewegung.",
+      "model_rationale": "DQ3_2 ist aus der persoenlichen Fragebasis (2_3, 16_3, 2_2, 10_2, 17_2, 24_2) abgeleitet und beschreibt eine alltags- bzw. selbstbezogene Spannungslesart: Planung und Selbstabsicherung bremsen notwendige persoenliche Bewegung. Gegenbalance: Q2.",
+      "question_basis": [
+        "2_3",
+        "16_3",
+        "2_2",
+        "10_2",
+        "17_2",
+        "24_2"
+      ],
+      "expected_micro_evidence": [
+        "T_J_5n",
+        "T_D_1n",
+        "T_H_4n",
+        "T_H_8n",
+        "D_E_3n",
+        "T_M_4p"
+      ],
+      "risk_pattern": "Planung und Selbstabsicherung bremsen notwendige persoenliche Bewegung.",
+      "related_facet_ids": [
+        "Q3_1",
+        "Q3_2"
+      ],
+      "counterbalance_quadrant": "Q2",
+      "derivation_basis": "questions_answers_quicks",
+      "revision_note": "Revised after Gate-A Round-2 examiner: darkfacet content checked for within-model and cross-model specificity."
+    },
+    {
+      "id": "DQ3_3",
+      "name": "Alltaegliche Anpassungstraegheit",
+      "meaning": "Sich zu träge anpassen",
+      "quadrant": "DQ3",
+      "type": "darkfacet",
+      "short_description": "Stabile Routinen erschweren situative Anpassung im eigenen Leben.",
+      "model_rationale": "DQ3_3 ist aus der persoenlichen Fragebasis (19_3, 23_3, 13_2, 16_2, 21_2, 22_2) abgeleitet und beschreibt eine alltags- bzw. selbstbezogene Spannungslesart: Stabile Routinen erschweren situative Anpassung im eigenen Leben. Gegenbalance: Q2.",
+      "question_basis": [
+        "19_3",
+        "23_3",
+        "13_2",
+        "16_2",
+        "21_2",
+        "22_2"
+      ],
+      "expected_micro_evidence": [
+        "T_R_5n",
+        "T_I_3n",
+        "T_I_6n",
+        "T_G_5n",
+        "T_E_15n",
+        "T_M_3p"
+      ],
+      "risk_pattern": "Stabile Routinen erschweren situative Anpassung im eigenen Leben.",
+      "related_facet_ids": [
+        "Q3_1",
+        "Q3_2"
+      ],
+      "counterbalance_quadrant": "Q2",
+      "derivation_basis": "questions_answers_quicks",
+      "revision_note": "Revised after Gate-A Round-2 examiner: darkfacet content checked for within-model and cross-model specificity."
+    },
+    {
+      "id": "DQ3_4",
+      "name": "Moeglichkeitsarmut im Alltag",
+      "meaning": "Zu wenig Neues zulassen",
+      "quadrant": "DQ3",
+      "type": "darkfacet",
+      "short_description": "Klarheits- und Pflichtfokus blendet ungewohnte persoenliche Optionen aus.",
+      "model_rationale": "DQ3_4 ist aus der persoenlichen Fragebasis (7_3, 15_3, 1_1, 9_1, 18_1, 21_1) abgeleitet und beschreibt eine alltags- bzw. selbstbezogene Spannungslesart: Klarheits- und Pflichtfokus blendet ungewohnte persoenliche Optionen aus. Gegenbalance: Q1.",
+      "question_basis": [
+        "7_3",
+        "15_3",
+        "1_1",
+        "9_1",
+        "18_1",
+        "21_1"
+      ],
+      "expected_micro_evidence": [
+        "V_F_1n",
+        "T_G_1n",
+        "T_G_2n",
+        "T_I_2n",
+        "T_I_4n",
+        "T_Q_6n"
+      ],
+      "risk_pattern": "Klarheits- und Pflichtfokus blendet ungewohnte persoenliche Optionen aus.",
+      "related_facet_ids": [
+        "Q3_1",
+        "Q3_2"
+      ],
+      "counterbalance_quadrant": "Q1",
+      "derivation_basis": "questions_answers_quicks",
+      "revision_note": "Revised after Gate-A Round-2 examiner: darkfacet content checked for within-model and cross-model specificity."
+    },
+    {
+      "id": "DQ4_1",
+      "name": "Persoenlicher Entscheidungsaufschub",
+      "meaning": "Persönliche Entscheidungen aufschieben",
+      "quadrant": "DQ4",
+      "type": "darkfacet",
+      "short_description": "Selbstreflexion verzoegert Festlegung und alltagsnahe Handlung.",
+      "model_rationale": "DQ4_1 ist aus der persoenlichen Fragebasis (4_4, 9_4, 2_2, 6_2, 10_2, 17_2) abgeleitet und beschreibt eine alltags- bzw. selbstbezogene Spannungslesart: Selbstreflexion verzoegert Festlegung und alltagsnahe Handlung. Gegenbalance: Q2.",
+      "question_basis": [
+        "4_4",
+        "9_4",
+        "2_2",
+        "6_2",
+        "10_2",
+        "17_2"
+      ],
+      "expected_micro_evidence": [
+        "T_M_4p",
+        "T_D_1n",
+        "T_H_4n",
+        "T_E_11p",
+        "T_L_4p",
+        "T_K_2n"
+      ],
+      "risk_pattern": "Selbstreflexion verzoegert Festlegung und alltagsnahe Handlung.",
+      "related_facet_ids": [
+        "Q4_1",
+        "Q4_2"
+      ],
+      "counterbalance_quadrant": "Q2",
+      "derivation_basis": "questions_answers_quicks",
+      "revision_note": "Revised after Gate-A Round-2 examiner: darkfacet content checked for within-model and cross-model specificity."
+    },
+    {
+      "id": "DQ4_2",
+      "name": "Analysebindung im Selbstbezug",
+      "meaning": "In Selbstanalyse stecken bleiben",
+      "quadrant": "DQ4",
+      "type": "darkfacet",
+      "short_description": "Innere Zusammenhaenge werden weiter analysiert, obwohl ein naechster Schritt moeglich waere.",
+      "model_rationale": "DQ4_2 ist aus der persoenlichen Fragebasis (8_4, 12_4, 10_2, 18_2, 20_2, 24_2) abgeleitet und beschreibt eine alltags- bzw. selbstbezogene Spannungslesart: Innere Zusammenhaenge werden weiter analysiert, obwohl ein naechster Schritt moeglich waere. Gegenbalance: Q2.",
+      "question_basis": [
+        "8_4",
+        "12_4",
+        "10_2",
+        "18_2",
+        "20_2",
+        "24_2"
+      ],
+      "expected_micro_evidence": [
+        "T_E_11p",
+        "T_D_1n",
+        "T_H_4n",
+        "T_L_4p",
+        "T_M_4p",
+        "T_L_1p"
+      ],
+      "risk_pattern": "Innere Zusammenhaenge werden weiter analysiert, obwohl ein naechster Schritt moeglich waere.",
+      "related_facet_ids": [
+        "Q4_1",
+        "Q4_2"
+      ],
+      "counterbalance_quadrant": "Q2",
+      "derivation_basis": "questions_answers_quicks",
+      "revision_note": "Revised after Gate-A Round-2 examiner: darkfacet content checked for within-model and cross-model specificity."
+    },
+    {
+      "id": "DQ4_3",
+      "name": "Alltaeglicher Formaufschub",
+      "meaning": "Klare Struktur vertagen",
+      "quadrant": "DQ4",
+      "type": "darkfacet",
+      "short_description": "Bedeutungspruefung verschiebt klare persoenliche Strukturierung.",
+      "model_rationale": "DQ4_3 ist aus der persoenlichen Fragebasis (5_4, 16_4, 1_3, 2_3, 9_3, 17_3) abgeleitet und beschreibt eine alltags- bzw. selbstbezogene Spannungslesart: Bedeutungspruefung verschiebt klare persoenliche Strukturierung. Gegenbalance: Q3.",
+      "question_basis": [
+        "5_4",
+        "16_4",
+        "1_3",
+        "2_3",
+        "9_3",
+        "17_3"
+      ],
+      "expected_micro_evidence": [
+        "T_F_2n",
+        "T_D_1n",
+        "T_J_1n",
+        "T_D_4n",
+        "T_E_3p",
+        "T_L_2p"
+      ],
+      "risk_pattern": "Bedeutungspruefung verschiebt klare persoenliche Strukturierung.",
+      "related_facet_ids": [
+        "Q4_1",
+        "Q4_2"
+      ],
+      "counterbalance_quadrant": "Q3",
+      "derivation_basis": "questions_answers_quicks",
+      "revision_note": "Revised after Gate-A Round-2 examiner: darkfacet content checked for within-model and cross-model specificity."
+    },
+    {
+      "id": "DQ4_4",
+      "name": "Skepsisueberhang im Selbstbild",
+      "meaning": "Mit sich selbst zu skeptisch sein",
+      "quadrant": "DQ4",
+      "type": "darkfacet",
+      "short_description": "Kritische Selbstdeutung behandelt neue Moeglichkeiten zu vorsichtig.",
+      "model_rationale": "DQ4_4 ist aus der persoenlichen Fragebasis (19_4, 23_4, 1_1, 5_1, 13_1, 21_1) abgeleitet und beschreibt eine alltags- bzw. selbstbezogene Spannungslesart: Kritische Selbstdeutung behandelt neue Moeglichkeiten zu vorsichtig. Gegenbalance: Q1.",
+      "question_basis": [
+        "19_4",
+        "23_4",
+        "1_1",
+        "5_1",
+        "13_1",
+        "21_1"
+      ],
+      "expected_micro_evidence": [
+        "T_E_16p",
+        "T_I_4n",
+        "T_G_3n",
+        "T_E_13p",
+        "T_L_4p",
+        "T_Q_1n"
+      ],
+      "risk_pattern": "Kritische Selbstdeutung behandelt neue Moeglichkeiten zu vorsichtig.",
+      "related_facet_ids": [
+        "Q4_1",
+        "Q4_2"
+      ],
+      "counterbalance_quadrant": "Q1",
+      "derivation_basis": "questions_answers_quicks",
+      "revision_note": "Revised after Gate-A Round-2 examiner: darkfacet content checked for within-model and cross-model specificity."
+    }
+  ],
+  "updated_at": "2026-06-25T09:58:00Z",
+  "revision_status": "REVISED_AFTER_GATE_A_ROUND2_REVISE_FACETS"
+}

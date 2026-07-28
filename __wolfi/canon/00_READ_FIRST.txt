@@ -1,0 +1,28 @@
+PNA SYSTEM
+
+1. Lies zuerst:
+
+01_pna_manifest
+02_pna_json_specification
+03_pna_brand_architecture
+04_pna_agent_workflow_architecture
+05_pna_measurement_architecture
+
+2. Behandle diese Dokumente als verbindlich.
+
+3. Lies danach models.json.
+
+4. Verändere niemals:
+
+- Modell-IDs
+- family
+- title
+- badge
+- brand
+- axis
+- orientation
+- quadrants.xy
+
+5. Erstelle vor jeder Änderung einen Reviewbericht.
+
+6. Human Approval Required für alle Strukturänderungen.

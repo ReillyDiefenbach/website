@@ -1,0 +1,1224 @@
+{
+  "schema": "pna.test_facets.v2",
+  "model_id": "thinking_biz",
+  "model_name": "Thinking Business",
+  "generated_at": "2026-06-25T09:19:35Z",
+  "scope": "test_context_only",
+  "facet_rule": "4_to_7_facets_per_quadrant_distinct_question_basis",
+  "items": [
+    {
+      "id": "Q1_1",
+      "name": "Moeglichkeitsradar",
+      "meaning": "Chancen erkennen",
+      "quadrant": "Q1",
+      "type": "facet",
+      "short_description": "Erkennt in fruehen Arbeitslagen neue Optionen und Chancenraeume.",
+      "model_rationale": "Moeglichkeitsradar ist auf das fruehe Erkennen von Chancenraeumen in Business-Lagen zugeschnitten: die Basisantworten zeigen W-nahe Optionensuche, waehrend 10_1/21_1 den N-nahen Startimpuls in noch offenen Arbeitslagen sichtbar machen.",
+      "question_basis": [
+        "1_1",
+        "7_1",
+        "10_1",
+        "21_1"
+      ],
+      "expected_micro_evidence": [
+        "T_G_4p",
+        "T_G_1p",
+        "T_G_2p",
+        "T_I_2p",
+        "T_E_15p",
+        "T_Q_1p",
+        "T_H_4p",
+        "V_F_2p"
+      ],
+      "derivation_basis": "questions_answers_quicks",
+      "quadrant_xy": "WN",
+      "revision_note": "Revised after Gate-A Round-2 examiner: positive micro-evidence diversified and rationale made facet-specific."
+    },
+    {
+      "id": "Q1_2",
+      "name": "Denkimpulsgebung",
+      "meaning": "Neue Impulse geben",
+      "quadrant": "Q1",
+      "type": "facet",
+      "short_description": "Stoesst neue Denk- und Handlungsimpulse im Teamkontext an.",
+      "model_rationale": "Denkimpulsgebung beschreibt das aktive Anstossen neuer Gedanken im Team. Die Fragebasis verbindet W-nahe Impulsideen mit N-nahem In-Bewegung-Bringen anderer, nicht bloss allgemeine Kreativitaet.",
+      "question_basis": [
+        "3_1",
+        "6_2",
+        "20_1",
+        "24_2"
+      ],
+      "expected_micro_evidence": [
+        "T_G_5p",
+        "T_H_4p",
+        "T_H_8p",
+        "T_D_7p",
+        "T_I_5p",
+        "D_E_3p",
+        "P_A_2_8p",
+        "T_Q_1p"
+      ],
+      "derivation_basis": "questions_answers_quicks",
+      "quadrant_xy": "WN",
+      "revision_note": "Revised after Gate-A Round-2 examiner: positive micro-evidence diversified and rationale made facet-specific."
+    },
+    {
+      "id": "Q1_3",
+      "name": "Konzeptoeffnung",
+      "meaning": "Ideen öffnen",
+      "quadrant": "Q1",
+      "type": "facet",
+      "short_description": "Oeffnet Aufgaben in Richtung Szenarien, Zielbilder und Varianten.",
+      "model_rationale": "Konzeptoeffnung fokussiert das Oeffnen von Aufgaben in Szenarien, Varianten und Zielbilder. Die Evidenz liegt in Antworten, die Komplexitaet erst erweitern, bevor Form oder Entscheidung entstehen.",
+      "question_basis": [
+        "2_1",
+        "6_1",
+        "7_1",
+        "17_1"
+      ],
+      "expected_micro_evidence": [
+        "T_I_6p",
+        "T_G_2p",
+        "T_G_3p",
+        "T_I_4p",
+        "T_E_4p",
+        "T_Q_8p",
+        "T_E_15p",
+        "K_F_3p"
+      ],
+      "derivation_basis": "questions_answers_quicks",
+      "quadrant_xy": "WN",
+      "revision_note": "Revised after Gate-A Round-2 examiner: positive micro-evidence diversified and rationale made facet-specific."
+    },
+    {
+      "id": "Q1_4",
+      "name": "Innovativer Erstversuch",
+      "meaning": "Ideen ausprobieren",
+      "quadrant": "Q1",
+      "type": "facet",
+      "short_description": "Verbindet neue Idee mit fruehem praktischen Test.",
+      "model_rationale": "Innovativer Erstversuch misst die Bruecke zwischen neuer Idee und fruehem Test. Anders als Q1_1 geht es nicht um Chancenwahrnehmung, sondern um den ersten experimentellen Realitaetskontakt.",
+      "question_basis": [
+        "10_1",
+        "10_2",
+        "23_1",
+        "23_2"
+      ],
+      "expected_micro_evidence": [
+        "T_Q_1p",
+        "T_G_5p",
+        "T_I_5p",
+        "T_H_4p",
+        "T_D_7p",
+        "X_A_5p",
+        "T_E_15p",
+        "D_E_3p"
+      ],
+      "derivation_basis": "questions_answers_quicks",
+      "quadrant_xy": "WN",
+      "revision_note": "Revised after Gate-A Round-2 examiner: positive micro-evidence diversified and rationale made facet-specific."
+    },
+    {
+      "id": "Q1_5",
+      "name": "Vernetzte Chancensicht",
+      "meaning": "Informationen verbinden",
+      "quadrant": "Q1",
+      "type": "facet",
+      "short_description": "Verbindet unterschiedliche Informationen zu neuen Chancen.",
+      "model_rationale": "Vernetzte Chancensicht erfasst das Verbinden mehrerer Business-Signale zu einer Opportunity-Lesart. Die Facet ist relationeller als Q1_1 und weniger handlungsnah als Q1_6.",
+      "question_basis": [
+        "5_1",
+        "14_1",
+        "17_1",
+        "18_1"
+      ],
+      "expected_micro_evidence": [
+        "V_F_2p",
+        "T_E_15p",
+        "T_E_4p",
+        "T_Q_8p",
+        "T_E_3p",
+        "T_L_1p",
+        "K_F_3p",
+        "T_I_4p"
+      ],
+      "derivation_basis": "questions_answers_quicks",
+      "quadrant_xy": "WN",
+      "revision_note": "Revised after Gate-A Round-2 examiner: positive micro-evidence diversified and rationale made facet-specific."
+    },
+    {
+      "id": "Q1_6",
+      "name": "Explorative Aktivierung",
+      "meaning": "Bewegung in Neues bringen",
+      "quadrant": "Q1",
+      "type": "facet",
+      "short_description": "Bringt Bewegung in unsichere oder neue Arbeitssituationen.",
+      "model_rationale": "Explorative Aktivierung beschreibt den Uebergang von offenem Denken in fruehe Bewegung. Die Fragebasis betont Aktivierung und Experimentierimpuls staerker als reine Ideenbildung.",
+      "question_basis": [
+        "12_1",
+        "12_2",
+        "16_1",
+        "21_2"
+      ],
+      "expected_micro_evidence": [
+        "X_A_5p",
+        "T_H_8p",
+        "T_D_7p",
+        "T_I_5p",
+        "D_E_3p",
+        "P_A_2_8p",
+        "T_G_3p",
+        "T_H_4p"
+      ],
+      "derivation_basis": "questions_answers_quicks",
+      "quadrant_xy": "WN",
+      "revision_note": "Revised after Gate-A Round-2 examiner: positive micro-evidence diversified and rationale made facet-specific."
+    },
+    {
+      "id": "Q2_1",
+      "name": "Fruehe Strukturierung",
+      "meaning": "Schnell Struktur schaffen",
+      "quadrant": "Q2",
+      "type": "facet",
+      "short_description": "Macht vage Impulse schnell bearbeitbar und klar.",
+      "model_rationale": "Fruehe Strukturierung erfasst das schnelle Formen erster Ordnung in offenen Business-Fragen. Die Facet ist klaerungsnah, aber noch nicht auf operative Koordination reduziert.",
+      "question_basis": [
+        "1_3",
+        "2_3",
+        "6_3",
+        "10_3"
+      ],
+      "expected_micro_evidence": [
+        "T_D_1p",
+        "T_D_4p",
+        "T_F_2p",
+        "T_J_1p",
+        "T_E_14p",
+        "T_Q_9p",
+        "P_B_1_10p",
+        "T_H_5p"
+      ],
+      "derivation_basis": "questions_answers_quicks",
+      "quadrant_xy": "EN",
+      "revision_note": "Revised after Gate-A Round-2 examiner: positive micro-evidence diversified and rationale made facet-specific."
+    },
+    {
+      "id": "Q2_2",
+      "name": "Handlungsformung",
+      "meaning": "Nächste Schritte formen",
+      "quadrant": "Q2",
+      "type": "facet",
+      "short_description": "Uebersetzt Impulse in konkrete naechste Schritte.",
+      "model_rationale": "Handlungsformung misst, wie aus einer Idee ein konkreter naechster Schritt entsteht. Der Fokus liegt auf N-nahem Start plus E-naher Form, nicht auf langfristiger Prozesssicherheit.",
+      "question_basis": [
+        "2_2",
+        "4_2",
+        "6_2",
+        "14_2"
+      ],
+      "expected_micro_evidence": [
+        "T_J_5p",
+        "T_H_4p",
+        "T_H_8p",
+        "T_D_7p",
+        "T_I_5p",
+        "D_E_3p",
+        "P_A_2_8p",
+        "T_D_4p"
+      ],
+      "derivation_basis": "questions_answers_quicks",
+      "quadrant_xy": "EN",
+      "revision_note": "Revised after Gate-A Round-2 examiner: positive micro-evidence diversified and rationale made facet-specific."
+    },
+    {
+      "id": "Q2_3",
+      "name": "Pragmatische Entscheidungsnaehe",
+      "meaning": "Entscheidbar machen",
+      "quadrant": "Q2",
+      "type": "facet",
+      "short_description": "Erzeugt hinreichende Klarheit fuer arbeitsfaehige Entscheidungen.",
+      "model_rationale": "Pragmatische Entscheidungsnaehe beschreibt die Tendenz, tragfaehige Entscheidbarkeit herzustellen. Sie unterscheidet sich von Q2_1 durch den staerkeren Entscheidungs- und Machbarkeitsbezug.",
+      "question_basis": [
+        "4_2",
+        "4_3",
+        "11_2",
+        "17_2"
+      ],
+      "expected_micro_evidence": [
+        "T_H_5p",
+        "T_D_1p",
+        "T_F_2p",
+        "T_J_3p",
+        "T_E_14p",
+        "T_Q_9p",
+        "T_J_5p",
+        "T_D_4p"
+      ],
+      "derivation_basis": "questions_answers_quicks",
+      "quadrant_xy": "EN",
+      "revision_note": "Revised after Gate-A Round-2 examiner: positive micro-evidence diversified and rationale made facet-specific."
+    },
+    {
+      "id": "Q2_4",
+      "name": "Operationalisierung",
+      "meaning": "Praktisch übersetzen",
+      "quadrant": "Q2",
+      "type": "facet",
+      "short_description": "Macht Strategie, Feedback oder Wissen praktisch anschlussfaehig.",
+      "model_rationale": "Operationalisierung erfasst das Uebersetzen von Absicht in Ablauf, Rollen und konkrete Umsetzung. Die Facet ist prozessualer als Q2_2 und weniger entscheidungszentriert als Q2_3.",
+      "question_basis": [
+        "7_3",
+        "14_3",
+        "15_3",
+        "19_3"
+      ],
+      "expected_micro_evidence": [
+        "T_F_2p",
+        "T_J_1p",
+        "T_J_3p",
+        "T_J_4p",
+        "T_Q_9p",
+        "P_B_1_10p",
+        "T_D_4p",
+        "T_E_14p"
+      ],
+      "derivation_basis": "questions_answers_quicks",
+      "quadrant_xy": "EN",
+      "revision_note": "Revised after Gate-A Round-2 examiner: positive micro-evidence diversified and rationale made facet-specific."
+    },
+    {
+      "id": "Q2_5",
+      "name": "Aktive Koordination",
+      "meaning": "Arbeit koordinieren",
+      "quadrant": "Q2",
+      "type": "facet",
+      "short_description": "Bringt Menschen, Rollen und Aufgaben in eine handlungsfaehige Form.",
+      "model_rationale": "Aktive Koordination beschreibt das Zusammenfuehren von Beteiligten und Schritten. Die Fragebasis macht soziale Taktung und operative Abstimmung sichtbar.",
+      "question_basis": [
+        "9_2",
+        "9_3",
+        "22_2",
+        "22_3"
+      ],
+      "expected_micro_evidence": [
+        "D_E_2p",
+        "T_H_4p",
+        "T_H_8p",
+        "T_D_7p",
+        "T_J_1p",
+        "T_D_4p",
+        "P_A_2_8p",
+        "T_F_2p"
+      ],
+      "derivation_basis": "questions_answers_quicks",
+      "quadrant_xy": "EN",
+      "revision_note": "Revised after Gate-A Round-2 examiner: positive micro-evidence diversified and rationale made facet-specific."
+    },
+    {
+      "id": "Q2_6",
+      "name": "Umsetzungsanschub",
+      "meaning": "Umsetzung anschieben",
+      "quadrant": "Q2",
+      "type": "facet",
+      "short_description": "Sichert Tempo und ersten Fortschritt ohne lange Vorlaufphase.",
+      "model_rationale": "Umsetzungsanschub fokussiert den Startschub, der aus Klaerung echte Bewegung macht. Er ist dynamischer als Q2_4 und weniger koordinativ als Q2_5.",
+      "question_basis": [
+        "6_2",
+        "10_2",
+        "18_2",
+        "21_2"
+      ],
+      "expected_micro_evidence": [
+        "V_A_3p",
+        "T_H_4p",
+        "T_H_8p",
+        "T_J_5p",
+        "T_D_7p",
+        "D_E_3p",
+        "T_J_1p",
+        "T_E_14p"
+      ],
+      "derivation_basis": "questions_answers_quicks",
+      "quadrant_xy": "EN",
+      "revision_note": "Revised after Gate-A Round-2 examiner: positive micro-evidence diversified and rationale made facet-specific."
+    },
+    {
+      "id": "Q3_1",
+      "name": "Ablaufklarheit",
+      "meaning": "Abläufe klären",
+      "quadrant": "Q3",
+      "type": "facet",
+      "short_description": "Ordnet Aufgaben, Daten und Uebergaben in nachvollziehbare Schritte.",
+      "model_rationale": "Ablaufklarheit misst die Faehigkeit, Reihenfolge und Prozesslogik sichtbar zu machen. Der S-Zweitpol dient der Absicherung, waehrend die Kernnaehe E-Struktur bleibt.",
+      "question_basis": [
+        "2_3",
+        "11_3",
+        "18_3",
+        "4_4",
+        "19_3"
+      ],
+      "expected_micro_evidence": [
+        "T_O_4p",
+        "T_J_1p",
+        "T_J_3p",
+        "T_J_4p",
+        "T_O_6p",
+        "T_M_2p",
+        "T_Q_9p",
+        "T_D_4p"
+      ],
+      "derivation_basis": "questions_answers_quicks",
+      "quadrant_xy": "ES",
+      "revision_note": "Revised after Gate-A Round-2 examiner: positive micro-evidence diversified and rationale made facet-specific."
+    },
+    {
+      "id": "Q3_2",
+      "name": "Planungssicherheit",
+      "meaning": "Verlässlich planen",
+      "quadrant": "Q3",
+      "type": "facet",
+      "short_description": "Bereitet Projektstarts, Ressourcen und Prioritaeten verlaesslich vor.",
+      "model_rationale": "Planungssicherheit beschreibt vorausschauende Stabilisierung von Arbeitsschritten. Gegenueber Q3_1 liegt der Akzent staerker auf Verlaesslichkeit ueber Zeit.",
+      "question_basis": [
+        "6_3",
+        "11_3",
+        "17_3",
+        "11_4",
+        "24_3"
+      ],
+      "expected_micro_evidence": [
+        "T_O_7p",
+        "T_J_1p",
+        "T_J_3p",
+        "T_O_6p",
+        "T_M_2p",
+        "T_Q_9p",
+        "T_J_6p",
+        "T_M_7p"
+      ],
+      "derivation_basis": "questions_answers_quicks",
+      "quadrant_xy": "ES",
+      "revision_note": "Revised after Gate-A Round-2 examiner: positive micro-evidence diversified and rationale made facet-specific."
+    },
+    {
+      "id": "Q3_3",
+      "name": "Qualitaetsordnung",
+      "meaning": "Qualität sichern",
+      "quadrant": "Q3",
+      "type": "facet",
+      "short_description": "Prueft und dokumentiert Ergebnisse anhand klarer Kriterien.",
+      "model_rationale": "Qualitaetsordnung erfasst Standards, Sorgfalt und Guetepruefung. Die Facet ist weniger Ablauf- als Qualitaetslogik.",
+      "question_basis": [
+        "13_3",
+        "18_3",
+        "24_3",
+        "13_4",
+        "15_3"
+      ],
+      "expected_micro_evidence": [
+        "T_M_7p",
+        "T_J_6p",
+        "T_O_1p",
+        "T_O_2p",
+        "T_O_5p",
+        "T_M_8p",
+        "T_M_3p",
+        "T_Q_10p"
+      ],
+      "derivation_basis": "questions_answers_quicks",
+      "quadrant_xy": "ES",
+      "revision_note": "Revised after Gate-A Round-2 examiner: positive micro-evidence diversified and rationale made facet-specific."
+    },
+    {
+      "id": "Q3_4",
+      "name": "Standardtreue",
+      "meaning": "Standards einhalten",
+      "quadrant": "Q3",
+      "type": "facet",
+      "short_description": "Sichert Standards, Routinen und wiederholbare Vorgehensweisen.",
+      "model_rationale": "Standardtreue beschreibt Orientierung an vereinbarten Regeln und Fakten. Sie unterscheidet sich von Q3_3 durch Norm- und Konsistenzbezug statt allgemeiner Qualitaet.",
+      "question_basis": [
+        "8_3",
+        "13_3",
+        "19_3",
+        "18_4",
+        "23_3"
+      ],
+      "expected_micro_evidence": [
+        "T_Q_10p",
+        "T_O_1p",
+        "T_O_2p",
+        "T_O_5p",
+        "T_M_8p",
+        "T_M_3p",
+        "T_D_4p",
+        "T_E_14p"
+      ],
+      "derivation_basis": "questions_answers_quicks",
+      "quadrant_xy": "ES",
+      "revision_note": "Revised after Gate-A Round-2 examiner: positive micro-evidence diversified and rationale made facet-specific."
+    },
+    {
+      "id": "Q3_5",
+      "name": "Priorisierte Umsetzung",
+      "meaning": "Umsetzung sortieren",
+      "quadrant": "Q3",
+      "type": "facet",
+      "short_description": "Sortiert Aufwand, Reihenfolge und Verantwortlichkeit fuer Umsetzung.",
+      "model_rationale": "Priorisierte Umsetzung misst Fokus, Reihenfolge und Abschlussorientierung. Die Facet ist dynamischer als Q3_1 und weniger normbezogen als Q3_4.",
+      "question_basis": [
+        "11_3",
+        "17_3",
+        "19_3",
+        "20_4",
+        "22_3"
+      ],
+      "expected_micro_evidence": [
+        "T_D_8p",
+        "T_J_1p",
+        "T_J_3p",
+        "T_J_4p",
+        "T_O_6p",
+        "T_M_2p",
+        "T_Q_9p",
+        "T_J_6p"
+      ],
+      "derivation_basis": "questions_answers_quicks",
+      "quadrant_xy": "ES",
+      "revision_note": "Revised after Gate-A Round-2 examiner: positive micro-evidence diversified and rationale made facet-specific."
+    },
+    {
+      "id": "Q3_6",
+      "name": "Stabilisierende Anschlussfaehigkeit",
+      "meaning": "Anschluss sichern",
+      "quadrant": "Q3",
+      "type": "facet",
+      "short_description": "Macht Arbeit so klar, dass andere verlaesslich anschliessen koennen.",
+      "model_rationale": "Stabilisierende Anschlussfaehigkeit beschreibt Ordnung so, dass andere daran anschliessen koennen. Sie ist sozial-prozessualer als reine Planungssicherheit.",
+      "question_basis": [
+        "9_3",
+        "14_3",
+        "19_3",
+        "24_4",
+        "22_3"
+      ],
+      "expected_micro_evidence": [
+        "T_J_2p",
+        "T_J_6p",
+        "T_O_1p",
+        "T_O_5p",
+        "T_M_8p",
+        "T_M_3p",
+        "T_J_1p",
+        "T_E_14p"
+      ],
+      "derivation_basis": "questions_answers_quicks",
+      "quadrant_xy": "ES",
+      "revision_note": "Revised after Gate-A Round-2 examiner: positive micro-evidence diversified and rationale made facet-specific."
+    },
+    {
+      "id": "Q4_1",
+      "name": "Konzeptpruefung",
+      "meaning": "Ideen prüfen",
+      "quadrant": "Q4",
+      "type": "facet",
+      "short_description": "Prueft Ideen auf Tragfaehigkeit, Annahmen und Nebenfolgen.",
+      "model_rationale": "Konzeptpruefung erfasst kritische Pruefung von Annahmen und Konzeptlogik. Der W-Anteil liegt im Zusammenhang, der S-Anteil in Reflexion und Urteil.",
+      "question_basis": [
+        "1_4",
+        "10_4",
+        "12_4",
+        "1_1",
+        "13_4"
+      ],
+      "expected_micro_evidence": [
+        "T_E_10p",
+        "T_E_11p",
+        "T_L_1p",
+        "T_L_4p",
+        "T_E_13p",
+        "S_A_3p",
+        "V_D_2p",
+        "T_Q_8p"
+      ],
+      "derivation_basis": "questions_answers_quicks",
+      "quadrant_xy": "WS",
+      "revision_note": "Revised after Gate-A Round-2 examiner: positive micro-evidence diversified and rationale made facet-specific."
+    },
+    {
+      "id": "Q4_2",
+      "name": "Bedeutungsdifferenzierung",
+      "meaning": "Zusammenhänge einordnen",
+      "quadrant": "Q4",
+      "type": "facet",
+      "short_description": "Ordnet Zusammenhaenge und Spannungen differenziert ein.",
+      "model_rationale": "Bedeutungsdifferenzierung misst das Unterscheiden von Sinn, Kontext und Perspektiven. Sie ist semantischer und weniger entscheidungsnah als Q4_3.",
+      "question_basis": [
+        "5_4",
+        "8_4",
+        "12_4",
+        "5_1",
+        "16_4"
+      ],
+      "expected_micro_evidence": [
+        "T_E_16p",
+        "T_E_15p",
+        "T_E_4p",
+        "T_Q_8p",
+        "T_E_3p",
+        "T_L_1p",
+        "K_F_3p",
+        "T_L_5p"
+      ],
+      "derivation_basis": "questions_answers_quicks",
+      "quadrant_xy": "WS",
+      "revision_note": "Revised after Gate-A Round-2 examiner: positive micro-evidence diversified and rationale made facet-specific."
+    },
+    {
+      "id": "Q4_3",
+      "name": "Folgenbewusstsein",
+      "meaning": "Folgen mitdenken",
+      "quadrant": "Q4",
+      "type": "facet",
+      "short_description": "Beruecksichtigt Auswirkungen auf Menschen, Ablaeufe und Langfristigkeit.",
+      "model_rationale": "Folgenbewusstsein beschreibt die reflektierte Sicht auf Auswirkungen von Entscheidungen. Die Facet ist konsequenzorientiert, nicht bloss analytisch.",
+      "question_basis": [
+        "4_4",
+        "11_4",
+        "16_4",
+        "7_1",
+        "20_4"
+      ],
+      "expected_micro_evidence": [
+        "T_L_5p",
+        "T_E_6p",
+        "T_E_10p",
+        "T_E_13p",
+        "T_M_4p",
+        "T_K_2p",
+        "T_Q_8p",
+        "T_E_11p"
+      ],
+      "derivation_basis": "questions_answers_quicks",
+      "quadrant_xy": "WS",
+      "revision_note": "Revised after Gate-A Round-2 examiner: positive micro-evidence diversified and rationale made facet-specific."
+    },
+    {
+      "id": "Q4_4",
+      "name": "Annahmenkritik",
+      "meaning": "Annahmen hinterfragen",
+      "quadrant": "Q4",
+      "type": "facet",
+      "short_description": "Hinterfragt Daten, Feedback und Ergebnisannahmen vor Freigabe.",
+      "model_rationale": "Annahmenkritik fokussiert das Hinterfragen eigener und fremder Voraussetzungen. Sie unterscheidet sich von Q4_1 durch Skepsis gegen Prämissen statt Konzeptguete.",
+      "question_basis": [
+        "13_4",
+        "14_4",
+        "18_4",
+        "10_1",
+        "20_4"
+      ],
+      "expected_micro_evidence": [
+        "T_L_6p",
+        "T_E_10p",
+        "T_E_13p",
+        "T_M_4p",
+        "T_K_2p",
+        "T_Q_8p",
+        "T_E_11p",
+        "T_E_16p"
+      ],
+      "derivation_basis": "questions_answers_quicks",
+      "quadrant_xy": "WS",
+      "revision_note": "Revised after Gate-A Round-2 examiner: positive micro-evidence diversified and rationale made facet-specific."
+    },
+    {
+      "id": "Q4_5",
+      "name": "Lernende Auswertung",
+      "meaning": "Aus Erfahrung lernen",
+      "quadrant": "Q4",
+      "type": "facet",
+      "short_description": "Leitet aus Rueckschlaegen und Abschluessen begruendete Lernpunkte ab.",
+      "model_rationale": "Lernende Auswertung misst Rueckblick, Feedbackaufnahme und Anpassungslernen. Der Schwerpunkt liegt nach der Handlung, nicht vor der Entscheidung.",
+      "question_basis": [
+        "21_4",
+        "24_4",
+        "15_4",
+        "17_1",
+        "18_4"
+      ],
+      "expected_micro_evidence": [
+        "T_Q_8p",
+        "T_L_2p",
+        "T_L_5p",
+        "T_E_3p",
+        "T_M_4p",
+        "T_K_2p",
+        "T_E_16p",
+        "T_E_4p"
+      ],
+      "derivation_basis": "questions_answers_quicks",
+      "quadrant_xy": "WS",
+      "revision_note": "Revised after Gate-A Round-2 examiner: positive micro-evidence diversified and rationale made facet-specific."
+    },
+    {
+      "id": "Q4_6",
+      "name": "Kontextverstehen",
+      "meaning": "Kontext klären",
+      "quadrant": "Q4",
+      "type": "facet",
+      "short_description": "Sichert gemeinsames Verstaendnis, Kontext und offene Risiken.",
+      "model_rationale": "Kontextverstehen erfasst das Lesen von Rahmenbedingungen, Wechselwirkungen und Anschlussfolgen. Die Facet ist umfeldbezogener als Q4_2.",
+      "question_basis": [
+        "6_4",
+        "9_4",
+        "19_4",
+        "21_1",
+        "22_4"
+      ],
+      "expected_micro_evidence": [
+        "T_E_6p",
+        "T_E_11p",
+        "T_L_1p",
+        "T_E_13p",
+        "S_A_3p",
+        "V_D_2p",
+        "T_E_15p",
+        "T_E_4p"
+      ],
+      "derivation_basis": "questions_answers_quicks",
+      "quadrant_xy": "WS",
+      "revision_note": "Revised after Gate-A Round-2 examiner: positive micro-evidence diversified and rationale made facet-specific."
+    },
+    {
+      "id": "DQ1_1",
+      "name": "Strukturuntergewicht",
+      "meaning": "Zu wenig Struktur",
+      "quadrant": "DQ1",
+      "type": "darkfacet",
+      "short_description": "Neue Moeglichkeiten werden verfolgt, bevor Form und Anschluss ausreichend geklaert sind.",
+      "model_rationale": "DQ1_1 ist aus einer eigenen Fragebasis abgeleitet (1_1, 10_1, 1_3, 10_3, 13_3, 19_3) und beschreibt eine testnahe Spannungslesart: Neue Moeglichkeiten werden verfolgt, bevor Form und Anschluss ausreichend geklaert sind. Gegenbalance: Q3.",
+      "question_basis": [
+        "1_1",
+        "10_1",
+        "1_3",
+        "10_3",
+        "13_3",
+        "19_3"
+      ],
+      "expected_micro_evidence": [
+        "T_D_8n",
+        "T_J_1n",
+        "T_E_7n",
+        "T_O_3n",
+        "T_Q_9n",
+        "T_M_9n"
+      ],
+      "risk_pattern": "Neue Moeglichkeiten werden verfolgt, bevor Form und Anschluss ausreichend geklaert sind.",
+      "related_facet_ids": [
+        "Q1_1",
+        "Q1_2"
+      ],
+      "counterbalance_quadrant": "Q3",
+      "derivation_basis": "questions_answers_quicks",
+      "revision_note": "Revised after Gate-A Round-2 examiner: darkfacet content checked for within-model and cross-model specificity."
+    },
+    {
+      "id": "DQ1_2",
+      "name": "Impulsueberlauf",
+      "meaning": "Zu viele Impulse",
+      "quadrant": "DQ1",
+      "type": "darkfacet",
+      "short_description": "Fruehe Impulse ueberlagern Pruefung und Priorisierung.",
+      "model_rationale": "DQ1_2 ist aus einer eigenen Fragebasis abgeleitet (3_1, 6_2, 1_4, 4_4, 12_4, 20_4) und beschreibt eine testnahe Spannungslesart: Fruehe Impulse ueberlagern Pruefung und Priorisierung. Gegenbalance: Q4.",
+      "question_basis": [
+        "3_1",
+        "6_2",
+        "1_4",
+        "4_4",
+        "12_4",
+        "20_4"
+      ],
+      "expected_micro_evidence": [
+        "T_E_11n",
+        "T_E_13n",
+        "T_E_6n",
+        "T_L_4n",
+        "T_L_1n",
+        "T_M_1n"
+      ],
+      "risk_pattern": "Fruehe Impulse ueberlagern Pruefung und Priorisierung.",
+      "related_facet_ids": [
+        "Q1_1",
+        "Q1_2"
+      ],
+      "counterbalance_quadrant": "Q4",
+      "derivation_basis": "questions_answers_quicks",
+      "revision_note": "Revised after Gate-A Round-2 examiner: darkfacet content checked for within-model and cross-model specificity."
+    },
+    {
+      "id": "DQ1_3",
+      "name": "Verzettelungsrisiko",
+      "meaning": "Sich verzetteln",
+      "quadrant": "DQ1",
+      "type": "darkfacet",
+      "short_description": "Viele Optionen erschweren Fokus, Abschluss und Anschlussfaehigkeit.",
+      "model_rationale": "DQ1_3 ist aus einer eigenen Fragebasis abgeleitet (5_1, 17_1, 11_3, 17_3, 19_3, 24_3) und beschreibt eine testnahe Spannungslesart: Viele Optionen erschweren Fokus, Abschluss und Anschlussfaehigkeit. Gegenbalance: Q3.",
+      "question_basis": [
+        "5_1",
+        "17_1",
+        "11_3",
+        "17_3",
+        "19_3",
+        "24_3"
+      ],
+      "expected_micro_evidence": [
+        "T_E_9n",
+        "T_J_4n",
+        "T_D_5n",
+        "T_M_2n",
+        "T_H_6n",
+        "T_Q_10n"
+      ],
+      "risk_pattern": "Viele Optionen erschweren Fokus, Abschluss und Anschlussfaehigkeit.",
+      "related_facet_ids": [
+        "Q1_1",
+        "Q1_2"
+      ],
+      "counterbalance_quadrant": "Q3",
+      "derivation_basis": "questions_answers_quicks",
+      "revision_note": "Revised after Gate-A Round-2 examiner: darkfacet content checked for within-model and cross-model specificity."
+    },
+    {
+      "id": "DQ1_4",
+      "name": "Reifegraduebersprung",
+      "meaning": "Ideen zu früh als reif sehen",
+      "quadrant": "DQ1",
+      "type": "darkfacet",
+      "short_description": "Ideen wirken bereits belastbar, obwohl Analyse, Urteil und Folgenpruefung noch nicht tragen.",
+      "model_rationale": "DQ1_4 ist aus einer eigenen Business-Fragebasis abgeleitet (7_1, 21_1, 13_4, 18_4, 20_4, 24_4) und beschreibt den Reifegraduebersprung: Ideen wirken bereits belastbar, obwohl Analyse, Urteil und Folgenpruefung noch nicht tragen. Gegenbalance: Q4.",
+      "question_basis": [
+        "7_1",
+        "21_1",
+        "13_4",
+        "18_4",
+        "20_4",
+        "24_4"
+      ],
+      "expected_micro_evidence": [
+        "T_E_13n",
+        "T_E_10n",
+        "T_E_6n",
+        "T_Q_8n",
+        "T_L_1n",
+        "T_M_1n"
+      ],
+      "risk_pattern": "Ideen wirken bereits belastbar, obwohl Analyse, Urteil und Folgenpruefung noch nicht tragen.",
+      "related_facet_ids": [
+        "Q1_1",
+        "Q1_2"
+      ],
+      "counterbalance_quadrant": "Q4",
+      "derivation_basis": "questions_answers_quicks",
+      "revision_note": "Revised after Gate-A Round-3 examiner: within-dark-quadrant duplicate micro-evidence resolved."
+    },
+    {
+      "id": "DQ2_1",
+      "name": "Vorschnelle Festlegung",
+      "meaning": "Zu früh festlegen",
+      "quadrant": "DQ2",
+      "type": "darkfacet",
+      "short_description": "Formgebung schliesst Alternativen zu frueh.",
+      "model_rationale": "DQ2_1 ist aus einer eigenen Fragebasis abgeleitet (1_3, 2_3, 3_1, 5_1, 7_1, 10_1) und beschreibt eine testnahe Spannungslesart: Formgebung schliesst Alternativen zu frueh. Gegenbalance: Q1.",
+      "question_basis": [
+        "1_3",
+        "2_3",
+        "3_1",
+        "5_1",
+        "7_1",
+        "10_1"
+      ],
+      "expected_micro_evidence": [
+        "T_I_3n",
+        "T_I_6n",
+        "T_G_5n",
+        "T_E_15n",
+        "T_G_1n",
+        "T_Q_1n"
+      ],
+      "risk_pattern": "Formgebung schliesst Alternativen zu frueh.",
+      "related_facet_ids": [
+        "Q2_1",
+        "Q2_2"
+      ],
+      "counterbalance_quadrant": "Q1",
+      "derivation_basis": "questions_answers_quicks",
+      "revision_note": "Revised after Gate-A Round-2 examiner: darkfacet content checked for within-model and cross-model specificity."
+    },
+    {
+      "id": "DQ2_2",
+      "name": "Tempoverengung",
+      "meaning": "Tempo verengt den Blick",
+      "quadrant": "DQ2",
+      "type": "darkfacet",
+      "short_description": "Handlungsdruck reduziert Perspektiven- und Folgenpruefung.",
+      "model_rationale": "DQ2_2 ist aus einer eigenen Fragebasis abgeleitet (4_2, 11_2, 4_4, 11_4, 16_4, 20_4) und beschreibt eine testnahe Spannungslesart: Handlungsdruck reduziert Perspektiven- und Folgenpruefung. Gegenbalance: Q4.",
+      "question_basis": [
+        "4_2",
+        "11_2",
+        "4_4",
+        "11_4",
+        "16_4",
+        "20_4"
+      ],
+      "expected_micro_evidence": [
+        "T_D_1p",
+        "T_H_8p",
+        "T_M_1n",
+        "T_E_10n",
+        "T_L_4n",
+        "T_F_2p"
+      ],
+      "risk_pattern": "Handlungsdruck reduziert Perspektiven- und Folgenpruefung.",
+      "related_facet_ids": [
+        "Q2_1",
+        "Q2_2"
+      ],
+      "counterbalance_quadrant": "Q4",
+      "derivation_basis": "questions_answers_quicks",
+      "revision_note": "Revised after Gate-A Round-2 examiner: darkfacet content checked for within-model and cross-model specificity."
+    },
+    {
+      "id": "DQ2_3",
+      "name": "Machbarkeitsverkuerzung",
+      "meaning": "Zu schnell auf Machbarkeit gehen",
+      "quadrant": "DQ2",
+      "type": "darkfacet",
+      "short_description": "Naheliegende Umsetzbarkeit verdeckt konzeptionelle Tiefe.",
+      "model_rationale": "DQ2_3 ist aus einer eigenen Fragebasis abgeleitet (7_3, 14_3, 5_1, 17_1, 18_1, 21_1) und beschreibt eine testnahe Spannungslesart: Naheliegende Umsetzbarkeit verdeckt konzeptionelle Tiefe. Gegenbalance: Q1.",
+      "question_basis": [
+        "7_3",
+        "14_3",
+        "5_1",
+        "17_1",
+        "18_1",
+        "21_1"
+      ],
+      "expected_micro_evidence": [
+        "T_E_14p",
+        "T_G_3n",
+        "T_E_4n",
+        "T_I_4n",
+        "T_E_15n",
+        "T_Q_8n"
+      ],
+      "risk_pattern": "Naheliegende Umsetzbarkeit verdeckt konzeptionelle Tiefe.",
+      "related_facet_ids": [
+        "Q2_1",
+        "Q2_2"
+      ],
+      "counterbalance_quadrant": "Q1",
+      "derivation_basis": "questions_answers_quicks",
+      "revision_note": "Revised after Gate-A Round-2 examiner: darkfacet content checked for within-model and cross-model specificity."
+    },
+    {
+      "id": "DQ2_4",
+      "name": "Klarheitsdruck",
+      "meaning": "Klarheit zu früh erzwingen",
+      "quadrant": "DQ2",
+      "type": "darkfacet",
+      "short_description": "Struktur- und Kommunikationsklarheit wird zu frueh erzwungen, bevor Reflexion und offene Annahmen ausreichend verarbeitet sind.",
+      "model_rationale": "DQ2_4 ist aus einer eigenen Business-Fragebasis abgeleitet (6_3, 10_3, 12_4, 13_4, 18_4, 22_4) und beschreibt Klarheitsdruck: Struktur- und Kommunikationsklarheit wird zu frueh erzwungen, bevor Reflexion und offene Annahmen ausreichend verarbeitet sind. Gegenbalance: Q4.",
+      "question_basis": [
+        "6_3",
+        "10_3",
+        "12_4",
+        "13_4",
+        "18_4",
+        "22_4"
+      ],
+      "expected_micro_evidence": [
+        "T_F_2p",
+        "T_D_8p",
+        "T_H_8p",
+        "T_E_7p",
+        "T_E_10n",
+        "T_L_4n"
+      ],
+      "risk_pattern": "Struktur- und Kommunikationsklarheit wird zu frueh erzwungen, bevor Reflexion und offene Annahmen ausreichend verarbeitet sind.",
+      "related_facet_ids": [
+        "Q2_1",
+        "Q2_2"
+      ],
+      "counterbalance_quadrant": "Q4",
+      "derivation_basis": "questions_answers_quicks",
+      "revision_note": "Revised after Gate-A Round-3 examiner: within-dark-quadrant duplicate micro-evidence resolved."
+    },
+    {
+      "id": "DQ3_1",
+      "name": "Strukturdominanz",
+      "meaning": "Zu viel Ordnung",
+      "quadrant": "DQ3",
+      "type": "darkfacet",
+      "short_description": "Ordnung und Planung nehmen neue Moeglichkeiten zu spaet auf.",
+      "model_rationale": "DQ3_1 ist aus einer eigenen Fragebasis abgeleitet (8_3, 13_3, 10_1, 16_1, 21_1, 23_1) und beschreibt eine testnahe Spannungslesart: Ordnung und Planung nehmen neue Moeglichkeiten zu spaet auf. Gegenbalance: Q1.",
+      "question_basis": [
+        "8_3",
+        "13_3",
+        "10_1",
+        "16_1",
+        "21_1",
+        "23_1"
+      ],
+      "expected_micro_evidence": [
+        "T_G_1n",
+        "T_G_2n",
+        "T_I_2n",
+        "T_I_4n",
+        "T_E_15n",
+        "V_F_1n"
+      ],
+      "risk_pattern": "Ordnung und Planung nehmen neue Moeglichkeiten zu spaet auf.",
+      "related_facet_ids": [
+        "Q3_1",
+        "Q3_2"
+      ],
+      "counterbalance_quadrant": "Q1",
+      "derivation_basis": "questions_answers_quicks",
+      "revision_note": "Revised after Gate-A Round-2 examiner: darkfacet content checked for within-model and cross-model specificity."
+    },
+    {
+      "id": "DQ3_2",
+      "name": "Startverzoegerung",
+      "meaning": "Zu spät anfangen",
+      "quadrant": "DQ3",
+      "type": "darkfacet",
+      "short_description": "Absicherung und Sequenzierung bremsen notwendigen Beginn.",
+      "model_rationale": "DQ3_2 ist aus einer eigenen Fragebasis abgeleitet (6_3, 11_3, 6_2, 10_2, 18_2, 21_2) und beschreibt eine testnahe Spannungslesart: Absicherung und Sequenzierung bremsen notwendigen Beginn. Gegenbalance: Q2.",
+      "question_basis": [
+        "6_3",
+        "11_3",
+        "6_2",
+        "10_2",
+        "18_2",
+        "21_2"
+      ],
+      "expected_micro_evidence": [
+        "T_J_5n",
+        "T_D_1n",
+        "T_H_4n",
+        "T_H_8n",
+        "D_E_3n",
+        "T_M_4p"
+      ],
+      "risk_pattern": "Absicherung und Sequenzierung bremsen notwendigen Beginn.",
+      "related_facet_ids": [
+        "Q3_1",
+        "Q3_2"
+      ],
+      "counterbalance_quadrant": "Q2",
+      "derivation_basis": "questions_answers_quicks",
+      "revision_note": "Revised after Gate-A Round-2 examiner: darkfacet content checked for within-model and cross-model specificity."
+    },
+    {
+      "id": "DQ3_3",
+      "name": "Anpassungstraegheit",
+      "meaning": "Zu langsam anpassen",
+      "quadrant": "DQ3",
+      "type": "darkfacet",
+      "short_description": "Stabile Formen erschweren situative Bewegung.",
+      "model_rationale": "DQ3_3 ist aus einer eigenen Fragebasis abgeleitet (19_3, 23_3, 12_2, 16_2, 21_2, 22_2) und beschreibt eine testnahe Spannungslesart: Stabile Formen erschweren situative Bewegung. Gegenbalance: Q2.",
+      "question_basis": [
+        "19_3",
+        "23_3",
+        "12_2",
+        "16_2",
+        "21_2",
+        "22_2"
+      ],
+      "expected_micro_evidence": [
+        "T_R_5n",
+        "T_I_3n",
+        "T_I_6n",
+        "T_G_5n",
+        "T_E_15n",
+        "T_H_4n"
+      ],
+      "risk_pattern": "Stabile Formen erschweren situative Bewegung.",
+      "related_facet_ids": [
+        "Q3_1",
+        "Q3_2"
+      ],
+      "counterbalance_quadrant": "Q2",
+      "derivation_basis": "questions_answers_quicks",
+      "revision_note": "Revised after Gate-A Round-2 examiner: darkfacet content checked for within-model and cross-model specificity."
+    },
+    {
+      "id": "DQ3_4",
+      "name": "Moeglichkeitsarmut",
+      "meaning": "Zu wenig Offenheit für Neues",
+      "quadrant": "DQ3",
+      "type": "darkfacet",
+      "short_description": "Ordnung und Priorisierung blenden ungewohnte Optionen, Offenheit und analytische Weite aus.",
+      "model_rationale": "DQ3_4 ist aus einer eigenen Business-Fragebasis abgeleitet (17_3, 24_3, 1_1, 3_1, 7_1, 14_1) und beschreibt Moeglichkeitsarmut: Ordnung und Priorisierung blenden ungewohnte Optionen, Offenheit und analytische Weite aus. Gegenbalance: Q1.",
+      "question_basis": [
+        "17_3",
+        "24_3",
+        "1_1",
+        "3_1",
+        "7_1",
+        "14_1"
+      ],
+      "expected_micro_evidence": [
+        "V_F_1n",
+        "T_G_3n",
+        "T_I_6n",
+        "T_Q_8n",
+        "T_E_15n",
+        "T_I_4n"
+      ],
+      "risk_pattern": "Ordnung und Priorisierung blenden ungewohnte Optionen, Offenheit und analytische Weite aus.",
+      "related_facet_ids": [
+        "Q3_1",
+        "Q3_2"
+      ],
+      "counterbalance_quadrant": "Q1",
+      "derivation_basis": "questions_answers_quicks",
+      "revision_note": "Revised after Gate-A Round-3 examiner: within-dark-quadrant duplicate micro-evidence resolved."
+    },
+    {
+      "id": "DQ4_1",
+      "name": "Entscheidungsaufschub",
+      "meaning": "Entscheidungen aufschieben",
+      "quadrant": "DQ4",
+      "type": "darkfacet",
+      "short_description": "Differenzierte Pruefung verzoegert Festlegung und Handlung.",
+      "model_rationale": "DQ4_1 ist aus einer eigenen Fragebasis abgeleitet (1_4, 10_4, 4_2, 6_2, 11_2, 18_2) und beschreibt eine testnahe Spannungslesart: Differenzierte Pruefung verzoegert Festlegung und Handlung. Gegenbalance: Q2.",
+      "question_basis": [
+        "1_4",
+        "10_4",
+        "4_2",
+        "6_2",
+        "11_2",
+        "18_2"
+      ],
+      "expected_micro_evidence": [
+        "T_M_4p",
+        "T_D_1n",
+        "T_H_4n",
+        "T_E_11p",
+        "T_L_4p",
+        "D_E_3n"
+      ],
+      "risk_pattern": "Differenzierte Pruefung verzoegert Festlegung und Handlung.",
+      "related_facet_ids": [
+        "Q4_1",
+        "Q4_2"
+      ],
+      "counterbalance_quadrant": "Q2",
+      "derivation_basis": "questions_answers_quicks",
+      "revision_note": "Revised after Gate-A Round-2 examiner: darkfacet content checked for within-model and cross-model specificity."
+    },
+    {
+      "id": "DQ4_2",
+      "name": "Analysebindung",
+      "meaning": "In Analyse stecken bleiben",
+      "quadrant": "DQ4",
+      "type": "darkfacet",
+      "short_description": "Reflexion und Differenzierung bleiben aktiv, obwohl Festlegung, Bewegung und naechste Schritte moeglich waeren.",
+      "model_rationale": "DQ4_2 ist aus einer eigenen Business-Fragebasis abgeleitet (5_4, 8_4, 9_2, 10_2, 20_2, 22_2) und beschreibt Analysebindung: Reflexion und Differenzierung bleiben aktiv, obwohl Festlegung, Bewegung und naechste Schritte moeglich waeren. Gegenbalance: Q2.",
+      "question_basis": [
+        "5_4",
+        "8_4",
+        "9_2",
+        "10_2",
+        "20_2",
+        "22_2"
+      ],
+      "expected_micro_evidence": [
+        "T_E_11p",
+        "T_Q_8p",
+        "T_E_3p",
+        "T_L_1p",
+        "T_M_4p",
+        "T_D_1n"
+      ],
+      "risk_pattern": "Reflexion und Differenzierung bleiben aktiv, obwohl Festlegung, Bewegung und naechste Schritte moeglich waeren.",
+      "related_facet_ids": [
+        "Q4_1",
+        "Q4_2"
+      ],
+      "counterbalance_quadrant": "Q2",
+      "derivation_basis": "questions_answers_quicks",
+      "revision_note": "Revised after Gate-A Round-3 examiner: within-dark-quadrant duplicate micro-evidence resolved."
+    },
+    {
+      "id": "DQ4_3",
+      "name": "Formaufschub",
+      "meaning": "Klare Form vertagen",
+      "quadrant": "DQ4",
+      "type": "darkfacet",
+      "short_description": "Bedeutungspruefung verschiebt klare Strukturierung.",
+      "model_rationale": "DQ4_3 ist aus einer eigenen Fragebasis abgeleitet (6_4, 12_4, 2_3, 9_3, 14_3, 19_3) und beschreibt eine testnahe Spannungslesart: Bedeutungspruefung verschiebt klare Strukturierung. Gegenbalance: Q3.",
+      "question_basis": [
+        "6_4",
+        "12_4",
+        "2_3",
+        "9_3",
+        "14_3",
+        "19_3"
+      ],
+      "expected_micro_evidence": [
+        "T_F_2n",
+        "T_D_1n",
+        "T_J_1n",
+        "T_D_4n",
+        "T_E_3p",
+        "T_E_4p"
+      ],
+      "risk_pattern": "Bedeutungspruefung verschiebt klare Strukturierung.",
+      "related_facet_ids": [
+        "Q4_1",
+        "Q4_2"
+      ],
+      "counterbalance_quadrant": "Q3",
+      "derivation_basis": "questions_answers_quicks",
+      "revision_note": "Revised after Gate-A Round-2 examiner: darkfacet content checked for within-model and cross-model specificity."
+    },
+    {
+      "id": "DQ4_4",
+      "name": "Skepsisueberhang",
+      "meaning": "Zu vorsichtig mit Neuem",
+      "quadrant": "DQ4",
+      "type": "darkfacet",
+      "short_description": "Kritische Einordnung behandelt Moeglichkeiten zu vorsichtig.",
+      "model_rationale": "DQ4_4 ist aus einer eigenen Fragebasis abgeleitet (13_4, 18_4, 1_1, 7_1, 10_1, 21_1) und beschreibt eine testnahe Spannungslesart: Kritische Einordnung behandelt Moeglichkeiten zu vorsichtig. Gegenbalance: Q1.",
+      "question_basis": [
+        "13_4",
+        "18_4",
+        "1_1",
+        "7_1",
+        "10_1",
+        "21_1"
+      ],
+      "expected_micro_evidence": [
+        "T_E_16p",
+        "T_I_4n",
+        "T_G_3n",
+        "T_E_13p",
+        "T_L_4p",
+        "T_Q_1n"
+      ],
+      "risk_pattern": "Kritische Einordnung behandelt Moeglichkeiten zu vorsichtig.",
+      "related_facet_ids": [
+        "Q4_1",
+        "Q4_2"
+      ],
+      "counterbalance_quadrant": "Q1",
+      "derivation_basis": "questions_answers_quicks",
+      "revision_note": "Revised after Gate-A Round-2 examiner: darkfacet content checked for within-model and cross-model specificity."
+    }
+  ],
+  "updated_at": "2026-06-25T10:06:00Z",
+  "revision_status": "REVISED_AFTER_GATE_A_ROUND3_REVISE_FACETS"
+}

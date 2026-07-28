@@ -1,0 +1,644 @@
+{
+  "schema": "pna.model_results_basics.v1",
+  "task": "model_results",
+  "model_key": "change_biz",
+  "family": "change",
+  "language": "de",
+  "generated_at": "2026-07-03T13:30:24Z",
+  "wording_source": "canon/results/framework_result_wording.json",
+  "contract_source": "canon/results/model_results_contract.json",
+  "result_status": "generated_pending_review",
+  "source_integrity": {
+    "blocks": 24,
+    "quicks": 24,
+    "facets": 32,
+    "micro_blocks": 96,
+    "micro_quicks": 24,
+    "facet_blocks": 96,
+    "facet_quicks": 24
+  },
+  "runtime_resolution": {
+    "principle": "Basisbausteine liefern die Textquellen; konkrete resolved_result_keys werden deterministisch in der Auswertungsschicht berechnet.",
+    "balance_policy": "Keine Dominanz behaupten, wenn Werte innerhalb der Balance-Toleranz liegen.",
+    "role_policy": "Rollenprofile nur bei geordneter Primär- und Sekundärdominanz benachbarter Quadranten erzeugen; bei echter Balance oder gegenüberliegender Scheinordnung R0 verwenden.",
+    "base_result_key_count": 27
+  },
+  "carry_forward_limits": [
+    "Q4 quick-level underrepresentation remains documented.",
+    "S/Z asymmetry must not be interpreted as symmetric evidence.",
+    "test_context_only and diagnostic_only boundaries must remain intact."
+  ],
+  "results": {
+    "orientation": {
+      "X": {
+        "short": "Steuerung",
+        "aka": "Change",
+        "headline": "Orientierung über Steuerung",
+        "personal_text": "Bei dir steht Steuerung im beruflichen Veränderungskontext stärker im Vordergrund. Du erschließt Veränderung vor allem über Autonomie vs. Steuerung und suchst darin Orientierung.",
+        "external_text": "Die Ausrichtung zeigt eine stärkere Verdichtung auf Steuerung. Dieses Ergebnis beschreibt eine modellbezogene Orientierung, keine feste Eigenschaft.",
+        "description": "Diese Achse beschreibt, ob Veränderung eher über autonomen Freiraum und Eigeninitiative oder über koordinierende Steuerung, Zuständigkeit und Prozessklarheit gestaltet wird.",
+        "strength": "Macht sichtbar, welcher Zugang zu Veränderung zuerst Orientierung gibt.",
+        "risk": "Kann den zweiten Achsenpol zeitweise zu wenig berücksichtigen, wenn die Situation Ausgleich verlangt.",
+        "keywords": [
+          "Steuerung",
+          "Change",
+          "Orientierung"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn die X-Achse gegenüber der Y-Achse dominiert.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "Y": {
+        "short": "Wandel",
+        "aka": "Adapt",
+        "headline": "Orientierung über Wandel",
+        "personal_text": "Bei dir steht Wandel im beruflichen Veränderungskontext stärker im Vordergrund. Du erschließt Veränderung vor allem über Transformation vs. Stabilität und suchst darin Orientierung.",
+        "external_text": "Die Ausrichtung zeigt eine stärkere Verdichtung auf Wandel. Dieses Ergebnis beschreibt eine modellbezogene Orientierung, keine feste Eigenschaft.",
+        "description": "Diese Achse beschreibt, ob der Fokus im Wandel stärker auf aktiver Transformation und Erneuerung oder auf Stabilität, Kontinuität und Risikobegrenzung liegt.",
+        "strength": "Macht sichtbar, wie Entwicklung, Anpassung oder Stabilisierung gewichtet werden.",
+        "risk": "Kann den zweiten Achsenpol zeitweise zu wenig berücksichtigen, wenn die Situation Ausgleich verlangt.",
+        "keywords": [
+          "Wandel",
+          "Adapt",
+          "Orientierung"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn die Y-Achse gegenüber der X-Achse dominiert.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "XY": {
+        "short": "Balance der Achsen",
+        "aka": "Change-Adapt Balance",
+        "headline": "Veränderungszugänge ausbalancieren",
+        "personal_text": "Bei dir liegen Steuerung und Wandel im beruflichen Veränderungskontext nah beieinander. Du verbindest beide Perspektiven, ohne dass eine Achse allein führt.",
+        "external_text": "Die Ausrichtung zeigt eine Balance zwischen Steuerung und Wandel. Es wird keine Dominanz behauptet.",
+        "description": "Beschreibt eine annähernd ausgeglichene Achsenauswertung.",
+        "strength": "Kann unterschiedliche Anforderungen im Wandel gleichzeitig berücksichtigen.",
+        "risk": "Kann weniger eindeutig wirken, wenn eine klare Veränderungspriorität erwartet wird.",
+        "keywords": [
+          "Balance",
+          "Steuerung",
+          "Wandel"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn X und Y innerhalb der Balance-Toleranz liegen.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      }
+    },
+    "priorities": {
+      "W": {
+        "short": "Autonomie",
+        "aka": "autonom",
+        "headline": "Priorität Autonomie",
+        "personal_text": "Bei dir wird Autonomie im beruflichen Veränderungskontext besonders sichtbar. Steuerung bleibt anschlussfähig, steht aber nicht im Vordergrund dieses Ergebnisfalls.",
+        "external_text": "Die Person zeigt eine stärkere Priorität für Autonomie. Das beschreibt eine relative Gewichtung innerhalb des Change-Modells.",
+        "description": "Autonomie dominiert in der entsprechenden Richtungspaarung gegenüber Steuerung.",
+        "strength": "Autonomie kann Orientierung und Handlungsfähigkeit in Veränderung geben.",
+        "risk": "Eine einseitige Betonung von Autonomie kann die Gegenrichtung Steuerung zu wenig berücksichtigen.",
+        "keywords": [
+          "Autonomie",
+          "Steuerung",
+          "Priorität"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn Autonomie gegenüber Steuerung dominiert.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "E": {
+        "short": "Steuerung",
+        "aka": "steuernd",
+        "headline": "Priorität Steuerung",
+        "personal_text": "Bei dir wird Steuerung im beruflichen Veränderungskontext besonders sichtbar. Autonomie bleibt anschlussfähig, steht aber nicht im Vordergrund dieses Ergebnisfalls.",
+        "external_text": "Die Person zeigt eine stärkere Priorität für Steuerung. Das beschreibt eine relative Gewichtung innerhalb des Change-Modells.",
+        "description": "Steuerung dominiert in der entsprechenden Richtungspaarung gegenüber Autonomie.",
+        "strength": "Steuerung kann Orientierung und Handlungsfähigkeit in Veränderung geben.",
+        "risk": "Eine einseitige Betonung von Steuerung kann die Gegenrichtung Autonomie zu wenig berücksichtigen.",
+        "keywords": [
+          "Steuerung",
+          "Autonomie",
+          "Priorität"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn Steuerung gegenüber Autonomie dominiert.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "N": {
+        "short": "Transformation",
+        "aka": "transformierend",
+        "headline": "Priorität Transformation",
+        "personal_text": "Bei dir wird Transformation im beruflichen Veränderungskontext besonders sichtbar. Stabilität bleibt anschlussfähig, steht aber nicht im Vordergrund dieses Ergebnisfalls.",
+        "external_text": "Die Person zeigt eine stärkere Priorität für Transformation. Das beschreibt eine relative Gewichtung innerhalb des Change-Modells.",
+        "description": "Transformation dominiert in der entsprechenden Richtungspaarung gegenüber Stabilität.",
+        "strength": "Transformation kann Orientierung und Handlungsfähigkeit in Veränderung geben.",
+        "risk": "Eine einseitige Betonung von Transformation kann die Gegenrichtung Stabilität zu wenig berücksichtigen.",
+        "keywords": [
+          "Transformation",
+          "Stabilität",
+          "Priorität"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn Transformation gegenüber Stabilität dominiert.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "S": {
+        "short": "Stabilität",
+        "aka": "stabilisierend",
+        "headline": "Priorität Stabilität",
+        "personal_text": "Bei dir wird Stabilität im beruflichen Veränderungskontext besonders sichtbar. Transformation bleibt anschlussfähig, steht aber nicht im Vordergrund dieses Ergebnisfalls.",
+        "external_text": "Die Person zeigt eine stärkere Priorität für Stabilität. Das beschreibt eine relative Gewichtung innerhalb des Change-Modells.",
+        "description": "Stabilität dominiert in der entsprechenden Richtungspaarung gegenüber Transformation.",
+        "strength": "Stabilität kann Orientierung und Handlungsfähigkeit in Veränderung geben.",
+        "risk": "Eine einseitige Betonung von Stabilität kann die Gegenrichtung Transformation zu wenig berücksichtigen.",
+        "keywords": [
+          "Stabilität",
+          "Transformation",
+          "Priorität"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn Stabilität gegenüber Transformation dominiert.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "WE": {
+        "short": "Balance Autonomie und Steuerung",
+        "aka": "West-East Balance",
+        "headline": "Autonomie und Steuerung ausbalancieren",
+        "personal_text": "Bei dir liegen Autonomie und Steuerung im beruflichen Veränderungskontext nah beieinander. Du kannst beide Richtungen berücksichtigen, ohne eine als allein führend zu setzen.",
+        "external_text": "Dieses Ergebnis beschreibt eine Balance zwischen Autonomie und Steuerung ohne Richtungsdominanz.",
+        "description": "Annähernd ausgeglichene Richtungsauswertung im W/E-Paar.",
+        "strength": "Ermöglicht Vermittlung zwischen beiden Veränderungsrichtungen.",
+        "risk": "Kann bei Entscheidungsdruck weniger eindeutig erscheinen.",
+        "keywords": [
+          "Autonomie",
+          "Steuerung",
+          "Balance"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn W und E innerhalb der Balance-Toleranz liegen.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "NS": {
+        "short": "Balance Transformation und Stabilität",
+        "aka": "North-South Balance",
+        "headline": "Transformation und Stabilität ausbalancieren",
+        "personal_text": "Bei dir liegen Transformation und Stabilität im beruflichen Veränderungskontext nah beieinander. Du kannst beide Richtungen berücksichtigen, ohne eine als allein führend zu setzen.",
+        "external_text": "Dieses Ergebnis beschreibt eine Balance zwischen Transformation und Stabilität ohne Richtungsdominanz.",
+        "description": "Annähernd ausgeglichene Richtungsauswertung im N/S-Paar.",
+        "strength": "Ermöglicht Vermittlung zwischen Entwicklung und Stabilisierung.",
+        "risk": "Kann bei starkem Tempo- oder Sicherheitsdruck weniger eindeutig erscheinen.",
+        "keywords": [
+          "Transformation",
+          "Stabilität",
+          "Balance"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn N und S innerhalb der Balance-Toleranz liegen.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      }
+    },
+    "impact_space": {
+      "Q1": {
+        "short": "Der Pionier",
+        "aka": "Pioneer",
+        "headline": "Der Pionier (Pionier)",
+        "personal_text": "Bei dir bündelt sich die Ausrichtung im beruflichen Veränderungskontext im Wirkungsraum Der Pionier (Pionier). Autonom und transformationsorientiert; öffnet neue Möglichkeiten, testet Alternativen und bringt frühe Impulse in Veränderungsprozesse ein.",
+        "external_text": "Die Ausrichtung verdichtet sich im Wirkungsraum Der Pionier (Pionier). Das beschreibt eine Modellperspektive, keinen Typ.",
+        "description": "Der Pionier bezeichnet den Ergebnisraum; Pionier bezeichnet den zugehörigen Rollenstil. Autonom und transformationsorientiert; öffnet neue Möglichkeiten, testet Alternativen und bringt frühe Impulse in Veränderungsprozesse ein.",
+        "strength": "Ideenreich, initiativ, experimentierfreudig",
+        "risk": "Kann bei Überbetonung Koordination, Anschlussfähigkeit oder Skalierung zu wenig berücksichtigen",
+        "keywords": [
+          "Der Pionier",
+          "Pionier",
+          "Pioneer",
+          "Q1"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn Q1 der stärkste Wirkungsraum ist.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "Q2": {
+        "short": "Der Transformator",
+        "aka": "Transformer",
+        "headline": "Der Transformator (Transformator)",
+        "personal_text": "Bei dir bündelt sich die Ausrichtung im beruflichen Veränderungskontext im Wirkungsraum Der Transformator (Transformator). Steuernd und transformationsorientiert; übersetzt Veränderung in Prioritäten, Programme und koordinierte Umsetzung.",
+        "external_text": "Die Ausrichtung verdichtet sich im Wirkungsraum Der Transformator (Transformator). Das beschreibt eine Modellperspektive, keinen Typ.",
+        "description": "Der Transformator bezeichnet den Ergebnisraum; Transformator bezeichnet den zugehörigen Rollenstil. Steuernd und transformationsorientiert; übersetzt Veränderung in Prioritäten, Programme und koordinierte Umsetzung.",
+        "strength": "Richtungsgebend, umsetzungsstark, mobilisierend",
+        "risk": "Kann bei Überbetonung Beteiligung, Lernschleifen oder lokale Unterschiede zu wenig einbeziehen",
+        "keywords": [
+          "Der Transformator",
+          "Transformator",
+          "Transformer",
+          "Q2"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn Q2 der stärkste Wirkungsraum ist.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "Q3": {
+        "short": "Der Stabilisator",
+        "aka": "Stabilizer",
+        "headline": "Der Stabilisator (Stabilisierer)",
+        "personal_text": "Bei dir bündelt sich die Ausrichtung im beruflichen Veränderungskontext im Wirkungsraum Der Stabilisator (Stabilisierer). Steuernd und stabilitätsorientiert; sichert Prozesse, reduziert Risiken und schützt operative Qualität während Veränderung.",
+        "external_text": "Die Ausrichtung verdichtet sich im Wirkungsraum Der Stabilisator (Stabilisierer). Das beschreibt eine Modellperspektive, keinen Typ.",
+        "description": "Der Stabilisator bezeichnet den Ergebnisraum; Stabilisierer bezeichnet den zugehörigen Rollenstil. Steuernd und stabilitätsorientiert; sichert Prozesse, reduziert Risiken und schützt operative Qualität während Veränderung.",
+        "strength": "Verlässlich, strukturiert, qualitätssichernd",
+        "risk": "Kann bei Überbetonung Neuerungen verzögern oder bestehende Verfahren zu stark absichern",
+        "keywords": [
+          "Der Stabilisator",
+          "Stabilisierer",
+          "Stabilizer",
+          "Q3"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn Q3 der stärkste Wirkungsraum ist.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "Q4": {
+        "short": "Der Change-Mentor",
+        "aka": "Guardian",
+        "headline": "Der Change-Mentor (Bewahrer)",
+        "personal_text": "Bei dir bündelt sich die Ausrichtung im beruflichen Veränderungskontext im Wirkungsraum Der Change-Mentor (Bewahrer). Autonom und stabilitätsorientiert; prüft Veränderung unabhängig, erkennt langfristige Zusammenhänge und integriert Wandel mit Erfahrung und kultureller Kontinuität.",
+        "external_text": "Die Ausrichtung verdichtet sich im Wirkungsraum Der Change-Mentor (Bewahrer). Das beschreibt eine Modellperspektive, keinen Typ.",
+        "description": "Der Change-Mentor bezeichnet den Ergebnisraum; Bewahrer bezeichnet den zugehörigen Rollenstil. Autonom und stabilitätsorientiert; prüft Veränderung unabhängig, erkennt langfristige Zusammenhänge und integriert Wandel mit Erfahrung und kultureller Kontinuität.",
+        "strength": "Besonnen, unabhängig, integrierend",
+        "risk": "Kann bei Überbetonung zu lange prüfen, sich abgrenzen oder Aktivierung verzögern",
+        "keywords": [
+          "Der Change-Mentor",
+          "Bewahrer",
+          "Guardian",
+          "Q4"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn Q4 der stärkste Wirkungsraum ist.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "Q12": {
+        "short": "Der Pionier und Der Transformator in Balance",
+        "aka": "Pioneer-Transformer Balance",
+        "headline": "Der Pionier und Der Transformator ausbalanciert",
+        "personal_text": "Bei dir tragen die Wirkungsräume Der Pionier und Der Transformator gemeinsam. Keine der beiden Perspektiven wird als führend formuliert.",
+        "external_text": "Die Person zeigt eine Balance zwischen den Wirkungsräume Der Pionier und Der Transformator. Es wird keine Primärdominanz behauptet.",
+        "description": "Q12 beschreibt eine ungeordnete Balance der benachbarten Wirkungsräume Q1 und Q2.",
+        "strength": "Verbindet Ideenreich, initiativ, experimentierfreudig mit Richtungsgebend, umsetzungsstark, mobilisierend.",
+        "risk": "Kann weniger eindeutig wirken, ist aber fachlich sauberer als eine erzwungene Quadrantendominanz.",
+        "keywords": [
+          "Q12",
+          "Der Pionier",
+          "Der Transformator",
+          "Balance"
+        ],
+        "interpretation_rule": "Als Balance zwischen Q1 und Q2 interpretieren; keine Primärdominanz und kein Rollenprofil daraus ableiten.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "Q14": {
+        "short": "Der Pionier und Der Change-Mentor in Balance",
+        "aka": "Pioneer-Guardian Balance",
+        "headline": "Der Pionier und Der Change-Mentor ausbalanciert",
+        "personal_text": "Bei dir tragen die Wirkungsräume Der Pionier und Der Change-Mentor gemeinsam. Keine der beiden Perspektiven wird als führend formuliert.",
+        "external_text": "Die Person zeigt eine Balance zwischen den Wirkungsräume Der Pionier und Der Change-Mentor. Es wird keine Primärdominanz behauptet.",
+        "description": "Q14 beschreibt eine ungeordnete Balance der benachbarten Wirkungsräume Q1 und Q4.",
+        "strength": "Verbindet Ideenreich, initiativ, experimentierfreudig mit Besonnen, unabhängig, integrierend.",
+        "risk": "Kann weniger eindeutig wirken, ist aber fachlich sauberer als eine erzwungene Quadrantendominanz.",
+        "keywords": [
+          "Q14",
+          "Der Pionier",
+          "Der Change-Mentor",
+          "Balance"
+        ],
+        "interpretation_rule": "Als Balance zwischen Q1 und Q4 interpretieren; keine Primärdominanz und kein Rollenprofil daraus ableiten.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "Q23": {
+        "short": "Der Transformator und Der Stabilisator in Balance",
+        "aka": "Transformer-Stabilizer Balance",
+        "headline": "Der Transformator und Der Stabilisator ausbalanciert",
+        "personal_text": "Bei dir tragen die Wirkungsräume Der Transformator und Der Stabilisator gemeinsam. Keine der beiden Perspektiven wird als führend formuliert.",
+        "external_text": "Die Person zeigt eine Balance zwischen den Wirkungsräume Der Transformator und Der Stabilisator. Es wird keine Primärdominanz behauptet.",
+        "description": "Q23 beschreibt eine ungeordnete Balance der benachbarten Wirkungsräume Q2 und Q3.",
+        "strength": "Verbindet Richtungsgebend, umsetzungsstark, mobilisierend mit Verlässlich, strukturiert, qualitätssichernd.",
+        "risk": "Kann weniger eindeutig wirken, ist aber fachlich sauberer als eine erzwungene Quadrantendominanz.",
+        "keywords": [
+          "Q23",
+          "Der Transformator",
+          "Der Stabilisator",
+          "Balance"
+        ],
+        "interpretation_rule": "Als Balance zwischen Q2 und Q3 interpretieren; keine Primärdominanz und kein Rollenprofil daraus ableiten.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "Q34": {
+        "short": "Der Stabilisator und Der Change-Mentor in Balance",
+        "aka": "Stabilizer-Guardian Balance",
+        "headline": "Der Stabilisator und Der Change-Mentor ausbalanciert",
+        "personal_text": "Bei dir tragen die Wirkungsräume Der Stabilisator und Der Change-Mentor gemeinsam. Keine der beiden Perspektiven wird als führend formuliert.",
+        "external_text": "Die Person zeigt eine Balance zwischen den Wirkungsräume Der Stabilisator und Der Change-Mentor. Es wird keine Primärdominanz behauptet.",
+        "description": "Q34 beschreibt eine ungeordnete Balance der benachbarten Wirkungsräume Q3 und Q4.",
+        "strength": "Verbindet Verlässlich, strukturiert, qualitätssichernd mit Besonnen, unabhängig, integrierend.",
+        "risk": "Kann weniger eindeutig wirken, ist aber fachlich sauberer als eine erzwungene Quadrantendominanz.",
+        "keywords": [
+          "Q34",
+          "Der Stabilisator",
+          "Der Change-Mentor",
+          "Balance"
+        ],
+        "interpretation_rule": "Als Balance zwischen Q3 und Q4 interpretieren; keine Primärdominanz und kein Rollenprofil daraus ableiten.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "Q0": {
+        "short": "Ausgewogener Wirkungsraum",
+        "aka": "Balanced Impact Space",
+        "headline": "Mehrere Veränderungsräume sind aktiv",
+        "personal_text": "Bei dir verteilt sich die Veränderungsausrichtung auf mehrere Wirkungsräume. Das ist kein schwaches Ergebnis, sondern eine breite Nutzung verschiedener Perspektiven.",
+        "external_text": "Dieses Ergebnis beschreibt eine ausgewogene Nutzung mehrerer Quadranten ohne eindeutige Dominanz.",
+        "description": "Q0 beschreibt eine annähernd ausgewogene Nutzung mehrerer Wirkungsräume; bei vollständigem Gleichstand aller vier Halbachsen greift stattdessen XY_BALANCED.",
+        "strength": "Kann unterschiedliche Anforderungen im Wandel gleichzeitig integrieren.",
+        "risk": "Kann weniger schnell auf einen einzelnen Veränderungsmodus verdichten.",
+        "keywords": [
+          "Wirkungsraum",
+          "Balance",
+          "Q0"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn kein einzelner oder paarweiser Wirkungsraum dominant ist und kein vollständiger Halbachsen-Gleichstand W=E=N=S vorliegt.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis",
+          "vollständige Halbachsen-Balance W=E=N=S"
+        ]
+      }
+    },
+    "role_profile": {
+      "R0": {
+        "short": "Kein geordnetes Rollenprofil",
+        "aka": "Role Layer Null Case",
+        "headline": "Keine tragfähige Rollenordnung",
+        "personal_text": "Bei dir lässt sich aus der Veränderungsausrichtung kein tragfähiges primäres und sekundäres Rollenprofil ableiten. Die Auswertung bleibt deshalb beim Wirkungsraum und erzeugt kein Facettenspektrum.",
+        "external_text": "Die Rollenebene zeigt R0 als sichtbaren Balance- oder Nullfall. Das ist kein Rollenprofil und keine Schwäche.",
+        "description": "R0 wird verwendet, wenn keine geordnete Primär-/Sekundärdominanz tragfähig ableitbar ist.",
+        "strength": "Verhindert eine Scheingenauigkeit bei echter Balance oder breiter Verteilung.",
+        "risk": "Kann weniger eindeutig wirken, ist aber fachlich sauberer als ein erzwungener Rollenkey.",
+        "keywords": [
+          "R0",
+          "Balance",
+          "Rollenebene"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn keine tragfähige geordnete Primär-/Sekundärdominanz ableitbar ist; bei R0 kein Facettenspektrum erzeugen.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "R12": {
+        "short": "Pionier mit Transformator-Anteil",
+        "aka": "Pionier-Transformator",
+        "headline": "Pionier führt, Transformator ergänzt",
+        "personal_text": "Bei dir führt im Rollenprofil Pionier. Transformator ergänzt diese Ausrichtung als zweite Kraft. Dadurch entsteht kein fixer Typ, sondern eine funktionale Veränderungslogik im beruflichen Veränderungskontext.",
+        "external_text": "Das Rollenprofil zeigt Pionier als primäre und Transformator als sekundäre Verdichtung.",
+        "description": "Geordnete Rollenlogik aus primärem Quadranten Q1 und sekundärem Quadranten Q2.",
+        "strength": "Verbindet die Stärke von Pionier mit einer ergänzenden Perspektive aus Transformator.",
+        "risk": "Kann unausgewogen wirken, wenn die sekundäre Perspektive zu wenig bewusst integriert wird.",
+        "keywords": [
+          "R12",
+          "Pionier",
+          "Transformator"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn Primär- und Sekundärquadrant eindeutig geordnet sind; bei echter Balance Rolle unterdrücken.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "R14": {
+        "short": "Pionier mit Bewahrer-Anteil",
+        "aka": "Pionier-Bewahrer",
+        "headline": "Pionier führt, Bewahrer ergänzt",
+        "personal_text": "Bei dir führt im Rollenprofil Pionier. Bewahrer ergänzt diese Ausrichtung als zweite Kraft. Dadurch entsteht kein fixer Typ, sondern eine funktionale Veränderungslogik im beruflichen Veränderungskontext.",
+        "external_text": "Das Rollenprofil zeigt Pionier als primäre und Bewahrer als sekundäre Verdichtung.",
+        "description": "Geordnete Rollenlogik aus primärem Quadranten Q1 und sekundärem Quadranten Q4.",
+        "strength": "Verbindet die Stärke von Pionier mit einer ergänzenden Perspektive aus Bewahrer.",
+        "risk": "Kann unausgewogen wirken, wenn die sekundäre Perspektive zu wenig bewusst integriert wird.",
+        "keywords": [
+          "R14",
+          "Pionier",
+          "Bewahrer"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn Primär- und Sekundärquadrant eindeutig geordnet sind; bei echter Balance Rolle unterdrücken.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "R21": {
+        "short": "Transformator mit Pionier-Anteil",
+        "aka": "Transformator-Pionier",
+        "headline": "Transformator führt, Pionier ergänzt",
+        "personal_text": "Bei dir führt im Rollenprofil Transformator. Pionier ergänzt diese Ausrichtung als zweite Kraft. Dadurch entsteht kein fixer Typ, sondern eine funktionale Veränderungslogik im beruflichen Veränderungskontext.",
+        "external_text": "Das Rollenprofil zeigt Transformator als primäre und Pionier als sekundäre Verdichtung.",
+        "description": "Geordnete Rollenlogik aus primärem Quadranten Q2 und sekundärem Quadranten Q1.",
+        "strength": "Verbindet die Stärke von Transformator mit einer ergänzenden Perspektive aus Pionier.",
+        "risk": "Kann unausgewogen wirken, wenn die sekundäre Perspektive zu wenig bewusst integriert wird.",
+        "keywords": [
+          "R21",
+          "Transformator",
+          "Pionier"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn Primär- und Sekundärquadrant eindeutig geordnet sind; bei echter Balance Rolle unterdrücken.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "R23": {
+        "short": "Transformator mit Stabilisierer-Anteil",
+        "aka": "Transformator-Stabilisierer",
+        "headline": "Transformator führt, Stabilisierer ergänzt",
+        "personal_text": "Bei dir führt im Rollenprofil Transformator. Stabilisierer ergänzt diese Ausrichtung als zweite Kraft. Dadurch entsteht kein fixer Typ, sondern eine funktionale Veränderungslogik im beruflichen Veränderungskontext.",
+        "external_text": "Das Rollenprofil zeigt Transformator als primäre und Stabilisierer als sekundäre Verdichtung.",
+        "description": "Geordnete Rollenlogik aus primärem Quadranten Q2 und sekundärem Quadranten Q3.",
+        "strength": "Verbindet die Stärke von Transformator mit einer ergänzenden Perspektive aus Stabilisierer.",
+        "risk": "Kann unausgewogen wirken, wenn die sekundäre Perspektive zu wenig bewusst integriert wird.",
+        "keywords": [
+          "R23",
+          "Transformator",
+          "Stabilisierer"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn Primär- und Sekundärquadrant eindeutig geordnet sind; bei echter Balance Rolle unterdrücken.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "R32": {
+        "short": "Stabilisierer mit Transformator-Anteil",
+        "aka": "Stabilisierer-Transformator",
+        "headline": "Stabilisierer führt, Transformator ergänzt",
+        "personal_text": "Bei dir führt im Rollenprofil Stabilisierer. Transformator ergänzt diese Ausrichtung als zweite Kraft. Dadurch entsteht kein fixer Typ, sondern eine funktionale Veränderungslogik im beruflichen Veränderungskontext.",
+        "external_text": "Das Rollenprofil zeigt Stabilisierer als primäre und Transformator als sekundäre Verdichtung.",
+        "description": "Geordnete Rollenlogik aus primärem Quadranten Q3 und sekundärem Quadranten Q2.",
+        "strength": "Verbindet die Stärke von Stabilisierer mit einer ergänzenden Perspektive aus Transformator.",
+        "risk": "Kann unausgewogen wirken, wenn die sekundäre Perspektive zu wenig bewusst integriert wird.",
+        "keywords": [
+          "R32",
+          "Stabilisierer",
+          "Transformator"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn Primär- und Sekundärquadrant eindeutig geordnet sind; bei echter Balance Rolle unterdrücken.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "R34": {
+        "short": "Stabilisierer mit Bewahrer-Anteil",
+        "aka": "Stabilisierer-Bewahrer",
+        "headline": "Stabilisierer führt, Bewahrer ergänzt",
+        "personal_text": "Bei dir führt im Rollenprofil Stabilisierer. Bewahrer ergänzt diese Ausrichtung als zweite Kraft. Dadurch entsteht kein fixer Typ, sondern eine funktionale Veränderungslogik im beruflichen Veränderungskontext.",
+        "external_text": "Das Rollenprofil zeigt Stabilisierer als primäre und Bewahrer als sekundäre Verdichtung.",
+        "description": "Geordnete Rollenlogik aus primärem Quadranten Q3 und sekundärem Quadranten Q4.",
+        "strength": "Verbindet die Stärke von Stabilisierer mit einer ergänzenden Perspektive aus Bewahrer.",
+        "risk": "Kann unausgewogen wirken, wenn die sekundäre Perspektive zu wenig bewusst integriert wird.",
+        "keywords": [
+          "R34",
+          "Stabilisierer",
+          "Bewahrer"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn Primär- und Sekundärquadrant eindeutig geordnet sind; bei echter Balance Rolle unterdrücken.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "R41": {
+        "short": "Bewahrer mit Pionier-Anteil",
+        "aka": "Bewahrer-Pionier",
+        "headline": "Bewahrer führt, Pionier ergänzt",
+        "personal_text": "Bei dir führt im Rollenprofil Bewahrer. Pionier ergänzt diese Ausrichtung als zweite Kraft. Dadurch entsteht kein fixer Typ, sondern eine funktionale Veränderungslogik im beruflichen Veränderungskontext.",
+        "external_text": "Das Rollenprofil zeigt Bewahrer als primäre und Pionier als sekundäre Verdichtung.",
+        "description": "Geordnete Rollenlogik aus primärem Quadranten Q4 und sekundärem Quadranten Q1.",
+        "strength": "Verbindet die Stärke von Bewahrer mit einer ergänzenden Perspektive aus Pionier.",
+        "risk": "Kann unausgewogen wirken, wenn die sekundäre Perspektive zu wenig bewusst integriert wird.",
+        "keywords": [
+          "R41",
+          "Bewahrer",
+          "Pionier"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn Primär- und Sekundärquadrant eindeutig geordnet sind; bei echter Balance Rolle unterdrücken.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "R43": {
+        "short": "Bewahrer mit Stabilisierer-Anteil",
+        "aka": "Bewahrer-Stabilisierer",
+        "headline": "Bewahrer führt, Stabilisierer ergänzt",
+        "personal_text": "Bei dir führt im Rollenprofil Bewahrer. Stabilisierer ergänzt diese Ausrichtung als zweite Kraft. Dadurch entsteht kein fixer Typ, sondern eine funktionale Veränderungslogik im beruflichen Veränderungskontext.",
+        "external_text": "Das Rollenprofil zeigt Bewahrer als primäre und Stabilisierer als sekundäre Verdichtung.",
+        "description": "Geordnete Rollenlogik aus primärem Quadranten Q4 und sekundärem Quadranten Q3.",
+        "strength": "Verbindet die Stärke von Bewahrer mit einer ergänzenden Perspektive aus Stabilisierer.",
+        "risk": "Kann unausgewogen wirken, wenn die sekundäre Perspektive zu wenig bewusst integriert wird.",
+        "keywords": [
+          "R43",
+          "Bewahrer",
+          "Stabilisierer"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn Primär- und Sekundärquadrant eindeutig geordnet sind; bei echter Balance Rolle unterdrücken.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      }
+    }
+  }
+}

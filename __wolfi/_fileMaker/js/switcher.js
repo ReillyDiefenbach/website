@@ -7,6 +7,7 @@
     const allowedValues = new Set(['personal', 'business']);
     let resizeFrame = 0;
     let resizeObserver = null;
+    let sectionTransitionId = 0;
 
     function normalize(value) {
         return allowedValues.has(value) ? value : null;
@@ -59,6 +60,73 @@
         resizeFrame = window.requestAnimationFrame(positionAll);
     }
 
+    function getSections() {
+        return Array.from(document.querySelectorAll('main[data-section]'))
+            .filter(section => normalize(section.dataset.section));
+    }
+
+    function setSectionVisibility(section, visible) {
+        section.classList.remove('is-fading-out', 'is-fading-in');
+        section.hidden = !visible;
+        section.setAttribute('aria-hidden', String(!visible));
+    }
+
+    function waitForFadeOut(section) {
+        return new Promise(resolve => {
+            let complete = false;
+            const finish = () => {
+                if (complete) return;
+                complete = true;
+                section.removeEventListener('transitionend', onTransitionEnd);
+                window.clearTimeout(timeout);
+                resolve();
+            };
+            const onTransitionEnd = event => {
+                if (event.target === section && event.propertyName === 'opacity') finish();
+            };
+            const timeout = window.setTimeout(finish, 320);
+
+            section.addEventListener('transitionend', onTransitionEnd);
+        });
+    }
+
+    async function switchSections(value, animate) {
+        const sections = getSections();
+        if (!sections.length) return;
+
+        const transitionId = ++sectionTransitionId;
+        const targets = sections.filter(section => section.dataset.section === value);
+        if (!targets.length) return;
+
+        if (!animate || window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+            sections.forEach(section => setSectionVisibility(section, targets.includes(section)));
+            return;
+        }
+
+        const outgoing = sections.filter(section => !section.hidden && !targets.includes(section));
+        outgoing.forEach(section => section.classList.add('is-fading-out'));
+
+        if (outgoing.length) {
+            await Promise.all(outgoing.map(waitForFadeOut));
+            if (transitionId !== sectionTransitionId) return;
+            outgoing.forEach(section => setSectionVisibility(section, false));
+        }
+
+        targets.forEach(section => {
+            section.hidden = false;
+            section.setAttribute('aria-hidden', 'false');
+            section.classList.remove('is-fading-out');
+            section.classList.add('is-fading-in');
+        });
+
+        window.requestAnimationFrame(() => {
+            window.requestAnimationFrame(() => {
+                if (transitionId !== sectionTransitionId) return;
+                targets.forEach(section => section.classList.remove('is-fading-in'));
+            });
+        });
+    }
+
     function setValue(value, options = {}) {
         const nextValue = normalize(value);
         if (!nextValue) return false;
@@ -73,6 +141,8 @@
         stateRoots.forEach(root => {
             root.dataset.switched = nextValue;
         });
+
+        switchSections(nextValue, options.animate !== false && previousValue !== nextValue);
 
         getSwitchers(document).forEach(switcher => {
             switcher.querySelectorAll(':scope > [data-switch]').forEach(option => {
@@ -154,7 +224,7 @@
         switchers.forEach(switcher => {
             ensureSlider(switcher);
             switcher.setAttribute('role', 'group');
-            switcher.setAttribute('aria-label', switcher.getAttribute('aria-label') || 'Ansicht wählen');
+            switcher.setAttribute('aria-label', switcher.getAttribute('aria-label') || 'Choose view');
             switcher.querySelectorAll(':scope > [data-switch]').forEach(option => {
                 bindOption(option);
                 resizeObserver?.observe(option);
@@ -162,7 +232,7 @@
             resizeObserver?.observe(switcher);
         });
 
-        setValue(getInitialValue(switchers), { persist: false, emit: false });
+        setValue(getInitialValue(switchers), { persist: false, emit: false, animate: false });
         document.fonts?.ready.then(requestPosition);
     }
 

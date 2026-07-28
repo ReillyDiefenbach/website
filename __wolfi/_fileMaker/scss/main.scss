@@ -1,6 +1,33 @@
 @import "variables";
+
+code.boxed {
+  margin: 0 5px;
+  padding: 3px;
+  border: 1px solid #bbb;
+  border-radius: 5px;
+  background: #f8f8f8;
+}
+
+code.dark {
+  margin: 0 5px;
+  padding: 3px;
+  border: 1px solid #444;
+  border-radius: 5px;
+  background: #444;
+  color: #fff;
+}
+
+ul.no_style {
+  list-style: none;
+}
+
 @import "headermenu";
 @import "knowledge";
 @import "super_spy";
 @import "switcher";
 @import "navsection";
+@import "picture-flow";
+@import "factsheet";
+@import "legal";
+@import "pricing";
+@import "print";

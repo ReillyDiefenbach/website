@@ -15,6 +15,359 @@
     align-self: start;
 }
 
+.symbolResultTableWrap {
+    overflow-x: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.symbolResultTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.symbolResultTable th,
+.symbolResultTable td {
+    padding: 12px 14px;
+    vertical-align: middle;
+    border-bottom: 1px solid #ccc;
+}
+
+.symbolResultTable thead th,
+.symbolResultTable__key,
+.symbolResultTable__symbol {
+    text-align: center;
+}
+
+.symbolResultTable thead th:last-child,
+.symbolResultTable__description {
+    text-align: left;
+}
+
+.symbolResultTable__key {
+    width: 46px;
+}
+
+.symbolResultTable__symbol {
+    width: 145px;
+}
+
+.symbolResultTable__symbol img {
+    display: block;
+    width: auto;
+    margin: 0 auto;
+}
+
+img.h_25 {
+    width: auto;
+    height: 25px;
+}
+
+img.h_30 {
+    width: auto;
+    height: 30px;
+}
+
+.mx-3 {
+    margin-right: 3px;
+    margin-left: 3px;
+}
+
+.mx-5 {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.mx-10 {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.symbolResultTable--moduleOverview th,
+.symbolResultTable--moduleOverview td {
+    padding: 7px 15px;
+    text-align: left !important;
+}
+
+.symbolResultTable--moduleOverview .symbolResultTable__symbol {
+    width: 25px;
+    min-width: 25px;
+    max-width: 25px;
+}
+
+.symbolResultTable--moduleOverview code {
+    padding: 0;
+    border: 0;
+    background: none;
+    color: inherit;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.symbolResultTable__footnotedSymbol,
+.symbolResultFootnote__symbol {
+    display: inline-flex;
+    align-items: flex-start;
+}
+
+.symbolResultTable__footnotedSymbol sup,
+.symbolResultFootnote__symbol sup {
+    margin-left: -3px;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1;
+}
+
+.symbolResultFootnote {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.symbolResultFootnote__symbol {
+    flex: 0 0 auto;
+}
+
+.symbolResultTable--axisDrive .symbolResultTable__key,
+.symbolResultTable--impact .symbolResultTable__key {
+    width: 1%;
+    white-space: nowrap;
+}
+
+.symbolResultTable--axisDrive .symbolResultTable__symbol img {
+    width: auto;
+    height: 30px;
+}
+
+.symbolResultTable--impact .symbolResultTable__symbol img {
+    width: auto;
+    height: 60px;
+}
+
+.symbolResultTable--resultDetails .symbolResultTable__symbol {
+    width: 170px;
+    min-width: 170px;
+    padding-top: 20px;
+    vertical-align: top;
+    text-align: center;
+}
+
+.symbolResultIdentity {
+    display: inline-grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    width: 100%;
+}
+
+.symbolResultIdentity .symbolResultKey {
+    align-self: center;
+    justify-self: center;
+}
+
+.symbolResultIdentity img {
+    justify-self: center;
+    margin: 0;
+}
+
+.facetGroupTable + .facetGroupTable {
+    margin-top: 32px;
+}
+
+.facetGroupTable th,
+.facetGroupTable td {
+    vertical-align: top;
+    text-align: left;
+}
+
+.facetGroupTable thead th {
+    vertical-align: middle;
+    text-align: left;
+}
+
+.facetGroupTable .facetGroupTable__facet {
+    width: 30%;
+    min-width: 220px;
+}
+
+.facetGroupTable__heading {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.facetGroupTable__heading img {
+    display: block;
+    width: auto;
+    height: 40px;
+    margin: 0;
+}
+
+.facetTextGroups {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.facetTextGroup + .facetTextGroup {
+    margin-top: 38px;
+}
+
+.facetTextGroup__heading {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin: 0 0 20px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #ccc;
+    font-weight: bold;
+}
+
+.facetTextGroup__heading img {
+    display: block;
+    width: auto;
+    height: 40px;
+    margin: 0;
+}
+
+.facetTextGroup__labels {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    line-height: 1.2;
+}
+
+.facetTextGroup__general {
+    margin-top: 3px;
+    font-weight: 100;
+}
+
+.facetTextItem + .facetTextItem {
+    margin-top: 20px;
+}
+
+.facetTextItem__title {
+    margin: 0;
+}
+
+.facetTextItem__description {
+    margin: 7px 0 0;
+    padding-left: clamp(20px, 4vw, 48px);
+}
+
+@media (max-width: 767px) {
+    .symbolResultTable--resultDetails .symbolResultTable__symbol {
+        display: none;
+    }
+
+    .facetGroupTable,
+    .facetGroupTable thead,
+    .facetGroupTable tbody,
+    .facetGroupTable tr,
+    .facetGroupTable th,
+    .facetGroupTable td {
+        display: block;
+        box-sizing: border-box;
+        width: 100%;
+        min-width: 0;
+    }
+
+    .facetGroupTable thead th:last-child {
+        display: none;
+    }
+
+    .facetGroupTable .facetGroupTable__facet {
+        width: 100%;
+        min-width: 0;
+    }
+
+    .facetGroupTable tbody th {
+        padding-bottom: 4px;
+        border-bottom: 0;
+    }
+
+    .facetGroupTable tbody td {
+        padding-top: 4px;
+    }
+}
+
+.symbolResultKey {
+    display: inline-block;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    transform: rotate(180deg);
+    white-space: nowrap;
+    letter-spacing: .06em;
+}
+
+.symbolWrapperList {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 534px;
+    justify-content: center;
+    align-items: stretch;
+    gap: 18px;
+    margin: 18px auto 24px;
+}
+
+.symbolWrapper {
+    box-sizing: border-box;
+    display: grid;
+    width: 100px;
+    height: 100px;
+    aspect-ratio: 1;
+    padding: 12px;
+    place-items: center;
+    align-content: space-between;
+    grid-template-rows: auto 1fr auto;
+    border: 1px solid rgba(0, 0, 0, .18);
+    border-radius: 7px;
+    background: #f8f8f8;
+    text-align: center;
+}
+
+.symbolWrapper.active {
+    background: #bbb;
+}
+
+.symbolWrapper .symbolBefore,
+.symbolWrapper .symbolAfter {
+    overflow: hidden;
+    width: 100%;
+    min-width: 0;
+    max-width: 100%;
+    margin: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    font-size: 13px;
+    font-weight: var(--font-weight-bold, 700);
+    line-height: 1;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.symbolWrapper .symbolImage {
+    display: block;
+    width: auto;
+    max-width: 100%;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    align-self: center;
+}
+
+@media (max-width: 620px) {
+    .symbolWrapperList {
+        gap: 12px;
+    }
+
+    .symbolWrapper {
+        width: min(100px, calc(50vw - 30px));
+        height: min(100px, calc(50vw - 30px));
+    }
+}
+
 @media (min-width: 768px) {
     .fixed-cols--2,
     .fixed-cols--3 {

@@ -1,0 +1,91 @@
+{
+  "bios": {
+    "title": "Biosphere",
+    "aka": "Biosphere Model of Personality",
+    "time": "10",
+    "dimensions": "Biological, psychological, and social levels of personality",
+    "aim": "Capturing the interactions between biological, psychological, and social factors influencing personality",
+    "method": "Holistic analysis based on self and peer assessments as well as external influences",
+    "short": "The Biosphere Model examines the influences of biology, psyche, and social environment on personality.",
+    "desc": "The Biosphere Model of Personality views personality as a dynamic interplay of three levels: biological (genetic and neurobiological factors), psychological (emotional and cognitive processes), and social (social interactions and cultural influences). The model aims to create a comprehensive understanding of personality by considering biological dispositions, psychological processing, and social influences. It is often used in research and psychotherapy to analyze behaviors and personality development as a holistic system."
+  },
+  "care": {
+    "title": "C.A.R.E.",
+    "aka": "Creator, Advancer, Refiner, Executor Model",
+    "time": "10",
+    "dimensions": "Creativity, motivation, analytical ability, implementation strength",
+    "aim": "Identifying preferred team roles to optimize innovation and work processes",
+    "method": "Self-assessment, often complemented by team observations",
+    "short": "CARE analyzes preferred roles in innovation processes to improve team dynamics.",
+    "desc": "The CARE test is used to identify individual strengths in innovation and work processes through four main roles: Creator (idea developer and visionary), Advancer (communicator and supporter), Refiner (analyst and critic), and Executor (practical implementer). This test is commonly applied in team development and project work to ensure that all roles necessary for effective teamwork are covered. Its goal is to foster synergy within the team and ensure that ideas are not only generated but also successfully refined and implemented."
+  },
+  "acer": {
+    "title": "A.C.E.R.",
+    "dimensions": "Analysis, Control, Emotion, Recognition",
+    "time": "10",
+    "aim": "Evaluating personal preferences and communication styles to improve teamwork and interpersonal relationships",
+    "method": "Self-assessment, optional peer assessment",
+    "short": "The ACER test evaluates preferences in control, analysis, recognition, and emotion to promote effective communication.",
+    "desc": "The ACER test analyzes individual communication styles and behavioral preferences in four dimensions: Control (need for leadership and control), Analysis (analytical and structured thinking), Recognition (desire for acknowledgment), and Emotion (expression and processing of emotions). It is often used in professional and social skills development to understand team dynamics and enhance communication abilities. The goal is to foster a better understanding of personal and others’ behaviors, thereby improving collaboration and efficiency in teams."
+  },
+  "disg": {
+    "title": "D.I.S.G.",
+    "aka": "Dominance, Influence, Steadiness, Conscientiousness",
+    "time": "10",
+    "dimensions": "Dominance, initiative, steadiness, conscientiousness",
+    "aim": "Determining individual behavioral style to enhance communication and collaboration in social and professional contexts",
+    "method": "Self-assessment, optional peer assessment",
+    "short": "DISG identifies an individual’s behavioral style and helps optimize interpersonal interactions.",
+    "desc": "The DISG test, also known as DISC, analyzes a person’s behavior based on four dimensions: Dominance (assertiveness and goal orientation), Influence (communication skills and persuasiveness), Steadiness (patience and reliability), and Conscientiousness (attention to detail and need for structure). This model is widely used in team development, leadership coaching, and HR to identify behaviors and communication preferences. The goal is to foster understanding and collaboration within teams by helping individuals recognize and appreciate both their style and that of others."
+  },
+  "big5": {
+    "title": "BIG 5",
+    "aka": "Five-Factor Model of Personality",
+    "time": "10",
+    "dimensions": "Extraversion, agreeableness, conscientiousness, neuroticism, openness to experience",
+    "aim": "Surveying and analyzing fundamental personality traits to describe individual behavior patterns and preferences",
+    "method": "Self-assessment, optional peer assessment",
+    "short": "The BIG 5 model describes five main personality dimensions that shape an individual's behavior and reactions.",
+    "desc": "The BIG 5 model, also known as the Five-Factor Model, is based on five fundamental personality dimensions: Extraversion (social energy and sociability), Agreeableness (cooperation and empathy), Conscientiousness (self-discipline and organization), Neuroticism (emotional stability), and Openness to Experience (creativity and curiosity). The model aims to capture a holistic view of personality and describe individual behavioral patterns on a broad, widely accepted basis. It is often used in research, career counseling, and personal development to identify personal strengths and growth potential."
+  },
+  "strength": {
+    "title": "Strength",
+    "aka": "Strengths and Weaknesses Analysis",
+    "time": "10",
+    "dimensions": "Personal strengths and weaknesses, competence areas",
+    "aim": "Identifying individual strengths and weaknesses to promote self-reflection and the development of personal and professional skills",
+    "method": "Self-assessment with targeted questions on personal preferences and behaviors, optional peer assessment",
+    "short": "The Strengths and Weaknesses Test helps identify and develop individual strengths and weaknesses.",
+    "desc": "The Strengths and Weaknesses Test is designed to identify individual strengths and weaknesses across various areas of personality and skills. Through targeted questions on behaviors and preferences, personal and professional strengths as well as development areas are explored. This test is often used in personal and professional development, coaching, and team building to maximize participants' potential and initiate targeted development measures."
+  },
+  "number": {
+    "title": "Number Test",
+    "aka": "Number Test for Memory and Concentration",
+    "time": "10",
+    "dimensions": "Memory, concentration, stress resistance",
+    "aim": "Measuring the ability to remember and reproduce numbers of various lengths under stressful conditions",
+    "method": "Single test: A number is shown briefly, hidden, and then must be entered correctly",
+    "short": "The Number Test measures memory, concentration, and stress resistance through short-term number retention.",
+    "desc": "The Number Test assesses cognitive ability to remember numbers of different lengths in the short term and reproduce them accurately under stress. Participants see a number for a few seconds, which then disappears and must be recalled from memory. The test is especially useful for evaluating memory and concentration strength and is often used as a stress test to gauge resilience in demanding situations."
+  },
+  "recogn": {
+    "title": "Recognition",
+    "aka": "Recognition Test",
+    "time": "10",
+    "dimensions": "Recognition, attention, memory performance",
+    "aim": "Determining the ability to recognize previously shown symbols, numbers, or texts",
+    "method": "Single test: Symbols, numbers, or texts are displayed sequentially, and the participant confirms if they have been shown before",
+    "short": "The Recognition Test measures the ability to recognize previously shown content and requires high attention.",
+    "desc": "The Recognition Test assesses memory performance, specifically the ability to recognize previously shown content. The participant is shown various symbols, numbers, or texts sequentially and must indicate if they have seen each item before. The test requires focused attention and is helpful in evaluating the ability to retain and recognize short-term information. It is often used in cognitive and neuropsychological assessments."
+  },
+  "pattern": {
+    "title": "Pattern",
+    "aka": "Pattern Recognition Test",
+    "time": "10",
+    "dimensions": "Pattern recognition, logical thinking, problem-solving ability",
+    "aim": "Assessing the ability to identify and complete logical patterns and relationships",
+    "method": "Single test: Completing number sequences, word completion, matching, and identifying suitable patterns",
+    "short": "The Pattern Test measures logical thinking and problem-solving skills through recognizing and completing patterns.",
+    "desc": "The Pattern Test assesses cognitive abilities such as logical thinking, pattern recognition, and problem-solving. Participants must complete number sequences, word patterns, or graphical patterns or find appropriate matches. This test is often used in intelligence diagnostics and candidate selection to assess the ability to recognize relationships and decipher complex patterns."
+  }
+}

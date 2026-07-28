@@ -1,0 +1,37 @@
+{
+  "lang": "de",
+  "scope": "family",
+  "family": "communication",
+  "title": "Connect & Influence",
+  "variant": "",
+  "items": {
+    "f1": {
+      "q": "Was beschreibt dieses Modul?",
+      "a": "Connect & Influence beschreibt, wie Kommunikation Anschluss, Struktur, Sichtbarkeit und Zurückhaltung organisiert. Im Mittelpunkt steht nicht die Qualität eines Menschen, sondern die Art der kommunikativen Orientierung."
+    },
+    "f2": {
+      "q": "Welche Spannungen werden unterschieden?",
+      "a": "Das Modul unterscheidet Resonanz gegen Steuerung und Ausdruck gegen Zurückhaltung. So wird sichtbar, ob Wirkung eher über Nähe, Richtung, Präsenz oder Prüfung entsteht."
+    },
+    "f3": {
+      "q": "Was zeigen die vier Richtungen?",
+      "a": "Die vier Richtungen zeigen typische Kommunikationsstile: öffnend, lenkend, prüfend oder vermittelnd. Das sind Lesarten, keine festen Kommunikationstypen."
+    },
+    "f4": {
+      "q": "Worin liegt der praktische Nutzen?",
+      "a": "Das Modul hilft bei Gesprächen, Verhandlungen, Führung, Teamarbeit und Beziehungsklärung. Es macht verständlicher, warum Menschen dieselbe Situation unterschiedlich kommunizieren."
+    },
+    "f5": {
+      "q": "Wie sicher darf ich die Lesart nehmen?",
+      "a": "Als Struktur ist sie brauchbar, als fertige Messung aber noch offen. Die spätere Tragfähigkeit muss über Fragen, Microevidenzen und Validierung geklärt werden."
+    },
+    "f6": {
+      "q": "Worin unterscheidet es sich von einem Persönlichkeitstest?",
+      "a": "Connect & Influence betrachtet kommunikative Orientierung im Kontext. Es will keine Persönlichkeit festschreiben und keine soziale Eignung behaupten."
+    },
+    "f7": {
+      "q": "Wo liegen die Grenzen?",
+      "a": "Die Grenzen liegen dort, wo Resonanz zu Anpassung, Steuerung zu Dominanz oder Zurückhaltung zu Distanz uminterpretiert wird. Das würde dem Modul mehr zuschreiben, als es leisten soll."
+    }
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "name": "Roles Personal",
+  "family": "Roles",
+  "title": "Role & Impact",
+  "short": "role_pers",
+  "typ": "pers",
+  "key": "Beschreibt bevorzugte Rollen im privaten Leben - zwischen Menschen- und Sachorientierung sowie zwischen flexibler Offenheit und strukturierter Verlässlichkeit.",
+  "desc": "Das Roles Personal Modell beschreibt persönliche Rollenorientierungen als PNA-Projektion. Die horizontale Achse unterscheidet Mensch, also Beziehung, Gemeinschaft und Verbundenheit, von Sache, also Interessen, Aufgaben, Aktivitäten und praktische Herausforderungen. Die vertikale Achse unterscheidet Flexibilität, also Offenheit, Spontaneität und Veränderungsbereitschaft, von Struktur, also Ordnung, Verlässlichkeit und Stabilität. Aus der Kombination entstehen vier Rollenbeiträge, die helfen, Kontakt, Alltag, Verpflichtungen, Interessen und Beziehungssicherheit zu reflektieren.",
+  "answer": "Das Modell beantwortet, welche Rolle eine Person im privaten Umfeld bevorzugt einnimmt: eher über Menschen, Beziehung und Gemeinschaft oder über Sachen, Interessen und praktische Aufgaben; eher flexibel, entdeckend und beweglich oder eher strukturiert, verlässlich und ordnend. Es beschreibt Rollenorientierungen, keine festen Persönlichkeitstypen.",
+  "axis": {
+    "X": {
+      "label": "Lebensachse",
+      "name": "Leben",
+      "aka": "Role",
+      "range": "Mensch vs. Sache",
+      "span": "menschennah vs. sachbezogen",
+      "key": "AX_MENSCH_VS_SACHE",
+      "keyquest": "Wie ordne ich mich ein?",
+      "quest": "Orientierst du dich eher menschennah oder sachbezogen?",
+      "fact": "Mensch versus Sache.",
+      "desc": "Diese Achse beschreibt, ob persönliche Rollen stärker über Beziehung, Gemeinschaft und Verbundenheit oder über Interessen, Aufgaben und praktische Sachbezüge entstehen.",
+      "info": "Menschennähe unterstützt Kontakt, Zugehörigkeit und Beziehungssicherheit. Sachbezug unterstützt Interessen, Aufgabenklärung und praktische Handlungsfähigkeit. Beide Pole sind funktional; Risiken entstehen vor allem durch einseitige Überbetonung.",
+      "tags": "Rollen, Leben, Mensch, Sache, Alltag",
+      "science": "Sozialpsychologie, Persönlichkeitspsychologie"
+    },
+    "Y": {
+      "label": "Orientierungsachse",
+      "name": "Orientierung",
+      "aka": "Impact",
+      "range": "Flexibilität vs. Struktur",
+      "span": "flexibel vs. strukturiert",
+      "key": "AX_FLEXIBILITAET_VS_STRUKTUR",
+      "keyquest": "Wie strukturiere ich mich?",
+      "quest": "Orientierst du dich eher flexibel oder strukturiert?",
+      "fact": "Flexibilität versus Struktur.",
+      "desc": "Diese Achse beschreibt, ob persönliche Rollen eher über Offenheit, Spontaneität und Veränderung oder über Ordnung, Verlässlichkeit und Stabilität gestaltet werden.",
+      "info": "Flexibilität erleichtert Entdecken, Ausprobieren und Anpassung. Struktur erleichtert Verlässlichkeit, Alltagssicherheit und Orientierung. Die Achse beschreibt eine Rollenpräferenz, keine allgemeine Fähigkeit.",
+      "tags": "Rollen, Orientierung, Flexibilität, Struktur, Selbstorganisation",
+      "science": "Sozialpsychologie, Selbstregulationsforschung"
+    }
+  },
+  "orientation": {
+    "W": {
+      "label": "Mensch",
+      "style": "menschennah"
+    },
+    "E": {
+      "label": "Sache",
+      "style": "sachbezogen"
+    },
+    "N": {
+      "label": "Flexibilität",
+      "style": "flexibel"
+    },
+    "S": {
+      "label": "Struktur",
+      "style": "strukturiert"
+    }
+  },
+  "quadrants": {
+    "Q1": {
+      "xy": "WN",
+      "style": "entdeckend",
+      "desc": "Menschennah und flexibel; sucht neue Begegnungen, entdeckt unterschiedliche Lebenswelten und gestaltet Beziehungen offen und spontan.",
+      "strength": "Offen, kreativ, kontaktfreudig",
+      "deficit": "Kann in bestimmten Situationen Abwechslung, Freiheit oder neue Kontakte stärker gewichten als Verbindlichkeit und Kontinuität.",
+      "aka": "Explorer",
+      "short": "Der Entdecker",
+      "role": "Entdecker"
+    },
+    "Q2": {
+      "xy": "EN",
+      "style": "gestaltend",
+      "desc": "Sachbezogen und flexibel; verfolgt Interessen, Projekte und Aktivitäten eigenständig, probiert Neues aus und bringt persönliche Vorhaben in Bewegung.",
+      "strength": "Initiativ, vielseitig, handlungsfähig",
+      "deficit": "Kann in bestimmten Situationen Möglichkeiten, Tempo oder Eigenständigkeit stärker gewichten als Abstimmung, Fokus oder langfristige Bindung.",
+      "aka": "Shaper",
+      "short": "Der Gestalter",
+      "role": "Gestalter"
+    },
+    "Q3": {
+      "xy": "ES",
+      "style": "organisierend",
+      "desc": "Sachbezogen und strukturiert; organisiert Aufgaben und Alltag verantwortungsvoll, schafft Ordnung und sorgt für stabile Rahmenbedingungen.",
+      "strength": "Verlässlich, sorgfältig, ordnend",
+      "deficit": "Kann in bestimmten Situationen Ordnung, Kontrolle oder Pflicht so stark gewichten, dass Flexibilität und emotionale Bedürfnisse zu wenig Raum bekommen.",
+      "aka": "Organizer",
+      "short": "Der Organisator",
+      "role": "Organisator"
+    },
+    "Q4": {
+      "xy": "WS",
+      "style": "fürsorglich",
+      "desc": "Menschennah und strukturiert; schafft Verlässlichkeit in Beziehungen, stärkt Zusammenhalt und sorgt für Sicherheit und Beständigkeit im sozialen Umfeld.",
+      "strength": "Empathisch, loyal, stabilisierend",
+      "deficit": "Kann in bestimmten Situationen Harmonie, Rücksichtnahme oder Verantwortung für andere so stark gewichten, dass eigene Grenzen zu wenig sichtbar werden.",
+      "aka": "Caregiver",
+      "short": "Der Fürsorgliche",
+      "role": "Fürsorglicher"
+    }
+  },
+  "badge": "ROLE",
+  "brand": "RoleLab",
+  "canon_status": "freezed",
+  "freezed_at": "2026-07-02T11:58:10Z",
+  "source_candidate": "/var/www/openclaw/candidate/roles/roles_rebuild.json"
+}

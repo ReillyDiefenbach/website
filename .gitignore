@@ -4,6 +4,7 @@
 /.env
 /.env.*
 !/.env.example
+/.local/
 
 # Database exports may contain private or personal data
 /__wolfi/_fileMaker/database/backup/*.sql
@@ -15,7 +16,9 @@
 /__recovery/
 /__recovery_before_restore_*/
 
-# Local editor and operating-system files
+# Local Codex/agent/editor and operating-system files
+/.agents/
+/.codex/
 /.vscode/
 .DS_Store
 Thumbs.db
@@ -35,3 +38,14 @@ Desktop.ini
 /*.tar
 /*.tar.gz
 
+# Local working copies and scratch documents
+* copy.*
+*.bak
+*.backup
+~$*
+
+# Local archives and source documents not needed for deployment
+/legacy/
+*.docx
+*.xlsx
+*.tsv

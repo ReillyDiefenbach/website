@@ -1,0 +1,635 @@
+{
+  "schema": "pna.model_results_basics.v1",
+  "task": "model_results",
+  "model_key": "communication_pers",
+  "family": "communication",
+  "language": "de",
+  "generated_at": "2026-07-02T10:13:14Z",
+  "wording_source": "canon/results/framework_result_wording.json",
+  "contract_source": "canon/results/model_results_contract.json",
+  "result_status": "generated_pending_review",
+  "source_integrity": {
+    "blocks": 24,
+    "quicks": 24,
+    "facets": 32,
+    "micro_blocks": 96,
+    "micro_quicks": 24,
+    "facet_blocks": 96,
+    "facet_quicks": 24
+  },
+  "runtime_resolution": {
+    "principle": "Basisbausteine liefern die Textquellen; konkrete resolved_result_keys werden deterministisch in der Auswertungsschicht berechnet.",
+    "balance_policy": "Keine Dominanz behaupten, wenn Werte innerhalb der Balance-Toleranz liegen.",
+    "role_policy": "Rollenprofile nur bei geordneter Primär- und Sekundärdominanz benachbarter Quadranten erzeugen; bei echter Balance oder gegenüberliegender Scheinordnung R0 verwenden.",
+    "base_result_key_count": 27
+  },
+  "results": {
+    "orientation": {
+      "X": {
+        "short": "Soziales",
+        "aka": "Connect",
+        "headline": "Orientierung über Soziales",
+        "personal_text": "Bei dir steht Soziales in persönlichen sozialen Situationen stärker im Vordergrund. Du erschließt Kommunikation vor allem über resonanz vs. ordnung.",
+        "external_text": "Die Ausrichtung zeigt eine stärkere Verdichtung auf Soziales. Dieses Ergebnis beschreibt eine modellbezogene Orientierung, keine feste Eigenschaft.",
+        "description": "Diese Achse beschreibt, ob persönliche Interaktion primär über emotionale Anschlussfähigkeit und Beziehungssinn oder über Struktur, Grenzen und soziale Berechenbarkeit organisiert wird.",
+        "strength": "Macht den bevorzugten Zugang zur kommunikativen Situation früh sichtbar.",
+        "risk": "Kann den zweiten Achsenpol zeitweise zu wenig berücksichtigen, wenn die Situation mehr Ausgleich verlangt.",
+        "keywords": [
+          "Soziales",
+          "Connect",
+          "Orientierung"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn die X-Achse gegenüber der Y-Achse dominiert.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "Y": {
+        "short": "Ausdruck",
+        "aka": "Influence",
+        "headline": "Orientierung über Ausdruck",
+        "personal_text": "Bei dir steht Ausdruck in persönlichen sozialen Situationen stärker im Vordergrund. Du erschließt Kommunikation vor allem über annäherung vs. zurückhaltung.",
+        "external_text": "Die Ausrichtung zeigt eine stärkere Verdichtung auf Ausdruck. Dieses Ergebnis beschreibt eine modellbezogene Orientierung, keine feste Eigenschaft.",
+        "description": "Diese Achse beschreibt, ob soziale Interaktion eher durch aktive Kontaktbewegung und sichtbare Beziehungsgestaltung oder durch vorsichtige, prüfende Zurückhaltung geprägt ist.",
+        "strength": "Macht sichtbar, wie kommunikative Präsenz, Initiative oder Zurückhaltung gewichtet werden.",
+        "risk": "Kann den zweiten Achsenpol zeitweise zu wenig berücksichtigen, wenn die Situation mehr Ausgleich verlangt.",
+        "keywords": [
+          "Ausdruck",
+          "Influence",
+          "Orientierung"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn die Y-Achse gegenüber der X-Achse dominiert.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "XY": {
+        "short": "Balance der Achsen",
+        "aka": "Connect-Influence Balance",
+        "headline": "Kommunikative Zugänge ausbalancieren",
+        "personal_text": "Bei dir liegen Soziales und Ausdruck in persönlichen sozialen Situationen nah beieinander. Du verbindest beide Perspektiven, ohne dass eine Achse allein führt.",
+        "external_text": "Die Ausrichtung zeigt eine Balance zwischen Soziales und Ausdruck. Es wird keine Dominanz behauptet.",
+        "description": "Beschreibt eine annähernd ausgeglichene Achsenauswertung.",
+        "strength": "Kann unterschiedliche kommunikative Anforderungen gleichzeitig berücksichtigen.",
+        "risk": "Kann weniger eindeutig wirken, wenn eine klare kommunikative Priorisierung erwartet wird.",
+        "keywords": [
+          "Balance",
+          "Soziales",
+          "Ausdruck"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn X und Y innerhalb der Balance-Toleranz liegen.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      }
+    },
+    "priorities": {
+      "W": {
+        "short": "Resonanz",
+        "aka": "resonant",
+        "headline": "Priorität Resonanz",
+        "personal_text": "Bei dir wird Resonanz in persönlichen sozialen Situationen besonders sichtbar. Ordnung bleibt anschlussfähig, steht aber nicht im Vordergrund dieses Ergebnisfalls.",
+        "external_text": "Die Person zeigt eine stärkere Priorität für Resonanz. Das beschreibt eine relative Gewichtung innerhalb des Communication-Modells.",
+        "description": "Resonanz dominiert in der entsprechenden Richtungspaarung gegenüber Ordnung.",
+        "strength": "Resonanz kann kommunikative Orientierung und Handlungsfähigkeit geben.",
+        "risk": "Eine einseitige Betonung von Resonanz kann die Gegenrichtung Ordnung zu wenig berücksichtigen.",
+        "keywords": [
+          "Resonanz",
+          "Ordnung",
+          "Priorität"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn Resonanz gegenüber Ordnung dominiert.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "E": {
+        "short": "Ordnung",
+        "aka": "ordnend",
+        "headline": "Priorität Ordnung",
+        "personal_text": "Bei dir wird Ordnung in persönlichen sozialen Situationen besonders sichtbar. Resonanz bleibt anschlussfähig, steht aber nicht im Vordergrund dieses Ergebnisfalls.",
+        "external_text": "Die Person zeigt eine stärkere Priorität für Ordnung. Das beschreibt eine relative Gewichtung innerhalb des Communication-Modells.",
+        "description": "Ordnung dominiert in der entsprechenden Richtungspaarung gegenüber Resonanz.",
+        "strength": "Ordnung kann kommunikative Orientierung und Handlungsfähigkeit geben.",
+        "risk": "Eine einseitige Betonung von Ordnung kann die Gegenrichtung Resonanz zu wenig berücksichtigen.",
+        "keywords": [
+          "Ordnung",
+          "Resonanz",
+          "Priorität"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn Ordnung gegenüber Resonanz dominiert.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "N": {
+        "short": "Annäherung",
+        "aka": "annähernd",
+        "headline": "Priorität Annäherung",
+        "personal_text": "Bei dir wird Annäherung in persönlichen sozialen Situationen besonders sichtbar. Zurückhaltung bleibt anschlussfähig, steht aber nicht im Vordergrund dieses Ergebnisfalls.",
+        "external_text": "Die Person zeigt eine stärkere Priorität für Annäherung. Das beschreibt eine relative Gewichtung innerhalb des Communication-Modells.",
+        "description": "Annäherung dominiert in der entsprechenden Richtungspaarung gegenüber Zurückhaltung.",
+        "strength": "Annäherung kann kommunikative Orientierung und Handlungsfähigkeit geben.",
+        "risk": "Eine einseitige Betonung von Annäherung kann die Gegenrichtung Zurückhaltung zu wenig berücksichtigen.",
+        "keywords": [
+          "Annäherung",
+          "Zurückhaltung",
+          "Priorität"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn Annäherung gegenüber Zurückhaltung dominiert.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "S": {
+        "short": "Zurückhaltung",
+        "aka": "zurückhaltend",
+        "headline": "Priorität Zurückhaltung",
+        "personal_text": "Bei dir wird Zurückhaltung in persönlichen sozialen Situationen besonders sichtbar. Annäherung bleibt anschlussfähig, steht aber nicht im Vordergrund dieses Ergebnisfalls.",
+        "external_text": "Die Person zeigt eine stärkere Priorität für Zurückhaltung. Das beschreibt eine relative Gewichtung innerhalb des Communication-Modells.",
+        "description": "Zurückhaltung dominiert in der entsprechenden Richtungspaarung gegenüber Annäherung.",
+        "strength": "Zurückhaltung kann kommunikative Orientierung und Handlungsfähigkeit geben.",
+        "risk": "Eine einseitige Betonung von Zurückhaltung kann die Gegenrichtung Annäherung zu wenig berücksichtigen.",
+        "keywords": [
+          "Zurückhaltung",
+          "Annäherung",
+          "Priorität"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn Zurückhaltung gegenüber Annäherung dominiert.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "WE": {
+        "short": "Balance Resonanz und Ordnung",
+        "aka": "West-East Balance",
+        "headline": "Resonanz und Ordnung ausbalancieren",
+        "personal_text": "Bei dir liegen Resonanz und Ordnung in persönlichen sozialen Situationen nah beieinander. Du kannst beide Richtungen berücksichtigen, ohne eine als allein führend zu setzen.",
+        "external_text": "Dieses Ergebnis beschreibt eine Balance zwischen Resonanz und Ordnung ohne Richtungsdominanz.",
+        "description": "Annähernd ausgeglichene Richtungsauswertung im W/E-Paar.",
+        "strength": "Ermöglicht Vermittlung zwischen beiden kommunikativen Richtungen.",
+        "risk": "Kann bei Entscheidungsdruck weniger eindeutig erscheinen.",
+        "keywords": [
+          "Resonanz",
+          "Ordnung",
+          "Balance"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn W und E innerhalb der Balance-Toleranz liegen.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "NS": {
+        "short": "Balance Annäherung und Zurückhaltung",
+        "aka": "North-South Balance",
+        "headline": "Annäherung und Zurückhaltung ausbalancieren",
+        "personal_text": "Bei dir liegen Annäherung und Zurückhaltung in persönlichen sozialen Situationen nah beieinander. Du kannst beide Richtungen berücksichtigen, ohne eine als allein führend zu setzen.",
+        "external_text": "Dieses Ergebnis beschreibt eine Balance zwischen Annäherung und Zurückhaltung ohne Richtungsdominanz.",
+        "description": "Annähernd ausgeglichene Richtungsauswertung im N/S-Paar.",
+        "strength": "Ermöglicht Vermittlung zwischen Aktivierung und Abwägung.",
+        "risk": "Kann bei starkem Tempo- oder Sicherheitsdruck weniger eindeutig erscheinen.",
+        "keywords": [
+          "Annäherung",
+          "Zurückhaltung",
+          "Balance"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn N und S innerhalb der Balance-Toleranz liegen.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      }
+    },
+    "impact_space": {
+      "Q1": {
+        "short": "Verbinder",
+        "aka": "Connector",
+        "headline": "Der Kontaktgeber",
+        "personal_text": "Bei dir bündelt sich die Ausrichtung in persönlichen sozialen Situationen im Wirkungsraum Verbinder. Resonant und annähernd; sucht lebendigen Austausch, öffnet soziale Situationen und stellt schnell emotionale Verbindung her.",
+        "external_text": "Die Ausrichtung verdichtet sich im Wirkungsraum Verbinder. Das beschreibt eine Modellperspektive, keinen Typ.",
+        "description": "Resonant und annähernd; sucht lebendigen Austausch, öffnet soziale Situationen und stellt schnell emotionale Verbindung her.",
+        "strength": "Offen, warm, kontaktstiftend",
+        "risk": "Kann in bestimmten Situationen Nähe, Lebendigkeit oder Wirkung überbetonen und Grenzen oder Tempo anderer zu wenig beachten.",
+        "keywords": [
+          "Verbinder",
+          "Connector",
+          "Q1"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn Q1 der stärkste Wirkungsraum ist.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "Q2": {
+        "short": "Gestalter",
+        "aka": "Shaper",
+        "headline": "Der Gestalter",
+        "personal_text": "Bei dir bündelt sich die Ausrichtung in persönlichen sozialen Situationen im Wirkungsraum Gestalter. Ordnend und annähernd; übernimmt aktiv soziale Führung, setzt Grenzen, gibt Richtung und schafft Orientierung in Interaktionen.",
+        "external_text": "Die Ausrichtung verdichtet sich im Wirkungsraum Gestalter. Das beschreibt eine Modellperspektive, keinen Typ.",
+        "description": "Ordnend und annähernd; übernimmt aktiv soziale Führung, setzt Grenzen, gibt Richtung und schafft Orientierung in Interaktionen.",
+        "strength": "Klar, selbstsicher, orientierend",
+        "risk": "Kann in bestimmten Situationen Richtung, Kontrolle oder Grenzsetzung überbetonen und Resonanzbedarf zu wenig einbeziehen.",
+        "keywords": [
+          "Gestalter",
+          "Shaper",
+          "Q2"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn Q2 der stärkste Wirkungsraum ist.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "Q3": {
+        "short": "Bewahrer",
+        "aka": "Guardian",
+        "headline": "Der Absicherer",
+        "personal_text": "Bei dir bündelt sich die Ausrichtung in persönlichen sozialen Situationen im Wirkungsraum Bewahrer. Ordnend und zurückhaltend; sucht soziale Sicherheit, prüft Vertrauen, achtet auf Berechenbarkeit und klare Grenzen.",
+        "external_text": "Die Ausrichtung verdichtet sich im Wirkungsraum Bewahrer. Das beschreibt eine Modellperspektive, keinen Typ.",
+        "description": "Ordnend und zurückhaltend; sucht soziale Sicherheit, prüft Vertrauen, achtet auf Berechenbarkeit und klare Grenzen.",
+        "strength": "Besonnen, verlässlich, reflektiert",
+        "risk": "Kann in bestimmten Situationen Absicherung, Distanz oder Kontrolle so stark betonen, dass neue soziale Möglichkeiten zu wenig geprüft werden.",
+        "keywords": [
+          "Bewahrer",
+          "Guardian",
+          "Q3"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn Q3 der stärkste Wirkungsraum ist.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "Q4": {
+        "short": "Zugewandter",
+        "aka": "Companion",
+        "headline": "Der Zugewandte",
+        "personal_text": "Bei dir bündelt sich die Ausrichtung in persönlichen sozialen Situationen im Wirkungsraum Zugewandter. Resonant und zurückhaltend; hört aufmerksam zu, schafft Vertrauen, nimmt emotionale Signale auf und stabilisiert Beziehungen ohne starke Selbstdarstellung.",
+        "external_text": "Die Ausrichtung verdichtet sich im Wirkungsraum Zugewandter. Das beschreibt eine Modellperspektive, keinen Typ.",
+        "description": "Resonant und zurückhaltend; hört aufmerksam zu, schafft Vertrauen, nimmt emotionale Signale auf und stabilisiert Beziehungen ohne starke Selbstdarstellung.",
+        "strength": "Empathisch, vertrauensbildend, ausgleichend",
+        "risk": "Kann in bestimmten Situationen Zustimmung und Harmonie zu stark gewichten und eigene Positionen oder Grenzen zu wenig markieren.",
+        "keywords": [
+          "Zugewandter",
+          "Companion",
+          "Q4"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn Q4 der stärkste Wirkungsraum ist.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "Q12": {
+        "short": "Verbinder und Gestalter in Balance",
+        "aka": "Connector-Shaper Balance",
+        "headline": "Verbinder und Gestalter ausbalanciert",
+        "personal_text": "Bei dir tragen die Wirkungsräume Verbinder und Gestalter gemeinsam. Keine der beiden Perspektiven wird als führend formuliert.",
+        "external_text": "Die Person zeigt eine Balance zwischen den Wirkungsräume Verbinder und Gestalter. Es wird keine Primärdominanz behauptet.",
+        "description": "Q12 beschreibt eine ungeordnete Balance der benachbarten Wirkungsräume Q1 und Q2.",
+        "strength": "Verbindet Offen, warm, kontaktstiftend mit Klar, selbstsicher, orientierend.",
+        "risk": "Kann weniger eindeutig wirken, ist aber fachlich sauberer als eine erzwungene Quadrantendominanz.",
+        "keywords": [
+          "Q12",
+          "Verbinder",
+          "Gestalter",
+          "Balance"
+        ],
+        "interpretation_rule": "Als Balance zwischen Q1 und Q2 interpretieren; keine Primärdominanz und kein Rollenprofil daraus ableiten.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "Q14": {
+        "short": "Verbinder und Zugewandter in Balance",
+        "aka": "Connector-Companion Balance",
+        "headline": "Verbinder und Zugewandter ausbalanciert",
+        "personal_text": "Bei dir tragen die Wirkungsräume Verbinder und Zugewandter gemeinsam. Keine der beiden Perspektiven wird als führend formuliert.",
+        "external_text": "Die Person zeigt eine Balance zwischen den Wirkungsräume Verbinder und Zugewandter. Es wird keine Primärdominanz behauptet.",
+        "description": "Q14 beschreibt eine ungeordnete Balance der benachbarten Wirkungsräume Q1 und Q4.",
+        "strength": "Verbindet Offen, warm, kontaktstiftend mit Empathisch, vertrauensbildend, ausgleichend.",
+        "risk": "Kann weniger eindeutig wirken, ist aber fachlich sauberer als eine erzwungene Quadrantendominanz.",
+        "keywords": [
+          "Q14",
+          "Verbinder",
+          "Zugewandter",
+          "Balance"
+        ],
+        "interpretation_rule": "Als Balance zwischen Q1 und Q4 interpretieren; keine Primärdominanz und kein Rollenprofil daraus ableiten.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "Q23": {
+        "short": "Gestalter und Bewahrer in Balance",
+        "aka": "Shaper-Guardian Balance",
+        "headline": "Gestalter und Bewahrer ausbalanciert",
+        "personal_text": "Bei dir tragen die Wirkungsräume Gestalter und Bewahrer gemeinsam. Keine der beiden Perspektiven wird als führend formuliert.",
+        "external_text": "Die Person zeigt eine Balance zwischen den Wirkungsräume Gestalter und Bewahrer. Es wird keine Primärdominanz behauptet.",
+        "description": "Q23 beschreibt eine ungeordnete Balance der benachbarten Wirkungsräume Q2 und Q3.",
+        "strength": "Verbindet Klar, selbstsicher, orientierend mit Besonnen, verlässlich, reflektiert.",
+        "risk": "Kann weniger eindeutig wirken, ist aber fachlich sauberer als eine erzwungene Quadrantendominanz.",
+        "keywords": [
+          "Q23",
+          "Gestalter",
+          "Bewahrer",
+          "Balance"
+        ],
+        "interpretation_rule": "Als Balance zwischen Q2 und Q3 interpretieren; keine Primärdominanz und kein Rollenprofil daraus ableiten.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "Q34": {
+        "short": "Bewahrer und Zugewandter in Balance",
+        "aka": "Guardian-Companion Balance",
+        "headline": "Bewahrer und Zugewandter ausbalanciert",
+        "personal_text": "Bei dir tragen die Wirkungsräume Bewahrer und Zugewandter gemeinsam. Keine der beiden Perspektiven wird als führend formuliert.",
+        "external_text": "Die Person zeigt eine Balance zwischen den Wirkungsräume Bewahrer und Zugewandter. Es wird keine Primärdominanz behauptet.",
+        "description": "Q34 beschreibt eine ungeordnete Balance der benachbarten Wirkungsräume Q3 und Q4.",
+        "strength": "Verbindet Besonnen, verlässlich, reflektiert mit Empathisch, vertrauensbildend, ausgleichend.",
+        "risk": "Kann weniger eindeutig wirken, ist aber fachlich sauberer als eine erzwungene Quadrantendominanz.",
+        "keywords": [
+          "Q34",
+          "Bewahrer",
+          "Zugewandter",
+          "Balance"
+        ],
+        "interpretation_rule": "Als Balance zwischen Q3 und Q4 interpretieren; keine Primärdominanz und kein Rollenprofil daraus ableiten.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "Q0": {
+        "short": "Ausgewogener Wirkungsraum",
+        "aka": "Balanced Impact Space",
+        "headline": "Mehrere Kommunikationsräume sind aktiv",
+        "personal_text": "Bei dir verteilt sich die kommunikative Ausrichtung auf mehrere Wirkungsräume. Das ist kein schwaches Ergebnis, sondern eine breite Nutzung verschiedener Perspektiven.",
+        "external_text": "Dieses Ergebnis beschreibt eine ausgewogene Nutzung mehrerer Quadranten ohne eindeutige Dominanz.",
+        "description": "Q0 beschreibt eine annähernd ausgewogene Nutzung mehrerer Wirkungsräume; bei vollständigem Gleichstand aller vier Halbachsen greift stattdessen XY_BALANCED.",
+        "strength": "Kann unterschiedliche Kommunikationsanforderungen gleichzeitig integrieren.",
+        "risk": "Kann weniger schnell auf einen einzelnen Kommunikationsmodus verdichten.",
+        "keywords": [
+          "Wirkungsraum",
+          "Balance",
+          "Q0"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn kein einzelner oder paarweiser Wirkungsraum dominant ist und kein vollständiger Halbachsen-Gleichstand W=E=N=S vorliegt.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis",
+          "vollständige Halbachsen-Balance W=E=N=S"
+        ]
+      }
+    },
+    "role_profile": {
+      "R0": {
+        "short": "Kein geordnetes Rollenprofil",
+        "aka": "Role Layer Null Case",
+        "headline": "Keine tragfähige Rollenordnung",
+        "personal_text": "Bei dir lässt sich aus der kommunikative Auswertung kein tragfähiges primäres und sekundäres Rollenprofil ableiten. Die Auswertung bleibt deshalb beim Wirkungsraum und erzeugt kein Facettenspektrum.",
+        "external_text": "Die Rollenebene zeigt R0 als sichtbaren Balance- oder Nullfall. Das ist kein Rollenprofil und keine Schwäche.",
+        "description": "R0 wird verwendet, wenn keine geordnete Primär-/Sekundärdominanz tragfähig ableitbar ist.",
+        "strength": "Verhindert eine Scheingenauigkeit bei echter Balance oder breiter Verteilung.",
+        "risk": "Kann weniger eindeutig wirken, ist aber fachlich sauberer als ein erzwungener Rollenkey.",
+        "keywords": [
+          "R0",
+          "Balance",
+          "Rollenebene"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn keine tragfähige geordnete Primär-/Sekundärdominanz ableitbar ist; bei R0 kein Facettenspektrum erzeugen.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "R12": {
+        "short": "Verbinder mit Gestalter-Anteil",
+        "aka": "Verbinder-Gestalter",
+        "headline": "Verbinder führt, Gestalter ergänzt",
+        "personal_text": "Bei dir führt im Rollenprofil Verbinder. Gestalter ergänzt diese Ausrichtung als zweite Kraft. Dadurch entsteht kein fixer Typ, sondern eine funktionale Kommunikationslogik in persönlichen sozialen Situationen.",
+        "external_text": "Das Rollenprofil zeigt Verbinder als primäre und Gestalter als sekundäre Verdichtung.",
+        "description": "Geordnete Rollenlogik aus primärem Quadranten Q1 und sekundärem Quadranten Q2.",
+        "strength": "Verbindet die Stärke von Verbinder mit einer ergänzenden Perspektive aus Gestalter.",
+        "risk": "Kann unausgewogen wirken, wenn die sekundäre Perspektive zu wenig bewusst integriert wird.",
+        "keywords": [
+          "R12",
+          "Verbinder",
+          "Gestalter"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn Primär- und Sekundärquadrant eindeutig geordnet sind; bei echter Balance Rolle unterdrücken.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "R14": {
+        "short": "Verbinder mit Zugewandter-Anteil",
+        "aka": "Verbinder-Zugewandter",
+        "headline": "Verbinder führt, Zugewandter ergänzt",
+        "personal_text": "Bei dir führt im Rollenprofil Verbinder. Zugewandter ergänzt diese Ausrichtung als zweite Kraft. Dadurch entsteht kein fixer Typ, sondern eine funktionale Kommunikationslogik in persönlichen sozialen Situationen.",
+        "external_text": "Das Rollenprofil zeigt Verbinder als primäre und Zugewandter als sekundäre Verdichtung.",
+        "description": "Geordnete Rollenlogik aus primärem Quadranten Q1 und sekundärem Quadranten Q4.",
+        "strength": "Verbindet die Stärke von Verbinder mit einer ergänzenden Perspektive aus Zugewandter.",
+        "risk": "Kann unausgewogen wirken, wenn die sekundäre Perspektive zu wenig bewusst integriert wird.",
+        "keywords": [
+          "R14",
+          "Verbinder",
+          "Zugewandter"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn Primär- und Sekundärquadrant eindeutig geordnet sind; bei echter Balance Rolle unterdrücken.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "R21": {
+        "short": "Gestalter mit Verbinder-Anteil",
+        "aka": "Gestalter-Verbinder",
+        "headline": "Gestalter führt, Verbinder ergänzt",
+        "personal_text": "Bei dir führt im Rollenprofil Gestalter. Verbinder ergänzt diese Ausrichtung als zweite Kraft. Dadurch entsteht kein fixer Typ, sondern eine funktionale Kommunikationslogik in persönlichen sozialen Situationen.",
+        "external_text": "Das Rollenprofil zeigt Gestalter als primäre und Verbinder als sekundäre Verdichtung.",
+        "description": "Geordnete Rollenlogik aus primärem Quadranten Q2 und sekundärem Quadranten Q1.",
+        "strength": "Verbindet die Stärke von Gestalter mit einer ergänzenden Perspektive aus Verbinder.",
+        "risk": "Kann unausgewogen wirken, wenn die sekundäre Perspektive zu wenig bewusst integriert wird.",
+        "keywords": [
+          "R21",
+          "Gestalter",
+          "Verbinder"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn Primär- und Sekundärquadrant eindeutig geordnet sind; bei echter Balance Rolle unterdrücken.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "R23": {
+        "short": "Gestalter mit Bewahrer-Anteil",
+        "aka": "Gestalter-Bewahrer",
+        "headline": "Gestalter führt, Bewahrer ergänzt",
+        "personal_text": "Bei dir führt im Rollenprofil Gestalter. Bewahrer ergänzt diese Ausrichtung als zweite Kraft. Dadurch entsteht kein fixer Typ, sondern eine funktionale Kommunikationslogik in persönlichen sozialen Situationen.",
+        "external_text": "Das Rollenprofil zeigt Gestalter als primäre und Bewahrer als sekundäre Verdichtung.",
+        "description": "Geordnete Rollenlogik aus primärem Quadranten Q2 und sekundärem Quadranten Q3.",
+        "strength": "Verbindet die Stärke von Gestalter mit einer ergänzenden Perspektive aus Bewahrer.",
+        "risk": "Kann unausgewogen wirken, wenn die sekundäre Perspektive zu wenig bewusst integriert wird.",
+        "keywords": [
+          "R23",
+          "Gestalter",
+          "Bewahrer"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn Primär- und Sekundärquadrant eindeutig geordnet sind; bei echter Balance Rolle unterdrücken.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "R32": {
+        "short": "Bewahrer mit Gestalter-Anteil",
+        "aka": "Bewahrer-Gestalter",
+        "headline": "Bewahrer führt, Gestalter ergänzt",
+        "personal_text": "Bei dir führt im Rollenprofil Bewahrer. Gestalter ergänzt diese Ausrichtung als zweite Kraft. Dadurch entsteht kein fixer Typ, sondern eine funktionale Kommunikationslogik in persönlichen sozialen Situationen.",
+        "external_text": "Das Rollenprofil zeigt Bewahrer als primäre und Gestalter als sekundäre Verdichtung.",
+        "description": "Geordnete Rollenlogik aus primärem Quadranten Q3 und sekundärem Quadranten Q2.",
+        "strength": "Verbindet die Stärke von Bewahrer mit einer ergänzenden Perspektive aus Gestalter.",
+        "risk": "Kann unausgewogen wirken, wenn die sekundäre Perspektive zu wenig bewusst integriert wird.",
+        "keywords": [
+          "R32",
+          "Bewahrer",
+          "Gestalter"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn Primär- und Sekundärquadrant eindeutig geordnet sind; bei echter Balance Rolle unterdrücken.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "R34": {
+        "short": "Bewahrer mit Zugewandter-Anteil",
+        "aka": "Bewahrer-Zugewandter",
+        "headline": "Bewahrer führt, Zugewandter ergänzt",
+        "personal_text": "Bei dir führt im Rollenprofil Bewahrer. Zugewandter ergänzt diese Ausrichtung als zweite Kraft. Dadurch entsteht kein fixer Typ, sondern eine funktionale Kommunikationslogik in persönlichen sozialen Situationen.",
+        "external_text": "Das Rollenprofil zeigt Bewahrer als primäre und Zugewandter als sekundäre Verdichtung.",
+        "description": "Geordnete Rollenlogik aus primärem Quadranten Q3 und sekundärem Quadranten Q4.",
+        "strength": "Verbindet die Stärke von Bewahrer mit einer ergänzenden Perspektive aus Zugewandter.",
+        "risk": "Kann unausgewogen wirken, wenn die sekundäre Perspektive zu wenig bewusst integriert wird.",
+        "keywords": [
+          "R34",
+          "Bewahrer",
+          "Zugewandter"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn Primär- und Sekundärquadrant eindeutig geordnet sind; bei echter Balance Rolle unterdrücken.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "R41": {
+        "short": "Zugewandter mit Verbinder-Anteil",
+        "aka": "Zugewandter-Verbinder",
+        "headline": "Zugewandter führt, Verbinder ergänzt",
+        "personal_text": "Bei dir führt im Rollenprofil Zugewandter. Verbinder ergänzt diese Ausrichtung als zweite Kraft. Dadurch entsteht kein fixer Typ, sondern eine funktionale Kommunikationslogik in persönlichen sozialen Situationen.",
+        "external_text": "Das Rollenprofil zeigt Zugewandter als primäre und Verbinder als sekundäre Verdichtung.",
+        "description": "Geordnete Rollenlogik aus primärem Quadranten Q4 und sekundärem Quadranten Q1.",
+        "strength": "Verbindet die Stärke von Zugewandter mit einer ergänzenden Perspektive aus Verbinder.",
+        "risk": "Kann unausgewogen wirken, wenn die sekundäre Perspektive zu wenig bewusst integriert wird.",
+        "keywords": [
+          "R41",
+          "Zugewandter",
+          "Verbinder"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn Primär- und Sekundärquadrant eindeutig geordnet sind; bei echter Balance Rolle unterdrücken.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "R43": {
+        "short": "Zugewandter mit Bewahrer-Anteil",
+        "aka": "Zugewandter-Bewahrer",
+        "headline": "Zugewandter führt, Bewahrer ergänzt",
+        "personal_text": "Bei dir führt im Rollenprofil Zugewandter. Bewahrer ergänzt diese Ausrichtung als zweite Kraft. Dadurch entsteht kein fixer Typ, sondern eine funktionale Kommunikationslogik in persönlichen sozialen Situationen.",
+        "external_text": "Das Rollenprofil zeigt Zugewandter als primäre und Bewahrer als sekundäre Verdichtung.",
+        "description": "Geordnete Rollenlogik aus primärem Quadranten Q4 und sekundärem Quadranten Q3.",
+        "strength": "Verbindet die Stärke von Zugewandter mit einer ergänzenden Perspektive aus Bewahrer.",
+        "risk": "Kann unausgewogen wirken, wenn die sekundäre Perspektive zu wenig bewusst integriert wird.",
+        "keywords": [
+          "R43",
+          "Zugewandter",
+          "Bewahrer"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn Primär- und Sekundärquadrant eindeutig geordnet sind; bei echter Balance Rolle unterdrücken.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      }
+    }
+  }
+}

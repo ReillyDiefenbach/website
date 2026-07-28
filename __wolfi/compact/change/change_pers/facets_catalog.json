@@ -1,0 +1,1122 @@
+[
+  {
+    "id": "Q1_1",
+    "name": "Selbstbestimmte Exploration",
+    "meaning": "neue Erfahrungen frei erkunden",
+    "quadrant": "Q1",
+    "xy": "WN",
+    "type": "facet",
+    "short_description": "neue Erfahrungen frei erkunden",
+    "model_rationale": "Testnahe Personal-Facet fuer Entdecker; abgeleitet aus Fragekontexten, Antworttexten und Micro-Naehe, nicht als Canon-Facet.",
+    "question_basis": [
+      "1_1",
+      "2_1",
+      "3_1",
+      "4_1"
+    ],
+    "quick_basis": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "expected_micro_evidence": [
+      "T_H_1p",
+      "T_H_2p",
+      "T_H_3p",
+      "T_H_4p",
+      "T_H_5p",
+      "T_H_6p",
+      "T_H_7p"
+    ],
+    "micro_rationale": "Micro-IDs wurden nach katalogweiser Sichtung als testnahe Hypothesen gewaehlt; alle 13 Kataloge werden ueber das Gesamtmapping sichtbar bearbeitet."
+  },
+  {
+    "id": "Q1_2",
+    "name": "Mutiger Neubeginn",
+    "meaning": "aus eigener Entscheidung beginnen",
+    "quadrant": "Q1",
+    "xy": "WN",
+    "type": "facet",
+    "short_description": "aus eigener Entscheidung beginnen",
+    "model_rationale": "Testnahe Personal-Facet fuer Entdecker; abgeleitet aus Fragekontexten, Antworttexten und Micro-Naehe, nicht als Canon-Facet.",
+    "question_basis": [
+      "7_1",
+      "8_1",
+      "9_1",
+      "10_1"
+    ],
+    "quick_basis": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "expected_micro_evidence": [
+      "B_A_5_1p",
+      "B_A_5_2p",
+      "B_A_5_3p",
+      "B_B_1_1p",
+      "B_B_1_2p",
+      "B_B_1_3p",
+      "B_B_1_4p"
+    ],
+    "micro_rationale": "Micro-IDs wurden nach katalogweiser Sichtung als testnahe Hypothesen gewaehlt; alle 13 Kataloge werden ueber das Gesamtmapping sichtbar bearbeitet."
+  },
+  {
+    "id": "Q1_3",
+    "name": "Freiraum im Wandel",
+    "meaning": "persoenlichen Spielraum schuetzen",
+    "quadrant": "Q1",
+    "xy": "WN",
+    "type": "facet",
+    "short_description": "persoenlichen Spielraum schuetzen",
+    "model_rationale": "Testnahe Personal-Facet fuer Entdecker; abgeleitet aus Fragekontexten, Antworttexten und Micro-Naehe, nicht als Canon-Facet.",
+    "question_basis": [
+      "13_1",
+      "14_1",
+      "15_1",
+      "16_1"
+    ],
+    "quick_basis": [
+      "13",
+      "14",
+      "15",
+      "16"
+    ],
+    "expected_micro_evidence": [
+      "Y_1_1p",
+      "Y_1_2p",
+      "Y_1_3p",
+      "Y_1_4p",
+      "Y_1_5p",
+      "Y_2_1p",
+      "Y_2_2p"
+    ],
+    "micro_rationale": "Micro-IDs wurden nach katalogweiser Sichtung als testnahe Hypothesen gewaehlt; alle 13 Kataloge werden ueber das Gesamtmapping sichtbar bearbeitet."
+  },
+  {
+    "id": "Q1_4",
+    "name": "Offene Entwicklung",
+    "meaning": "sich ohne vorschnelle Festlegung bewegen",
+    "quadrant": "Q1",
+    "xy": "WN",
+    "type": "facet",
+    "short_description": "sich ohne vorschnelle Festlegung bewegen",
+    "model_rationale": "Testnahe Personal-Facet fuer Entdecker; abgeleitet aus Fragekontexten, Antworttexten und Micro-Naehe, nicht als Canon-Facet.",
+    "question_basis": [
+      "19_1",
+      "20_1",
+      "21_1",
+      "22_1"
+    ],
+    "quick_basis": [
+      "19",
+      "20",
+      "21",
+      "22"
+    ],
+    "expected_micro_evidence": [
+      "M_A_1p",
+      "M_A_2p",
+      "M_A_3p",
+      "M_A_4p",
+      "M_A_5p",
+      "M_A_6p",
+      "M_A_7p"
+    ],
+    "micro_rationale": "Micro-IDs wurden nach katalogweiser Sichtung als testnahe Hypothesen gewaehlt; alle 13 Kataloge werden ueber das Gesamtmapping sichtbar bearbeitet."
+  },
+  {
+    "id": "DQ1_1",
+    "name": "Anschlussverlust",
+    "meaning": "Neues loest Verbindung oder Umsetzung zu frueh auf",
+    "quadrant": "DQ1",
+    "counter_quadrant": "Q3",
+    "type": "darkfacet",
+    "short_description": "Neues loest Verbindung oder Umsetzung zu frueh auf",
+    "model_rationale": "Testnahe Risiko- oder Spannungslesart bei einseitiger Entdecker-Orientierung; nicht pathologisierend.",
+    "question_basis": [
+      "3_1",
+      "4_1",
+      "5_1",
+      "6_1"
+    ],
+    "quick_basis": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "expected_micro_evidence": [
+      "K_A_2n",
+      "K_B_1n",
+      "K_B_2n",
+      "K_B_3n",
+      "K_B_4n",
+      "K_B_5n",
+      "K_B_6n"
+    ],
+    "micro_rationale": "Micro-IDs wurden nach katalogweiser Sichtung als testnahe Hypothesen gewaehlt; alle 13 Kataloge werden ueber das Gesamtmapping sichtbar bearbeitet.",
+    "risk_pattern": "Neues loest Verbindung oder Umsetzung zu frueh auf",
+    "related_facet_ids": [
+      "Q1_1",
+      "Q1_2"
+    ],
+    "counterbalance_quadrant": "Q3"
+  },
+  {
+    "id": "DQ1_2",
+    "name": "Impulsueberhang",
+    "meaning": "Bewegung ueberlagert Pruefung und Stabilisierung",
+    "quadrant": "DQ1",
+    "counter_quadrant": "Q3",
+    "type": "darkfacet",
+    "short_description": "Bewegung ueberlagert Pruefung und Stabilisierung",
+    "model_rationale": "Testnahe Risiko- oder Spannungslesart bei einseitiger Entdecker-Orientierung; nicht pathologisierend.",
+    "question_basis": [
+      "9_1",
+      "10_1",
+      "11_1",
+      "12_1"
+    ],
+    "quick_basis": [
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "expected_micro_evidence": [
+      "P_B_1_3n",
+      "P_B_1_4n",
+      "P_B_1_5n",
+      "P_B_1_6n",
+      "P_B_1_7n",
+      "P_B_1_8n",
+      "P_B_1_9n"
+    ],
+    "micro_rationale": "Micro-IDs wurden nach katalogweiser Sichtung als testnahe Hypothesen gewaehlt; alle 13 Kataloge werden ueber das Gesamtmapping sichtbar bearbeitet.",
+    "risk_pattern": "Bewegung ueberlagert Pruefung und Stabilisierung",
+    "related_facet_ids": [
+      "Q1_1",
+      "Q1_2"
+    ],
+    "counterbalance_quadrant": "Q3"
+  },
+  {
+    "id": "DQ1_3",
+    "name": "Verzettelung",
+    "meaning": "zu viele Optionen erschweren Fortsetzung",
+    "quadrant": "DQ1",
+    "counter_quadrant": "Q3",
+    "type": "darkfacet",
+    "short_description": "zu viele Optionen erschweren Fortsetzung",
+    "model_rationale": "Testnahe Risiko- oder Spannungslesart bei einseitiger Entdecker-Orientierung; nicht pathologisierend.",
+    "question_basis": [
+      "15_1",
+      "16_1",
+      "17_1",
+      "18_1"
+    ],
+    "quick_basis": [
+      "15",
+      "16",
+      "17",
+      "18"
+    ],
+    "expected_micro_evidence": [
+      "D_C_1n",
+      "D_C_2n",
+      "D_C_3n",
+      "D_C_4n",
+      "D_C_5n",
+      "D_C_6n",
+      "D_C_7n"
+    ],
+    "micro_rationale": "Micro-IDs wurden nach katalogweiser Sichtung als testnahe Hypothesen gewaehlt; alle 13 Kataloge werden ueber das Gesamtmapping sichtbar bearbeitet.",
+    "risk_pattern": "zu viele Optionen erschweren Fortsetzung",
+    "related_facet_ids": [
+      "Q1_1",
+      "Q1_2"
+    ],
+    "counterbalance_quadrant": "Q3"
+  },
+  {
+    "id": "DQ1_4",
+    "name": "Reifegraduebersprung",
+    "meaning": "Ideen wirken tragfaehiger als sie sind",
+    "quadrant": "DQ1",
+    "counter_quadrant": "Q3",
+    "type": "darkfacet",
+    "short_description": "Ideen wirken tragfaehiger als sie sind",
+    "model_rationale": "Testnahe Risiko- oder Spannungslesart bei einseitiger Entdecker-Orientierung; nicht pathologisierend.",
+    "question_basis": [
+      "21_1",
+      "22_1",
+      "23_1",
+      "24_1"
+    ],
+    "quick_basis": [
+      "21",
+      "22",
+      "23",
+      "24"
+    ],
+    "expected_micro_evidence": [
+      "S_A_3n",
+      "S_A_4n",
+      "S_A_5n",
+      "S_B_1n",
+      "S_B_2n",
+      "S_B_3n",
+      "S_B_4n"
+    ],
+    "micro_rationale": "Micro-IDs wurden nach katalogweiser Sichtung als testnahe Hypothesen gewaehlt; alle 13 Kataloge werden ueber das Gesamtmapping sichtbar bearbeitet.",
+    "risk_pattern": "Ideen wirken tragfaehiger als sie sind",
+    "related_facet_ids": [
+      "Q1_1",
+      "Q1_2"
+    ],
+    "counterbalance_quadrant": "Q3"
+  },
+  {
+    "id": "Q2_1",
+    "name": "Zielgerichtete Selbstgestaltung",
+    "meaning": "Entwicklung bewusst planen",
+    "quadrant": "Q2",
+    "xy": "EN",
+    "type": "facet",
+    "short_description": "Entwicklung bewusst planen",
+    "model_rationale": "Testnahe Personal-Facet fuer Gestalter; abgeleitet aus Fragekontexten, Antworttexten und Micro-Naehe, nicht als Canon-Facet.",
+    "question_basis": [
+      "1_2",
+      "2_2",
+      "3_2",
+      "4_2"
+    ],
+    "quick_basis": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "expected_micro_evidence": [
+      "V_A_4p",
+      "V_A_5p",
+      "V_B_1p",
+      "V_B_2p",
+      "V_B_3p",
+      "V_B_4p",
+      "V_C_1p"
+    ],
+    "micro_rationale": "Micro-IDs wurden nach katalogweiser Sichtung als testnahe Hypothesen gewaehlt; alle 13 Kataloge werden ueber das Gesamtmapping sichtbar bearbeitet."
+  },
+  {
+    "id": "Q2_2",
+    "name": "Disziplinierte Veraenderung",
+    "meaning": "neue Schritte konsequent umsetzen",
+    "quadrant": "Q2",
+    "xy": "EN",
+    "type": "facet",
+    "short_description": "neue Schritte konsequent umsetzen",
+    "model_rationale": "Testnahe Personal-Facet fuer Gestalter; abgeleitet aus Fragekontexten, Antworttexten und Micro-Naehe, nicht als Canon-Facet.",
+    "question_basis": [
+      "7_2",
+      "8_2",
+      "9_2",
+      "10_2"
+    ],
+    "quick_basis": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "expected_micro_evidence": [
+      "X_B_2p",
+      "X_B_3p",
+      "X_B_4p",
+      "X_B_5p",
+      "X_C_1p",
+      "X_C_2p",
+      "X_C_3p"
+    ],
+    "micro_rationale": "Micro-IDs wurden nach katalogweiser Sichtung als testnahe Hypothesen gewaehlt; alle 13 Kataloge werden ueber das Gesamtmapping sichtbar bearbeitet."
+  },
+  {
+    "id": "Q2_3",
+    "name": "Entwicklungsfokus",
+    "meaning": "Wachstum aktiv verfolgen",
+    "quadrant": "Q2",
+    "xy": "EN",
+    "type": "facet",
+    "short_description": "Wachstum aktiv verfolgen",
+    "model_rationale": "Testnahe Personal-Facet fuer Gestalter; abgeleitet aus Fragekontexten, Antworttexten und Micro-Naehe, nicht als Canon-Facet.",
+    "question_basis": [
+      "13_2",
+      "14_2",
+      "15_2",
+      "16_2"
+    ],
+    "quick_basis": [
+      "13",
+      "14",
+      "15",
+      "16"
+    ],
+    "expected_micro_evidence": [
+      "W_A_2p",
+      "W_A_3p",
+      "W_A_4p",
+      "W_A_5p",
+      "W_B_1p",
+      "W_B_2p",
+      "W_B_3p"
+    ],
+    "micro_rationale": "Micro-IDs wurden nach katalogweiser Sichtung als testnahe Hypothesen gewaehlt; alle 13 Kataloge werden ueber das Gesamtmapping sichtbar bearbeitet."
+  },
+  {
+    "id": "Q2_4",
+    "name": "Kontrollierte Neuordnung",
+    "meaning": "Veraenderung strukturiert formen",
+    "quadrant": "Q2",
+    "xy": "EN",
+    "type": "facet",
+    "short_description": "Veraenderung strukturiert formen",
+    "model_rationale": "Testnahe Personal-Facet fuer Gestalter; abgeleitet aus Fragekontexten, Antworttexten und Micro-Naehe, nicht als Canon-Facet.",
+    "question_basis": [
+      "19_2",
+      "20_2",
+      "21_2",
+      "22_2"
+    ],
+    "quick_basis": [
+      "19",
+      "20",
+      "21",
+      "22"
+    ],
+    "expected_micro_evidence": [
+      "Z_3_1p",
+      "Z_3_2p",
+      "Z_3_3p",
+      "Z_3_4p",
+      "Z_3_5p",
+      "Z_4_1p",
+      "Z_4_2p"
+    ],
+    "micro_rationale": "Micro-IDs wurden nach katalogweiser Sichtung als testnahe Hypothesen gewaehlt; alle 13 Kataloge werden ueber das Gesamtmapping sichtbar bearbeitet."
+  },
+  {
+    "id": "DQ2_1",
+    "name": "Steuerungsdruck",
+    "meaning": "Veraenderung wird zu stark getrieben",
+    "quadrant": "DQ2",
+    "counter_quadrant": "Q4",
+    "type": "darkfacet",
+    "short_description": "Veraenderung wird zu stark getrieben",
+    "model_rationale": "Testnahe Risiko- oder Spannungslesart bei einseitiger Gestalter-Orientierung; nicht pathologisierend.",
+    "question_basis": [
+      "3_2",
+      "4_2",
+      "5_2",
+      "6_2"
+    ],
+    "quick_basis": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "expected_micro_evidence": [
+      "R_A_3_5n",
+      "R_A_3_6n",
+      "R_A_3_7n",
+      "R_A_4_1n",
+      "R_A_4_2n",
+      "R_A_4_3n",
+      "R_A_4_4n"
+    ],
+    "micro_rationale": "Micro-IDs wurden nach katalogweiser Sichtung als testnahe Hypothesen gewaehlt; alle 13 Kataloge werden ueber das Gesamtmapping sichtbar bearbeitet.",
+    "risk_pattern": "Veraenderung wird zu stark getrieben",
+    "related_facet_ids": [
+      "Q2_1",
+      "Q2_2"
+    ],
+    "counterbalance_quadrant": "Q4"
+  },
+  {
+    "id": "DQ2_2",
+    "name": "Aktionismus",
+    "meaning": "Tempo ersetzt Lernschleifen und Einordnung",
+    "quadrant": "DQ2",
+    "counter_quadrant": "Q4",
+    "type": "darkfacet",
+    "short_description": "Tempo ersetzt Lernschleifen und Einordnung",
+    "model_rationale": "Testnahe Risiko- oder Spannungslesart bei einseitiger Gestalter-Orientierung; nicht pathologisierend.",
+    "question_basis": [
+      "9_2",
+      "10_2",
+      "11_2",
+      "12_2"
+    ],
+    "quick_basis": [
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "expected_micro_evidence": [
+      "T_Q_3n",
+      "T_Q_4n",
+      "T_Q_5n",
+      "T_Q_6n",
+      "T_Q_7n",
+      "T_Q_8n",
+      "T_Q_9n"
+    ],
+    "micro_rationale": "Micro-IDs wurden nach katalogweiser Sichtung als testnahe Hypothesen gewaehlt; alle 13 Kataloge werden ueber das Gesamtmapping sichtbar bearbeitet.",
+    "risk_pattern": "Tempo ersetzt Lernschleifen und Einordnung",
+    "related_facet_ids": [
+      "Q2_1",
+      "Q2_2"
+    ],
+    "counterbalance_quadrant": "Q4"
+  },
+  {
+    "id": "DQ2_3",
+    "name": "Zielverengung",
+    "meaning": "Entwicklung wird zu eng auf Umsetzung fixiert",
+    "quadrant": "DQ2",
+    "counter_quadrant": "Q4",
+    "type": "darkfacet",
+    "short_description": "Entwicklung wird zu eng auf Umsetzung fixiert",
+    "model_rationale": "Testnahe Risiko- oder Spannungslesart bei einseitiger Gestalter-Orientierung; nicht pathologisierend.",
+    "question_basis": [
+      "15_2",
+      "16_2",
+      "17_2",
+      "18_2"
+    ],
+    "quick_basis": [
+      "15",
+      "16",
+      "17",
+      "18"
+    ],
+    "expected_micro_evidence": [
+      "B_A_5_3n",
+      "B_B_1_1n",
+      "B_B_1_2n",
+      "B_B_1_3n",
+      "B_B_1_4n",
+      "B_B_2_1n",
+      "B_B_2_2n"
+    ],
+    "micro_rationale": "Micro-IDs wurden nach katalogweiser Sichtung als testnahe Hypothesen gewaehlt; alle 13 Kataloge werden ueber das Gesamtmapping sichtbar bearbeitet.",
+    "risk_pattern": "Entwicklung wird zu eng auf Umsetzung fixiert",
+    "related_facet_ids": [
+      "Q2_1",
+      "Q2_2"
+    ],
+    "counterbalance_quadrant": "Q4"
+  },
+  {
+    "id": "DQ2_4",
+    "name": "Ueberforderung",
+    "meaning": "Koordinierte Veraenderung ueberlastet Anschluss",
+    "quadrant": "DQ2",
+    "counter_quadrant": "Q4",
+    "type": "darkfacet",
+    "short_description": "Koordinierte Veraenderung ueberlastet Anschluss",
+    "model_rationale": "Testnahe Risiko- oder Spannungslesart bei einseitiger Gestalter-Orientierung; nicht pathologisierend.",
+    "question_basis": [
+      "21_2",
+      "22_2",
+      "23_2",
+      "24_2"
+    ],
+    "quick_basis": [
+      "21",
+      "22",
+      "23",
+      "24"
+    ],
+    "expected_micro_evidence": [
+      "Y_1_4n",
+      "Y_1_5n",
+      "Y_2_1n",
+      "Y_2_2n",
+      "Y_2_3n",
+      "Y_2_4n",
+      "Y_2_5n"
+    ],
+    "micro_rationale": "Micro-IDs wurden nach katalogweiser Sichtung als testnahe Hypothesen gewaehlt; alle 13 Kataloge werden ueber das Gesamtmapping sichtbar bearbeitet.",
+    "risk_pattern": "Koordinierte Veraenderung ueberlastet Anschluss",
+    "related_facet_ids": [
+      "Q2_1",
+      "Q2_2"
+    ],
+    "counterbalance_quadrant": "Q4"
+  },
+  {
+    "id": "Q3_1",
+    "name": "Alltagsstabilisierung",
+    "meaning": "Verlaesslichkeit im Leben sichern",
+    "quadrant": "Q3",
+    "xy": "ES",
+    "type": "facet",
+    "short_description": "Verlaesslichkeit im Leben sichern",
+    "model_rationale": "Testnahe Personal-Facet fuer Bewahrer; abgeleitet aus Fragekontexten, Antworttexten und Micro-Naehe, nicht als Canon-Facet.",
+    "question_basis": [
+      "1_3",
+      "2_3",
+      "3_3",
+      "4_3"
+    ],
+    "quick_basis": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "expected_micro_evidence": [
+      "M_B_9p",
+      "M_C_10p",
+      "M_C_11p",
+      "M_C_12p",
+      "M_C_13p",
+      "M_C_1p",
+      "M_C_2p"
+    ],
+    "micro_rationale": "Micro-IDs wurden nach katalogweiser Sichtung als testnahe Hypothesen gewaehlt; alle 13 Kataloge werden ueber das Gesamtmapping sichtbar bearbeitet."
+  },
+  {
+    "id": "Q3_2",
+    "name": "Vorsorgliche Sicherheit",
+    "meaning": "Risiken und Ueberforderung begrenzen",
+    "quadrant": "Q3",
+    "xy": "ES",
+    "type": "facet",
+    "short_description": "Risiken und Ueberforderung begrenzen",
+    "model_rationale": "Testnahe Personal-Facet fuer Bewahrer; abgeleitet aus Fragekontexten, Antworttexten und Micro-Naehe, nicht als Canon-Facet.",
+    "question_basis": [
+      "7_3",
+      "8_3",
+      "9_3",
+      "10_3"
+    ],
+    "quick_basis": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "expected_micro_evidence": [
+      "K_D_2p",
+      "K_D_3p",
+      "K_D_4p",
+      "K_E_1p",
+      "K_E_2p",
+      "K_E_3p",
+      "K_F_1p"
+    ],
+    "micro_rationale": "Micro-IDs wurden nach katalogweiser Sichtung als testnahe Hypothesen gewaehlt; alle 13 Kataloge werden ueber das Gesamtmapping sichtbar bearbeitet."
+  },
+  {
+    "id": "Q3_3",
+    "name": "Bestandspflege",
+    "meaning": "tragende Gewohnheiten erhalten",
+    "quadrant": "Q3",
+    "xy": "ES",
+    "type": "facet",
+    "short_description": "tragende Gewohnheiten erhalten",
+    "model_rationale": "Testnahe Personal-Facet fuer Bewahrer; abgeleitet aus Fragekontexten, Antworttexten und Micro-Naehe, nicht als Canon-Facet.",
+    "question_basis": [
+      "13_3",
+      "14_3",
+      "15_3",
+      "16_3"
+    ],
+    "quick_basis": [
+      "13",
+      "14",
+      "15",
+      "16"
+    ],
+    "expected_micro_evidence": [
+      "P_B_2_6p",
+      "P_B_2_7p",
+      "P_B_3_10p",
+      "P_B_3_11p",
+      "P_B_3_1p",
+      "P_B_3_2p",
+      "P_B_3_3p"
+    ],
+    "micro_rationale": "Micro-IDs wurden nach katalogweiser Sichtung als testnahe Hypothesen gewaehlt; alle 13 Kataloge werden ueber das Gesamtmapping sichtbar bearbeitet."
+  },
+  {
+    "id": "Q3_4",
+    "name": "Strukturierte Kontinuitaet",
+    "meaning": "Ordnung und Vorhersehbarkeit halten",
+    "quadrant": "Q3",
+    "xy": "ES",
+    "type": "facet",
+    "short_description": "Ordnung und Vorhersehbarkeit halten",
+    "model_rationale": "Testnahe Personal-Facet fuer Bewahrer; abgeleitet aus Fragekontexten, Antworttexten und Micro-Naehe, nicht als Canon-Facet.",
+    "question_basis": [
+      "19_3",
+      "20_3",
+      "21_3",
+      "22_3"
+    ],
+    "quick_basis": [
+      "19",
+      "20",
+      "21",
+      "22"
+    ],
+    "expected_micro_evidence": [
+      "D_D_3p",
+      "D_D_4p",
+      "D_D_5p",
+      "D_D_6p",
+      "D_D_7p",
+      "D_D_8p",
+      "D_D_9p"
+    ],
+    "micro_rationale": "Micro-IDs wurden nach katalogweiser Sichtung als testnahe Hypothesen gewaehlt; alle 13 Kataloge werden ueber das Gesamtmapping sichtbar bearbeitet."
+  },
+  {
+    "id": "DQ3_1",
+    "name": "Beharrungsueberhang",
+    "meaning": "Stabilisierung bremst notwendige Bewegung",
+    "quadrant": "DQ3",
+    "counter_quadrant": "Q1",
+    "type": "darkfacet",
+    "short_description": "Stabilisierung bremst notwendige Bewegung",
+    "model_rationale": "Testnahe Risiko- oder Spannungslesart bei einseitiger Bewahrer-Orientierung; nicht pathologisierend.",
+    "question_basis": [
+      "3_3",
+      "4_3",
+      "5_3",
+      "6_3"
+    ],
+    "quick_basis": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "expected_micro_evidence": [
+      "S_A_4n",
+      "S_A_5n",
+      "S_B_1n",
+      "S_B_2n",
+      "S_B_3n",
+      "S_B_4n",
+      "S_B_5n"
+    ],
+    "micro_rationale": "Micro-IDs wurden nach katalogweiser Sichtung als testnahe Hypothesen gewaehlt; alle 13 Kataloge werden ueber das Gesamtmapping sichtbar bearbeitet.",
+    "risk_pattern": "Stabilisierung bremst notwendige Bewegung",
+    "related_facet_ids": [
+      "Q3_1",
+      "Q3_2"
+    ],
+    "counterbalance_quadrant": "Q1"
+  },
+  {
+    "id": "DQ3_2",
+    "name": "Kontrollbindung",
+    "meaning": "Absicherung ersetzt Anpassungsfaehigkeit",
+    "quadrant": "DQ3",
+    "counter_quadrant": "Q1",
+    "type": "darkfacet",
+    "short_description": "Absicherung ersetzt Anpassungsfaehigkeit",
+    "model_rationale": "Testnahe Risiko- oder Spannungslesart bei einseitiger Bewahrer-Orientierung; nicht pathologisierend.",
+    "question_basis": [
+      "9_3",
+      "10_3",
+      "11_3",
+      "12_3"
+    ],
+    "quick_basis": [
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "expected_micro_evidence": [
+      "V_C_1n",
+      "V_C_2n",
+      "V_C_3n",
+      "V_D_1n",
+      "V_D_2n",
+      "V_D_3n",
+      "V_E_1n"
+    ],
+    "micro_rationale": "Micro-IDs wurden nach katalogweiser Sichtung als testnahe Hypothesen gewaehlt; alle 13 Kataloge werden ueber das Gesamtmapping sichtbar bearbeitet.",
+    "risk_pattern": "Absicherung ersetzt Anpassungsfaehigkeit",
+    "related_facet_ids": [
+      "Q3_1",
+      "Q3_2"
+    ],
+    "counterbalance_quadrant": "Q1"
+  },
+  {
+    "id": "DQ3_3",
+    "name": "Routinenstarre",
+    "meaning": "Bestehendes wird zu lange geschuetzt",
+    "quadrant": "DQ3",
+    "counter_quadrant": "Q1",
+    "type": "darkfacet",
+    "short_description": "Bestehendes wird zu lange geschuetzt",
+    "model_rationale": "Testnahe Risiko- oder Spannungslesart bei einseitiger Bewahrer-Orientierung; nicht pathologisierend.",
+    "question_basis": [
+      "15_3",
+      "16_3",
+      "17_3",
+      "18_3"
+    ],
+    "quick_basis": [
+      "15",
+      "16",
+      "17",
+      "18"
+    ],
+    "expected_micro_evidence": [
+      "X_B_2n",
+      "X_B_3n",
+      "X_B_4n",
+      "X_B_5n",
+      "X_C_1n",
+      "X_C_2n",
+      "X_C_3n"
+    ],
+    "micro_rationale": "Micro-IDs wurden nach katalogweiser Sichtung als testnahe Hypothesen gewaehlt; alle 13 Kataloge werden ueber das Gesamtmapping sichtbar bearbeitet.",
+    "risk_pattern": "Bestehendes wird zu lange geschuetzt",
+    "related_facet_ids": [
+      "Q3_1",
+      "Q3_2"
+    ],
+    "counterbalance_quadrant": "Q1"
+  },
+  {
+    "id": "DQ3_4",
+    "name": "Risikovermeidung",
+    "meaning": "Risikoarmut begrenzt Entwicklung",
+    "quadrant": "DQ3",
+    "counter_quadrant": "Q1",
+    "type": "darkfacet",
+    "short_description": "Risikoarmut begrenzt Entwicklung",
+    "model_rationale": "Testnahe Risiko- oder Spannungslesart bei einseitiger Bewahrer-Orientierung; nicht pathologisierend.",
+    "question_basis": [
+      "21_3",
+      "22_3",
+      "23_3",
+      "24_3"
+    ],
+    "quick_basis": [
+      "21",
+      "22",
+      "23",
+      "24"
+    ],
+    "expected_micro_evidence": [
+      "W_A_2n",
+      "W_A_3n",
+      "W_A_4n",
+      "W_A_5n",
+      "W_B_1n",
+      "W_B_2n",
+      "W_B_3n"
+    ],
+    "micro_rationale": "Micro-IDs wurden nach katalogweiser Sichtung als testnahe Hypothesen gewaehlt; alle 13 Kataloge werden ueber das Gesamtmapping sichtbar bearbeitet.",
+    "risk_pattern": "Risikoarmut begrenzt Entwicklung",
+    "related_facet_ids": [
+      "Q3_1",
+      "Q3_2"
+    ],
+    "counterbalance_quadrant": "Q1"
+  },
+  {
+    "id": "Q4_1",
+    "name": "Selbsttreue Integration",
+    "meaning": "Neues mit innerer Stimmigkeit verbinden",
+    "quadrant": "Q4",
+    "xy": "WS",
+    "type": "facet",
+    "short_description": "Neues mit innerer Stimmigkeit verbinden",
+    "model_rationale": "Testnahe Personal-Facet fuer Eigenstaendiger; abgeleitet aus Fragekontexten, Antworttexten und Micro-Naehe, nicht als Canon-Facet.",
+    "question_basis": [
+      "1_4",
+      "2_4",
+      "3_4",
+      "4_4"
+    ],
+    "quick_basis": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "expected_micro_evidence": [
+      "Z_6_5p",
+      "Z_7_1p",
+      "Z_7_2p",
+      "Z_7_3p",
+      "Z_7_4p",
+      "Z_7_5p",
+      "Z_1_1p"
+    ],
+    "micro_rationale": "Micro-IDs wurden nach katalogweiser Sichtung als testnahe Hypothesen gewaehlt; alle 13 Kataloge werden ueber das Gesamtmapping sichtbar bearbeitet."
+  },
+  {
+    "id": "Q4_2",
+    "name": "Sorgfaeltige Selbstklaerung",
+    "meaning": "Gefuehle und Grenzen pruefen",
+    "quadrant": "Q4",
+    "xy": "WS",
+    "type": "facet",
+    "short_description": "Gefuehle und Grenzen pruefen",
+    "model_rationale": "Testnahe Personal-Facet fuer Eigenstaendiger; abgeleitet aus Fragekontexten, Antworttexten und Micro-Naehe, nicht als Canon-Facet.",
+    "question_basis": [
+      "7_4",
+      "8_4",
+      "9_4",
+      "10_4"
+    ],
+    "quick_basis": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "expected_micro_evidence": [
+      "R_C_3_4p",
+      "R_C_3_5p",
+      "R_C_3_6p",
+      "R_C_3_7p",
+      "R_D_1_1p",
+      "R_D_1_2p",
+      "R_D_1_3p"
+    ],
+    "micro_rationale": "Micro-IDs wurden nach katalogweiser Sichtung als testnahe Hypothesen gewaehlt; alle 13 Kataloge werden ueber das Gesamtmapping sichtbar bearbeitet."
+  },
+  {
+    "id": "Q4_3",
+    "name": "Eigenstaendige Besonnenheit",
+    "meaning": "unabhaengig und ruhig abwaegen",
+    "quadrant": "Q4",
+    "xy": "WS",
+    "type": "facet",
+    "short_description": "unabhaengig und ruhig abwaegen",
+    "model_rationale": "Testnahe Personal-Facet fuer Eigenstaendiger; abgeleitet aus Fragekontexten, Antworttexten und Micro-Naehe, nicht als Canon-Facet.",
+    "question_basis": [
+      "13_4",
+      "14_4",
+      "15_4",
+      "16_4"
+    ],
+    "quick_basis": [
+      "13",
+      "14",
+      "15",
+      "16"
+    ],
+    "expected_micro_evidence": [
+      "T_G_3p",
+      "T_G_4p",
+      "T_G_5p",
+      "T_G_6p",
+      "T_H_1p",
+      "T_H_2p",
+      "T_H_3p"
+    ],
+    "micro_rationale": "Micro-IDs wurden nach katalogweiser Sichtung als testnahe Hypothesen gewaehlt; alle 13 Kataloge werden ueber das Gesamtmapping sichtbar bearbeitet."
+  },
+  {
+    "id": "Q4_4",
+    "name": "Reflektierte Grenze",
+    "meaning": "Tempo und Naehe bewusst regulieren",
+    "quadrant": "Q4",
+    "xy": "WS",
+    "type": "facet",
+    "short_description": "Tempo und Naehe bewusst regulieren",
+    "model_rationale": "Testnahe Personal-Facet fuer Eigenstaendiger; abgeleitet aus Fragekontexten, Antworttexten und Micro-Naehe, nicht als Canon-Facet.",
+    "question_basis": [
+      "19_4",
+      "20_4",
+      "21_4",
+      "22_4"
+    ],
+    "quick_basis": [
+      "19",
+      "20",
+      "21",
+      "22"
+    ],
+    "expected_micro_evidence": [
+      "B_A_4_2p",
+      "B_A_4_3p",
+      "B_A_5_1p",
+      "B_A_5_2p",
+      "B_A_5_3p",
+      "B_B_1_1p",
+      "B_B_1_2p"
+    ],
+    "micro_rationale": "Micro-IDs wurden nach katalogweiser Sichtung als testnahe Hypothesen gewaehlt; alle 13 Kataloge werden ueber das Gesamtmapping sichtbar bearbeitet."
+  },
+  {
+    "id": "DQ4_1",
+    "name": "Pruefverzoegerung",
+    "meaning": "Reflexion verzögert naechste Schritte",
+    "quadrant": "DQ4",
+    "counter_quadrant": "Q2",
+    "type": "darkfacet",
+    "short_description": "Reflexion verzögert naechste Schritte",
+    "model_rationale": "Testnahe Risiko- oder Spannungslesart bei einseitiger Eigenstaendiger-Orientierung; nicht pathologisierend.",
+    "question_basis": [
+      "3_4",
+      "4_4",
+      "5_4",
+      "6_4"
+    ],
+    "quick_basis": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "expected_micro_evidence": [
+      "Y_1_4n",
+      "Y_1_5n",
+      "Y_2_1n",
+      "Y_2_2n",
+      "Y_2_3n",
+      "Y_2_4n",
+      "Y_2_5n"
+    ],
+    "micro_rationale": "Micro-IDs wurden nach katalogweiser Sichtung als testnahe Hypothesen gewaehlt; alle 13 Kataloge werden ueber das Gesamtmapping sichtbar bearbeitet.",
+    "risk_pattern": "Reflexion verzögert naechste Schritte",
+    "related_facet_ids": [
+      "Q4_1",
+      "Q4_2"
+    ],
+    "counterbalance_quadrant": "Q2"
+  },
+  {
+    "id": "DQ4_2",
+    "name": "Distanzverfestigung",
+    "meaning": "unabhaengige Pruefung verhindert Anschluss",
+    "quadrant": "DQ4",
+    "counter_quadrant": "Q2",
+    "type": "darkfacet",
+    "short_description": "unabhaengige Pruefung verhindert Anschluss",
+    "model_rationale": "Testnahe Risiko- oder Spannungslesart bei einseitiger Eigenstaendiger-Orientierung; nicht pathologisierend.",
+    "question_basis": [
+      "9_4",
+      "10_4",
+      "11_4",
+      "12_4"
+    ],
+    "quick_basis": [
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "expected_micro_evidence": [
+      "M_C_5n",
+      "M_C_6n",
+      "M_C_7n",
+      "M_C_8n",
+      "M_C_9n",
+      "M_A_10n",
+      "M_A_11n"
+    ],
+    "micro_rationale": "Micro-IDs wurden nach katalogweiser Sichtung als testnahe Hypothesen gewaehlt; alle 13 Kataloge werden ueber das Gesamtmapping sichtbar bearbeitet.",
+    "risk_pattern": "unabhaengige Pruefung verhindert Anschluss",
+    "related_facet_ids": [
+      "Q4_1",
+      "Q4_2"
+    ],
+    "counterbalance_quadrant": "Q2"
+  },
+  {
+    "id": "DQ4_3",
+    "name": "Integrationsschwere",
+    "meaning": "Neues wird zu lange in alte Muster eingeordnet",
+    "quadrant": "DQ4",
+    "counter_quadrant": "Q2",
+    "type": "darkfacet",
+    "short_description": "Neues wird zu lange in alte Muster eingeordnet",
+    "model_rationale": "Testnahe Risiko- oder Spannungslesart bei einseitiger Eigenstaendiger-Orientierung; nicht pathologisierend.",
+    "question_basis": [
+      "15_4",
+      "16_4",
+      "17_4",
+      "18_4"
+    ],
+    "quick_basis": [
+      "15",
+      "16",
+      "17",
+      "18"
+    ],
+    "expected_micro_evidence": [
+      "K_D_4n",
+      "K_E_1n",
+      "K_E_2n",
+      "K_E_3n",
+      "K_F_1n",
+      "K_F_2n",
+      "K_F_3n"
+    ],
+    "micro_rationale": "Micro-IDs wurden nach katalogweiser Sichtung als testnahe Hypothesen gewaehlt; alle 13 Kataloge werden ueber das Gesamtmapping sichtbar bearbeitet.",
+    "risk_pattern": "Neues wird zu lange in alte Muster eingeordnet",
+    "related_facet_ids": [
+      "Q4_1",
+      "Q4_2"
+    ],
+    "counterbalance_quadrant": "Q2"
+  },
+  {
+    "id": "DQ4_4",
+    "name": "Sicherheitsvorbehalt",
+    "meaning": "Besonnenheit behandelt Wandel zu lange als Risiko",
+    "quadrant": "DQ4",
+    "counter_quadrant": "Q2",
+    "type": "darkfacet",
+    "short_description": "Besonnenheit behandelt Wandel zu lange als Risiko",
+    "model_rationale": "Testnahe Risiko- oder Spannungslesart bei einseitiger Eigenstaendiger-Orientierung; nicht pathologisierend.",
+    "question_basis": [
+      "21_4",
+      "22_4",
+      "23_4",
+      "24_4"
+    ],
+    "quick_basis": [
+      "21",
+      "22",
+      "23",
+      "24"
+    ],
+    "expected_micro_evidence": [
+      "P_B_3_7n",
+      "P_B_3_8n",
+      "P_B_3_9n",
+      "P_C_1_10n",
+      "P_C_1_11n",
+      "P_C_1_1n",
+      "P_C_1_2n"
+    ],
+    "micro_rationale": "Micro-IDs wurden nach katalogweiser Sichtung als testnahe Hypothesen gewaehlt; alle 13 Kataloge werden ueber das Gesamtmapping sichtbar bearbeitet.",
+    "risk_pattern": "Besonnenheit behandelt Wandel zu lange als Risiko",
+    "related_facet_ids": [
+      "Q4_1",
+      "Q4_2"
+    ],
+    "counterbalance_quadrant": "Q2"
+  }
+]

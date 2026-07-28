@@ -1,0 +1,50 @@
+{
+	"selTick": "Suche dir das passende Ticket aus",
+	"selOver": "Übersicht über unsere Tickets",
+	"selProd": "Deine Buchung",
+	"selInfo": "Bitte überprüfe zunächst deine Produktauswahl.",
+	"selInfoSum": "Rechnungsbetrag",
+	"selPay": "Wähle zur Bezahlung einen der sicheren Zahlungsabwickler aus.",
+	"selBack": "Zurück zur Ticketauswahl",
+	"preis": "Preis",
+	"preis_s": "Summe",
+	"produkt": "Produkt",
+	"anzahl": "Anzahl",
+	"notfound": "Die Seite {page} konnte nicht gefunden werden.",
+	
+	"plan_head": "Du kannst die Tickets entweder für dich selbst oder als Gutschein für jemanden anderen buchen.",
+	"plan_head2": "Ein Gutschein ist so lange übertragbar, bis das Guthaben aufgebraucht ist.",
+	"plan_head3": "Du kannst den Code entweder weiterschicken oder selbst verwenden.",
+	
+
+	"plan_forme": "Für mich",
+	"plan_voucher": "Gutschein",
+
+	"plan_single": "Gutschein",
+	"plan_month": "Gutschein",
+	"plan_year": "Gutschein",
+	
+	"plan-single-info": "Suche dir einen beliebigen unserer Tests aus – ideal für den Einstieg.",
+	"plan-month-info": "Mit dem Monatsticket kannst du alle unsere Tests einen ganzen Monat lang ab dem Kaufdatum nutzen.",
+	"plan-year-info": "Das Jahresticket ermöglicht dir, das ganze Jahr über alle unsere Tests zu nutzen.",
+	
+	"plan_t": "Einzelticket",
+	"plan_t2": "Du kannst dir pro Einzelticket einen Test aus allen zur Auswahl stehenden Tests aussuchen.",
+	"plan_tb": "Einzelticket buchen",
+	"plan_m": "Monatsticket",
+	"plan_m2": "Mit dem Monatsticket hast du einen Monat lang Zeit, alle zur Auswahl stehenden Tests durchzuführen.",
+	"plan_mb": "Monatsticket buchen",
+	"plan_y": "Jahresticket",
+	"plan_y2": "Mit einem Jahrespass hast du ein ganzes Jahr lang Zugang zu allen Tests.",
+	"plan_yb": "Jahresticket buchen",
+	"plan_x": "Unbekannter Artikel",
+	
+	"plan-s1": "Bestellung erfolgreich bearbeitet.",
+	"plan-e": "Die Zahlung wurde nicht durchgeführt.",
+	"plan-e1": "Achtung: Fehler beim Speichern der Bestellung",
+	"plan-e2": "Achtung: Die Abwicklung der Bestellung fehlgeschlagen",
+	"plan-e3": "Achtung: Zahlvorgang abgebrochen",
+	"plan-e4": "Achtung: Es ist ein Fehler bei der Zahlungsabwicklung aufgetreten. ",
+
+	"ende": "ende"
+}

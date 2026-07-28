@@ -1,0 +1,37 @@
+{
+  "lang": "de",
+  "scope": "family",
+  "family": "thinking",
+  "title": "Think & Act",
+  "variant": "",
+  "items": {
+    "f1": {
+      "q": "Was beschreibt dieses Modul?",
+      "a": "Think & Act beschreibt, wie Menschen Informationen ordnen und wie daraus Handlung entsteht. Im Mittelpunkt steht die Frage, ob Orientierung eher über Möglichkeiten und Zusammenhänge oder eher über Ordnung und Klarheit entsteht und ob der Übergang ins Handeln eher spontan oder reflektiert erfolgt."
+    },
+    "f2": {
+      "q": "Welche Spannungen werden unterschieden?",
+      "a": "Das Modul arbeitet mit zwei Spannungen: Konzeption gegen Struktur und Spontanität gegen Reflexion. Diese Spannungen sind keine harten Gegensätze. Sie helfen nur dabei, einen bevorzugten Schwerpunkt verständlich zu machen."
+    },
+    "f3": {
+      "q": "Was zeigen die vier Richtungen?",
+      "a": "Die vier Richtungen zeigen typische Kombinationen aus Denk- und Handlungsstil. Eine Richtung öffnet Möglichkeiten, eine andere schafft Form, eine dritte prüft und plant, eine vierte ordnet Zusammenhänge ein. Das ist eine Lesart, kein Urteil."
+    },
+    "f4": {
+      "q": "Woran hilft mir das im Alltag?",
+      "a": "Das Modul hilft, eigene Muster und Reibungen in Entscheidungen, Gesprächen und Arbeitsabläufen besser zu verstehen. Oft wird erst dadurch klar, warum zwei Menschen dieselbe Aufgabe ganz unterschiedlich angehen."
+    },
+    "f5": {
+      "q": "Wie sicher darf ich die Lesart nehmen?",
+      "a": "Als Orientierung ist das Modul brauchbar. Als fertige Messung ist es es noch nicht. Die feine Absicherung soll später über Fragen, Microevidenzen und Mapping kommen."
+    },
+    "f6": {
+      "q": "Worin unterscheidet es sich von einem Persönlichkeitstest?",
+      "a": "Think & Act schaut auf eine konkrete Denk- und Handlungssituation im Kontext. Es will nicht die ganze Persönlichkeit festlegen. Es ist näher an Reflexion als an Etikettenpflege."
+    },
+    "f7": {
+      "q": "Wo liegen die Grenzen?",
+      "a": "Die Grenzen liegen dort, wo aus einer Orientierung eine feste Eigenschaft gemacht wird. Ein spontaner Schwerpunkt ist nicht unüberlegt, ein reflektierender Schwerpunkt nicht langsam. Das Modul darf nicht zur Diagnose oder Leistungsbewertung werden."
+    }
+  }
+}

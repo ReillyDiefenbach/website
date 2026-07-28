@@ -24,13 +24,16 @@ $groups = [
 ];
 ?>
 
+<section class="content topHead">
+	<div>
+		<p>CARLVON</p>
+		<h1><?= adminEscape((string) $ui['title']) ?></h1>
+		<p><?= adminEscape((string) $ui['subtitle']) ?></p>
+	</div>
+</section>
+
 <section class="languagesPage" data-languages-page>
     <div class="languagesPage__inner">
-        <div class="languagesPage__heading headinfo">
-            <div><?= adminEscape((string) $ui['title']) ?></div>
-            <div><?= adminEscape((string) $ui['subtitle']) ?></div>
-        </div>
-
         <div class="languageGrid">
             <?php foreach ($groups as $group): ?>
                 <?php $languages = $languageNames[$group['source']] ?? []; ?>

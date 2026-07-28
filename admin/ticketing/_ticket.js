@@ -761,8 +761,8 @@ $.WOLF.ticket = Tick = {
 		        "y": TT('A,plan_c2')
 		    }[type] || '';
 		    
-		    let imageSrc = '_assets/self/payment/';
-		    if(type === 't') imageSrc += 'single';
+		    let imageSrc = '/_assets/img/webs/';
+		    if(type === 't') imageSrc += 'ticket';
 		    else if(type === 'm') imageSrc += 'month';
 			else if(type === 'y') imageSrc += 'year';
 			else imageSrc += 'ticket';

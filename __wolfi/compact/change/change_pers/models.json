@@ -1,0 +1,107 @@
+{
+  "name": "Change Personal",
+  "family": "Change",
+  "title": "Change & Adapt",
+  "short": "chng_pers",
+  "typ": "pers",
+  "key": "Beschreibt persönlichen Umgang mit Veränderung zwischen Selbstbestimmung und Kontrolle sowie zwischen Stabilität und Entwicklung.",
+  "desc": "Das Personal Change Dynamics Framework beschreibt, wie Menschen im privaten Leben mit Wandel, Unsicherheit und persönlicher Entwicklung umgehen. Es nutzt zwei interpretative Dimensionen: erstens den persönlichen Steuerungsmodus zwischen Selbstbestimmung und kontrollierender Absicherung; zweitens die Veränderungsrichtung zwischen Entwicklung und Stabilität. Das Modell beschreibt keine starre Persönlichkeit und keine klinische Anpassungsfähigkeit, sondern macht unterschiedliche Orientierungen sichtbar: neugieriges Ausprobieren, zielgerichtete Selbstgestaltung, verlässliche Stabilisierung oder reflektierte Integration. Es eignet sich für Selbstreflexion, Lebensgestaltung, Beziehungsklärung und persönliche Entwicklung, sofern es als Orientierungshilfe und nicht als diagnostische Festlegung verwendet wird.",
+  "answer": "Das Modell beantwortet, wie du persönlich auf Veränderung, Unsicherheit und neue Lebenssituationen reagierst. Es zeigt, ob du Wandel eher über selbstbestimmtes Ausprobieren, bewusste Kontrolle, Entwicklungssuche oder Stabilisierung gestaltest. Dadurch werden typische Bedürfnisse und Spannungsfelder sichtbar: Wo möchtest du Freiheit und neue Erfahrung, wo brauchst du Planung und Sicherheit, wo schützt Stabilität deine Selbsttreue, und wo hilft Reflexion bei der Integration neuer Erfahrungen? Das Modell unterstützt Selbstreflexion, ohne Lebensstile als besser oder schlechter zu bewerten.",
+  "axis": {
+    "X": {
+      "label": "Selbststeuerungsachse",
+      "name": "Selbststeuerung",
+      "aka": "Change",
+      "range": "Selbstbestimmung vs. Kontrolle",
+      "span": "selbstbestimmt vs. kontrollierend",
+      "key": "AX_SELBSTBESTIMMUNG_VS_KONTROLLE",
+      "keyquest": "Wie handle ich?",
+      "quest": "Orientierst du dich eher selbstbestimmt oder kontrollierend?",
+      "fact": "Selbstbestimmung versus Kontrolle.",
+      "desc": "Diese Achse beschreibt, ob persönliche Veränderung eher über Selbstbestimmung, Freiraum und eigenes Ausprobieren oder über Kontrolle, Planung und bewusste Begrenzung reguliert wird.",
+      "info": "Beide Pole können psychologisch funktional sein: Selbstbestimmung stärkt Eigenständigkeit und Exploration, Kontrolle kann Sicherheit und Handlungsfähigkeit herstellen. Risiken entstehen vor allem durch Einseitigkeit.",
+      "tags": "Selbststeuerung, Selbststeuerungs, Selbstbestimmung, Kontrolle",
+      "science": "Selbstregulation, Motivationspsychologie, Handlungspsychologie"
+    },
+    "Y": {
+      "label": "Entwicklungsachse",
+      "name": "Entwicklung",
+      "aka": "Adapt",
+      "range": "Entwicklung vs. Stabilität",
+      "span": "entwickelnd vs. stabilisierend",
+      "key": "AX_ENTWICKLUNG_VS_STABILITAET",
+      "keyquest": "Wie entwickle und verändere ich mich?",
+      "quest": "Orientierst du dich eher entwickelnd oder stabilisierend?",
+      "fact": "Entwicklung versus Stabilität.",
+      "desc": "Diese Achse beschreibt, ob der Fokus stärker auf persönlicher Entwicklung, neuen Erfahrungen und Wachstum oder auf Stabilität, Gewohnheit und innerer Sicherheit liegt.",
+      "info": "Entwicklung und Stabilität müssen empirisch nicht zwingend Gegensätze sein. Persönliche Veränderungsfähigkeit kann gerade daraus entstehen, Neues mit tragfähiger Kontinuität zu verbinden.",
+      "tags": "Entwicklung, Entwicklungs, Stabilität",
+      "science": "Entwicklungspsychologie, Adaptivität, Persönlichkeitsentwicklung"
+    }
+  },
+  "orientation": {
+    "W": {
+      "label": "Selbstbestimmung",
+      "style": "selbstbestimmt"
+    },
+    "E": {
+      "label": "Kontrolle",
+      "style": "kontrollierend"
+    },
+    "N": {
+      "label": "Entwicklung",
+      "style": "entwickelnd"
+    },
+    "S": {
+      "label": "Stabilität",
+      "style": "stabilisierend"
+    }
+  },
+  "quadrants": {
+    "Q1": {
+      "xy": "WN",
+      "style": "explorativ",
+      "desc": "Selbstbestimmt und entwicklungsorientiert; sucht neue Erfahrungen, persönliche Entfaltung und offene Lebensmöglichkeiten.",
+      "strength": "Offen, mutig, explorativ",
+      "deficit": "Kann bei Überbetonung Verbindlichkeit, Kontinuität oder alltagspraktische Umsetzung zu wenig berücksichtigen",
+      "aka": "Explorer",
+      "short": "Der Entdecker",
+      "role": "Entdecker"
+    },
+    "Q2": {
+      "xy": "EN",
+      "style": "gestaltend",
+      "desc": "Kontrollierend und entwicklungsorientiert; plant persönliche Veränderung bewusst und setzt Entwicklung zielgerichtet um.",
+      "strength": "Zielklar, diszipliniert, gestaltungsstark",
+      "deficit": "Kann bei Überbetonung Druck, Selbstoptimierung oder geringe Fehlertoleranz erzeugen",
+      "aka": "Shaper",
+      "short": "Der Gestalter",
+      "role": "Gestalter"
+    },
+    "Q3": {
+      "xy": "ES",
+      "style": "beständig",
+      "desc": "Kontrollierend und stabilitätsorientiert; sucht Ordnung, Vorhersehbarkeit und verlässliche Lebensstrukturen.",
+      "strength": "Verlässlich, vorsorglich, strukturierend",
+      "deficit": "Kann bei Überbetonung neue Erfahrungen, Flexibilität oder spontane Anpassung zu stark begrenzen",
+      "aka": "Keeper",
+      "short": "Der Bewahrer",
+      "role": "Bewahrer"
+    },
+    "Q4": {
+      "xy": "WS",
+      "style": "selbstbestimmt",
+      "desc": "Selbstbestimmt und stabilitätsorientiert; reflektiert Veränderungen sorgfältig, erkennt persönliche Muster und integriert neue Erfahrungen in ein stimmiges Selbstverständnis.",
+      "strength": "Besonnen, selbsttreu, urteilsfähig",
+      "deficit": "Kann bei Überbetonung lange abwägen, sich innerlich abgrenzen oder Aufbruch verzögern",
+      "aka": "Independent",
+      "short": "Der Lebensmentor",
+      "role": "Eigenständiger"
+    }
+  },
+  "badge": "CHNGE",
+  "brand": "ChangeShift",
+  "canon_status": "freezed",
+  "freezed_at": "2026-07-02T19:57:24Z",
+  "source_candidate": "/var/www/openclaw/candidate/change/change_rebuild.json"
+}

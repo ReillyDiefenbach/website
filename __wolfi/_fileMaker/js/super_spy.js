@@ -17,6 +17,11 @@
 
     function getSections(root) {
         const pageRoot = getPageRoot(root);
+        if (
+            pageRoot.matches?.('[data-legal-page]')
+            || pageRoot.querySelector?.('[data-legal-page]')
+        ) return [];
+
         const directSections = pageRoot.querySelectorAll?.(':scope > section.content') || [];
         const sections = directSections.length
             ? Array.from(directSections)

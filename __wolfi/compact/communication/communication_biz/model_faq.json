@@ -1,0 +1,53 @@
+{
+  "schema": "pna.content.model_faq.v1",
+  "lang": "de",
+  "scope": "model",
+  "family": "communication",
+  "model_key": "communication_biz",
+  "title": "Communication Business",
+  "variant": "business",
+  "source_stage": "after_model_results_review",
+  "status": "generated_pending_content_review",
+  "items": {
+    "m1": {
+      "q": "Worin unterscheidet sich dieses Modell von Connect & Influence als Family?",
+      "a": "Connect & Influence als Family beschreibt die gemeinsame Perspektive auf kommunikative Orientierung: Resonanz, strukturierende Klärung, sichtbare Kontaktbewegung und prüfende Zurückhaltung. Communication Business ist die berufliche Ausprägung dieser Perspektive. Es übersetzt die Family-Logik in Arbeitskontexte wie Führung, Zusammenarbeit, Beratung, Vertrieb, Verhandlung und Konfliktklärung. Deshalb arbeitet das Modell mit Resonanz und Steuerung sowie Ausdruck und Zurückhaltung. Die Rollen heißen Inspirator, Lenker, Analytiker und Vermittler. Die Aussagen beziehen sich auf kommunikative Wirkung und Gesprächsorganisation im organisationalen Kontext, nicht auf private Beziehungsmuster oder allgemeine soziale Kompetenz."
+    },
+    "m2": {
+      "q": "Welche Ergebnisbereiche liefert dieses Modell?",
+      "a": "Communication Business liefert vier Ergebnisbereiche: Orientierung, Prioritäten, Wirkungsraum und Rollenprofil. Orientierung beschreibt, ob im Modell eher die Kommunikationsachse oder die Aktivitätsachse im Vordergrund steht oder ob beide Zugänge ausbalanciert sind. Prioritäten zeigen die stärkeren Grundrichtungen: Resonanz, Steuerung, Ausdruck und Zurückhaltung, jeweils mit möglichen Balancefällen. Der Wirkungsraum verdichtet diese Richtungen zu beruflichen Kommunikationsrollen wie Inspirator, Lenker, Analytiker oder Vermittler. Das Rollenprofil beschreibt eine geordnete Kombination aus primärem und sekundärem Wirkungsraum, sofern die Ergebnislage eine belastbare Reihenfolge erlaubt. Damit bleibt nachvollziehbar, welche Ebene jeweils interpretiert wird."
+    },
+    "m3": {
+      "q": "Was bedeutet Orientierung in diesem Modell?",
+      "a": "Orientierung beschreibt im Communication Business Modell, welcher Zugang berufliche Kommunikation stärker strukturiert. Die Kommunikationsachse unterscheidet Resonanz und Steuerung: also Anschluss, Beteiligung und Vertrauen gegenüber Richtung, Gesprächsführung und Klärung. Die Aktivitätsachse unterscheidet Ausdruck und Zurückhaltung: also sichtbare Initiative gegenüber prüfender, absichernder Beteiligung. Ein Ergebnis kann eine Achse stärker hervorheben oder beide Zugänge als ausbalanciert beschreiben. Orientierung ist keine Bewertung von Kommunikationsfähigkeit. Sie zeigt nur, welche Auswertungsrichtung innerhalb dieses Modells besonders relevant wird und wie berufliche Kommunikationssituationen dadurch sprachlich eingeordnet werden können."
+    },
+    "m4": {
+      "q": "Was zeigen Prioritäten in diesem Modell?",
+      "a": "Prioritäten zeigen, welche Kommunikationsrichtungen im Business-Kontext stärker hervortreten. Resonanz steht für Anschlussfähigkeit, Beteiligung, motivierende Verbindung und Vertrauen. Steuerung steht für Struktur, Richtung, klare Erwartungen und Gesprächsführung. Ausdruck beschreibt Präsenz, Initiative und sichtbare kommunikative Aktivität. Zurückhaltung beschreibt Prüfung, Zuhören, Vorsicht und absichernde Kommunikation. Das Modell betrachtet diese Richtungen paarweise: Resonanz gegenüber Steuerung sowie Ausdruck gegenüber Zurückhaltung. Dabei können klare Schwerpunkte, knappe Schwerpunkte oder Balancefälle entstehen. Eine niedrigere Priorität bedeutet nicht, dass eine Richtung fehlt. Sie ist nur im Ergebnis weniger dominant."
+    },
+    "m5": {
+      "q": "Was beschreibt der Wirkungsraum?",
+      "a": "Der Wirkungsraum beschreibt, wo sich Orientierung und Prioritäten im beruflichen Kommunikationsraum bündeln. Communication Business verwendet vier Wirkungsräume: Inspirator, Lenker, Analytiker und Vermittler. Der Inspirator verbindet Resonanz und Ausdruck, der Lenker Steuerung und Ausdruck, der Analytiker Steuerung und Zurückhaltung, der Vermittler Resonanz und Zurückhaltung. Diese Begriffe sind funktionale Lesarten für berufliche Kommunikation, keine festen Persönlichkeitstypen. Ein Wirkungsraum macht sichtbar, welche Art von Beitrag in Gesprächen, Meetings, Verhandlungen oder Konflikten besonders naheliegt. Bei ausgewogener Verteilung kann auch kein einzelner Wirkungsraum dominieren. Die Lesart bleibt dabei ausdrücklich an den Arbeitskontext gebunden."
+    },
+    "m6": {
+      "q": "Wie ist das Rollenprofil zu verstehen?",
+      "a": "Das Rollenprofil ist die stärkste Verdichtung der Modellauswertung. Es entsteht nur, wenn ein primärer und ein sekundärer Wirkungsraum in einer fachlich sinnvollen Reihenfolge bestimmbar sind. Eine solche Reihenfolge beschreibt, welche Kommunikationsrolle zuerst sichtbar wird und welche ergänzend wirkt. Das ist keine Aussage über die gesamte Persönlichkeit und kein Nachweis beruflicher Kompetenz. Das Rollenprofil hilft, kommunikative Beiträge zu sortieren: Wer öffnet Gespräche, wer setzt Richtung, wer prüft Aussagen, wer stabilisiert Vertrauen? Bei echter Balance wird kein Rollenprofil erzwungen, sondern die ausgewogene Ergebnislage bleibt führend."
+    },
+    "m7": {
+      "q": "Wie werden Balance oder knappe Ergebnisse formuliert?",
+      "a": "Balance und knappe Ergebnisse werden über die Auswertungsschicht behandelt, nicht durch frei erfundene Zusatztypen. Die statischen Ergebnisbausteine bleiben auf die Basis-Keys begrenzt; konkrete Laufzeitfälle werden über `resolved_result_key` berechnet. Bei Balance darf keine Dominanz behauptet werden. Dann wird formuliert, dass zwei Achsen, Richtungen oder Wirkungsräume annähernd gleich stark sichtbar sind. Bei knapper Dominanz wird die führende Seite zuerst genannt, die nahe zweite Seite aber ausdrücklich mitgeführt. Rollenprofile werden bei echter Balance unterdrückt, wenn keine belastbare Primär- und Sekundärreihenfolge besteht. So bleibt die Darstellung präzise, ohne Unterschiede zu überzeichnen."
+    },
+    "m8": {
+      "q": "Was sagt ein Ergebnis ausdrücklich nicht aus?",
+      "a": "Ein Ergebnis aus Communication Business sagt nicht, ob eine Person kommunikativer, überzeugender, empathischer, führungsstärker oder beruflich geeigneter ist als eine andere. Es ist keine klinische Diagnose, kein Kommunikationstyp und keine Eignungsentscheidung. Resonanz bedeutet nicht automatisch Empathie, Steuerung nicht automatisch Kontrolle, Ausdruck nicht automatisch Dominanz und Zurückhaltung nicht automatisch Unsicherheit. Das Ergebnis beschreibt modellbezogene Orientierungen im beruflichen Kommunikationskontext. Es bleibt ein Reflexionsangebot, das mit Aufgabe, Gesprächssituation, Rolle, Organisation und Gegenüber gelesen werden muss, nicht als isolierter Personenbefund. Die fachliche Grenze bleibt deshalb in jedem Ausgabekontext sichtbar."
+    },
+    "m9": {
+      "q": "Wie kann man das Ergebnis praktisch nutzen?",
+      "a": "Praktisch kann Communication Business genutzt werden, um berufliche Gesprächs- und Einflussmuster differenzierter zu besprechen. In Teams kann es zeigen, ob eher Anschluss, Richtung, Prüfung oder Vermittlung stark vertreten sind und welche Perspektiven ergänzt werden sollten. In Führung, Beratung, Vertrieb oder Konfliktklärung kann es helfen, Erwartungen an Klarheit, Beteiligung, Initiative oder Vorsicht explizit zu machen. Das Ergebnis kann Reibung entpersonalisieren, weil unterschiedliche Kommunikationslogiken sichtbar werden. Es sollte als Gesprächsgrundlage verwendet werden, nicht als Entscheidungsschablone für Leistung, Eignung oder soziale Qualität. Der Nutzen liegt in Klärung, nicht in Bewertung."
+    },
+    "m10": {
+      "q": "Was sollte man bei der Interpretation vermeiden?",
+      "a": "Zu vermeiden ist jede Interpretation, die Communication Business als starres Kommunikationsurteil behandelt. Die Rollen Inspirator, Lenker, Analytiker und Vermittler sind funktionale Lesarten im beruflichen Kontext, keine Typen und keine Rangordnung. Keine Rolle ist besser, moderner oder wertvoller als eine andere. Ebenso sollten Balancefälle nicht als Unklarheit oder Schwäche gelesen werden. Das Modell ersetzt keine Situationsanalyse, kein Feedbackgespräch und keine fachliche Bewertung. Gute Interpretation bleibt kontextbezogen, wertneutral und offen für Ergänzung durch konkrete Arbeitsbedingungen, Gesprächsanlass und beobachtbares Verhalten. Entscheidend ist die passende Einordnung der konkreten Situation."
+    }
+  }
+}

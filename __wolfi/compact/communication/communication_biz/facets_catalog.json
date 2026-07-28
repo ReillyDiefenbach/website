@@ -1,0 +1,1018 @@
+{
+  "schema": "pna.test_facets.v2",
+  "model_id": "communication_biz",
+  "model_name": "Communication Business",
+  "generated_at": "2026-07-02T00:35:00Z",
+  "scope": "test_near_question_facet_revision",
+  "facet_rule": "Facets and darkfacets are derived from revised block contexts, answer patterns and quick logic; no sliding-window basis and no one-pole quadrant shortcut.",
+  "items": [
+    {
+      "id": "Q1_1",
+      "name": "Motivierender Gesprächsauftakt",
+      "meaning": "Gespräche öffnen",
+      "quadrant": "Q1",
+      "type": "facet",
+      "short_description": "Testnahe Facet: gespräche öffnen in konkreten Kommunikationssituationen.",
+      "model_rationale": "Verbindet Resonanz mit sichtbarer Aktivierung: Beteiligung entsteht nicht nur aus Wärme, sondern aus einem Startimpuls, der andere in Bewegung bringt. Die erwartete Microevidence wurde facetspezifisch auf diesen Fragekern nachgezogen und nicht aus einem Gegenquadranten-Bündel recycelt.",
+      "question_basis": [
+        "1_1",
+        "1_2",
+        "13_1",
+        "13_2"
+      ],
+      "quick_basis": [
+        "1",
+        "13"
+      ],
+      "expected_micro_evidence": [
+        "T_A_4p",
+        "T_F_1p",
+        "M_A_6p",
+        "K_F_1p",
+        "D_D_1p",
+        "W_A_1p"
+      ],
+      "derivation_basis": "blocks_answers_quicks_semantic_pattern",
+      "quadrant_xy": "WN"
+    },
+    {
+      "id": "Q1_2",
+      "name": "Beteiligende Wirkung",
+      "meaning": "Andere aktivieren",
+      "quadrant": "Q1",
+      "type": "facet",
+      "short_description": "Testnahe Facet: andere aktivieren in konkreten Kommunikationssituationen.",
+      "model_rationale": "Die Facet liegt nahe WN, weil leise Stimmen und kreative Beiträge zugleich eingeladen und durch aktive Impulse sichtbar gemacht werden. Die erwartete Microevidence wurde facetspezifisch auf diesen Fragekern nachgezogen und nicht aus einem Gegenquadranten-Bündel recycelt.",
+      "question_basis": [
+        "4_1",
+        "4_2",
+        "9_1",
+        "9_2"
+      ],
+      "quick_basis": [
+        "4",
+        "9"
+      ],
+      "expected_micro_evidence": [
+        "T_H_4p",
+        "T_N_4p",
+        "M_A_9p",
+        "K_F_3p",
+        "D_D_10p",
+        "W_B_2p"
+      ],
+      "derivation_basis": "blocks_answers_quicks_semantic_pattern",
+      "quadrant_xy": "WN"
+    },
+    {
+      "id": "Q1_3",
+      "name": "Sinnstiftende Veränderungskommunikation",
+      "meaning": "Veränderung anschlussfähig machen",
+      "quadrant": "Q1",
+      "type": "facet",
+      "short_description": "Testnahe Facet: veränderung anschlussfähig machen in konkreten Kommunikationssituationen.",
+      "model_rationale": "WN-Nähe entsteht aus Deutung, Nutzen und Ausdruckskraft bei Entscheidungen oder Veränderungsdruck. Die erwartete Microevidence wurde facetspezifisch auf diesen Fragekern nachgezogen und nicht aus einem Gegenquadranten-Bündel recycelt.",
+      "question_basis": [
+        "6_1",
+        "6_2",
+        "7_1",
+        "7_2"
+      ],
+      "quick_basis": [
+        "6",
+        "7"
+      ],
+      "expected_micro_evidence": [
+        "T_I_1p",
+        "T_C_4p",
+        "M_A_12p",
+        "K_D_3p",
+        "D_E_9p",
+        "W_D_4p"
+      ],
+      "derivation_basis": "blocks_answers_quicks_semantic_pattern",
+      "quadrant_xy": "WN"
+    },
+    {
+      "id": "Q1_4",
+      "name": "Präsente Vertrauensbildung",
+      "meaning": "Vertrauen sichtbar aufbauen",
+      "quadrant": "Q1",
+      "type": "facet",
+      "short_description": "Testnahe Facet: vertrauen sichtbar aufbauen in konkreten Kommunikationssituationen.",
+      "model_rationale": "Diese Facet verbindet den resonanten Umgang mit Skepsis oder Belastung mit aktivem Auftreten vor Gruppen oder Gremien. Die erwartete Microevidence wurde facetspezifisch auf diesen Fragekern nachgezogen und nicht aus einem Gegenquadranten-Bündel recycelt.",
+      "question_basis": [
+        "10_1",
+        "10_2",
+        "17_1",
+        "17_2"
+      ],
+      "quick_basis": [
+        "10",
+        "17"
+      ],
+      "expected_micro_evidence": [
+        "T_B_3p",
+        "T_A_7p",
+        "M_B_11p",
+        "K_E_3p",
+        "D_A_7p",
+        "W_C_2p"
+      ],
+      "derivation_basis": "blocks_answers_quicks_semantic_pattern",
+      "quadrant_xy": "WN"
+    },
+    {
+      "id": "Q2_1",
+      "name": "Klare Gesprächsführung",
+      "meaning": "Richtung geben",
+      "quadrant": "Q2",
+      "type": "facet",
+      "short_description": "Testnahe Facet: richtung geben in konkreten Kommunikationssituationen.",
+      "model_rationale": "EN-Nähe entsteht aus sichtbarer Steuerung und sachlicher Struktur, wenn Kritik oder Unklarheit in bearbeitbare Schritte überführt werden. Die erwartete Microevidence wurde facetspezifisch auf diesen Fragekern nachgezogen und nicht aus einem Gegenquadranten-Bündel recycelt.",
+      "question_basis": [
+        "2_2",
+        "2_3",
+        "3_2",
+        "3_3"
+      ],
+      "quick_basis": [
+        "2",
+        "3"
+      ],
+      "expected_micro_evidence": [
+        "T_F_2p",
+        "T_D_7p",
+        "M_A_1p",
+        "K_B_6p",
+        "D_B_1p",
+        "W_B_5p"
+      ],
+      "derivation_basis": "blocks_answers_quicks_semantic_pattern",
+      "quadrant_xy": "EN"
+    },
+    {
+      "id": "Q2_2",
+      "name": "Entscheidungsnahe Priorisierung",
+      "meaning": "Prioritäten klären",
+      "quadrant": "Q2",
+      "type": "facet",
+      "short_description": "Testnahe Facet: prioritäten klären in konkreten Kommunikationssituationen.",
+      "model_rationale": "Die Facet verbindet aktives Vorantreiben mit Kriterienprüfung bei konkurrierenden Interessen. Die erwartete Microevidence wurde facetspezifisch auf diesen Fragekern nachgezogen und nicht aus einem Gegenquadranten-Bündel recycelt.",
+      "question_basis": [
+        "5_2",
+        "5_3",
+        "16_2",
+        "16_3"
+      ],
+      "quick_basis": [
+        "5",
+        "16"
+      ],
+      "expected_micro_evidence": [
+        "T_J_4p",
+        "T_D_1p",
+        "M_A_8p",
+        "K_E_1p",
+        "D_B_3p",
+        "W_B_1p"
+      ],
+      "derivation_basis": "blocks_answers_quicks_semantic_pattern",
+      "quadrant_xy": "EN"
+    },
+    {
+      "id": "Q2_3",
+      "name": "Verbindliche Erwartungsklärung",
+      "meaning": "Erwartungen festlegen",
+      "quadrant": "Q2",
+      "type": "facet",
+      "short_description": "Testnahe Facet: erwartungen festlegen in konkreten Kommunikationssituationen.",
+      "model_rationale": "EN ist begründet, weil klare Ansprache und dokumentierbare Erwartungen zusammenwirken. Die erwartete Microevidence wurde facetspezifisch auf diesen Fragekern nachgezogen und nicht aus einem Gegenquadranten-Bündel recycelt.",
+      "question_basis": [
+        "11_2",
+        "11_3",
+        "15_2",
+        "15_3"
+      ],
+      "quick_basis": [
+        "11",
+        "15"
+      ],
+      "expected_micro_evidence": [
+        "T_F_5p",
+        "T_B_1p",
+        "M_B_12p",
+        "K_D_4p",
+        "D_D_2p",
+        "W_C_1p"
+      ],
+      "derivation_basis": "blocks_answers_quicks_semantic_pattern",
+      "quadrant_xy": "EN"
+    },
+    {
+      "id": "Q2_4",
+      "name": "Rahmensetzende Grenzkommunikation",
+      "meaning": "Grenzen durchsetzen",
+      "quadrant": "Q2",
+      "type": "facet",
+      "short_description": "Testnahe Facet: grenzen durchsetzen in konkreten Kommunikationssituationen.",
+      "model_rationale": "Diese Facet stützt sich auf sichtbare Regelsetzung plus nachvollziehbare Rollen-, Mandats- und Grenzbegründung. Die erwartete Microevidence wurde facetspezifisch auf diesen Fragekern nachgezogen und nicht aus einem Gegenquadranten-Bündel recycelt.",
+      "question_basis": [
+        "12_2",
+        "12_3",
+        "22_2",
+        "22_3"
+      ],
+      "quick_basis": [
+        "12",
+        "22"
+      ],
+      "expected_micro_evidence": [
+        "T_D_3p",
+        "T_C_2p",
+        "M_C_7p",
+        "K_E_2p",
+        "D_B_5p",
+        "W_C_5p"
+      ],
+      "derivation_basis": "blocks_answers_quicks_semantic_pattern",
+      "quadrant_xy": "EN"
+    },
+    {
+      "id": "Q3_1",
+      "name": "Prüfende Sachklärung",
+      "meaning": "Fakten sichern",
+      "quadrant": "Q3",
+      "type": "facet",
+      "short_description": "Testnahe Facet: fakten sichern in konkreten Kommunikationssituationen.",
+      "model_rationale": "ES-Nähe entsteht aus sachlicher Prüfung und zurückhaltender Antwortkontrolle bei Vorwurf oder Unsicherheit. Die erwartete Microevidence wurde facetspezifisch auf diesen Fragekern nachgezogen und nicht aus einem Gegenquadranten-Bündel recycelt.",
+      "question_basis": [
+        "8_3",
+        "8_4",
+        "14_3",
+        "14_4"
+      ],
+      "quick_basis": [
+        "8",
+        "14"
+      ],
+      "expected_micro_evidence": [
+        "T_Q_10p",
+        "T_E_1p",
+        "M_B_6p",
+        "K_D_1p",
+        "D_C_7p",
+        "S_B_2p"
+      ],
+      "derivation_basis": "blocks_answers_quicks_semantic_pattern",
+      "quadrant_xy": "ES"
+    },
+    {
+      "id": "Q3_2",
+      "name": "Belastbare Entscheidungsbegründung",
+      "meaning": "Begründungen absichern",
+      "quadrant": "Q3",
+      "type": "facet",
+      "short_description": "Testnahe Facet: begründungen absichern in konkreten Kommunikationssituationen.",
+      "model_rationale": "Die Facet verbindet Belegorientierung mit ruhiger Aufnahme von Fragen und Skepsis. Die erwartete Microevidence wurde facetspezifisch auf diesen Fragekern nachgezogen und nicht aus einem Gegenquadranten-Bündel recycelt.",
+      "question_basis": [
+        "6_3",
+        "6_4",
+        "17_3",
+        "17_4"
+      ],
+      "quick_basis": [
+        "6",
+        "17"
+      ],
+      "expected_micro_evidence": [
+        "T_E_10p",
+        "T_E_11p",
+        "M_B_1p",
+        "K_E_1p",
+        "D_C_6p",
+        "S_C_4p"
+      ],
+      "derivation_basis": "blocks_answers_quicks_semantic_pattern",
+      "quadrant_xy": "ES"
+    },
+    {
+      "id": "Q3_3",
+      "name": "Präzise Verständlichkeit",
+      "meaning": "Komplexes klären",
+      "quadrant": "Q3",
+      "type": "facet",
+      "short_description": "Testnahe Facet: komplexes klären in konkreten Kommunikationssituationen.",
+      "model_rationale": "ES ist begründet, weil Genauigkeit und vorsichtiges Nachfragen gemeinsam Verständlichkeit sichern. Die erwartete Microevidence wurde facetspezifisch auf diesen Fragekern nachgezogen und nicht aus einem Gegenquadranten-Bündel recycelt.",
+      "question_basis": [
+        "19_3",
+        "19_4",
+        "20_3",
+        "20_4"
+      ],
+      "quick_basis": [
+        "19",
+        "20"
+      ],
+      "expected_micro_evidence": [
+        "T_F_6p",
+        "T_E_3p",
+        "M_B_11p",
+        "K_B_6p",
+        "D_D_6p",
+        "W_B_4p"
+      ],
+      "derivation_basis": "blocks_answers_quicks_semantic_pattern",
+      "quadrant_xy": "ES"
+    },
+    {
+      "id": "Q3_4",
+      "name": "Risikobewusste Abschlussklarheit",
+      "meaning": "Offenes absichern",
+      "quadrant": "Q3",
+      "type": "facet",
+      "short_description": "Testnahe Facet: offenes absichern in konkreten Kommunikationssituationen.",
+      "model_rationale": "Die Facet verbindet dokumentierte Prüfpunkte mit zurückhaltender Vertrauenssicherung am Ende schwieriger Lagen. Die erwartete Microevidence wurde facetspezifisch auf diesen Fragekern nachgezogen und nicht aus einem Gegenquadranten-Bündel recycelt.",
+      "question_basis": [
+        "10_3",
+        "10_4",
+        "24_3",
+        "24_4"
+      ],
+      "quick_basis": [
+        "10",
+        "24"
+      ],
+      "expected_micro_evidence": [
+        "T_B_5p",
+        "T_O_5p",
+        "M_C_1p",
+        "K_E_3p",
+        "D_C_2p",
+        "W_C_4p"
+      ],
+      "derivation_basis": "blocks_answers_quicks_semantic_pattern",
+      "quadrant_xy": "ES"
+    },
+    {
+      "id": "Q4_1",
+      "name": "Vermittelndes Zuhören",
+      "meaning": "Perspektiven verbinden",
+      "quadrant": "Q4",
+      "type": "facet",
+      "short_description": "Testnahe Facet: perspektiven verbinden in konkreten Kommunikationssituationen.",
+      "model_rationale": "WS-Nähe entsteht aus resonanter Übersetzung zwischen Seiten und zurückhaltender Spannungsdämpfung. Die erwartete Microevidence wurde facetspezifisch auf diesen Fragekern nachgezogen und nicht aus einem Gegenquadranten-Bündel recycelt.",
+      "question_basis": [
+        "5_1",
+        "5_4",
+        "16_1",
+        "16_4"
+      ],
+      "quick_basis": [
+        "5",
+        "16"
+      ],
+      "expected_micro_evidence": [
+        "T_F_3p",
+        "T_A_1p",
+        "M_B_3p",
+        "K_B_4p",
+        "D_D_4p",
+        "W_A_2p"
+      ],
+      "derivation_basis": "blocks_answers_quicks_semantic_pattern",
+      "quadrant_xy": "WS"
+    },
+    {
+      "id": "Q4_2",
+      "name": "Schützende Beteiligung",
+      "meaning": "Leise Stimmen sichern",
+      "quadrant": "Q4",
+      "type": "facet",
+      "short_description": "Testnahe Facet: leise stimmen sichern in konkreten Kommunikationssituationen.",
+      "model_rationale": "Die Facet verbindet Anschlussfähigkeit mit Schutz vor Bloßstellung oder Dominanz. Die erwartete Microevidence wurde facetspezifisch auf diesen Fragekern nachgezogen und nicht aus einem Gegenquadranten-Bündel recycelt.",
+      "question_basis": [
+        "4_1",
+        "4_4",
+        "12_1",
+        "12_4"
+      ],
+      "quick_basis": [
+        "4",
+        "12"
+      ],
+      "expected_micro_evidence": [
+        "T_N_3p",
+        "T_R_4p",
+        "M_B_10p",
+        "K_B_2p",
+        "D_A_5p",
+        "W_A_3p"
+      ],
+      "derivation_basis": "blocks_answers_quicks_semantic_pattern",
+      "quadrant_xy": "WS"
+    },
+    {
+      "id": "Q4_3",
+      "name": "Ruhige Emotionsklärung",
+      "meaning": "Emotionen aufnehmen",
+      "quadrant": "Q4",
+      "type": "facet",
+      "short_description": "Testnahe Facet: emotionen aufnehmen in konkreten Kommunikationssituationen.",
+      "model_rationale": "WS zeigt sich in der Verbindung von emotionalem Anschluss und verlangsamender Gesprächssicherung. Die erwartete Microevidence wurde facetspezifisch auf diesen Fragekern nachgezogen und nicht aus einem Gegenquadranten-Bündel recycelt.",
+      "question_basis": [
+        "7_1",
+        "7_4",
+        "21_1",
+        "21_4"
+      ],
+      "quick_basis": [
+        "7",
+        "21"
+      ],
+      "expected_micro_evidence": [
+        "T_A_2p",
+        "T_K_2p",
+        "M_C_2p",
+        "K_D_2p",
+        "D_A_2p",
+        "W_A_4p"
+      ],
+      "derivation_basis": "blocks_answers_quicks_semantic_pattern",
+      "quadrant_xy": "WS"
+    },
+    {
+      "id": "Q4_4",
+      "name": "Tonbewusste Reparatur",
+      "meaning": "Vertrauen reparieren",
+      "quadrant": "Q4",
+      "type": "facet",
+      "short_description": "Testnahe Facet: vertrauen reparieren in konkreten Kommunikationssituationen.",
+      "model_rationale": "Diese Facet liegt nahe WS, weil Wirkung im Gegenüber gelesen und Beziehung vor vorschneller Verteidigung geschützt wird. Die erwartete Microevidence wurde facetspezifisch auf diesen Fragekern nachgezogen und nicht aus einem Gegenquadranten-Bündel recycelt.",
+      "question_basis": [
+        "18_1",
+        "18_4",
+        "23_1",
+        "23_4"
+      ],
+      "quick_basis": [
+        "18",
+        "23"
+      ],
+      "expected_micro_evidence": [
+        "T_B_7p",
+        "T_A_8p",
+        "M_B_7p",
+        "K_E_3p",
+        "D_D_3p",
+        "W_C_2p"
+      ],
+      "derivation_basis": "blocks_answers_quicks_semantic_pattern",
+      "quadrant_xy": "WS"
+    },
+    {
+      "id": "DQ1_1",
+      "name": "Wirkungsüberhang",
+      "meaning": "Zu viel Präsenz",
+      "quadrant": "DQ1",
+      "type": "darkfacet",
+      "short_description": "Testnahe Risikolesart: zu viel präsenz.",
+      "model_rationale": "Wirkungsüberhang ist als Risiko lesbar, wenn die Balance zu Q3 geschwächt ist und die Kommunikationssituation einseitig wird. Die Fragebasis und erwartete Microevidence wurden risikospezifisch aus passenden Blockkontexten und Gegenbalance-Optionen gesetzt, nicht als rotierendes Fenster.",
+      "question_basis": [
+        "1_1",
+        "1_2",
+        "14_3",
+        "14_4"
+      ],
+      "quick_basis": [
+        "1",
+        "2"
+      ],
+      "expected_micro_evidence": [
+        "T_F_1n",
+        "T_C_3n",
+        "M_A_10n",
+        "K_D_3n",
+        "D_D_5n",
+        "W_B_2n"
+      ],
+      "derivation_basis": "risk_specific_blocks_quicks_counterbalance",
+      "risk_pattern": "Nähe, Begeisterung oder Auftritt werden so stark, dass Prüfung, Grenzen oder leise Signale zu kurz kommen.",
+      "related_facet_ids": [
+        "Q1_1",
+        "Q1_2"
+      ],
+      "counterbalance_quadrant": "Q3"
+    },
+    {
+      "id": "DQ1_2",
+      "name": "Kontaktbeschleunigung",
+      "meaning": "Zu schnell nah",
+      "quadrant": "DQ1",
+      "type": "darkfacet",
+      "short_description": "Testnahe Risikolesart: zu schnell nah.",
+      "model_rationale": "Kontaktbeschleunigung ist als Risiko lesbar, wenn die Balance zu Q3 geschwächt ist und die Kommunikationssituation einseitig wird. Die Fragebasis und erwartete Microevidence wurden risikospezifisch aus passenden Blockkontexten und Gegenbalance-Optionen gesetzt, nicht als rotierendes Fenster.",
+      "question_basis": [
+        "4_1",
+        "9_2",
+        "22_3",
+        "21_4"
+      ],
+      "quick_basis": [
+        "2",
+        "3"
+      ],
+      "expected_micro_evidence": [
+        "T_M_4n",
+        "T_H_5n",
+        "M_A_5n",
+        "K_B_6n",
+        "D_A_8n",
+        "W_C_5n"
+      ],
+      "derivation_basis": "risk_specific_blocks_quicks_counterbalance",
+      "risk_pattern": "Anschluss wird forciert, bevor Tempo, Einverständnis oder Sachlage ausreichend geklärt sind.",
+      "related_facet_ids": [
+        "Q1_1",
+        "Q1_3"
+      ],
+      "counterbalance_quadrant": "Q3"
+    },
+    {
+      "id": "DQ1_3",
+      "name": "Stimmungsdominanz",
+      "meaning": "Stimmung über Sache",
+      "quadrant": "DQ1",
+      "type": "darkfacet",
+      "short_description": "Testnahe Risikolesart: stimmung über sache.",
+      "model_rationale": "Stimmungsdominanz ist als Risiko lesbar, wenn die Balance zu Q2 geschwächt ist und die Kommunikationssituation einseitig wird. Die Fragebasis und erwartete Microevidence wurden risikospezifisch aus passenden Blockkontexten und Gegenbalance-Optionen gesetzt, nicht als rotierendes Fenster.",
+      "question_basis": [
+        "9_1",
+        "17_2",
+        "20_3",
+        "10_4"
+      ],
+      "quick_basis": [
+        "3",
+        "4"
+      ],
+      "expected_micro_evidence": [
+        "T_E_10n",
+        "T_Q_10n",
+        "M_C_2n",
+        "K_E_1n",
+        "D_C_5n",
+        "W_C_1n"
+      ],
+      "derivation_basis": "risk_specific_blocks_quicks_counterbalance",
+      "risk_pattern": "Positive Atmosphäre überlagert schwierige Fakten, Grenzen oder notwendige Entscheidungen.",
+      "related_facet_ids": [
+        "Q1_2",
+        "Q1_4"
+      ],
+      "counterbalance_quadrant": "Q2"
+    },
+    {
+      "id": "DQ1_4",
+      "name": "Publikumsabhängigkeit",
+      "meaning": "Wirkung suchen",
+      "quadrant": "DQ1",
+      "type": "darkfacet",
+      "short_description": "Testnahe Risikolesart: wirkung suchen.",
+      "model_rationale": "Publikumsabhängigkeit ist als Risiko lesbar, wenn die Balance zu Q4 geschwächt ist und die Kommunikationssituation einseitig wird. Die Fragebasis und erwartete Microevidence wurden risikospezifisch aus passenden Blockkontexten und Gegenbalance-Optionen gesetzt, nicht als rotierendes Fenster.",
+      "question_basis": [
+        "13_1",
+        "17_2",
+        "8_3",
+        "23_4"
+      ],
+      "quick_basis": [
+        "4",
+        "5"
+      ],
+      "expected_micro_evidence": [
+        "T_C_3n",
+        "T_A_7n",
+        "M_A_15n",
+        "K_E_3n",
+        "D_D_8n",
+        "W_B_2n"
+      ],
+      "derivation_basis": "risk_specific_blocks_quicks_counterbalance",
+      "risk_pattern": "Kommunikative Energie hängt stark von Resonanz ab und verliert Stabilität bei skeptischem oder stillem Gegenüber.",
+      "related_facet_ids": [
+        "Q1_3",
+        "Q1_4"
+      ],
+      "counterbalance_quadrant": "Q4"
+    },
+    {
+      "id": "DQ2_1",
+      "name": "Steuerungsdruck",
+      "meaning": "Zu stark lenken",
+      "quadrant": "DQ2",
+      "type": "darkfacet",
+      "short_description": "Testnahe Risikolesart: zu stark lenken.",
+      "model_rationale": "Steuerungsdruck ist als Risiko lesbar, wenn die Balance zu Q4 geschwächt ist und die Kommunikationssituation einseitig wird. Die Fragebasis und erwartete Microevidence wurden risikospezifisch aus passenden Blockkontexten und Gegenbalance-Optionen gesetzt, nicht als rotierendes Fenster.",
+      "question_basis": [
+        "2_2",
+        "3_2",
+        "4_1",
+        "4_4"
+      ],
+      "quick_basis": [
+        "2",
+        "3"
+      ],
+      "expected_micro_evidence": [
+        "T_D_3n",
+        "T_F_5n",
+        "M_A_14n",
+        "K_B_6n",
+        "D_B_6n",
+        "W_A_1n"
+      ],
+      "derivation_basis": "risk_specific_blocks_quicks_counterbalance",
+      "risk_pattern": "Klärung und Richtung werden so verdichtet, dass Resonanz, Beteiligung oder emotionale Signale untergehen.",
+      "related_facet_ids": [
+        "Q2_1",
+        "Q2_2"
+      ],
+      "counterbalance_quadrant": "Q4"
+    },
+    {
+      "id": "DQ2_2",
+      "name": "Grenzrigidität",
+      "meaning": "Zu hart begrenzen",
+      "quadrant": "DQ2",
+      "type": "darkfacet",
+      "short_description": "Testnahe Risikolesart: zu hart begrenzen.",
+      "model_rationale": "Grenzrigidität ist als Risiko lesbar, wenn die Balance zu Q1 geschwächt ist und die Kommunikationssituation einseitig wird. Die Fragebasis und erwartete Microevidence wurden risikospezifisch aus passenden Blockkontexten und Gegenbalance-Optionen gesetzt, nicht als rotierendes Fenster.",
+      "question_basis": [
+        "22_2",
+        "22_3",
+        "5_1",
+        "5_4"
+      ],
+      "quick_basis": [
+        "3",
+        "4"
+      ],
+      "expected_micro_evidence": [
+        "T_N_3n",
+        "T_C_2n",
+        "M_C_7n",
+        "K_E_2n",
+        "D_A_5n",
+        "W_C_5n"
+      ],
+      "derivation_basis": "risk_specific_blocks_quicks_counterbalance",
+      "risk_pattern": "Ordnung oder Grenze wird früh festgelegt, bevor Beziehung und Kontext ausreichend verstanden sind.",
+      "related_facet_ids": [
+        "Q2_3",
+        "Q2_4"
+      ],
+      "counterbalance_quadrant": "Q1"
+    },
+    {
+      "id": "DQ2_3",
+      "name": "Entscheidungsverkürzung",
+      "meaning": "Zu schnell entscheiden",
+      "quadrant": "DQ2",
+      "type": "darkfacet",
+      "short_description": "Testnahe Risikolesart: zu schnell entscheiden.",
+      "model_rationale": "Entscheidungsverkürzung ist als Risiko lesbar, wenn die Balance zu Q3 geschwächt ist und die Kommunikationssituation einseitig wird. Die Fragebasis und erwartete Microevidence wurden risikospezifisch aus passenden Blockkontexten und Gegenbalance-Optionen gesetzt, nicht als rotierendes Fenster.",
+      "question_basis": [
+        "5_2",
+        "16_3",
+        "7_1",
+        "7_4"
+      ],
+      "quick_basis": [
+        "4",
+        "5"
+      ],
+      "expected_micro_evidence": [
+        "T_E_11n",
+        "T_D_1n",
+        "M_A_8n",
+        "K_D_4n",
+        "D_B_3n",
+        "S_B_2n"
+      ],
+      "derivation_basis": "risk_specific_blocks_quicks_counterbalance",
+      "risk_pattern": "Aktive Entscheidung ersetzt sorgfältige Prüfung oder Mitnahme betroffener Personen.",
+      "related_facet_ids": [
+        "Q2_1",
+        "Q2_2"
+      ],
+      "counterbalance_quadrant": "Q3"
+    },
+    {
+      "id": "DQ2_4",
+      "name": "Positionsübergewicht",
+      "meaning": "Position vor Anschluss",
+      "quadrant": "DQ2",
+      "type": "darkfacet",
+      "short_description": "Testnahe Risikolesart: position vor anschluss.",
+      "model_rationale": "Positionsübergewicht ist als Risiko lesbar, wenn die Balance zu Q4 geschwächt ist und die Kommunikationssituation einseitig wird. Die Fragebasis und erwartete Microevidence wurden risikospezifisch aus passenden Blockkontexten und Gegenbalance-Optionen gesetzt, nicht als rotierendes Fenster.",
+      "question_basis": [
+        "11_2",
+        "15_3",
+        "18_1",
+        "18_4"
+      ],
+      "quick_basis": [
+        "5",
+        "6"
+      ],
+      "expected_micro_evidence": [
+        "T_A_1n",
+        "T_B_3n",
+        "M_B_3n",
+        "K_E_3n",
+        "D_A_4n",
+        "W_A_2n"
+      ],
+      "derivation_basis": "risk_specific_blocks_quicks_counterbalance",
+      "risk_pattern": "Die eigene Linie bleibt klar, verliert aber Beweglichkeit für berechtigte Gegenperspektiven.",
+      "related_facet_ids": [
+        "Q2_3",
+        "Q2_4"
+      ],
+      "counterbalance_quadrant": "Q4"
+    },
+    {
+      "id": "DQ3_1",
+      "name": "Prüfungsstarre",
+      "meaning": "Zu lange prüfen",
+      "quadrant": "DQ3",
+      "type": "darkfacet",
+      "short_description": "Testnahe Risikolesart: zu lange prüfen.",
+      "model_rationale": "Prüfungsstarre ist als Risiko lesbar, wenn die Balance zu Q1 geschwächt ist und die Kommunikationssituation einseitig wird. Die Fragebasis und erwartete Microevidence wurden risikospezifisch aus passenden Blockkontexten und Gegenbalance-Optionen gesetzt, nicht als rotierendes Fenster.",
+      "question_basis": [
+        "14_3",
+        "19_3",
+        "1_1",
+        "1_2"
+      ],
+      "quick_basis": [
+        "3",
+        "4"
+      ],
+      "expected_micro_evidence": [
+        "T_D_7n",
+        "T_M_4n",
+        "M_C_12n",
+        "K_E_1n",
+        "D_C_7n",
+        "W_B_5n"
+      ],
+      "derivation_basis": "risk_specific_blocks_quicks_counterbalance",
+      "risk_pattern": "Absicherung wird so stark, dass Kontaktbewegung, Entscheidung oder lebendige Klärung verzögert wird.",
+      "related_facet_ids": [
+        "Q3_1",
+        "Q3_2"
+      ],
+      "counterbalance_quadrant": "Q1"
+    },
+    {
+      "id": "DQ3_2",
+      "name": "Distanzschutz",
+      "meaning": "Zu weit zurück",
+      "quadrant": "DQ3",
+      "type": "darkfacet",
+      "short_description": "Testnahe Risikolesart: zu weit zurück.",
+      "model_rationale": "Distanzschutz ist als Risiko lesbar, wenn die Balance zu Q1 geschwächt ist und die Kommunikationssituation einseitig wird. Die Fragebasis und erwartete Microevidence wurden risikospezifisch aus passenden Blockkontexten und Gegenbalance-Optionen gesetzt, nicht als rotierendes Fenster.",
+      "question_basis": [
+        "8_3",
+        "8_4",
+        "13_1",
+        "13_2"
+      ],
+      "quick_basis": [
+        "4",
+        "5"
+      ],
+      "expected_micro_evidence": [
+        "T_A_3n",
+        "T_F_1n",
+        "M_C_8n",
+        "K_B_2n",
+        "D_D_1n",
+        "W_A_5n"
+      ],
+      "derivation_basis": "risk_specific_blocks_quicks_counterbalance",
+      "risk_pattern": "Zurückhaltung schützt vor Fehlern, kann aber Nähe, Vertrauen oder sichtbare Beteiligung schwächen.",
+      "related_facet_ids": [
+        "Q3_2",
+        "Q3_3"
+      ],
+      "counterbalance_quadrant": "Q1"
+    },
+    {
+      "id": "DQ3_3",
+      "name": "Sachkälte",
+      "meaning": "Zu nüchtern wirken",
+      "quadrant": "DQ3",
+      "type": "darkfacet",
+      "short_description": "Testnahe Risikolesart: zu nüchtern wirken.",
+      "model_rationale": "Sachkälte ist als Risiko lesbar, wenn die Balance zu Q4 geschwächt ist und die Kommunikationssituation einseitig wird. Die Fragebasis und erwartete Microevidence wurden risikospezifisch aus passenden Blockkontexten und Gegenbalance-Optionen gesetzt, nicht als rotierendes Fenster.",
+      "question_basis": [
+        "20_3",
+        "14_4",
+        "21_1",
+        "21_4"
+      ],
+      "quick_basis": [
+        "5",
+        "6"
+      ],
+      "expected_micro_evidence": [
+        "T_A_1n",
+        "T_F_3n",
+        "M_B_2n",
+        "K_D_2n",
+        "D_A_1n",
+        "W_A_1n"
+      ],
+      "derivation_basis": "risk_specific_blocks_quicks_counterbalance",
+      "risk_pattern": "Genauigkeit bleibt erhalten, doch emotionale Bedeutung und Beziehungston werden zu wenig aufgenommen.",
+      "related_facet_ids": [
+        "Q3_1",
+        "Q3_4"
+      ],
+      "counterbalance_quadrant": "Q4"
+    },
+    {
+      "id": "DQ3_4",
+      "name": "Sicherheitsbindung",
+      "meaning": "Nur Sicheres zulassen",
+      "quadrant": "DQ3",
+      "type": "darkfacet",
+      "short_description": "Testnahe Risikolesart: nur sicheres zulassen.",
+      "model_rationale": "Sicherheitsbindung ist als Risiko lesbar, wenn die Balance zu Q2 geschwächt ist und die Kommunikationssituation einseitig wird. Die Fragebasis und erwartete Microevidence wurden risikospezifisch aus passenden Blockkontexten und Gegenbalance-Optionen gesetzt, nicht als rotierendes Fenster.",
+      "question_basis": [
+        "10_3",
+        "24_4",
+        "9_1",
+        "9_2"
+      ],
+      "quick_basis": [
+        "6",
+        "7"
+      ],
+      "expected_micro_evidence": [
+        "T_I_3n",
+        "T_E_14n",
+        "M_C_9n",
+        "K_F_3n",
+        "D_E_4n",
+        "W_D_4n"
+      ],
+      "derivation_basis": "risk_specific_blocks_quicks_counterbalance",
+      "risk_pattern": "Kommunikation hält sich an Belegbares und übersieht Chancen für neue Verbindung oder mutige Klärung.",
+      "related_facet_ids": [
+        "Q3_3",
+        "Q3_4"
+      ],
+      "counterbalance_quadrant": "Q2"
+    },
+    {
+      "id": "DQ4_1",
+      "name": "Harmoniebindung",
+      "meaning": "Konflikt vermeiden",
+      "quadrant": "DQ4",
+      "type": "darkfacet",
+      "short_description": "Testnahe Risikolesart: konflikt vermeiden.",
+      "model_rationale": "Harmoniebindung ist als Risiko lesbar, wenn die Balance zu Q2 geschwächt ist und die Kommunikationssituation einseitig wird. Die Fragebasis und erwartete Microevidence wurden risikospezifisch aus passenden Blockkontexten und Gegenbalance-Optionen gesetzt, nicht als rotierendes Fenster.",
+      "question_basis": [
+        "5_1",
+        "16_4",
+        "22_2",
+        "22_3"
+      ],
+      "quick_basis": [
+        "4",
+        "5"
+      ],
+      "expected_micro_evidence": [
+        "T_B_7n",
+        "T_F_5n",
+        "M_C_2p",
+        "K_E_2n",
+        "D_A_3p",
+        "W_C_5n"
+      ],
+      "derivation_basis": "risk_specific_blocks_quicks_counterbalance",
+      "risk_pattern": "Verbindung und Schonung werden so wichtig, dass klare Positionen oder notwendige Grenzen ausbleiben.",
+      "related_facet_ids": [
+        "Q4_1",
+        "Q4_2"
+      ],
+      "counterbalance_quadrant": "Q2"
+    },
+    {
+      "id": "DQ4_2",
+      "name": "Leise Selbstzurücknahme",
+      "meaning": "Zu wenig sichtbar sein",
+      "quadrant": "DQ4",
+      "type": "darkfacet",
+      "short_description": "Testnahe Risikolesart: zu wenig sichtbar sein.",
+      "model_rationale": "Leise Selbstzurücknahme ist als Risiko lesbar, wenn die Balance zu Q2 geschwächt ist und die Kommunikationssituation einseitig wird. Die Fragebasis und erwartete Microevidence wurden risikospezifisch aus passenden Blockkontexten und Gegenbalance-Optionen gesetzt, nicht als rotierendes Fenster.",
+      "question_basis": [
+        "4_4",
+        "12_4",
+        "1_2",
+        "13_2"
+      ],
+      "quick_basis": [
+        "5",
+        "6"
+      ],
+      "expected_micro_evidence": [
+        "T_F_1n",
+        "T_C_2n",
+        "M_A_5n",
+        "K_B_6n",
+        "D_D_5n",
+        "W_B_1n"
+      ],
+      "derivation_basis": "risk_specific_blocks_quicks_counterbalance",
+      "risk_pattern": "Zuhören und Schutz führen dazu, dass eigene Bedürfnisse oder Beiträge kaum erkennbar werden.",
+      "related_facet_ids": [
+        "Q4_2",
+        "Q4_3"
+      ],
+      "counterbalance_quadrant": "Q2"
+    },
+    {
+      "id": "DQ4_3",
+      "name": "Vermittlungsüberlastung",
+      "meaning": "Zu viel ausgleichen",
+      "quadrant": "DQ4",
+      "type": "darkfacet",
+      "short_description": "Testnahe Risikolesart: zu viel ausgleichen.",
+      "model_rationale": "Vermittlungsüberlastung ist als Risiko lesbar, wenn die Balance zu Q3 geschwächt ist und die Kommunikationssituation einseitig wird. Die Fragebasis und erwartete Microevidence wurden risikospezifisch aus passenden Blockkontexten und Gegenbalance-Optionen gesetzt, nicht als rotierendes Fenster.",
+      "question_basis": [
+        "16_1",
+        "16_4",
+        "5_2",
+        "5_3"
+      ],
+      "quick_basis": [
+        "6",
+        "7"
+      ],
+      "expected_micro_evidence": [
+        "T_D_1n",
+        "T_N_3p",
+        "M_B_8n",
+        "K_E_1n",
+        "D_B_3n",
+        "S_C_3n"
+      ],
+      "derivation_basis": "risk_specific_blocks_quicks_counterbalance",
+      "risk_pattern": "Spannungen anderer werden aufgenommen und geglättet, ohne Verantwortung oder Entscheidung klar zu platzieren.",
+      "related_facet_ids": [
+        "Q4_1",
+        "Q4_4"
+      ],
+      "counterbalance_quadrant": "Q3"
+    },
+    {
+      "id": "DQ4_4",
+      "name": "Vertrauensaufschub",
+      "meaning": "Zu lange warten",
+      "quadrant": "DQ4",
+      "type": "darkfacet",
+      "short_description": "Testnahe Risikolesart: zu lange warten.",
+      "model_rationale": "Vertrauensaufschub ist als Risiko lesbar, wenn die Balance zu Q1 geschwächt ist und die Kommunikationssituation einseitig wird. Die Fragebasis und erwartete Microevidence wurden risikospezifisch aus passenden Blockkontexten und Gegenbalance-Optionen gesetzt, nicht als rotierendes Fenster.",
+      "question_basis": [
+        "18_4",
+        "23_4",
+        "2_1",
+        "2_2"
+      ],
+      "quick_basis": [
+        "7",
+        "8"
+      ],
+      "expected_micro_evidence": [
+        "T_A_7n",
+        "T_B_2n",
+        "M_C_6p",
+        "K_D_3n",
+        "D_A_7n",
+        "W_C_2n"
+      ],
+      "derivation_basis": "risk_specific_blocks_quicks_counterbalance",
+      "risk_pattern": "Vorsichtige Stabilisierung verzögert offene Klärung, obwohl eine direkte Ansprache hilfreicher wäre.",
+      "related_facet_ids": [
+        "Q4_3",
+        "Q4_4"
+      ],
+      "counterbalance_quadrant": "Q1"
+    }
+  ]
+}

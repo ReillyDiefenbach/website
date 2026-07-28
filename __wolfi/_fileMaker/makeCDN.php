@@ -30,6 +30,7 @@ function makeCDN_ifChanged(bool $force = false): array
         $base . DIRECTORY_SEPARATOR . 'css' . DIRECTORY_SEPARATOR . 'essential.css',
         $base . DIRECTORY_SEPARATOR . 'scss' . DIRECTORY_SEPARATOR . 'sections.scss',
         $base . DIRECTORY_SEPARATOR . 'scss' . DIRECTORY_SEPARATOR . 'content-layouts.scss',
+        $base . DIRECTORY_SEPARATOR . 'scss' . DIRECTORY_SEPARATOR . 'banner-style.scss',
         $base . DIRECTORY_SEPARATOR . 'scss' . DIRECTORY_SEPARATOR . 'boxes.scss',
     ];
 
@@ -41,6 +42,7 @@ function makeCDN_ifChanged(bool $force = false): array
         $base . DIRECTORY_SEPARATOR . 'js' . DIRECTORY_SEPARATOR . 'super_spy.js',
         $base . DIRECTORY_SEPARATOR . 'js' . DIRECTORY_SEPARATOR . 'switcher.js',
         $base . DIRECTORY_SEPARATOR . 'js' . DIRECTORY_SEPARATOR . 'factsheet.js',
+        $base . DIRECTORY_SEPARATOR . 'js' . DIRECTORY_SEPARATOR . 'print.js',
     ];
 
     $sourceFiles = makeCDN_collectSources($typographyFiles, $base . DIRECTORY_SEPARATOR . 'scss');

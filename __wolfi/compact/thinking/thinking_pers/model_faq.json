@@ -1,0 +1,53 @@
+{
+  "schema": "pna.content.model_faq.v1",
+  "lang": "de",
+  "scope": "model",
+  "family": "thinking",
+  "model_key": "thinking_pers",
+  "title": "Thinking Personal",
+  "variant": "personal",
+  "source_stage": "after_model_results_review",
+  "status": "generated_pending_content_review",
+  "items": {
+    "m1": {
+      "q": "Worin unterscheidet sich dieses Modell von Think & Act als Family?",
+      "a": "Think & Act als Family beschreibt die gemeinsame Logik aus Konzeption, Struktur, Spontanität und Reflexion. Thinking Personal ist die persönliche Ausprägung dieser Logik. Das Modell übersetzt die gemeinsame Architektur in Alltag, Selbststeuerung, persönliche Entscheidungen und individuelle Reflexion. Deshalb heißen die Wirkungsräume hier Entdecker, Gestalter, Bewahrer und Verstehender. Die Aussagen beziehen sich nicht auf berufliche Rollen oder organisationale Leistung, sondern auf persönliche Orientierung in Situationen. Thinking Personal ist damit keine allgemeine Family-Erklärung, sondern eine modellbezogene Auswertungssprache für persönliche Denk- und Handlungsmuster."
+    },
+    "m2": {
+      "q": "Welche Ergebnisbereiche liefert dieses Modell?",
+      "a": "Thinking Personal liefert vier Ergebnisbereiche: Orientierung, Prioritäten, Wirkungsraum und Rollenprofil. Orientierung beschreibt, ob eher Informationsverarbeitung oder Handlungsregulation im Vordergrund steht oder ob beides annähernd ausbalanciert ist. Prioritäten zeigen, welche Grundrichtungen in persönlichen Situationen stärker sichtbar werden: Konzeption, Struktur, Spontanität oder Reflexion. Der Wirkungsraum verdichtet diese Richtungen zu persönlichen Lesarten wie Entdecker, Gestalter, Bewahrer oder Verstehender. Das Rollenprofil beschreibt eine geordnete Kombination aus primärem und sekundärem Wirkungsraum, aber nur, wenn eine solche Reihenfolge fachlich tragfähig ist und verständlich bleibt. Es bleibt ausdrücklich modellbezogen."
+    },
+    "m3": {
+      "q": "Was bedeutet Orientierung in diesem Modell?",
+      "a": "Orientierung beschreibt im Thinking Personal Modell, wie eine Person in persönlichen Situationen grundsätzlich Zugang zu Informationen, Entscheidungen und Handlung findet. Die Denkachse steht für Informationsverarbeitung, Einordnung und gedankliches Erschließen. Die Handlungsachse steht für den Übergang in Handlung, Ausprobieren, Prüfen oder praktisches Beginnen. Ein Ergebnis kann eine dieser Achsen stärker sichtbar machen oder eine Balance zwischen beiden zeigen. Das ist keine Aussage über Wert, Fähigkeit oder Persönlichkeit als Ganzes. Orientierung ist ein relativer Schwerpunkt im Modellkontext und soll helfen, persönliche Muster verständlicher zu beschreiben."
+    },
+    "m4": {
+      "q": "Was zeigen Prioritäten in diesem Modell?",
+      "a": "Prioritäten zeigen, welche Grundrichtungen im persönlichen Kontext stärker hervortreten. Konzeption beschreibt das Erkennen von Möglichkeiten, Bedeutungen und Zusammenhängen. Struktur beschreibt Ordnung, Klarheit und verlässliche Orientierung. Spontanität beschreibt frühes Ausprobieren, Impulsaufnahme und direkten Beginn. Reflexion beschreibt Prüfung, Abwägung und bewusstes Einordnen. Das Modell betrachtet diese Richtungen paarweise: Konzeption gegenüber Struktur sowie Spontanität gegenüber Reflexion. Dabei können klare Schwerpunkte, knappe Schwerpunkte oder Balancefälle entstehen. Eine weniger dominante Richtung ist nicht abwesend, sondern im jeweiligen Ergebnis nur weniger prägend und weiterhin nutzbar. Sie kann situativ wichtig bleiben."
+    },
+    "m5": {
+      "q": "Was beschreibt der Wirkungsraum?",
+      "a": "Der Wirkungsraum beschreibt, wo sich Orientierung und Prioritäten innerhalb des persönlichen Modellraums bündeln. Thinking Personal verwendet vier Wirkungsräume: Entdecker, Gestalter, Bewahrer und Verstehender. Der Entdecker verbindet Konzeption und Spontanität, der Gestalter Struktur und Spontanität, der Bewahrer Struktur und Reflexion, der Verstehende Konzeption und Reflexion. Diese Begriffe sind persönliche Lesarten, keine Diagnosen und keine festen Typen. Sie zeigen, welche Art von Orientierung im Alltag besonders naheliegt. Bei ausgewogener Verteilung kann auch kein einzelner Wirkungsraum eindeutig dominieren oder Vorrang beanspruchen. Dann bleibt Balance führend."
+    },
+    "m6": {
+      "q": "Wie ist das Rollenprofil zu verstehen?",
+      "a": "Das Rollenprofil beschreibt eine funktionale Ausdrucksform innerhalb des persönlichen Modells. Es entsteht nur, wenn ein primärer und ein sekundärer Wirkungsraum in einer klaren Reihenfolge bestimmbar sind, etwa Entdecker zuerst und Gestalter ergänzend. Diese Reihenfolge ist kein Etikett für die ganze Person. Sie beschreibt, wie eine persönliche Ausrichtung typischerweise im Denken, Entscheiden oder Handeln erscheinen kann. Bei echter Balance zwischen Wirkungsräumen wird kein Rollenprofil erzwungen. Dann bleibt die ausgewogene Verteilung selbst die passendere Aussage. Das schützt das Modell vor starrer Typisierung."
+    },
+    "m7": {
+      "q": "Wie werden Balance oder knappe Ergebnisse formuliert?",
+      "a": "Manchmal ist ein Ergebnis sehr eindeutig, manchmal liegen zwei Richtungen nah beieinander. Wenn beides ähnlich stark sichtbar ist, wird daraus kein künstlicher Gewinner gemacht. Dann beschreibt der Text, dass mehrere Seiten der Person wirksam sind, zum Beispiel Denken und Handeln oder zwei Wirkungsräume zugleich. Wenn eine Richtung nur knapp vorne liegt, wird sie genannt, ohne die zweite zu übergehen. Ein Entfaltungsprofil wird nur dann beschrieben, wenn wirklich eine klare Reihenfolge erkennbar ist. Sonst bleibt die Balance selbst die passende Aussage."
+    },
+    "m8": {
+      "q": "Was sagt ein Ergebnis ausdrücklich nicht aus?",
+      "a": "Ein Ergebnis aus Thinking Personal sagt nicht, ob eine Person intelligenter, kreativer, zuverlässiger, impulsiver oder charakterlich besser ist. Es ist keine klinische Diagnose, keine Persönlichkeitsfestlegung und keine Aussage über die ganze Identität. Ein spontaner Schwerpunkt bedeutet nicht Unüberlegtheit, ein reflektierender Schwerpunkt nicht Zögern, ein struktureller Schwerpunkt nicht Starrheit und ein konzeptioneller Schwerpunkt nicht automatisch Originalität. Das Ergebnis beschreibt modellbezogene Orientierung in persönlichen Situationen. Es soll Selbstverständnis und Gesprächsfähigkeit unterstützen, aber keine endgültige Bewertung einer Person liefern oder begründen. Kontext bleibt notwendig."
+    },
+    "m9": {
+      "q": "Wie kann man das Ergebnis praktisch nutzen?",
+      "a": "Praktisch kann Thinking Personal für Selbstreflexion, Coaching, persönliche Entwicklung, Beziehungskommunikation und Alltagsorganisation genutzt werden. Das Ergebnis kann helfen, eigene Muster genauer zu benennen: Wann öffne ich Möglichkeiten, wann brauche ich Ordnung, wann beginne ich schnell, wann prüfe ich lange? Es kann außerdem zeigen, welche Gegenbewegung in bestimmten Situationen hilfreich wäre, etwa mehr Struktur, mehr Reflexion, mehr Mut zum Start oder mehr konzeptionelle Öffnung. Der Nutzen liegt im besseren Verstehen und bewussteren Umgang mit Situationen. Das Ergebnis ersetzt keine Beratung, Diagnose oder individuelle Kontextklärung."
+    },
+    "m10": {
+      "q": "Was sollte man bei der Interpretation vermeiden?",
+      "a": "Zu vermeiden ist jede Interpretation, die aus dem Modell eine starre Identität macht. Thinking Personal darf nicht als Typentest, Diagnose oder Charakterurteil gelesen werden. Die Begriffe Entdecker, Gestalter, Bewahrer und Verstehender sind hilfreiche Lesarten, aber keine festen Schubladen. Ebenso falsch wäre es, Balance als Schwäche oder fehlende Ausprägung zu deuten. Das Modell beschreibt relative Schwerpunkte in einem persönlichen Kontext. Es sollte nicht verwendet werden, um Menschen zu bewerten oder ihnen Entwicklungsmöglichkeiten abzusprechen. Gute Interpretation bleibt wertneutral, situativ und offen für Veränderung."
+    }
+  }
+}

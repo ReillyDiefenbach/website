@@ -1,0 +1,80 @@
+/*
+ * Bild-/Textfluss
+ * - pic_center: immer zweispaltig; die bestehende center_pix-Engine übernimmt.
+ * - pic_left / pic_right: ein oder zwei explizite Textspalten mit Außenbild.
+ */
+
+.pic_left,
+.pic_right {
+    --picture-flow-padding: 150px;
+    --picture-flow-gap: clamp(28px, 4vw, 52px);
+    --picture-flow-image-gap: 24px;
+    --picture-flow-size: 260px;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    column-gap: var(--picture-flow-gap);
+    align-items: start;
+    overflow: visible;
+}
+
+.pic_left {
+    padding-left: var(--picture-flow-padding);
+}
+
+.pic_right {
+    padding-right: var(--picture-flow-padding);
+}
+
+.pic_left[data-columns="2"],
+.pic_right[data-columns="2"] {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.picture-flow__col {
+    min-width: 0;
+}
+
+.picture-flow__image {
+    display: block;
+    width: min(var(--picture-flow-size), calc(100% + var(--picture-flow-padding)));
+    margin-top: .2em;
+    margin-bottom: 1em;
+    break-inside: avoid;
+}
+
+.pic_left .picture-flow__image {
+    float: left;
+    margin-right: var(--picture-flow-image-gap);
+    margin-left: calc(var(--picture-flow-padding) * -1);
+}
+
+.pic_right .picture-flow__image {
+    float: right;
+    margin-right: calc(var(--picture-flow-padding) * -1);
+    margin-left: var(--picture-flow-image-gap);
+}
+
+.picture-flow__image img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width: 767px) {
+    .pic_left,
+    .pic_right,
+    .pic_left[data-columns="2"],
+    .pic_right[data-columns="2"] {
+        grid-template-columns: minmax(0, 1fr);
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .pic_left .picture-flow__image,
+    .pic_right .picture-flow__image {
+        width: min(var(--picture-flow-size), 100%);
+        margin-right: 0;
+        margin-left: 0;
+    }
+}

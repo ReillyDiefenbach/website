@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 16" width="26" height="16" preserveAspectRatio="xMidYMid meet" role="img" aria-labelledby="priority-title priority-description">
+  <title id="priority-title">Prioritätenkombination WE_m</title>
+  <desc id="priority-description">W gewinnt; E ist mit 75 Prozent der Runner-up.</desc>
+  <g id="priority-winner-w" transform="translate(1.667 0)" fill="#AA0000">
+    <path xmlns="http://www.w3.org/2000/svg" d="M4 1c2.21 0 4 1.755 4 3.92C8 2.755 9.79 1 12 1s4 1.755 4 3.92c0 3.263-3.234 4.414-7.608 9.608a.513.513 0 0 1-.784 0C3.234 9.334 0 8.183 0 4.92 0 2.755 1.79 1 4 1"/>
+  </g>
+  <g id="priority-runner-fill-e" transform="translate(12.333 4.000) scale(0.750)" fill="#AA0000" opacity="0.4">
+    <path xmlns="http://www.w3.org/2000/svg" d="M2.45 7.4 7.2 1.067a1 1 0 0 1 1.6 0L13.55 7.4a1 1 0 0 1 0 1.2L8.8 14.933a1 1 0 0 1-1.6 0L2.45 8.6a1 1 0 0 1 0-1.2"/>
+  </g>
+  <g id="priority-runner-outline-e" transform="translate(12.333 4.000) scale(0.750)" fill="#AA0000">
+    <path xmlns="http://www.w3.org/2000/svg" d="M8.384 1.226a.463.463 0 0 0-.768 0l-4.56 6.468a.54.54 0 0 0 0 .612l4.56 6.469a.463.463 0 0 0 .768 0l4.56-6.469a.54.54 0 0 0 0-.612zM6.848.613a1.39 1.39 0 0 1 2.304 0l4.56 6.468a1.61 1.61 0 0 1 0 1.838l-4.56 6.468a1.39 1.39 0 0 1-2.304 0L2.288 8.92a1.61 1.61 0 0 1 0-1.838z"/>
+  </g>
+</svg>

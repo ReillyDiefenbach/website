@@ -1,0 +1,107 @@
+{
+  "name": "Change Business",
+  "family": "Change",
+  "title": "Change & Adapt",
+  "short": "chng_biz",
+  "typ": "biz",
+  "key": "Beschreibt Veränderungsverhalten im Business zwischen Autonomie und Steuerung sowie zwischen Stabilität und Transformation.",
+  "desc": "Das Change Dynamics Framework beschreibt, wie Menschen und Rollen in Organisationen mit Wandel, Unsicherheit und Veränderungsdruck umgehen. Es nutzt zwei interpretative Dimensionen: erstens den bevorzugten Steuerungsmodus zwischen autonomem, experimentellem Handeln und koordinierter, verantwortungsbezogener Steuerung; zweitens die Veränderungsrichtung zwischen aktiver Transformation und Stabilisierung tragfähiger Strukturen. Das Modell zeigt damit keine validierten Traitfaktoren, sondern macht sichtbar, welche Beiträge in Change-Prozessen typischerweise betont werden: Exploration, Mobilisierung, Absicherung oder reflektierte Integration. Es eignet sich für Rollenklärung, Führung, Teamzusammenstellung und Reflexion über Veränderungsdynamiken, sofern es nicht als starre Typologie oder Erfolgsdiagnostik verwendet wird.",
+  "answer": "Das Modell beantwortet, wie jemand im organisationalen Wandel Orientierung gewinnt und welchen Beitrag er oder sie in Veränderungsprozessen bevorzugt leistet. Es zeigt, ob Wandel eher über Freiraum und Experiment, über koordinierte Steuerung, über Stabilisierung oder über erfahrungsbasierte Prüfung angegangen wird. Dadurch werden typische Stärken und Spannungsfelder sichtbar: Wer öffnet neue Optionen, wer übersetzt Wandel in koordinierte Umsetzung, wer sichert Qualität und Prozesse, und wer prüft Veränderung auf langfristige Tragfähigkeit? Das Modell unterstützt Change-Management und Teamreflexion, ohne Veränderungsverhalten pauschal als besser oder schlechter zu bewerten.",
+  "axis": {
+    "X": {
+      "label": "Steuerungsachse",
+      "name": "Steuerung",
+      "aka": "Change",
+      "range": "Autonomie vs. Steuerung",
+      "span": "autonom vs. steuernd",
+      "key": "AX_AUTONOMIE_VS_STEUERUNG",
+      "keyquest": "Wie handle ich?",
+      "quest": "Orientierst du dich eher autonom oder steuernd?",
+      "fact": "Autonomie versus Steuerung.",
+      "desc": "Diese Achse beschreibt, ob Veränderung eher über autonomen Freiraum und Eigeninitiative oder über koordinierende Steuerung, Zuständigkeit und Prozessklarheit gestaltet wird.",
+      "info": "Beide Pole können in Change-Prozessen funktional sein: Autonomie öffnet Experimentierräume, Steuerung macht Veränderung koordinierbar und anschlussfähig. Risiken entstehen vor allem bei einseitiger Überbetonung.",
+      "tags": "Steuerung, Steuerungs, Autonomie",
+      "science": "Handlungspsychologie, Organisationspsychologie, Selbstregulation"
+    },
+    "Y": {
+      "label": "Wandelachse",
+      "name": "Wandel",
+      "aka": "Adapt",
+      "range": "Transformation vs. Stabilität",
+      "span": "transformierend vs. stabilisierend",
+      "key": "AX_TRANSFORMATION_VS_STABILITAET",
+      "keyquest": "Wie entwickle und verändere ich mich?",
+      "quest": "Orientierst du dich eher transformierend oder stabilisierend?",
+      "fact": "Transformation versus Stabilität.",
+      "desc": "Diese Achse beschreibt, ob der Fokus im Wandel stärker auf aktiver Transformation und Erneuerung oder auf Stabilität, Kontinuität und Risikobegrenzung liegt.",
+      "info": "Transformation und Stabilität sind keine einfachen Gegensätze von gut und schlecht. Veränderungsfähigkeit entsteht häufig aus der Balance zwischen Erneuerung und tragfähiger Absicherung.",
+      "tags": "Wandel, Transformation, Stabilität",
+      "science": "Organisationsentwicklung, Change Readiness, Adaptivitätsforschung"
+    }
+  },
+  "orientation": {
+    "W": {
+      "label": "Autonomie",
+      "style": "autonom"
+    },
+    "E": {
+      "label": "Steuerung",
+      "style": "steuernd"
+    },
+    "N": {
+      "label": "Transformation",
+      "style": "transformierend"
+    },
+    "S": {
+      "label": "Stabilität",
+      "style": "stabilisierend"
+    }
+  },
+  "quadrants": {
+    "Q1": {
+      "xy": "WN",
+      "style": "pionierend",
+      "desc": "Autonom und transformationsorientiert; öffnet neue Möglichkeiten, testet Alternativen und bringt frühe Impulse in Veränderungsprozesse ein.",
+      "strength": "Ideenreich, initiativ, experimentierfreudig",
+      "deficit": "Kann bei Überbetonung Koordination, Anschlussfähigkeit oder Skalierung zu wenig berücksichtigen",
+      "aka": "Pioneer",
+      "short": "Der Pionier",
+      "role": "Pionier"
+    },
+    "Q2": {
+      "xy": "EN",
+      "style": "transformierend",
+      "desc": "Steuernd und transformationsorientiert; übersetzt Veränderung in Prioritäten, Programme und koordinierte Umsetzung.",
+      "strength": "Richtungsgebend, umsetzungsstark, mobilisierend",
+      "deficit": "Kann bei Überbetonung Beteiligung, Lernschleifen oder lokale Unterschiede zu wenig einbeziehen",
+      "aka": "Transformer",
+      "short": "Der Transformator",
+      "role": "Transformator"
+    },
+    "Q3": {
+      "xy": "ES",
+      "style": "stabilisierend",
+      "desc": "Steuernd und stabilitätsorientiert; sichert Prozesse, reduziert Risiken und schützt operative Qualität während Veränderung.",
+      "strength": "Verlässlich, strukturiert, qualitätssichernd",
+      "deficit": "Kann bei Überbetonung Neuerungen verzögern oder bestehende Verfahren zu stark absichern",
+      "aka": "Stabilizer",
+      "short": "Der Stabilisator",
+      "role": "Stabilisierer"
+    },
+    "Q4": {
+      "xy": "WS",
+      "style": "bewahrend",
+      "desc": "Autonom und stabilitätsorientiert; prüft Veränderung unabhängig, erkennt langfristige Zusammenhänge und integriert Wandel mit Erfahrung und kultureller Kontinuität.",
+      "strength": "Besonnen, unabhängig, integrierend",
+      "deficit": "Kann bei Überbetonung zu lange prüfen, sich abgrenzen oder Aktivierung verzögern",
+      "aka": "Guardian",
+      "short": "Der Change-Mentor",
+      "role": "Bewahrer"
+    }
+  },
+  "badge": "CHNGE",
+  "brand": "ChangeShift",
+  "canon_status": "freezed",
+  "freezed_at": "2026-07-02T19:57:24Z",
+  "source_candidate": "/var/www/openclaw/candidate/change/change_rebuild.json"
+}

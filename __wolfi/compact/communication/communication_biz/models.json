@@ -1,0 +1,107 @@
+{
+  "name": "Communication Business",
+  "family": "Communication",
+  "title": "Connect & Influence",
+  "short": "communication_biz",
+  "typ": "biz",
+  "key": "Beschreibt, wie Menschen im beruflichen Kontext Anschluss herstellen, Gespräche strukturieren und kommunikative Wirkung erzeugen - zwischen Resonanz und Steuerung sowie zwischen sichtbarem Ausdruck und prüfender Zurückhaltung.",
+  "desc": "Das Communication Business Modell beschreibt arbeitsbezogene Kommunikations- und Einflussmuster als PNA-Projektion. Die horizontale Achse unterscheidet Resonanz, also anschlussfähige, motivierende und beziehungsnahe Kommunikation, von Steuerung, also strukturierender, zielorientierter und entscheidungsnaher Gesprächsführung. Die vertikale Achse unterscheidet Ausdruck, also sichtbare und initiierende Kommunikationspräsenz, von Zurückhaltung, also abwägender, prüfender und absichernder Kommunikation. Das Modell dient der Reflexion beruflicher Kommunikation in Führung, Zusammenarbeit, Verhandlung, Beratung, Vertrieb und Konfliktklärung.",
+  "answer": "Das Modell beantwortet, wie eine Person im beruflichen Kontext Kommunikation gestaltet und Einfluss ausübt: eher über Resonanz, Anschluss und Motivation oder über Struktur, Richtung und Steuerung; eher sichtbar und initiierend oder eher zurückhaltend und prüfend. Es macht kommunikative Stärken, typische Reibungspunkte und passende Einsatzfelder sichtbar, ohne daraus starre Persönlichkeitstypen abzuleiten.",
+  "axis": {
+    "X": {
+      "label": "Kommunikationsachse",
+      "name": "Kommunikation",
+      "aka": "Connect",
+      "range": "Resonanz vs. Steuerung",
+      "span": "resonant vs. steuernd",
+      "key": "AX_RESONANZ_VS_STEUERUNG",
+      "keyquest": "Wie handle ich?",
+      "quest": "Orientierst du dich eher resonant oder steuernd?",
+      "fact": "Resonanz versus Steuerung.",
+      "desc": "Diese Achse beschreibt, ob berufliche Kommunikation primär über Anschluss, Beziehung und motivierende Resonanz oder über Struktur, Richtung und zielbezogene Steuerung organisiert wird.",
+      "info": "Resonanz erleichtert Beteiligung, Vertrauen und soziale Anschlussfähigkeit. Steuerung erleichtert Klarheit, Entscheidung und Gesprächsführung. Beide Pole sind funktional; Risiken entstehen vor allem durch einseitige Überbetonung.",
+      "tags": "Kommunikation, Resonanz, Steuerung, Anschluss, Gesprächsführung",
+      "science": "Kommunikationspsychologie, Organisationspsychologie"
+    },
+    "Y": {
+      "label": "Aktivitätsachse",
+      "name": "Aktivität",
+      "aka": "Influence",
+      "range": "Ausdruck vs. Zurückhaltung",
+      "span": "ausdrucksstark vs. zurückhaltend",
+      "key": "AX_AUSDRUCK_VS_ZURUECKHALTUNG",
+      "keyquest": "Wie handle ich?",
+      "quest": "Orientierst du dich eher ausdrucksstark oder zurückhaltend?",
+      "fact": "Ausdruck versus Zurückhaltung.",
+      "desc": "Diese Achse beschreibt, ob berufliche Kommunikation eher sichtbar, initiierend und präsent oder eher abwägend, prüfend und zurückhaltend erfolgt.",
+      "info": "Ausdruck unterstützt Sichtbarkeit, Aktivierung und Einfluss. Zurückhaltung unterstützt Prüfung, Zuhören und Absicherung. Die Achse beschreibt eine kommunikative Präferenz, keine generelle Fähigkeit.",
+      "tags": "Kommunikation, Aktivität, Ausdruck, Zurückhaltung, Einfluss",
+      "science": "Kommunikationspsychologie, Sozialpsychologie"
+    }
+  },
+  "orientation": {
+    "W": {
+      "label": "Resonanz",
+      "style": "resonant"
+    },
+    "E": {
+      "label": "Steuerung",
+      "style": "steuernd"
+    },
+    "N": {
+      "label": "Ausdruck",
+      "style": "ausdrucksstark"
+    },
+    "S": {
+      "label": "Zurückhaltung",
+      "style": "zurückhaltend"
+    }
+  },
+  "quadrants": {
+    "Q1": {
+      "xy": "WN",
+      "style": "inspirierend",
+      "desc": "Resonanzorientiert und ausdrucksstark; öffnet Gespräche, aktiviert Beteiligung, erzeugt Aufmerksamkeit und bringt kommunikative Energie in Gruppen.",
+      "strength": "Motivierend, verbindend, aktivierend",
+      "deficit": "Kann in bestimmten Situationen Wirkung und Aufmerksamkeit stärker betonen als Präzision, Grenzen oder Abstimmung.",
+      "aka": "Influencer",
+      "short": "Der Inspirator",
+      "role": "Inspirator"
+    },
+    "Q2": {
+      "xy": "EN",
+      "style": "steuernd",
+      "desc": "Steuernd und ausdrucksstark; setzt Gesprächsrichtung, macht Erwartungen sichtbar, entscheidet sprachlich klar und richtet Kommunikation auf Ergebnis und Wirkung aus.",
+      "strength": "Klar, entscheidungsstark, richtungsgebend",
+      "deficit": "Kann in bestimmten Situationen Gesprächssteuerung verdichten und Resonanz-, Beteiligungs- oder Klärungsbedarf zu wenig einbeziehen.",
+      "aka": "Director",
+      "short": "Der Lenker",
+      "role": "Lenker"
+    },
+    "Q3": {
+      "xy": "ES",
+      "style": "analytisch",
+      "desc": "Steuernd und zurückhaltend; prüft Aussagen, sichert Fakten, achtet auf Präzision und macht Argumente nachvollziehbar.",
+      "strength": "Gründlich, sachlich, absichernd",
+      "deficit": "Kann in bestimmten Situationen Prüfung, Distanz oder Sachbezug so stark betonen, dass Anschluss und Verständlichkeit leiden.",
+      "aka": "Analyst",
+      "short": "Der Analyst",
+      "role": "Analytiker"
+    },
+    "Q4": {
+      "xy": "WS",
+      "style": "unterstützend",
+      "desc": "Resonanzorientiert und zurückhaltend; hört zu, vermittelt zwischen Perspektiven, stärkt Vertrauen und achtet auf soziale Anschlussfähigkeit.",
+      "strength": "Empathisch, vermittelnd, stabilisierend",
+      "deficit": "Kann in bestimmten Situationen Harmonie und Rücksichtnahme stärker gewichten als klare Positionierung oder notwendige Konfrontation.",
+      "aka": "Supporter",
+      "short": "Der Vermittler",
+      "role": "Vermittler"
+    }
+  },
+  "badge": "COMM",
+  "brand": "ConnectFlow",
+  "canon_status": "freezed",
+  "freezed_at": "2026-07-01T18:11:40Z",
+  "source_candidate": "/var/www/openclaw/candidate/communication/communication_rebuild.json"
+}

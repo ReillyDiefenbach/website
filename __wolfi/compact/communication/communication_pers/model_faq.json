@@ -1,0 +1,53 @@
+{
+  "schema": "pna.content.model_faq.v1",
+  "lang": "de",
+  "scope": "model",
+  "family": "communication",
+  "model_key": "communication_pers",
+  "title": "Communication Personal",
+  "variant": "personal",
+  "source_stage": "after_model_results_review",
+  "status": "generated_pending_content_review",
+  "items": {
+    "m1": {
+      "q": "Worin unterscheidet sich dieses Modell von Connect & Influence als Family?",
+      "a": "Connect & Influence als Family beschreibt die gemeinsame Perspektive auf kommunikative Orientierung: Resonanz, strukturierende Klärung, sichtbare Kontaktbewegung und prüfende Zurückhaltung. Communication Personal ist die persönliche und soziale Ausprägung dieser Perspektive. Es übersetzt die Family-Logik in Beziehung, Nähe, Vertrauen, Kontaktaufnahme, soziale Sicherheit und Distanzregulation. Deshalb arbeitet das Modell mit Resonanz und Ordnung sowie Annäherung und Zurückhaltung. Die Rollen heißen Verbinder, Gestalter, Bewahrer und Zugewandter. Die Aussagen beziehen sich auf persönliche Kommunikationsmuster im sozialen Kontext, nicht auf berufliche Gesprächsführung oder allgemeine soziale Kompetenz."
+    },
+    "m2": {
+      "q": "Welche Ergebnisbereiche liefert dieses Modell?",
+      "a": "Communication Personal liefert vier Ergebnisbereiche: Orientierung, Prioritäten, Wirkungsraum und Rollenprofil. Orientierung beschreibt, ob im Modell eher die soziale Achse oder die Ausdrucksachse im Vordergrund steht oder ob beide Zugänge ausbalanciert sind. Prioritäten zeigen die stärkeren Grundrichtungen: Resonanz, Ordnung, Annäherung und Zurückhaltung, jeweils mit möglichen Balancefällen. Der Wirkungsraum verdichtet diese Richtungen zu sozialen Kommunikationsrollen wie Kontaktgeber, Gestalter, Absicherer oder Zugewandter. Das Rollenprofil beschreibt eine geordnete Kombination aus primärem und sekundärem Wirkungsraum, sofern die Ergebnislage eine belastbare Reihenfolge erlaubt. Damit bleibt nachvollziehbar, welche Ebene jeweils interpretiert wird."
+    },
+    "m3": {
+      "q": "Was bedeutet Orientierung in diesem Modell?",
+      "a": "Orientierung beschreibt im Communication Personal Modell, welcher Zugang persönliche Kommunikation stärker strukturiert. Die soziale Achse unterscheidet Resonanz und Ordnung: also Anschluss, Vertrauen und Beziehungssinn gegenüber Grenzen, Berechenbarkeit und sozialer Sicherheit. Die Ausdrucksachse unterscheidet Annäherung und Zurückhaltung: also sichtbare Kontaktbewegung gegenüber prüfender, vorsichtiger Beteiligung. Ein Ergebnis kann eine Achse stärker hervorheben oder beide Zugänge als ausbalanciert beschreiben. Orientierung ist keine Bewertung sozialer Qualität. Sie zeigt nur, welche Auswertungsrichtung innerhalb dieses Modells besonders relevant wird und wie persönliche Kommunikationssituationen sprachlich eingeordnet werden können."
+    },
+    "m4": {
+      "q": "Was zeigen Prioritäten in diesem Modell?",
+      "a": "Prioritäten zeigen, welche Kommunikationsrichtungen im persönlichen Kontext stärker hervortreten. Resonanz steht für Anschlussfähigkeit, Beziehungssinn, Vertrauen und soziale Verbindung. Ordnung steht für Grenzen, Verlässlichkeit, Berechenbarkeit und Distanzregulation. Annäherung beschreibt Initiative, Kontaktbewegung und sichtbare soziale Präsenz. Zurückhaltung beschreibt Prüfung, Zuhören, Vorsicht und absichernde Kommunikation. Das Modell betrachtet diese Richtungen paarweise: Resonanz gegenüber Ordnung sowie Annäherung gegenüber Zurückhaltung. Dabei können klare Schwerpunkte, knappe Schwerpunkte oder Balancefälle entstehen. Eine niedrigere Priorität bedeutet nicht, dass eine Richtung fehlt. Sie ist nur im Ergebnis weniger dominant."
+    },
+    "m5": {
+      "q": "Was beschreibt der Wirkungsraum?",
+      "a": "Der Wirkungsraum beschreibt, wo sich Orientierung und Prioritäten im persönlichen Kommunikationsraum bündeln. Communication Personal verwendet vier Wirkungsräume: Kontaktgeber, Gestalter, Absicherer und Zugewandter. Der Kontaktgeber verbindet Resonanz und Annäherung, der Gestalter Ordnung und Annäherung, der Absicherer Ordnung und Zurückhaltung, der Zugewandte Resonanz und Zurückhaltung. Diese Begriffe sind funktionale Lesarten für persönliche Kommunikation, keine festen Persönlichkeitstypen. Ein Wirkungsraum macht sichtbar, welche Art von Beitrag in Nähe, Vertrauen, Konflikt, Kontaktaufnahme oder Beziehungsklärung besonders naheliegt. Bei ausgewogener Verteilung kann auch kein einzelner Wirkungsraum dominieren."
+    },
+    "m6": {
+      "q": "Wie ist das Rollenprofil zu verstehen?",
+      "a": "Das Rollenprofil ist die stärkste Verdichtung der Modellauswertung. Es entsteht nur, wenn ein primärer und ein sekundärer Wirkungsraum in einer fachlich sinnvollen Reihenfolge bestimmbar sind. Eine solche Reihenfolge beschreibt, welche soziale Kommunikationsrolle zuerst sichtbar wird und welche ergänzend wirkt. Das ist keine Aussage über die gesamte Persönlichkeit und kein Nachweis sozialer Kompetenz. Das Rollenprofil hilft, kommunikative Beiträge zu sortieren: Wer stellt Verbindung her, wer gestaltet Grenzen, wer sichert Vertrauen, wer stabilisiert Beziehungen? Bei echter Balance wird kein Rollenprofil erzwungen, sondern die ausgewogene Ergebnislage bleibt führend."
+    },
+    "m7": {
+      "q": "Wie werden Balance oder knappe Ergebnisse formuliert?",
+      "a": "Balance und knappe Ergebnisse werden über die Auswertungsschicht behandelt, nicht durch frei erfundene Zusatztypen. Die statischen Ergebnisbausteine bleiben auf die Basis-Keys begrenzt; konkrete Laufzeitfälle werden über `resolved_result_key` berechnet. Bei Balance darf keine Dominanz behauptet werden. Dann wird formuliert, dass zwei Achsen, Richtungen oder Wirkungsräume annähernd gleich stark sichtbar sind. Bei knapper Dominanz wird die führende Seite zuerst genannt, die nahe zweite Seite aber ausdrücklich mitgeführt. Rollenprofile werden bei echter Balance unterdrückt, wenn keine belastbare Primär- und Sekundärreihenfolge besteht. So bleibt die Darstellung präzise, ohne Unterschiede zu überzeichnen."
+    },
+    "m8": {
+      "q": "Was sagt ein Ergebnis ausdrücklich nicht aus?",
+      "a": "Ein Ergebnis aus Communication Personal sagt nicht, ob eine Person sozialer, empathischer, verbindlicher, konfliktfähiger oder beziehungsfähiger ist als eine andere. Es ist keine klinische Diagnose, kein Kommunikationstyp und keine Bewertung persönlicher Qualität. Resonanz bedeutet nicht automatisch Empathie, Ordnung nicht automatisch Kontrolle, Annäherung nicht automatisch Dominanz und Zurückhaltung nicht automatisch Misstrauen. Das Ergebnis beschreibt modellbezogene Orientierungen im persönlichen Kommunikationskontext. Es bleibt ein Reflexionsangebot, das mit Situation, Beziehung, Nähe, Grenzen und Gegenüber gelesen werden muss, nicht als isolierter Personenbefund. Die fachliche Grenze bleibt deshalb in jedem Ausgabekontext sichtbar."
+    },
+    "m9": {
+      "q": "Wie kann man das Ergebnis praktisch nutzen?",
+      "a": "Praktisch kann Communication Personal genutzt werden, um persönliche Kommunikationsmuster differenzierter zu besprechen. In Beziehungen, Freundschaften, Familie, Coaching oder Konfliktklärung kann es zeigen, ob eher Anschluss, Grenzen, Kontaktbewegung oder vorsichtige Prüfung stark vertreten sind. Es kann helfen, Erwartungen an Nähe, Verlässlichkeit, Initiative und Rückzug explizit zu machen. Dadurch lässt sich Reibung entpersonalisieren: Unterschiedliche Bedürfnisse nach Kontakt, Sicherheit oder Abstand müssen keine Charakterfrage sein. Das Ergebnis sollte als Reflexions- und Gesprächsgrundlage verwendet werden, nicht als Urteil über soziale Eignung oder Beziehungsfähigkeit. Der Nutzen liegt in Klärung, nicht in Bewertung."
+    },
+    "m10": {
+      "q": "Was sollte man bei der Interpretation vermeiden?",
+      "a": "Zu vermeiden ist jede Interpretation, die Communication Personal als starres Beziehungsurteil behandelt. Die Rollen Verbinder, Gestalter, Bewahrer und Zugewandter sind funktionale Lesarten im persönlichen Kontext, keine Typen und keine Rangordnung. Keine Rolle ist besser, reifer oder wertvoller als eine andere. Ebenso sollten Balancefälle nicht als Unentschiedenheit oder Schwäche gelesen werden. Das Modell ersetzt keine Beziehungsklärung, keine Situationsanalyse und keine fachliche Diagnose. Gute Interpretation bleibt kontextbezogen, wertneutral und offen für Ergänzung durch konkrete Beziehungserfahrung, Gesprächsanlass und beobachtbares Verhalten. Entscheidend ist die passende Einordnung der konkreten Situation."
+    }
+  }
+}

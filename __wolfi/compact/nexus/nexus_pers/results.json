@@ -1,0 +1,626 @@
+{
+  "schema": "pna.model_results_basics.v1",
+  "task": "model_results",
+  "model_key": "nexus_pers",
+  "family": "nexus",
+  "language": "de",
+  "generated_at": "2026-07-01T15:58:29Z",
+  "wording_source": "canon/results/framework_result_wording.json",
+  "contract_source": "canon/results/model_results_contract.json",
+  "result_status": "generated_pending_review",
+  "runtime_resolution": {
+    "principle": "Basisbausteine liefern die Textquellen; konkrete resolved_result_keys werden deterministisch in der Auswertungsschicht berechnet.",
+    "balance_policy": "Keine Dominanz behaupten, wenn Werte innerhalb der Balance-Toleranz liegen.",
+    "role_policy": "Rollenprofile nur bei geordneter Primär- und Sekundärdominanz benachbarter Quadranten erzeugen; bei echter Balance oder gegenüberliegender Scheinordnung R0 verwenden.",
+    "base_result_key_count": 27
+  },
+  "results": {
+    "orientation": {
+      "X": {
+        "short": "Beziehung",
+        "aka": "Bond",
+        "headline": "Orientierung über Beziehung",
+        "personal_text": "Bei dir steht Beziehung stärker im Vordergrund. Du erschließt Bond & Change im persönlichen Kontext vor allem über autonomie vs. verbundenheit und suchst darin Orientierung.",
+        "external_text": "Die Ausrichtung zeigt eine stärkere Verdichtung auf Beziehung. Dieses Ergebnis beschreibt eine modellbezogene Orientierung, keine feste Eigenschaft.",
+        "description": "Diese Achse beschreibt die bevorzugte Orientierung zwischen eigenständiger Selbststeuerung und sozialer Einbindung.",
+        "strength": "Macht Beziehungs- und Anschlussfragen früh sichtbar.",
+        "risk": "Kann andere Entwicklungs- oder Stabilitätsaspekte zeitweise überlagern.",
+        "keywords": [
+          "Beziehung",
+          "Bond",
+          "Orientierung"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn die X-Achse gegenüber der Y-Achse dominiert.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "Y": {
+        "short": "Entwicklung",
+        "aka": "Change",
+        "headline": "Orientierung über Entwicklung",
+        "personal_text": "Bei dir steht Entwicklung stärker im Vordergrund. Du erschließt Bond & Change im persönlichen Kontext vor allem über veränderung vs. stabilität und suchst darin Orientierung.",
+        "external_text": "Die Ausrichtung zeigt eine stärkere Verdichtung auf Entwicklung. Dieses Ergebnis beschreibt eine modellbezogene Orientierung, keine feste Eigenschaft.",
+        "description": "Diese Achse beschreibt die bevorzugte Orientierung zwischen Entwicklung, Anpassung und Erneuerung einerseits sowie Kontinuität, Sicherheit und Verlässlichkeit andererseits.",
+        "strength": "Macht Entwicklungs- und Stabilitätsfragen früh sichtbar.",
+        "risk": "Kann Beziehungs- oder Zugehörigkeitsaspekte zeitweise überlagern.",
+        "keywords": [
+          "Entwicklung",
+          "Change",
+          "Orientierung"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn die Y-Achse gegenüber der X-Achse dominiert.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "XY": {
+        "short": "Balance der Achsen",
+        "aka": "Bond-Change Balance",
+        "headline": "Beziehung und Entwicklung im Gleichgewicht",
+        "personal_text": "Bei dir liegen Beziehung und Entwicklung nah beieinander. Du brauchst keine eindeutige Achsendominanz, sondern verbindest beide Perspektiven.",
+        "external_text": "Die Ausrichtung zeigt eine Balance zwischen Beziehung und Entwicklung. Es wird keine Dominanz behauptet.",
+        "description": "Beschreibt eine annähernd ausgeglichene Achsenauswertung.",
+        "strength": "Kann zwischen Beziehungs- und Entwicklungslogik vermitteln.",
+        "risk": "Kann weniger eindeutig wirken, wenn eine klare Priorisierung erwartet wird.",
+        "keywords": [
+          "Balance",
+          "Beziehung",
+          "Entwicklung"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn X und Y innerhalb der Balance-Toleranz liegen.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      }
+    },
+    "priorities": {
+      "W": {
+        "short": "Autonomie",
+        "aka": "autonom",
+        "headline": "Priorität Autonomie",
+        "personal_text": "Bei dir wird Autonomie im persönlichen Kontext besonders sichtbar. Verbundenheit bleibt anschlussfähig, steht aber nicht im Vordergrund dieses Ergebnisfalls.",
+        "external_text": "Die Person zeigt eine stärkere Priorität für Autonomie. Das beschreibt eine relative Gewichtung innerhalb des Modells.",
+        "description": "Autonomie dominiert in der entsprechenden Richtungspaarung gegenüber Verbundenheit.",
+        "strength": "Autonomie kann Orientierung und Entscheidungskraft geben.",
+        "risk": "Eine einseitige Betonung von Autonomie kann die Gegenrichtung Verbundenheit zu wenig berücksichtigen.",
+        "keywords": [
+          "Autonomie",
+          "Verbundenheit",
+          "Priorität"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn Autonomie gegenüber Verbundenheit dominiert.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "E": {
+        "short": "Verbundenheit",
+        "aka": "verbunden",
+        "headline": "Priorität Verbundenheit",
+        "personal_text": "Bei dir wird Verbundenheit im persönlichen Kontext besonders sichtbar. Autonomie bleibt anschlussfähig, steht aber nicht im Vordergrund dieses Ergebnisfalls.",
+        "external_text": "Die Person zeigt eine stärkere Priorität für Verbundenheit. Das beschreibt eine relative Gewichtung innerhalb des Modells.",
+        "description": "Verbundenheit dominiert in der entsprechenden Richtungspaarung gegenüber Autonomie.",
+        "strength": "Verbundenheit kann Orientierung und Entscheidungskraft geben.",
+        "risk": "Eine einseitige Betonung von Verbundenheit kann die Gegenrichtung Autonomie zu wenig berücksichtigen.",
+        "keywords": [
+          "Verbundenheit",
+          "Autonomie",
+          "Priorität"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn Verbundenheit gegenüber Autonomie dominiert.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "N": {
+        "short": "Veränderung",
+        "aka": "verändernd",
+        "headline": "Priorität Veränderung",
+        "personal_text": "Bei dir wird Veränderung im persönlichen Kontext besonders sichtbar. Stabilität bleibt anschlussfähig, steht aber nicht im Vordergrund dieses Ergebnisfalls.",
+        "external_text": "Die Person zeigt eine stärkere Priorität für Veränderung. Das beschreibt eine relative Gewichtung innerhalb des Modells.",
+        "description": "Veränderung dominiert in der entsprechenden Richtungspaarung gegenüber Stabilität.",
+        "strength": "Veränderung kann Orientierung und Entscheidungskraft geben.",
+        "risk": "Eine einseitige Betonung von Veränderung kann die Gegenrichtung Stabilität zu wenig berücksichtigen.",
+        "keywords": [
+          "Veränderung",
+          "Stabilität",
+          "Priorität"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn Veränderung gegenüber Stabilität dominiert.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "S": {
+        "short": "Stabilität",
+        "aka": "stabilisierend",
+        "headline": "Priorität Stabilität",
+        "personal_text": "Bei dir wird Stabilität im persönlichen Kontext besonders sichtbar. Veränderung bleibt anschlussfähig, steht aber nicht im Vordergrund dieses Ergebnisfalls.",
+        "external_text": "Die Person zeigt eine stärkere Priorität für Stabilität. Das beschreibt eine relative Gewichtung innerhalb des Modells.",
+        "description": "Stabilität dominiert in der entsprechenden Richtungspaarung gegenüber Veränderung.",
+        "strength": "Stabilität kann Orientierung und Entscheidungskraft geben.",
+        "risk": "Eine einseitige Betonung von Stabilität kann die Gegenrichtung Veränderung zu wenig berücksichtigen.",
+        "keywords": [
+          "Stabilität",
+          "Veränderung",
+          "Priorität"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn Stabilität gegenüber Veränderung dominiert.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "WE": {
+        "short": "Balance Autonomie und Verbundenheit",
+        "aka": "Autonomy-Bond Balance",
+        "headline": "Eigenständigkeit und Verbindung ausbalancieren",
+        "personal_text": "Bei dir liegen Autonomie und Verbundenheit nah beieinander. Du kannst Eigenständigkeit und Anschluss gleichzeitig berücksichtigen.",
+        "external_text": "Dieses Ergebnis beschreibt eine Balance zwischen Autonomie und Verbundenheit ohne Richtungsdominanz.",
+        "description": "Annähernd ausgeglichene Richtungsauswertung im W/E-Paar.",
+        "strength": "Ermöglicht Vermittlung zwischen Selbststeuerung und Anschlussfähigkeit.",
+        "risk": "Kann bei Entscheidungsdruck weniger eindeutig erscheinen.",
+        "keywords": [
+          "Autonomie",
+          "Verbundenheit",
+          "Balance"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn W und E innerhalb der Balance-Toleranz liegen.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "NS": {
+        "short": "Balance Veränderung und Stabilität",
+        "aka": "Change-Stability Balance",
+        "headline": "Bewegung und Verlässlichkeit ausbalancieren",
+        "personal_text": "Bei dir liegen Veränderung und Stabilität nah beieinander. Du kannst Entwicklung und Kontinuität gleichzeitig berücksichtigen.",
+        "external_text": "Dieses Ergebnis beschreibt eine Balance zwischen Veränderung und Stabilität ohne Richtungsdominanz.",
+        "description": "Annähernd ausgeglichene Richtungsauswertung im N/S-Paar.",
+        "strength": "Ermöglicht Vermittlung zwischen Erneuerung und tragfähiger Struktur.",
+        "risk": "Kann bei starkem Tempo- oder Sicherheitsdruck weniger eindeutig erscheinen.",
+        "keywords": [
+          "Veränderung",
+          "Stabilität",
+          "Balance"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn N und S innerhalb der Balance-Toleranz liegen.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      }
+    },
+    "impact_space": {
+      "Q1": {
+        "short": "Freigeist",
+        "aka": "Explorer",
+        "headline": "Der Freigeist",
+        "personal_text": "Bei dir bündelt sich die Ausrichtung im persönlichen Kontext im Wirkungsraum Freigeist. Autonom und verändernd; sucht Freiraum, neue Erfahrungen und eigenständige Entwicklungsmöglichkeiten.",
+        "external_text": "Die Ausrichtung verdichtet sich im Wirkungsraum Freigeist. Das beschreibt eine Modellperspektive, keinen Typ.",
+        "description": "Autonom und verändernd; sucht Freiraum, neue Erfahrungen und eigenständige Entwicklungsmöglichkeiten.",
+        "strength": "Eigenständig, neugierig, beweglich",
+        "risk": "Kann in bestimmten Situationen Bindung, Verbindlichkeit oder Kontinuität zu früh als Begrenzung erleben.",
+        "keywords": [
+          "Freigeist",
+          "Explorer",
+          "Q1"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn Q1 der stärkste Wirkungsraum ist.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "Q2": {
+        "short": "Inspirator",
+        "aka": "Catalyst",
+        "headline": "Der Inspirator",
+        "personal_text": "Bei dir bündelt sich die Ausrichtung im persönlichen Kontext im Wirkungsraum Inspirator. Verbunden und verändernd; sucht Austausch, Resonanz und gemeinsame Entwicklung mit anderen Menschen.",
+        "external_text": "Die Ausrichtung verdichtet sich im Wirkungsraum Inspirator. Das beschreibt eine Modellperspektive, keinen Typ.",
+        "description": "Verbunden und verändernd; sucht Austausch, Resonanz und gemeinsame Entwicklung mit anderen Menschen.",
+        "strength": "Begeisternd, verbindend, entwicklungsorientiert",
+        "risk": "Kann in bestimmten Situationen zu viele soziale oder emotionale Impulse gleichzeitig aufnehmen und dadurch Unruhe erzeugen.",
+        "keywords": [
+          "Inspirator",
+          "Catalyst",
+          "Q2"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn Q2 der stärkste Wirkungsraum ist.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "Q3": {
+        "short": "Bewahrer",
+        "aka": "Guardian",
+        "headline": "Der Bewahrer",
+        "personal_text": "Bei dir bündelt sich die Ausrichtung im persönlichen Kontext im Wirkungsraum Bewahrer. Verbunden und stabilisierend; sucht verlässliche Nähe, Zugehörigkeit und tragfähige Beziehungen.",
+        "external_text": "Die Ausrichtung verdichtet sich im Wirkungsraum Bewahrer. Das beschreibt eine Modellperspektive, keinen Typ.",
+        "description": "Verbunden und stabilisierend; sucht verlässliche Nähe, Zugehörigkeit und tragfähige Beziehungen.",
+        "strength": "Loyal, fürsorglich, verlässlich",
+        "risk": "Kann in bestimmten Situationen Sicherheit und Harmonie so stark schützen, dass Abgrenzung oder Veränderung schwerer fällt.",
+        "keywords": [
+          "Bewahrer",
+          "Guardian",
+          "Q3"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn Q3 der stärkste Wirkungsraum ist.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "Q4": {
+        "short": "Eigenständiger",
+        "aka": "Independent",
+        "headline": "Der Eigenständige",
+        "personal_text": "Bei dir bündelt sich die Ausrichtung im persönlichen Kontext im Wirkungsraum Eigenständiger. Autonom und stabilisierend; ordnet Erleben eigenständig ein, schützt innere Klarheit und hält an tragfähigen Maßstäben fest.",
+        "external_text": "Die Ausrichtung verdichtet sich im Wirkungsraum Eigenständiger. Das beschreibt eine Modellperspektive, keinen Typ.",
+        "description": "Autonom und stabilisierend; ordnet Erleben eigenständig ein, schützt innere Klarheit und hält an tragfähigen Maßstäben fest.",
+        "strength": "Reflektiert, integer, selbstständig",
+        "risk": "Kann in bestimmten Situationen aus Distanz oder Kontrolle heraus Verbindung und neue Erfahrungen zu spät zulassen.",
+        "keywords": [
+          "Eigenständiger",
+          "Independent",
+          "Q4"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn Q4 der stärkste Wirkungsraum ist.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "Q12": {
+        "short": "Freigeist und Inspirator in Balance",
+        "aka": "Explorer-Catalyst Balance",
+        "headline": "Freigeist und Inspirator ausbalanciert",
+        "personal_text": "Bei dir tragen die Wirkungsräume Freigeist und Inspirator gemeinsam. Keine der beiden Perspektiven wird als führend formuliert.",
+        "external_text": "Die Person zeigt eine Balance zwischen den Wirkungsräume Freigeist und Inspirator. Es wird keine Primärdominanz behauptet.",
+        "description": "Q12 beschreibt eine ungeordnete Balance der benachbarten Wirkungsräume Q1 und Q2.",
+        "strength": "Verbindet Eigenständig, neugierig, beweglich mit Begeisternd, verbindend, entwicklungsorientiert.",
+        "risk": "Kann weniger eindeutig wirken, ist aber fachlich sauberer als eine erzwungene Quadrantendominanz.",
+        "keywords": [
+          "Q12",
+          "Freigeist",
+          "Inspirator",
+          "Balance"
+        ],
+        "interpretation_rule": "Als Balance zwischen Q1 und Q2 interpretieren; keine Primärdominanz und kein Rollenprofil daraus ableiten.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "Q14": {
+        "short": "Freigeist und Eigenständiger in Balance",
+        "aka": "Explorer-Independent Balance",
+        "headline": "Freigeist und Eigenständiger ausbalanciert",
+        "personal_text": "Bei dir tragen die Wirkungsräume Freigeist und Eigenständiger gemeinsam. Keine der beiden Perspektiven wird als führend formuliert.",
+        "external_text": "Die Person zeigt eine Balance zwischen den Wirkungsräume Freigeist und Eigenständiger. Es wird keine Primärdominanz behauptet.",
+        "description": "Q14 beschreibt eine ungeordnete Balance der benachbarten Wirkungsräume Q1 und Q4.",
+        "strength": "Verbindet Eigenständig, neugierig, beweglich mit Reflektiert, integer, selbstständig.",
+        "risk": "Kann weniger eindeutig wirken, ist aber fachlich sauberer als eine erzwungene Quadrantendominanz.",
+        "keywords": [
+          "Q14",
+          "Freigeist",
+          "Eigenständiger",
+          "Balance"
+        ],
+        "interpretation_rule": "Als Balance zwischen Q1 und Q4 interpretieren; keine Primärdominanz und kein Rollenprofil daraus ableiten.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "Q23": {
+        "short": "Inspirator und Bewahrer in Balance",
+        "aka": "Catalyst-Guardian Balance",
+        "headline": "Inspirator und Bewahrer ausbalanciert",
+        "personal_text": "Bei dir tragen die Wirkungsräume Inspirator und Bewahrer gemeinsam. Keine der beiden Perspektiven wird als führend formuliert.",
+        "external_text": "Die Person zeigt eine Balance zwischen den Wirkungsräume Inspirator und Bewahrer. Es wird keine Primärdominanz behauptet.",
+        "description": "Q23 beschreibt eine ungeordnete Balance der benachbarten Wirkungsräume Q2 und Q3.",
+        "strength": "Verbindet Begeisternd, verbindend, entwicklungsorientiert mit Loyal, fürsorglich, verlässlich.",
+        "risk": "Kann weniger eindeutig wirken, ist aber fachlich sauberer als eine erzwungene Quadrantendominanz.",
+        "keywords": [
+          "Q23",
+          "Inspirator",
+          "Bewahrer",
+          "Balance"
+        ],
+        "interpretation_rule": "Als Balance zwischen Q2 und Q3 interpretieren; keine Primärdominanz und kein Rollenprofil daraus ableiten.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "Q34": {
+        "short": "Bewahrer und Eigenständiger in Balance",
+        "aka": "Guardian-Independent Balance",
+        "headline": "Bewahrer und Eigenständiger ausbalanciert",
+        "personal_text": "Bei dir tragen die Wirkungsräume Bewahrer und Eigenständiger gemeinsam. Keine der beiden Perspektiven wird als führend formuliert.",
+        "external_text": "Die Person zeigt eine Balance zwischen den Wirkungsräume Bewahrer und Eigenständiger. Es wird keine Primärdominanz behauptet.",
+        "description": "Q34 beschreibt eine ungeordnete Balance der benachbarten Wirkungsräume Q3 und Q4.",
+        "strength": "Verbindet Loyal, fürsorglich, verlässlich mit Reflektiert, integer, selbstständig.",
+        "risk": "Kann weniger eindeutig wirken, ist aber fachlich sauberer als eine erzwungene Quadrantendominanz.",
+        "keywords": [
+          "Q34",
+          "Bewahrer",
+          "Eigenständiger",
+          "Balance"
+        ],
+        "interpretation_rule": "Als Balance zwischen Q3 und Q4 interpretieren; keine Primärdominanz und kein Rollenprofil daraus ableiten.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "Q0": {
+        "short": "Ausgewogener Wirkungsraum",
+        "aka": "Balanced Impact Space",
+        "headline": "Mehrere Wirkungsräume sind aktiv",
+        "personal_text": "Bei dir verteilt sich die Ausrichtung auf mehrere Wirkungsräume. Das ist kein schwaches Ergebnis, sondern eine breite Nutzung verschiedener Perspektiven.",
+        "external_text": "Dieses Ergebnis beschreibt eine ausgewogene Nutzung mehrerer Quadranten ohne eindeutige Dominanz.",
+        "description": "Q0 beschreibt eine annähernd ausgewogene Nutzung mehrerer Wirkungsräume; bei vollständigem Gleichstand aller vier Halbachsen greift stattdessen XY_BALANCED.",
+        "strength": "Kann mehrere Anforderungen gleichzeitig integrieren.",
+        "risk": "Kann weniger schnell auf einen einzelnen Handlungsmodus verdichten.",
+        "keywords": [
+          "Wirkungsraum",
+          "Balance",
+          "Q0"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn kein einzelner oder paarweiser Wirkungsraum dominant ist und kein vollständiger Halbachsen-Gleichstand W=E=N=S vorliegt.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis",
+          "vollständige Halbachsen-Balance W=E=N=S"
+        ]
+      }
+    },
+    "role_profile": {
+      "R0": {
+        "short": "Kein geordnetes Rollenprofil",
+        "aka": "Role Layer Null Case",
+        "headline": "Keine tragfähige Rollenordnung",
+        "personal_text": "Bei dir lässt sich aus der Quadrantenauswertung kein tragfähiges primäres und sekundäres Rollenprofil ableiten. Die Auswertung bleibt deshalb beim Wirkungsraum und erzeugt kein Facettenspektrum.",
+        "external_text": "Die Rollenebene zeigt R0 als sichtbaren Balance- oder Nullfall. Das ist kein Rollenprofil und keine Schwäche.",
+        "description": "R0 wird verwendet, wenn keine geordnete Primär-/Sekundärdominanz tragfähig ableitbar ist.",
+        "strength": "Verhindert eine Scheingenauigkeit bei echter Balance oder breiter Verteilung.",
+        "risk": "Kann weniger eindeutig wirken, ist aber fachlich sauberer als ein erzwungener Rollenkey.",
+        "keywords": [
+          "R0",
+          "Balance",
+          "Rollenebene"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn keine tragfähige geordnete Primär-/Sekundärdominanz ableitbar ist; bei R0 kein Facettenspektrum erzeugen.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "R12": {
+        "short": "Freigeist mit Inspirator-Anteil",
+        "aka": "Freigeist-Inspirator",
+        "headline": "Freigeist führt, Inspirator ergänzt",
+        "personal_text": "Bei dir führt im Rollenprofil Freigeist. Inspirator ergänzt diese Ausrichtung als zweite Kraft. Dadurch entsteht kein fixer Typ, sondern eine funktionale Handlungslogik im persönlichen Kontext.",
+        "external_text": "Das Rollenprofil zeigt Freigeist als primäre und Inspirator als sekundäre Verdichtung.",
+        "description": "Geordnete Rollenlogik aus primärem Quadranten Q1 und sekundärem Quadranten Q2.",
+        "strength": "Verbindet die Stärke von Freigeist mit einer ergänzenden Perspektive aus Inspirator.",
+        "risk": "Kann unausgewogen wirken, wenn die sekundäre Perspektive zu wenig bewusst integriert wird.",
+        "keywords": [
+          "R12",
+          "Freigeist",
+          "Inspirator"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn Primär- und Sekundärquadrant eindeutig geordnet sind; bei echter Balance Rolle unterdrücken.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "R14": {
+        "short": "Freigeist mit Eigenständiger-Anteil",
+        "aka": "Freigeist-Eigenständiger",
+        "headline": "Freigeist führt, Eigenständiger ergänzt",
+        "personal_text": "Bei dir führt im Rollenprofil Freigeist. Eigenständiger ergänzt diese Ausrichtung als zweite Kraft. Dadurch entsteht kein fixer Typ, sondern eine funktionale Handlungslogik im persönlichen Kontext.",
+        "external_text": "Das Rollenprofil zeigt Freigeist als primäre und Eigenständiger als sekundäre Verdichtung.",
+        "description": "Geordnete Rollenlogik aus primärem Quadranten Q1 und sekundärem Quadranten Q4.",
+        "strength": "Verbindet die Stärke von Freigeist mit einer ergänzenden Perspektive aus Eigenständiger.",
+        "risk": "Kann unausgewogen wirken, wenn die sekundäre Perspektive zu wenig bewusst integriert wird.",
+        "keywords": [
+          "R14",
+          "Freigeist",
+          "Eigenständiger"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn Primär- und Sekundärquadrant eindeutig geordnet sind; bei echter Balance Rolle unterdrücken.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "R21": {
+        "short": "Inspirator mit Freigeist-Anteil",
+        "aka": "Inspirator-Freigeist",
+        "headline": "Inspirator führt, Freigeist ergänzt",
+        "personal_text": "Bei dir führt im Rollenprofil Inspirator. Freigeist ergänzt diese Ausrichtung als zweite Kraft. Dadurch entsteht kein fixer Typ, sondern eine funktionale Handlungslogik im persönlichen Kontext.",
+        "external_text": "Das Rollenprofil zeigt Inspirator als primäre und Freigeist als sekundäre Verdichtung.",
+        "description": "Geordnete Rollenlogik aus primärem Quadranten Q2 und sekundärem Quadranten Q1.",
+        "strength": "Verbindet die Stärke von Inspirator mit einer ergänzenden Perspektive aus Freigeist.",
+        "risk": "Kann unausgewogen wirken, wenn die sekundäre Perspektive zu wenig bewusst integriert wird.",
+        "keywords": [
+          "R21",
+          "Inspirator",
+          "Freigeist"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn Primär- und Sekundärquadrant eindeutig geordnet sind; bei echter Balance Rolle unterdrücken.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "R23": {
+        "short": "Inspirator mit Bewahrer-Anteil",
+        "aka": "Inspirator-Bewahrer",
+        "headline": "Inspirator führt, Bewahrer ergänzt",
+        "personal_text": "Bei dir führt im Rollenprofil Inspirator. Bewahrer ergänzt diese Ausrichtung als zweite Kraft. Dadurch entsteht kein fixer Typ, sondern eine funktionale Handlungslogik im persönlichen Kontext.",
+        "external_text": "Das Rollenprofil zeigt Inspirator als primäre und Bewahrer als sekundäre Verdichtung.",
+        "description": "Geordnete Rollenlogik aus primärem Quadranten Q2 und sekundärem Quadranten Q3.",
+        "strength": "Verbindet die Stärke von Inspirator mit einer ergänzenden Perspektive aus Bewahrer.",
+        "risk": "Kann unausgewogen wirken, wenn die sekundäre Perspektive zu wenig bewusst integriert wird.",
+        "keywords": [
+          "R23",
+          "Inspirator",
+          "Bewahrer"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn Primär- und Sekundärquadrant eindeutig geordnet sind; bei echter Balance Rolle unterdrücken.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "R32": {
+        "short": "Bewahrer mit Inspirator-Anteil",
+        "aka": "Bewahrer-Inspirator",
+        "headline": "Bewahrer führt, Inspirator ergänzt",
+        "personal_text": "Bei dir führt im Rollenprofil Bewahrer. Inspirator ergänzt diese Ausrichtung als zweite Kraft. Dadurch entsteht kein fixer Typ, sondern eine funktionale Handlungslogik im persönlichen Kontext.",
+        "external_text": "Das Rollenprofil zeigt Bewahrer als primäre und Inspirator als sekundäre Verdichtung.",
+        "description": "Geordnete Rollenlogik aus primärem Quadranten Q3 und sekundärem Quadranten Q2.",
+        "strength": "Verbindet die Stärke von Bewahrer mit einer ergänzenden Perspektive aus Inspirator.",
+        "risk": "Kann unausgewogen wirken, wenn die sekundäre Perspektive zu wenig bewusst integriert wird.",
+        "keywords": [
+          "R32",
+          "Bewahrer",
+          "Inspirator"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn Primär- und Sekundärquadrant eindeutig geordnet sind; bei echter Balance Rolle unterdrücken.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "R34": {
+        "short": "Bewahrer mit Eigenständiger-Anteil",
+        "aka": "Bewahrer-Eigenständiger",
+        "headline": "Bewahrer führt, Eigenständiger ergänzt",
+        "personal_text": "Bei dir führt im Rollenprofil Bewahrer. Eigenständiger ergänzt diese Ausrichtung als zweite Kraft. Dadurch entsteht kein fixer Typ, sondern eine funktionale Handlungslogik im persönlichen Kontext.",
+        "external_text": "Das Rollenprofil zeigt Bewahrer als primäre und Eigenständiger als sekundäre Verdichtung.",
+        "description": "Geordnete Rollenlogik aus primärem Quadranten Q3 und sekundärem Quadranten Q4.",
+        "strength": "Verbindet die Stärke von Bewahrer mit einer ergänzenden Perspektive aus Eigenständiger.",
+        "risk": "Kann unausgewogen wirken, wenn die sekundäre Perspektive zu wenig bewusst integriert wird.",
+        "keywords": [
+          "R34",
+          "Bewahrer",
+          "Eigenständiger"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn Primär- und Sekundärquadrant eindeutig geordnet sind; bei echter Balance Rolle unterdrücken.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "R41": {
+        "short": "Eigenständiger mit Freigeist-Anteil",
+        "aka": "Eigenständiger-Freigeist",
+        "headline": "Eigenständiger führt, Freigeist ergänzt",
+        "personal_text": "Bei dir führt im Rollenprofil Eigenständiger. Freigeist ergänzt diese Ausrichtung als zweite Kraft. Dadurch entsteht kein fixer Typ, sondern eine funktionale Handlungslogik im persönlichen Kontext.",
+        "external_text": "Das Rollenprofil zeigt Eigenständiger als primäre und Freigeist als sekundäre Verdichtung.",
+        "description": "Geordnete Rollenlogik aus primärem Quadranten Q4 und sekundärem Quadranten Q1.",
+        "strength": "Verbindet die Stärke von Eigenständiger mit einer ergänzenden Perspektive aus Freigeist.",
+        "risk": "Kann unausgewogen wirken, wenn die sekundäre Perspektive zu wenig bewusst integriert wird.",
+        "keywords": [
+          "R41",
+          "Eigenständiger",
+          "Freigeist"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn Primär- und Sekundärquadrant eindeutig geordnet sind; bei echter Balance Rolle unterdrücken.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "R43": {
+        "short": "Eigenständiger mit Bewahrer-Anteil",
+        "aka": "Eigenständiger-Bewahrer",
+        "headline": "Eigenständiger führt, Bewahrer ergänzt",
+        "personal_text": "Bei dir führt im Rollenprofil Eigenständiger. Bewahrer ergänzt diese Ausrichtung als zweite Kraft. Dadurch entsteht kein fixer Typ, sondern eine funktionale Handlungslogik im persönlichen Kontext.",
+        "external_text": "Das Rollenprofil zeigt Eigenständiger als primäre und Bewahrer als sekundäre Verdichtung.",
+        "description": "Geordnete Rollenlogik aus primärem Quadranten Q4 und sekundärem Quadranten Q3.",
+        "strength": "Verbindet die Stärke von Eigenständiger mit einer ergänzenden Perspektive aus Bewahrer.",
+        "risk": "Kann unausgewogen wirken, wenn die sekundäre Perspektive zu wenig bewusst integriert wird.",
+        "keywords": [
+          "R43",
+          "Eigenständiger",
+          "Bewahrer"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn Primär- und Sekundärquadrant eindeutig geordnet sind; bei echter Balance Rolle unterdrücken.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      }
+    }
+  }
+}

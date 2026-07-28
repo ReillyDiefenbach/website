@@ -1,0 +1,630 @@
+{
+  "schema": "pna.model_results_basics.v1",
+  "task": "model_results",
+  "model_key": "roles_pers",
+  "family": "roles",
+  "language": "de",
+  "wording_source": "canon/results/framework_result_wording.json",
+  "contract_source": "canon/results/model_results_contract.json",
+  "generated_at": "2026-07-02T14:51:21Z",
+  "result_status": "revision_generated_pending_review",
+  "limits_carried_from_science_review": [
+    "Der Gestalter-Raum wird vorsichtig formuliert, weil der Sachbezug teilweise über Kontext und Rollenlogik gestützt wird.",
+    "Nähefälle rund um den fürsorglichen Rollenraum werden als Tendenzen formuliert, nicht als feine Personenabgrenzung."
+  ],
+  "results": {
+    "orientation": {
+      "X": {
+        "short": "Leben",
+        "aka": "Role",
+        "headline": "Leben steht im Vordergrund",
+        "personal_text": "Bei dir wird im persönlichen Rollen- und Alltagskontext vor allem Mensch und Sache als Zugang sichtbar. Das beschreibt, worüber dein persönlichen Rollenbeitrag zuerst gelesen wird; der zweite Zugang bleibt als ergänzende Perspektive mit relevant.",
+        "external_text": "Die Ausrichtung verdichtet sich stärker auf Leben. Das beschreibt einen modellbezogenen Zugang im persönlichen Rollen- und Alltagskontext, keine feste Eigenschaft.",
+        "description": "Diese Achse beschreibt, ob persönliche Rollen stärker über Beziehung, Gemeinschaft und Verbundenheit oder über Interessen, Aufgaben und praktische Sachbezüge entstehen.",
+        "strength": "Macht sichtbar, über welchen Zugang der persönlichen Rollenbeitrag bevorzugt entsteht.",
+        "risk": "Kann den ergänzenden Zugang zeitweise zu wenig berücksichtigen, wenn eine Situation bewussten Ausgleich verlangt.",
+        "keywords": [
+          "Leben",
+          "Role",
+          "Orientierung"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn die Leben-Achse gegenüber der anderen Achse erkennbar dominiert.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "Y": {
+        "short": "Orientierung",
+        "aka": "Impact",
+        "headline": "Orientierung steht im Vordergrund",
+        "personal_text": "Bei dir wird im persönlichen Rollen- und Alltagskontext vor allem Flexibilität und Struktur als Zugang sichtbar. Das beschreibt, worüber dein persönlichen Rollenbeitrag zuerst gelesen wird; der zweite Zugang bleibt als ergänzende Perspektive mit relevant.",
+        "external_text": "Die Ausrichtung verdichtet sich stärker auf Orientierung. Das beschreibt einen modellbezogenen Zugang im persönlichen Rollen- und Alltagskontext, keine feste Eigenschaft.",
+        "description": "Diese Achse beschreibt, ob persönliche Rollen eher über Offenheit, Spontaneität und Veränderung oder über Ordnung, Verlässlichkeit und Stabilität gestaltet werden.",
+        "strength": "Macht sichtbar, über welchen Zugang der persönlichen Rollenbeitrag bevorzugt entsteht.",
+        "risk": "Kann den ergänzenden Zugang zeitweise zu wenig berücksichtigen, wenn eine Situation bewussten Ausgleich verlangt.",
+        "keywords": [
+          "Orientierung",
+          "Impact",
+          "Orientierung"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn die Orientierung-Achse gegenüber der anderen Achse erkennbar dominiert.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "XY": {
+        "short": "Ausgewogene Orientierung",
+        "aka": "Balanced Orientation",
+        "headline": "Beide Zugänge bleiben sichtbar",
+        "personal_text": "Bei dir zeigen sich im persönlichen Rollen- und Alltagskontext beide Grundzugänge nah beieinander. Dein Rollenbeitrag bleibt deshalb als Verbindung beider Zugänge lesbar.",
+        "external_text": "Die Ausrichtung zeigt eine Balance zwischen beiden Grundzugängen. Das beschreibt eine modellbezogene Verteilung, keine Unentschiedenheit.",
+        "description": "Beschreibt eine annähernde Balance zwischen den beiden Grundachsen des Modells.",
+        "strength": "Ermöglicht situationsbezogenen Wechsel zwischen unterschiedlichen Zugängen.",
+        "risk": "Kann weniger eindeutig wirken, wenn ein einzelner Zugang stark erwartet wird.",
+        "keywords": [
+          "Balance",
+          "Orientierung",
+          "Achsenausgleich"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn beide Achsen innerhalb der definierten Balance-Toleranz liegen.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      }
+    },
+    "priorities": {
+      "W": {
+        "short": "Mensch",
+        "aka": "menschennah",
+        "headline": "Mensch als Priorität",
+        "personal_text": "Bei dir wird Mensch im persönlichen Rollen- und Alltagskontext besonders sichtbar. Du gewichtest diese Richtung stärker, wenn Rollenbeiträge eingeordnet und ausgedrückt werden.",
+        "external_text": "Die Person zeigt eine stärkere Gewichtung von Mensch. Das ist ein modellbezogener Hinweis, kein allgemeines Urteil.",
+        "description": "Mensch beschreibt die Richtung menschennah innerhalb des Modells.",
+        "strength": "Stärkt Rollenbeiträge, die über Mensch verständlich und anschlussfähig werden.",
+        "risk": "Kann die Gegenrichtung zeitweise zu wenig einbeziehen, wenn die Situation bewussten Ausgleich verlangt.",
+        "keywords": [
+          "Mensch",
+          "menschennah",
+          "Priorität"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn Mensch gegenüber der Gegenrichtung dominiert.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "E": {
+        "short": "Sache",
+        "aka": "sachbezogen",
+        "headline": "Sache als Priorität",
+        "personal_text": "Bei dir wird Sache im persönlichen Rollen- und Alltagskontext besonders sichtbar. Du gewichtest diese Richtung stärker, wenn Rollenbeiträge eingeordnet und ausgedrückt werden.",
+        "external_text": "Die Person zeigt eine stärkere Gewichtung von Sache. Das ist ein modellbezogener Hinweis, kein allgemeines Urteil.",
+        "description": "Sache beschreibt die Richtung sachbezogen innerhalb des Modells.",
+        "strength": "Stärkt Rollenbeiträge, die über Sache verständlich und anschlussfähig werden.",
+        "risk": "Kann die Gegenrichtung zeitweise zu wenig einbeziehen, wenn die Situation bewussten Ausgleich verlangt.",
+        "keywords": [
+          "Sache",
+          "sachbezogen",
+          "Priorität"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn Sache gegenüber der Gegenrichtung dominiert.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "WE": {
+        "short": "Mensch und Sache",
+        "aka": "Balanced Priority",
+        "headline": "Mensch und Sache bleiben im Ausgleich",
+        "personal_text": "Bei dir liegen Mensch und Sache im persönlichen Rollen- und Alltagskontext nah beieinander. Beide Richtungen bleiben gemeinsam relevant, ohne eine Seite vorschnell als führend zu setzen.",
+        "external_text": "Die Gewichtung zwischen Mensch und Sache ist ausgeglichen. Das beschreibt eine Balance im Modell, keine fehlende Ausprägung.",
+        "description": "Beschreibt eine annähernde Balance zwischen Mensch und Sache.",
+        "strength": "Ermöglicht flexible Einordnung zwischen zwei gegensätzlichen Richtungen.",
+        "risk": "Kann für Außenstehende weniger eindeutig wirken, wenn klare Priorisierung erwartet wird.",
+        "keywords": [
+          "Mensch",
+          "Sache",
+          "Balance"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn Mensch und Sache innerhalb der Balance-Toleranz liegen.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "N": {
+        "short": "Flexibilität",
+        "aka": "flexibel",
+        "headline": "Flexibilität als Priorität",
+        "personal_text": "Bei dir wird Flexibilität im persönlichen Rollen- und Alltagskontext besonders sichtbar. Du gewichtest diese Richtung stärker, wenn Rollenbeiträge eingeordnet und ausgedrückt werden.",
+        "external_text": "Die Person zeigt eine stärkere Gewichtung von Flexibilität. Das ist ein modellbezogener Hinweis, kein allgemeines Urteil.",
+        "description": "Flexibilität beschreibt die Richtung flexibel innerhalb des Modells.",
+        "strength": "Stärkt Rollenbeiträge, die über Flexibilität verständlich und anschlussfähig werden.",
+        "risk": "Kann die Gegenrichtung zeitweise zu wenig einbeziehen, wenn die Situation bewussten Ausgleich verlangt.",
+        "keywords": [
+          "Flexibilität",
+          "flexibel",
+          "Priorität"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn Flexibilität gegenüber der Gegenrichtung dominiert.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "S": {
+        "short": "Struktur",
+        "aka": "strukturiert",
+        "headline": "Struktur als Priorität",
+        "personal_text": "Bei dir wird Struktur im persönlichen Rollen- und Alltagskontext besonders sichtbar. Du gewichtest diese Richtung stärker, wenn Rollenbeiträge eingeordnet und ausgedrückt werden.",
+        "external_text": "Die Person zeigt eine stärkere Gewichtung von Struktur. Das ist ein modellbezogener Hinweis, kein allgemeines Urteil.",
+        "description": "Struktur beschreibt die Richtung strukturiert innerhalb des Modells.",
+        "strength": "Stärkt Rollenbeiträge, die über Struktur verständlich und anschlussfähig werden.",
+        "risk": "Kann die Gegenrichtung zeitweise zu wenig einbeziehen, wenn die Situation bewussten Ausgleich verlangt.",
+        "keywords": [
+          "Struktur",
+          "strukturiert",
+          "Priorität"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn Struktur gegenüber der Gegenrichtung dominiert.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "NS": {
+        "short": "Flexibilität und Struktur",
+        "aka": "Balanced Priority",
+        "headline": "Flexibilität und Struktur bleiben im Ausgleich",
+        "personal_text": "Bei dir liegen Flexibilität und Struktur im persönlichen Rollen- und Alltagskontext nah beieinander. Beide Richtungen bleiben gemeinsam relevant, ohne eine Seite vorschnell als führend zu setzen.",
+        "external_text": "Die Gewichtung zwischen Flexibilität und Struktur ist ausgeglichen. Das beschreibt eine Balance im Modell, keine fehlende Ausprägung.",
+        "description": "Beschreibt eine annähernde Balance zwischen Flexibilität und Struktur.",
+        "strength": "Ermöglicht flexible Einordnung zwischen zwei gegensätzlichen Richtungen.",
+        "risk": "Kann für Außenstehende weniger eindeutig wirken, wenn klare Priorisierung erwartet wird.",
+        "keywords": [
+          "Flexibilität",
+          "Struktur",
+          "Balance"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn Flexibilität und Struktur innerhalb der Balance-Toleranz liegen.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      }
+    },
+    "impact_space": {
+      "Q1": {
+        "short": "Entdecker",
+        "aka": "Explorer",
+        "headline": "Der Entdecker",
+        "personal_text": "Bei dir bündelt sich die Ausrichtung im persönlichen Rollen- und Alltagskontext im Rollenraum Entdecker. Menschennah und flexibel; sucht neue Begegnungen, entdeckt unterschiedliche Lebenswelten und gestaltet Beziehungen offen und spontan.",
+        "external_text": "Die Ausrichtung verdichtet sich im Rollenraum Entdecker. Das beschreibt eine Modellperspektive, keinen Typ.",
+        "description": "Menschennah und flexibel; sucht neue Begegnungen, entdeckt unterschiedliche Lebenswelten und gestaltet Beziehungen offen und spontan.",
+        "strength": "Offen, kreativ, kontaktfreudig",
+        "risk": "Kann in bestimmten Situationen Abwechslung, Freiheit oder neue Kontakte stärker gewichten als Verbindlichkeit und Kontinuität.",
+        "keywords": [
+          "Entdecker",
+          "Explorer",
+          "Q1"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn Q1 der stärkste Wirkungsraum ist.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "Q2": {
+        "short": "Gestalter",
+        "aka": "Shaper",
+        "headline": "Der Gestalter",
+        "personal_text": "Bei dir bündelt sich die Ausrichtung im persönlichen Rollen- und Alltagskontext im Rollenraum Gestalter. Sachbezogen und flexibel; verfolgt Interessen, Projekte und Aktivitäten eigenständig, probiert Neues aus und bringt persönliche Vorhaben in Bewegung. Der sachbezogene Anteil zeigt sich vor allem über konkrete Rollenbeiträge, Kontext und wiederkehrende Hinweise.",
+        "external_text": "Die Ausrichtung verdichtet sich im Rollenraum Gestalter. Das beschreibt eine Modellperspektive, keinen Typ.",
+        "description": "Sachbezogen und flexibel; verfolgt Interessen, Projekte und Aktivitäten eigenständig, probiert Neues aus und bringt persönliche Vorhaben in Bewegung.",
+        "strength": "Initiativ, vielseitig, handlungsfähig",
+        "risk": "Kann in bestimmten Situationen Möglichkeiten, Tempo oder Eigenständigkeit stärker gewichten als Abstimmung, Fokus oder langfristige Bindung.",
+        "keywords": [
+          "Gestalter",
+          "Shaper",
+          "Q2"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn Q2 der stärkste Wirkungsraum ist.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "Q3": {
+        "short": "Organisator",
+        "aka": "Organizer",
+        "headline": "Der Organisator",
+        "personal_text": "Bei dir bündelt sich die Ausrichtung im persönlichen Rollen- und Alltagskontext im Rollenraum Organisator. Sachbezogen und strukturiert; organisiert Aufgaben und Alltag verantwortungsvoll, schafft Ordnung und sorgt für stabile Rahmenbedingungen.",
+        "external_text": "Die Ausrichtung verdichtet sich im Rollenraum Organisator. Das beschreibt eine Modellperspektive, keinen Typ.",
+        "description": "Sachbezogen und strukturiert; organisiert Aufgaben und Alltag verantwortungsvoll, schafft Ordnung und sorgt für stabile Rahmenbedingungen.",
+        "strength": "Verlässlich, sorgfältig, ordnend",
+        "risk": "Kann in bestimmten Situationen Ordnung, Kontrolle oder Pflicht so stark gewichten, dass Flexibilität und emotionale Bedürfnisse zu wenig Raum bekommen.",
+        "keywords": [
+          "Organisator",
+          "Organizer",
+          "Q3"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn Q3 der stärkste Wirkungsraum ist.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "Q4": {
+        "short": "Fürsorglicher",
+        "aka": "Caregiver",
+        "headline": "Fürsorglicher Rollenbeitrag",
+        "personal_text": "Bei dir bündelt sich die Ausrichtung im persönlichen Rollen- und Alltagskontext im fürsorglichen Rollenraum. Menschennah und strukturiert; schafft Verlässlichkeit in Beziehungen, stärkt Zusammenhalt und sorgt für Sicherheit und Beständigkeit im sozialen Umfeld. Bei Nähe zum fürsorglichen Rollenraum stehen Tendenzen im Rollenbeitrag im Vordergrund, keine feine Grenzziehung zwischen Personen.",
+        "external_text": "Die Ausrichtung verdichtet sich im fürsorglichen Rollenraum. Das beschreibt eine Modellperspektive, keinen Typ.",
+        "description": "Menschennah und strukturiert; schafft Verlässlichkeit in Beziehungen, stärkt Zusammenhalt und sorgt für Sicherheit und Beständigkeit im sozialen Umfeld.",
+        "strength": "Empathisch, loyal, stabilisierend",
+        "risk": "Kann in bestimmten Situationen Harmonie, Rücksichtnahme oder Verantwortung für andere so stark gewichten, dass eigene Grenzen zu wenig sichtbar werden.",
+        "keywords": [
+          "Fürsorglicher",
+          "Caregiver",
+          "Q4"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn Q4 der stärkste Wirkungsraum ist.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "Q12": {
+        "short": "Entdecker und Gestalter in Balance",
+        "aka": "Explorer-Shaper Balance",
+        "headline": "Entdecker und Gestalter ausbalanciert",
+        "personal_text": "Bei dir tragen die Rollenräume Entdecker und Gestalter gemeinsam. Keine der beiden Perspektiven wird als führend formuliert.",
+        "external_text": "Die Person zeigt eine Balance zwischen den Rollenräume Entdecker und Gestalter. Es wird keine Primärdominanz behauptet.",
+        "description": "Q12 beschreibt eine ungeordnete Balance der benachbarten Wirkungsräume Q1 und Q2.",
+        "strength": "Verbindet Offen, kreativ, kontaktfreudig mit Initiativ, vielseitig, handlungsfähig.",
+        "risk": "Kann weniger eindeutig wirken, ist aber fachlich sauberer als eine erzwungene Quadrantendominanz.",
+        "keywords": [
+          "Q12",
+          "Entdecker",
+          "Gestalter",
+          "Balance"
+        ],
+        "interpretation_rule": "Als Balance zwischen Q1 und Q2 interpretieren; keine Primärdominanz und kein Rollenprofil daraus ableiten.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "Q14": {
+        "short": "Entdecker und Fürsorglicher in Balance",
+        "aka": "Explorer-Caregiver Balance",
+        "headline": "Entdecker und Fürsorglicher ausbalanciert",
+        "personal_text": "Bei dir tragen die Rollenräume Entdecker und Fürsorglicher gemeinsam. Keine der beiden Perspektiven wird als führend formuliert.",
+        "external_text": "Die Person zeigt eine Balance zwischen den Rollenräume Entdecker und Fürsorglicher. Es wird keine Primärdominanz behauptet.",
+        "description": "Q14 beschreibt eine ungeordnete Balance der benachbarten Wirkungsräume Q1 und Q4.",
+        "strength": "Verbindet Offen, kreativ, kontaktfreudig mit Empathisch, loyal, stabilisierend.",
+        "risk": "Kann weniger eindeutig wirken, ist aber fachlich sauberer als eine erzwungene Quadrantendominanz.",
+        "keywords": [
+          "Q14",
+          "Entdecker",
+          "Fürsorglicher",
+          "Balance"
+        ],
+        "interpretation_rule": "Als Balance zwischen Q1 und Q4 interpretieren; keine Primärdominanz und kein Rollenprofil daraus ableiten.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "Q23": {
+        "short": "Gestalter und Organisator in Balance",
+        "aka": "Shaper-Organizer Balance",
+        "headline": "Gestalter und Organisator ausbalanciert",
+        "personal_text": "Bei dir tragen die Rollenräume Gestalter und Organisator gemeinsam. Keine der beiden Perspektiven wird als führend formuliert.",
+        "external_text": "Die Person zeigt eine Balance zwischen den Rollenräume Gestalter und Organisator. Es wird keine Primärdominanz behauptet.",
+        "description": "Q23 beschreibt eine ungeordnete Balance der benachbarten Wirkungsräume Q2 und Q3.",
+        "strength": "Verbindet Initiativ, vielseitig, handlungsfähig mit Verlässlich, sorgfältig, ordnend.",
+        "risk": "Kann weniger eindeutig wirken, ist aber fachlich sauberer als eine erzwungene Quadrantendominanz.",
+        "keywords": [
+          "Q23",
+          "Gestalter",
+          "Organisator",
+          "Balance"
+        ],
+        "interpretation_rule": "Als Balance zwischen Q2 und Q3 interpretieren; keine Primärdominanz und kein Rollenprofil daraus ableiten.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "Q34": {
+        "short": "Organisator und Fürsorglicher in Balance",
+        "aka": "Organizer-Caregiver Balance",
+        "headline": "Organisator und Fürsorglicher ausbalanciert",
+        "personal_text": "Bei dir tragen die Rollenräume Organisator und Fürsorglicher gemeinsam. Keine der beiden Perspektiven wird als führend formuliert.",
+        "external_text": "Die Person zeigt eine Balance zwischen den Rollenräume Organisator und Fürsorglicher. Es wird keine Primärdominanz behauptet.",
+        "description": "Q34 beschreibt eine ungeordnete Balance der benachbarten Wirkungsräume Q3 und Q4.",
+        "strength": "Verbindet Verlässlich, sorgfältig, ordnend mit Empathisch, loyal, stabilisierend.",
+        "risk": "Kann weniger eindeutig wirken, ist aber fachlich sauberer als eine erzwungene Quadrantendominanz.",
+        "keywords": [
+          "Q34",
+          "Organisator",
+          "Fürsorglicher",
+          "Balance"
+        ],
+        "interpretation_rule": "Als Balance zwischen Q3 und Q4 interpretieren; keine Primärdominanz und kein Rollenprofil daraus ableiten.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "Q0": {
+        "short": "Ausgewogener Wirkungsraum",
+        "aka": "Balanced Impact",
+        "headline": "Mehrere Rollenräume sind sichtbar",
+        "personal_text": "Bei dir bündelt sich die Ausrichtung im persönlichen Rollen- und Alltagskontext nicht eindeutig in einem einzelnen Rollenraum. Mehrere Rollenräume liegen nah genug beieinander, um gemeinsam gelesen zu werden.",
+        "external_text": "Die Ausrichtung verteilt sich auf mehrere Rollenräume. Das bedeutet nicht Schwäche oder Unentschiedenheit.",
+        "description": "Q0 beschreibt eine annähernd ausgewogene Nutzung mehrerer Wirkungsräume; bei vollständigem Gleichstand aller vier Halbachsen greift stattdessen XY_BALANCED.",
+        "strength": "Kann situationsbezogene Breite und Wechsel zwischen Rollenbeiträgen ermöglichen.",
+        "risk": "Kann weniger eindeutig wirken, wenn ein einzelner Rollenbeitrag erwartet wird.",
+        "keywords": [
+          "Wirkungsraum",
+          "Balance",
+          "Rollenräume"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn kein einzelner oder paarweiser Wirkungsraum dominant ist und kein vollständiger Halbachsen-Gleichstand W=E=N=S vorliegt.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis",
+          "vollständige Halbachsen-Balance W=E=N=S"
+        ]
+      }
+    },
+    "role_profile": {
+      "R0": {
+        "short": "Kein geordnetes Rollenprofil",
+        "aka": "Role Layer Null Case",
+        "headline": "Keine tragfähige Rollenordnung",
+        "personal_text": "Bei dir lässt sich aus der Rollen- und Verantwortungsausrichtung kein tragfähiges primäres und sekundäres Rollenprofil ableiten. Die Auswertung bleibt deshalb beim Wirkungsraum und erzeugt kein Facettenspektrum.",
+        "external_text": "Die Rollenebene zeigt R0 als sichtbaren Balance- oder Nullfall. Das ist kein Rollenprofil und keine Schwäche.",
+        "description": "R0 wird verwendet, wenn keine geordnete Primär-/Sekundärdominanz tragfähig ableitbar ist.",
+        "strength": "Verhindert eine Scheingenauigkeit bei echter Balance oder breiter Verteilung.",
+        "risk": "Kann weniger eindeutig wirken, ist aber fachlich sauberer als ein erzwungener Rollenkey.",
+        "keywords": [
+          "R0",
+          "Balance",
+          "Rollenebene"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn keine tragfähige geordnete Primär-/Sekundärdominanz ableitbar ist; bei R0 kein Facettenspektrum erzeugen.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "R12": {
+        "short": "Entdecker mit Gestalter",
+        "aka": "Explorer-Shaper",
+        "headline": "Entdecker führt, Gestalter ergänzt",
+        "personal_text": "Bei dir steht Entdecker im persönlichen Rollen- und Alltagskontext als führender Rollenbeitrag im Vordergrund. Gestalter ergänzt diese Ausrichtung als zweite erkennbare Kraft. Dadurch entsteht ein funktionales Rollenprofil, kein fixer Typ. Der sachbezogene Anteil zeigt sich vor allem über konkrete Rollenbeiträge, Kontext und wiederkehrende Hinweise.",
+        "external_text": "Das Rollenprofil zeigt Entdecker als primäre und Gestalter als sekundäre Verdichtung. Die Reihenfolge beschreibt die Modelllogik, keine starre Personenkategorie.",
+        "description": "Beschreibt ein geordnetes Rollenprofil mit Entdecker als Primär- und Gestalter als Sekundärraum.",
+        "strength": "Verbindet die Ressource von Entdecker mit einer ergänzenden Perspektive aus Gestalter.",
+        "risk": "Kann einseitig wirken, wenn der ergänzende Rollenraum in der Situation zu wenig berücksichtigt wird.",
+        "keywords": [
+          "R12",
+          "Entdecker",
+          "Gestalter"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn Q1 Primär- und Q2 Sekundärraum ist. Bei echter Balance wird kein Rollenprofil erzeugt.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "R14": {
+        "short": "Entdecker mit fürsorglichem Beitrag",
+        "aka": "Explorer-Caregiver",
+        "headline": "Entdecker führt, fürsorglicher Beitrag ergänzt",
+        "personal_text": "Bei dir steht Entdecker im persönlichen Rollen- und Alltagskontext als führender Rollenbeitrag im Vordergrund. Der fürsorgliche Rollenbeitrag ergänzt diese Ausrichtung als zweite erkennbare Kraft. Dadurch entsteht ein funktionales Rollenprofil, kein fixer Typ. Bei Nähe zum fürsorglichen Rollenraum stehen Tendenzen im Rollenbeitrag im Vordergrund, keine feine Grenzziehung zwischen Personen.",
+        "external_text": "Das Rollenprofil zeigt Entdecker als primäre und Fürsorglicher als sekundäre Verdichtung. Die Reihenfolge beschreibt die Modelllogik, keine starre Personenkategorie.",
+        "description": "Beschreibt ein geordnetes Rollenprofil mit Entdecker als Primär- und Fürsorglicher als Sekundärraum.",
+        "strength": "Verbindet die Ressource von Entdecker mit einer ergänzenden Perspektive aus Fürsorglicher.",
+        "risk": "Kann einseitig wirken, wenn der ergänzende Rollenraum in der Situation zu wenig berücksichtigt wird.",
+        "keywords": [
+          "R14",
+          "Entdecker",
+          "Fürsorglicher"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn Q1 Primär- und Q4 Sekundärraum ist. Bei echter Balance wird kein Rollenprofil erzeugt.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "R21": {
+        "short": "Gestalter mit Entdecker",
+        "aka": "Shaper-Explorer",
+        "headline": "Gestalter führt, Entdecker ergänzt",
+        "personal_text": "Bei dir steht Gestalter im persönlichen Rollen- und Alltagskontext als führender Rollenbeitrag im Vordergrund. Entdecker ergänzt diese Ausrichtung als zweite erkennbare Kraft. Dadurch entsteht ein funktionales Rollenprofil, kein fixer Typ. Der sachbezogene Anteil zeigt sich vor allem über konkrete Rollenbeiträge, Kontext und wiederkehrende Hinweise.",
+        "external_text": "Das Rollenprofil zeigt Gestalter als primäre und Entdecker als sekundäre Verdichtung. Die Reihenfolge beschreibt die Modelllogik, keine starre Personenkategorie.",
+        "description": "Beschreibt ein geordnetes Rollenprofil mit Gestalter als Primär- und Entdecker als Sekundärraum.",
+        "strength": "Verbindet die Ressource von Gestalter mit einer ergänzenden Perspektive aus Entdecker.",
+        "risk": "Kann einseitig wirken, wenn der ergänzende Rollenraum in der Situation zu wenig berücksichtigt wird.",
+        "keywords": [
+          "R21",
+          "Gestalter",
+          "Entdecker"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn Q2 Primär- und Q1 Sekundärraum ist. Bei echter Balance wird kein Rollenprofil erzeugt.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "R23": {
+        "short": "Gestalter mit Organisator",
+        "aka": "Shaper-Organizer",
+        "headline": "Gestalter führt, Organisator ergänzt",
+        "personal_text": "Bei dir steht Gestalter im persönlichen Rollen- und Alltagskontext als führender Rollenbeitrag im Vordergrund. Organisator ergänzt diese Ausrichtung als zweite erkennbare Kraft. Dadurch entsteht ein funktionales Rollenprofil, kein fixer Typ. Der sachbezogene Anteil zeigt sich vor allem über konkrete Rollenbeiträge, Kontext und wiederkehrende Hinweise.",
+        "external_text": "Das Rollenprofil zeigt Gestalter als primäre und Organisator als sekundäre Verdichtung. Die Reihenfolge beschreibt die Modelllogik, keine starre Personenkategorie.",
+        "description": "Beschreibt ein geordnetes Rollenprofil mit Gestalter als Primär- und Organisator als Sekundärraum.",
+        "strength": "Verbindet die Ressource von Gestalter mit einer ergänzenden Perspektive aus Organisator.",
+        "risk": "Kann einseitig wirken, wenn der ergänzende Rollenraum in der Situation zu wenig berücksichtigt wird.",
+        "keywords": [
+          "R23",
+          "Gestalter",
+          "Organisator"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn Q2 Primär- und Q3 Sekundärraum ist. Bei echter Balance wird kein Rollenprofil erzeugt.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "R32": {
+        "short": "Organisator mit Gestalter",
+        "aka": "Organizer-Shaper",
+        "headline": "Organisator führt, Gestalter ergänzt",
+        "personal_text": "Bei dir steht Organisator im persönlichen Rollen- und Alltagskontext als führender Rollenbeitrag im Vordergrund. Gestalter ergänzt diese Ausrichtung als zweite erkennbare Kraft. Dadurch entsteht ein funktionales Rollenprofil, kein fixer Typ. Der sachbezogene Anteil zeigt sich vor allem über konkrete Rollenbeiträge, Kontext und wiederkehrende Hinweise.",
+        "external_text": "Das Rollenprofil zeigt Organisator als primäre und Gestalter als sekundäre Verdichtung. Die Reihenfolge beschreibt die Modelllogik, keine starre Personenkategorie.",
+        "description": "Beschreibt ein geordnetes Rollenprofil mit Organisator als Primär- und Gestalter als Sekundärraum.",
+        "strength": "Verbindet die Ressource von Organisator mit einer ergänzenden Perspektive aus Gestalter.",
+        "risk": "Kann einseitig wirken, wenn der ergänzende Rollenraum in der Situation zu wenig berücksichtigt wird.",
+        "keywords": [
+          "R32",
+          "Organisator",
+          "Gestalter"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn Q3 Primär- und Q2 Sekundärraum ist. Bei echter Balance wird kein Rollenprofil erzeugt.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "R34": {
+        "short": "Organisator mit fürsorglichem Beitrag",
+        "aka": "Organizer-Caregiver",
+        "headline": "Organisator führt, fürsorglicher Beitrag ergänzt",
+        "personal_text": "Bei dir steht Organisator im persönlichen Rollen- und Alltagskontext als führender Rollenbeitrag im Vordergrund. Der fürsorgliche Rollenbeitrag ergänzt diese Ausrichtung als zweite erkennbare Kraft. Dadurch entsteht ein funktionales Rollenprofil, kein fixer Typ. Bei Nähe zum fürsorglichen Rollenraum stehen Tendenzen im Rollenbeitrag im Vordergrund, keine feine Grenzziehung zwischen Personen.",
+        "external_text": "Das Rollenprofil zeigt Organisator als primäre und Fürsorglicher als sekundäre Verdichtung. Die Reihenfolge beschreibt die Modelllogik, keine starre Personenkategorie.",
+        "description": "Beschreibt ein geordnetes Rollenprofil mit Organisator als Primär- und Fürsorglicher als Sekundärraum.",
+        "strength": "Verbindet die Ressource von Organisator mit einer ergänzenden Perspektive aus Fürsorglicher.",
+        "risk": "Kann einseitig wirken, wenn der ergänzende Rollenraum in der Situation zu wenig berücksichtigt wird.",
+        "keywords": [
+          "R34",
+          "Organisator",
+          "Fürsorglicher"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn Q3 Primär- und Q4 Sekundärraum ist. Bei echter Balance wird kein Rollenprofil erzeugt.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "R41": {
+        "short": "Fürsorglicher Beitrag mit Entdecker",
+        "aka": "Caregiver-Explorer",
+        "headline": "Fürsorglicher Beitrag führt, Entdecker ergänzt",
+        "personal_text": "Bei dir steht der fürsorgliche Rollenbeitrag im persönlichen Rollen- und Alltagskontext im Vordergrund. Entdecker ergänzt diese Ausrichtung als zweite erkennbare Kraft. Dadurch entsteht ein funktionales Rollenprofil, kein fixer Typ. Bei Nähe zum fürsorglichen Rollenraum stehen Tendenzen im Rollenbeitrag im Vordergrund, keine feine Grenzziehung zwischen Personen.",
+        "external_text": "Das Rollenprofil zeigt Fürsorglicher als primäre und Entdecker als sekundäre Verdichtung. Die Reihenfolge beschreibt die Modelllogik, keine starre Personenkategorie.",
+        "description": "Beschreibt ein geordnetes Rollenprofil mit Fürsorglicher als Primär- und Entdecker als Sekundärraum.",
+        "strength": "Verbindet die Ressource von Fürsorglicher mit einer ergänzenden Perspektive aus Entdecker.",
+        "risk": "Kann einseitig wirken, wenn der ergänzende Rollenraum in der Situation zu wenig berücksichtigt wird.",
+        "keywords": [
+          "R41",
+          "Fürsorglicher",
+          "Entdecker"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn Q4 Primär- und Q1 Sekundärraum ist. Bei echter Balance wird kein Rollenprofil erzeugt.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "R43": {
+        "short": "Fürsorglicher Beitrag mit Organisator",
+        "aka": "Caregiver-Organizer",
+        "headline": "Fürsorglicher Beitrag führt, Organisator ergänzt",
+        "personal_text": "Bei dir steht der fürsorgliche Rollenbeitrag im persönlichen Rollen- und Alltagskontext im Vordergrund. Organisator ergänzt diese Ausrichtung als zweite erkennbare Kraft. Dadurch entsteht ein funktionales Rollenprofil, kein fixer Typ. Bei Nähe zum fürsorglichen Rollenraum stehen Tendenzen im Rollenbeitrag im Vordergrund, keine feine Grenzziehung zwischen Personen.",
+        "external_text": "Das Rollenprofil zeigt Fürsorglicher als primäre und Organisator als sekundäre Verdichtung. Die Reihenfolge beschreibt die Modelllogik, keine starre Personenkategorie.",
+        "description": "Beschreibt ein geordnetes Rollenprofil mit Fürsorglicher als Primär- und Organisator als Sekundärraum.",
+        "strength": "Verbindet die Ressource von Fürsorglicher mit einer ergänzenden Perspektive aus Organisator.",
+        "risk": "Kann einseitig wirken, wenn der ergänzende Rollenraum in der Situation zu wenig berücksichtigt wird.",
+        "keywords": [
+          "R43",
+          "Fürsorglicher",
+          "Organisator"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn Q4 Primär- und Q3 Sekundärraum ist. Bei echter Balance wird kein Rollenprofil erzeugt.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      }
+    }
+  },
+  "revised_at": "2026-07-02T15:01:08Z",
+  "revision_reason": "Expert Review verlangte nutzerfähige Ergebnisformulierungen ohne interne Methodenanweisungen.",
+  "runtime_resolution": {
+    "role_policy": "Rollenprofile nur bei geordneter Primär- und Sekundärdominanz benachbarter Quadranten erzeugen; bei echter Balance oder gegenüberliegender Scheinordnung R0 verwenden.",
+    "base_result_key_count": 27
+  }
+}

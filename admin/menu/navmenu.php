@@ -20,10 +20,17 @@ function carlvon_menu_read_json(string $path, array $fallback = []): array
 
 function carlvon_menu_text(array $labels, string $lang, string $field, string $fallback = ''): string
 {
-    $key = $lang . '_' . $field;
+    $key = $field === 'text' ? $lang : $lang . '_' . $field;
 
     if (array_key_exists($key, $labels)) {
         return (string)$labels[$key];
+    }
+
+    // Compatibility with the previous "overview_text" schema.
+    $previousKey = $lang . '_' . $field;
+
+    if (array_key_exists($previousKey, $labels)) {
+        return (string)$labels[$previousKey];
     }
 
     $legacyKey = $lang . $field;
@@ -67,6 +74,7 @@ function carlvon_menu_enrich_items(array $items, array $labels): array
 function carlvon_menu_modules(array $modules): array
 {
     $items = [];
+    $fallbackImage = '_assets/media/mods/sm/_fallback.jpg';
 
     foreach ($modules as $key => $module) {
         if (!is_array($module)) {
@@ -74,6 +82,12 @@ function carlvon_menu_modules(array $modules): array
         }
 
         $short = (string)($module['short'] ?? $key);
+        $image = '_assets/media/mods/sm/' . $short . '.jpg';
+
+        if (!is_file(dirname(__DIR__, 2) . '/' . $image)) {
+            $image = $fallbackImage;
+        }
+
         $items[] = [
             'lang' => (string)$key,
             'text' => (string)($module['title'] ?? $key),
@@ -84,7 +98,8 @@ function carlvon_menu_modules(array $modules): array
             'short' => $short,
             'badge' => (string)($module['badge'] ?? ''),
             'link' => 'mod/' . $short,
-            'image' => '_assets/media/mods/thinking.jpg',
+            'image' => $image,
+            'image_fallback' => $fallbackImage,
         ];
     }
 
@@ -160,14 +175,17 @@ function carlvon_menu_render_modules(array $item): void
 
             <ul class="moduleList">
                 <?php foreach ($children as $module): ?>
-                    <?php $moduleImage = ltrim((string)($module['image'] ?? '_assets/media/mods/thinking.jpg'), '/'); ?>
+                    <?php
+                    $moduleImage = ltrim((string)($module['image'] ?? '_assets/media/mods/sm/_fallback.jpg'), '/');
+                    $moduleImageFallback = ltrim((string)($module['image_fallback'] ?? '_assets/media/mods/sm/_fallback.jpg'), '/');
+                    ?>
                     <li class="moduleList__item">
                         <a class="moduleCard"<?= carlvon_menu_item_url_attrs($module) ?>>
                             <span class="moduleCard__imageWrap">
                                 <img
                                     class="moduleCard__image"
                                     src="<?= carlvon_menu_media_src($moduleImage) ?>"
-                                    onerror="<?= carlvon_menu_media_fallback_attr($moduleImage) ?>"
+                                    onerror="<?= carlvon_menu_media_fallback_attr($moduleImageFallback) ?>"
                                     alt=""
                                     loading="lazy"
                                 >
@@ -188,18 +206,20 @@ function carlvon_menu_render_modules(array $item): void
 function carlvon_menu_render_standard_children(array $item): void
 {
     $children = is_array($item['children'] ?? null) ? $item['children'] : [];
+    $useTwoColumns = count($children) >= 6;
+    $menuImage = ltrim((string)($item['image'] ?? '_assets/img/vitruv.png'), '/');
     ?>
     <div class="bigMenu bigMenu--standard">
         <button class="bigMenu__close" type="button" aria-label="Menü schließen">
             <span aria-hidden="true"></span>
         </button>
         <div class="bigMenu__inner">
-            <div class="bigMenu__heading headinfo">
-                <div><?= carlvon_menu_escape((string)($item['title'] ?? $item['text'] ?? '')) ?></div>
-                <div><?= carlvon_menu_escape((string)($item['subtitle'] ?? '')) ?></div>
-            </div>
+            <div class="standardMenuPanel<?= $useTwoColumns ? ' standardMenuPanel--two-columns' : ' standardMenuPanel--one-column' ?>">
+                <div class="bigMenu__heading headinfo">
+                    <div><?= carlvon_menu_escape((string)($item['title'] ?? $item['text'] ?? '')) ?></div>
+                    <div><?= carlvon_menu_escape((string)($item['subtitle'] ?? '')) ?></div>
+                </div>
 
-            <div class="standardMenuPanel">
                 <ul class="standardMenuList">
                     <?php foreach ($children as $child): ?>
                         <li class="standardMenuList__item<?= !empty($child['children']) && is_array($child['children']) ? ' standardMenuList__item--open' : '' ?>">
@@ -224,7 +244,7 @@ function carlvon_menu_render_standard_children(array $item): void
                 </ul>
 
                 <div class="standardMenuMedia" aria-hidden="true">
-                    <img src="<?= carlvon_menu_media_src('_assets/img/dummy.png') ?>" onerror="<?= carlvon_menu_media_fallback_attr('_assets/img/dummy.png') ?>" alt="" loading="lazy">
+                    <img src="<?= carlvon_menu_media_src($menuImage) ?>" onerror="<?= carlvon_menu_media_fallback_attr($menuImage) ?>" alt="" loading="lazy">
                 </div>
             </div>
         </div>

@@ -1,0 +1,107 @@
+{
+  "answer": "Das Modell beantwortet, wie Menschen im Alltag Informationen verarbeiten und daraus Entscheidungen oder Handlungen ableiten. Es zeigt, ob jemand eher konzeptionell, vernetzt und möglichkeitsorientiert oder eher strukturiert, ordnend und klar denkt und ob daraus eher spontanes oder reflektiertes Handeln entsteht. Dadurch werden typische Denk- und Handlungsmuster im persönlichen Leben sichtbar.",
+  "axis": {
+    "X": {
+      "aka": "Think",
+      "desc": "Diese Achse beschreibt die bevorzugte Informationsverarbeitung zwischen Konzeption und Struktur. Sie macht sichtbar, ob Denken eher vernetzt, möglichkeitsorientiert und konzeptionell oder eher ordnend, sequenziell und strukturiert erfolgt.",
+      "fact": "Konzeption versus Struktur.",
+      "info": "Die Achse beschreibt bevorzugte Schwerpunkte der Informationsverarbeitung. Konzeption und Struktur können gleichzeitig genutzt werden; ihre Darstellung als Spannungsfeld ist eine Interpretationsprojektion und keine bereits belegte bipolare Messskala.",
+      "key": "AX_KONZEPTION_VS_STRUKTUR",
+      "keyquest": "Wie ordne ich Informationen?",
+      "label": "Denkachse",
+      "name": "Informationsverarbeitung",
+      "quest": "Orientierst du dich eher konzeptionell oder strukturiert?",
+      "range": "Konzeption vs. Struktur",
+      "science": "Kognitionspsychologie",
+      "span": "konzeptionell vs. strukturiert",
+      "tags": "Informationsverarbeitung, Konzeption, Struktur, Denken"
+    },
+    "Y": {
+      "aka": "Act",
+      "desc": "Diese Achse beschreibt die bevorzugte Handlungsregulation zwischen Spontanität und Reflexion. Sie macht sichtbar, ob Handlungen eher unmittelbar begonnen oder zunächst geprüft, abgewogen und reflektiert werden.",
+      "fact": "Spontanität versus Reflexion.",
+      "info": "Die Achse beschreibt bevorzugte Schwerpunkte beim Übergang vom Denken zum Handeln. Spontanität und Reflexion können situationsabhängig aufeinander folgen oder koexistieren; die Achse ist keine diagnostische Kategorie.",
+      "key": "AX_SPONTANITAET_VS_REFLEXION",
+      "keyquest": "Wie beginne ich zu handeln?",
+      "label": "Handlungsachse",
+      "name": "Handlungsregulation",
+      "quest": "Orientierst du dich eher spontan oder reflektierend?",
+      "range": "Spontanität vs. Reflexion",
+      "science": "Handlungspsychologie",
+      "span": "spontan vs. reflektierend",
+      "tags": "Handlungsregulation, Spontanität, Reflexion, Handeln"
+    }
+  },
+  "badge": "THACT",
+  "brand": "ThinkLab",
+  "desc": "Das Thinking Personal Modell beschreibt, wie Menschen Informationen verarbeiten und daraus Entscheidungen oder Handlungen ableiten. Die horizontale Achse unterscheidet zwischen Konzeption und Struktur. Konzeption steht für vernetztes Denken, Möglichkeiten, Zusammenhänge und neue Perspektiven. Struktur steht für Ordnung, Klarheit und nachvollziehbare Vorgehensweisen. Die vertikale Achse unterscheidet zwischen Spontanität und Reflexion. Spontanität beschreibt den frühen Handlungsbeginn und das unmittelbare Aufgreifen von Impulsen, während Reflexion für Prüfung, Abwägung und bewusstes Durchdenken steht. Aus der Kombination entstehen vier Denk- und Handlungsmuster: Entdecker, Gestalter, Bewahrer und Verstehender. Die Achsen beschreiben bevorzugte Orientierungen und keine diagnostischen Kategorien. Die Quadranten sind sekundäre Kommunikationsrollen und keine unmittelbaren Fähigkeits- oder Eignungsmaße.",
+  "family": "Thinking",
+  "key": "Beschreibt im persönlichen Kontext das Spannungsfeld zwischen konzeptioneller und strukturierter Informationsverarbeitung sowie zwischen spontanem und reflektiertem Handeln.",
+  "name": "Thinking Personal",
+  "orientation": {
+    "E": {
+      "label": "Struktur",
+      "style": "strukturiert"
+    },
+    "N": {
+      "label": "Spontanität",
+      "style": "spontan"
+    },
+    "S": {
+      "label": "Reflexion",
+      "style": "reflektierend"
+    },
+    "W": {
+      "label": "Konzeption",
+      "style": "konzeptionell"
+    }
+  },
+  "quadrants": {
+    "Q1": {
+      "aka": "Explorer",
+      "deficit": "Kann in bestimmten Situationen frühen Ideen zu schnell folgen und strukturierende Prüfung zu wenig einbeziehen.",
+      "desc": "Konzeptionell und spontan; entdeckt Möglichkeiten, folgt neuen Impulsen und probiert neue Wege früh aus.",
+      "role": "Entdecker",
+      "short": "Der Entdecker",
+      "strength": "Erkennt Möglichkeiten und eröffnet neue Denk- und Erfahrungsräume.",
+      "style": "entdeckend",
+      "xy": "WN"
+    },
+    "Q2": {
+      "aka": "Builder",
+      "deficit": "Kann in bestimmten Situationen zu früh ordnen oder handeln und alternative Perspektiven zu wenig berücksichtigen.",
+      "desc": "Strukturiert und spontan; bringt Vorhaben schnell in eine klare Form und setzt Ideen unmittelbar in Handlung um.",
+      "role": "Gestalter",
+      "short": "Der Gestalter",
+      "strength": "Gibt Impulsen Richtung und macht Vorhaben handlungsfähig.",
+      "style": "gestaltend",
+      "xy": "EN"
+    },
+    "Q3": {
+      "aka": "Guardian",
+      "deficit": "Kann in bestimmten Situationen Planung und Prüfung ausdehnen und neue Möglichkeiten zu spät aufnehmen.",
+      "desc": "Strukturiert und reflektiert; ordnet Informationen sorgfältig und schafft verlässliche Orientierung im Alltag.",
+      "role": "Bewahrer",
+      "short": "Der Bewahrer",
+      "strength": "Sorgt für Ordnung, Nachvollziehbarkeit und Stabilität.",
+      "style": "bewahrend",
+      "xy": "ES"
+    },
+    "Q4": {
+      "aka": "Thinker",
+      "deficit": "Kann in bestimmten Situationen Zusammenhänge lange weiterdenken und Entscheidungen oder Strukturierung aufschieben.",
+      "desc": "Konzeptionell und reflektiert; verbindet Zusammenhänge und prüft ihre Bedeutung vor einer Entscheidung oder Handlung.",
+      "role": "Verstehender",
+      "short": "Der Verstehende",
+      "strength": "Erkennt Zusammenhänge und ordnet ihre Bedeutung differenziert ein.",
+      "style": "verstehend",
+      "xy": "WS"
+    }
+  },
+  "short": "thinking_pers",
+  "title": "Think & Act",
+  "typ": "pers",
+  "canon_status": "freezed",
+  "freezed_at": "2026-06-24T08:02:18Z",
+  "source_candidate": "/var/www/openclaw/candidate/thinking/thinking_rebuild.json"
+}

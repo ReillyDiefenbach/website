@@ -1,1 +1,9 @@
 DirectoryIndex index.php index.html
+
+RewriteEngine On
+
+# Shell-less AJAX view, e.g. /show=mod/thinking
+RewriteRule ^show=([a-zA-Z0-9_-]+(?:/[a-zA-Z0-9_-]+)*)/?$ index.php?show=$1 [QSA,L,NE]
+
+# Full application shell for direct module/frame routes.
+RewriteRule ^((?:mod|frame)/[a-zA-Z0-9_-]+(?:/[a-zA-Z0-9_-]+)*)/?$ index.php?site=$1 [QSA,L,NE]

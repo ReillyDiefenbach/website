@@ -1,0 +1,99 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://carlvon.biz/schemas/web-module-intro.schema.json",
+  "title": "CarlVon Web Module Intro",
+  "description": "Verbindliche Sprachstruktur für ein Modul-Intro nach WEB_MODULE_INTRO_PROVIDER_SPEC.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "model",
+    "intro"
+  ],
+  "properties": {
+    "model": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "family",
+        "title",
+        "intro_desc",
+        "intro_alt"
+      ],
+      "properties": {
+        "family": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[a-z0-9_-]+$",
+          "description": "Technischer Familienwert aus compact/{module}/models.json, kleingeschrieben."
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Öffentlicher Modultitel."
+        },
+        "intro_desc": {
+          "$ref": "#/$defs/plainText"
+        },
+        "intro_alt": {
+          "$ref": "#/$defs/plainText"
+        }
+      }
+    },
+    "intro": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "1_h",
+        "1_p1",
+        "2_h",
+        "2_p1",
+        "3_h",
+        "3_p1",
+        "4_h",
+        "4_p1",
+        "5_h",
+        "5_p1"
+      ],
+      "properties": {
+        "1_h": {
+          "$ref": "#/$defs/plainText"
+        },
+        "1_p1": {
+          "$ref": "#/$defs/plainText"
+        },
+        "2_h": {
+          "$ref": "#/$defs/plainText"
+        },
+        "2_p1": {
+          "$ref": "#/$defs/plainText"
+        },
+        "3_h": {
+          "$ref": "#/$defs/plainText"
+        },
+        "3_p1": {
+          "$ref": "#/$defs/plainText"
+        },
+        "4_h": {
+          "$ref": "#/$defs/plainText"
+        },
+        "4_p1": {
+          "$ref": "#/$defs/plainText"
+        },
+        "5_h": {
+          "$ref": "#/$defs/plainText"
+        },
+        "5_p1": {
+          "$ref": "#/$defs/plainText"
+        }
+      }
+    }
+  },
+  "$defs": {
+    "plainText": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "^(?![\\s\\S]*<[^>]+>)[\\s\\S]+$",
+      "description": "Nicht leerer UTF-8-Klartext ohne HTML-Tags."
+    }
+  }
+}

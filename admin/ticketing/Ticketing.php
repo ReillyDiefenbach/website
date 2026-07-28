@@ -12,12 +12,13 @@ class Ticket {
 	  private $message = []; 
       public function __construct()  
       {
-			if (function_exists('mysqli_connect')) {
-				$this->db = DB::start();
-			}
 	  }
 	  
 	  public function dispatch($action, $params) {
+
+		if (!in_array($action, ['start_stripe_sdk', 'start_paypal'], true) && function_exists('mysqli_connect')) {
+			$this->db = DB::start();
+		}
 
         switch ($action) {
             case 'start_paypal':
@@ -417,6 +418,15 @@ class Ticket {
 			$voucher  = $params['voucher'] ?? '';
 			$land     = $params['land'] ?? 'UK';
 			$lang     = $params['lang'] ?? 'en';
+			$langTag  = strtolower(str_replace('_', '-', trim((string) $lang)));
+			$stripeLocales = [
+				'bg', 'cs', 'da', 'de', 'el', 'en', 'en-gb', 'es', 'es-419', 'et',
+				'fi', 'fil', 'fr', 'fr-ca', 'hr', 'hu', 'id', 'it', 'ja', 'ko',
+				'lt', 'lv', 'ms', 'mt', 'nb', 'nl', 'pl', 'pt', 'pt-br', 'ro',
+				'ru', 'sk', 'sl', 'sv', 'th', 'tr', 'vi', 'zh', 'zh-hk', 'zh-tw'
+			];
+			$checkoutLocale = in_array($langTag, $stripeLocales, true) ? $langTag : 'auto';
+			$brandLogo = rtrim(WEBSITE, '/') . '/_assets/logos/carlvon_analytica.png';
 			
 			if($type === 't') { $image = DOMAIN . '/_assets/self/payment/single.jpg'; }
 			else if($type === 'm') { $image = DOMAIN . '/_assets/self/payment/month.jpg'; }
@@ -427,6 +437,19 @@ class Ticket {
 				$session = \Stripe\Checkout\Session::create([
 					'payment_method_types' => ['card'],
 					'mode' => 'payment',
+					'locale' => $checkoutLocale,
+					'submit_type' => 'pay',
+					'branding_settings' => [
+						'background_color' => '#ffffff',
+						'button_color' => '#101114',
+						'border_style' => 'rectangular',
+						'display_name' => 'CARLVON',
+						'font_family' => 'inter',
+						'logo' => [
+							'type' => 'url',
+							'url' => $brandLogo
+						]
+					],
 					'success_url' => DOMAIN . '?req=ticketing&action=make_stripe_data&provider=stripe&session_id={CHECKOUT_SESSION_ID}&lang=' . $lang . '&land=' . $land . '&voucher=' . $voucher,
 					'cancel_url'  => DOMAIN . '?order=cancelled',
 					'line_items' => [[
@@ -451,6 +474,8 @@ class Ticket {
 						'land' => $land
 					],
 					'billing_address_collection' => 'required'
+				], [
+					'stripe_version' => '2025-09-30.clover'
 				]);
 		
 				return ['success' => true, 'session_id' => $session->id, 'lang' => $lang, 'land' => $land];

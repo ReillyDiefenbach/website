@@ -1,0 +1,635 @@
+{
+  "schema": "pna.model_results_basics.v1",
+  "task": "model_results",
+  "model_key": "communication_biz",
+  "family": "communication",
+  "language": "de",
+  "generated_at": "2026-07-02T10:13:14Z",
+  "wording_source": "canon/results/framework_result_wording.json",
+  "contract_source": "canon/results/model_results_contract.json",
+  "result_status": "generated_pending_review",
+  "source_integrity": {
+    "blocks": 24,
+    "quicks": 24,
+    "facets": 32,
+    "micro_blocks": 96,
+    "micro_quicks": 24,
+    "facet_blocks": 96,
+    "facet_quicks": 24
+  },
+  "runtime_resolution": {
+    "principle": "Basisbausteine liefern die Textquellen; konkrete resolved_result_keys werden deterministisch in der Auswertungsschicht berechnet.",
+    "balance_policy": "Keine Dominanz behaupten, wenn Werte innerhalb der Balance-Toleranz liegen.",
+    "role_policy": "Rollenprofile nur bei geordneter Primär- und Sekundärdominanz benachbarter Quadranten erzeugen; bei echter Balance oder gegenüberliegender Scheinordnung R0 verwenden.",
+    "base_result_key_count": 27
+  },
+  "results": {
+    "orientation": {
+      "X": {
+        "short": "Kommunikation",
+        "aka": "Connect",
+        "headline": "Orientierung über Kommunikation",
+        "personal_text": "Bei dir steht Kommunikation im beruflichen Kommunikationskontext stärker im Vordergrund. Du erschließt Kommunikation vor allem über resonanz vs. steuerung.",
+        "external_text": "Die Ausrichtung zeigt eine stärkere Verdichtung auf Kommunikation. Dieses Ergebnis beschreibt eine modellbezogene Orientierung, keine feste Eigenschaft.",
+        "description": "Diese Achse beschreibt, ob berufliche Kommunikation primär über Anschluss, Beziehung und motivierende Resonanz oder über Struktur, Richtung und zielbezogene Steuerung organisiert wird.",
+        "strength": "Macht den bevorzugten Zugang zur kommunikativen Situation früh sichtbar.",
+        "risk": "Kann den zweiten Achsenpol zeitweise zu wenig berücksichtigen, wenn die Situation mehr Ausgleich verlangt.",
+        "keywords": [
+          "Kommunikation",
+          "Connect",
+          "Orientierung"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn die X-Achse gegenüber der Y-Achse dominiert.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "Y": {
+        "short": "Aktivität",
+        "aka": "Influence",
+        "headline": "Orientierung über Aktivität",
+        "personal_text": "Bei dir steht Aktivität im beruflichen Kommunikationskontext stärker im Vordergrund. Du erschließt Kommunikation vor allem über ausdruck vs. zurückhaltung.",
+        "external_text": "Die Ausrichtung zeigt eine stärkere Verdichtung auf Aktivität. Dieses Ergebnis beschreibt eine modellbezogene Orientierung, keine feste Eigenschaft.",
+        "description": "Diese Achse beschreibt, ob berufliche Kommunikation eher sichtbar, initiierend und präsent oder eher abwägend, prüfend und zurückhaltend erfolgt.",
+        "strength": "Macht sichtbar, wie kommunikative Präsenz, Initiative oder Zurückhaltung gewichtet werden.",
+        "risk": "Kann den zweiten Achsenpol zeitweise zu wenig berücksichtigen, wenn die Situation mehr Ausgleich verlangt.",
+        "keywords": [
+          "Aktivität",
+          "Influence",
+          "Orientierung"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn die Y-Achse gegenüber der X-Achse dominiert.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "XY": {
+        "short": "Balance der Achsen",
+        "aka": "Connect-Influence Balance",
+        "headline": "Kommunikative Zugänge ausbalancieren",
+        "personal_text": "Bei dir liegen Kommunikation und Aktivität im beruflichen Kommunikationskontext nah beieinander. Du verbindest beide Perspektiven, ohne dass eine Achse allein führt.",
+        "external_text": "Die Ausrichtung zeigt eine Balance zwischen Kommunikation und Aktivität. Es wird keine Dominanz behauptet.",
+        "description": "Beschreibt eine annähernd ausgeglichene Achsenauswertung.",
+        "strength": "Kann unterschiedliche kommunikative Anforderungen gleichzeitig berücksichtigen.",
+        "risk": "Kann weniger eindeutig wirken, wenn eine klare kommunikative Priorisierung erwartet wird.",
+        "keywords": [
+          "Balance",
+          "Kommunikation",
+          "Aktivität"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn X und Y innerhalb der Balance-Toleranz liegen.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      }
+    },
+    "priorities": {
+      "W": {
+        "short": "Resonanz",
+        "aka": "resonant",
+        "headline": "Priorität Resonanz",
+        "personal_text": "Bei dir wird Resonanz im beruflichen Kommunikationskontext besonders sichtbar. Steuerung bleibt anschlussfähig, steht aber nicht im Vordergrund dieses Ergebnisfalls.",
+        "external_text": "Die Person zeigt eine stärkere Priorität für Resonanz. Das beschreibt eine relative Gewichtung innerhalb des Communication-Modells.",
+        "description": "Resonanz dominiert in der entsprechenden Richtungspaarung gegenüber Steuerung.",
+        "strength": "Resonanz kann kommunikative Orientierung und Handlungsfähigkeit geben.",
+        "risk": "Eine einseitige Betonung von Resonanz kann die Gegenrichtung Steuerung zu wenig berücksichtigen.",
+        "keywords": [
+          "Resonanz",
+          "Steuerung",
+          "Priorität"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn Resonanz gegenüber Steuerung dominiert.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "E": {
+        "short": "Steuerung",
+        "aka": "steuernd",
+        "headline": "Priorität Steuerung",
+        "personal_text": "Bei dir wird Steuerung im beruflichen Kommunikationskontext besonders sichtbar. Resonanz bleibt anschlussfähig, steht aber nicht im Vordergrund dieses Ergebnisfalls.",
+        "external_text": "Die Person zeigt eine stärkere Priorität für Steuerung. Das beschreibt eine relative Gewichtung innerhalb des Communication-Modells.",
+        "description": "Steuerung dominiert in der entsprechenden Richtungspaarung gegenüber Resonanz.",
+        "strength": "Steuerung kann kommunikative Orientierung und Handlungsfähigkeit geben.",
+        "risk": "Eine einseitige Betonung von Steuerung kann die Gegenrichtung Resonanz zu wenig berücksichtigen.",
+        "keywords": [
+          "Steuerung",
+          "Resonanz",
+          "Priorität"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn Steuerung gegenüber Resonanz dominiert.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "N": {
+        "short": "Ausdruck",
+        "aka": "ausdrucksstark",
+        "headline": "Priorität Ausdruck",
+        "personal_text": "Bei dir wird Ausdruck im beruflichen Kommunikationskontext besonders sichtbar. Zurückhaltung bleibt anschlussfähig, steht aber nicht im Vordergrund dieses Ergebnisfalls.",
+        "external_text": "Die Person zeigt eine stärkere Priorität für Ausdruck. Das beschreibt eine relative Gewichtung innerhalb des Communication-Modells.",
+        "description": "Ausdruck dominiert in der entsprechenden Richtungspaarung gegenüber Zurückhaltung.",
+        "strength": "Ausdruck kann kommunikative Orientierung und Handlungsfähigkeit geben.",
+        "risk": "Eine einseitige Betonung von Ausdruck kann die Gegenrichtung Zurückhaltung zu wenig berücksichtigen.",
+        "keywords": [
+          "Ausdruck",
+          "Zurückhaltung",
+          "Priorität"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn Ausdruck gegenüber Zurückhaltung dominiert.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "S": {
+        "short": "Zurückhaltung",
+        "aka": "zurückhaltend",
+        "headline": "Priorität Zurückhaltung",
+        "personal_text": "Bei dir wird Zurückhaltung im beruflichen Kommunikationskontext besonders sichtbar. Ausdruck bleibt anschlussfähig, steht aber nicht im Vordergrund dieses Ergebnisfalls.",
+        "external_text": "Die Person zeigt eine stärkere Priorität für Zurückhaltung. Das beschreibt eine relative Gewichtung innerhalb des Communication-Modells.",
+        "description": "Zurückhaltung dominiert in der entsprechenden Richtungspaarung gegenüber Ausdruck.",
+        "strength": "Zurückhaltung kann kommunikative Orientierung und Handlungsfähigkeit geben.",
+        "risk": "Eine einseitige Betonung von Zurückhaltung kann die Gegenrichtung Ausdruck zu wenig berücksichtigen.",
+        "keywords": [
+          "Zurückhaltung",
+          "Ausdruck",
+          "Priorität"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn Zurückhaltung gegenüber Ausdruck dominiert.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "WE": {
+        "short": "Balance Resonanz und Steuerung",
+        "aka": "West-East Balance",
+        "headline": "Resonanz und Steuerung ausbalancieren",
+        "personal_text": "Bei dir liegen Resonanz und Steuerung im beruflichen Kommunikationskontext nah beieinander. Du kannst beide Richtungen berücksichtigen, ohne eine als allein führend zu setzen.",
+        "external_text": "Dieses Ergebnis beschreibt eine Balance zwischen Resonanz und Steuerung ohne Richtungsdominanz.",
+        "description": "Annähernd ausgeglichene Richtungsauswertung im W/E-Paar.",
+        "strength": "Ermöglicht Vermittlung zwischen beiden kommunikativen Richtungen.",
+        "risk": "Kann bei Entscheidungsdruck weniger eindeutig erscheinen.",
+        "keywords": [
+          "Resonanz",
+          "Steuerung",
+          "Balance"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn W und E innerhalb der Balance-Toleranz liegen.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "NS": {
+        "short": "Balance Ausdruck und Zurückhaltung",
+        "aka": "North-South Balance",
+        "headline": "Ausdruck und Zurückhaltung ausbalancieren",
+        "personal_text": "Bei dir liegen Ausdruck und Zurückhaltung im beruflichen Kommunikationskontext nah beieinander. Du kannst beide Richtungen berücksichtigen, ohne eine als allein führend zu setzen.",
+        "external_text": "Dieses Ergebnis beschreibt eine Balance zwischen Ausdruck und Zurückhaltung ohne Richtungsdominanz.",
+        "description": "Annähernd ausgeglichene Richtungsauswertung im N/S-Paar.",
+        "strength": "Ermöglicht Vermittlung zwischen Aktivierung und Abwägung.",
+        "risk": "Kann bei starkem Tempo- oder Sicherheitsdruck weniger eindeutig erscheinen.",
+        "keywords": [
+          "Ausdruck",
+          "Zurückhaltung",
+          "Balance"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn N und S innerhalb der Balance-Toleranz liegen.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      }
+    },
+    "impact_space": {
+      "Q1": {
+        "short": "Inspirator",
+        "aka": "Influencer",
+        "headline": "Der Inspirator",
+        "personal_text": "Bei dir bündelt sich die Ausrichtung im beruflichen Kommunikationskontext im Wirkungsraum Inspirator. Resonanzorientiert und ausdrucksstark; öffnet Gespräche, aktiviert Beteiligung, erzeugt Aufmerksamkeit und bringt kommunikative Energie in Gruppen.",
+        "external_text": "Die Ausrichtung verdichtet sich im Wirkungsraum Inspirator. Das beschreibt eine Modellperspektive, keinen Typ.",
+        "description": "Resonanzorientiert und ausdrucksstark; öffnet Gespräche, aktiviert Beteiligung, erzeugt Aufmerksamkeit und bringt kommunikative Energie in Gruppen.",
+        "strength": "Motivierend, verbindend, aktivierend",
+        "risk": "Kann in bestimmten Situationen Wirkung und Aufmerksamkeit stärker betonen als Präzision, Grenzen oder Abstimmung.",
+        "keywords": [
+          "Inspirator",
+          "Influencer",
+          "Q1"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn Q1 der stärkste Wirkungsraum ist.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "Q2": {
+        "short": "Lenker",
+        "aka": "Director",
+        "headline": "Der Lenker",
+        "personal_text": "Bei dir bündelt sich die Ausrichtung im beruflichen Kommunikationskontext im Wirkungsraum Lenker. Steuernd und ausdrucksstark; setzt Gesprächsrichtung, macht Erwartungen sichtbar, entscheidet sprachlich klar und richtet Kommunikation auf Ergebnis und Wirkung aus.",
+        "external_text": "Die Ausrichtung verdichtet sich im Wirkungsraum Lenker. Das beschreibt eine Modellperspektive, keinen Typ.",
+        "description": "Steuernd und ausdrucksstark; setzt Gesprächsrichtung, macht Erwartungen sichtbar, entscheidet sprachlich klar und richtet Kommunikation auf Ergebnis und Wirkung aus.",
+        "strength": "Klar, entscheidungsstark, richtungsgebend",
+        "risk": "Kann in bestimmten Situationen Gesprächssteuerung verdichten und Resonanz-, Beteiligungs- oder Klärungsbedarf zu wenig einbeziehen.",
+        "keywords": [
+          "Lenker",
+          "Director",
+          "Q2"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn Q2 der stärkste Wirkungsraum ist.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "Q3": {
+        "short": "Analytiker",
+        "aka": "Analyst",
+        "headline": "Der Analyst",
+        "personal_text": "Bei dir bündelt sich die Ausrichtung im beruflichen Kommunikationskontext im Wirkungsraum Analytiker. Steuernd und zurückhaltend; prüft Aussagen, sichert Fakten, achtet auf Präzision und macht Argumente nachvollziehbar.",
+        "external_text": "Die Ausrichtung verdichtet sich im Wirkungsraum Analytiker. Das beschreibt eine Modellperspektive, keinen Typ.",
+        "description": "Steuernd und zurückhaltend; prüft Aussagen, sichert Fakten, achtet auf Präzision und macht Argumente nachvollziehbar.",
+        "strength": "Gründlich, sachlich, absichernd",
+        "risk": "Kann in bestimmten Situationen Prüfung, Distanz oder Sachbezug so stark betonen, dass Anschluss und Verständlichkeit leiden.",
+        "keywords": [
+          "Analytiker",
+          "Analyst",
+          "Q3"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn Q3 der stärkste Wirkungsraum ist.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "Q4": {
+        "short": "Vermittler",
+        "aka": "Supporter",
+        "headline": "Der Vermittler",
+        "personal_text": "Bei dir bündelt sich die Ausrichtung im beruflichen Kommunikationskontext im Wirkungsraum Vermittler. Resonanzorientiert und zurückhaltend; hört zu, vermittelt zwischen Perspektiven, stärkt Vertrauen und achtet auf soziale Anschlussfähigkeit.",
+        "external_text": "Die Ausrichtung verdichtet sich im Wirkungsraum Vermittler. Das beschreibt eine Modellperspektive, keinen Typ.",
+        "description": "Resonanzorientiert und zurückhaltend; hört zu, vermittelt zwischen Perspektiven, stärkt Vertrauen und achtet auf soziale Anschlussfähigkeit.",
+        "strength": "Empathisch, vermittelnd, stabilisierend",
+        "risk": "Kann in bestimmten Situationen Harmonie und Rücksichtnahme stärker gewichten als klare Positionierung oder notwendige Konfrontation.",
+        "keywords": [
+          "Vermittler",
+          "Supporter",
+          "Q4"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn Q4 der stärkste Wirkungsraum ist.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "Q12": {
+        "short": "Inspirator und Lenker in Balance",
+        "aka": "Influencer-Director Balance",
+        "headline": "Inspirator und Lenker ausbalanciert",
+        "personal_text": "Bei dir tragen die Wirkungsräume Inspirator und Lenker gemeinsam. Keine der beiden Perspektiven wird als führend formuliert.",
+        "external_text": "Die Person zeigt eine Balance zwischen den Wirkungsräume Inspirator und Lenker. Es wird keine Primärdominanz behauptet.",
+        "description": "Q12 beschreibt eine ungeordnete Balance der benachbarten Wirkungsräume Q1 und Q2.",
+        "strength": "Verbindet Motivierend, verbindend, aktivierend mit Klar, entscheidungsstark, richtungsgebend.",
+        "risk": "Kann weniger eindeutig wirken, ist aber fachlich sauberer als eine erzwungene Quadrantendominanz.",
+        "keywords": [
+          "Q12",
+          "Inspirator",
+          "Lenker",
+          "Balance"
+        ],
+        "interpretation_rule": "Als Balance zwischen Q1 und Q2 interpretieren; keine Primärdominanz und kein Rollenprofil daraus ableiten.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "Q14": {
+        "short": "Inspirator und Vermittler in Balance",
+        "aka": "Influencer-Supporter Balance",
+        "headline": "Inspirator und Vermittler ausbalanciert",
+        "personal_text": "Bei dir tragen die Wirkungsräume Inspirator und Vermittler gemeinsam. Keine der beiden Perspektiven wird als führend formuliert.",
+        "external_text": "Die Person zeigt eine Balance zwischen den Wirkungsräume Inspirator und Vermittler. Es wird keine Primärdominanz behauptet.",
+        "description": "Q14 beschreibt eine ungeordnete Balance der benachbarten Wirkungsräume Q1 und Q4.",
+        "strength": "Verbindet Motivierend, verbindend, aktivierend mit Empathisch, vermittelnd, stabilisierend.",
+        "risk": "Kann weniger eindeutig wirken, ist aber fachlich sauberer als eine erzwungene Quadrantendominanz.",
+        "keywords": [
+          "Q14",
+          "Inspirator",
+          "Vermittler",
+          "Balance"
+        ],
+        "interpretation_rule": "Als Balance zwischen Q1 und Q4 interpretieren; keine Primärdominanz und kein Rollenprofil daraus ableiten.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "Q23": {
+        "short": "Lenker und Analytiker in Balance",
+        "aka": "Director-Analyst Balance",
+        "headline": "Lenker und Analytiker ausbalanciert",
+        "personal_text": "Bei dir tragen die Wirkungsräume Lenker und Analytiker gemeinsam. Keine der beiden Perspektiven wird als führend formuliert.",
+        "external_text": "Die Person zeigt eine Balance zwischen den Wirkungsräume Lenker und Analytiker. Es wird keine Primärdominanz behauptet.",
+        "description": "Q23 beschreibt eine ungeordnete Balance der benachbarten Wirkungsräume Q2 und Q3.",
+        "strength": "Verbindet Klar, entscheidungsstark, richtungsgebend mit Gründlich, sachlich, absichernd.",
+        "risk": "Kann weniger eindeutig wirken, ist aber fachlich sauberer als eine erzwungene Quadrantendominanz.",
+        "keywords": [
+          "Q23",
+          "Lenker",
+          "Analytiker",
+          "Balance"
+        ],
+        "interpretation_rule": "Als Balance zwischen Q2 und Q3 interpretieren; keine Primärdominanz und kein Rollenprofil daraus ableiten.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "Q34": {
+        "short": "Analytiker und Vermittler in Balance",
+        "aka": "Analyst-Supporter Balance",
+        "headline": "Analytiker und Vermittler ausbalanciert",
+        "personal_text": "Bei dir tragen die Wirkungsräume Analytiker und Vermittler gemeinsam. Keine der beiden Perspektiven wird als führend formuliert.",
+        "external_text": "Die Person zeigt eine Balance zwischen den Wirkungsräume Analytiker und Vermittler. Es wird keine Primärdominanz behauptet.",
+        "description": "Q34 beschreibt eine ungeordnete Balance der benachbarten Wirkungsräume Q3 und Q4.",
+        "strength": "Verbindet Gründlich, sachlich, absichernd mit Empathisch, vermittelnd, stabilisierend.",
+        "risk": "Kann weniger eindeutig wirken, ist aber fachlich sauberer als eine erzwungene Quadrantendominanz.",
+        "keywords": [
+          "Q34",
+          "Analytiker",
+          "Vermittler",
+          "Balance"
+        ],
+        "interpretation_rule": "Als Balance zwischen Q3 und Q4 interpretieren; keine Primärdominanz und kein Rollenprofil daraus ableiten.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "Q0": {
+        "short": "Ausgewogener Wirkungsraum",
+        "aka": "Balanced Impact Space",
+        "headline": "Mehrere Kommunikationsräume sind aktiv",
+        "personal_text": "Bei dir verteilt sich die kommunikative Ausrichtung auf mehrere Wirkungsräume. Das ist kein schwaches Ergebnis, sondern eine breite Nutzung verschiedener Perspektiven.",
+        "external_text": "Dieses Ergebnis beschreibt eine ausgewogene Nutzung mehrerer Quadranten ohne eindeutige Dominanz.",
+        "description": "Q0 beschreibt eine annähernd ausgewogene Nutzung mehrerer Wirkungsräume; bei vollständigem Gleichstand aller vier Halbachsen greift stattdessen XY_BALANCED.",
+        "strength": "Kann unterschiedliche Kommunikationsanforderungen gleichzeitig integrieren.",
+        "risk": "Kann weniger schnell auf einen einzelnen Kommunikationsmodus verdichten.",
+        "keywords": [
+          "Wirkungsraum",
+          "Balance",
+          "Q0"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn kein einzelner oder paarweiser Wirkungsraum dominant ist und kein vollständiger Halbachsen-Gleichstand W=E=N=S vorliegt.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis",
+          "vollständige Halbachsen-Balance W=E=N=S"
+        ]
+      }
+    },
+    "role_profile": {
+      "R0": {
+        "short": "Kein geordnetes Rollenprofil",
+        "aka": "Role Layer Null Case",
+        "headline": "Keine tragfähige Rollenordnung",
+        "personal_text": "Bei dir lässt sich aus der kommunikative Auswertung kein tragfähiges primäres und sekundäres Rollenprofil ableiten. Die Auswertung bleibt deshalb beim Wirkungsraum und erzeugt kein Facettenspektrum.",
+        "external_text": "Die Rollenebene zeigt R0 als sichtbaren Balance- oder Nullfall. Das ist kein Rollenprofil und keine Schwäche.",
+        "description": "R0 wird verwendet, wenn keine geordnete Primär-/Sekundärdominanz tragfähig ableitbar ist.",
+        "strength": "Verhindert eine Scheingenauigkeit bei echter Balance oder breiter Verteilung.",
+        "risk": "Kann weniger eindeutig wirken, ist aber fachlich sauberer als ein erzwungener Rollenkey.",
+        "keywords": [
+          "R0",
+          "Balance",
+          "Rollenebene"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn keine tragfähige geordnete Primär-/Sekundärdominanz ableitbar ist; bei R0 kein Facettenspektrum erzeugen.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "R12": {
+        "short": "Inspirator mit Lenker-Anteil",
+        "aka": "Inspirator-Lenker",
+        "headline": "Inspirator führt, Lenker ergänzt",
+        "personal_text": "Bei dir führt im Rollenprofil Inspirator. Lenker ergänzt diese Ausrichtung als zweite Kraft. Dadurch entsteht kein fixer Typ, sondern eine funktionale Kommunikationslogik im beruflichen Kommunikationskontext.",
+        "external_text": "Das Rollenprofil zeigt Inspirator als primäre und Lenker als sekundäre Verdichtung.",
+        "description": "Geordnete Rollenlogik aus primärem Quadranten Q1 und sekundärem Quadranten Q2.",
+        "strength": "Verbindet die Stärke von Inspirator mit einer ergänzenden Perspektive aus Lenker.",
+        "risk": "Kann unausgewogen wirken, wenn die sekundäre Perspektive zu wenig bewusst integriert wird.",
+        "keywords": [
+          "R12",
+          "Inspirator",
+          "Lenker"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn Primär- und Sekundärquadrant eindeutig geordnet sind; bei echter Balance Rolle unterdrücken.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "R14": {
+        "short": "Inspirator mit Vermittler-Anteil",
+        "aka": "Inspirator-Vermittler",
+        "headline": "Inspirator führt, Vermittler ergänzt",
+        "personal_text": "Bei dir führt im Rollenprofil Inspirator. Vermittler ergänzt diese Ausrichtung als zweite Kraft. Dadurch entsteht kein fixer Typ, sondern eine funktionale Kommunikationslogik im beruflichen Kommunikationskontext.",
+        "external_text": "Das Rollenprofil zeigt Inspirator als primäre und Vermittler als sekundäre Verdichtung.",
+        "description": "Geordnete Rollenlogik aus primärem Quadranten Q1 und sekundärem Quadranten Q4.",
+        "strength": "Verbindet die Stärke von Inspirator mit einer ergänzenden Perspektive aus Vermittler.",
+        "risk": "Kann unausgewogen wirken, wenn die sekundäre Perspektive zu wenig bewusst integriert wird.",
+        "keywords": [
+          "R14",
+          "Inspirator",
+          "Vermittler"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn Primär- und Sekundärquadrant eindeutig geordnet sind; bei echter Balance Rolle unterdrücken.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "R21": {
+        "short": "Lenker mit Inspirator-Anteil",
+        "aka": "Lenker-Inspirator",
+        "headline": "Lenker führt, Inspirator ergänzt",
+        "personal_text": "Bei dir führt im Rollenprofil Lenker. Inspirator ergänzt diese Ausrichtung als zweite Kraft. Dadurch entsteht kein fixer Typ, sondern eine funktionale Kommunikationslogik im beruflichen Kommunikationskontext.",
+        "external_text": "Das Rollenprofil zeigt Lenker als primäre und Inspirator als sekundäre Verdichtung.",
+        "description": "Geordnete Rollenlogik aus primärem Quadranten Q2 und sekundärem Quadranten Q1.",
+        "strength": "Verbindet die Stärke von Lenker mit einer ergänzenden Perspektive aus Inspirator.",
+        "risk": "Kann unausgewogen wirken, wenn die sekundäre Perspektive zu wenig bewusst integriert wird.",
+        "keywords": [
+          "R21",
+          "Lenker",
+          "Inspirator"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn Primär- und Sekundärquadrant eindeutig geordnet sind; bei echter Balance Rolle unterdrücken.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "R23": {
+        "short": "Lenker mit Analytiker-Anteil",
+        "aka": "Lenker-Analytiker",
+        "headline": "Lenker führt, Analytiker ergänzt",
+        "personal_text": "Bei dir führt im Rollenprofil Lenker. Analytiker ergänzt diese Ausrichtung als zweite Kraft. Dadurch entsteht kein fixer Typ, sondern eine funktionale Kommunikationslogik im beruflichen Kommunikationskontext.",
+        "external_text": "Das Rollenprofil zeigt Lenker als primäre und Analytiker als sekundäre Verdichtung.",
+        "description": "Geordnete Rollenlogik aus primärem Quadranten Q2 und sekundärem Quadranten Q3.",
+        "strength": "Verbindet die Stärke von Lenker mit einer ergänzenden Perspektive aus Analytiker.",
+        "risk": "Kann unausgewogen wirken, wenn die sekundäre Perspektive zu wenig bewusst integriert wird.",
+        "keywords": [
+          "R23",
+          "Lenker",
+          "Analytiker"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn Primär- und Sekundärquadrant eindeutig geordnet sind; bei echter Balance Rolle unterdrücken.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "R32": {
+        "short": "Analytiker mit Lenker-Anteil",
+        "aka": "Analytiker-Lenker",
+        "headline": "Analytiker führt, Lenker ergänzt",
+        "personal_text": "Bei dir führt im Rollenprofil Analytiker. Lenker ergänzt diese Ausrichtung als zweite Kraft. Dadurch entsteht kein fixer Typ, sondern eine funktionale Kommunikationslogik im beruflichen Kommunikationskontext.",
+        "external_text": "Das Rollenprofil zeigt Analytiker als primäre und Lenker als sekundäre Verdichtung.",
+        "description": "Geordnete Rollenlogik aus primärem Quadranten Q3 und sekundärem Quadranten Q2.",
+        "strength": "Verbindet die Stärke von Analytiker mit einer ergänzenden Perspektive aus Lenker.",
+        "risk": "Kann unausgewogen wirken, wenn die sekundäre Perspektive zu wenig bewusst integriert wird.",
+        "keywords": [
+          "R32",
+          "Analytiker",
+          "Lenker"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn Primär- und Sekundärquadrant eindeutig geordnet sind; bei echter Balance Rolle unterdrücken.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "R34": {
+        "short": "Analytiker mit Vermittler-Anteil",
+        "aka": "Analytiker-Vermittler",
+        "headline": "Analytiker führt, Vermittler ergänzt",
+        "personal_text": "Bei dir führt im Rollenprofil Analytiker. Vermittler ergänzt diese Ausrichtung als zweite Kraft. Dadurch entsteht kein fixer Typ, sondern eine funktionale Kommunikationslogik im beruflichen Kommunikationskontext.",
+        "external_text": "Das Rollenprofil zeigt Analytiker als primäre und Vermittler als sekundäre Verdichtung.",
+        "description": "Geordnete Rollenlogik aus primärem Quadranten Q3 und sekundärem Quadranten Q4.",
+        "strength": "Verbindet die Stärke von Analytiker mit einer ergänzenden Perspektive aus Vermittler.",
+        "risk": "Kann unausgewogen wirken, wenn die sekundäre Perspektive zu wenig bewusst integriert wird.",
+        "keywords": [
+          "R34",
+          "Analytiker",
+          "Vermittler"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn Primär- und Sekundärquadrant eindeutig geordnet sind; bei echter Balance Rolle unterdrücken.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "R41": {
+        "short": "Vermittler mit Inspirator-Anteil",
+        "aka": "Vermittler-Inspirator",
+        "headline": "Vermittler führt, Inspirator ergänzt",
+        "personal_text": "Bei dir führt im Rollenprofil Vermittler. Inspirator ergänzt diese Ausrichtung als zweite Kraft. Dadurch entsteht kein fixer Typ, sondern eine funktionale Kommunikationslogik im beruflichen Kommunikationskontext.",
+        "external_text": "Das Rollenprofil zeigt Vermittler als primäre und Inspirator als sekundäre Verdichtung.",
+        "description": "Geordnete Rollenlogik aus primärem Quadranten Q4 und sekundärem Quadranten Q1.",
+        "strength": "Verbindet die Stärke von Vermittler mit einer ergänzenden Perspektive aus Inspirator.",
+        "risk": "Kann unausgewogen wirken, wenn die sekundäre Perspektive zu wenig bewusst integriert wird.",
+        "keywords": [
+          "R41",
+          "Vermittler",
+          "Inspirator"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn Primär- und Sekundärquadrant eindeutig geordnet sind; bei echter Balance Rolle unterdrücken.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "R43": {
+        "short": "Vermittler mit Analytiker-Anteil",
+        "aka": "Vermittler-Analytiker",
+        "headline": "Vermittler führt, Analytiker ergänzt",
+        "personal_text": "Bei dir führt im Rollenprofil Vermittler. Analytiker ergänzt diese Ausrichtung als zweite Kraft. Dadurch entsteht kein fixer Typ, sondern eine funktionale Kommunikationslogik im beruflichen Kommunikationskontext.",
+        "external_text": "Das Rollenprofil zeigt Vermittler als primäre und Analytiker als sekundäre Verdichtung.",
+        "description": "Geordnete Rollenlogik aus primärem Quadranten Q4 und sekundärem Quadranten Q3.",
+        "strength": "Verbindet die Stärke von Vermittler mit einer ergänzenden Perspektive aus Analytiker.",
+        "risk": "Kann unausgewogen wirken, wenn die sekundäre Perspektive zu wenig bewusst integriert wird.",
+        "keywords": [
+          "R43",
+          "Vermittler",
+          "Analytiker"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn Primär- und Sekundärquadrant eindeutig geordnet sind; bei echter Balance Rolle unterdrücken.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      }
+    }
+  }
+}

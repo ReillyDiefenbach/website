@@ -84,9 +84,24 @@
     display: none !important;
 }
 
+main[data-section] {
+    opacity: 1;
+    transition: opacity 240ms ease;
+}
+
+main[data-section][hidden] {
+    display: none !important;
+}
+
+main[data-section].is-fading-out,
+main[data-section].is-fading-in {
+    opacity: 0;
+}
+
 @media (prefers-reduced-motion: reduce) {
     .switcher__slider,
-    .switcher [data-switch] {
+    .switcher [data-switch],
+    main[data-section] {
         transition: none;
     }
 }

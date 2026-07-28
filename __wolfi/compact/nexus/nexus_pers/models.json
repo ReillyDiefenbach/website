@@ -1,0 +1,107 @@
+{
+  "name": "Nexus Personal",
+  "family": "Nexus",
+  "title": "Bond & Change",
+  "short": "nexus_pers",
+  "typ": "pers",
+  "key": "Beschreibt im persönlichen Kontext die Balance zwischen autonomer Selbststeuerung und Verbundenheit sowie zwischen Veränderung und Stabilität.",
+  "desc": "Das Nexus Personal Modell beschreibt, wie Menschen in ihrem persönlichen Erleben und Verhalten zwischen Eigenständigkeit, Zugehörigkeit, Entwicklung und Stabilität navigieren. Die horizontale Achse unterscheidet Autonomie und Verbundenheit: Autonomie steht für Selbstbestimmung, Abstand, eigene Maßstäbe und unabhängige Entscheidungen; Verbundenheit steht für Nähe, Resonanz, Beziehung und Zugehörigkeit. Die vertikale Achse unterscheidet Veränderung und Stabilität: Veränderung steht für Offenheit, Entwicklung, Bewegung und neue Erfahrungen; Stabilität steht für Kontinuität, Sicherheit, Verlässlichkeit und innere Ordnung. Aus der Kombination entstehen vier persönliche Orientierungen: Freigeist, Inspirator, Bewahrer und Eigenständiger. Das Modell dient der Selbstreflexion und Beziehungsklärung, nicht der klinischen Diagnose oder festen Typisierung.",
+  "answer": "Das Modell beantwortet, wie eine Person Autonomie und Verbundenheit sowie Veränderung und Stabilität in ihrem Alltag, in Beziehungen und in Entwicklungssituationen ausbalanciert. Es macht sichtbar, ob Orientierung eher aus freier Exploration, gemeinsamer Entwicklung, verlässlicher Nähe oder eigenständiger Einordnung entsteht. Dadurch lassen sich soziale Bedürfnisse, Veränderungsreaktionen, Konfliktmuster und persönliche Entwicklungsfelder verständlicher beschreiben.",
+  "axis": {
+    "X": {
+      "label": "Beziehungsachse",
+      "name": "Beziehung",
+      "aka": "Bond",
+      "range": "Autonomie vs. Verbundenheit",
+      "span": "autonom vs. verbunden",
+      "key": "AX_AUTONOMIE_VS_VERBUNDENHEIT",
+      "keyquest": "Wie verbinde ich Eigenständigkeit und Zugehörigkeit?",
+      "quest": "Orientierst du dich eher autonom oder verbunden?",
+      "fact": "Autonomie versus Verbundenheit.",
+      "desc": "Diese Achse beschreibt die bevorzugte Orientierung zwischen eigenständiger Selbststeuerung und sozialer Einbindung.",
+      "info": "Die Achse macht sichtbar, ob Orientierung stärker aus unabhängiger Selbstbestimmung oder aus Verbindung, Resonanz und Zugehörigkeit entsteht. Sie ist eine Interpretationsachse und keine isolierte Primärskala.",
+      "tags": "Autonomie, Verbundenheit, Beziehung, Selbststeuerung, soziale Einbindung",
+      "science": "Beziehungspsychologie"
+    },
+    "Y": {
+      "label": "Entwicklungsachse",
+      "name": "Entwicklung",
+      "aka": "Change",
+      "range": "Veränderung vs. Stabilität",
+      "span": "verändernd vs. stabilisierend",
+      "key": "AX_VERAENDERUNG_VS_STABILITAET",
+      "keyquest": "Wie bewege ich mich zwischen Wandel und Verlässlichkeit?",
+      "quest": "Orientierst du dich eher verändernd oder stabilisierend?",
+      "fact": "Veränderung versus Stabilität.",
+      "desc": "Diese Achse beschreibt die bevorzugte Orientierung zwischen Entwicklung, Anpassung und Erneuerung einerseits sowie Kontinuität, Sicherheit und Verlässlichkeit andererseits.",
+      "info": "Die Achse macht sichtbar, wie stark Orientierung aus Wandel oder Stabilisierung entsteht. Sie beschreibt eine sekundäre Modellprojektion und muss später über Facetten und Microevidenzen validiert werden.",
+      "tags": "Veränderung, Stabilität, Entwicklung, Anpassung, Kontinuität",
+      "science": "Entwicklungspsychologie"
+    }
+  },
+  "orientation": {
+    "W": {
+      "label": "Autonomie",
+      "style": "autonom"
+    },
+    "E": {
+      "label": "Verbundenheit",
+      "style": "verbunden"
+    },
+    "N": {
+      "label": "Veränderung",
+      "style": "verändernd"
+    },
+    "S": {
+      "label": "Stabilität",
+      "style": "stabilisierend"
+    }
+  },
+  "quadrants": {
+    "Q1": {
+      "xy": "WN",
+      "style": "explorativ",
+      "desc": "Autonom und verändernd; sucht Freiraum, neue Erfahrungen und eigenständige Entwicklungsmöglichkeiten.",
+      "strength": "Eigenständig, neugierig, beweglich",
+      "deficit": "Kann in bestimmten Situationen Bindung, Verbindlichkeit oder Kontinuität zu früh als Begrenzung erleben.",
+      "aka": "Explorer",
+      "short": "Der Freigeist",
+      "role": "Freigeist"
+    },
+    "Q2": {
+      "xy": "EN",
+      "style": "gestaltend",
+      "desc": "Verbunden und verändernd; sucht Austausch, Resonanz und gemeinsame Entwicklung mit anderen Menschen.",
+      "strength": "Begeisternd, verbindend, entwicklungsorientiert",
+      "deficit": "Kann in bestimmten Situationen zu viele soziale oder emotionale Impulse gleichzeitig aufnehmen und dadurch Unruhe erzeugen.",
+      "aka": "Catalyst",
+      "short": "Der Inspirator",
+      "role": "Inspirator"
+    },
+    "Q3": {
+      "xy": "ES",
+      "style": "bewahrend",
+      "desc": "Verbunden und stabilisierend; sucht verlässliche Nähe, Zugehörigkeit und tragfähige Beziehungen.",
+      "strength": "Loyal, fürsorglich, verlässlich",
+      "deficit": "Kann in bestimmten Situationen Sicherheit und Harmonie so stark schützen, dass Abgrenzung oder Veränderung schwerer fällt.",
+      "aka": "Guardian",
+      "short": "Der Bewahrer",
+      "role": "Bewahrer"
+    },
+    "Q4": {
+      "xy": "WS",
+      "style": "verstehend",
+      "desc": "Autonom und stabilisierend; ordnet Erleben eigenständig ein, schützt innere Klarheit und hält an tragfähigen Maßstäben fest.",
+      "strength": "Reflektiert, integer, selbstständig",
+      "deficit": "Kann in bestimmten Situationen aus Distanz oder Kontrolle heraus Verbindung und neue Erfahrungen zu spät zulassen.",
+      "aka": "Independent",
+      "short": "Der Eigenständige",
+      "role": "Eigenständiger"
+    }
+  },
+  "badge": "NEXUS",
+  "brand": "BondShift",
+  "canon_status": "freezed",
+  "freezed_at": "2026-07-01T10:40:11Z",
+  "source_candidate": "/var/www/openclaw/candidate/nexus/nexus_rebuild.json"
+}

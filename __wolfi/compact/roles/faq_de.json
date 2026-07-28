@@ -1,0 +1,37 @@
+{
+  "lang": "de",
+  "scope": "family",
+  "family": "roles",
+  "title": "Role & Impact",
+  "variant": "",
+  "items": {
+    "f1": {
+      "q": "Was beschreibt dieses Modul?",
+      "a": "Role & Impact beschreibt bevorzugte Rollenbeiträge in unterschiedlichen Kontexten. Es zeigt, ob Beitrag eher über Menschen, Aufgaben, Flexibilität oder Struktur organisiert wird."
+    },
+    "f2": {
+      "q": "Welche Spannungen werden unterschieden?",
+      "a": "Das Modul unterscheidet Mensch gegen Aufgabe beziehungsweise Mensch gegen Sache und Flexibilität gegen Struktur. So werden Beitrag und Arbeitsstil sauberer sichtbar."
+    },
+    "f3": {
+      "q": "Was zeigen die vier Richtungen?",
+      "a": "Die vier Richtungen zeigen typische Rollenbeiträge: öffnend, aktivierend, umsetzend und koordinierend. Sie sind Lesarten, keine starren Rollenstempel."
+    },
+    "f4": {
+      "q": "Worin liegt der praktische Nutzen?",
+      "a": "Das Modul hilft bei Rollenklärung, Teamarbeit, Projektarbeit, Alltagsorganisation und Beziehungsklärung. Es macht Erwartungen und Ergänzungsbedarf verständlicher."
+    },
+    "f5": {
+      "q": "Wie sicher darf ich die Lesart nehmen?",
+      "a": "Als vorläufige Orientierung ist sie brauchbar. Die eigentliche Belastbarkeit muss später über Fragen, Microevidenzen und Mapping entwickelt werden."
+    },
+    "f6": {
+      "q": "Worin unterscheidet es sich von einem Persönlichkeitstest?",
+      "a": "Role & Impact schaut auf Beitrag im Kontext, nicht auf eine fertige Personenkategorie. Es will Rollen lesbar machen, nicht Menschen festschreiben."
+    },
+    "f7": {
+      "q": "Wo liegen die Grenzen?",
+      "a": "Die Grenzen liegen dort, wo aus Flexibilität Unverbindlichkeit oder aus Struktur Starrheit gemacht wird. Solche Kurzschlüsse wären zu grob und würden den Sinn des Moduls verfehlen."
+    }
+  }
+}

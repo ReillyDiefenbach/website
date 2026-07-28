@@ -39,6 +39,16 @@ if (strpos($requestedSite, 'site/') === 0) {
     $routeAliases[] = substr($requestedSite, 5);
 }
 
+// Public menu routes use "calculations"; existing content remains under
+// sites/frame/calculation so current files and internal references stay intact.
+if (
+    $requestedSite === 'frame/calculations'
+    || strpos($requestedSite, 'frame/calculations/') === 0
+) {
+    $routeAliases[] = 'frame/calculation'
+        . substr($requestedSite, strlen('frame/calculations'));
+}
+
 $routeAliases = array_values(array_unique(array_filter($routeAliases)));
 $paths = [];
 
@@ -109,6 +119,14 @@ function backbone_render_template(string $template, array $data): string
         static fn (array $matches): string => backbone_template_escape(backbone_template_value($data, $matches[1])),
         $template
     );
+}
+
+// All module pages share one hero wrapper. Language-specific files in
+// mod/{short}/ only contain the content that follows the hero.
+if (preg_match('#^mod/([a-zA-Z0-9_-]+)$#', $requestedSite, $moduleRoute)) {
+    $moduleShort = $moduleRoute[1];
+    require $root . '/mod/_wrapper.php';
+    exit;
 }
 
 foreach ($routeAliases as $route) {

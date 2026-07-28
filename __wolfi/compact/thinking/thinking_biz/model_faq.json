@@ -1,0 +1,53 @@
+{
+  "schema": "pna.content.model_faq.v1",
+  "lang": "de",
+  "scope": "model",
+  "family": "thinking",
+  "model_key": "thinking_biz",
+  "title": "Thinking Business",
+  "variant": "business",
+  "source_stage": "after_model_results_review",
+  "status": "generated_pending_content_review",
+  "items": {
+    "m1": {
+      "q": "Worin unterscheidet sich dieses Modell von Think & Act als Family?",
+      "a": "Think & Act als Family beschreibt die gemeinsame Architektur aus Konzeption, Struktur, Spontanität und Reflexion. Thinking Business ist die konkrete Business-Ausprägung dieser Architektur. Das Modell übersetzt die gemeinsame Logik in Arbeits-, Team-, Projekt- und Organisationskontexte. Deshalb heißen die Wirkungsräume hier Ideengeber, Formgeber, Planer und Konzeptprüfer. Die Aussagen beziehen sich auf Informationsverarbeitung und Handlungsregulation in beruflichen Situationen, nicht auf das gesamte Leben einer Person. Thinking Business ist damit keine allgemeinere Family-Erklärung, sondern eine modellbezogene Auswertungssprache für Zusammenarbeit, Entscheidungen, Rollenklärung und Abstimmung im organisationalen Kontext."
+    },
+    "m2": {
+      "q": "Welche Ergebnisbereiche liefert dieses Modell?",
+      "a": "Thinking Business liefert vier Ergebnisbereiche: Orientierung, Prioritäten, Wirkungsraum und Rollenprofil. Orientierung beschreibt, ob im Modell eher die Denkachse oder die Handlungsachse im Vordergrund steht oder ob beide annähernd ausbalanciert sind. Prioritäten zeigen, welche Grundrichtungen stärker gewichtet werden: Konzeption, Struktur, Spontanität oder Reflexion, jeweils mit möglichen Balancefällen. Der Wirkungsraum verdichtet benachbarte Richtungen zu Business-Rollen wie Ideengeber, Formgeber, Planer oder Konzeptprüfer. Das Rollenprofil beschreibt eine geordnete Kombination aus primärem und sekundärem Wirkungsraum, sofern die Werte eine solche Reihenfolge zulassen. Damit bleibt jede Ebene getrennt interpretierbar."
+    },
+    "m3": {
+      "q": "Was bedeutet Orientierung in diesem Modell?",
+      "a": "Orientierung beschreibt im Thinking Business Modell die grundsätzliche Herangehensweise an Arbeits- und Organisationsthemen. Sie unterscheidet nicht zwischen besserem und schlechterem Denken, sondern zwischen zwei Auswertungsrichtungen. Die Denkachse steht für Informationsverarbeitung, Einordnung, Strukturierung und konzeptionelles Erschließen. Die Handlungsachse steht für den Übergang in Handlung, praktisches Beginnen, Prüfung von Handlung oder Umsetzung. Ein Ergebnis kann eine der beiden Achsen stärker sichtbar machen oder eine Balance zwischen beiden beschreiben. Daraus darf keine Kompetenzbewertung abgeleitet werden. Orientierung ist ein relativer Schwerpunkt innerhalb dieses Modells."
+    },
+    "m4": {
+      "q": "Was zeigen Prioritäten in diesem Modell?",
+      "a": "Prioritäten zeigen, welche Grundrichtungen im Business-Kontext stärker hervortreten. Konzeption steht für Möglichkeiten, Zusammenhänge und Perspektiven. Struktur steht für Ordnung, Klarheit und nachvollziehbare Formen. Spontanität beschreibt frühen Handlungsbeginn, Impulsaufnahme und Bewegung. Reflexion beschreibt Prüfung, Abwägung und Einordnung. Das Modell betrachtet diese Richtungen paarweise: Konzeption gegenüber Struktur sowie Spontanität gegenüber Reflexion. Dabei können klare Schwerpunkte, knappe Schwerpunkte oder Balancefälle entstehen. Niedrigere Priorität bedeutet nicht, dass eine Richtung fehlt. Sie ist nur im jeweiligen Ergebnis weniger dominant und bleibt als mögliche Ergänzung relevant."
+    },
+    "m5": {
+      "q": "Was beschreibt der Wirkungsraum?",
+      "a": "Der Wirkungsraum beschreibt, wo sich Orientierung und Prioritäten im Modellraum bündeln. Thinking Business verwendet vier Wirkungsräume: Ideengeber, Formgeber, Planer und Konzeptprüfer. Der Ideengeber verbindet Konzeption und Spontanität, der Formgeber Struktur und Spontanität, der Planer Struktur und Reflexion, der Konzeptprüfer Konzeption und Reflexion. Diese Begriffe sind Kommunikationsrollen im Arbeitskontext, keine festen Persönlichkeitstypen. Ein Wirkungsraum macht sichtbar, welche Art von Beitrag in Projekten, Meetings oder Entscheidungen besonders naheliegt. Bei ausgewogener Verteilung kann auch kein einzelner Wirkungsraum dominieren oder als Hauptrolle benannt werden."
+    },
+    "m6": {
+      "q": "Wie ist das Rollenprofil zu verstehen?",
+      "a": "Das Rollenprofil ist die höchste Verdichtung der isolierten Modellauswertung. Es entsteht nur, wenn ein primärer und ein sekundärer Wirkungsraum in einer fachlich klaren Reihenfolge bestimmbar sind. Ein Beispiel wäre Ideengeber zuerst und Formgeber ergänzend. Diese Reihenfolge beschreibt eine funktionale Ausdrucksform im Business-Kontext, nicht die Gesamtpersönlichkeit und keinen Kompetenznachweis. Das Rollenprofil hilft, Arbeitsbeiträge sprachlich zu sortieren: Wer öffnet Perspektiven, wer formt, wer plant, wer prüft? Bei echter Balance zwischen Wirkungsräumen wird kein Rollenprofil erzwungen, sondern die Balance bleibt führend und erklärungsfähig."
+    },
+    "m7": {
+      "q": "Wie werden Balance oder knappe Ergebnisse formuliert?",
+      "a": "Manchmal ist ein Ergebnis klar, manchmal liegen zwei Richtungen oder Wirkungsräume nah beieinander. In solchen Fällen wird kein künstlicher Gewinner erzeugt. Der Text beschreibt dann, dass mehrere Arbeitsweisen sichtbar sind, etwa Ideen öffnen und zugleich Struktur geben oder prüfen und zugleich in Bewegung bringen. Wenn eine Richtung nur knapp vorne liegt, wird sie genannt, ohne die zweite Seite auszublenden. Ein Entfaltungsprofil entsteht nur, wenn eine klare Reihenfolge erkennbar ist. Sonst wird die Balance als eigenständige Stärke der Auswertung erklärt."
+    },
+    "m8": {
+      "q": "Was sagt ein Ergebnis ausdrücklich nicht aus?",
+      "a": "Ein Ergebnis aus Thinking Business sagt nicht, ob eine Person kompetenter, intelligenter, kreativer, führungsstärker oder geeigneter ist als eine andere. Es ist keine klinische Diagnose, kein Persönlichkeitstyp und keine Vorhersage beruflichen Erfolgs. Ein hoher Strukturanteil bedeutet nicht mangelnde Kreativität, ein hoher Konzeptionsanteil nicht fehlende Umsetzbarkeit, ein spontaner Schwerpunkt nicht fehlende Sorgfalt und ein reflektierender Schwerpunkt nicht mangelnde Geschwindigkeit. Das Ergebnis beschreibt modellbezogene Orientierungen im Arbeitskontext. Es bleibt ein Deutungsangebot, das mit Situation, Aufgabe und Kontext gelesen werden muss, nicht isoliert."
+    },
+    "m9": {
+      "q": "Wie kann man das Ergebnis praktisch nutzen?",
+      "a": "Praktisch kann Thinking Business genutzt werden, um Arbeitsstile, Projektbeiträge und Abstimmungslogiken besser zu besprechen. In Teams kann das Ergebnis zeigen, ob Öffnung, Formgebung, Planung oder Prüfung stark vertreten sind und welche Perspektiven ergänzt werden sollten. In Führungsgesprächen kann es helfen, Feedback und Aufgaben klarer an bevorzugte Arbeitslogiken anzuschließen. In Konflikten kann es Reibung entpersonalisieren: Unterschiedliche Anforderungen an Tempo, Struktur, Prüfung oder Ideenöffnung müssen keine Kompetenzfrage sein. Das Ergebnis sollte als Reflexions- und Gesprächsgrundlage genutzt werden, nicht als Entscheidungsschablone für Menschen."
+    },
+    "m10": {
+      "q": "Was sollte man bei der Interpretation vermeiden?",
+      "a": "Zu vermeiden ist jede Lesart, die das Modell härter macht, als es ist. Thinking Business darf nicht zur Personalauswahl, Leistungsbewertung oder Eignungsdiagnose verkürzt werden. Ebenso falsch wäre es, einzelne Rollen als besser, moderner oder wertvoller zu behandeln. Die Begriffe Ideengeber, Formgeber, Planer und Konzeptprüfer sind funktionale Lesarten für Arbeitskontexte. Sie ersetzen keine Situationsanalyse und keine fachliche Beurteilung. Auch Balancefälle dürfen nicht als Schwäche oder Unentschiedenheit gelesen werden. Gute Interpretation bleibt modellbezogen, wertneutral und offen für Ergänzung durch Kontextinformationen aus der Arbeit."
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "family": "Roles",
+  "short": "roles",
+  "title": "Role & Impact",
+  "models": [
+    "7",
+    "8"
+  ],
+  "biz": "7",
+  "pers": "8"
+}

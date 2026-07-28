@@ -1,0 +1,30 @@
+{
+	"nl-subject":"Bitte bestätige Deine Newsletter-Anmeldung",
+	"nl-button":"Anmeldung bestätigen",
+	"nl-h1": "Willkommen im Club!",
+	"nl-1": "Wir freuen uns, dass Du dich für unseren Newsletter angemeldet haben. Wir werden Sie regelmäßig mit Neuigkeiten, neuen Tools und Entwicklungen versorgen und möchten, dass Sie zu den Ersten gehören, die davon erfahren.",
+	"nl-2":"Bitte klick auf den folgenden Link, um deine Anmeldung zu bestätigen.",
+	"nl-3":"Lass uns in Kontakt bleiben. Wenn du unseren Newsletter nicht mehr erhalten willst, kannst du ihn jederzeit abbestellen. Einen entsprechenden Link findest du auf jedem Newsletter.",
+	"nl-4":"Liebe Grüße, dein Concierge von 'carlvon'",
+	"nl-ps":"Wenn du unseren Newsletter nicht abonniert hast, ignorier bitte diese E-Mail.",
+	"con-subject":"Deine Nachricht an carlvon ...",
+	"con-t1":"Betreff:",
+	"con-t2":"Nachricht:",
+	"con-h1": "Nachricht erhalten!",
+	"con-1": "Besten Dank, deine Nachricht ist bei uns eingegangen!",
+	"con-2":"Wir leiten deine Nachricht an die zuständige Stelle in unserem Unternehmen weiter und versuchen, sie so schnell wie möglich zu bearbeiten.",
+	"con-4":"Liebe Grüße, dein Concierge von 'carlvon'",
+	"con-ps":"Wenn du uns keine Nachricht geschickt hast, ignorier bitte diese E-Mail.",
+
+	
+	"inv-subject": "Vielen Dank für Deine Bestellung",
+	"inv-h1": "Herzlichen Dank für deine Bestellung",
+	"inv-1": "Hallo {name},",
+	"inv-2": "vielen Dank für deine Bestellung – wir freuen uns, dass Du eines unserer Services nutzen willst.",
+	"inv-3": "Du findest die Rechnung zu deiner Bestellung im Anhang dieser E-Mail. Bitte bewahre die Rechnung auf für den Fall von Unklarheiten.",
+	"inv-4": "Auf der Rechnung findest du eine Bestellnummer - falls es Fragen hinsichtlich der Zahlung gibt, bitte gib diese immer an. Die Zahlung wurde vertraulich über {provider} abgewickelt, wir verfügen daher über keine Zahlungsverkehrsdaten von dir. Diese Zahlung ist einmalig und das bestellte Service ist in einem definierten Zeitraum abrufbar. Es erfolgt danach keine automatische Verlängerung. ",
+	"inv-5": "Wir wünschen uns, dass du mit unserer Leistung zufrieden sein wirst und dir viel Spaß mit unseren Tools",
+	"inv-6": "Liebe Grüße, dein Concierge von 'carlvon'",
+	"inv-ps":"Sollte ein Problem bei der Zuordnung zu deinem Account auftreten, überprüfe den Bestellstatus dieser Transaktion unter dem Link https://carlvon.cloud?order_history. Gib dort die Bestellnummer {orderid} ein. Wenn sich das Problem nicht von selbst löst, kontaktiere uns bitte unter der E-Mail Adresse concierge@carlvon.com.",
+	"end": "ende"
+}

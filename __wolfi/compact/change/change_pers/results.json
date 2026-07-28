@@ -1,0 +1,645 @@
+{
+  "schema": "pna.model_results_basics.v1",
+  "task": "model_results",
+  "model_key": "change_pers",
+  "family": "change",
+  "language": "de",
+  "generated_at": "2026-07-03T13:30:24Z",
+  "wording_source": "canon/results/framework_result_wording.json",
+  "contract_source": "canon/results/model_results_contract.json",
+  "result_status": "generated_pending_review",
+  "source_integrity": {
+    "blocks": 24,
+    "quicks": 24,
+    "facets": 32,
+    "micro_blocks": 96,
+    "micro_quicks": 24,
+    "facet_blocks": 96,
+    "facet_quicks": 24
+  },
+  "runtime_resolution": {
+    "principle": "Basisbausteine liefern die Textquellen; konkrete resolved_result_keys werden deterministisch in der Auswertungsschicht berechnet.",
+    "balance_policy": "Keine Dominanz behaupten, wenn Werte innerhalb der Balance-Toleranz liegen.",
+    "role_policy": "Rollenprofile nur bei geordneter Primär- und Sekundärdominanz benachbarter Quadranten erzeugen; bei echter Balance oder gegenüberliegender Scheinordnung R0 verwenden.",
+    "base_result_key_count": 27
+  },
+  "carry_forward_limits": [
+    "Y-axis simplification and overstatement risk remain documented.",
+    "Q4 naming consistency remains a downstream wording constraint.",
+    "S/Z asymmetry, quick semantics and generic proxy notes remain documented.",
+    "test_context_only and diagnostic_only boundaries must remain intact."
+  ],
+  "results": {
+    "orientation": {
+      "X": {
+        "short": "Selbststeuerung",
+        "aka": "Change",
+        "headline": "Orientierung über Selbststeuerung",
+        "personal_text": "Bei dir steht Selbststeuerung in persönlichen Veränderungssituationen stärker im Vordergrund. Du erschließt Veränderung vor allem über Selbstbestimmung vs. Kontrolle und suchst darin Orientierung.",
+        "external_text": "Die Ausrichtung zeigt eine stärkere Verdichtung auf Selbststeuerung. Dieses Ergebnis beschreibt eine modellbezogene Orientierung, keine feste Eigenschaft.",
+        "description": "Diese Achse beschreibt, ob persönliche Veränderung eher über Selbstbestimmung, Freiraum und eigenes Ausprobieren oder über Kontrolle, Planung und bewusste Begrenzung reguliert wird.",
+        "strength": "Macht sichtbar, welcher Zugang zu Veränderung zuerst Orientierung gibt.",
+        "risk": "Kann den zweiten Achsenpol zeitweise zu wenig berücksichtigen, wenn die Situation Ausgleich verlangt.",
+        "keywords": [
+          "Selbststeuerung",
+          "Change",
+          "Orientierung"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn die X-Achse gegenüber der Y-Achse dominiert.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "Y": {
+        "short": "Entwicklung",
+        "aka": "Adapt",
+        "headline": "Orientierung über Entwicklung",
+        "personal_text": "Bei dir steht Entwicklung in persönlichen Veränderungssituationen stärker im Vordergrund. Du erschließt Veränderung vor allem über Entwicklung vs. Stabilität und suchst darin Orientierung.",
+        "external_text": "Die Ausrichtung zeigt eine stärkere Verdichtung auf Entwicklung. Dieses Ergebnis beschreibt eine modellbezogene Orientierung, keine feste Eigenschaft.",
+        "description": "Diese Achse beschreibt, ob der Fokus stärker auf persönlicher Entwicklung, neuen Erfahrungen und Wachstum oder auf Stabilität, Gewohnheit und innerer Sicherheit liegt.",
+        "strength": "Macht sichtbar, wie Entwicklung, Anpassung oder Stabilisierung gewichtet werden.",
+        "risk": "Kann den zweiten Achsenpol zeitweise zu wenig berücksichtigen, wenn die Situation Ausgleich verlangt.",
+        "keywords": [
+          "Entwicklung",
+          "Adapt",
+          "Orientierung"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn die Y-Achse gegenüber der X-Achse dominiert.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "XY": {
+        "short": "Balance der Achsen",
+        "aka": "Change-Adapt Balance",
+        "headline": "Veränderungszugänge ausbalancieren",
+        "personal_text": "Bei dir liegen Selbststeuerung und Entwicklung in persönlichen Veränderungssituationen nah beieinander. Du verbindest beide Perspektiven, ohne dass eine Achse allein führt.",
+        "external_text": "Die Ausrichtung zeigt eine Balance zwischen Selbststeuerung und Entwicklung. Es wird keine Dominanz behauptet.",
+        "description": "Beschreibt eine annähernd ausgeglichene Achsenauswertung.",
+        "strength": "Kann unterschiedliche Anforderungen im Wandel gleichzeitig berücksichtigen.",
+        "risk": "Kann weniger eindeutig wirken, wenn eine klare Veränderungspriorität erwartet wird.",
+        "keywords": [
+          "Balance",
+          "Selbststeuerung",
+          "Entwicklung"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn X und Y innerhalb der Balance-Toleranz liegen.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      }
+    },
+    "priorities": {
+      "W": {
+        "short": "Selbstbestimmung",
+        "aka": "selbstbestimmt",
+        "headline": "Priorität Selbstbestimmung",
+        "personal_text": "Bei dir wird Selbstbestimmung in persönlichen Veränderungssituationen besonders sichtbar. Kontrolle bleibt anschlussfähig, steht aber nicht im Vordergrund dieses Ergebnisfalls.",
+        "external_text": "Die Person zeigt eine stärkere Priorität für Selbstbestimmung. Das beschreibt eine relative Gewichtung innerhalb des Change-Modells.",
+        "description": "Selbstbestimmung dominiert in der entsprechenden Richtungspaarung gegenüber Kontrolle.",
+        "strength": "Selbstbestimmung kann Orientierung und Handlungsfähigkeit in Veränderung geben.",
+        "risk": "Eine einseitige Betonung von Selbstbestimmung kann die Gegenrichtung Kontrolle zu wenig berücksichtigen.",
+        "keywords": [
+          "Selbstbestimmung",
+          "Kontrolle",
+          "Priorität"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn Selbstbestimmung gegenüber Kontrolle dominiert.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "E": {
+        "short": "Kontrolle",
+        "aka": "kontrollierend",
+        "headline": "Priorität Kontrolle",
+        "personal_text": "Bei dir wird Kontrolle in persönlichen Veränderungssituationen besonders sichtbar. Selbstbestimmung bleibt anschlussfähig, steht aber nicht im Vordergrund dieses Ergebnisfalls.",
+        "external_text": "Die Person zeigt eine stärkere Priorität für Kontrolle. Das beschreibt eine relative Gewichtung innerhalb des Change-Modells.",
+        "description": "Kontrolle dominiert in der entsprechenden Richtungspaarung gegenüber Selbstbestimmung.",
+        "strength": "Kontrolle kann Orientierung und Handlungsfähigkeit in Veränderung geben.",
+        "risk": "Eine einseitige Betonung von Kontrolle kann die Gegenrichtung Selbstbestimmung zu wenig berücksichtigen.",
+        "keywords": [
+          "Kontrolle",
+          "Selbstbestimmung",
+          "Priorität"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn Kontrolle gegenüber Selbstbestimmung dominiert.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "N": {
+        "short": "Entwicklung",
+        "aka": "entwickelnd",
+        "headline": "Priorität Entwicklung",
+        "personal_text": "Bei dir wird Entwicklung in persönlichen Veränderungssituationen besonders sichtbar. Stabilität bleibt anschlussfähig, steht aber nicht im Vordergrund dieses Ergebnisfalls.",
+        "external_text": "Die Person zeigt eine stärkere Priorität für Entwicklung. Das beschreibt eine relative Gewichtung innerhalb des Change-Modells.",
+        "description": "Entwicklung dominiert in der entsprechenden Richtungspaarung gegenüber Stabilität.",
+        "strength": "Entwicklung kann Orientierung und Handlungsfähigkeit in Veränderung geben.",
+        "risk": "Eine einseitige Betonung von Entwicklung kann die Gegenrichtung Stabilität zu wenig berücksichtigen.",
+        "keywords": [
+          "Entwicklung",
+          "Stabilität",
+          "Priorität"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn Entwicklung gegenüber Stabilität dominiert.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "S": {
+        "short": "Stabilität",
+        "aka": "stabilisierend",
+        "headline": "Priorität Stabilität",
+        "personal_text": "Bei dir wird Stabilität in persönlichen Veränderungssituationen besonders sichtbar. Entwicklung bleibt anschlussfähig, steht aber nicht im Vordergrund dieses Ergebnisfalls.",
+        "external_text": "Die Person zeigt eine stärkere Priorität für Stabilität. Das beschreibt eine relative Gewichtung innerhalb des Change-Modells.",
+        "description": "Stabilität dominiert in der entsprechenden Richtungspaarung gegenüber Entwicklung.",
+        "strength": "Stabilität kann Orientierung und Handlungsfähigkeit in Veränderung geben.",
+        "risk": "Eine einseitige Betonung von Stabilität kann die Gegenrichtung Entwicklung zu wenig berücksichtigen.",
+        "keywords": [
+          "Stabilität",
+          "Entwicklung",
+          "Priorität"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn Stabilität gegenüber Entwicklung dominiert.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "WE": {
+        "short": "Balance Selbstbestimmung und Kontrolle",
+        "aka": "West-East Balance",
+        "headline": "Selbstbestimmung und Kontrolle ausbalancieren",
+        "personal_text": "Bei dir liegen Selbstbestimmung und Kontrolle in persönlichen Veränderungssituationen nah beieinander. Du kannst beide Richtungen berücksichtigen, ohne eine als allein führend zu setzen.",
+        "external_text": "Dieses Ergebnis beschreibt eine Balance zwischen Selbstbestimmung und Kontrolle ohne Richtungsdominanz.",
+        "description": "Annähernd ausgeglichene Richtungsauswertung im W/E-Paar.",
+        "strength": "Ermöglicht Vermittlung zwischen beiden Veränderungsrichtungen.",
+        "risk": "Kann bei Entscheidungsdruck weniger eindeutig erscheinen.",
+        "keywords": [
+          "Selbstbestimmung",
+          "Kontrolle",
+          "Balance"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn W und E innerhalb der Balance-Toleranz liegen.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "NS": {
+        "short": "Balance Entwicklung und Stabilität",
+        "aka": "North-South Balance",
+        "headline": "Entwicklung und Stabilität ausbalancieren",
+        "personal_text": "Bei dir liegen Entwicklung und Stabilität in persönlichen Veränderungssituationen nah beieinander. Du kannst beide Richtungen berücksichtigen, ohne eine als allein führend zu setzen.",
+        "external_text": "Dieses Ergebnis beschreibt eine Balance zwischen Entwicklung und Stabilität ohne Richtungsdominanz.",
+        "description": "Annähernd ausgeglichene Richtungsauswertung im N/S-Paar.",
+        "strength": "Ermöglicht Vermittlung zwischen Entwicklung und Stabilisierung.",
+        "risk": "Kann bei starkem Tempo- oder Sicherheitsdruck weniger eindeutig erscheinen.",
+        "keywords": [
+          "Entwicklung",
+          "Stabilität",
+          "Balance"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn N und S innerhalb der Balance-Toleranz liegen.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      }
+    },
+    "impact_space": {
+      "Q1": {
+        "short": "Der Entdecker",
+        "aka": "Explorer",
+        "headline": "Der Entdecker (Entdecker)",
+        "personal_text": "Bei dir bündelt sich die Ausrichtung in persönlichen Veränderungssituationen im Wirkungsraum Der Entdecker (Entdecker). Selbstbestimmt und entwicklungsorientiert; sucht neue Erfahrungen, persönliche Entfaltung und offene Lebensmöglichkeiten.",
+        "external_text": "Die Ausrichtung verdichtet sich im Wirkungsraum Der Entdecker (Entdecker). Das beschreibt eine Modellperspektive, keinen Typ.",
+        "description": "Der Entdecker bezeichnet den Ergebnisraum; Entdecker bezeichnet den zugehörigen Rollenstil. Selbstbestimmt und entwicklungsorientiert; sucht neue Erfahrungen, persönliche Entfaltung und offene Lebensmöglichkeiten.",
+        "strength": "Offen, mutig, explorativ",
+        "risk": "Kann bei Überbetonung Verbindlichkeit, Kontinuität oder alltagspraktische Umsetzung zu wenig berücksichtigen",
+        "keywords": [
+          "Der Entdecker",
+          "Entdecker",
+          "Explorer",
+          "Q1"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn Q1 der stärkste Wirkungsraum ist.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "Q2": {
+        "short": "Der Gestalter",
+        "aka": "Shaper",
+        "headline": "Der Gestalter (Gestalter)",
+        "personal_text": "Bei dir bündelt sich die Ausrichtung in persönlichen Veränderungssituationen im Wirkungsraum Der Gestalter (Gestalter). Kontrollierend und entwicklungsorientiert; plant persönliche Veränderung bewusst und setzt Entwicklung zielgerichtet um.",
+        "external_text": "Die Ausrichtung verdichtet sich im Wirkungsraum Der Gestalter (Gestalter). Das beschreibt eine Modellperspektive, keinen Typ.",
+        "description": "Der Gestalter bezeichnet den Ergebnisraum; Gestalter bezeichnet den zugehörigen Rollenstil. Kontrollierend und entwicklungsorientiert; plant persönliche Veränderung bewusst und setzt Entwicklung zielgerichtet um.",
+        "strength": "Zielklar, diszipliniert, gestaltungsstark",
+        "risk": "Kann bei Überbetonung Druck, Selbstoptimierung oder geringe Fehlertoleranz erzeugen",
+        "keywords": [
+          "Der Gestalter",
+          "Gestalter",
+          "Shaper",
+          "Q2"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn Q2 der stärkste Wirkungsraum ist.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "Q3": {
+        "short": "Der Bewahrer",
+        "aka": "Keeper",
+        "headline": "Der Bewahrer (Bewahrer)",
+        "personal_text": "Bei dir bündelt sich die Ausrichtung in persönlichen Veränderungssituationen im Wirkungsraum Der Bewahrer (Bewahrer). Kontrollierend und stabilitätsorientiert; sucht Ordnung, Vorhersehbarkeit und verlässliche Lebensstrukturen.",
+        "external_text": "Die Ausrichtung verdichtet sich im Wirkungsraum Der Bewahrer (Bewahrer). Das beschreibt eine Modellperspektive, keinen Typ.",
+        "description": "Der Bewahrer bezeichnet den Ergebnisraum; Bewahrer bezeichnet den zugehörigen Rollenstil. Kontrollierend und stabilitätsorientiert; sucht Ordnung, Vorhersehbarkeit und verlässliche Lebensstrukturen.",
+        "strength": "Verlässlich, vorsorglich, strukturierend",
+        "risk": "Kann bei Überbetonung neue Erfahrungen, Flexibilität oder spontane Anpassung zu stark begrenzen",
+        "keywords": [
+          "Der Bewahrer",
+          "Bewahrer",
+          "Keeper",
+          "Q3"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn Q3 der stärkste Wirkungsraum ist.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "Q4": {
+        "short": "Der Lebensmentor",
+        "aka": "Independent",
+        "headline": "Der Lebensmentor (Eigenständiger)",
+        "personal_text": "Bei dir bündelt sich die Ausrichtung in persönlichen Veränderungssituationen im Wirkungsraum Der Lebensmentor (Eigenständiger). Selbstbestimmt und stabilitätsorientiert; reflektiert Veränderungen sorgfältig, erkennt persönliche Muster und integriert neue Erfahrungen in ein stimmiges Selbstverständnis.",
+        "external_text": "Die Ausrichtung verdichtet sich im Wirkungsraum Der Lebensmentor (Eigenständiger). Das beschreibt eine Modellperspektive, keinen Typ.",
+        "description": "Der Lebensmentor bezeichnet den Ergebnisraum; Eigenständiger bezeichnet den zugehörigen Rollenstil. Selbstbestimmt und stabilitätsorientiert; reflektiert Veränderungen sorgfältig, erkennt persönliche Muster und integriert neue Erfahrungen in ein stimmiges Selbstverständnis.",
+        "strength": "Besonnen, selbsttreu, urteilsfähig",
+        "risk": "Kann bei Überbetonung lange abwägen, sich innerlich abgrenzen oder Aufbruch verzögern",
+        "keywords": [
+          "Der Lebensmentor",
+          "Eigenständiger",
+          "Independent",
+          "Q4"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn Q4 der stärkste Wirkungsraum ist.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "Q12": {
+        "short": "Der Entdecker und Der Gestalter in Balance",
+        "aka": "Explorer-Shaper Balance",
+        "headline": "Der Entdecker und Der Gestalter ausbalanciert",
+        "personal_text": "Bei dir tragen die Wirkungsräume Der Entdecker und Der Gestalter gemeinsam. Keine der beiden Perspektiven wird als führend formuliert.",
+        "external_text": "Die Person zeigt eine Balance zwischen den Wirkungsräume Der Entdecker und Der Gestalter. Es wird keine Primärdominanz behauptet.",
+        "description": "Q12 beschreibt eine ungeordnete Balance der benachbarten Wirkungsräume Q1 und Q2.",
+        "strength": "Verbindet Offen, mutig, explorativ mit Zielklar, diszipliniert, gestaltungsstark.",
+        "risk": "Kann weniger eindeutig wirken, ist aber fachlich sauberer als eine erzwungene Quadrantendominanz.",
+        "keywords": [
+          "Q12",
+          "Der Entdecker",
+          "Der Gestalter",
+          "Balance"
+        ],
+        "interpretation_rule": "Als Balance zwischen Q1 und Q2 interpretieren; keine Primärdominanz und kein Rollenprofil daraus ableiten.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "Q14": {
+        "short": "Der Entdecker und Der Lebensmentor in Balance",
+        "aka": "Explorer-Independent Balance",
+        "headline": "Der Entdecker und Der Lebensmentor ausbalanciert",
+        "personal_text": "Bei dir tragen die Wirkungsräume Der Entdecker und Der Lebensmentor gemeinsam. Keine der beiden Perspektiven wird als führend formuliert.",
+        "external_text": "Die Person zeigt eine Balance zwischen den Wirkungsräume Der Entdecker und Der Lebensmentor. Es wird keine Primärdominanz behauptet.",
+        "description": "Q14 beschreibt eine ungeordnete Balance der benachbarten Wirkungsräume Q1 und Q4.",
+        "strength": "Verbindet Offen, mutig, explorativ mit Besonnen, selbsttreu, urteilsfähig.",
+        "risk": "Kann weniger eindeutig wirken, ist aber fachlich sauberer als eine erzwungene Quadrantendominanz.",
+        "keywords": [
+          "Q14",
+          "Der Entdecker",
+          "Der Lebensmentor",
+          "Balance"
+        ],
+        "interpretation_rule": "Als Balance zwischen Q1 und Q4 interpretieren; keine Primärdominanz und kein Rollenprofil daraus ableiten.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "Q23": {
+        "short": "Der Gestalter und Der Bewahrer in Balance",
+        "aka": "Shaper-Keeper Balance",
+        "headline": "Der Gestalter und Der Bewahrer ausbalanciert",
+        "personal_text": "Bei dir tragen die Wirkungsräume Der Gestalter und Der Bewahrer gemeinsam. Keine der beiden Perspektiven wird als führend formuliert.",
+        "external_text": "Die Person zeigt eine Balance zwischen den Wirkungsräume Der Gestalter und Der Bewahrer. Es wird keine Primärdominanz behauptet.",
+        "description": "Q23 beschreibt eine ungeordnete Balance der benachbarten Wirkungsräume Q2 und Q3.",
+        "strength": "Verbindet Zielklar, diszipliniert, gestaltungsstark mit Verlässlich, vorsorglich, strukturierend.",
+        "risk": "Kann weniger eindeutig wirken, ist aber fachlich sauberer als eine erzwungene Quadrantendominanz.",
+        "keywords": [
+          "Q23",
+          "Der Gestalter",
+          "Der Bewahrer",
+          "Balance"
+        ],
+        "interpretation_rule": "Als Balance zwischen Q2 und Q3 interpretieren; keine Primärdominanz und kein Rollenprofil daraus ableiten.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "Q34": {
+        "short": "Der Bewahrer und Der Lebensmentor in Balance",
+        "aka": "Keeper-Independent Balance",
+        "headline": "Der Bewahrer und Der Lebensmentor ausbalanciert",
+        "personal_text": "Bei dir tragen die Wirkungsräume Der Bewahrer und Der Lebensmentor gemeinsam. Keine der beiden Perspektiven wird als führend formuliert.",
+        "external_text": "Die Person zeigt eine Balance zwischen den Wirkungsräume Der Bewahrer und Der Lebensmentor. Es wird keine Primärdominanz behauptet.",
+        "description": "Q34 beschreibt eine ungeordnete Balance der benachbarten Wirkungsräume Q3 und Q4.",
+        "strength": "Verbindet Verlässlich, vorsorglich, strukturierend mit Besonnen, selbsttreu, urteilsfähig.",
+        "risk": "Kann weniger eindeutig wirken, ist aber fachlich sauberer als eine erzwungene Quadrantendominanz.",
+        "keywords": [
+          "Q34",
+          "Der Bewahrer",
+          "Der Lebensmentor",
+          "Balance"
+        ],
+        "interpretation_rule": "Als Balance zwischen Q3 und Q4 interpretieren; keine Primärdominanz und kein Rollenprofil daraus ableiten.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "Q0": {
+        "short": "Ausgewogener Wirkungsraum",
+        "aka": "Balanced Impact Space",
+        "headline": "Mehrere Veränderungsräume sind aktiv",
+        "personal_text": "Bei dir verteilt sich die Veränderungsausrichtung auf mehrere Wirkungsräume. Das ist kein schwaches Ergebnis, sondern eine breite Nutzung verschiedener Perspektiven.",
+        "external_text": "Dieses Ergebnis beschreibt eine ausgewogene Nutzung mehrerer Quadranten ohne eindeutige Dominanz.",
+        "description": "Q0 beschreibt eine annähernd ausgewogene Nutzung mehrerer Wirkungsräume; bei vollständigem Gleichstand aller vier Halbachsen greift stattdessen XY_BALANCED.",
+        "strength": "Kann unterschiedliche Anforderungen im Wandel gleichzeitig integrieren.",
+        "risk": "Kann weniger schnell auf einen einzelnen Veränderungsmodus verdichten.",
+        "keywords": [
+          "Wirkungsraum",
+          "Balance",
+          "Q0"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn kein einzelner oder paarweiser Wirkungsraum dominant ist und kein vollständiger Halbachsen-Gleichstand W=E=N=S vorliegt.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis",
+          "vollständige Halbachsen-Balance W=E=N=S"
+        ]
+      }
+    },
+    "role_profile": {
+      "R0": {
+        "short": "Kein geordnetes Rollenprofil",
+        "aka": "Role Layer Null Case",
+        "headline": "Keine tragfähige Rollenordnung",
+        "personal_text": "Bei dir lässt sich aus der Veränderungsausrichtung kein tragfähiges primäres und sekundäres Rollenprofil ableiten. Die Auswertung bleibt deshalb beim Wirkungsraum und erzeugt kein Facettenspektrum.",
+        "external_text": "Die Rollenebene zeigt R0 als sichtbaren Balance- oder Nullfall. Das ist kein Rollenprofil und keine Schwäche.",
+        "description": "R0 wird verwendet, wenn keine geordnete Primär-/Sekundärdominanz tragfähig ableitbar ist.",
+        "strength": "Verhindert eine Scheingenauigkeit bei echter Balance oder breiter Verteilung.",
+        "risk": "Kann weniger eindeutig wirken, ist aber fachlich sauberer als ein erzwungener Rollenkey.",
+        "keywords": [
+          "R0",
+          "Balance",
+          "Rollenebene"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn keine tragfähige geordnete Primär-/Sekundärdominanz ableitbar ist; bei R0 kein Facettenspektrum erzeugen.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "R12": {
+        "short": "Entdecker mit Gestalter-Anteil",
+        "aka": "Entdecker-Gestalter",
+        "headline": "Entdecker führt, Gestalter ergänzt",
+        "personal_text": "Bei dir führt im Rollenprofil Entdecker. Gestalter ergänzt diese Ausrichtung als zweite Kraft. Dadurch entsteht kein fixer Typ, sondern eine funktionale Veränderungslogik in persönlichen Veränderungssituationen.",
+        "external_text": "Das Rollenprofil zeigt Entdecker als primäre und Gestalter als sekundäre Verdichtung.",
+        "description": "Geordnete Rollenlogik aus primärem Quadranten Q1 und sekundärem Quadranten Q2.",
+        "strength": "Verbindet die Stärke von Entdecker mit einer ergänzenden Perspektive aus Gestalter.",
+        "risk": "Kann unausgewogen wirken, wenn die sekundäre Perspektive zu wenig bewusst integriert wird.",
+        "keywords": [
+          "R12",
+          "Entdecker",
+          "Gestalter"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn Primär- und Sekundärquadrant eindeutig geordnet sind; bei echter Balance Rolle unterdrücken.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "R14": {
+        "short": "Entdecker mit Eigenständiger-Anteil",
+        "aka": "Entdecker-Eigenständiger",
+        "headline": "Entdecker führt, Eigenständiger ergänzt",
+        "personal_text": "Bei dir führt im Rollenprofil Entdecker. Eigenständiger ergänzt diese Ausrichtung als zweite Kraft. Dadurch entsteht kein fixer Typ, sondern eine funktionale Veränderungslogik in persönlichen Veränderungssituationen.",
+        "external_text": "Das Rollenprofil zeigt Entdecker als primäre und Eigenständiger als sekundäre Verdichtung.",
+        "description": "Geordnete Rollenlogik aus primärem Quadranten Q1 und sekundärem Quadranten Q4.",
+        "strength": "Verbindet die Stärke von Entdecker mit einer ergänzenden Perspektive aus Eigenständiger.",
+        "risk": "Kann unausgewogen wirken, wenn die sekundäre Perspektive zu wenig bewusst integriert wird.",
+        "keywords": [
+          "R14",
+          "Entdecker",
+          "Eigenständiger"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn Primär- und Sekundärquadrant eindeutig geordnet sind; bei echter Balance Rolle unterdrücken.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "R21": {
+        "short": "Gestalter mit Entdecker-Anteil",
+        "aka": "Gestalter-Entdecker",
+        "headline": "Gestalter führt, Entdecker ergänzt",
+        "personal_text": "Bei dir führt im Rollenprofil Gestalter. Entdecker ergänzt diese Ausrichtung als zweite Kraft. Dadurch entsteht kein fixer Typ, sondern eine funktionale Veränderungslogik in persönlichen Veränderungssituationen.",
+        "external_text": "Das Rollenprofil zeigt Gestalter als primäre und Entdecker als sekundäre Verdichtung.",
+        "description": "Geordnete Rollenlogik aus primärem Quadranten Q2 und sekundärem Quadranten Q1.",
+        "strength": "Verbindet die Stärke von Gestalter mit einer ergänzenden Perspektive aus Entdecker.",
+        "risk": "Kann unausgewogen wirken, wenn die sekundäre Perspektive zu wenig bewusst integriert wird.",
+        "keywords": [
+          "R21",
+          "Gestalter",
+          "Entdecker"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn Primär- und Sekundärquadrant eindeutig geordnet sind; bei echter Balance Rolle unterdrücken.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "R23": {
+        "short": "Gestalter mit Bewahrer-Anteil",
+        "aka": "Gestalter-Bewahrer",
+        "headline": "Gestalter führt, Bewahrer ergänzt",
+        "personal_text": "Bei dir führt im Rollenprofil Gestalter. Bewahrer ergänzt diese Ausrichtung als zweite Kraft. Dadurch entsteht kein fixer Typ, sondern eine funktionale Veränderungslogik in persönlichen Veränderungssituationen.",
+        "external_text": "Das Rollenprofil zeigt Gestalter als primäre und Bewahrer als sekundäre Verdichtung.",
+        "description": "Geordnete Rollenlogik aus primärem Quadranten Q2 und sekundärem Quadranten Q3.",
+        "strength": "Verbindet die Stärke von Gestalter mit einer ergänzenden Perspektive aus Bewahrer.",
+        "risk": "Kann unausgewogen wirken, wenn die sekundäre Perspektive zu wenig bewusst integriert wird.",
+        "keywords": [
+          "R23",
+          "Gestalter",
+          "Bewahrer"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn Primär- und Sekundärquadrant eindeutig geordnet sind; bei echter Balance Rolle unterdrücken.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "R32": {
+        "short": "Bewahrer mit Gestalter-Anteil",
+        "aka": "Bewahrer-Gestalter",
+        "headline": "Bewahrer führt, Gestalter ergänzt",
+        "personal_text": "Bei dir führt im Rollenprofil Bewahrer. Gestalter ergänzt diese Ausrichtung als zweite Kraft. Dadurch entsteht kein fixer Typ, sondern eine funktionale Veränderungslogik in persönlichen Veränderungssituationen.",
+        "external_text": "Das Rollenprofil zeigt Bewahrer als primäre und Gestalter als sekundäre Verdichtung.",
+        "description": "Geordnete Rollenlogik aus primärem Quadranten Q3 und sekundärem Quadranten Q2.",
+        "strength": "Verbindet die Stärke von Bewahrer mit einer ergänzenden Perspektive aus Gestalter.",
+        "risk": "Kann unausgewogen wirken, wenn die sekundäre Perspektive zu wenig bewusst integriert wird.",
+        "keywords": [
+          "R32",
+          "Bewahrer",
+          "Gestalter"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn Primär- und Sekundärquadrant eindeutig geordnet sind; bei echter Balance Rolle unterdrücken.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "R34": {
+        "short": "Bewahrer mit Eigenständiger-Anteil",
+        "aka": "Bewahrer-Eigenständiger",
+        "headline": "Bewahrer führt, Eigenständiger ergänzt",
+        "personal_text": "Bei dir führt im Rollenprofil Bewahrer. Eigenständiger ergänzt diese Ausrichtung als zweite Kraft. Dadurch entsteht kein fixer Typ, sondern eine funktionale Veränderungslogik in persönlichen Veränderungssituationen.",
+        "external_text": "Das Rollenprofil zeigt Bewahrer als primäre und Eigenständiger als sekundäre Verdichtung.",
+        "description": "Geordnete Rollenlogik aus primärem Quadranten Q3 und sekundärem Quadranten Q4.",
+        "strength": "Verbindet die Stärke von Bewahrer mit einer ergänzenden Perspektive aus Eigenständiger.",
+        "risk": "Kann unausgewogen wirken, wenn die sekundäre Perspektive zu wenig bewusst integriert wird.",
+        "keywords": [
+          "R34",
+          "Bewahrer",
+          "Eigenständiger"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn Primär- und Sekundärquadrant eindeutig geordnet sind; bei echter Balance Rolle unterdrücken.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "R41": {
+        "short": "Eigenständiger mit Entdecker-Anteil",
+        "aka": "Eigenständiger-Entdecker",
+        "headline": "Eigenständiger führt, Entdecker ergänzt",
+        "personal_text": "Bei dir führt im Rollenprofil Eigenständiger. Entdecker ergänzt diese Ausrichtung als zweite Kraft. Dadurch entsteht kein fixer Typ, sondern eine funktionale Veränderungslogik in persönlichen Veränderungssituationen.",
+        "external_text": "Das Rollenprofil zeigt Eigenständiger als primäre und Entdecker als sekundäre Verdichtung.",
+        "description": "Geordnete Rollenlogik aus primärem Quadranten Q4 und sekundärem Quadranten Q1.",
+        "strength": "Verbindet die Stärke von Eigenständiger mit einer ergänzenden Perspektive aus Entdecker.",
+        "risk": "Kann unausgewogen wirken, wenn die sekundäre Perspektive zu wenig bewusst integriert wird.",
+        "keywords": [
+          "R41",
+          "Eigenständiger",
+          "Entdecker"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn Primär- und Sekundärquadrant eindeutig geordnet sind; bei echter Balance Rolle unterdrücken.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "R43": {
+        "short": "Eigenständiger mit Bewahrer-Anteil",
+        "aka": "Eigenständiger-Bewahrer",
+        "headline": "Eigenständiger führt, Bewahrer ergänzt",
+        "personal_text": "Bei dir führt im Rollenprofil Eigenständiger. Bewahrer ergänzt diese Ausrichtung als zweite Kraft. Dadurch entsteht kein fixer Typ, sondern eine funktionale Veränderungslogik in persönlichen Veränderungssituationen.",
+        "external_text": "Das Rollenprofil zeigt Eigenständiger als primäre und Bewahrer als sekundäre Verdichtung.",
+        "description": "Geordnete Rollenlogik aus primärem Quadranten Q4 und sekundärem Quadranten Q3.",
+        "strength": "Verbindet die Stärke von Eigenständiger mit einer ergänzenden Perspektive aus Bewahrer.",
+        "risk": "Kann unausgewogen wirken, wenn die sekundäre Perspektive zu wenig bewusst integriert wird.",
+        "keywords": [
+          "R43",
+          "Eigenständiger",
+          "Bewahrer"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn Primär- und Sekundärquadrant eindeutig geordnet sind; bei echter Balance Rolle unterdrücken.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      }
+    }
+  }
+}

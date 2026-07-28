@@ -1,0 +1,612 @@
+{
+  "schema": "pna.model_results_basics.v1",
+  "task": "model_results",
+  "model_key": "thinking_pers",
+  "family": "thinking",
+  "language": "de",
+  "wording_source": "canon/results/framework_result_wording.json",
+  "result_contract": "canon/results/model_results_contract.json",
+  "generated_at": "2026-06-30T00:00:00Z",
+  "result_status": "generated_pending_review",
+  "results": {
+    "orientation": {
+      "X": {
+        "short": "Denkachse überwiegt",
+        "aka": "X axis dominance",
+        "headline": "Denkachse im Vordergrund",
+        "personal_text": "Bei dir steht informationsverarbeitung stärker im Vordergrund als handlungsregulation. Das deutet darauf hin, dass du im persönlichen Alltag zuerst über Denken, Einordnung und Informationsverarbeitung Orientierung gewinnst, bevor der Übergang ins Handeln prägend wird.",
+        "external_text": "Die Person zeigt eine stärkere Orientierung auf informationsverarbeitung als auf handlungsregulation. Das Ergebnis beschreibt einen Schwerpunkt in der gedanklichen Verarbeitung, nicht eine höhere Kompetenz.",
+        "description": "X beschreibt eine Dominanz der Denkachse gegenüber der Handlungsachse.",
+        "strength": "Kann helfen, Themen gründlich über Denk- und Ordnungsprozesse zu erschließen.",
+        "risk": "Kann in bestimmten Situationen dazu führen, dass Handlungserfordernisse später sichtbar werden.",
+        "keywords": [
+          "Denkachse",
+          "Informationsverarbeitung",
+          "Orientierung",
+          "Denken"
+        ],
+        "interpretation_rule": "Als relative Achsendominanz innerhalb dieses Modells interpretieren.",
+        "not_to_use_for": [
+          "Kompetenzbewertung",
+          "Intelligenzdiagnose",
+          "Persönlichkeitstyp"
+        ]
+      },
+      "Y": {
+        "short": "Handlungsachse überwiegt",
+        "aka": "Y axis dominance",
+        "headline": "Handlungsachse im Vordergrund",
+        "personal_text": "Bei dir steht handlungsregulation stärker im Vordergrund als informationsverarbeitung. Das deutet darauf hin, dass du im persönlichen Alltag besonders über den Übergang in Handlung, Prüfung von Handlung oder praktisches Beginnen Orientierung gewinnst.",
+        "external_text": "Die Person zeigt eine stärkere Orientierung auf handlungsregulation als auf informationsverarbeitung. Das Ergebnis beschreibt einen Handlungsschwerpunkt, nicht eine höhere Leistungsfähigkeit.",
+        "description": "Y beschreibt eine Dominanz der Handlungsachse gegenüber der Denkachse.",
+        "strength": "Kann helfen, Themen konsequent in Handlung, Prüfung oder praktische Bewegung zu übersetzen.",
+        "risk": "Kann in bestimmten Situationen dazu führen, dass gedankliche Differenzierung weniger Raum bekommt.",
+        "keywords": [
+          "Handlungsachse",
+          "Handlungsregulation",
+          "Orientierung",
+          "Handeln"
+        ],
+        "interpretation_rule": "Als relative Achsendominanz innerhalb dieses Modells interpretieren.",
+        "not_to_use_for": [
+          "Kompetenzbewertung",
+          "Impulsivitätsdiagnose",
+          "Persönlichkeitstyp"
+        ]
+      },
+      "XY": {
+        "short": "Denkachse und Handlungsachse in Balance",
+        "aka": "X/Y balance",
+        "headline": "Denken und Handeln ausbalanciert",
+        "personal_text": "Bei dir halten sich informationsverarbeitung und handlungsregulation annähernd die Balance. Das deutet darauf hin, dass du im persönlichen Alltag sowohl über Informationsverarbeitung als auch über den Übergang in Handlung Orientierung herstellst.",
+        "external_text": "Die Person zeigt eine annähernd ausgeglichene Orientierung zwischen informationsverarbeitung und handlungsregulation. Es wird keine Achsendominanz behauptet.",
+        "description": "XY beschreibt eine Balance der beiden Achsenbereiche.",
+        "strength": "Kann helfen, Denk- und Handlungsanforderungen flexibel miteinander zu verbinden.",
+        "risk": "Kann in bestimmten Situationen weniger eindeutige Priorisierung zwischen Analyse und Handlung zeigen.",
+        "keywords": [
+          "Denkachse",
+          "Handlungsachse",
+          "Balance",
+          "Orientierung"
+        ],
+        "interpretation_rule": "Als Balancefall interpretieren; keine Dominanz formulieren.",
+        "not_to_use_for": [
+          "Unentschiedenheit",
+          "fehlende Ausprägung",
+          "Schwäche"
+        ]
+      }
+    },
+    "priorities": {
+      "W": {
+        "short": "Konzeption priorisiert",
+        "aka": "Concept orientation",
+        "headline": "Möglichkeiten und Zusammenhänge",
+        "personal_text": "Bei dir ist Konzeption stärker sichtbar als Struktur. Du richtest Aufmerksamkeit eher auf Möglichkeiten, Zusammenhänge und konzeptionelle Perspektiven.",
+        "external_text": "Die Person priorisiert Konzeption gegenüber Struktur.",
+        "description": "West beschreibt eine stärkere Priorität für Konzeption gegenüber Struktur.",
+        "strength": "Öffnet Perspektiven, erkennt Zusammenhänge und macht neue Denkwege sichtbar.",
+        "risk": "Kann Strukturierung oder Festlegung zeitweise nach hinten schieben.",
+        "keywords": [
+          "Konzeption",
+          "Möglichkeiten",
+          "Zusammenhänge"
+        ],
+        "interpretation_rule": "Als relative Richtung innerhalb W/E interpretieren.",
+        "not_to_use_for": [
+          "Quadrant",
+          "Rolle",
+          "PNA-Microevidenz"
+        ]
+      },
+      "E": {
+        "short": "Struktur priorisiert",
+        "aka": "Structure orientation",
+        "headline": "Ordnung und Klarheit",
+        "personal_text": "Bei dir ist Struktur stärker sichtbar als Konzeption. Du richtest Aufmerksamkeit eher auf Ordnung, Klarheit und nachvollziehbare Formen.",
+        "external_text": "Die Person priorisiert Struktur gegenüber Konzeption.",
+        "description": "Ost beschreibt eine stärkere Priorität für Struktur gegenüber Konzeption.",
+        "strength": "Schafft Orientierung, Reihenfolge und bearbeitbare Klarheit.",
+        "risk": "Kann Möglichkeiten oder offene Perspektiven zeitweise verengen.",
+        "keywords": [
+          "Struktur",
+          "Ordnung",
+          "Klarheit"
+        ],
+        "interpretation_rule": "Als relative Richtung innerhalb W/E interpretieren.",
+        "not_to_use_for": [
+          "Quadrant",
+          "Rolle",
+          "PNA-Microevidenz"
+        ]
+      },
+      "WE": {
+        "short": "Konzeption und Struktur in Balance",
+        "aka": "Concept/structure balance",
+        "headline": "Möglichkeiten mit Klarheit",
+        "personal_text": "Bei dir halten sich Konzeption und Struktur annähernd die Balance. Du kannst Möglichkeiten öffnen und zugleich auf Ordnung und Klarheit achten.",
+        "external_text": "Die Person zeigt eine Balance zwischen Konzeption und Struktur.",
+        "description": "WE beschreibt eine Balance zwischen Konzeption und Struktur.",
+        "strength": "Verbindet Offenheit mit Strukturierungsfähigkeit.",
+        "risk": "Kann in bestimmten Situationen zwischen Öffnung und Festlegung länger abwägen.",
+        "keywords": [
+          "Konzeption",
+          "Struktur",
+          "Balance"
+        ],
+        "interpretation_rule": "Als Balancefall interpretieren; keine Richtung dominiert.",
+        "not_to_use_for": [
+          "Unentschiedenheit",
+          "fehlende Priorität",
+          "Quadrantenbefund"
+        ]
+      },
+      "N": {
+        "short": "Spontanität priorisiert",
+        "aka": "Spontaneity orientation",
+        "headline": "Früher Handlungsbeginn",
+        "personal_text": "Bei dir ist Spontanität stärker sichtbar als Reflexion. Du greifst Impulse eher früh auf und bringst Themen schneller in Bewegung.",
+        "external_text": "Die Person priorisiert Spontanität gegenüber Reflexion.",
+        "description": "Nord beschreibt eine stärkere Priorität für Spontanität gegenüber Reflexion.",
+        "strength": "Erzeugt Bewegung, Startenergie und praktische Erprobung.",
+        "risk": "Kann Prüfung, Folgenbewusstsein oder Einordnung zeitweise verkürzen.",
+        "keywords": [
+          "Spontanität",
+          "Start",
+          "Handlung"
+        ],
+        "interpretation_rule": "Als relative Richtung innerhalb N/S interpretieren.",
+        "not_to_use_for": [
+          "Quadrant",
+          "Rolle",
+          "Impulsivitätsdiagnose"
+        ]
+      },
+      "S": {
+        "short": "Reflexion priorisiert",
+        "aka": "Reflection orientation",
+        "headline": "Prüfung und Einordnung",
+        "personal_text": "Bei dir ist Reflexion stärker sichtbar als Spontanität. Du prüfst, ordnest und wägt eher ab, bevor Handlung verbindlich wird.",
+        "external_text": "Die Person priorisiert Reflexion gegenüber Spontanität.",
+        "description": "Süd beschreibt eine stärkere Priorität für Reflexion gegenüber Spontanität.",
+        "strength": "Sichert Einordnung, Folgebewusstsein und bewusstere Entscheidungen.",
+        "risk": "Kann den Übergang in Handlung zeitweise verzögern.",
+        "keywords": [
+          "Reflexion",
+          "Prüfung",
+          "Einordnung"
+        ],
+        "interpretation_rule": "Als relative Richtung innerhalb N/S interpretieren.",
+        "not_to_use_for": [
+          "Quadrant",
+          "Rolle",
+          "Zögerlichkeitsdiagnose"
+        ]
+      },
+      "NS": {
+        "short": "Spontanität und Reflexion in Balance",
+        "aka": "Spontaneity/reflection balance",
+        "headline": "Startimpuls mit Prüfung",
+        "personal_text": "Bei dir halten sich Spontanität und Reflexion annähernd die Balance. Du kannst Impulse aufnehmen und zugleich reflektierend einordnen.",
+        "external_text": "Die Person zeigt eine Balance zwischen Spontanität und Reflexion.",
+        "description": "NS beschreibt eine Balance zwischen Spontanität und Reflexion.",
+        "strength": "Verbindet Bewegung mit Prüfung und Folgebewusstsein.",
+        "risk": "Kann in bestimmten Situationen zwischen Start und Prüfung pendeln.",
+        "keywords": [
+          "Spontanität",
+          "Reflexion",
+          "Balance"
+        ],
+        "interpretation_rule": "Als Balancefall interpretieren; keine Richtung dominiert.",
+        "not_to_use_for": [
+          "Unentschiedenheit",
+          "fehlende Priorität",
+          "Quadrantenbefund"
+        ]
+      }
+    },
+    "impact_space": {
+      "Q1": {
+        "short": "Entdecker",
+        "aka": "Explorer",
+        "headline": "Der Entdecker",
+        "personal_text": "Bei dir bündelt sich die Ausrichtung besonders im Wirkungsraum Entdecker. Konzeptionell und spontan; entdeckt Möglichkeiten, folgt neuen Impulsen und probiert neue Wege früh aus.",
+        "external_text": "Die Person zeigt den Wirkungsraum Entdecker. Konzeptionell und spontan; entdeckt Möglichkeiten, folgt neuen Impulsen und probiert neue Wege früh aus.",
+        "description": "Q1 beschreibt den dominanten Wirkungsraum Entdecker (WN).",
+        "strength": "Erkennt Möglichkeiten und eröffnet neue Denk- und Erfahrungsräume.",
+        "risk": "Kann in bestimmten Situationen frühen Ideen zu schnell folgen und strukturierende Prüfung zu wenig einbeziehen.",
+        "keywords": [
+          "Q1",
+          "Entdecker",
+          "entdeckend"
+        ],
+        "interpretation_rule": "Als dominanten Wirkungsraum interpretieren, nicht als Rolle im Sinne eines festen Typs.",
+        "not_to_use_for": [
+          "Persönlichkeitstyp",
+          "Kompetenznachweis",
+          "Erfolgsvorhersage"
+        ]
+      },
+      "Q2": {
+        "short": "Gestalter",
+        "aka": "Builder",
+        "headline": "Der Gestalter",
+        "personal_text": "Bei dir bündelt sich die Ausrichtung besonders im Wirkungsraum Gestalter. Strukturiert und spontan; bringt Vorhaben schnell in eine klare Form und setzt Ideen unmittelbar in Handlung um.",
+        "external_text": "Die Person zeigt den Wirkungsraum Gestalter. Strukturiert und spontan; bringt Vorhaben schnell in eine klare Form und setzt Ideen unmittelbar in Handlung um.",
+        "description": "Q2 beschreibt den dominanten Wirkungsraum Gestalter (EN).",
+        "strength": "Gibt Impulsen Richtung und macht Vorhaben handlungsfähig.",
+        "risk": "Kann in bestimmten Situationen zu früh ordnen oder handeln und alternative Perspektiven zu wenig berücksichtigen.",
+        "keywords": [
+          "Q2",
+          "Gestalter",
+          "gestaltend"
+        ],
+        "interpretation_rule": "Als dominanten Wirkungsraum interpretieren, nicht als Rolle im Sinne eines festen Typs.",
+        "not_to_use_for": [
+          "Persönlichkeitstyp",
+          "Kompetenznachweis",
+          "Erfolgsvorhersage"
+        ]
+      },
+      "Q3": {
+        "short": "Bewahrer",
+        "aka": "Guardian",
+        "headline": "Der Bewahrer",
+        "personal_text": "Bei dir bündelt sich die Ausrichtung besonders im Wirkungsraum Bewahrer. Strukturiert und reflektiert; ordnet Informationen sorgfältig und schafft verlässliche Orientierung im Alltag.",
+        "external_text": "Die Person zeigt den Wirkungsraum Bewahrer. Strukturiert und reflektiert; ordnet Informationen sorgfältig und schafft verlässliche Orientierung im Alltag.",
+        "description": "Q3 beschreibt den dominanten Wirkungsraum Bewahrer (ES).",
+        "strength": "Sorgt für Ordnung, Nachvollziehbarkeit und Stabilität.",
+        "risk": "Kann in bestimmten Situationen Planung und Prüfung ausdehnen und neue Möglichkeiten zu spät aufnehmen.",
+        "keywords": [
+          "Q3",
+          "Bewahrer",
+          "bewahrend"
+        ],
+        "interpretation_rule": "Als dominanten Wirkungsraum interpretieren, nicht als Rolle im Sinne eines festen Typs.",
+        "not_to_use_for": [
+          "Persönlichkeitstyp",
+          "Kompetenznachweis",
+          "Erfolgsvorhersage"
+        ]
+      },
+      "Q4": {
+        "short": "Verstehender",
+        "aka": "Thinker",
+        "headline": "Der Verstehende",
+        "personal_text": "Bei dir bündelt sich die Ausrichtung besonders im Wirkungsraum Verstehender. Konzeptionell und reflektiert; verbindet Zusammenhänge und prüft ihre Bedeutung vor einer Entscheidung oder Handlung.",
+        "external_text": "Die Person zeigt den Wirkungsraum Verstehender. Konzeptionell und reflektiert; verbindet Zusammenhänge und prüft ihre Bedeutung vor einer Entscheidung oder Handlung.",
+        "description": "Q4 beschreibt den dominanten Wirkungsraum Verstehender (WS).",
+        "strength": "Erkennt Zusammenhänge und ordnet ihre Bedeutung differenziert ein.",
+        "risk": "Kann in bestimmten Situationen Zusammenhänge lange weiterdenken und Entscheidungen oder Strukturierung aufschieben.",
+        "keywords": [
+          "Q4",
+          "Verstehender",
+          "verstehend"
+        ],
+        "interpretation_rule": "Als dominanten Wirkungsraum interpretieren, nicht als Rolle im Sinne eines festen Typs.",
+        "not_to_use_for": [
+          "Persönlichkeitstyp",
+          "Kompetenznachweis",
+          "Erfolgsvorhersage"
+        ]
+      },
+      "Q12": {
+        "short": "Entdecker und Gestalter in Balance",
+        "aka": "Explorer-Builder Balance",
+        "headline": "Entdecker und Gestalter ausbalanciert",
+        "personal_text": "Bei dir tragen die Wirkungsräume Entdecker und Gestalter gemeinsam. Keine der beiden Perspektiven wird als führend formuliert.",
+        "external_text": "Die Person zeigt eine Balance zwischen den Wirkungsräume Entdecker und Gestalter. Es wird keine Primärdominanz behauptet.",
+        "description": "Q12 beschreibt eine ungeordnete Balance der benachbarten Wirkungsräume Q1 und Q2.",
+        "strength": "Verbindet Erkennt Möglichkeiten und eröffnet neue Denk- und Erfahrungsräume mit Gibt Impulsen Richtung und macht Vorhaben handlungsfähig.",
+        "risk": "Kann weniger eindeutig wirken, ist aber fachlich sauberer als eine erzwungene Quadrantendominanz.",
+        "keywords": [
+          "Q12",
+          "Entdecker",
+          "Gestalter",
+          "Balance"
+        ],
+        "interpretation_rule": "Als Balance zwischen Q1 und Q2 interpretieren; keine Primärdominanz und kein Rollenprofil daraus ableiten.",
+        "not_to_use_for": [
+          "Schwäche",
+          "kein Ergebnis",
+          "Beliebigkeit"
+        ]
+      },
+      "Q14": {
+        "short": "Entdecker und Verstehender in Balance",
+        "aka": "Explorer-Thinker Balance",
+        "headline": "Entdecker und Verstehender ausbalanciert",
+        "personal_text": "Bei dir tragen die Wirkungsräume Entdecker und Verstehender gemeinsam. Keine der beiden Perspektiven wird als führend formuliert.",
+        "external_text": "Die Person zeigt eine Balance zwischen den Wirkungsräume Entdecker und Verstehender. Es wird keine Primärdominanz behauptet.",
+        "description": "Q14 beschreibt eine ungeordnete Balance der benachbarten Wirkungsräume Q1 und Q4.",
+        "strength": "Verbindet Erkennt Möglichkeiten und eröffnet neue Denk- und Erfahrungsräume mit Erkennt Zusammenhänge und ordnet ihre Bedeutung differenziert ein.",
+        "risk": "Kann weniger eindeutig wirken, ist aber fachlich sauberer als eine erzwungene Quadrantendominanz.",
+        "keywords": [
+          "Q14",
+          "Entdecker",
+          "Verstehender",
+          "Balance"
+        ],
+        "interpretation_rule": "Als Balance zwischen Q1 und Q4 interpretieren; keine Primärdominanz und kein Rollenprofil daraus ableiten.",
+        "not_to_use_for": [
+          "Schwäche",
+          "kein Ergebnis",
+          "Beliebigkeit"
+        ]
+      },
+      "Q23": {
+        "short": "Gestalter und Bewahrer in Balance",
+        "aka": "Builder-Guardian Balance",
+        "headline": "Gestalter und Bewahrer ausbalanciert",
+        "personal_text": "Bei dir tragen die Wirkungsräume Gestalter und Bewahrer gemeinsam. Keine der beiden Perspektiven wird als führend formuliert.",
+        "external_text": "Die Person zeigt eine Balance zwischen den Wirkungsräume Gestalter und Bewahrer. Es wird keine Primärdominanz behauptet.",
+        "description": "Q23 beschreibt eine ungeordnete Balance der benachbarten Wirkungsräume Q2 und Q3.",
+        "strength": "Verbindet Gibt Impulsen Richtung und macht Vorhaben handlungsfähig mit Sorgt für Ordnung, Nachvollziehbarkeit und Stabilität.",
+        "risk": "Kann weniger eindeutig wirken, ist aber fachlich sauberer als eine erzwungene Quadrantendominanz.",
+        "keywords": [
+          "Q23",
+          "Gestalter",
+          "Bewahrer",
+          "Balance"
+        ],
+        "interpretation_rule": "Als Balance zwischen Q2 und Q3 interpretieren; keine Primärdominanz und kein Rollenprofil daraus ableiten.",
+        "not_to_use_for": [
+          "Schwäche",
+          "kein Ergebnis",
+          "Beliebigkeit"
+        ]
+      },
+      "Q34": {
+        "short": "Bewahrer und Verstehender in Balance",
+        "aka": "Guardian-Thinker Balance",
+        "headline": "Bewahrer und Verstehender ausbalanciert",
+        "personal_text": "Bei dir tragen die Wirkungsräume Bewahrer und Verstehender gemeinsam. Keine der beiden Perspektiven wird als führend formuliert.",
+        "external_text": "Die Person zeigt eine Balance zwischen den Wirkungsräume Bewahrer und Verstehender. Es wird keine Primärdominanz behauptet.",
+        "description": "Q34 beschreibt eine ungeordnete Balance der benachbarten Wirkungsräume Q3 und Q4.",
+        "strength": "Verbindet Sorgt für Ordnung, Nachvollziehbarkeit und Stabilität mit Erkennt Zusammenhänge und ordnet ihre Bedeutung differenziert ein.",
+        "risk": "Kann weniger eindeutig wirken, ist aber fachlich sauberer als eine erzwungene Quadrantendominanz.",
+        "keywords": [
+          "Q34",
+          "Bewahrer",
+          "Verstehender",
+          "Balance"
+        ],
+        "interpretation_rule": "Als Balance zwischen Q3 und Q4 interpretieren; keine Primärdominanz und kein Rollenprofil daraus ableiten.",
+        "not_to_use_for": [
+          "Schwäche",
+          "kein Ergebnis",
+          "Beliebigkeit"
+        ]
+      },
+      "Q0": {
+        "short": "Ausgewogener Wirkungsraum",
+        "aka": "Balanced impact space",
+        "headline": "Mehrere Wirkungsräume aktiv",
+        "personal_text": "Bei dir verteilt sich die Ausrichtung im persönlichen Alltag auf mehrere Wirkungsräume. Es gibt dann keinen einzelnen Quadranten, der als eindeutiger Schwerpunkt formuliert wird.",
+        "external_text": "Die Person zeigt eine ausgewogene Nutzung mehrerer Wirkungsräume ohne eindeutige Quadrantendominanz.",
+        "description": "Q0 beschreibt eine annähernd ausgewogene Nutzung mehrerer Wirkungsräume; bei vollständigem Gleichstand aller vier Halbachsen greift stattdessen XY_BALANCED.",
+        "strength": "Erlaubt flexible Nutzung mehrerer Denk- und Handlungsräume.",
+        "risk": "Kann weniger eindeutige Schwerpunktkommunikation erfordern.",
+        "keywords": [
+          "Q0",
+          "Balance",
+          "Wirkungsraum"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn kein einzelner oder paarweiser Wirkungsraum dominant ist und kein vollständiger Halbachsen-Gleichstand W=E=N=S vorliegt.",
+        "not_to_use_for": [
+          "Schwäche",
+          "kein Ergebnis",
+          "Beliebigkeit",
+          "vollständige Halbachsen-Balance W=E=N=S"
+        ]
+      }
+    },
+    "role_profile": {
+      "R0": {
+        "short": "Kein geordnetes Rollenprofil",
+        "aka": "Role Layer Null Case",
+        "headline": "Keine tragfähige Rollenordnung",
+        "personal_text": "Bei dir lässt sich aus der Denk- und Entscheidungslogik kein tragfähiges primäres und sekundäres Rollenprofil ableiten. Die Auswertung bleibt deshalb beim Wirkungsraum und erzeugt kein Facettenspektrum.",
+        "external_text": "Die Rollenebene zeigt R0 als sichtbaren Balance- oder Nullfall. Das ist kein Rollenprofil und keine Schwäche.",
+        "description": "R0 wird verwendet, wenn keine geordnete Primär-/Sekundärdominanz tragfähig ableitbar ist.",
+        "strength": "Verhindert eine Scheingenauigkeit bei echter Balance oder breiter Verteilung.",
+        "risk": "Kann weniger eindeutig wirken, ist aber fachlich sauberer als ein erzwungener Rollenkey.",
+        "keywords": [
+          "R0",
+          "Balance",
+          "Rollenebene"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn keine tragfähige geordnete Primär-/Sekundärdominanz ableitbar ist; bei R0 kein Facettenspektrum erzeugen.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "R12": {
+        "short": "Entdecker mit Gestalter",
+        "aka": "Explorer-Builder",
+        "headline": "Entdecker zuerst, Gestalter ergänzend",
+        "personal_text": "Bei dir steht der Wirkungsraum Entdecker im Vordergrund, ergänzt durch Gestalter. Typischerweise zeigt sich das als konzeptionell und spontan; entdeckt möglichkeiten, folgt neuen impulsen und probiert neue wege früh aus. Ergänzend wirkt Gestalter als zweite Ausdrucksform.",
+        "external_text": "Die Person zeigt primär Entdecker und sekundär Gestalter. Die Reihenfolge ist fachlich relevant.",
+        "description": "R12 beschreibt eine geordnete Rollenlogik aus primärem Entdecker und sekundärem Gestalter.",
+        "strength": "Verbindet erkennt möglichkeiten und eröffnet neue denk- und erfahrungsräume. mit ergänzenden Anteilen von Gestalter.",
+        "risk": "Kann einseitig werden, wenn Entdecker den ergänzenden Wirkungsraum Gestalter überdeckt.",
+        "keywords": [
+          "R12",
+          "Entdecker",
+          "Gestalter"
+        ],
+        "interpretation_rule": "Nur bei geordneter Primär- und Sekundärdominanz verwenden; bei echter Balance kein Rollenprofil erzeugen.",
+        "not_to_use_for": [
+          "Fixe Typenzuordnung",
+          "Gesamtpersönlichkeit",
+          "Kompetenznachweis"
+        ]
+      },
+      "R14": {
+        "short": "Entdecker mit Verstehender",
+        "aka": "Explorer-Thinker",
+        "headline": "Entdecker zuerst, Verstehender ergänzend",
+        "personal_text": "Bei dir steht der Wirkungsraum Entdecker im Vordergrund, ergänzt durch Verstehender. Typischerweise zeigt sich das als konzeptionell und spontan; entdeckt möglichkeiten, folgt neuen impulsen und probiert neue wege früh aus. Ergänzend wirkt Verstehender als zweite Ausdrucksform.",
+        "external_text": "Die Person zeigt primär Entdecker und sekundär Verstehender. Die Reihenfolge ist fachlich relevant.",
+        "description": "R14 beschreibt eine geordnete Rollenlogik aus primärem Entdecker und sekundärem Verstehender.",
+        "strength": "Verbindet erkennt möglichkeiten und eröffnet neue denk- und erfahrungsräume. mit ergänzenden Anteilen von Verstehender.",
+        "risk": "Kann einseitig werden, wenn Entdecker den ergänzenden Wirkungsraum Verstehender überdeckt.",
+        "keywords": [
+          "R14",
+          "Entdecker",
+          "Verstehender"
+        ],
+        "interpretation_rule": "Nur bei geordneter Primär- und Sekundärdominanz verwenden; bei echter Balance kein Rollenprofil erzeugen.",
+        "not_to_use_for": [
+          "Fixe Typenzuordnung",
+          "Gesamtpersönlichkeit",
+          "Kompetenznachweis"
+        ]
+      },
+      "R21": {
+        "short": "Gestalter mit Entdecker",
+        "aka": "Builder-Explorer",
+        "headline": "Gestalter zuerst, Entdecker ergänzend",
+        "personal_text": "Bei dir steht der Wirkungsraum Gestalter im Vordergrund, ergänzt durch Entdecker. Typischerweise zeigt sich das als strukturiert und spontan; bringt vorhaben schnell in eine klare form und setzt ideen unmittelbar in handlung um. Ergänzend wirkt Entdecker als zweite Ausdrucksform.",
+        "external_text": "Die Person zeigt primär Gestalter und sekundär Entdecker. Die Reihenfolge ist fachlich relevant.",
+        "description": "R21 beschreibt eine geordnete Rollenlogik aus primärem Gestalter und sekundärem Entdecker.",
+        "strength": "Verbindet gibt impulsen richtung und macht vorhaben handlungsfähig. mit ergänzenden Anteilen von Entdecker.",
+        "risk": "Kann einseitig werden, wenn Gestalter den ergänzenden Wirkungsraum Entdecker überdeckt.",
+        "keywords": [
+          "R21",
+          "Gestalter",
+          "Entdecker"
+        ],
+        "interpretation_rule": "Nur bei geordneter Primär- und Sekundärdominanz verwenden; bei echter Balance kein Rollenprofil erzeugen.",
+        "not_to_use_for": [
+          "Fixe Typenzuordnung",
+          "Gesamtpersönlichkeit",
+          "Kompetenznachweis"
+        ]
+      },
+      "R23": {
+        "short": "Gestalter mit Bewahrer",
+        "aka": "Builder-Guardian",
+        "headline": "Gestalter zuerst, Bewahrer ergänzend",
+        "personal_text": "Bei dir steht der Wirkungsraum Gestalter im Vordergrund, ergänzt durch Bewahrer. Typischerweise zeigt sich das als strukturiert und spontan; bringt vorhaben schnell in eine klare form und setzt ideen unmittelbar in handlung um. Ergänzend wirkt Bewahrer als zweite Ausdrucksform.",
+        "external_text": "Die Person zeigt primär Gestalter und sekundär Bewahrer. Die Reihenfolge ist fachlich relevant.",
+        "description": "R23 beschreibt eine geordnete Rollenlogik aus primärem Gestalter und sekundärem Bewahrer.",
+        "strength": "Verbindet gibt impulsen richtung und macht vorhaben handlungsfähig. mit ergänzenden Anteilen von Bewahrer.",
+        "risk": "Kann einseitig werden, wenn Gestalter den ergänzenden Wirkungsraum Bewahrer überdeckt.",
+        "keywords": [
+          "R23",
+          "Gestalter",
+          "Bewahrer"
+        ],
+        "interpretation_rule": "Nur bei geordneter Primär- und Sekundärdominanz verwenden; bei echter Balance kein Rollenprofil erzeugen.",
+        "not_to_use_for": [
+          "Fixe Typenzuordnung",
+          "Gesamtpersönlichkeit",
+          "Kompetenznachweis"
+        ]
+      },
+      "R32": {
+        "short": "Bewahrer mit Gestalter",
+        "aka": "Guardian-Builder",
+        "headline": "Bewahrer zuerst, Gestalter ergänzend",
+        "personal_text": "Bei dir steht der Wirkungsraum Bewahrer im Vordergrund, ergänzt durch Gestalter. Typischerweise zeigt sich das als strukturiert und reflektiert; ordnet informationen sorgfältig und schafft verlässliche orientierung im alltag. Ergänzend wirkt Gestalter als zweite Ausdrucksform.",
+        "external_text": "Die Person zeigt primär Bewahrer und sekundär Gestalter. Die Reihenfolge ist fachlich relevant.",
+        "description": "R32 beschreibt eine geordnete Rollenlogik aus primärem Bewahrer und sekundärem Gestalter.",
+        "strength": "Verbindet sorgt für ordnung, nachvollziehbarkeit und stabilität. mit ergänzenden Anteilen von Gestalter.",
+        "risk": "Kann einseitig werden, wenn Bewahrer den ergänzenden Wirkungsraum Gestalter überdeckt.",
+        "keywords": [
+          "R32",
+          "Bewahrer",
+          "Gestalter"
+        ],
+        "interpretation_rule": "Nur bei geordneter Primär- und Sekundärdominanz verwenden; bei echter Balance kein Rollenprofil erzeugen.",
+        "not_to_use_for": [
+          "Fixe Typenzuordnung",
+          "Gesamtpersönlichkeit",
+          "Kompetenznachweis"
+        ]
+      },
+      "R34": {
+        "short": "Bewahrer mit Verstehender",
+        "aka": "Guardian-Thinker",
+        "headline": "Bewahrer zuerst, Verstehender ergänzend",
+        "personal_text": "Bei dir steht der Wirkungsraum Bewahrer im Vordergrund, ergänzt durch Verstehender. Typischerweise zeigt sich das als strukturiert und reflektiert; ordnet informationen sorgfältig und schafft verlässliche orientierung im alltag. Ergänzend wirkt Verstehender als zweite Ausdrucksform.",
+        "external_text": "Die Person zeigt primär Bewahrer und sekundär Verstehender. Die Reihenfolge ist fachlich relevant.",
+        "description": "R34 beschreibt eine geordnete Rollenlogik aus primärem Bewahrer und sekundärem Verstehender.",
+        "strength": "Verbindet sorgt für ordnung, nachvollziehbarkeit und stabilität. mit ergänzenden Anteilen von Verstehender.",
+        "risk": "Kann einseitig werden, wenn Bewahrer den ergänzenden Wirkungsraum Verstehender überdeckt.",
+        "keywords": [
+          "R34",
+          "Bewahrer",
+          "Verstehender"
+        ],
+        "interpretation_rule": "Nur bei geordneter Primär- und Sekundärdominanz verwenden; bei echter Balance kein Rollenprofil erzeugen.",
+        "not_to_use_for": [
+          "Fixe Typenzuordnung",
+          "Gesamtpersönlichkeit",
+          "Kompetenznachweis"
+        ]
+      },
+      "R41": {
+        "short": "Verstehender mit Entdecker",
+        "aka": "Thinker-Explorer",
+        "headline": "Verstehender zuerst, Entdecker ergänzend",
+        "personal_text": "Bei dir steht der Wirkungsraum Verstehender im Vordergrund, ergänzt durch Entdecker. Typischerweise zeigt sich das als konzeptionell und reflektiert; verbindet zusammenhänge und prüft ihre bedeutung vor einer entscheidung oder handlung. Ergänzend wirkt Entdecker als zweite Ausdrucksform.",
+        "external_text": "Die Person zeigt primär Verstehender und sekundär Entdecker. Die Reihenfolge ist fachlich relevant.",
+        "description": "R41 beschreibt eine geordnete Rollenlogik aus primärem Verstehender und sekundärem Entdecker.",
+        "strength": "Verbindet erkennt zusammenhänge und ordnet ihre bedeutung differenziert ein. mit ergänzenden Anteilen von Entdecker.",
+        "risk": "Kann einseitig werden, wenn Verstehender den ergänzenden Wirkungsraum Entdecker überdeckt.",
+        "keywords": [
+          "R41",
+          "Verstehender",
+          "Entdecker"
+        ],
+        "interpretation_rule": "Nur bei geordneter Primär- und Sekundärdominanz verwenden; bei echter Balance kein Rollenprofil erzeugen.",
+        "not_to_use_for": [
+          "Fixe Typenzuordnung",
+          "Gesamtpersönlichkeit",
+          "Kompetenznachweis"
+        ]
+      },
+      "R43": {
+        "short": "Verstehender mit Bewahrer",
+        "aka": "Thinker-Guardian",
+        "headline": "Verstehender zuerst, Bewahrer ergänzend",
+        "personal_text": "Bei dir steht der Wirkungsraum Verstehender im Vordergrund, ergänzt durch Bewahrer. Typischerweise zeigt sich das als konzeptionell und reflektiert; verbindet zusammenhänge und prüft ihre bedeutung vor einer entscheidung oder handlung. Ergänzend wirkt Bewahrer als zweite Ausdrucksform.",
+        "external_text": "Die Person zeigt primär Verstehender und sekundär Bewahrer. Die Reihenfolge ist fachlich relevant.",
+        "description": "R43 beschreibt eine geordnete Rollenlogik aus primärem Verstehender und sekundärem Bewahrer.",
+        "strength": "Verbindet erkennt zusammenhänge und ordnet ihre bedeutung differenziert ein. mit ergänzenden Anteilen von Bewahrer.",
+        "risk": "Kann einseitig werden, wenn Verstehender den ergänzenden Wirkungsraum Bewahrer überdeckt.",
+        "keywords": [
+          "R43",
+          "Verstehender",
+          "Bewahrer"
+        ],
+        "interpretation_rule": "Nur bei geordneter Primär- und Sekundärdominanz verwenden; bei echter Balance kein Rollenprofil erzeugen.",
+        "not_to_use_for": [
+          "Fixe Typenzuordnung",
+          "Gesamtpersönlichkeit",
+          "Kompetenznachweis"
+        ]
+      }
+    }
+  },
+  "runtime_resolution": {
+    "source": "canon/results/model_results_contract.json",
+    "base_result_key_count": 27,
+    "resolved_result_key_policy": "deterministic_runtime_resolution",
+    "note": "Konkrete Personenwerte werden später deterministisch auf resolved_result_key-Varianten wie X_CLOSE_Y oder Q12_BALANCED abgebildet.",
+    "role_policy": "Rollenprofile nur bei geordneter Primär- und Sekundärdominanz benachbarter Quadranten erzeugen; bei echter Balance oder gegenüberliegender Scheinordnung R0 verwenden."
+  },
+  "boundaries": {
+    "pna_micro_only": true,
+    "macro_meta_reporting_only": true,
+    "no_clinical_diagnosis": true,
+    "no_competence_claim": true,
+    "no_fixed_typology": true
+  },
+  "contract_source": "canon/results/model_results_contract.json"
+}

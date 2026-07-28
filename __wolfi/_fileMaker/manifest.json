@@ -1,11 +1,12 @@
 {
-    "hash": "44364c5652fc8e18fce5e9568cd6a2965271d56c1899fd0af9fce060a19818e2",
-    "built_at": "2026-07-14T17:00:56+00:00",
+    "hash": "9282a11c8d0912e7bb64c93fe682f10fea09bda67630e345629bd4fa7832ab49",
+    "built_at": "2026-07-28T14:48:26+00:00",
     "sources": [
         "__wolfi/_fileMaker/scss/typography.scss",
         "__wolfi/_fileMaker/css/essential.css",
         "__wolfi/_fileMaker/scss/sections.scss",
         "__wolfi/_fileMaker/scss/content-layouts.scss",
+        "__wolfi/_fileMaker/scss/banner-style.scss",
         "__wolfi/_fileMaker/scss/boxes.scss",
         "__wolfi/_fileMaker/scss/main.scss",
         "__wolfi/_fileMaker/scss/_variables.scss",
@@ -14,13 +15,19 @@
         "__wolfi/_fileMaker/scss/super_spy.scss",
         "__wolfi/_fileMaker/scss/switcher.scss",
         "__wolfi/_fileMaker/scss/navsection.scss",
+        "__wolfi/_fileMaker/scss/picture-flow.scss",
+        "__wolfi/_fileMaker/scss/factsheet.scss",
+        "__wolfi/_fileMaker/scss/legal.scss",
+        "__wolfi/_fileMaker/scss/pricing.scss",
+        "__wolfi/_fileMaker/scss/print.scss",
         "__wolfi/_fileMaker/js/main.js",
         "__wolfi/_fileMaker/js/site.js",
         "__wolfi/_fileMaker/js/nav_menu.js",
         "__wolfi/_fileMaker/js/sections.js",
         "__wolfi/_fileMaker/js/super_spy.js",
         "__wolfi/_fileMaker/js/switcher.js",
-        "__wolfi/_fileMaker/js/factsheet.js"
+        "__wolfi/_fileMaker/js/factsheet.js",
+        "__wolfi/_fileMaker/js/print.js"
     ],
     "outputs": [
         "_cdn/carlvon.css",

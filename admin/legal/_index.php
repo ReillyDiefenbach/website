@@ -60,16 +60,16 @@ function legal_document_html(string $key, array $firm): string
 
 ?>
 
-<section class="content legalPage" data-legal-page data-active-legal="<?= htmlspecialchars($requestedDoc, ENT_QUOTES, 'UTF-8') ?>">
-    <header class="legalPage__head">
-        <div class="legalPage__brand">
-            <span>CARLVON</span>
-            <span class="legalPage__mark" aria-hidden="true"></span>
-            <span>ANALYTICA</span>
-        </div>
-        <p>Legal Documents</p>
-    </header>
 
+<section class="content topHead">
+	<div>
+		<p>CARLVON</p>
+		<h1>Legal Documents</h1>
+		<p>English Version Only</p>
+	</div>
+</section>
+
+<section class="content legalPage" data-legal-page data-active-legal="<?= htmlspecialchars($requestedDoc, ENT_QUOTES, 'UTF-8') ?>">
     <div class="legalPage__layout">
         <aside class="legalPage__nav">
             <nav class="spyMenu legalTabs" aria-label="Legal documents">

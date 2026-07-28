@@ -1,0 +1,37 @@
+{
+  "lang": "de",
+  "scope": "family",
+  "family": "change",
+  "title": "Change & Adapt",
+  "variant": "",
+  "items": {
+    "f1": {
+      "q": "Was beschreibt dieses Modul?",
+      "a": "Change & Adapt beschreibt den Umgang mit Veränderung im Arbeits- und im Privatkontext. Es zeigt, ob Orientierung eher aus Selbstbestimmung, Kontrolle, Entwicklung oder Stabilität entsteht."
+    },
+    "f2": {
+      "q": "Welche Spannungen werden unterschieden?",
+      "a": "Das Modul unterscheidet Selbstbestimmung gegen Kontrolle und Entwicklung gegen Stabilität. Diese Spannungen helfen, Wandel sprachlich sauber zu ordnen."
+    },
+    "f3": {
+      "q": "Was zeigen die vier Richtungen?",
+      "a": "Die vier Richtungen zeigen typische Veränderungsstile: erkundend, gestaltend, sichernd und reflektierend. Das sind keine festen Typen, sondern Lesarten."
+    },
+    "f4": {
+      "q": "Worin liegt der praktische Nutzen?",
+      "a": "Das Modul hilft, Veränderungsreaktionen, Stabilitätsbedürfnisse und Entwicklungsimpulse verständlicher zu besprechen. Das ist in Teams, Beziehungen und Lebensübergängen nützlich."
+    },
+    "f5": {
+      "q": "Wie sicher darf ich die Lesart nehmen?",
+      "a": "Als Orientierung ja, als fertige Messung noch nicht. Die spätere Tragfähigkeit muss über Fragen, Microevidenzen und Validierung entwickelt werden."
+    },
+    "f6": {
+      "q": "Worin unterscheidet es sich von einem Persönlichkeitstest?",
+      "a": "Change & Adapt will keine feste Persönlichkeit bauen. Es beschreibt nur, wie sich Veränderung im jeweiligen Kontext zeigt."
+    },
+    "f7": {
+      "q": "Wo liegen die Grenzen?",
+      "a": "Die Grenzen liegen dort, wo Selbstbestimmung zu Beliebigkeit, Kontrolle zu Starrheit oder Stabilität zu Widerstand umgedeutet wird. Das wäre zu grob und würde die Family verfehlen."
+    }
+  }
+}

@@ -4,11 +4,6 @@ $tickets = explode(';',TICKETPRICES);
 
 if(isset($_REQUEST['innerticketing'])) {
 	print '<input id="infoID" value="' . PAYPAL_SANDBOX_CLIENT_ID. '" type="hidden" />';
-} else {
-	print '<div class="logo-container">
-				<img src="/_assets/self/carlvon.png" />
-				<i>Ticket Center</i> 
-			</div>';
 }	
 		
 ?>
@@ -27,15 +22,19 @@ if(isset($_REQUEST['innerticketing'])) {
 			<div class="ticket-card card single-color" >
 
 				<div class="card-body">
-					<div class="numberContainer tick-single">
-						<h1 id="priceOverall" class="number"><?php print $tickets[0]; ?><sup class="priceSup">€</sup></h1>
+					<div class="number-wrapper">
+						<hr class="numerLine">
+						<div class="numberContainer tick-single">
+							<h1 id="priceOverall" class="number"><?php print $tickets[0]; ?><sup class="priceSup">€</sup></h1>
+						</div>
+						<hr class="numerLine">
 					</div>
 				    <h3 class="card-title" data-lang="A,plan_t">Single Ticket</h3>
 				    <p class="card-text"data-lang="A,plan_t2">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
 				    <a class="btn btn-single btn-sm buyTicket" data-lang="A,plan_tb" data-price="<?php print $tickets[0]; ?>" data-type="t">get Ticket</a>
 				    <div class="imgHolder">
-				    	<img class="imgVoucher" src="<?php print ASSETPATH . "self/payment/voucher.png"; ?>" style="max-width:100%;" />
-				    	<img class="imgTicket" src="<?php print ASSETPATH . "self/payment/singleticket.png"; ?>" style="max-width:100%;" />
+				    	<img class="imgVoucher" src="<?php print ASSETPATH . "img/webs/voucher.png"; ?>" style="max-width:100%;" />
+				    	<img class="imgTicket" src="<?php print ASSETPATH . "img/webs/ticket.jpg"; ?>" style="max-width:100%;" />
 				    </div>
 				    
 				</div>
@@ -49,15 +48,19 @@ if(isset($_REQUEST['innerticketing'])) {
 			</div>
 			<div class="ticket-card card month-color">
 				<div class="card-body">
-					<div class="numberContainer tick-month">
-						<h1 id="priceOverall" class="number"><?php print $tickets[1]; ?><sup class="priceSup">€</sup></h1>
+					<div class="number-wrapper">
+						<hr class="numerLine">
+						<div class="numberContainer tick-month">
+							<h1 id="priceOverall" class="number"><?php print $tickets[1]; ?><sup class="priceSup">€</sup></h1>
+						</div>
+						<hr class="numerLine">
 					</div>	
 				    <h3 class="card-title" data-lang="A,plan_m">Monthly Ticket</h3>
 				    <p class="card-text" data-lang="A,plan_m2">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
 				    <a class="btn btn-month btn-sm buyTicket" data-lang="A,plan_mb" data-price="<?php print $tickets[1]; ?>" data-type="m">get Month</a>
 				    <div class="imgHolder">
-				    	<img class="imgVoucher" src="<?php print ASSETPATH . "self/payment/voucher.png"; ?>" style="max-width:100%;" />
-				    	<img class="imgTicket" src="<?php print ASSETPATH . "self/payment/singleticket.png"; ?>" style="max-width:100%;" />
+				    	<img class="imgVoucher" src="<?php print ASSETPATH . "img/webs/voucher.png"; ?>" style="max-width:100%;" />
+				    	<img class="imgTicket" src="<?php print ASSETPATH . "img/webs/month.jpg"; ?>" style="max-width:100%;" />
 				    </div>
 				    
 				</div>
@@ -72,15 +75,19 @@ if(isset($_REQUEST['innerticketing'])) {
 			</div>
 			<div class="ticket-card card year-color">
 				<div class="card-body">
-					<div class="numberContainer tick-year">
-						<h1 id="priceOverall" class="number"><?php print $tickets[2]; ?><sup class="priceSup">€</sup></h1>
+					<div class="number-wrapper">
+						<hr class="numerLine">
+						<div class="numberContainer tick-year">
+							<h1 id="priceOverall" class="number"><?php print $tickets[2]; ?><sup class="priceSup">€</sup></h1>
+						</div>
+						<hr class="numerLine">
 					</div>			    
 				    <h3 class="card-title" data-lang="A,plan_y">Year Ticket</h3>
 				    <p class="card-text" data-lang="A,plan_y2">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
 				    <a class="btn btn-year btn-sm buyTicket" data-lang="A,plan_yb" data-price="<?php print $tickets[2]; ?>" data-type="y">get Year</a>
 				    <div class="imgHolder">
-				    	<img class="imgVoucher" src="<?php print ASSETPATH . "self/payment/voucher.png"; ?>" style="max-width:100%;" />
-				    	<img class="imgTicket" src="<?php print ASSETPATH . "self/payment/singleticket.png"; ?>" style="max-width:100%;" />
+				    	<img class="imgVoucher" src="<?php print ASSETPATH . "img/webs/voucher.png"; ?>" style="max-width:100%;" />
+				    	<img class="imgTicket" src="<?php print ASSETPATH . "img/webs/year.jpg"; ?>" style="max-width:100%;" />
 				    </div>
 				    
 				</div>

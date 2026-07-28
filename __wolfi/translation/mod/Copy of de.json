@@ -1,0 +1,92 @@
+{
+"bios" : {
+	  "title": "Biosphere",
+	  "aka": "Biosphärenmodell der Persönlichkeit",
+	  "time": "15",
+	  "dimensions": "Biologische, psychologische und soziale Ebene der Persönlichkeit",
+	  "aim": "Erfassen der Wechselwirkungen zwischen biologischen, psychologischen und sozialen Faktoren, die die Persönlichkeit beeinflussen",
+	  "method": "Ganzheitliche Analyse, basierend auf Selbst- und Fremdeinschätzungen sowie externen Einflüssen",
+	  "short": "Das Biosphärenmodell untersucht die Einflüsse von Biologie, Psyche und sozialem Umfeld auf die Persönlichkeit.",
+	  "desc": "Das Biosphärenmodell der Persönlichkeit betrachtet die Persönlichkeit als dynamisches Zusammenspiel dreier Ebenen: der biologischen (genetische und neurobiologische Faktoren), der psychologischen (emotionale und kognitive Prozesse) und der sozialen Ebene (soziale Interaktionen und kulturelle Einflüsse). Ziel des Modells ist es, ein umfassendes Verständnis der Persönlichkeit zu schaffen, das biologische Dispositionen, psychische Verarbeitungen und soziale Einflüsse berücksichtigt. Das Modell wird häufig in der Forschung und Psychotherapie eingesetzt, um Verhaltensweisen und Persönlichkeitsentwicklung als ganzheitliches System zu analysieren."
+  },
+  "care": {
+	  "title": "C.A.R.E.",
+	  "aka": "Creator, Advancer, Refiner, Executor Modell",
+	  "time": "16",
+	  "dimensions": "Kreativität, Motivationsfähigkeit, Analysefähigkeit, Umsetzungsstärke",
+	  "aim": "Identifizierung bevorzugter Teamrollen zur Optimierung von Innovations- und Arbeitsprozessen",
+	  "method": "Selbsteinschätzung, oft auch Teambeobachtungen",
+	  "short": "CARE analysiert bevorzugte Rollen in Innovationsprozessen, um Teamdynamiken zu verbessern.",
+	  "desc": "Der CARE-Test dient der Erkennung individueller Stärken in Innovations- und Arbeitsprozessen durch vier Hauptrollen: Creator (Ideenentwickler und Visionär), Advancer (Kommunikator und Unterstützer), Refiner (Analytiker und Kritiker) und Executor (praktischer Umsetzer). Dieser Test wird häufig in der Teamentwicklung und Projektarbeit genutzt, um sicherzustellen, dass alle Rollen für ein effektives Teamwork abgedeckt sind. Ziel ist es, die Synergie im Team zu fördern und sicherzustellen, dass Ideen nicht nur generiert, sondern auch erfolgreich verfeinert und umgesetzt werden."
+  },
+  "acer": {
+	  "title": "A.C.E.R.",
+	  "dimensions": "Analysis (Analyse), Control (Kontrolle), Emotion (Emotion), Recognition (Anerkennung)",
+	  "time": "14",
+	  "aim": "Bewertung persönlicher Präferenzen und Kommunikationsstile zur Verbesserung von Teamarbeit und zwischenmenschlichen Beziehungen",
+	  "method": "Selbsteinschätzung, optional Fremdeinschätzung",
+	  "short": "Der CARE-Test bewertet Präferenzen in Kontrolle, Analyse, Anerkennung und Emotion zur Förderung effektiver Kommunikation.",
+	  "desc": "Der CARE-Test dient der Analyse individueller Kommunikationsstile und Verhaltenspräferenzen in vier Dimensionen: Control (Bedürfnis nach Kontrolle und Führung), Analysis (analytisches und strukturiertes Denken), Recognition (Streben nach Anerkennung) und Emotion (Ausdruck und Verarbeitung von Emotionen). Der Test wird oft in der beruflichen und sozialen Kompetenzentwicklung eingesetzt, um Teamdynamiken zu verstehen und Kommunikationsfähigkeiten zu fördern. Ziel ist es, ein besseres Verständnis der eigenen und fremden Verhaltensweisen zu schaffen, um die Zusammenarbeit in Teams zu verbessern und die Effizienz in Arbeitsgruppen zu steigern."
+  },
+  "disg": {
+	  "title": "D.I.S.G.",
+	  "aka": "Dominance, Influence, Steadiness, Conscientiousness",
+	  "time": "12",
+	  "dimensions": "Dominanz, Initiative, Stetigkeit, Gewissenhaftigkeit",
+	  "aim": "Ermittlung des individuellen Verhaltensstils zur Verbesserung von Kommunikation und Zusammenarbeit in sozialen und beruflichen Kontexten",
+	  "method": "Selbsteinschätzung, optional Fremdeinschätzung",
+	  "short": "DISG identifiziert den Verhaltensstil einer Person und unterstützt dabei, zwischenmenschliche Interaktionen zu optimieren.",
+	  "desc": "Der DISG-Test, auch bekannt als DISC, analysiert das Verhalten einer Person anhand von vier Dimensionen: Dominanz (Durchsetzungsfähigkeit und Zielstrebigkeit), Initiative (Kommunikationsfreude und Überzeugungskraft), Stetigkeit (Geduld und Zuverlässigkeit) und Gewissenhaftigkeit (Detailorientierung und Strukturbedürfnis). Das Modell wird häufig im Bereich der Teamentwicklung, Führungskräfte-Coaching und im Personalwesen eingesetzt, um Verhaltensweisen und Kommunikationspräferenzen zu identifizieren. Ziel ist es, das Verständnis und die Zusammenarbeit im Team zu fördern, indem jeder seinen bevorzugten Stil und den der anderen besser erkennt und wertschätzt."
+   },
+  "big5" : {
+	  "title": "BIG 5",
+	  "aka": "Fünf-Faktoren-Modell der Persönlichkeit",
+	  "time": "15",
+	  "dimensions": "Extraversion, Verträglichkeit, Gewissenhaftigkeit, Neurotizismus, Offenheit für Erfahrungen",
+	  "aim": "Erhebung und Analyse der grundlegenden Persönlichkeitsmerkmale zur Beschreibung individueller Verhaltensmuster und Präferenzen",
+	  "method": "Selbsteinschätzung, optional Fremdeinschätzung",
+	  "short": "Das BIG 5 Modell beschreibt fünf Hauptdimensionen der Persönlichkeit, die das Verhalten und die Reaktionen einer Person prägen.",
+	  "desc": "Das BIG 5 Modell, auch als Fünf-Faktoren-Modell bekannt, basiert auf fünf grundlegenden Persönlichkeitsdimensionen: Extraversion (soziale Energie und Geselligkeit), Verträglichkeit (Kooperation und Einfühlungsvermögen), Gewissenhaftigkeit (Selbstdisziplin und Organisation), Neurotizismus (emotionale Stabilität) und Offenheit für Erfahrungen (Kreativität und Neugier). Ziel des Modells ist es, ein ganzheitliches Bild der Persönlichkeit zu erfassen und individuelle Verhaltensmuster auf einer breiten und allgemein anerkannten Grundlage zu beschreiben. Es wird häufig in Forschung, Berufsberatung und Personalentwicklung eingesetzt, um persönliche Stärken und Entwicklungspotentiale zu identifizieren."
+  },
+  "strength": {
+	  "title": "Strength",
+	  "aka": "Stärken-Schwächen-Analyse",
+	  "time": "25",
+	  "dimensions": "psersönliche Stärken und Schwächen, Kompetenzbereiche",
+	  "aim": "Identifikation individueller Stärken und Schwächen zur Förderung der Selbstreflexion und Entwicklung persönlicher und beruflicher Kompetenzen",
+	  "method": "Selbsteinschätzung mit gezielten Fragen zu persönlichen Präferenzen und Verhaltensweisen, optional Fremdeinschätzung",
+	  "short": "Der Strengths and Weaknesses Test hilft, individuelle Stärken und Schwächen zu erkennen und gezielt zu fördern.",
+	  "desc": "Der Strengths and Weaknesses Test ist darauf ausgerichtet, individuelle Stärken und Schwächen in verschiedenen Bereichen der Persönlichkeit und Kompetenzen zu identifizieren. Mithilfe gezielter Fragen zu Verhaltensweisen und Präferenzen werden charakterliche und berufliche Stärken sowie Entwicklungsfelder herausgearbeitet. Dieser Test wird häufig in der persönlichen und beruflichen Weiterentwicklung, im Coaching und zur Teamentwicklung eingesetzt, um das Potenzial der Teilnehmer zu maximieren und gezielte Entwicklungsmaßnahmen einzuleiten."
+	},
+  "number": {
+	  "title": "Number Test",
+	  "aka": "Zahlentest für Merkfähigkeit und Konzentration",
+	  "time": "14",
+	  "dimensions": "Merkfähigkeit, Konzentration, Stressresistenz",
+	  "aim": "Messung der Fähigkeit, sich Zahlen verschiedener Länge kurzfristig zu merken und unter Stressbedingungen zu reproduzieren",
+	  "method": "Einzeltest: Zahl wird für eine kurze Zeit präsentiert, ausgeblendet und muss dann korrekt eingegeben werden",
+	  "short": "Der Number Test misst Merkfähigkeit, Konzentration und Stressresistenz durch kurzfristiges Einprägen von Zahlen.",
+	  "desc": "Der Number Test bewertet die kognitive Fähigkeit, sich Zahlen unterschiedlicher Länge kurzfristig einzuprägen und unter Stressbedingungen präzise zu reproduzieren. Teilnehmer sehen eine Zahl für einige Sekunden, die dann verschwindet und aus dem Gedächtnis eingegeben werden muss. Der Test ist besonders hilfreich zur Beurteilung der Merkfähigkeit und Konzentrationsstärke und wird oft als Stresstest eingesetzt, um die Stressresistenz in anspruchsvollen Situationen zu bewerten."
+   },
+  "recogn" : {
+      "title": "Recognition",
+	  "aka": "Wiedererkennungstest",
+	  "time": "15",
+	  "dimensions": "Wiedererkennung, Aufmerksamkeit, Gedächtnisleistung",
+	  "aim": "Ermittlung der Fähigkeit zur Wiedererkennung von zuvor gezeigten Symbolen, Zahlen oder Texten",
+	  "method": "Einzeltest: Symbole, Zahlen oder Texte werden nacheinander eingeblendet, und der Proband bestätigt, ob sie bereits präsentiert wurden",
+	  "short": "Der Recognition Test misst die Fähigkeit zur Wiedererkennung von zuvor gezeigten Inhalten und erfordert hohe Aufmerksamkeit.",
+	  "desc": "Der Recognition Test dient der Überprüfung der Gedächtnisleistung, insbesondere der Wiedererkennungsfähigkeit. Dem Teilnehmer werden nacheinander verschiedene Symbole, Zahlen oder Texte gezeigt, und er muss angeben, ob er das jeweilige Element bereits gesehen hat. Der Test erfordert fokussierte Aufmerksamkeit und ist hilfreich zur Bewertung der Fähigkeit, sich Informationen kurzzeitig zu merken und wiederzuerkennen. Er wird häufig in kognitiven und neuropsychologischen Untersuchungen eingesetzt."
+  },
+  "pattern": {
+	  "title": "Pattern",
+	  "aka": "Mustererkennungstest",
+	  "time": "20",
+	  "dimensions": "Mustererkennung, logisches Denken, Problemlösungsfähigkeit",
+	  "aim": "Erfassung der Fähigkeit, logische Muster und Zusammenhänge zu erkennen und zu vervollständigen",
+	  "method": "Einzeltest: Ergänzung von Zahlenfolgen, Wortergänzungen, Zuordnungen und Identifikation passender Muster",
+	  "short": "Der Pattern Test misst logisches Denken und Problemlösungsfähigkeit durch das Erkennen und Vervollständigen von Mustern.",
+	  "desc": "Der Pattern Test dient zur Bewertung kognitiver Fähigkeiten wie logisches Denken, Mustererkennung und Problemlösung. Die Teilnehmer müssen Zahlenfolgen, Wortmuster oder grafische Muster vervollständigen oder passende Zuordnungen finden. Dieser Test wird häufig in der Intelligenzdiagnostik und bei der Auswahl von Kandidaten eingesetzt, um die Fähigkeit zu bewerten, Zusammenhänge zu erkennen und komplexe Muster zu entschlüsseln."
+	}
+  
+}

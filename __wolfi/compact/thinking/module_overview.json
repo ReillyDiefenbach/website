@@ -1,0 +1,90 @@
+{
+  "schema": "pna.content.website.family_module_overview.v2",
+  "lang": "de",
+  "scope": "family",
+  "family": "thinking",
+  "title": "Think & Act",
+  "status": "draft_pending_content_writer",
+  "source_refs": {
+    "family_json": "family/thinking/family.json",
+    "family_doku": "family/thinking/doku/freezed_doku.md",
+    "family_faq": "family/thinking/faq/de.json"
+  },
+  "sections": {
+    "introduction": {
+      "nav_label": "Einleitung",
+      "title": "Wie Denken zu Handlung wird",
+      "lead": "Think & Act macht sichtbar, wie Menschen Informationen ordnen und daraus Entscheidungen, Impulse oder nächste Schritte ableiten.",
+      "body": "Der Test setzt dort an, wo Unterschiede im Alltag besonders spürbar werden: Manche Menschen öffnen zuerst Möglichkeiten, andere suchen Klarheit und Reihenfolge. Manche probieren früh aus, andere prüfen zuerst Bedeutung, Folgen und Zusammenhang. Think & Act gibt diesen Unterschieden eine verständliche Sprache."
+    },
+    "structure": {
+      "nav_label": "Aufbau",
+      "title": "Eine Family, zwei Kontexte",
+      "lead": "Think & Act ist als Family aufgebaut: Die Grundlogik bleibt gleich, die Anwendungssprache unterscheidet sich je nach Kontext.",
+      "points": [
+        "Die Business-Variante beschreibt Denk- und Handlungsmuster im Arbeits-, Team- und Organisationskontext.",
+        "Die Personal-Variante beschreibt dieselbe Grundspannung im persönlichen Alltag, bei Selbststeuerung und privaten Entscheidungen.",
+        "Beide Varianten nutzen dieselben Achsen und Orientierungen, werden aber getrennt ausgewertet und unterschiedlich formuliert."
+      ]
+    },
+    "tension": {
+      "nav_label": "Spannungsfelder"
+    },
+    "axes": {
+      "nav_label": "Achsen",
+      "title": "Zwei Achsen für Denken und Handeln",
+      "lead": "Das Modul verbindet zwei Spannungsfelder: wie Informationen verarbeitet werden und wie daraus Handlung entsteht.",
+      "points": [
+        "Konzeption und Struktur beschreiben, ob Denken stärker über Möglichkeiten, Muster und Zusammenhänge oder über Ordnung, Sequenz und Klarheit organisiert wird.",
+        "Spontanität und Reflexion beschreiben, ob Handlung eher früh aus einem Impuls entsteht oder erst nach Prüfung, Abwägung und Einordnung festgelegt wird."
+      ]
+    },
+    "quadrants": {
+      "nav_label": "Quadranten",
+      "title": "Vier Lesarten deiner Orientierung",
+      "lead": "Aus den beiden Achsen entstehen vier Quadranten. Sie zeigen, welche Kombination aus Denken und Handeln in einem Ergebnis besonders sichtbar wird.",
+      "points": [
+        "Ein Quadrant kann zeigen, dass jemand Möglichkeiten öffnet und früh in Bewegung bringt.",
+        "Ein Quadrant kann zeigen, dass jemand Struktur schafft und Dinge praktisch formt.",
+        "Ein Quadrant kann zeigen, dass jemand Abläufe, Stabilität und Planbarkeit stärker gewichtet.",
+        "Ein Quadrant kann zeigen, dass jemand Zusammenhänge prüft, Bedeutung einordnet und Entscheidungen reflektiert vorbereitet."
+      ]
+    },
+    "value": {
+      "nav_label": "Nutzen",
+      "title": "Was du über dich lernen kannst",
+      "lead": "Der Test hilft dir zu verstehen, welche Denk- und Handlungslogik bei dir stärker in den Vordergrund tritt.",
+      "points": [
+        "Du erkennst, ob du Situationen eher über Möglichkeiten, Struktur, frühes Ausprobieren oder reflektiertes Einordnen erschließt.",
+        "Du bekommst Sprache für Muster, die im Alltag oft nur als Tempo, Stil, Reibung oder Bauchgefühl wahrgenommen werden.",
+        "Du kannst besser einschätzen, wann deine Orientierung hilfreich ist und wann eine ergänzende Perspektive nützlich wird."
+      ]
+    },
+    "results": {
+      "nav_label": "Ergebnisse",
+      "title": "Was im Ergebnis sichtbar wird",
+      "lead": "Die Ergebnisdarstellung übersetzt die Modelllogik in verständliche Hinweise für Selbstreflexion, Kommunikation und Entwicklung.",
+      "points": [
+        "Die Orientierung zeigt, welche Richtung im Denk- und Handlungsmuster besonders prägend ist.",
+        "Prioritäten und Wirkungsraum beschreiben, welche Dynamiken im Ergebnis stärker hervortreten.",
+        "Das Rollenprofil macht die Family-Logik im jeweiligen Kontext greifbar und verbindet sie später mit Achsen-, Orientierungs- und Quadranten-Factsheets."
+      ]
+    },
+    "use_cases": {
+      "nav_label": "Praxis",
+      "title": "Wo Think & Act praktisch hilft",
+      "lead": "Think & Act ist besonders nützlich, wenn Menschen gemeinsam denken, entscheiden, abstimmen oder Vorhaben in Bewegung bringen.",
+      "points": [
+        "In der Selbstreflexion hilft das Modul, eigene Arbeits-, Entscheidungs- und Reaktionsmuster bewusster wahrzunehmen.",
+        "In Teams kann es erklären, warum manche Personen öffnen, andere strukturieren, manche früh handeln und andere zuerst prüfen.",
+        "In Führung, Coaching, Projektarbeit und Kommunikation schafft es eine gemeinsame Sprache für Unterschiede, die sonst schnell persönlich missverstanden werden."
+      ]
+    }
+  },
+  "do_not_say": [
+    "Think & Act misst Intelligenz.",
+    "Think & Act bewertet berufliche Eignung.",
+    "Business und Personal sind derselbe Fragebogen.",
+    "Die Family-Seite muss alle allgemeinen Testgrenzen ausformulieren."
+  ]
+}

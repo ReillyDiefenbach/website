@@ -1,0 +1,630 @@
+{
+  "schema": "pna.model_results_basics.v1",
+  "task": "model_results",
+  "model_key": "roles_biz",
+  "family": "roles",
+  "language": "de",
+  "wording_source": "canon/results/framework_result_wording.json",
+  "contract_source": "canon/results/model_results_contract.json",
+  "generated_at": "2026-07-02T14:51:21Z",
+  "result_status": "revision_generated_pending_review",
+  "limits_carried_from_science_review": [
+    "Der Aktivator-Raum wird vorsichtig formuliert, weil der Aufgabenbezug teilweise über Kontext und Rollenlogik gestützt wird.",
+    "Testkontext-Hinweise bleiben interne Einordnungshilfen und werden nicht als eigenständige Evidenz behauptet."
+  ],
+  "results": {
+    "orientation": {
+      "X": {
+        "short": "Orientierung",
+        "aka": "Role",
+        "headline": "Orientierung steht im Vordergrund",
+        "personal_text": "Bei dir wird im beruflichen Rollen- und Teamkontext vor allem Mensch und Aufgabe als Zugang sichtbar. Das beschreibt, worüber dein beruflichen Rollenbeitrag zuerst gelesen wird; der zweite Zugang bleibt als ergänzende Perspektive mit relevant.",
+        "external_text": "Die Ausrichtung verdichtet sich stärker auf Orientierung. Das beschreibt einen modellbezogenen Zugang im beruflichen Rollen- und Teamkontext, keine feste Eigenschaft.",
+        "description": "Diese Achse beschreibt, ob ein Rollenbeitrag im Arbeitskontext stärker über Menschen, Beziehung und soziale Dynamik oder über Aufgaben, Ziele und sachliche Problemlösung entsteht.",
+        "strength": "Macht sichtbar, über welchen Zugang der beruflichen Rollenbeitrag bevorzugt entsteht.",
+        "risk": "Kann den ergänzenden Zugang zeitweise zu wenig berücksichtigen, wenn eine Situation bewussten Ausgleich verlangt.",
+        "keywords": [
+          "Orientierung",
+          "Role",
+          "Orientierung"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn die Orientierung-Achse gegenüber der anderen Achse erkennbar dominiert.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "Y": {
+        "short": "Arbeitsstil",
+        "aka": "Impact",
+        "headline": "Arbeitsstil steht im Vordergrund",
+        "personal_text": "Bei dir wird im beruflichen Rollen- und Teamkontext vor allem Flexibilität und Struktur als Zugang sichtbar. Das beschreibt, worüber dein beruflichen Rollenbeitrag zuerst gelesen wird; der zweite Zugang bleibt als ergänzende Perspektive mit relevant.",
+        "external_text": "Die Ausrichtung verdichtet sich stärker auf Arbeitsstil. Das beschreibt einen modellbezogenen Zugang im beruflichen Rollen- und Teamkontext, keine feste Eigenschaft.",
+        "description": "Diese Achse beschreibt, ob ein Rollenbeitrag eher über Offenheit, Anpassung und Bewegung oder über Planung, Ordnung und Verlässlichkeit wirksam wird.",
+        "strength": "Macht sichtbar, über welchen Zugang der beruflichen Rollenbeitrag bevorzugt entsteht.",
+        "risk": "Kann den ergänzenden Zugang zeitweise zu wenig berücksichtigen, wenn eine Situation bewussten Ausgleich verlangt.",
+        "keywords": [
+          "Arbeitsstil",
+          "Impact",
+          "Orientierung"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn die Arbeitsstil-Achse gegenüber der anderen Achse erkennbar dominiert.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "XY": {
+        "short": "Ausgewogene Orientierung",
+        "aka": "Balanced Orientation",
+        "headline": "Beide Zugänge bleiben sichtbar",
+        "personal_text": "Bei dir zeigen sich im beruflichen Rollen- und Teamkontext beide Grundzugänge nah beieinander. Dein Rollenbeitrag bleibt deshalb als Verbindung beider Zugänge lesbar.",
+        "external_text": "Die Ausrichtung zeigt eine Balance zwischen beiden Grundzugängen. Das beschreibt eine modellbezogene Verteilung, keine Unentschiedenheit.",
+        "description": "Beschreibt eine annähernde Balance zwischen den beiden Grundachsen des Modells.",
+        "strength": "Ermöglicht situationsbezogenen Wechsel zwischen unterschiedlichen Zugängen.",
+        "risk": "Kann weniger eindeutig wirken, wenn ein einzelner Zugang stark erwartet wird.",
+        "keywords": [
+          "Balance",
+          "Orientierung",
+          "Achsenausgleich"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn beide Achsen innerhalb der definierten Balance-Toleranz liegen.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      }
+    },
+    "priorities": {
+      "W": {
+        "short": "Mensch",
+        "aka": "menschennah",
+        "headline": "Mensch als Priorität",
+        "personal_text": "Bei dir wird Mensch im beruflichen Rollen- und Teamkontext besonders sichtbar. Du gewichtest diese Richtung stärker, wenn Rollenbeiträge eingeordnet und ausgedrückt werden.",
+        "external_text": "Die Person zeigt eine stärkere Gewichtung von Mensch. Das ist ein modellbezogener Hinweis, kein allgemeines Urteil.",
+        "description": "Mensch beschreibt die Richtung menschennah innerhalb des Modells.",
+        "strength": "Stärkt Rollenbeiträge, die über Mensch verständlich und anschlussfähig werden.",
+        "risk": "Kann die Gegenrichtung zeitweise zu wenig einbeziehen, wenn die Situation bewussten Ausgleich verlangt.",
+        "keywords": [
+          "Mensch",
+          "menschennah",
+          "Priorität"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn Mensch gegenüber der Gegenrichtung dominiert.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "E": {
+        "short": "Aufgabe",
+        "aka": "aufgabenbezogen",
+        "headline": "Aufgabe als Priorität",
+        "personal_text": "Bei dir wird Aufgabe im beruflichen Rollen- und Teamkontext besonders sichtbar. Du gewichtest diese Richtung stärker, wenn Rollenbeiträge eingeordnet und ausgedrückt werden.",
+        "external_text": "Die Person zeigt eine stärkere Gewichtung von Aufgabe. Das ist ein modellbezogener Hinweis, kein allgemeines Urteil.",
+        "description": "Aufgabe beschreibt die Richtung aufgabenbezogen innerhalb des Modells.",
+        "strength": "Stärkt Rollenbeiträge, die über Aufgabe verständlich und anschlussfähig werden.",
+        "risk": "Kann die Gegenrichtung zeitweise zu wenig einbeziehen, wenn die Situation bewussten Ausgleich verlangt.",
+        "keywords": [
+          "Aufgabe",
+          "aufgabenbezogen",
+          "Priorität"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn Aufgabe gegenüber der Gegenrichtung dominiert.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "WE": {
+        "short": "Mensch und Aufgabe",
+        "aka": "Balanced Priority",
+        "headline": "Mensch und Aufgabe bleiben im Ausgleich",
+        "personal_text": "Bei dir liegen Mensch und Aufgabe im beruflichen Rollen- und Teamkontext nah beieinander. Beide Richtungen bleiben gemeinsam relevant, ohne eine Seite vorschnell als führend zu setzen.",
+        "external_text": "Die Gewichtung zwischen Mensch und Aufgabe ist ausgeglichen. Das beschreibt eine Balance im Modell, keine fehlende Ausprägung.",
+        "description": "Beschreibt eine annähernde Balance zwischen Mensch und Aufgabe.",
+        "strength": "Ermöglicht flexible Einordnung zwischen zwei gegensätzlichen Richtungen.",
+        "risk": "Kann für Außenstehende weniger eindeutig wirken, wenn klare Priorisierung erwartet wird.",
+        "keywords": [
+          "Mensch",
+          "Aufgabe",
+          "Balance"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn Mensch und Aufgabe innerhalb der Balance-Toleranz liegen.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "N": {
+        "short": "Flexibilität",
+        "aka": "flexibel",
+        "headline": "Flexibilität als Priorität",
+        "personal_text": "Bei dir wird Flexibilität im beruflichen Rollen- und Teamkontext besonders sichtbar. Du gewichtest diese Richtung stärker, wenn Rollenbeiträge eingeordnet und ausgedrückt werden.",
+        "external_text": "Die Person zeigt eine stärkere Gewichtung von Flexibilität. Das ist ein modellbezogener Hinweis, kein allgemeines Urteil.",
+        "description": "Flexibilität beschreibt die Richtung flexibel innerhalb des Modells.",
+        "strength": "Stärkt Rollenbeiträge, die über Flexibilität verständlich und anschlussfähig werden.",
+        "risk": "Kann die Gegenrichtung zeitweise zu wenig einbeziehen, wenn die Situation bewussten Ausgleich verlangt.",
+        "keywords": [
+          "Flexibilität",
+          "flexibel",
+          "Priorität"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn Flexibilität gegenüber der Gegenrichtung dominiert.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "S": {
+        "short": "Struktur",
+        "aka": "strukturiert",
+        "headline": "Struktur als Priorität",
+        "personal_text": "Bei dir wird Struktur im beruflichen Rollen- und Teamkontext besonders sichtbar. Du gewichtest diese Richtung stärker, wenn Rollenbeiträge eingeordnet und ausgedrückt werden.",
+        "external_text": "Die Person zeigt eine stärkere Gewichtung von Struktur. Das ist ein modellbezogener Hinweis, kein allgemeines Urteil.",
+        "description": "Struktur beschreibt die Richtung strukturiert innerhalb des Modells.",
+        "strength": "Stärkt Rollenbeiträge, die über Struktur verständlich und anschlussfähig werden.",
+        "risk": "Kann die Gegenrichtung zeitweise zu wenig einbeziehen, wenn die Situation bewussten Ausgleich verlangt.",
+        "keywords": [
+          "Struktur",
+          "strukturiert",
+          "Priorität"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn Struktur gegenüber der Gegenrichtung dominiert.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "NS": {
+        "short": "Flexibilität und Struktur",
+        "aka": "Balanced Priority",
+        "headline": "Flexibilität und Struktur bleiben im Ausgleich",
+        "personal_text": "Bei dir liegen Flexibilität und Struktur im beruflichen Rollen- und Teamkontext nah beieinander. Beide Richtungen bleiben gemeinsam relevant, ohne eine Seite vorschnell als führend zu setzen.",
+        "external_text": "Die Gewichtung zwischen Flexibilität und Struktur ist ausgeglichen. Das beschreibt eine Balance im Modell, keine fehlende Ausprägung.",
+        "description": "Beschreibt eine annähernde Balance zwischen Flexibilität und Struktur.",
+        "strength": "Ermöglicht flexible Einordnung zwischen zwei gegensätzlichen Richtungen.",
+        "risk": "Kann für Außenstehende weniger eindeutig wirken, wenn klare Priorisierung erwartet wird.",
+        "keywords": [
+          "Flexibilität",
+          "Struktur",
+          "Balance"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn Flexibilität und Struktur innerhalb der Balance-Toleranz liegen.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      }
+    },
+    "impact_space": {
+      "Q1": {
+        "short": "Pionier",
+        "aka": "Innovator",
+        "headline": "Der Pionier",
+        "personal_text": "Bei dir bündelt sich die Ausrichtung im beruflichen Rollen- und Teamkontext im Rollenraum Pionier. Menschennah und flexibel; erkennt neue Möglichkeiten in der Zusammenarbeit, verbindet Perspektiven und öffnet Teams für kreative Impulse.",
+        "external_text": "Die Ausrichtung verdichtet sich im Rollenraum Pionier. Das beschreibt eine Modellperspektive, keinen Typ.",
+        "description": "Menschennah und flexibel; erkennt neue Möglichkeiten in der Zusammenarbeit, verbindet Perspektiven und öffnet Teams für kreative Impulse.",
+        "strength": "Kreativ, vernetzend, initiativ",
+        "risk": "Kann in bestimmten Situationen Offenheit, Wechsel und neue Impulse stärker betonen als Verbindlichkeit oder Abschluss.",
+        "keywords": [
+          "Pionier",
+          "Innovator",
+          "Q1"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn Q1 der stärkste Wirkungsraum ist.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "Q2": {
+        "short": "Aktivator",
+        "aka": "Catalyst",
+        "headline": "Der Aktivator",
+        "personal_text": "Bei dir bündelt sich die Ausrichtung im beruflichen Rollen- und Teamkontext im Rollenraum Aktivator. Aufgabenbezogen und flexibel; bringt Vorhaben in Bewegung, aktiviert Fortschritt und passt Wege pragmatisch an neue Anforderungen an. Der aufgabenbezogene Anteil zeigt sich vor allem über konkrete Rollenbeiträge, Kontext und wiederkehrende Hinweise.",
+        "external_text": "Die Ausrichtung verdichtet sich im Rollenraum Aktivator. Das beschreibt eine Modellperspektive, keinen Typ.",
+        "description": "Aufgabenbezogen und flexibel; bringt Vorhaben in Bewegung, aktiviert Fortschritt und passt Wege pragmatisch an neue Anforderungen an.",
+        "strength": "Zielorientiert, beweglich, aktivierend",
+        "risk": "Kann in bestimmten Situationen Tempo und Aktivierung stärker gewichten als Konsistenz, Nachhalten oder ruhige Abstimmung.",
+        "keywords": [
+          "Aktivator",
+          "Catalyst",
+          "Q2"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn Q2 der stärkste Wirkungsraum ist.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "Q3": {
+        "short": "Umsetzer",
+        "aka": "Implementer",
+        "headline": "Der Umsetzer",
+        "personal_text": "Bei dir bündelt sich die Ausrichtung im beruflichen Rollen- und Teamkontext im Rollenraum Umsetzer. Aufgabenbezogen und strukturiert; schafft Ordnung, sichert Qualität und bringt Vorhaben zuverlässig in die Umsetzung.",
+        "external_text": "Die Ausrichtung verdichtet sich im Rollenraum Umsetzer. Das beschreibt eine Modellperspektive, keinen Typ.",
+        "description": "Aufgabenbezogen und strukturiert; schafft Ordnung, sichert Qualität und bringt Vorhaben zuverlässig in die Umsetzung.",
+        "strength": "Präzise, effizient, verlässlich",
+        "risk": "Kann in bestimmten Situationen Standards, Kontrolle oder Perfektion so stark gewichten, dass Anpassung und Beteiligung leiden.",
+        "keywords": [
+          "Umsetzer",
+          "Implementer",
+          "Q3"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn Q3 der stärkste Wirkungsraum ist.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "Q4": {
+        "short": "Koordinator",
+        "aka": "Coordinator",
+        "headline": "Der Koordinator",
+        "personal_text": "Bei dir bündelt sich die Ausrichtung im beruflichen Rollen- und Teamkontext im Rollenraum Koordinator. Menschennah und strukturiert; sorgt für Abstimmung, integriert unterschiedliche Perspektiven und schafft tragfähige Zusammenarbeit.",
+        "external_text": "Die Ausrichtung verdichtet sich im Rollenraum Koordinator. Das beschreibt eine Modellperspektive, keinen Typ.",
+        "description": "Menschennah und strukturiert; sorgt für Abstimmung, integriert unterschiedliche Perspektiven und schafft tragfähige Zusammenarbeit.",
+        "strength": "Verbindlich, integrierend, stabilisierend",
+        "risk": "Kann in bestimmten Situationen Harmonie, Rücksichtnahme oder Konsens so stark gewichten, dass klare Konfliktklärung zu spät erfolgt.",
+        "keywords": [
+          "Koordinator",
+          "Coordinator",
+          "Q4"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn Q4 der stärkste Wirkungsraum ist.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "Q12": {
+        "short": "Pionier und Aktivator in Balance",
+        "aka": "Innovator-Catalyst Balance",
+        "headline": "Pionier und Aktivator ausbalanciert",
+        "personal_text": "Bei dir tragen die Rollenräume Pionier und Aktivator gemeinsam. Keine der beiden Perspektiven wird als führend formuliert.",
+        "external_text": "Die Person zeigt eine Balance zwischen den Rollenräume Pionier und Aktivator. Es wird keine Primärdominanz behauptet.",
+        "description": "Q12 beschreibt eine ungeordnete Balance der benachbarten Wirkungsräume Q1 und Q2.",
+        "strength": "Verbindet Kreativ, vernetzend, initiativ mit Zielorientiert, beweglich, aktivierend.",
+        "risk": "Kann weniger eindeutig wirken, ist aber fachlich sauberer als eine erzwungene Quadrantendominanz.",
+        "keywords": [
+          "Q12",
+          "Pionier",
+          "Aktivator",
+          "Balance"
+        ],
+        "interpretation_rule": "Als Balance zwischen Q1 und Q2 interpretieren; keine Primärdominanz und kein Rollenprofil daraus ableiten.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "Q14": {
+        "short": "Pionier und Koordinator in Balance",
+        "aka": "Innovator-Coordinator Balance",
+        "headline": "Pionier und Koordinator ausbalanciert",
+        "personal_text": "Bei dir tragen die Rollenräume Pionier und Koordinator gemeinsam. Keine der beiden Perspektiven wird als führend formuliert.",
+        "external_text": "Die Person zeigt eine Balance zwischen den Rollenräume Pionier und Koordinator. Es wird keine Primärdominanz behauptet.",
+        "description": "Q14 beschreibt eine ungeordnete Balance der benachbarten Wirkungsräume Q1 und Q4.",
+        "strength": "Verbindet Kreativ, vernetzend, initiativ mit Verbindlich, integrierend, stabilisierend.",
+        "risk": "Kann weniger eindeutig wirken, ist aber fachlich sauberer als eine erzwungene Quadrantendominanz.",
+        "keywords": [
+          "Q14",
+          "Pionier",
+          "Koordinator",
+          "Balance"
+        ],
+        "interpretation_rule": "Als Balance zwischen Q1 und Q4 interpretieren; keine Primärdominanz und kein Rollenprofil daraus ableiten.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "Q23": {
+        "short": "Aktivator und Umsetzer in Balance",
+        "aka": "Catalyst-Implementer Balance",
+        "headline": "Aktivator und Umsetzer ausbalanciert",
+        "personal_text": "Bei dir tragen die Rollenräume Aktivator und Umsetzer gemeinsam. Keine der beiden Perspektiven wird als führend formuliert.",
+        "external_text": "Die Person zeigt eine Balance zwischen den Rollenräume Aktivator und Umsetzer. Es wird keine Primärdominanz behauptet.",
+        "description": "Q23 beschreibt eine ungeordnete Balance der benachbarten Wirkungsräume Q2 und Q3.",
+        "strength": "Verbindet Zielorientiert, beweglich, aktivierend mit Präzise, effizient, verlässlich.",
+        "risk": "Kann weniger eindeutig wirken, ist aber fachlich sauberer als eine erzwungene Quadrantendominanz.",
+        "keywords": [
+          "Q23",
+          "Aktivator",
+          "Umsetzer",
+          "Balance"
+        ],
+        "interpretation_rule": "Als Balance zwischen Q2 und Q3 interpretieren; keine Primärdominanz und kein Rollenprofil daraus ableiten.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "Q34": {
+        "short": "Umsetzer und Koordinator in Balance",
+        "aka": "Implementer-Coordinator Balance",
+        "headline": "Umsetzer und Koordinator ausbalanciert",
+        "personal_text": "Bei dir tragen die Rollenräume Umsetzer und Koordinator gemeinsam. Keine der beiden Perspektiven wird als führend formuliert.",
+        "external_text": "Die Person zeigt eine Balance zwischen den Rollenräume Umsetzer und Koordinator. Es wird keine Primärdominanz behauptet.",
+        "description": "Q34 beschreibt eine ungeordnete Balance der benachbarten Wirkungsräume Q3 und Q4.",
+        "strength": "Verbindet Präzise, effizient, verlässlich mit Verbindlich, integrierend, stabilisierend.",
+        "risk": "Kann weniger eindeutig wirken, ist aber fachlich sauberer als eine erzwungene Quadrantendominanz.",
+        "keywords": [
+          "Q34",
+          "Umsetzer",
+          "Koordinator",
+          "Balance"
+        ],
+        "interpretation_rule": "Als Balance zwischen Q3 und Q4 interpretieren; keine Primärdominanz und kein Rollenprofil daraus ableiten.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "Q0": {
+        "short": "Ausgewogener Wirkungsraum",
+        "aka": "Balanced Impact",
+        "headline": "Mehrere Rollenräume sind sichtbar",
+        "personal_text": "Bei dir bündelt sich die Ausrichtung im beruflichen Rollen- und Teamkontext nicht eindeutig in einem einzelnen Rollenraum. Mehrere Rollenräume liegen nah genug beieinander, um gemeinsam gelesen zu werden.",
+        "external_text": "Die Ausrichtung verteilt sich auf mehrere Rollenräume. Das bedeutet nicht Schwäche oder Unentschiedenheit.",
+        "description": "Q0 beschreibt eine annähernd ausgewogene Nutzung mehrerer Wirkungsräume; bei vollständigem Gleichstand aller vier Halbachsen greift stattdessen XY_BALANCED.",
+        "strength": "Kann situationsbezogene Breite und Wechsel zwischen Rollenbeiträgen ermöglichen.",
+        "risk": "Kann weniger eindeutig wirken, wenn ein einzelner Rollenbeitrag erwartet wird.",
+        "keywords": [
+          "Wirkungsraum",
+          "Balance",
+          "Rollenräume"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn kein einzelner oder paarweiser Wirkungsraum dominant ist und kein vollständiger Halbachsen-Gleichstand W=E=N=S vorliegt.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis",
+          "vollständige Halbachsen-Balance W=E=N=S"
+        ]
+      }
+    },
+    "role_profile": {
+      "R0": {
+        "short": "Kein geordnetes Rollenprofil",
+        "aka": "Role Layer Null Case",
+        "headline": "Keine tragfähige Rollenordnung",
+        "personal_text": "Bei dir lässt sich aus der Rollen- und Verantwortungsausrichtung kein tragfähiges primäres und sekundäres Rollenprofil ableiten. Die Auswertung bleibt deshalb beim Wirkungsraum und erzeugt kein Facettenspektrum.",
+        "external_text": "Die Rollenebene zeigt R0 als sichtbaren Balance- oder Nullfall. Das ist kein Rollenprofil und keine Schwäche.",
+        "description": "R0 wird verwendet, wenn keine geordnete Primär-/Sekundärdominanz tragfähig ableitbar ist.",
+        "strength": "Verhindert eine Scheingenauigkeit bei echter Balance oder breiter Verteilung.",
+        "risk": "Kann weniger eindeutig wirken, ist aber fachlich sauberer als ein erzwungener Rollenkey.",
+        "keywords": [
+          "R0",
+          "Balance",
+          "Rollenebene"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn keine tragfähige geordnete Primär-/Sekundärdominanz ableitbar ist; bei R0 kein Facettenspektrum erzeugen.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "R12": {
+        "short": "Pionier mit Aktivator",
+        "aka": "Innovator-Catalyst",
+        "headline": "Pionier führt, Aktivator ergänzt",
+        "personal_text": "Bei dir steht Pionier im beruflichen Rollen- und Teamkontext als führender Rollenbeitrag im Vordergrund. Aktivator ergänzt diese Ausrichtung als zweite erkennbare Kraft. Dadurch entsteht ein funktionales Rollenprofil, kein fixer Typ. Der aufgabenbezogene Anteil zeigt sich vor allem über konkrete Rollenbeiträge, Kontext und wiederkehrende Hinweise.",
+        "external_text": "Das Rollenprofil zeigt Pionier als primäre und Aktivator als sekundäre Verdichtung. Die Reihenfolge beschreibt die Modelllogik, keine starre Personenkategorie.",
+        "description": "Beschreibt ein geordnetes Rollenprofil mit Pionier als Primär- und Aktivator als Sekundärraum.",
+        "strength": "Verbindet die Ressource von Pionier mit einer ergänzenden Perspektive aus Aktivator.",
+        "risk": "Kann einseitig wirken, wenn der ergänzende Rollenraum in der Situation zu wenig berücksichtigt wird.",
+        "keywords": [
+          "R12",
+          "Pionier",
+          "Aktivator"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn Q1 Primär- und Q2 Sekundärraum ist. Bei echter Balance wird kein Rollenprofil erzeugt. Testkontext-Hinweise bleiben interne Einordnungshilfen.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "R14": {
+        "short": "Pionier mit Koordinator",
+        "aka": "Innovator-Coordinator",
+        "headline": "Pionier führt, Koordinator ergänzt",
+        "personal_text": "Bei dir steht Pionier im beruflichen Rollen- und Teamkontext als führender Rollenbeitrag im Vordergrund. Koordinator ergänzt diese Ausrichtung als zweite erkennbare Kraft. Dadurch entsteht ein funktionales Rollenprofil, kein fixer Typ.",
+        "external_text": "Das Rollenprofil zeigt Pionier als primäre und Koordinator als sekundäre Verdichtung. Die Reihenfolge beschreibt die Modelllogik, keine starre Personenkategorie.",
+        "description": "Beschreibt ein geordnetes Rollenprofil mit Pionier als Primär- und Koordinator als Sekundärraum.",
+        "strength": "Verbindet die Ressource von Pionier mit einer ergänzenden Perspektive aus Koordinator.",
+        "risk": "Kann einseitig wirken, wenn der ergänzende Rollenraum in der Situation zu wenig berücksichtigt wird.",
+        "keywords": [
+          "R14",
+          "Pionier",
+          "Koordinator"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn Q1 Primär- und Q4 Sekundärraum ist. Bei echter Balance wird kein Rollenprofil erzeugt. Testkontext-Hinweise bleiben interne Einordnungshilfen.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "R21": {
+        "short": "Aktivator mit Pionier",
+        "aka": "Catalyst-Innovator",
+        "headline": "Aktivator führt, Pionier ergänzt",
+        "personal_text": "Bei dir steht Aktivator im beruflichen Rollen- und Teamkontext als führender Rollenbeitrag im Vordergrund. Pionier ergänzt diese Ausrichtung als zweite erkennbare Kraft. Dadurch entsteht ein funktionales Rollenprofil, kein fixer Typ. Der aufgabenbezogene Anteil zeigt sich vor allem über konkrete Rollenbeiträge, Kontext und wiederkehrende Hinweise.",
+        "external_text": "Das Rollenprofil zeigt Aktivator als primäre und Pionier als sekundäre Verdichtung. Die Reihenfolge beschreibt die Modelllogik, keine starre Personenkategorie.",
+        "description": "Beschreibt ein geordnetes Rollenprofil mit Aktivator als Primär- und Pionier als Sekundärraum.",
+        "strength": "Verbindet die Ressource von Aktivator mit einer ergänzenden Perspektive aus Pionier.",
+        "risk": "Kann einseitig wirken, wenn der ergänzende Rollenraum in der Situation zu wenig berücksichtigt wird.",
+        "keywords": [
+          "R21",
+          "Aktivator",
+          "Pionier"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn Q2 Primär- und Q1 Sekundärraum ist. Bei echter Balance wird kein Rollenprofil erzeugt. Testkontext-Hinweise bleiben interne Einordnungshilfen.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "R23": {
+        "short": "Aktivator mit Umsetzer",
+        "aka": "Catalyst-Implementer",
+        "headline": "Aktivator führt, Umsetzer ergänzt",
+        "personal_text": "Bei dir steht Aktivator im beruflichen Rollen- und Teamkontext als führender Rollenbeitrag im Vordergrund. Umsetzer ergänzt diese Ausrichtung als zweite erkennbare Kraft. Dadurch entsteht ein funktionales Rollenprofil, kein fixer Typ. Der aufgabenbezogene Anteil zeigt sich vor allem über konkrete Rollenbeiträge, Kontext und wiederkehrende Hinweise.",
+        "external_text": "Das Rollenprofil zeigt Aktivator als primäre und Umsetzer als sekundäre Verdichtung. Die Reihenfolge beschreibt die Modelllogik, keine starre Personenkategorie.",
+        "description": "Beschreibt ein geordnetes Rollenprofil mit Aktivator als Primär- und Umsetzer als Sekundärraum.",
+        "strength": "Verbindet die Ressource von Aktivator mit einer ergänzenden Perspektive aus Umsetzer.",
+        "risk": "Kann einseitig wirken, wenn der ergänzende Rollenraum in der Situation zu wenig berücksichtigt wird.",
+        "keywords": [
+          "R23",
+          "Aktivator",
+          "Umsetzer"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn Q2 Primär- und Q3 Sekundärraum ist. Bei echter Balance wird kein Rollenprofil erzeugt.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "R32": {
+        "short": "Umsetzer mit Aktivator",
+        "aka": "Implementer-Catalyst",
+        "headline": "Umsetzer führt, Aktivator ergänzt",
+        "personal_text": "Bei dir steht Umsetzer im beruflichen Rollen- und Teamkontext als führender Rollenbeitrag im Vordergrund. Aktivator ergänzt diese Ausrichtung als zweite erkennbare Kraft. Dadurch entsteht ein funktionales Rollenprofil, kein fixer Typ. Der aufgabenbezogene Anteil zeigt sich vor allem über konkrete Rollenbeiträge, Kontext und wiederkehrende Hinweise.",
+        "external_text": "Das Rollenprofil zeigt Umsetzer als primäre und Aktivator als sekundäre Verdichtung. Die Reihenfolge beschreibt die Modelllogik, keine starre Personenkategorie.",
+        "description": "Beschreibt ein geordnetes Rollenprofil mit Umsetzer als Primär- und Aktivator als Sekundärraum.",
+        "strength": "Verbindet die Ressource von Umsetzer mit einer ergänzenden Perspektive aus Aktivator.",
+        "risk": "Kann einseitig wirken, wenn der ergänzende Rollenraum in der Situation zu wenig berücksichtigt wird.",
+        "keywords": [
+          "R32",
+          "Umsetzer",
+          "Aktivator"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn Q3 Primär- und Q2 Sekundärraum ist. Bei echter Balance wird kein Rollenprofil erzeugt.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "R34": {
+        "short": "Umsetzer mit Koordinator",
+        "aka": "Implementer-Coordinator",
+        "headline": "Umsetzer führt, Koordinator ergänzt",
+        "personal_text": "Bei dir steht Umsetzer im beruflichen Rollen- und Teamkontext als führender Rollenbeitrag im Vordergrund. Koordinator ergänzt diese Ausrichtung als zweite erkennbare Kraft. Dadurch entsteht ein funktionales Rollenprofil, kein fixer Typ.",
+        "external_text": "Das Rollenprofil zeigt Umsetzer als primäre und Koordinator als sekundäre Verdichtung. Die Reihenfolge beschreibt die Modelllogik, keine starre Personenkategorie.",
+        "description": "Beschreibt ein geordnetes Rollenprofil mit Umsetzer als Primär- und Koordinator als Sekundärraum.",
+        "strength": "Verbindet die Ressource von Umsetzer mit einer ergänzenden Perspektive aus Koordinator.",
+        "risk": "Kann einseitig wirken, wenn der ergänzende Rollenraum in der Situation zu wenig berücksichtigt wird.",
+        "keywords": [
+          "R34",
+          "Umsetzer",
+          "Koordinator"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn Q3 Primär- und Q4 Sekundärraum ist. Bei echter Balance wird kein Rollenprofil erzeugt.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "R41": {
+        "short": "Koordinator mit Pionier",
+        "aka": "Coordinator-Innovator",
+        "headline": "Koordinator führt, Pionier ergänzt",
+        "personal_text": "Bei dir steht Koordinator im beruflichen Rollen- und Teamkontext als führender Rollenbeitrag im Vordergrund. Pionier ergänzt diese Ausrichtung als zweite erkennbare Kraft. Dadurch entsteht ein funktionales Rollenprofil, kein fixer Typ.",
+        "external_text": "Das Rollenprofil zeigt Koordinator als primäre und Pionier als sekundäre Verdichtung. Die Reihenfolge beschreibt die Modelllogik, keine starre Personenkategorie.",
+        "description": "Beschreibt ein geordnetes Rollenprofil mit Koordinator als Primär- und Pionier als Sekundärraum.",
+        "strength": "Verbindet die Ressource von Koordinator mit einer ergänzenden Perspektive aus Pionier.",
+        "risk": "Kann einseitig wirken, wenn der ergänzende Rollenraum in der Situation zu wenig berücksichtigt wird.",
+        "keywords": [
+          "R41",
+          "Koordinator",
+          "Pionier"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn Q4 Primär- und Q1 Sekundärraum ist. Bei echter Balance wird kein Rollenprofil erzeugt. Testkontext-Hinweise bleiben interne Einordnungshilfen.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      },
+      "R43": {
+        "short": "Koordinator mit Umsetzer",
+        "aka": "Coordinator-Implementer",
+        "headline": "Koordinator führt, Umsetzer ergänzt",
+        "personal_text": "Bei dir steht Koordinator im beruflichen Rollen- und Teamkontext als führender Rollenbeitrag im Vordergrund. Umsetzer ergänzt diese Ausrichtung als zweite erkennbare Kraft. Dadurch entsteht ein funktionales Rollenprofil, kein fixer Typ.",
+        "external_text": "Das Rollenprofil zeigt Koordinator als primäre und Umsetzer als sekundäre Verdichtung. Die Reihenfolge beschreibt die Modelllogik, keine starre Personenkategorie.",
+        "description": "Beschreibt ein geordnetes Rollenprofil mit Koordinator als Primär- und Umsetzer als Sekundärraum.",
+        "strength": "Verbindet die Ressource von Koordinator mit einer ergänzenden Perspektive aus Umsetzer.",
+        "risk": "Kann einseitig wirken, wenn der ergänzende Rollenraum in der Situation zu wenig berücksichtigt wird.",
+        "keywords": [
+          "R43",
+          "Koordinator",
+          "Umsetzer"
+        ],
+        "interpretation_rule": "Nur verwenden, wenn Q4 Primär- und Q3 Sekundärraum ist. Bei echter Balance wird kein Rollenprofil erzeugt.",
+        "not_to_use_for": [
+          "klinische Diagnose",
+          "Eignungsentscheidung",
+          "Persönlichkeitstyp",
+          "Kompetenznachweis"
+        ]
+      }
+    }
+  },
+  "revised_at": "2026-07-02T15:01:08Z",
+  "revision_reason": "Expert Review verlangte nutzerfähige Ergebnisformulierungen ohne interne Methodenanweisungen.",
+  "runtime_resolution": {
+    "role_policy": "Rollenprofile nur bei geordneter Primär- und Sekundärdominanz benachbarter Quadranten erzeugen; bei echter Balance oder gegenüberliegender Scheinordnung R0 verwenden.",
+    "base_result_key_count": 27
+  }
+}

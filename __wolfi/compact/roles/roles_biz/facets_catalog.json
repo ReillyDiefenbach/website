@@ -1,0 +1,1082 @@
+{
+  "schema": "pna.test_facets.v2",
+  "model_id": "roles_biz",
+  "model_name": "Roles Business",
+  "generated_at": "2026-07-02T13:16:22Z",
+  "scope": "test_context_only",
+  "facet_rule": "Four positive facets and four darkfacets per quadrant; derived from Roles block contexts, answer options and quicks; no one-pole shortcut.",
+  "items": [
+    {
+      "id": "Q1_1",
+      "name": "Vernetzende Ideenöffnung",
+      "meaning": "Ideen sozial öffnen",
+      "quadrant": "Q1",
+      "type": "facet",
+      "short_description": "Testnahe Facet: öffnet neue Möglichkeiten durch Verbindung von Menschen und Perspektiven.",
+      "model_rationale": "Vernetzende Ideenöffnung liegt nahe Q1 (WN), weil die Fragebasis 1_1, 5_1, 9_1, 13_1 beide Rollenpole des Quadranten sichtbar macht und nicht nur eine Einzelrichtung ersetzt.",
+      "question_basis": [
+        "1_1",
+        "5_1",
+        "9_1",
+        "13_1"
+      ],
+      "quick_basis": [
+        "2",
+        "6"
+      ],
+      "expected_micro_evidence": [
+        "T_D_1p",
+        "V_D_2p",
+        "W_C_4p",
+        "X_A_2p",
+        "Y_4_6p",
+        "Z_2_2p",
+        "D_A_1p",
+        "D_E_3p"
+      ],
+      "derivation_basis": "blocks_answers_quicks_semantic_pattern",
+      "quadrant_xy": "WN"
+    },
+    {
+      "id": "Q1_2",
+      "name": "Kreativer Teamimpuls",
+      "meaning": "Team kreativ bewegen",
+      "quadrant": "Q1",
+      "type": "facet",
+      "short_description": "Testnahe Facet: macht Zusammenarbeit für neue Impulse zugänglich.",
+      "model_rationale": "Kreativer Teamimpuls liegt nahe Q1 (WN), weil die Fragebasis 5_1, 9_1, 13_1, 17_1 beide Rollenpole des Quadranten sichtbar macht und nicht nur eine Einzelrichtung ersetzt.",
+      "question_basis": [
+        "5_1",
+        "9_1",
+        "13_1",
+        "17_1"
+      ],
+      "quick_basis": [
+        "3",
+        "7"
+      ],
+      "expected_micro_evidence": [
+        "D_E_6p",
+        "K_D_2p",
+        "K_F_3p",
+        "M_A_4p",
+        "M_A_6p",
+        "M_B_10p",
+        "M_B_2p",
+        "P_B_1_10p"
+      ],
+      "derivation_basis": "blocks_answers_quicks_semantic_pattern",
+      "quadrant_xy": "WN"
+    },
+    {
+      "id": "Q1_3",
+      "name": "Experimentelle Beteiligung",
+      "meaning": "Beteiligung ausprobieren",
+      "quadrant": "Q1",
+      "type": "facet",
+      "short_description": "Testnahe Facet: bindet Menschen früh in bewegliche Erprobung ein.",
+      "model_rationale": "Experimentelle Beteiligung liegt nahe Q1 (WN), weil die Fragebasis 9_1, 13_1, 17_1, 21_1 beide Rollenpole des Quadranten sichtbar macht und nicht nur eine Einzelrichtung ersetzt.",
+      "question_basis": [
+        "9_1",
+        "13_1",
+        "17_1",
+        "21_1"
+      ],
+      "quick_basis": [
+        "4",
+        "8"
+      ],
+      "expected_micro_evidence": [
+        "M_B_2p",
+        "P_B_1_10p",
+        "P_B_3_1p",
+        "P_B_3_6p",
+        "P_C_3_1p",
+        "R_A_1_3p",
+        "R_A_2_4p",
+        "R_C_1_2p"
+      ],
+      "derivation_basis": "blocks_answers_quicks_semantic_pattern",
+      "quadrant_xy": "WN"
+    },
+    {
+      "id": "Q1_4",
+      "name": "Inspirierende Rollenklärung",
+      "meaning": "Rollen inspirierend klären",
+      "quadrant": "Q1",
+      "type": "facet",
+      "short_description": "Testnahe Facet: zeigt neue Beitragsmöglichkeiten im Team.",
+      "model_rationale": "Inspirierende Rollenklärung liegt nahe Q1 (WN), weil die Fragebasis 13_1, 17_1, 21_1, 1_1 beide Rollenpole des Quadranten sichtbar macht und nicht nur eine Einzelrichtung ersetzt.",
+      "question_basis": [
+        "13_1",
+        "17_1",
+        "21_1",
+        "1_1"
+      ],
+      "quick_basis": [
+        "5",
+        "9"
+      ],
+      "expected_micro_evidence": [
+        "T_A_1p",
+        "T_A_5p",
+        "T_A_6p",
+        "T_B_1p",
+        "T_B_3p",
+        "T_G_1p",
+        "T_I_2p",
+        "T_I_6p"
+      ],
+      "derivation_basis": "blocks_answers_quicks_semantic_pattern",
+      "quadrant_xy": "WN"
+    },
+    {
+      "id": "DQ1_1",
+      "name": "Impulsstreuung",
+      "meaning": "Zu viele Impulse",
+      "quadrant": "DQ1",
+      "type": "darkfacet",
+      "short_description": "Neue Kontakte oder Ideen werden geöffnet, bevor sie tragfähig werden.",
+      "model_rationale": "Impulsstreuung ist eine testnahe Risiko- und Spannungslesart bei einseitiger Innovator-Nähe. Die Gegenbalance liegt in Q3.",
+      "question_basis": [
+        "1_1",
+        "5_1",
+        "9_1",
+        "3_3",
+        "7_3",
+        "11_3"
+      ],
+      "quick_basis": [
+        "2",
+        "6"
+      ],
+      "expected_micro_evidence": [
+        "P_B_1_4n",
+        "R_A_1_5n",
+        "S_B_4n",
+        "T_E_7n",
+        "V_D_1n",
+        "W_C_4n"
+      ],
+      "risk_pattern": "Neue Kontakte oder Ideen werden geöffnet, bevor sie tragfähig werden.",
+      "related_facet_ids": [
+        "Q1_1",
+        "Q1_2"
+      ],
+      "counterbalance_quadrant": "Q3",
+      "derivation_basis": "risk_specific_blocks_quicks_counterbalance"
+    },
+    {
+      "id": "DQ1_2",
+      "name": "Anschluss ohne Abschluss",
+      "meaning": "Zu wenig abschließen",
+      "quadrant": "DQ1",
+      "type": "darkfacet",
+      "short_description": "Beteiligung und Offenheit ersetzen verbindlichen Abschluss.",
+      "model_rationale": "Anschluss ohne Abschluss ist eine testnahe Risiko- und Spannungslesart bei einseitiger Innovator-Nähe. Die Gegenbalance liegt in Q3.",
+      "question_basis": [
+        "5_1",
+        "9_1",
+        "13_1",
+        "7_3",
+        "11_3",
+        "15_3"
+      ],
+      "quick_basis": [
+        "3",
+        "7"
+      ],
+      "expected_micro_evidence": [
+        "B_B_3_3n",
+        "D_C_1n",
+        "K_F_4n",
+        "M_C_2n",
+        "P_B_1_4n",
+        "R_B_3_3n"
+      ],
+      "risk_pattern": "Beteiligung und Offenheit ersetzen verbindlichen Abschluss.",
+      "related_facet_ids": [
+        "Q1_1",
+        "Q1_2"
+      ],
+      "counterbalance_quadrant": "Q3",
+      "derivation_basis": "risk_specific_blocks_quicks_counterbalance"
+    },
+    {
+      "id": "DQ1_3",
+      "name": "Wechselüberhang",
+      "meaning": "Zu oft wechseln",
+      "quadrant": "DQ1",
+      "type": "darkfacet",
+      "short_description": "Abwechslung überlagert Kontinuität und Nachhalten.",
+      "model_rationale": "Wechselüberhang ist eine testnahe Risiko- und Spannungslesart bei einseitiger Innovator-Nähe. Die Gegenbalance liegt in Q4.",
+      "question_basis": [
+        "9_1",
+        "13_1",
+        "17_1",
+        "11_3",
+        "15_3",
+        "19_3"
+      ],
+      "quick_basis": [
+        "4",
+        "8"
+      ],
+      "expected_micro_evidence": [
+        "B_A_1_4n",
+        "D_D_1n",
+        "K_A_2n",
+        "M_A_9n",
+        "P_C_2_2n",
+        "R_A_2_7n"
+      ],
+      "risk_pattern": "Abwechslung überlagert Kontinuität und Nachhalten.",
+      "related_facet_ids": [
+        "Q1_1",
+        "Q1_2"
+      ],
+      "counterbalance_quadrant": "Q4",
+      "derivation_basis": "risk_specific_blocks_quicks_counterbalance"
+    },
+    {
+      "id": "DQ1_4",
+      "name": "Unklare Verbindlichkeit",
+      "meaning": "Verbindlichkeit offen lassen",
+      "quadrant": "DQ1",
+      "type": "darkfacet",
+      "short_description": "Kontakt und Inspiration bleiben ohne klare Zusage.",
+      "model_rationale": "Unklare Verbindlichkeit ist eine testnahe Risiko- und Spannungslesart bei einseitiger Innovator-Nähe. Die Gegenbalance liegt in Q4.",
+      "question_basis": [
+        "13_1",
+        "17_1",
+        "21_1",
+        "15_3",
+        "19_3",
+        "23_3"
+      ],
+      "quick_basis": [
+        "5",
+        "9"
+      ],
+      "expected_micro_evidence": [
+        "T_B_1n",
+        "T_E_7n",
+        "T_E_9n",
+        "T_J_3n",
+        "T_M_1n",
+        "T_M_9n"
+      ],
+      "risk_pattern": "Kontakt und Inspiration bleiben ohne klare Zusage.",
+      "related_facet_ids": [
+        "Q1_1",
+        "Q1_2"
+      ],
+      "counterbalance_quadrant": "Q4",
+      "derivation_basis": "risk_specific_blocks_quicks_counterbalance"
+    },
+    {
+      "id": "Q2_1",
+      "name": "Pragmatischer Vortrieb",
+      "meaning": "Aufgaben voranbringen",
+      "quadrant": "Q2",
+      "type": "facet",
+      "short_description": "Testnahe Facet: setzt Aufgaben flexibel und lösungsnah in Bewegung.",
+      "model_rationale": "Pragmatischer Vortrieb liegt nahe Q2 (EN), weil die Fragebasis 2_2, 6_2, 10_2, 14_2 beide Rollenpole des Quadranten sichtbar macht und nicht nur eine Einzelrichtung ersetzt.",
+      "question_basis": [
+        "2_2",
+        "6_2",
+        "10_2",
+        "14_2"
+      ],
+      "quick_basis": [
+        "2",
+        "6"
+      ],
+      "expected_micro_evidence": [
+        "Z_2_4p",
+        "B_A_2_2p",
+        "D_B_10p",
+        "K_B_1p",
+        "M_A_14p",
+        "P_A_3_5p",
+        "R_F_1_17p",
+        "S_B_7p"
+      ],
+      "derivation_basis": "blocks_answers_quicks_semantic_pattern",
+      "quadrant_xy": "EN"
+    },
+    {
+      "id": "Q2_2",
+      "name": "Zielaktivierende Anpassung",
+      "meaning": "Ziele beweglich halten",
+      "quadrant": "Q2",
+      "type": "facet",
+      "short_description": "Testnahe Facet: passt Wege an, ohne Ergebnisbezug zu verlieren.",
+      "model_rationale": "Zielaktivierende Anpassung liegt nahe Q2 (EN), weil die Fragebasis 6_2, 10_2, 14_2, 18_2 beide Rollenpole des Quadranten sichtbar macht und nicht nur eine Einzelrichtung ersetzt.",
+      "question_basis": [
+        "6_2",
+        "10_2",
+        "14_2",
+        "18_2"
+      ],
+      "quick_basis": [
+        "3",
+        "7"
+      ],
+      "expected_micro_evidence": [
+        "Y_2_5p",
+        "Z_2_4p",
+        "B_C_2_1p",
+        "D_E_6p",
+        "K_B_5p",
+        "M_B_3p",
+        "P_C_3_5p",
+        "R_F_1_9p"
+      ],
+      "derivation_basis": "blocks_answers_quicks_semantic_pattern",
+      "quadrant_xy": "EN"
+    },
+    {
+      "id": "Q2_3",
+      "name": "Entscheidungsnahes Handeln",
+      "meaning": "Entscheidung antreiben",
+      "quadrant": "Q2",
+      "type": "facet",
+      "short_description": "Testnahe Facet: macht aus Unsicherheit einen nächsten Arbeitsschritt.",
+      "model_rationale": "Entscheidungsnahes Handeln liegt nahe Q2 (EN), weil die Fragebasis 10_2, 14_2, 18_2, 22_2 beide Rollenpole des Quadranten sichtbar macht und nicht nur eine Einzelrichtung ersetzt.",
+      "question_basis": [
+        "10_2",
+        "14_2",
+        "18_2",
+        "22_2"
+      ],
+      "quick_basis": [
+        "4",
+        "8"
+      ],
+      "expected_micro_evidence": [
+        "P_B_1_2p",
+        "P_B_1_3p",
+        "P_B_1_4p",
+        "P_B_1_7p",
+        "P_B_2_7p",
+        "R_A_1_4p",
+        "R_A_1_5p",
+        "R_A_2_10p"
+      ],
+      "derivation_basis": "blocks_answers_quicks_semantic_pattern",
+      "quadrant_xy": "EN"
+    },
+    {
+      "id": "Q2_4",
+      "name": "Umsetzungsimpuls",
+      "meaning": "Umsetzung starten",
+      "quadrant": "Q2",
+      "type": "facet",
+      "short_description": "Testnahe Facet: bringt Vorhaben in aktive Bearbeitung.",
+      "model_rationale": "Umsetzungsimpuls liegt nahe Q2 (EN), weil die Fragebasis 14_2, 18_2, 22_2, 2_2 beide Rollenpole des Quadranten sichtbar macht und nicht nur eine Einzelrichtung ersetzt.",
+      "question_basis": [
+        "14_2",
+        "18_2",
+        "22_2",
+        "2_2"
+      ],
+      "quick_basis": [
+        "5",
+        "9"
+      ],
+      "expected_micro_evidence": [
+        "X_B_2p",
+        "X_C_5p",
+        "Y_1_1p",
+        "Y_1_4p",
+        "Y_2_5p",
+        "Z_2_4p",
+        "B_A_1_4p",
+        "D_D_5p"
+      ],
+      "derivation_basis": "blocks_answers_quicks_semantic_pattern",
+      "quadrant_xy": "EN"
+    },
+    {
+      "id": "DQ2_1",
+      "name": "Aktionismus",
+      "meaning": "Zu schnell handeln",
+      "quadrant": "DQ2",
+      "type": "darkfacet",
+      "short_description": "Bewegung ersetzt ruhige Abstimmung oder Qualitätssicherung.",
+      "model_rationale": "Aktionismus ist eine testnahe Risiko- und Spannungslesart bei einseitiger Catalyst-Nähe. Die Gegenbalance liegt in Q3.",
+      "question_basis": [
+        "2_2",
+        "6_2",
+        "10_2",
+        "4_4",
+        "8_4",
+        "12_4"
+      ],
+      "quick_basis": [
+        "2",
+        "6"
+      ],
+      "expected_micro_evidence": [
+        "M_A_2n",
+        "P_C_1_6n",
+        "R_E_1_2n",
+        "S_A_5n",
+        "T_P_6n",
+        "V_B_1n"
+      ],
+      "risk_pattern": "Bewegung ersetzt ruhige Abstimmung oder Qualitätssicherung.",
+      "related_facet_ids": [
+        "Q2_1",
+        "Q2_2"
+      ],
+      "counterbalance_quadrant": "Q3",
+      "derivation_basis": "risk_specific_blocks_quicks_counterbalance"
+    },
+    {
+      "id": "DQ2_2",
+      "name": "Aufgabenverengung",
+      "meaning": "Zu sachgetrieben werden",
+      "quadrant": "DQ2",
+      "type": "darkfacet",
+      "short_description": "Ziele oder Sachen drängen Menschen und Beziehungen an den Rand.",
+      "model_rationale": "Aufgabenverengung ist eine testnahe Risiko- und Spannungslesart bei einseitiger Catalyst-Nähe. Die Gegenbalance liegt in Q4.",
+      "question_basis": [
+        "6_2",
+        "10_2",
+        "14_2",
+        "8_4",
+        "12_4",
+        "16_4"
+      ],
+      "quick_basis": [
+        "3",
+        "7"
+      ],
+      "expected_micro_evidence": [
+        "W_A_3n",
+        "X_C_4n",
+        "Y_3_4n",
+        "Z_1_3n",
+        "B_B_5_3n",
+        "D_A_3n"
+      ],
+      "risk_pattern": "Ziele oder Sachen drängen Menschen und Beziehungen an den Rand.",
+      "related_facet_ids": [
+        "Q2_1",
+        "Q2_2"
+      ],
+      "counterbalance_quadrant": "Q4",
+      "derivation_basis": "risk_specific_blocks_quicks_counterbalance"
+    },
+    {
+      "id": "DQ2_3",
+      "name": "Prioritätsdruck",
+      "meaning": "Zu stark treiben",
+      "quadrant": "DQ2",
+      "type": "darkfacet",
+      "short_description": "Tempo und Fortschritt überlagern Resonanz oder Stabilität.",
+      "model_rationale": "Prioritätsdruck ist eine testnahe Risiko- und Spannungslesart bei einseitiger Catalyst-Nähe. Die Gegenbalance liegt in Q4.",
+      "question_basis": [
+        "10_2",
+        "14_2",
+        "18_2",
+        "12_4",
+        "16_4",
+        "20_4"
+      ],
+      "quick_basis": [
+        "4",
+        "8"
+      ],
+      "expected_micro_evidence": [
+        "T_C_4n",
+        "T_K_1n",
+        "T_N_7n",
+        "T_R_3n",
+        "V_C_1n",
+        "X_C_4n"
+      ],
+      "risk_pattern": "Tempo und Fortschritt überlagern Resonanz oder Stabilität.",
+      "related_facet_ids": [
+        "Q2_1",
+        "Q2_2"
+      ],
+      "counterbalance_quadrant": "Q4",
+      "derivation_basis": "risk_specific_blocks_quicks_counterbalance"
+    },
+    {
+      "id": "DQ2_4",
+      "name": "Flexibilitätsüberhang",
+      "meaning": "Zu beweglich bleiben",
+      "quadrant": "DQ2",
+      "type": "darkfacet",
+      "short_description": "Anpassung verhindert dauerhafte Linie und Abschluss.",
+      "model_rationale": "Flexibilitätsüberhang ist eine testnahe Risiko- und Spannungslesart bei einseitiger Catalyst-Nähe. Die Gegenbalance liegt in Q3.",
+      "question_basis": [
+        "14_2",
+        "18_2",
+        "22_2",
+        "16_4",
+        "20_4",
+        "24_4"
+      ],
+      "quick_basis": [
+        "5",
+        "9"
+      ],
+      "expected_micro_evidence": [
+        "P_A_2_7n",
+        "R_F_1_19n",
+        "S_B_6n",
+        "T_A_6n",
+        "V_A_2n",
+        "W_B_4n"
+      ],
+      "risk_pattern": "Anpassung verhindert dauerhafte Linie und Abschluss.",
+      "related_facet_ids": [
+        "Q2_1",
+        "Q2_2"
+      ],
+      "counterbalance_quadrant": "Q3",
+      "derivation_basis": "risk_specific_blocks_quicks_counterbalance"
+    },
+    {
+      "id": "Q3_1",
+      "name": "Verlässliche Umsetzung",
+      "meaning": "Umsetzung sichern",
+      "quadrant": "Q3",
+      "type": "facet",
+      "short_description": "Testnahe Facet: sichert Aufgaben, Qualität und Abschluss strukturiert ab.",
+      "model_rationale": "Verlässliche Umsetzung liegt nahe Q3 (ES), weil die Fragebasis 3_3, 7_3, 11_3, 15_3 beide Rollenpole des Quadranten sichtbar macht und nicht nur eine Einzelrichtung ersetzt.",
+      "question_basis": [
+        "3_3",
+        "7_3",
+        "11_3",
+        "15_3"
+      ],
+      "quick_basis": [
+        "2",
+        "6"
+      ],
+      "expected_micro_evidence": [
+        "R_C_1_10p",
+        "S_A_5p",
+        "T_E_11p",
+        "V_B_4p",
+        "W_B_1p",
+        "X_C_3p",
+        "Y_2_5p",
+        "Z_4_4p"
+      ],
+      "derivation_basis": "blocks_answers_quicks_semantic_pattern",
+      "quadrant_xy": "ES"
+    },
+    {
+      "id": "Q3_2",
+      "name": "Qualitätsorientierte Ordnung",
+      "meaning": "Qualität ordnen",
+      "quadrant": "Q3",
+      "type": "facet",
+      "short_description": "Testnahe Facet: schafft klare Standards und nachvollziehbare Prozesse.",
+      "model_rationale": "Qualitätsorientierte Ordnung liegt nahe Q3 (ES), weil die Fragebasis 7_3, 11_3, 15_3, 19_3 beide Rollenpole des Quadranten sichtbar macht und nicht nur eine Einzelrichtung ersetzt.",
+      "question_basis": [
+        "7_3",
+        "11_3",
+        "15_3",
+        "19_3"
+      ],
+      "quick_basis": [
+        "3",
+        "7"
+      ],
+      "expected_micro_evidence": [
+        "W_A_4p",
+        "X_A_2p",
+        "Y_1_2p",
+        "Z_5_1p",
+        "B_A_3_3p",
+        "B_C_2_1p",
+        "B_C_2_3p",
+        "D_A_9p"
+      ],
+      "derivation_basis": "blocks_answers_quicks_semantic_pattern",
+      "quadrant_xy": "ES"
+    },
+    {
+      "id": "Q3_3",
+      "name": "Nachhaltige Ergebnissicherung",
+      "meaning": "Ergebnisse stabilisieren",
+      "quadrant": "Q3",
+      "type": "facet",
+      "short_description": "Testnahe Facet: hält Wirkung über verlässliche Nachverfolgung.",
+      "model_rationale": "Nachhaltige Ergebnissicherung liegt nahe Q3 (ES), weil die Fragebasis 11_3, 15_3, 19_3, 23_3 beide Rollenpole des Quadranten sichtbar macht und nicht nur eine Einzelrichtung ersetzt.",
+      "question_basis": [
+        "11_3",
+        "15_3",
+        "19_3",
+        "23_3"
+      ],
+      "quick_basis": [
+        "4",
+        "8"
+      ],
+      "expected_micro_evidence": [
+        "R_E_2_3p",
+        "S_B_1p",
+        "T_C_7p",
+        "V_B_2p",
+        "W_A_2p",
+        "X_B_2p",
+        "Y_3_1p",
+        "Z_5_3p"
+      ],
+      "derivation_basis": "blocks_answers_quicks_semantic_pattern",
+      "quadrant_xy": "ES"
+    },
+    {
+      "id": "Q3_4",
+      "name": "Prozessdisziplin",
+      "meaning": "Prozesse tragen",
+      "quadrant": "Q3",
+      "type": "facet",
+      "short_description": "Testnahe Facet: trägt Aufgaben durch Planung und Konsistenz.",
+      "model_rationale": "Prozessdisziplin liegt nahe Q3 (ES), weil die Fragebasis 15_3, 19_3, 23_3, 3_3 beide Rollenpole des Quadranten sichtbar macht und nicht nur eine Einzelrichtung ersetzt.",
+      "question_basis": [
+        "15_3",
+        "19_3",
+        "23_3",
+        "3_3"
+      ],
+      "quick_basis": [
+        "5",
+        "9"
+      ],
+      "expected_micro_evidence": [
+        "T_M_1p",
+        "T_M_3p",
+        "T_M_7p",
+        "T_O_1p",
+        "T_O_3p",
+        "T_O_5p",
+        "T_O_7p",
+        "T_P_2p"
+      ],
+      "derivation_basis": "blocks_answers_quicks_semantic_pattern",
+      "quadrant_xy": "ES"
+    },
+    {
+      "id": "DQ3_1",
+      "name": "Strukturüberhang",
+      "meaning": "Zu stark ordnen",
+      "quadrant": "DQ3",
+      "type": "darkfacet",
+      "short_description": "Ordnung, Kontrolle oder Standards begrenzen Flexibilität.",
+      "model_rationale": "Strukturüberhang ist eine testnahe Risiko- und Spannungslesart bei einseitiger Implementer-Nähe. Die Gegenbalance liegt in Q1.",
+      "question_basis": [
+        "3_3",
+        "7_3",
+        "11_3",
+        "1_1",
+        "5_1",
+        "9_1"
+      ],
+      "quick_basis": [
+        "2",
+        "6"
+      ],
+      "expected_micro_evidence": [
+        "X_B_3n",
+        "Y_1_1n",
+        "Z_4_5n",
+        "B_B_5_2n",
+        "D_E_4n",
+        "K_B_2n"
+      ],
+      "risk_pattern": "Ordnung, Kontrolle oder Standards begrenzen Flexibilität.",
+      "related_facet_ids": [
+        "Q3_1",
+        "Q3_2"
+      ],
+      "counterbalance_quadrant": "Q1",
+      "derivation_basis": "risk_specific_blocks_quicks_counterbalance"
+    },
+    {
+      "id": "DQ3_2",
+      "name": "Abschlussfixierung",
+      "meaning": "Zu früh schließen",
+      "quadrant": "DQ3",
+      "type": "darkfacet",
+      "short_description": "Umsetzung wird gesichert, bevor neue Impulse ausreichend Raum haben.",
+      "model_rationale": "Abschlussfixierung ist eine testnahe Risiko- und Spannungslesart bei einseitiger Implementer-Nähe. Die Gegenbalance liegt in Q2.",
+      "question_basis": [
+        "7_3",
+        "11_3",
+        "15_3",
+        "5_1",
+        "9_1",
+        "13_1"
+      ],
+      "quick_basis": [
+        "3",
+        "7"
+      ],
+      "expected_micro_evidence": [
+        "M_B_4n",
+        "S_B_5n",
+        "T_C_4n",
+        "T_I_3n",
+        "T_L_2n",
+        "X_A_4n"
+      ],
+      "risk_pattern": "Umsetzung wird gesichert, bevor neue Impulse ausreichend Raum haben.",
+      "related_facet_ids": [
+        "Q3_1",
+        "Q3_2"
+      ],
+      "counterbalance_quadrant": "Q2",
+      "derivation_basis": "risk_specific_blocks_quicks_counterbalance"
+    },
+    {
+      "id": "DQ3_3",
+      "name": "Pflichtverengung",
+      "meaning": "Zu pflichtgetrieben sein",
+      "quadrant": "DQ3",
+      "type": "darkfacet",
+      "short_description": "Aufgaben und Routinen verdrängen Bedürfnisse oder Beziehung.",
+      "model_rationale": "Pflichtverengung ist eine testnahe Risiko- und Spannungslesart bei einseitiger Implementer-Nähe. Die Gegenbalance liegt in Q4.",
+      "question_basis": [
+        "11_3",
+        "15_3",
+        "19_3",
+        "9_1",
+        "13_1",
+        "17_1"
+      ],
+      "quick_basis": [
+        "4",
+        "8"
+      ],
+      "expected_micro_evidence": [
+        "P_A_3_4n",
+        "R_C_1_12n",
+        "S_A_2n",
+        "T_G_5n",
+        "V_C_2n",
+        "W_D_5n"
+      ],
+      "risk_pattern": "Aufgaben und Routinen verdrängen Bedürfnisse oder Beziehung.",
+      "related_facet_ids": [
+        "Q3_1",
+        "Q3_2"
+      ],
+      "counterbalance_quadrant": "Q4",
+      "derivation_basis": "risk_specific_blocks_quicks_counterbalance"
+    },
+    {
+      "id": "DQ3_4",
+      "name": "Qualitätsblockade",
+      "meaning": "Zu viel absichern",
+      "quadrant": "DQ3",
+      "type": "darkfacet",
+      "short_description": "Sicherung verhindert Bewegung oder kreative Lösung.",
+      "model_rationale": "Qualitätsblockade ist eine testnahe Risiko- und Spannungslesart bei einseitiger Implementer-Nähe. Die Gegenbalance liegt in Q2.",
+      "question_basis": [
+        "15_3",
+        "19_3",
+        "23_3",
+        "13_1",
+        "17_1",
+        "21_1"
+      ],
+      "quick_basis": [
+        "5",
+        "9"
+      ],
+      "expected_micro_evidence": [
+        "S_B_2n",
+        "T_J_1n",
+        "V_E_2n",
+        "W_B_3n",
+        "X_B_5n",
+        "Y_4_4n"
+      ],
+      "risk_pattern": "Sicherung verhindert Bewegung oder kreative Lösung.",
+      "related_facet_ids": [
+        "Q3_1",
+        "Q3_2"
+      ],
+      "counterbalance_quadrant": "Q2",
+      "derivation_basis": "risk_specific_blocks_quicks_counterbalance"
+    },
+    {
+      "id": "Q4_1",
+      "name": "Koordinierende Abstimmung",
+      "meaning": "Abstimmung stabilisieren",
+      "quadrant": "Q4",
+      "type": "facet",
+      "short_description": "Testnahe Facet: stabilisiert Zusammenarbeit durch Struktur und Beziehungsklärung.",
+      "model_rationale": "Koordinierende Abstimmung liegt nahe Q4 (WS), weil die Fragebasis 4_4, 8_4, 12_4, 16_4 beide Rollenpole des Quadranten sichtbar macht und nicht nur eine Einzelrichtung ersetzt.",
+      "question_basis": [
+        "4_4",
+        "8_4",
+        "12_4",
+        "16_4"
+      ],
+      "quick_basis": [
+        "2",
+        "6"
+      ],
+      "expected_micro_evidence": [
+        "T_N_6p",
+        "T_O_5p",
+        "T_P_3p",
+        "T_R_4p",
+        "V_C_2p",
+        "V_C_3p",
+        "V_D_3p",
+        "W_A_1p"
+      ],
+      "derivation_basis": "blocks_answers_quicks_semantic_pattern",
+      "quadrant_xy": "WS"
+    },
+    {
+      "id": "Q4_2",
+      "name": "Verbindliche Rollenintegration",
+      "meaning": "Rollen verbinden",
+      "quadrant": "Q4",
+      "type": "facet",
+      "short_description": "Testnahe Facet: verbindet Zuständigkeiten, Erwartungen und soziale Anschlussfähigkeit.",
+      "model_rationale": "Verbindliche Rollenintegration liegt nahe Q4 (WS), weil die Fragebasis 8_4, 12_4, 16_4, 20_4 beide Rollenpole des Quadranten sichtbar macht und nicht nur eine Einzelrichtung ersetzt.",
+      "question_basis": [
+        "8_4",
+        "12_4",
+        "16_4",
+        "20_4"
+      ],
+      "quick_basis": [
+        "3",
+        "7"
+      ],
+      "expected_micro_evidence": [
+        "D_A_9p",
+        "D_B_5p",
+        "D_D_1p",
+        "K_D_2p",
+        "M_B_11p",
+        "M_B_5p",
+        "M_C_2p",
+        "M_C_9p"
+      ],
+      "derivation_basis": "blocks_answers_quicks_semantic_pattern",
+      "quadrant_xy": "WS"
+    },
+    {
+      "id": "Q4_3",
+      "name": "Ruhige Teamstabilisierung",
+      "meaning": "Team beruhigen",
+      "quadrant": "Q4",
+      "type": "facet",
+      "short_description": "Testnahe Facet: nimmt Spannungen auf und schafft tragfähige Ordnung.",
+      "model_rationale": "Ruhige Teamstabilisierung liegt nahe Q4 (WS), weil die Fragebasis 12_4, 16_4, 20_4, 24_4 beide Rollenpole des Quadranten sichtbar macht und nicht nur eine Einzelrichtung ersetzt.",
+      "question_basis": [
+        "12_4",
+        "16_4",
+        "20_4",
+        "24_4"
+      ],
+      "quick_basis": [
+        "4",
+        "8"
+      ],
+      "expected_micro_evidence": [
+        "M_C_9p",
+        "P_B_3_3p",
+        "P_B_3_7p",
+        "P_C_1_5p",
+        "P_C_3_4p",
+        "P_C_3_6p",
+        "P_C_3_7p",
+        "R_A_2_3p"
+      ],
+      "derivation_basis": "blocks_answers_quicks_semantic_pattern",
+      "quadrant_xy": "WS"
+    },
+    {
+      "id": "Q4_4",
+      "name": "Beziehungsnahe Verlässlichkeit",
+      "meaning": "Verlässlichkeit sozial tragen",
+      "quadrant": "Q4",
+      "type": "facet",
+      "short_description": "Testnahe Facet: macht Absprachen menschennah und belastbar.",
+      "model_rationale": "Beziehungsnahe Verlässlichkeit liegt nahe Q4 (WS), weil die Fragebasis 16_4, 20_4, 24_4, 4_4 beide Rollenpole des Quadranten sichtbar macht und nicht nur eine Einzelrichtung ersetzt.",
+      "question_basis": [
+        "16_4",
+        "20_4",
+        "24_4",
+        "4_4"
+      ],
+      "quick_basis": [
+        "5",
+        "9"
+      ],
+      "expected_micro_evidence": [
+        "Z_1_3p",
+        "Z_3_2p",
+        "Z_4_2p",
+        "B_A_1_3p",
+        "D_A_4p",
+        "K_E_2p",
+        "M_A_15p",
+        "P_C_3_5p"
+      ],
+      "derivation_basis": "blocks_answers_quicks_semantic_pattern",
+      "quadrant_xy": "WS"
+    },
+    {
+      "id": "DQ4_1",
+      "name": "Harmoniebindung",
+      "meaning": "Zu viel ausgleichen",
+      "quadrant": "DQ4",
+      "type": "darkfacet",
+      "short_description": "Beziehung und Abstimmung werden geschützt, obwohl Klärung nötig wäre.",
+      "model_rationale": "Harmoniebindung ist eine testnahe Risiko- und Spannungslesart bei einseitiger Coordinator-Nähe. Die Gegenbalance liegt in Q2.",
+      "question_basis": [
+        "4_4",
+        "8_4",
+        "12_4",
+        "2_2",
+        "6_2",
+        "10_2"
+      ],
+      "quick_basis": [
+        "2",
+        "6"
+      ],
+      "expected_micro_evidence": [
+        "B_A_2_3n",
+        "M_A_3n",
+        "P_C_1_10n",
+        "R_C_1_13n",
+        "R_F_1_16n",
+        "S_A_4n"
+      ],
+      "risk_pattern": "Beziehung und Abstimmung werden geschützt, obwohl Klärung nötig wäre.",
+      "related_facet_ids": [
+        "Q4_1",
+        "Q4_2"
+      ],
+      "counterbalance_quadrant": "Q2",
+      "derivation_basis": "risk_specific_blocks_quicks_counterbalance"
+    },
+    {
+      "id": "DQ4_2",
+      "name": "Überverantwortung",
+      "meaning": "Zu viel tragen",
+      "quadrant": "DQ4",
+      "type": "darkfacet",
+      "short_description": "Fürsorge oder Koordination nimmt anderen Verantwortung ab.",
+      "model_rationale": "Überverantwortung ist eine testnahe Risiko- und Spannungslesart bei einseitiger Coordinator-Nähe. Die Gegenbalance liegt in Q3.",
+      "question_basis": [
+        "8_4",
+        "12_4",
+        "16_4",
+        "6_2",
+        "10_2",
+        "14_2"
+      ],
+      "quick_basis": [
+        "3",
+        "7"
+      ],
+      "expected_micro_evidence": [
+        "T_R_2n",
+        "V_A_4n",
+        "X_A_1n",
+        "Z_2_1n",
+        "B_B_1_2n",
+        "D_E_6n"
+      ],
+      "risk_pattern": "Fürsorge oder Koordination nimmt anderen Verantwortung ab.",
+      "related_facet_ids": [
+        "Q4_1",
+        "Q4_2"
+      ],
+      "counterbalance_quadrant": "Q3",
+      "derivation_basis": "risk_specific_blocks_quicks_counterbalance"
+    },
+    {
+      "id": "DQ4_3",
+      "name": "Zurückhaltende Sichtbarkeit",
+      "meaning": "Zu wenig sichtbar sein",
+      "quadrant": "DQ4",
+      "type": "darkfacet",
+      "short_description": "Stabilisieren und Zuhören machen den eigenen Beitrag unsichtbar.",
+      "model_rationale": "Zurückhaltende Sichtbarkeit ist eine testnahe Risiko- und Spannungslesart bei einseitiger Coordinator-Nähe. Die Gegenbalance liegt in Q1.",
+      "question_basis": [
+        "12_4",
+        "16_4",
+        "20_4",
+        "10_2",
+        "14_2",
+        "18_2"
+      ],
+      "quick_basis": [
+        "4",
+        "8"
+      ],
+      "expected_micro_evidence": [
+        "T_J_5n",
+        "V_F_2n",
+        "W_B_5n",
+        "X_A_3n",
+        "Y_2_1n",
+        "Z_5_1n"
+      ],
+      "risk_pattern": "Stabilisieren und Zuhören machen den eigenen Beitrag unsichtbar.",
+      "related_facet_ids": [
+        "Q4_1",
+        "Q4_2"
+      ],
+      "counterbalance_quadrant": "Q1",
+      "derivation_basis": "risk_specific_blocks_quicks_counterbalance"
+    },
+    {
+      "id": "DQ4_4",
+      "name": "Stabilisierungsaufschub",
+      "meaning": "Zu lange beruhigen",
+      "quadrant": "DQ4",
+      "type": "darkfacet",
+      "short_description": "Ordnung und Beziehungspflege verzögern notwendige Bewegung.",
+      "model_rationale": "Stabilisierungsaufschub ist eine testnahe Risiko- und Spannungslesart bei einseitiger Coordinator-Nähe. Die Gegenbalance liegt in Q2.",
+      "question_basis": [
+        "16_4",
+        "20_4",
+        "24_4",
+        "14_2",
+        "18_2",
+        "22_2"
+      ],
+      "quick_basis": [
+        "5",
+        "9"
+      ],
+      "expected_micro_evidence": [
+        "T_E_16n",
+        "V_D_3n",
+        "W_C_3n",
+        "X_B_4n",
+        "Y_2_5n",
+        "Z_1_1n"
+      ],
+      "risk_pattern": "Ordnung und Beziehungspflege verzögern notwendige Bewegung.",
+      "related_facet_ids": [
+        "Q4_1",
+        "Q4_2"
+      ],
+      "counterbalance_quadrant": "Q2",
+      "derivation_basis": "risk_specific_blocks_quicks_counterbalance"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+	"nl-subject": "Please confirm your newsletter subscription",
+	"nl-button": "Confirm subscription",
+	"nl-h1": "Welcome to the club!",
+	"nl-1": "We are excited that you have signed up for our newsletter. We will regularly provide you with news, new tools, and developments, ensuring you're among the first to know.",
+	"nl-2": "Please click the following link to confirm your subscription.",
+	"nl-3": "Let's stay in touch. If you no longer wish to receive our newsletter, you can unsubscribe at any time. A corresponding link is included in every newsletter.",
+	"nl-4": "Best regards, your concierge from 'carlvon'",
+	"nl-ps": "If you did not subscribe to our newsletter, please ignore this email.",
+	"con-subject": "Your message to carlvon ...",
+	"con-t1": "Subject:",
+	"con-t2": "Message:",
+	"con-h1": "Message received!",
+	"con-1": "Thank you, we have received your message!",
+	"con-2": "We will forward your message to the appropriate department in our company and strive to process it as quickly as possible.",
+	"con-4": "Best regards, your concierge from 'carlvon'",
+	"con-ps": "If you did not send us a message, please ignore this email.",
+	"end": "end"
+}

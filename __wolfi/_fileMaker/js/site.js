@@ -2,6 +2,7 @@
 
     let activeScrollHandler = null;
     let scrollFrame = null;
+    let activeBannerPicCleanups = [];
 
     function loadScriptOnce(src, id = null){
         return new Promise((resolve, reject) => {
@@ -31,6 +32,45 @@
         image: '/_assets/fallback/image.jpg',
         video: '/_assets/fallback/video.mp4',
         observer: null,
+
+        sameSource(first, second){
+            if(!first || !second) return false;
+
+            try {
+                return new URL(first, document.baseURI).href === new URL(second, document.baseURI).href;
+            } catch {
+                return first === second;
+            }
+        },
+
+        localSource(source, type){
+            if(!source) return '';
+
+            try {
+                const url = new URL(source, document.baseURI);
+                const slash = url.pathname.lastIndexOf('/');
+
+                if(slash < 0) return '';
+
+                url.pathname = `${url.pathname.slice(0, slash + 1)}fallback.${type === 'video' ? 'mp4' : 'jpg'}`;
+                url.search = '';
+                url.hash = '';
+                return url.href;
+            } catch {
+                return '';
+            }
+        },
+
+        originalSource(element){
+            if(element.dataset.fallbackOriginal) return element.dataset.fallbackOriginal;
+
+            const source = element instanceof HTMLVideoElement
+                ? element.getAttribute('src') || element.querySelector('source[src]')?.getAttribute('src') || element.currentSrc
+                : element.getAttribute('src') || element.currentSrc;
+
+            if(source) element.dataset.fallbackOriginal = source;
+            return source || '';
+        },
 
         init(){
             this.prepare(document);
@@ -70,24 +110,72 @@
                 const useFallback = () => this.useVideo(element);
                 element.addEventListener('error', useFallback);
                 element.querySelectorAll('source').forEach(source => {
-                    source.addEventListener('error', useFallback);
+                    source.addEventListener('error', () => {
+                        if(source.isConnected && !element.dataset.fallbackStage) useFallback();
+                    });
                 });
-                if(element.networkState === HTMLMediaElement.NETWORK_NO_SOURCE) useFallback();
             }
         },
 
         useImage(image){
-            if(image.dataset.fallbackApplied === 'true' || image.currentSrc.endsWith(this.image)) return false;
+            const current = image.currentSrc || image.src;
 
+            if(image.dataset.fallbackStage === 'global' || this.sameSource(current, this.image)) return false;
+
+            if(!image.dataset.fallbackStage){
+                const local = this.localSource(this.originalSource(image), 'image');
+
+                if(local && !this.sameSource(local, current) && !this.sameSource(local, this.image)){
+                    image.dataset.fallbackStage = 'local';
+                    image.removeAttribute('srcset');
+                    image.src = local;
+                    return true;
+                }
+            }
+
+            image.dataset.fallbackStage = 'global';
             image.dataset.fallbackApplied = 'true';
+            image.removeAttribute('srcset');
             image.src = this.image;
             return true;
         },
 
         useVideo(video){
-            if(video.dataset.fallbackApplied === 'true' || video.currentSrc.endsWith(this.video)) return false;
+            const current = video.currentSrc || video.src;
 
+            if(video.dataset.fallbackStage === 'global' || this.sameSource(current, this.video)) return false;
+
+            if(!video.dataset.fallbackStage){
+                const configuredFallback = video.dataset.fallbackSrc || '';
+
+                if(
+                    configuredFallback
+                    && !this.sameSource(configuredFallback, current)
+                    && !this.sameSource(configuredFallback, this.video)
+                ){
+                    video.dataset.fallbackStage = 'local';
+                    video.querySelectorAll('source').forEach(source => source.remove());
+                    video.src = configuredFallback;
+                    video.load();
+                    video.play().catch(() => {});
+                    return true;
+                }
+
+                const local = this.localSource(this.originalSource(video), 'video');
+
+                if(local && !this.sameSource(local, current) && !this.sameSource(local, this.video)){
+                    video.dataset.fallbackStage = 'local';
+                    video.querySelectorAll('source').forEach(source => source.remove());
+                    video.src = local;
+                    video.load();
+                    video.play().catch(() => {});
+                    return true;
+                }
+            }
+
+            video.dataset.fallbackStage = 'global';
             video.dataset.fallbackApplied = 'true';
+            video.querySelectorAll('source').forEach(source => source.remove());
             video.src = this.video;
             video.load();
             video.play().catch(() => {});
@@ -139,7 +227,13 @@
                 ? scope
                 : document;
             MediaFallback.prepare(root);
-            const media = Array.from(root.querySelectorAll('img, video'));
+            const media = Array.from(root.querySelectorAll('img, video')).filter(element => {
+                if(element instanceof HTMLVideoElement && element.classList.contains('bg-video')){
+                    return false;
+                }
+
+                return element.getBoundingClientRect().top < window.innerHeight * 1.5;
+            });
 
             if(!media.length){
                 this.setProgress(1);
@@ -203,7 +297,10 @@
             return new Promise(resolve => {
                 video.addEventListener('canplay', resolve, {once:true});
                 video.addEventListener('error', () => {
-                    const fallbackPending = MediaFallback.useVideo(video)
+                    // MediaFallback.bind() handles this error first. Reuse its
+                    // state instead of advancing the chain twice for one error.
+                    const fallbackPending = Boolean(video.dataset.fallbackStage)
+                        || MediaFallback.useVideo(video)
                         || video.dataset.fallbackApplied === 'true';
 
                     if(!fallbackPending){
@@ -411,6 +508,39 @@
         });
     }
 
+    function initFactsheetIntroLinks(scope = document){
+        const root = scope instanceof Element || scope instanceof Document
+            ? scope
+            : document;
+        const links = root.querySelectorAll(
+            '.factsheet-intro__levels a[href^="#factsheet-"], ' +
+            '.factsheet-intro__levels a[href^="#resultsheet-"]'
+        );
+
+        links.forEach(link => {
+            if(link.dataset.factsheetLinkBound) return;
+            link.dataset.factsheetLinkBound = 'true';
+
+            link.addEventListener('click', event => {
+                const id = link.getAttribute('href')?.slice(1);
+                const target = id ? document.getElementById(id) : null;
+                if(!target) return;
+
+                event.preventDefault();
+
+                const header = document.querySelector('header, #header');
+                const headerOffset = (header?.getBoundingClientRect().height || 72) + 20;
+                const top = target.getBoundingClientRect().top + window.scrollY - headerOffset;
+
+                window.scrollTo({
+                    top: Math.max(0, top),
+                    behavior: 'smooth'
+                });
+                history.replaceState(history.state, '', `#${id}`);
+            });
+        });
+    }
+
     function initNavSections(scope = document){
         const root = scope instanceof Element || scope instanceof Document
             ? scope
@@ -455,6 +585,10 @@
         navSections.forEach(navSection => {
             const main = navSection.querySelector(':scope > main');
             if(!main) return;
+
+            // Reinitialization must not copy the existing arrow controls into
+            // the generated aside link labels.
+            main.querySelectorAll('.navSection__steps').forEach(steps => steps.remove());
 
             const slugCounts = new Map();
             const uniqueId = text => {
@@ -752,7 +886,6 @@
 
         const balanceColumns = wrap => {
             if(window.matchMedia?.('(max-width: 700px)').matches) return;
-            if(wrap.classList.contains('center_pix--center-image')) return;
 
             const columns = Array.from(wrap.querySelectorAll(':scope > .center_pix__col'));
             if(columns.length < 2) return;
@@ -802,6 +935,67 @@
                 bestMove.insert();
             }
         };
+
+        root.querySelectorAll('.pic_center').forEach(wrap => {
+            wrap.classList.add('center_pix');
+            wrap.dataset.cols = '2';
+            wrap.dataset.imgPos = 'top_center';
+        });
+
+        root.querySelectorAll('.pic_left, .pic_right').forEach(wrap => {
+            if(wrap.dataset.pictureFlowReady === '1') return;
+
+            const src = wrap.dataset.imgSrc;
+            if(!src) return;
+
+            const position = wrap.classList.contains('pic_right') ? 'right' : 'left';
+            const requestedColumns = parseInt(wrap.dataset.columns || wrap.dataset.colums || '1', 10);
+            const columnCount = requestedColumns === 2 ? 2 : 1;
+            const requestedTag = Math.max(1, parseInt(wrap.dataset.tag || '2', 10) || 2);
+            const sourceNodes = Array.from(wrap.childNodes).filter(node => (
+                node.nodeType !== Node.TEXT_NODE || node.textContent.trim().length > 0
+            ));
+            const sourceElements = sourceNodes.filter(node => node.nodeType === Node.ELEMENT_NODE);
+            const requestedAnchor = sourceElements[requestedTag - 1] || null;
+            const distributedColumns = columnCount === 2
+                ? distributeNodes(sourceNodes, 2)
+                : [sourceNodes];
+
+            wrap.textContent = '';
+            wrap.dataset.pictureFlowReady = '1';
+            wrap.dataset.columns = String(columnCount);
+            delete wrap.dataset.colums;
+            wrap.style.setProperty('--picture-flow-size', wrap.dataset.imgSize || '260px');
+
+            const columns = distributedColumns.map((columnNodes, index) => {
+                const column = document.createElement('div');
+                column.className = 'picture-flow__col';
+                column.dataset.pictureFlowColumn = String(index);
+                columnNodes.forEach(node => column.appendChild(node));
+                wrap.appendChild(column);
+                return column;
+            });
+
+            const sideColumn = position === 'left' ? columns[0] : columns[columns.length - 1];
+            const sideElements = Array.from(sideColumn.children);
+            const anchor = requestedAnchor?.parentElement === sideColumn
+                ? requestedAnchor
+                : sideElements[1] || sideElements[0] || null;
+            const imageWrap = document.createElement('span');
+            const img = document.createElement('img');
+
+            imageWrap.className = `picture-flow__image picture-flow__image--${position}`;
+            img.src = src;
+            img.alt = wrap.dataset.imgAlt || '';
+            img.decoding = 'async';
+            imageWrap.appendChild(img);
+
+            if(anchor){
+                sideColumn.insertBefore(imageWrap, anchor);
+            } else {
+                sideColumn.appendChild(imageWrap);
+            }
+        });
 
         root.querySelectorAll('.center_pix').forEach(wrap => {
             if(wrap.dataset.innerImageReady === '1') return;
@@ -997,10 +1191,240 @@
         });
     }
 
+    function initBannerPics(scope = document){
+        activeBannerPicCleanups = activeBannerPicCleanups.filter(entry => {
+            if(entry.banner.isConnected) return true;
+
+            entry.cleanup();
+            return false;
+        });
+
+        const root = scope instanceof Element || scope instanceof Document
+            ? scope
+            : document;
+        const banners = root.matches?.('.banner_pic')
+            ? [root]
+            : Array.from(root.querySelectorAll('.banner_pic'));
+
+        banners.forEach(banner => {
+            if(banner.dataset.bannerPicReady === 'true') return;
+
+            banner.dataset.bannerPicReady = 'true';
+
+            const content = document.createElement('div');
+            const media = document.createElement('div');
+            const image = document.createElement('img');
+            const width = Number.parseFloat(banner.dataset.width || '150');
+            const source = banner.dataset.src || '';
+            const alt = banner.dataset.alt || '';
+
+            content.className = 'banner_pic__content';
+            media.className = 'banner_pic__media';
+            image.className = 'banner_pic__image';
+            image.src = source || '/_assets/fallback/image.jpg';
+            image.alt = alt;
+            image.decoding = 'async';
+
+            if(!alt) image.setAttribute('aria-hidden', 'true');
+
+            Array.from(banner.childNodes).forEach(node => content.appendChild(node));
+            media.appendChild(image);
+            banner.append(media, content);
+            banner.style.setProperty(
+                '--banner-pic-width',
+                `${Number.isFinite(width) ? Math.max(width, 60) : 150}px`
+            );
+
+            const update = () => {
+                const header = document.querySelector('.siteHeader');
+                const headerHeight = header?.getBoundingClientRect().height
+                    || Number.parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--header-height'))
+                    || 72;
+                const availableHeight = Math.max(window.innerHeight - headerHeight, 160);
+                const contentHeight = content.getBoundingClientRect().height;
+                const imageHeight = Math.min(contentHeight, availableHeight);
+
+                banner.style.setProperty('--banner-pic-height', `${Math.max(imageHeight, 0)}px`);
+                banner.style.setProperty('--banner-pic-sticky-top', `${headerHeight}px`);
+                banner.classList.toggle('is-sticky', contentHeight > availableHeight + 1);
+            };
+
+            const observer = window.ResizeObserver ? new ResizeObserver(update) : null;
+            observer?.observe(content);
+            image.addEventListener('load', update);
+            window.addEventListener('resize', update, {passive:true});
+            update();
+
+            activeBannerPicCleanups.push({
+                banner,
+                cleanup(){
+                    observer?.disconnect();
+                    image.removeEventListener('load', update);
+                    window.removeEventListener('resize', update);
+                }
+            });
+        });
+    }
+
+    function initBannerHeads(scope = document){
+        const root = scope instanceof Element || scope instanceof Document
+            ? scope
+            : document;
+        const banners = root.matches?.('.banner_head')
+            ? [root]
+            : Array.from(root.querySelectorAll('.banner_head'));
+
+        banners.forEach(banner => {
+            if(banner.dataset.bannerHeadReady === 'true') return;
+
+            const title = Array.from(banner.children)
+                .find(child => child.tagName === 'H2');
+
+            if(!title) return;
+
+            const rail = document.createElement('div');
+            rail.className = 'banner_head__titleRail';
+
+            banner.insertBefore(rail, title);
+            rail.appendChild(title);
+            banner.dataset.bannerHeadReady = 'true';
+        });
+    }
+
+    const Translation = {
+        cache: new Map(),
+        values: new Map(),
+
+        language(){
+            return (document.documentElement.lang || 'en')
+                .toLowerCase()
+                .replace('_', '-')
+                .split('-')[0];
+        },
+
+        parse(reference){
+            const parts = String(reference || '').split(',').map(part => part.trim());
+            const area = parts.shift() || 'A';
+            const key = parts.shift() || '';
+            const placeholders = {};
+
+            parts.forEach(part => {
+                const separator = part.indexOf(':');
+                if(separator < 1) return;
+                placeholders[part.slice(0, separator).trim()] = part.slice(separator + 1).trim();
+            });
+
+            if(!/^[a-zA-Z0-9_-]+$/.test(area) || !key) return null;
+            return {area, key, placeholders};
+        },
+
+        async read(area, language){
+            try {
+                const response = await fetch(
+                    `/__wolfi/translation/${encodeURIComponent(area)}/${encodeURIComponent(language)}.json`,
+                    {credentials:'same-origin'}
+                );
+
+                if(!response.ok) return {};
+                const translations = await response.json();
+                return translations && typeof translations === 'object' && !Array.isArray(translations)
+                    ? translations
+                    : {};
+            } catch {
+                return {};
+            }
+        },
+
+        load(area, language = this.language()){
+            const cacheKey = `${language}:${area}`;
+
+            if(!this.cache.has(cacheKey)){
+                this.cache.set(cacheKey, (async () => {
+                    const fallback = await this.read(area, 'en');
+                    const translations = language === 'en'
+                        ? fallback
+                        : {...fallback, ...await this.read(area, language)};
+                    this.values.set(cacheKey, translations);
+                    return translations;
+                })());
+            }
+
+            return this.cache.get(cacheKey);
+        },
+
+        format(text, placeholders = {}){
+            return Object.entries(placeholders).reduce(
+                (result, [name, value]) => result.split(`{${name}}`).join(String(value)),
+                String(text)
+            );
+        },
+
+        get(reference){
+            const parsed = this.parse(reference);
+            if(!parsed) return String(reference || '');
+
+            const values = this.values.get(`${this.language()}:${parsed.area}`);
+            const text = values?.[parsed.key];
+            return text === undefined || text === null
+                ? parsed.key
+                : this.format(text, parsed.placeholders);
+        },
+
+        setText(element, text){
+            if(!element.children.length){
+                element.textContent = text;
+                return;
+            }
+
+            Array.from(element.childNodes)
+                .filter(node => node.nodeType === Node.TEXT_NODE)
+                .forEach(node => node.remove());
+            element.prepend(document.createTextNode(text));
+        },
+
+        async apply(scope = document){
+            const root = scope instanceof Element || scope instanceof Document ? scope : document;
+            const selector = '[data-lang], [data-lang-placeholder]';
+            const elements = [
+                ...(root.matches?.(selector) ? [root] : []),
+                ...root.querySelectorAll(selector)
+            ];
+            const parsedReferences = elements.flatMap(element => [
+                this.parse(element.getAttribute('data-lang')),
+                this.parse(element.getAttribute('data-lang-placeholder'))
+            ]).filter(Boolean);
+            const areas = [...new Set(parsedReferences.map(reference => reference.area))];
+            const language = this.language();
+
+            await Promise.all(areas.map(area => this.load(area, language)));
+
+            elements.forEach(element => {
+                const textReference = this.parse(element.getAttribute('data-lang'));
+                const placeholderReference = this.parse(element.getAttribute('data-lang-placeholder'));
+
+                if(textReference){
+                    const text = this.get(element.getAttribute('data-lang'));
+                    if(text !== textReference.key) this.setText(element, text);
+                }
+
+                if(placeholderReference){
+                    const placeholder = this.get(element.getAttribute('data-lang-placeholder'));
+                    if(placeholder !== placeholderReference.key) element.setAttribute('placeholder', placeholder);
+                }
+            });
+        }
+    };
+
+    window.CarlVon = window.CarlVon || {};
+    window.CarlVon.translation = Translation;
+    window.TT = reference => Translation.get(reference);
+    window.LL = (area, key) => Translation.get(`${area},${key}`);
+
     const Site = {
 
         init(){
             const urlParameters = new URLSearchParams(window.location.search);
+            const showMode = document.documentElement.dataset.viewMode === 'show';
             const cookieValues = Object.fromEntries(
                 document.cookie
                     .split(';')
@@ -1009,7 +1433,9 @@
             );
             const requestedLanguage = urlParameters.get('lang') || cookieValues.lCode;
             const requestedDirection = urlParameters.get('dir') || cookieValues.lDirection || 'ltr';
-            const requestedSite = urlParameters.get('site');
+            const requestedSite = urlParameters.get('show')
+                || urlParameters.get('site')
+                || document.documentElement.dataset.initialSite;
             const requestedLand = urlParameters.get('land')
                 || document.documentElement.getAttribute('land')
                 || cookieValues.cCode
@@ -1029,10 +1455,18 @@
             }
 
             MediaFallback.init();
-            CookieConsent.init();
+
+            if(!showMode){
+                CookieConsent.init();
+            }
+
             this.bindLinks();
             this.bindPopstate();
-            this.initMainMenu();
+
+            if(!showMode){
+                this.initMainMenu();
+            }
+
             this.initPage();
             const initialSite = requestedSite || sessionStorage.getItem('initialSite');
 
@@ -1305,6 +1739,11 @@
         async changeLanguage(language, direction = 'ltr'){
             if(!language) return;
 
+            const activeSite = document.documentElement.dataset.site || 'home';
+            const returnSite = activeSite === 'admin/languages'
+                ? sessionStorage.getItem('carlvon-language-return-site') || 'home'
+                : activeSite;
+
             const formData = new FormData();
             formData.append('lang', language);
             formData.append('dir', direction);
@@ -1322,20 +1761,13 @@
                     throw new Error('Language could not be saved');
                 }
 
-                document.documentElement.lang = language;
-                document.documentElement.dir = direction;
-
-                const codeLabel = document.querySelector('.languageMenu__code');
-
-                if(codeLabel){
-                    codeLabel.textContent = language.split('-')[0].toUpperCase();
-                }
-
-                await this.load('admin/languages', false);
+                sessionStorage.setItem('initialSite', returnSite);
+                window.location.reload();
             } catch {
                 Preloader.hide();
+                sessionStorage.setItem('initialSite', returnSite);
                 window.location.assign(
-                    `/admin/set-language.php?lang=${encodeURIComponent(language)}&dir=${encodeURIComponent(direction)}`
+                    `/admin/set-language.php?lang=${encodeURIComponent(language)}&dir=${encodeURIComponent(direction)}&site=${encodeURIComponent(returnSite)}`
                 );
             }
         },
@@ -1385,12 +1817,20 @@
             const middle = document.querySelector('#middle');
             const lang = document.documentElement.getAttribute('lang') || 'de';
             const land = document.documentElement.getAttribute('land') || 'US';
+            const showMode = document.documentElement.dataset.viewMode === 'show';
 
             if(!middle || !site) return;
 
+            if(site !== 'admin/languages'){
+                sessionStorage.setItem('carlvon-language-return-site', site);
+            }
+
             document.documentElement.dataset.site = site;
-            Preloader.show();
-            middle.classList.add('isLoading');
+
+            if(!showMode){
+                Preloader.show();
+                middle.classList.add('isLoading');
+            }
 
             const formData = new FormData();
             formData.append('req', 'site');
@@ -1420,19 +1860,48 @@
                     behavior: 'smooth'
                 });
 
-                await Preloader.waitForMedia(middle);
-                this.initPage(middle);
+                await this.initPage(middle);
+
+                if(!showMode){
+                    await Preloader.waitForMedia(middle);
+                }
+
                 middle.classList.remove('isLoading');
-                Preloader.hide();
+
+                if(!showMode){
+                    Preloader.hide();
+                }
             } catch {
                 middle.innerHTML = '<section class="content"><h1>Fehler</h1><p>Inhalt konnte nicht geladen werden.</p></section>';
                 middle.classList.remove('isLoading');
-                this.initPage(middle);
-                Preloader.hide();
+                await this.initPage(middle);
+
+                if(!showMode){
+                    Preloader.hide();
+                }
             }
         },
 
         getRootUrl(){
+            const root = document.documentElement;
+            const site = root.dataset.site || 'home';
+            const route = site
+                .split('/')
+                .filter(Boolean)
+                .map(segment => encodeURIComponent(segment))
+                .join('/');
+
+            if(root.dataset.viewMode === 'show'){
+                return `/show=${route}`;
+            }
+
+            if(
+                root.dataset.routeStyle === 'path'
+                && /^(mod|frame)\//.test(site)
+            ){
+                return `/${route}`;
+            }
+
             return window.APP_ROOT || '/';
         },
 
@@ -1446,15 +1915,19 @@
             });
         },
 
-        initPage(scope = document){
+        async initPage(scope = document){
+            await Translation.apply(scope);
             this.initFaqGroups(scope);
             initNavSections(scope);
+            initFactsheetIntroLinks(scope);
             initCenterPics(scope);
             initInnerImages(scope);
+            initBannerHeads(scope);
+            initBannerPics(scope);
             window.CarlVon?.superSpy?.init(scope);
             window.CarlVon?.switcher?.init(scope);
             this.initLegalDocs(scope);
-            this.initTicketing(scope);
+            await this.initTicketing(scope);
             initScrollBehaviour(scope);
         },
 
@@ -1578,14 +2051,124 @@
 
             await loadScriptOnce('/admin/ticketing/_login.js?v=20260617-1', 'ticket-login');
             window._Log = window._Log || $.WOLF.log;
-            await loadScriptOnce('/admin/ticketing/_ticket.js?v=20260617-1', 'ticket-core');
+            await loadScriptOnce('/admin/ticketing/_ticket.js?v=20260715-1', 'ticket-core');
             window.Tick = window.Tick || $.WOLF.ticket;
+        },
+
+        openTicketCheckoutModal(){
+            let dialog = document.querySelector('#ticket-checkout-modal');
+
+            if(!dialog){
+                dialog = document.createElement('dialog');
+                dialog.id = 'ticket-checkout-modal';
+                dialog.className = 'ticket-checkout-modal';
+                dialog.setAttribute('aria-label', 'Ticket und Zahlungsanbieter bestätigen');
+                dialog.innerHTML = `
+                    <div class="ticket-checkout-modal__shell">
+                        <button class="ticket-checkout-modal__close" type="button" aria-label="Fenster schließen">×</button>
+                        <div id="ticket-checkout-modal-content" class="ticket-checkout-modal__content"></div>
+                    </div>
+                `;
+
+                const content = dialog.querySelector('.ticket-checkout-modal__content');
+
+                dialog.querySelector('.ticket-checkout-modal__close')?.addEventListener('click', () => dialog.close());
+                dialog.addEventListener('click', event => {
+                    if(event.target === dialog) dialog.close();
+                });
+                content?.addEventListener('click', event => {
+                    const back = event.target.closest('.xbackPricing');
+                    if(!back) return;
+                    event.preventDefault();
+                    event.stopPropagation();
+                    dialog.close();
+                });
+                dialog.addEventListener('close', () => {
+                    document.body.classList.remove('has-ticket-modal');
+                });
+
+                document.body.appendChild(dialog);
+            }
+
+            const content = dialog.querySelector('.ticket-checkout-modal__content');
+            if(!content || !window.Tick?.loadScreen) return;
+
+            content.innerHTML = '<div class="ticket-checkout-modal__loading">Bestellung wird vorbereitet …</div>';
+            document.body.classList.add('has-ticket-modal');
+
+            if(!dialog.open) dialog.showModal();
+            window.Tick.loadScreen('1_ticketdata', 'ticket-checkout-modal-content');
         },
 
         bindTicketingButtons(scope = document){
             const root = scope instanceof Element || scope instanceof Document
                 ? scope
                 : document;
+
+            const updateQuantity = (change = 0) => {
+                const quantityOutput = root.querySelector('#summaryQuantity');
+                if(!quantityOutput) return;
+
+                const price = Number.parseFloat(localStorage.getItem('selectedPrice') || '0') || 0;
+                const storedQuantity = Number.parseInt(localStorage.getItem('selectedQuantity') || '1', 10) || 1;
+                const quantity = Math.max(1, storedQuantity + change);
+                const sum = quantity * price;
+
+                localStorage.setItem('selectedQuantity', String(quantity));
+                localStorage.setItem('selectedSum', sum.toFixed(2));
+
+                quantityOutput.textContent = String(quantity);
+
+                const priceSum = root.querySelector('#priceSum');
+                if(priceSum) priceSum.textContent = `${sum.toFixed(2)} €`;
+
+                const priceOverall = root.querySelector('#priceOverall');
+                if(priceOverall){
+                    const amount = Number.isInteger(sum) ? String(sum) : sum.toFixed(2);
+                    const currency = document.createElement('sup');
+                    currency.className = 'priceSup';
+                    currency.textContent = '€';
+                    priceOverall.replaceChildren(document.createTextNode(amount), currency);
+                }
+
+                root.querySelectorAll('.minusCounter').forEach(button => {
+                    button.hidden = quantity <= 1;
+                });
+            };
+
+            root.querySelectorAll('.plusCounter, .minusCounter').forEach(button => {
+                if(button.dataset.ticketQuantityBound === '1') return;
+                button.dataset.ticketQuantityBound = '1';
+                button.addEventListener('click', () => {
+                    updateQuantity(button.classList.contains('plusCounter') ? 1 : -1);
+                });
+            });
+
+            updateQuantity();
+
+            const setVoucherState = (isVoucher) => {
+                root.querySelectorAll('.ticket-table').forEach(table => {
+                    table.classList.toggle('is-voucher', isVoucher);
+                    table.querySelectorAll('.imgVoucher').forEach(image => {
+                        image.setAttribute('aria-hidden', isVoucher ? 'false' : 'true');
+                    });
+                });
+            };
+
+            const voucherOptions = Array.from(root.querySelectorAll('.voucher-wrapper .toggle-option'));
+
+            if(voucherOptions.length){
+                const storedVoucher = localStorage.getItem('voucher');
+                const activePlan = root.querySelector('.voucher-wrapper .toggle-option.active')?.dataset.plan;
+                const isVoucher = storedVoucher === 'true'
+                    || (storedVoucher !== 'false' && activePlan === 'voucher');
+
+                voucherOptions.forEach(option => {
+                    option.classList.toggle('active', option.dataset.plan === (isVoucher ? 'voucher' : 'forme'));
+                });
+
+                setVoucherState(isVoucher);
+            }
 
             root.querySelectorAll('.toggle-wrapper .toggle-option').forEach(option => {
                 if(option.dataset.ticketToggleBound === '1') return;
@@ -1595,7 +2178,9 @@
                     const wrapper = option.closest('.toggle-wrapper');
                     wrapper?.querySelectorAll('.toggle-option').forEach(item => item.classList.remove('active'));
                     option.classList.add('active');
-                    localStorage.setItem('voucher', option.dataset.plan === 'voucher' ? 'true' : 'false');
+                    const isVoucher = option.dataset.plan === 'voucher';
+                    localStorage.setItem('voucher', isVoucher ? 'true' : 'false');
+                    setVoucherState(isVoucher);
                 });
             });
 
@@ -1621,9 +2206,7 @@
                     localStorage.setItem('lang', document.documentElement.getAttribute('lang') || 'de');
                     localStorage.setItem('land', document.documentElement.getAttribute('land') || 'AT');
 
-                    if(window.Tick?.loadScreen){
-                        window.Tick.loadScreen('1_ticketdata');
-                    }
+                    this.openTicketCheckoutModal();
                 });
             });
         },
@@ -1759,6 +2342,14 @@
                 if(page.dataset.legalBound === '1') return;
                 page.dataset.legalBound = '1';
 
+                const scrollToPageTop = () => {
+                    window.scrollTo({
+                        top: 0,
+                        left: 0,
+                        behavior: 'auto'
+                    });
+                };
+
                 const activate = key => {
                     if(!key) return;
 
@@ -1775,6 +2366,7 @@
 
                 page.querySelectorAll('[data-legal-tab]').forEach(tab => {
                     tab.addEventListener('click', () => {
+                        scrollToPageTop();
                         activate(tab.dataset.legalTab);
                     });
                 });
@@ -1927,7 +2519,6 @@
 
             if(source && isVideo){
                 const video = document.createElement('video');
-                const videoSource = document.createElement('source');
 
                 video.className = 'bg-video';
                 video.autoplay = true;
@@ -1936,9 +2527,8 @@
                 video.playsInline = true;
                 video.preload = 'auto';
                 video.setAttribute('aria-hidden', 'true');
-                videoSource.src = source;
-                videoSource.type = source.endsWith('.webm') ? 'video/webm' : 'video/mp4';
-                video.appendChild(videoSource);
+                video.src = source;
+                video.dataset.fallbackSrc = page.dataset.fallbackSrc || '';
                 hero.appendChild(video);
             } else if(source){
                 const image = document.createElement('img');
@@ -1963,12 +2553,15 @@
             hero.appendChild(canvas);
             page.insertBefore(hero, page.firstChild);
         } else if(source){
-            const videoSource = hero.querySelector('.bg-video source');
+            const video = hero.querySelector('.bg-video');
             const image = hero.querySelector('.bg-image');
 
-            if(videoSource && videoSource.getAttribute('src') !== source){
-                videoSource.src = source;
-                videoSource.closest('video')?.load();
+            if(video && video.getAttribute('src') !== source){
+                video.removeAttribute('data-fallback-stage');
+                video.removeAttribute('data-fallback-applied');
+                video.dataset.fallbackSrc = page.dataset.fallbackSrc || '';
+                video.src = source;
+                video.load();
             } else if(image && image.getAttribute('src') !== source){
                 image.src = source;
             }
@@ -2007,6 +2600,7 @@
         const hero = ensureScrollHeroMarkup(page);
         const header = document.querySelector('.siteHeader');
         const welcomeBox = hero.querySelector('.welcomeBox');
+        const moduleStickyLabel = page.querySelector(':scope > .moduleStickyLabel');
         const messageBoxes = Array.from(hero.querySelectorAll('.messageBox'));
         const hasMessages = messageBoxes.length > 0;
         const hasOverlay = Boolean(welcomeBox) || hasMessages;
@@ -2037,6 +2631,10 @@
                 page.style.setProperty('--welcome-y', `${progress * -86}vh`);
                 page.style.setProperty('--welcome-opacity', String(Math.max(1 - progress / .72, 0)));
                 page.style.setProperty('--welcome-scale', String(1 - progress * .08));
+            }
+
+            if(moduleStickyLabel){
+                moduleStickyLabel.classList.toggle('is-stucked', rawProgress >= 1);
             }
 
             if(hasMessages){

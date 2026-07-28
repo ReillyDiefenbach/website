@@ -1,18 +1,53 @@
 [
   {
-    "lang": "overview",
+    "lang": "auth",
+    "image": "_assets/img/vitruv.png",
     "children": [
+      { "lang": "auth_what", "link": "auth/authenticity" },
+      { "lang": "auth_why", "link": "auth/why" },
+      { "lang": "auth_result", "link": "auth/result" },
+      { "lang": "auth_pna", "link": "auth/pna" },
+      { "lang": "auth_formats", "link": "auth/formate" }
+    ]
+  },
+  {
+    "lang": "frame",
+    "image": "_assets/img/ordinis.jpg",
+    "children": [
+      { "lang": "frame_overview", "link": "frame/overview" },
+      { "lang": "frame_collection", "link": "frame/collection" },
+      { "lang": "frame_evidence", "link": "frame/evidence" },
       {
-        "lang": "test",
-        "link": "overview/test"
+        "lang": "frame_calculation",
+        "children": [
+          { "lang": "frame_calculation_overview", "link": "frame/calculations/overview" },
+          { "lang": "frame_calculation_modules", "link": "frame/calculations/general" },
+          { "lang": "frame_calculation_modules_think_act", "link": "frame/calculations/modules" },
+          { "lang": "frame_calculation_pna", "link": "frame/calculations/pna" },
+          { "lang": "frame_calculation_compositions", "link": "frame/calculations/compositions" }
+        ]
+      },
+      { "lang": "frame_reconstruction", "link": "frame/reconstruction" },
+      { "lang": "frame_quality", "link": "frame/quality" },
+      {
+        "lang": "frame_thought",
+        "children": [
+          { "lang": "frame_metaphoric", "link": "frame/thought/metaphoric" },
+          { "lang": "frame_symbolic", "link": "frame/thought/symbolic" },
+          { "lang": "frame_measurement", "link": "frame/thought/measurement" },
+          { "lang": "frame_symbols", "link": "frame/thought/symbols" },
+          { "lang": "frame_analytical", "link": "frame/thought/analytical" },
+          { "lang": "frame_calculus", "link": "frame/thought/calculus" }
+        ]
       },
       {
-        "lang": "reason",
-        "link": "overview/reason"
-      },
-      {
-        "lang": "science",
-        "link": "overview/science"
+        "lang": "frame_context",
+        "children": [
+          { "lang": "frame_psychology", "link": "frame/context/psychology" },
+          { "lang": "frame_biology", "link": "frame/context/biology" },
+          { "lang": "frame_social", "link": "frame/context/social" },
+          { "lang": "frame_information", "link": "frame/context/information" }
+        ]
       }
     ]
   },
@@ -26,34 +61,17 @@
   },
   {
     "lang": "about",
+    "image": "_assets/img/about_us.png",
     "children": [
-      {
-        "lang": "contact",
-        "link": "about/contact"
-      },
-      {
-        "lang": "news",
-        "link": "about/news"
-      },
+      { "lang": "contact", "link": "about/contact" },
+      { "lang": "news", "link": "about/news" },
       {
         "lang": "legal",
         "children": [
-          {
-            "lang": "privacy",
-            "link": "admin/legal/privacy"
-          },
-          {
-            "lang": "terms",
-            "link": "admin/legal/terms"
-          },
-          {
-            "lang": "disclaimer",
-            "link": "admin/legal/disclaimer"
-          },
-          {
-            "lang": "coopol",
-            "link": "admin/legal/coopol"
-          }
+          { "lang": "privacy", "link": "admin/legal/privacy" },
+          { "lang": "terms", "link": "admin/legal/terms" },
+          { "lang": "disclaimer", "link": "admin/legal/disclaimer" },
+          { "lang": "coopol", "link": "admin/legal/coopol" }
         ]
       }
     ]

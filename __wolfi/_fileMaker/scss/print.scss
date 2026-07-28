@@ -1,0 +1,248 @@
+/*
+ * Zentrale Druckdarstellung.
+ *
+ * Der Browser druckt immer die aktuell sichtbare Personal-/Business-Edition.
+ * Interaktive Seitenelemente und Bewegtbild gehoeren nicht in die Druckfassung.
+ */
+
+.printControl {
+    justify-items: end;
+}
+
+.printControl__button {
+    display: inline-flex;
+    width: auto;
+    min-height: 42px;
+    padding: 10px 18px;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #000;
+    border-radius: 999px;
+    background: #000;
+    color: #fff;
+    font: inherit;
+    font-size: var(--fs);
+    font-weight: var(--font-weight-book);
+    line-height: 1.2;
+    cursor: pointer;
+    transition:
+        background 180ms ease,
+        color 180ms ease;
+}
+
+.printControl__button:hover,
+.printControl__button:focus-visible {
+    background: #fff;
+    color: #000;
+}
+
+.printControl__button:focus-visible {
+    outline: 2px solid $main-color;
+    outline-offset: 3px;
+}
+
+@page {
+    size: A4 portrait;
+    margin: 14mm 12mm 16mm;
+}
+
+@media print {
+    html,
+    body {
+        width: auto !important;
+        height: auto !important;
+        overflow: visible !important;
+        background: #fff !important;
+        color: #000 !important;
+        font-size: 10pt;
+        print-color-adjust: exact;
+        -webkit-print-color-adjust: exact;
+    }
+
+    *,
+    *::before,
+    *::after {
+        box-shadow: none !important;
+        text-shadow: none !important;
+        animation: none !important;
+        transition: none !important;
+    }
+
+    .siteHeader,
+    .siteFooter,
+    .scrollTopButton,
+    .menuBackdrop,
+    .mobileMenu,
+    .switcher,
+    .printControl,
+    .navSection > aside,
+    .factsheet-keyfacts__cta,
+    [data-print-hidden],
+    video,
+    audio,
+    iframe {
+        display: none !important;
+    }
+
+    /*
+     * Die inaktive Edition bleibt verborgen. Damit funktionieren der
+     * Printbutton und Strg+P identisch zum sichtbaren Seitenzustand.
+     */
+    main[data-section][hidden] {
+        display: none !important;
+    }
+
+    #middle,
+    #middle > .page,
+    #middle > .normalScrollPage,
+    #middle > .scrollHeroPage,
+    #middle > .cinematicPage,
+    main[data-section] {
+        width: 100% !important;
+        max-width: none !important;
+        height: auto !important;
+        min-height: 0 !important;
+        overflow: visible !important;
+    }
+
+    section.content,
+    #middle section.content,
+    #middle > .page > section.content,
+    #middle > .normalScrollPage > section.content,
+    #middle > .scrollHeroPage > section.content,
+    #middle > .cinematicPage > section.content {
+        width: 100% !important;
+        max-width: none !important;
+        min-height: 0 !important;
+        margin: 0 0 6mm !important;
+        padding: 0 !important;
+        background: #fff !important;
+    }
+
+    section.content.section-full,
+    #middle section.content.section-full {
+        width: 100% !important;
+        padding: 0 !important;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    caption {
+        break-after: avoid-page;
+        page-break-after: avoid;
+    }
+
+    p,
+    li,
+    dd {
+        orphans: 3;
+        widows: 3;
+    }
+
+    img,
+    picture {
+        max-width: 100% !important;
+        break-inside: avoid-page;
+        page-break-inside: avoid;
+    }
+
+    table {
+        width: 100% !important;
+        border-collapse: collapse;
+    }
+
+    thead {
+        display: table-header-group;
+    }
+
+    tfoot {
+        display: table-footer-group;
+    }
+
+    tr,
+    .resultLogicCard,
+    .facet-profile__row,
+    .type-block,
+    .imgBox,
+    .symbolResultFootnote {
+        break-inside: avoid-page;
+        page-break-inside: avoid;
+    }
+
+    .symbolResultTableWrap {
+        overflow: visible !important;
+    }
+
+    .factsheet {
+        min-height: 0 !important;
+        padding: 8mm 0 !important;
+        overflow: visible !important;
+        border-bottom: 1px solid #aaa;
+        background: #fff !important;
+    }
+
+    section.factsheet + section.factsheet {
+        break-before: page;
+        page-break-before: always;
+    }
+
+    .factsheet_intro {
+        min-height: 0 !important;
+    }
+
+    .factsheet_intro .factsheet-intro__grid {
+        min-height: 0 !important;
+        grid-template-columns: minmax(0, 3fr) minmax(0, 2fr);
+        gap: 8mm;
+    }
+
+    .factsheet_intro .factsheet-intro__copy {
+        padding: 6mm 0 !important;
+    }
+
+    .factsheet_intro .factsheet-intro__visual {
+        max-height: 150mm;
+        overflow: visible !important;
+    }
+
+    .factsheet_intro .factsheet-intro__visual img {
+        width: auto !important;
+        height: auto !important;
+        max-height: 150mm !important;
+    }
+
+    .factsheet .fs-grid,
+    .factsheet.role_profile .fs-grid,
+    .factsheet.facet_spectrum .fs-grid {
+        grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) !important;
+        padding-left: 0 !important;
+        gap: 8mm;
+    }
+
+    .factsheet .fs-example,
+    .factsheet .factsheet-keyfacts {
+        grid-column: 1 / -1;
+    }
+
+    .factsheet .fs-sample > .imgBox {
+        display: flex !important;
+    }
+
+    .factsheet .imgBox img {
+        width: auto !important;
+        height: auto !important;
+        max-width: 100% !important;
+        max-height: 115mm !important;
+        object-fit: contain;
+    }
+
+    a,
+    a:visited {
+        color: #000 !important;
+        text-decoration: none;
+    }
+}

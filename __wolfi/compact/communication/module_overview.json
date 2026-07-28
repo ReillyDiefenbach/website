@@ -1,0 +1,90 @@
+{
+  "schema": "pna.content.website.family_module_overview.v2",
+  "lang": "de",
+  "scope": "family",
+  "family": "communication",
+  "title": "Connect & Influence",
+  "status": "draft_pending_content_writer",
+  "source_refs": {
+    "family_json": "family/communication/family.json",
+    "family_doku": "family/communication/doku/freezed_doku.md",
+    "family_faq": "family/communication/faq/de.json"
+  },
+  "sections": {
+    "introduction": {
+      "nav_label": "Einleitung",
+      "title": "Wie Kommunikation Verbindung und Klärung schafft",
+      "lead": "Connect & Influence macht sichtbar, wie Menschen Anschluss herstellen, Gespräche strukturieren, Wirkung erzeugen und Grenzen regulieren.",
+      "body": "Das Modul setzt dort an, wo Kommunikation schnell unterschiedlich verstanden wird: Manche Menschen suchen zuerst Resonanz und Beteiligung, andere brauchen Richtung, Ordnung oder klare Grenzen. Manche gehen sichtbar in Kontakt, andere prüfen, hören zu und sichern Vertrauen ab. Connect & Influence gibt diesen Unterschieden eine Sprache, ohne Kommunikation als gut oder schlecht zu bewerten."
+    },
+    "structure": {
+      "nav_label": "Aufbau",
+      "title": "Eine Family, zwei Kontexte",
+      "lead": "Connect & Influence ist als Family aufgebaut: Die Grundlogik bleibt gemeinsam, die Anwendungssprache unterscheidet Business und Personal.",
+      "points": [
+        "Die Business-Variante beschreibt kommunikative Orientierung in Führung, Zusammenarbeit, Beratung, Vertrieb, Verhandlung und Konfliktklärung.",
+        "Die Personal-Variante beschreibt dieselbe Grundspannung in Nähe, Vertrauen, Kontaktaufnahme, Grenzen und sozialer Sicherheit.",
+        "Beide Varianten teilen Resonanz, strukturierende Klärung und Zurückhaltung, verwenden aber kontextbezogene Polbegriffe und Rollen."
+      ]
+    },
+    "tension": {
+      "nav_label": "Spannungsfelder"
+    },
+    "axes": {
+      "nav_label": "Achsen",
+      "title": "Zwei Achsen für kommunikative Orientierung",
+      "lead": "Das Modul verbindet zwei Spannungsfelder: wie Kommunikation Anschluss oder Struktur erzeugt und wie sichtbar Kontakt gestaltet wird.",
+      "points": [
+        "Resonanz und Steuerung beziehungsweise Ordnung beschreiben, ob Kommunikation stärker über Anschluss, Beteiligung und Vertrauen oder über Richtung, Grenzen und Berechenbarkeit organisiert wird.",
+        "Ausdruck beziehungsweise Annäherung und Zurückhaltung beschreiben, ob Kontakt eher sichtbar, initiierend und präsent oder eher prüfend, zuhörend und absichernd erfolgt."
+      ]
+    },
+    "quadrants": {
+      "nav_label": "Quadranten",
+      "title": "Vier Lesarten kommunikativer Wirkung",
+      "lead": "Aus den beiden Achsen entstehen vier Quadranten. Sie zeigen, welche Kombination aus Anschluss, Struktur, Sichtbarkeit und Prüfung besonders sichtbar wird.",
+      "points": [
+        "Q1 verbindet Resonanz mit Ausdruck oder Annäherung und beschreibt öffnende Kontaktenergie.",
+        "Q2 verbindet Steuerung oder Ordnung mit aktiver Sichtbarkeit und beschreibt gestaltende Orientierung.",
+        "Q3 verbindet Steuerung oder Ordnung mit Zurückhaltung und beschreibt prüfende Absicherung.",
+        "Q4 verbindet Resonanz mit Zurückhaltung und beschreibt zuhörende, vermittelnde und verstehende Orientierung."
+      ]
+    },
+    "value": {
+      "nav_label": "Nutzen",
+      "title": "Was du über Kommunikation lernen kannst",
+      "lead": "Das Modul hilft dir zu verstehen, welche kommunikative Logik in einem Kontext stärker trägt.",
+      "points": [
+        "Du erkennst, ob Kommunikation eher über Anschluss, Richtung, sichtbare Initiative oder prüfende Zurückhaltung organisiert wird.",
+        "Du bekommst Sprache für Muster, die sonst schnell als Dominanz, Distanz, Harmoniebedürfnis oder Unsicherheit missverstanden werden.",
+        "Du kannst besser einschätzen, wann deine Orientierung hilfreich ist und wann eine ergänzende Perspektive Kommunikation erleichtert."
+      ]
+    },
+    "results": {
+      "nav_label": "Ergebnisse",
+      "title": "Was im Ergebnis sichtbar wird",
+      "lead": "Die Ergebnisdarstellung übersetzt die Family-Logik in verständliche Hinweise für Reflexion, Kommunikation und Kontextklärung.",
+      "points": [
+        "Die Orientierung zeigt, ob eher die verbindende oder strukturierende Seite beziehungsweise die sichtbare oder zurückhaltende Seite prägend ist.",
+        "Prioritäten und Wirkungsraum beschreiben, welche kommunikativen Richtungen und Rollen im Ergebnis stärker hervortreten.",
+        "Das Rollenprofil macht die Logik im Business- oder Personal-Kontext greifbar und verbindet sie später mit Factsheets und Modell-Sections."
+      ]
+    },
+    "use_cases": {
+      "nav_label": "Praxis",
+      "title": "Wo Connect & Influence praktisch hilft",
+      "lead": "Connect & Influence ist nützlich, wenn Menschen Kommunikation, Wirkung, Nähe, Grenzen und Klärung bewusster besprechen wollen.",
+      "points": [
+        "In Führung, Beratung und Teamarbeit hilft das Modul, Gesprächsrollen und Erwartungen an Klarheit oder Beteiligung zu verstehen.",
+        "In Coaching und persönlicher Reflexion kann es Nähe, Vertrauen, Rückzug, Kontaktaufnahme und Grenzen differenzierter beschreibbar machen.",
+        "In Konfliktklärung und Verhandlung schafft es eine gemeinsame Sprache für Unterschiede, die sonst schnell persönlich bewertet werden."
+      ]
+    }
+  },
+  "do_not_say": [
+    "Connect & Influence misst kommunikative Kompetenz oder soziale Eignung.",
+    "Business und Personal sind derselbe Fragebogen mit anderem Namen.",
+    "Die Rollen sind feste Kommunikationstypen oder Aussagen über Charakter.",
+    "Ein Ergebnis sagt Führungswirkung, Empathie, Konfliktfähigkeit oder Beziehungserfolg voraus."
+  ]
+}

@@ -1,76 +1,69 @@
-<section class="ticket-control gap-3">
-			<div class="ticket-card">
-				<div class="card-body">
+<section class="ticket-control ticket-checkout">
+	<div class="ticket-checkout__header logo-container">
+		<img src="/_assets/logos/carlvon.svg" alt="CARLVON" />
+		<i>Ticket Center</i>
+	</div>
 
-		    		<div class="logo-container">
-								<img src="/_assets/self/carlvon.png"  />
-								<i>Ticket Center</i> 
-					</div>
-				    <div class="row">
+	<div class="ticket-checkout__grid">
+		<section class="ticket-checkout__product" aria-label="Produktauswahl">
+			<p class="ticket-checkout__eyebrow" data-lang="A,selInfo">Please check if this is want you want:</p>
 
-				    	<div class="col-sm-6 pb-3">
-				    		
-				    		<p class="card-text text-center" data-lang="A,selInfo">Please check if this is want you want:</p>
-						    <div class="summaryImage hidden-sm border rounded mx-auto mb-3" style="width:300px;height:300px;overflow: hidden;">
-						    	<img src="" id="summaryImage" style="opacity:0;width: 100%;height: 100%;object-fit: cover;object-position: center;display: block;">
-						    </div>
-						    <div class="summaryProdukt" style="width:300px;margin:0 auto;">
-						    	
-							    	<table id="summaryCheckout" style="max-width:100%;">
-							    		<tr>
-							    			<td data-lang="A,anzahl" class="quantityLabel"></td>
-							    			<td>
-							    				<div class="d-flex flex-row justify-content-start align-items-center gap-1">
-								    				<span id="summaryQuantity" class="flex-grow-1"></span>
-								    				<span class="plusCounter bi bi-plus-square-fill"></span>
-								    				<span class="minusCounter bi bi-dash-square-fill" style="display:none;"></span>
-							    				</div>
-							    			</td>
-							    		</tr>
-							    		<tr>
-							    			<td data-lang="A,produkt" class="productLabel"></td>
-							    			<td id="productInfo">&nbsp;</td>
-							    		</tr>
-							    		<tr>
-							    			<td class="productLabel">&nbsp;</td>
-							    			<td class="productInfo2"><span id="productInfo2">&nbsp;</span></td>
-							    		</tr>
-							    		<tr>
-							    			<td data-lang="A,preis" class="priceLabel">Preis:</td>
-							    			<td id="priceInfo"></td>
-							    		</tr>
-							    		<tr style="border-top:1px solid black; border-bottom:2px solid black;">
-							    			<td data-lang="A,preis_s" class="priceLabel">Preis:</td>
-							    			<td id="priceSum"></td>
-							    		</tr>
-							    	</table>
+			<div class="summaryImage">
+				<img src="" id="summaryImage" alt="" />
+			</div>
 
-						    	
-							    </div>
-					    </div>
-					    <div class="col-sm-6 pb-3">
-						        <div class="sumPrice">
-						        	<p data-lang="A,selInfoSum" class="text-center hidden-sm">Preis:</p>
-						        	<div class="numberContainer">
-							    	<h1 id="priceOverall" class="number" style=""></h1>
-							    	</div>
-							    </div>
-							    <p data-lang="A,selPay" class="summaryInfo text-center my-4"></p>
-							    <div class="vstack gap-3 align-items-center justify-content-between mb-4">
-							    	<button id="stripe-button">
-							    		<img src="/_assets/self/payment/stripe_click.png" style="max-width:95%" />
-							    	</button>
-							    	<div id="paypal-button-container"></div>
-							    </div>
-							    
-							    
-						    </div>
-						    <div class="d-flex justify-content-center mt-4"><a data-link="admin/ticketing" class="xbackPricing" data-lang="A,selBack">Back</a></div>
-						 </div>
-				   </div>
-				   
+			<div class="summaryProdukt">
+				<table id="summaryCheckout">
+					<tr>
+						<td data-lang="A,anzahl" class="quantityLabel"></td>
+						<td>
+							<div class="ticket-checkout__quantity">
+								<span id="summaryQuantity" aria-live="polite">1</span>
+								<button class="plusCounter" type="button" aria-label="Anzahl erhöhen">+</button>
+								<button class="minusCounter" type="button" aria-label="Anzahl verringern" hidden>−</button>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td data-lang="A,produkt" class="productLabel"></td>
+						<td id="productInfo">&nbsp;</td>
+					</tr>
+					<tr class="ticket-checkout__description">
+						<td class="productLabel"></td>
+						<td class="productInfo2"><span id="productInfo2">&nbsp;</span></td>
+					</tr>
+					<tr>
+						<td data-lang="A,preis" class="priceLabel">Preis:</td>
+						<td id="priceInfo"></td>
+					</tr>
+					<tr class="ticket-checkout__total">
+						<td data-lang="A,preis_s" class="priceLabel">Preis:</td>
+						<td id="priceSum"></td>
+					</tr>
+				</table>
+			</div>
+		</section>
+
+		<section class="ticket-checkout__payment" aria-label="Bezahlung">
+			<div class="sumPrice">
+				<p data-lang="A,selInfoSum" class="ticket-checkout__eyebrow">Preis:</p>
+				<div class="numberContainer">
+					<h1 id="priceOverall" class="number"></h1>
 				</div>
 			</div>
+
+			<p data-lang="A,selPay" class="summaryInfo"></p>
+
+			<div class="ticket-checkout__providers">
+				<button id="stripe-button" type="button">
+					<span>Stripe Checkout</span>
+				</button>
+				<div id="paypal-button-container"></div>
+			</div>
+		</section>
+	</div>
+
+	<a data-link="admin/ticketing" class="xbackPricing" data-lang="A,selBack">Back</a>
 			<script>
 			
 				
