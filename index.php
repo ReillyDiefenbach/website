@@ -103,7 +103,7 @@ function carlvon_media_fallback_attr(string $localPath): string
     lang="<?= htmlspecialchars($pageLang, ENT_QUOTES, 'UTF-8') ?>"
     land="<?= htmlspecialchars($pageLand, ENT_QUOTES, 'UTF-8') ?>"
     data-site="<?= htmlspecialchars($initialSite !== '' ? $initialSite : 'home', ENT_QUOTES, 'UTF-8') ?>"
-    data-initial-site="<?= htmlspecialchars($initialSite, ENT_QUOTES, 'UTF-8') ?>"
+    data-initial-site="<?= htmlspecialchars($initialSite !== '' ? $initialSite : 'home', ENT_QUOTES, 'UTF-8') ?>"
     data-view-mode="<?= $isShowMode ? 'show' : 'full' ?>"
     data-route-style="<?= $isPathRoute ? 'path' : 'query' ?>"
     data-font="gotham"
