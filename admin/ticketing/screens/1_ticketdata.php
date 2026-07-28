@@ -109,7 +109,7 @@
 				        return actions.order.capture().then(function(details) {
 				        	
 				        	$.ajax({
-								    url: '/',
+								    url: BACKBONE || '/_PARAMS.php',
 								    method: 'POST',
 								    dataType: 'json',
 								    data: {
@@ -198,7 +198,7 @@
 				    const land = $('html').attr('land');
 				    
 				    		$.ajax({
-								    url: '/',
+								    url: BACKBONE || '/_PARAMS.php',
 								    method: 'POST',
 								    dataType: 'json',
 								    data: {
