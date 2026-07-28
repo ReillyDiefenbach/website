@@ -46,7 +46,8 @@ if (!defined('LAND')) {
 $isAjaxRequest = strtolower((string)($_SERVER['HTTP_X_REQUESTED_WITH'] ?? '')) === 'xmlhttprequest';
 $cdnVersion = '20260618';
 $cdnOutname = 'carlvon';
-$repositoryCdnBase = rtrim((string)(getenv('CARLVON_REPOSITORY_CDN') ?: 'https://cdn.jsdelivr.net/gh/carlvon/carlvon-cdn@main'), '/');
+//$repositoryCdnBase = rtrim((string)(getenv('CARLVON_REPOSITORY_CDN') ?: 'https://cdn.jsdelivr.net/gh/carlvon/carlvon-cdn@main'), '/');
+$repositoryCdnBase = rtrim((string)(getenv('CARLVON_REPOSITORY_CDN') ?: 'https://cdn.jsdelivr.net/gh/ReillyDiefenbach/website@main'), '/');
 $hostName = strtolower((string)($_SERVER['HTTP_HOST'] ?? ''));
 $useRepositoryCdn = !preg_match('/^(localhost|127\.0\.0\.1|\[::1\])(?::\d+)?$/', $hostName);
 $scriptFile = $useRepositoryCdn ? $cdnOutname . '.min.js' : $cdnOutname . '.js';
@@ -159,6 +160,6 @@ function carlvon_media_fallback_attr(string $localPath): string
         <?php require __DIR__ . '/frame/_footer.php'; ?>
     <?php endif; ?>
 
-    <script src="<?= htmlspecialchars(carlvon_cdn_url('_cdn/' . $scriptFile, $cdnVersion), ENT_QUOTES, 'UTF-8') ?>" onerror="this.onerror=null;this.src='<?= htmlspecialchars(carlvon_local_url('_cdn/' . $cdnOutname . '.js', $cdnVersion), ENT_QUOTES, 'UTF-8') ?>'"></script>
+ <script src="<?= htmlspecialchars(carlvon_cdn_url('_cdn/' . $scriptFile, $cdnVersion), ENT_QUOTES, 'UTF-8') ?>" onerror="this.onerror=null;this.src='<?= htmlspecialchars(carlvon_local_url('_cdn/' . $cdnOutname . '.min.js', $cdnVersion), ENT_QUOTES, 'UTF-8') ?>'"></script>
 </body>
 </html>
