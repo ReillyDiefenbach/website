@@ -12,7 +12,7 @@ $.WOLF.quick = {
 		},
 		linkTo: function (link = 'home') {
 			if(link == "home") return window.location.href="https://carlvon.com";
-			else if(link == "ticket") return window.location.href="https://carlvon.com?pricing";
+			else if(link == "ticket") return window.location.href="https://carlvon.com?site=admin/ticketing";
 		},
 		manageValues: function () {
 			localStorage.setItem('codetype', $('#codetype').val());
@@ -254,7 +254,7 @@ $.WOLF.log = {
 		if(switcher == 'register') {
 			let voucher = localStorage.getItem('voucher_id') ?? null;
 			if(voucher) { return _Log.switcher('voucher-register');}
-			else {return window.location.href = '/?ticketing'; }
+			else {return window.location.href = '/?site=admin/ticketing'; }
 		}
 	},
 	fixSwitcher: function (id = 'code') {
@@ -1304,4 +1304,3 @@ $.WOLF.log = {
     		}); //end ajax
     	}
 }
-

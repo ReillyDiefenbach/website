@@ -2068,7 +2068,7 @@
                 }
             }
 
-            await loadScriptOnce('/admin/ticketing/_login.js?v=20260617-1', 'ticket-login');
+            await loadScriptOnce('/admin/ticketing/_login.js?v=20260729-1', 'ticket-login');
             window._Log = window._Log || $.WOLF.log;
             await loadScriptOnce('/admin/ticketing/_ticket.js?v=20260715-1', 'ticket-core');
             window.Tick = window.Tick || $.WOLF.ticket;
